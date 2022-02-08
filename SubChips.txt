@@ -1,0 +1,79 @@
+MiniEnrg
+Restores 50 HP to NetNavi
+Price: 100z
+Craft: 20 Fire, 5 Zoo
+
+MegaEnrg
+Restores 200 HP to NetNavi
+Price: 500z
+Craft: 100 Fire, 10 Zoo, 1 Glow
+
+FullEnrg
+Restores the NetNavi to max health
+Price: 1500z
+Craft: 250 Fire, 20 Zoo, 5 Glow, 1 Time
+
+SneakRun
+Ignores any fight you could win on the first attack
+Lasts 1 Zone
+Price: 200z
+Craft: 30 Air, 10 H2O, 10 Zap, 1 Dark
+
+Safegard
+Protects Mystery Data in the next applicable fight for 3 turns
+Price: 500z
+Craft: 25 Soil, 50 Iron
+
+Scanner
+Identifies Green Mystery Data in an area before approaching it
+Price: 750z
+Craft: 30 Air, 30 Fire, 50 Zap, 5 Glow, 1 Soul
+
+Unlocker
+Opens Purple Mystery Data
+Price: 4000z (Limited Stock)
+
+RedSalve
+Restores 50 HP to a BattleChip
+Price: 200z
+Craft: 25 H2O, 25 Soil, 15 Herb
+
+RottnNut
+Restores 100 HP to a BattleChip but the NetNavi takes 10 damage
+Price: 300z
+Craft: 30 Air, 25 Soil, 15 Herb, 10 Zoo, 2 Dark
+
+SolarNut
+Start the next battle with 20% of your Gauge full
+Price: 250z
+Craft: 20 Air, 20 Fire, 50 H2O, 25 Soil, 25 Herb, 1 Glow
+
+P-Banana
+Gain Navi+10 for the duration of the next fight
+Price: 1000z
+Craft: 50 Fire, 75 H2O, 75 Soil, 50 Iron, 75 Herb, 1 Soul
+
+E-Banana
+Gain Navi+20 for the duration of the next fight, but take 20 damage per hit it lands
+Price: 2000z
+Craft: 50 Fire, 75 H2O, 75 Soil, 25 Iron, 75 Herb, 10 Dark, 1 Soul
+
+LifeSalv
+Fully restore a BattleChip's HP
+Price: 1500z
+Craft: 100 Fire, 150 H2O, 150 Soil, 150 Herb, 1 Time
+
+RevSalve
+Restores a broken BattleChip to 10 HP
+Price: 2000z
+Craft: 150 Fire, 200 H2O, 200 Soil, 150 Zap, 200 Herb, 5 Glow, 5 Dark, 1 Soul
+
+Tonniar
+Reduces the UV Level by 2 Bars for the next fight
+Price: 1500z
+Craft: 100 Air, 250 H2O, 150 Zap, 10 Dark, 1 Time
+
+Rainnot
+Guarantees at least 2 Bars of sunlight for the next fight
+Price: 1500z
+Craft: 100 Air, 250 Fire, 150 Soil, 10 Glow, 1 Time

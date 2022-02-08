@@ -1,0 +1,34 @@
+BAS BAS BAS  BAS B3S BAS
+BAS BAS HET  BAS BAS B1S
+BAS BAS BAS  H2T HET BAS
+
+
+1. Drimpy
+
+HiCannon                   BubSprd
+                  SeaPanel
+         BubCross          ________
+________          SeaStage
+         BblWrap           BblWrap
+                  MedCloud
+________                   ________
+
+2. Knighted
+
+________                   ________
+                  StoneBod
+         ________          FtrSword
+________          ________
+         ElecSwrd          AreaGrab
+                  LongSwrd
+________                   CustSwrd
+
+3. BlueOcto
+
+AquaBall                   ________
+                  ________
+         InkSprd           InkSprd
+________          AquaBall
+         ________          ________
+                  InkSprd
+________                   ________

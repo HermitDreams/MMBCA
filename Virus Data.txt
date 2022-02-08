@@ -1,0 +1,1239 @@
+Mettaur (Tier 1: Hometowns)
+40 HP [None]
+Dodge D, Spd E
+Flavour:
+- A small construction virus that protects its broken turf
+Movement:
+- Moves up and down its column, trying to track player
+Traits:
+- Armor: 20
+Attacks: (10%; 4-30/256)
+- PickAxe1
+- ShockWav (Guarantee)
+- Guard
+- PanlOut
+
+Mettaur2 (Tier 2: Workplaces)
+80 HP [None]
+Dodge C, Spd E
+Flavour:
+- A red variant of the Mettaur. Insists it's improving infrastructure.
+Movement:
+- Moves up and down its column, trying to track player
+Traits:
+- Armor: 30
+Attacks: (25%)
+- PickAxe1
+- PickAxe2
+- ShockWav
+- SonicWav (Guarantee)
+- Guard (Guarantee)
+- PanlOut
+
+Mettaur3 (Tier 4: Undernet)
+120 HP [None]
+Dodge A, Spd D
+Flavour:
+- A tough blue variant of the Mettaur, responsible for the cracks in the roads.
+Movement:
+- Moves up and down its column, trying to track player
+Traits:
+- Armor: 40
+Attacks: (40%)
+- PickAxe1
+- PickAxe2 (Guarantee)
+- PickAxe3
+- ShockWav
+- SonicWav
+- DynaWave (Guarantee)
+- Guard (Guarantee)
+- StoneBod
+- UnderSht
+- PanlOut
+- Geddon1
+
+Gunnet (Tier 1: Hometowns)
+80 HP [None]
+Dodge E, Spd C
+Flavour:
+- A flimsy tower with a gun and camera mounted on the top.
+Movement:
+- None
+Traits:
+- Bolted
+- Sighted: +1
+Attacks: (20%, 4-55/256)
+- Cannon (Guarantee)
+- Shotgun
+- AirShot1
+
+Cannet (Tier 3: International)
+100 HP [None]
+Dodge E, Spd C
+Flavour:
+- A blue variant of the Gunnet. Securely mounted with a proper turret.
+Movement:
+- None
+Traits:
+- Bolted
+- Sighted: +1
+Attacks: (35%)
+- Cannon
+- HiCannon (Guarantee)
+- Shotgun
+- V-Gun
+- AirShot1 (Guarantee)
+- AirShot2
+- DoubNdl
+- FrntSnsr (Guarantee)
+
+Slugget (Tier 4: Undernet)
+150 HP [None]
+Dodge E, Spd B
+Flavour:
+- A dangerous red variant of the Gunnet. Comes equipped with twin-barrels and motion tracking.
+Movement:
+- None
+Traits:
+- Bolted
+- Sighted: +2
+Attacks: (50%)
+- Cannon
+- HiCannon
+- M-Cannon (Guarantee)
+- Shotgun
+- V-Gun
+- CrossGun (Guarantee)
+- Spreader
+- BubCross
+- HeatCros
+- AirShot1
+- AirShot2 (Guarantee)
+- AirShot3
+- DoubNdl
+- TripNdl
+- FrntSnsr
+- DblSnsr (Guarantee)
+- Jealousy
+- FuryBust
+
+Barker (Tier 1: Hometowns)
+90 HP [Fire]
+Dodge B, Spd E
+Flavour:
+- A hotheaded spiky dog that wants you to leave its tab
+Movement:
+- Teleports to random tile it owns
+Traits:
+- None
+Attacks: (4-50/256)
+- Cannon
+- HeatShot (Guarantee 2)
+- Heat-V
+- LilShout
+- Hydrant
+- Candle1
+- HeatPanl
+
+Growler (Tier 2: Workplaces)
+140 HP [Fire]
+Dodge B, Spd D
+Flavour:
+- A blue variant of Barker. Self-appointed guard dog.
+Movement:
+- Teleports to random tile it owns
+Traits:
+- None
+Attacks: (4-75/256)
+- Cannon
+- HiCannon
+- HeatShot (Guarantee)
+- Heat-V (Guarantee)
+- HeatCros
+- Sword
+- FireSwrd
+- Slasher
+- LilShout (Guarantee)
+- MedShout
+- Burner
+- Hydrant
+- Candle1
+- Candle2
+- Totem1
+- HeatPanl
+- HeatStge
+
+Blazer (Tier 4: UnderNet)
+200 HP [Fire]
+Dodge A, Spd B
+Flavour:
+- A yellow variant of Barker. Hunts weaker viruses.
+Movement:
+- Teleports to random tile it owns
+Traits:
+- Trail: Heat
+Attacks: (4-75/256)
+- HiCannon
+- M-Cannon
+- HeatShot
+- Heat-V
+- HeatCros (Guarantee)
+- HeatSprd (Guarantee)
+- FireSwrd
+- FireBlde
+- StepCros
+- Slasher
+- LilShout
+- MedShout (Guarantee)
+- BigShout (Guarantee)
+- FireRatn
+- Burner
+- Blower
+- Erupt2
+- Hydrant
+- Candle2
+- Candle3
+- Totem2
+- FireAura (Guarantee)
+- FlameLns
+- Napalm
+- AreaGrab
+- HeatStge
+- LavaPanl
+
+Wimpy
+90 HP [Aqua]
+Dodge C, Spd C
+Flavour:
+- A small aquatic virus with high salt content
+Movement:
+- Tracks player in own column
+Traits:
+- AirShoes
+Attacks: (4-50/256)
+- Cannon
+- Bubbler (Guarantee 2)
+- Bub-V
+- LilCloud
+- SeaPanel
+
+Shrimpy
+120 HP [Aqua]
+Dodge C, Spd C
+Flavour:
+- An orange variant of Wimpy. Predates its weaker sibling.
+Movement:
+- Tracks player in own column
+Traits:
+- AirShoes
+Attacks: (4-75/256)
+- Cannon
+- HiCannon
+- Bubbler (Guarantee)
+- Bub-V (Guarantee)
+- BubCross
+- AquaSwrd
+- LilCloud (Guarantee)
+- MedCloud
+- Pulse1
+- BblWrap
+- MetaGel1
+- SeaPanel
+- SeaStage
+
+Drimpy
+180 HP [Aqua]
+Dodge B, Spd A
+Flavour:
+- A green variant of Wimpy. Ran out of good names.
+Movement:
+- Tracks player in own column
+Traits:
+- AirShoes
+Attacks: (4-100/256)
+- HiCannon
+- M-Cannon
+- Bubbler
+- Bub-V
+- BubCross (Guarantee)
+- BubSprd (Guarantee)
+- AquaSwrd
+- AquaBlde
+- Trident
+- LilCloud
+- MedCloud (Guarantee)
+- BigCloud
+- Pulse2
+- AquaBall
+- Geyser
+- PopUp
+- AntiAqua
+- BblWrap (Guarantee)
+- AquaAura
+- Wizard
+- MetaGel2
+- MetaGel3
+- SeaPanel
+- SeaStage (Guarantee)
+
+Bunny (Tier 1: Hometowns)
+70 HP [Elec]
+Dodge C, Spd D
+Flavour:
+- A round pink bunny caught on its own hoops
+Movement:
+- Moves to random panel every other turn
+Traits:
+- Charge: x1.1
+Attacks: (20%, 4-55/256)
+- ZapRing1 (Guaranteed)
+- Prong1
+- Battery
+- ChargPnl
+
+Bunny2 (Tier 3: International)
+130 HP [Elec]
+Dodge B, Spd B
+Flavour:
+- A blue variant of Bunny. Getting upset about being stuck.
+Movement:
+- Moves to random panel every turn
+Traits:
+- Charge: x1.5
+Attacks: (35%, 4-90/256)
+ 5. ElecBlde
+ 1. ZapRing1
+ 2. ZapRing2 (Guaranteed)
+ 3. Prong1 (Guaranteed)
+ 4. Prong2
+ 6. Catcher
+ 7. Atk+10
+ 9. Battery (Guaranteed)
+10. DoublBat
+ 8. ChargPnl
+
+Bunny3 (Tier 4: Undernet)
+180 HP [Elec]
+Dodge S, Spd S
+Flavour:
+- A yellow variant of Bunny. The hoops have just made it faster.
+Movement:
+- Moves to a random panel every turn
+Traits:
+- Charge: x2.0
+- Sighted: +1
+Attacks: (60%, 4-155/256)
+- ElecBlde
+- ZapRing1
+- ZapRing2 (Guaranteed)
+- ZapRing3 (Guaranteed)
+- Prong1
+- Prong2 (Guaranteed)
+- Prong3
+- Remobit1
+- Catcher
+- AntiElec
+- Atk+10
+- Atk+20
+- Elec+40
+- Battery
+- DoublBat (Guaranteed)
+- QuadBatt
+- Javelin
+- PwrSurge
+- ChargPnl
+- ChargStg
+- AlumiStg
+
+Bushy (Tier 1: Hometowns)
+60 HP [Wood]
+Dodge C, Spd D
+Flavour:
+- A fuzzy squirrel with a thorny tail. Grows its own seed.
+Movement:
+- Travels randomly around its own field, one tile at a time
+Traits:
+- Drawn toward Trees
+Attacks: (20%)
+- TreeBom1 (Guaranteed)
+- Sword
+- Atk+10
+
+Nybbly (Tier 3: International)
+100 HP [Wood]
+Dodge B, Spd B
+Flavour:
+- A territorial variant of Bushy. Not accustomed to domestic life.
+Movement:
+- Travels randomly around its own field, one tile at a time
+Traits:
+- Drawn toward Trees
+Attacks: (25%, 4-70/256)
+- MiniBomb
+- LilBomb
+- TreeBom1
+- TreeBom2 (Guaranteed)
+- Sword
+- Lance
+- Wrecker
+- ApplSeed
+- LeafShld
+- Atk+10
+- Atk+20
+- AreaGrab (Guaranteed)
+- GrassPnl (Guaranteed)
+
+Byter (Tier 4: Undernet)
+200 HP [Wood]
+Dodge A, Spd A
+Flavour:
+- A rabid variant of Bushy. Ate too many Rotten Nuts.
+Movement:
+- Travels randomly around its own field
+Traits
+- Hides in Trees
+Attacks: (35%)
+- MiniBomb
+- LilBomb
+- CrosBomb
+- TreeBom1
+- TreeBom2 (Guaranteed)
+- TreeBom3 (Guaranteed)
+- Sword
+- Lance
+- Wrecker
+- CannBall
+- ApplSeed
+- Spice1
+- VampBit1
+- Prism
+- Escape
+- LeafShld
+- Atk+10 (Guaranteed)
+- Atk+20
+- Atk+30
+- EarthLns
+- GaiaBlde
+- AreaGrab (Guaranteed)
+- GrassPnl
+- GrassStg (Guaranteed)
+
+RelyAnt (Tier 1: Hometowns)
+50 HP [None]
+Dodge B, Spd E
+Flavour:
+- A large ant eager to help the other viruses in its colony.
+Movement:
+- Attempts to stay in front of other viruses
+Traits:
+- Hides in Sand
+Attacks: (20%)
+- Sword
+- SandRing
+- AntHill1 (Guaranteed)
+- Press1
+- PanlGrab
+
+DefyAnt (Tier 2: Workplaces)
+120 HP [None]
+Dodge B, Spd C
+Flavour:
+- A white variant of RelyAnt. Protests the expansion of urban life.
+Movement:
+- Attempts to stay behind other viruses
+Traits:
+- Hides in Sand
+Attacks: (25%, 4-70/256)
+  - Sword
+ 4. Kunai1
+ 5. GutPunch
+  - SandRing
+  - CrsShld1
+ 1. AntHill1
+ 2. AntHill2 (Guaranteed)
+  - Mine
+  - Press1 (Guaranteed)
+  - Press2
+ 3. PanlGrab (Guaranteed)
+
+Tantrum (Tier 4: Undernet)
+210 HP [Fire]
+Dodge A, Spd A
+Flavour:
+- A brown, fiery variant of RelyAnt. Hasn't gotten a promotion in a while.
+Movement:
+- Attempts to stay in the front lane
+Traits:
+- Hides in Sand and Lava
+Attacks: (35%, 4-90/256)
+- FireBlde (Guaranteed)
+- Kunai1
+- Kunai2
+- SandRing
+- CrsShld2
+- AntHill1
+- AntHill2
+- AntHill3 (Guaranteed)
+- SilvFist
+- Whirlpl
+- Mine
+- LavaDrag
+- Kindler
+- Fan
+- Popup
+- FireAura
+- FtrSword
+- Poltrgst
+- PanlGrab
+- AreaGrab (Guaranteed)
+- LavaPanl (Guaranteed)
+- Desert
+- LavaStge
+
+Beetank (Tier 1: Hometowns)
+80 HP [None]
+Dodge D, Spd C
+Flavour:
+- A spiky orb beetle with a mounted grenade launcher.
+Movement:
+- Moves up and down its own column
+Traits:
+- None
+Attacks: (15%, 4-35/256)
+- Cannon
+- MiniBomb (Guarantee)
+- LilBomb (Guarantee)
+
+Beetank2 (Tier 2: Workplaces)
+120 HP [None]
+Dodge D, Spd B
+Flavour:
+- A blue variant of Beetank. Needs target practice.
+Movement:
+- Moves up and down its own column
+Traits:
+- None
+Attacks: (25%, 4-70/256)
+ 4. Cannon
+ 5. V-Gun
+ 1. MiniBomb
+ 2. LilBomb (Guarantee)
+ 3. CrosBomb (Guarantee)
+ 6. TreeBom1
+ 8. Wrecker
+ 7. MagBomb1
+  - Meteor3
+11. Battery
+ 9. FlashBom (Guarantee)
+10. ScanBomb
+
+Beetank3 (Tier 4: Undernet)
+180 HP [None]
+Dodge C, Spd B
+Flavour:
+- A grey variant of Beetank. Adamant about tilling soil where there is none.
+Movement:
+- Moves up and down its own column
+Traits:
+- Armor: 20
+Attacks: (50%, 4-130/256)
+ 5. HiCannon
+ 6. CrossGun
+ 1. MiniBomb
+ 2. LilBomb
+ 3. CrosBomb (Guarantee)
+ 4. BigBomb (Guarantee)
+ 7. TreeBom2
+ 9. Wrecker (Guarantee)
+10. CannBall
+ 8. MagBomb2
+11. Meteor4
+12. Meteor5
+18. DublBatt
+13. Napalm
+14. FlashBom
+15. ScanBomb (Guarantee)
+16. Sunrise
+12. BlkBomb
+17. Geddon1
+
+Swordy (Tier 1)
+80 HP [None]
+Dodge D, Spd C
+Flavour:
+- A rusty helmet powered by the vigour of new Navis
+Movement:
+- Moves up and down column, avoiding opponent's lane
+Traits:
+- None
+Attacks: (4-30/256)
+- Sword (Guarantee)
+- WideSwrd (Guarantee)
+- LongSwrd (Guarantee)
+- StepSwrd
+- AreaGrab
+
+Tempered (Tier 2)
+120 HP [Fire]
+Dodge C, Spd C
+Flavour:
+- A fiery variant of Swordy. Fueled by slight rage.
+Movement:
+- Moves up and down column, avoiding opponent's lane
+Traits:
+- None
+Attacks: (4-50/256)
+- Sword (Guarantee)
+- WideSwrd
+- LongSwrd
+- StepSwrd
+- FireSwrd (Guarantee)
+- FireBlde
+- AreaGrab
+
+Steeled (Tier 3)
+150 HP [Aqua]
+Dodge C, Spd C
+Flavour:
+- An icy variant of Swordy. Focused on its tasks.
+Movement:
+- Moves up and down column, avoiding opponent's lane
+Traits:
+- None
+Attacks: (4-75/256)
+- Sword (Guarantee)
+- WideSwrd
+- LongSwrd
+- VarSwrd
+- StepSwrd
+- AquaSwrd (Guarantee)
+- AquaBlde (Guarantee)
+- Guard
+- FtrSword
+- AreaGrab (Guarantee)
+
+Knighted (Tier 4)
+200 HP [None]
+Dodge D, Spd B
+Flavour:
+- An ironclad variant of Swordy. Protects its allies.
+Movement:
+- Moves up and down own column, attempting to provide cover for viruses behind it
+Traits:
+- Armor: 30
+Attacks: (4-75/256)
+- Sword
+- WideSwrd
+- LongSwrd (Guarantee)
+- VarSwrd
+- CustSwrd
+- StepSwrd
+- StepCros
+- FireSwrd
+- AquaSwrd
+- ElecSwrd
+- Lance
+- SilvFist
+- Guard
+- StoneBod (Guarantee)
+- Fanfare
+- Pawn
+- AntiSwrd
+- FtrSword (Guarantee)
+- KngtSwrd
+- AreaGrab (Guarantee)
+- AlumiStg
+
+Pally (Tier 5: Admin Lounge)
+300 HP [Sol]
+Dodge D, Spd S
+Flavour:
+- A golden variant of Swordy. Deployed by admins to protect banned user accounts.
+Movement:
+- Moves up and down own column, attempting to provide cover for viruses behind it
+Traits
+- Unflinching
+- Armor: 50
+Attacks: (4-200/256)
+- Sword
+- WideSwrd
+- LongSwrd
+- VarSwrd
+- CustSwrd
+- StepSwrd
+- StepCros
+- FireBlde
+- AquaBlde
+- ElecBlde
+- Lance
+- Guard
+- Piledriv
+- GoldFist (Guarantee)
+- AirShoes
+- StoneBod
+- Fanfare (Guarantee)
+- Pawn
+- Corona (Guarantee)
+- LifeAur2
+- Recov300
+- AntiSwrd
+- Dragoon
+- FtrSword
+- KngtSwrd (Guarantee)
+- HeroSwrd
+- HolyPanl (Guarantee)
+- Beacon
+- Sanctary
+
+Pebblet (Tier 1: Hometowns)
+100 HP [None]
+Dodge E, Spd E
+Flavour:
+- A pet rock that ran away from home
+Movement:
+- None
+Traits:
+- Armor: 10
+Attacks: (4-60/256)
+- GutPunch
+- Wrecker
+- Recov10
+- RockCube (Guarantee)
+- Press1
+
+Pebbler (Tier 3: International)
+200 HP [None]
+Dodge E, Spd D
+Flavour:
+- A dark variant of Pebblet. Eats its minerals.
+Movement:
+- None
+Traits
+- Armor: 30
+Attacks: (4-90/256)
+- Quake1
+- GutPunch
+- Wrecker
+- BrakHamr
+- BrnzFist
+- Recov10 (Guarantee)
+- Recov50
+- RockCube (Guarantee)
+- Pawn
+- Rook
+- Prism
+- Press1
+- Press2
+- StoneBod (Guarantee)
+- UnderSht
+- AntiFire
+- AntiAir
+- Fire+40
+- Repair
+
+Pebblest (Tier 5: Admin Lounge)
+300 HP [None]
+Dodge E, Spd A
+Flavour:
+- A bright shiny variant of Pebblet. Oversees the area with its millions of toes.
+Movement:
+- None
+Traits:
+- Bolted
+- Armor: 50
+Attacks: (4-200/256)
+- Quake2
+- Quake3
+- Wrecker
+- CannBall
+- BrakHamr
+- ZeusHamr
+- SilvFist
+- GoldFist
+- GodStone
+- Recov30
+- Recov80
+- Recov150
+- RockCube
+- Pawn
+- Rook (Guarantee)
+- Prism
+- Guardian
+- Press1
+- Press2
+- Press3 (Guarantee)
+- StoneBod (Guarantee)
+- UnderSht
+- UndrArmr
+- AntiAir
+- Atk+30
+- Repair
+- Geddon2
+- Sanctary
+
+Batty (Tier 1)
+60 HP [Dark]
+Dodge A, Spd C
+Flavour:
+- A small purple bat that nest under the nullspace
+Movement:
+- Always moves horizontally after moving vertically and vice versa
+Traits:
+- AirShoes
+- Sunburn: 10
+Attacks: (4-45/256)
+- Sword
+- Pulse1
+- VampBit1 (Guarantee)
+
+Batty2 (Tier 2)
+80 HP [Dark]
+Dodge A, Spd A
+Flavour:
+- A blue variant of Batty. Feasts on NetNavi RAM.
+Movement:
+- Always moves horizontally after moving vertically and vice versa
+Traits:
+- AirShoes
+- Sunburn: 30
+Attacks: (4-75/256)
+- Sword
+- Pulse1 (Guarantee)
+- Pulse2
+- Shadow1
+- DropDown
+- Discord
+- VampBit1
+- VampBit2 (Guarantee)
+
+Batty3 (Tier 4)
+120 HP [Dark]
+Dodge S, Spd S
+Flavour:
+- A red variant of Batty. Looks more like a flying streak of blood.
+Movement:
+- Always moves horizontally after moving vertically and vice versa
+Traits:
+- AirShoes
+- Sunburn: 50
+Attacks: (4-128/256)
+- Sword
+- Kunai3
+- Muramasa
+- Pulse1
+- Pulse2 (Guarantee)
+- Pulse3
+- SloGauge
+- BlckHole
+- Shadow2 (Guarantee)
+- Shadow3
+- DropDown
+- Discord
+- VampBit1
+- VampBit2
+- VampBit3 (Guarantee)
+- DarkLens
+- BlueMoon
+
+Hardhead
+80 HP [None]
+Dodge E, Spd D
+Flavour:
+- An iron shell firmly planted to the ground that lobs projectiles
+Movement:
+- None
+Traits:
+- Bolted
+- Unflinching
+- Armor: 50
+Attacks: (4-64/256)
+- MiniBomb
+- LilBomb
+- Quake1
+- Quake2
+- Wrecker (Guarantee x2)
+- CannBall (Guarantee)
+- StoneBod
+- UnderSht
+
+Hothead
+150 HP [Fire]
+Dodge E, Spd C
+Flavour:
+- A molten variant of Hardhead. Overheats an overclocking system.
+Movement:
+- None
+Traits:
+- Bolted
+- Unflinching
+- Armor: 50
+Attacks: (4-96/256)
+- LilBomb
+- CrosBomb
+- Erupt2 (Guarantee)
+- Erupt3
+- Quake1
+- Quake2
+- Quake3
+- Wrecker
+- CannBall (Guarantee)
+- LavaBall (Guarantee x2)
+- Meteor3
+- Meteor4
+- Meteor5
+- Meteor6
+- Totem1
+- Totem2
+- StoneBod
+- UnderSht
+- Meteors
+- LavaPanl
+- LavaStge (Guarantee)
+
+Coldhead
+150 HP [Aqua]
+Dodge E, Spd C
+Flavour:
+- A frozen variant of Hardhead. Dangerous method of cooling.
+Movement:
+- None
+Traits:
+- Bolted
+- Unflinching
+- Armor: 50
+Attacks: (4-96/256)
+- LilBomb
+- CrosBomb
+- Quake1
+- Quake2
+- Wrecker
+- CannBall (Guarantee)
+- IceBall (Guarantee x2)
+- LilCloud
+- MedCloud
+- BigCloud
+- DeepFrez
+- IceCube (Guarantee)
+- Wind
+- StoneBod
+- UnderSht
+- FreezBom
+- IceLine
+- IceStage (Guarantee)
+
+Bonehead (Tier 5: WWW Castle)
+210 HP [Dark]
+Dodge E, Spd B
+Flavour:
+- A skeletal variant of Hardhead. The visage of a mad scientist's lair.
+Movement:
+- None
+Traits:
+- Bolted
+- Unflinching
+- Armor: 80
+Attacks: (4-128/256)
+- CrosBomb
+- BigBomb
+- Quake2
+- Quake3
+- Wrecker
+- CannBall (Guarantee x2)
+- Howitzer (Guarantee)
+- Guard
+- CrsShld1
+- CrsShld2
+- PoisMask
+- PoisFace
+- BlckHole
+- StoneBod
+- UnderSht (Guarantee)
+- UndrArmr
+- Rook
+- LifeAur2
+- Recov120
+- Dfrag100
+- DarkLens
+- Nitemare (Guarantee)
+- Geddon1
+
+Windbox
+120 HP [None]
+Dodge E, Spd B
+Flavour:
+- A colourless box with a turbine inside it. Keeps rearranging your file structure.
+Movement:
+- None
+Traits:
+- None
+Attacks: (4-64/256)
+- Kunai1
+- AirShot1 (Guarantee)
+- AirShot2
+- Yo-Yo1
+- Tornado
+- Wind (Guarantee)
+- Fan (Guarantee)
+- Axel
+
+Windome
+160 HP [None]
+Dodge E, Spd A
+Flavour:
+- A blue variant of Windbox. Jams your system frequently.
+Movement:
+- None
+Traits:
+- None
+Attacks: (4-100/256)
+- Kunai2
+- SonicWav
+- SloGauge
+- AirShot1
+- AirShot2 (Guarantee)
+- AirShot3
+- Yo-Yo2
+- Tornado (Guarantee)
+- Twister
+- Blower
+- PoisMask
+- Wind (Guarantee)
+- Fan (Guarantee)
+- Whirlpl
+- Atk+10
+- Vortex
+- MagLine
+- Desert
+
+Windchil
+200 HP [Aqua]
+Dodge E, Spd S
+Flavour:
+- An icy variant of Windbox. Locks your thermostat in place.
+Movement:
+- None
+Traits:
+- Unflinching
+Attacks: (4-150/256)
+- Kunai2
+- Slasher
+- SonicWav
+- SloGauge
+- AirShot1
+- AirShot2 (Guarantee)
+- AirShot3
+- Yo-Yo2
+- Tornado
+- Whirlpl
+- DeepFrez (Guarantee)
+- IceCube
+- Wind (Guarantee)
+- Fan (Guarantee)
+- AntiFire
+- AntiAqua
+- Atk+20
+- Aqua+40
+- TriplBat
+- FrostLns
+- Cyclone
+- IceLine (Guarantee)
+- MagLine
+- IceStage
+
+WindXP (Tier 5: WWW Castle)
+300 HP [None]
+Dodge E, Spd S
+Flavour:
+- A black variant of Windbox. Its knob overflows.
+Movement:
+- None
+Traits:
+- Unflinching
+Attacks: (4-200/256)
+- Kunai3
+- DynaWave
+- Slasher
+- SloGauge
+- AirShot1
+- AirShot2
+- AirShot3 (Guarantee)
+- Yo-Yo3
+- Tornado (Guarantee)
+- Twister
+- Blower
+- PoisMask
+- PoisFace
+- Whirlpl
+- BlckHole
+- Wind
+- Fan
+- Vacuum
+- AntiSwrd
+- FstGauge
+- Atk+20 (Guarantee)
+- Atk+30
+- Tempest
+- Poltrgst
+- MagLine
+- Desert
+
+BlueOcto (Tier 3)
+200 HP [Aqua]
+Dodge E, Spd B
+Flavour:
+- A blue octopus blowing bubbles, lured by the scent of your navicust
+Movement:
+- None
+Traits:
+- None
+Attacks: (4-90/256)
+- BubCross
+- BubSprd
+- InkSprd (Guarantee)
+- Whirlpl
+- Trident
+- AquaBall (Guarantee 2)
+
+RedOcto (Tier 3)
+200 HP [Fire]
+Dodge E, Spd B
+Flavour:
+- A red octopus blowing bubbles, lured by the scent of your navicust
+Movement:
+- None
+Traits:
+- None
+Attacks: (4-90/256)
+- HeatSprd
+- InkSprd (Guarantee)
+- Meteor4
+- Whirlpl
+- Trident
+- HeatBall (Guarantee 2)
+
+YellOcto (Tier 3)
+200 HP [Elec]
+Dodge E, Spd B
+Flavour:
+- A gold octopus blowing bubbles, lured by the scent of your navicust
+Movement:
+- None
+Traits:
+- None
+Attacks: (4-90/256)
+- InkSprd (Guarantee)
+- Satelit2
+- Remobit2
+- Whirlpl
+- Trident
+- ElecBall (Guarantee 2)
+
+TimeFace (Tier 2: Workplaces)
+120 HP [None]
+Dodge C, Spd A
+Flavour:
+- A distorted clock that can't keep up with the pace of modern life.
+Movement:
+- Rotates clockwise around player
+Traits:
+- AirShoes
+Attacks: (30%, 4-80/256)
+- CustSwrd
+- Satelit1
+- SloGauge (Guarantee)
+- TimeBom1 (Guarantee)
+- TimeBom2
+- MindBndr
+- Recov10
+- Recov50 (Guarantee)
+- Dfrag50
+- FstGauge
+- Battery
+- Repair
+
+FaceTime (Tier 4: Undernet)
+200 HP [None]
+Dodge B, Spd S
+Flavour:
+- A grinning variant of TimeFace. Loves to schedule things 5 minutes too soon.
+Movement:
+- Rotates ccw around player
+- Travel two tiles until adjacent
+Traits:
+- AirShoes
+- Unflinching
+- Charge: x1.5
+Attacks: (70%)
+- CustSwrd
+- Satelit2
+- Whirlpl
+- TimeBom1
+- TimeBom2 (Guarantee)
+- TimeBom3
+- Sundial
+- Mindbndr
+- Recov30
+- Recov120 (Guarantee)
+- Dfrag100
+- FullCust
+- TriplBat
+- Geddon1 (Guarantee)
+
+Entroper (Tier 5: Bitrot)
+400 HP [Dark]
+Dodge S, Spd A
+Flavour:
+- A buzzing static variant of TimeFace. Not compliant with UNIX Time Standards.
+Movement:
+- Teleport to random tile adjacent to player
+Traits:
+- AirShoes
+- Unflinching
+- Trail: Swamp
+Attacks: (90%)
+- CustSwrd
+- Satelit3
+- SloGauge
+- Decay (Guarantee)
+- BlckHole
+- TimeBom1
+- TimeBom2
+- TimeBom3 (Guarantee)
+- Sundial
+- Recov200
+- Recov500
+- Dfrag150 (Guarantee)
+- Anubis
+- Jealousy
+- AntiRecv
+- FstGauge
+- FullCust
+- ChaosBat
+- FoldrBak
+- Repair
+- Geddon1
+- Geddon2
+- Geddon3
+- DarkPrtl
+
+
+VIRUSES BY TIER
+
+TIER 1
+- Mettaur
+- Gunnet
+- Beetank
+- Ratty
+- Swordy
+- Bushy
+- Bunny
+- heatshot dog
+- Shrimpy
+- RelyAnt
+- Cloudy
+- Pebblet
+- invis ghost
+- school thing [healer?]
+- traffic thing [Fire?]
+- solar panel flower
+- pulse bat

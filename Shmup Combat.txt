@@ -1,0 +1,12 @@
+SHMUP STYLE RULES
+
+- Dodge Grade = Hurtbox Size
+- Acc Grade = Spread of shot direction
+- Include a Size Grade to attacks
+
+- Internet Overworld = Battlefield
+- Move forward until fork in road
+- Must eliminate viruses to liberate territory
+- Fleeing retreats to last fork when successful
+- Generate tiles and virus locations when zone loads
+- Generate in clumps; visibly connect Mystery Data to applicable viruses

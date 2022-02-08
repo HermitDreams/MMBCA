@@ -1,0 +1,57 @@
+STYLE TYPES
+- Heat, Aqua, Elec, Wood, Dark, Life
+- Lite, Guts, Shld, Doc , Slay, Time
+
+Collect ??? Ore to start a Style Change
+
+PROPERTIES
+
+Lite:
++ Automatic AirShoes
++ 20% Bonus to Capacity
+- 20% Penalty to Max HP
+
+Guts:
++ Automatic Navi+20
++ Unflinching
+- 2 Grade Penalty to Dodge
+
+Shld:
++ Automatic Barrier
++ 20% Bonus to Defense HP
+- 20% Penalty to Capacity
+
+Doc:
++ Automatic Recov50
++ AllAdd Immunity
+- 2 Grade Penalty to all Accuracy
+
+Slay:
++ [Sol] Element
++ Double Charge Speed
+- Swamp Panels deal additional AllAdd10 per turn
+* Become [None] and gain Lunacy when DarkSlay
+
+Raw:
++ Automatic AirShoes
++ Automatic Recov50
++ Unflinching
++ Navi Attack hits twice as many times
++ Drain opponent's Gauge with every attack (10% of damage = Gauge lost)
+- 75% Penalty to Max HP
+- 50% Penalty to Capacity
+
+
+ORE INFLUENCES
+ Air: Lite
+Fire: Heat
+ H2O: Aqua
+Soil: Guts
+Iron: Shld
+ Zap: Elec
+Herb: Wood
+ Zoo: Doc
+Glow: Slay (Double Weight)
+Dark: Dark (Double Weight)
+Soul: Life (100 Required)
+Time: Raw  (100 Required)

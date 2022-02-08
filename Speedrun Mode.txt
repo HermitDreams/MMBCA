@@ -1,0 +1,17 @@
+speedrun mode???
+- timer
+ - present in-battle
+ - on the pause menu
+ - at boot-up when a speedrun game is saved/active
+ - briefly during important cutscenes like a split
+ - toggles between IGT (only ticks while in control) and RTA (counts time since file was started)
+  - tracks both regardless of which you have visible, and shows other at end of game
+- RNG removed; predetermined results mimicking FF1
+ - amount of steps between each encounter, flipped at end
+ - virus battles, including their battlefields, are predetermined per area
+ - Mystery Data rewards cycle through list (types: individual standing, 1-in-battle, 2-in-battle, etc)
+ - Deck paths are predetermined (list of 32 paths, each pulled 4 times?)
+ - VarSwrd has set order (list of 16, only guarantee at least 1 of each outcome?)
+ - Dodge, Slot-In, and UV rolls are same values for a list of 256, plugged into normal formula
+ - Random movements become a set seemingly erratic pattern per enemy
+ - Soft resets maintain list positions, hard resets don't

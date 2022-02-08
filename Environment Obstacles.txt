@@ -1,0 +1,31 @@
+Tree
+200 HP [Wood]
+Places Grass Panel underneath it
+Immune to own element
+Spreads one Grass Panel to an adjacent tile when attacked
+
+Boulder
+300 HP [None]
+Cracks panel underneath it
+Breaks if Shoved
+
+Gear
+DoubleRand30 [None]
+150 HP [None]
+Armor: 100
+Travels horizontally along whole field
+Changes direction if Shoved
+Susceptible to Magnet Panels
+Breaks other Obstacles in way
+
+Volcano
+350 HP [Fire]
+Places Lava Panel underneath it
+Immune to own element
+Spreads one Lava Panel to an adjacent tile when attacked
+
+Fountain
+500 HP [Aqua]
+Places Ice Panel underneath it
+Immune to own element
+Spreads one Holy Panel to an adjacent tile when attacked

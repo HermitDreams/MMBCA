@@ -1,0 +1,30 @@
+Program Advances activate when the Custom Gauge hits 100%.
+Using one will drain the gauge and the chips return to their original state.
+Any chip involved in the Program Advance can activate the attack.
+Batteries activate their Program Advances (Solar Guns) sooner than 100%.
+
+X-Cannon
+Triple70 [None]
+Acc B, Spd D
+Combinations:
+- Cannon * HiCannon * M-Cannon
+Properties
+- The hit that defeats an entity continues down its lane
+
+LifeSwrd
+Rand150 [Life]
+Acc A, Spd A
+Combinations:
+- Sword * WideSwrd * LongSwrd
+- FireSwrd * AquaSwrd * ElecSwrd
+- FireBlde * AquaBlde * ElecBlde
+Properties:
+- Chops a 2x3 area
+
+IceStorm
+Break 10Meteo20 [Aqua]
+Acc D, Spd B
+Combinations:
+- Wind * IceBall * DeepFrez
+Properties:
+- Changes every panel it hits to Ice

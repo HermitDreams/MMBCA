@@ -1,0 +1,154 @@
+PANEL PROPERTIES
+
+Basic
+- Elem Bonus: No
+- Effect: None
+- Transform: No
+- Sunlight: 0
+- Ore Type: Air
+- Ore Freq: 16/256
+
+Heat
+- Elem Bonus: Fire
+- Effect: Delay Heal20
+ - Affect: All
+- Transform: Sea
+ - Proc: Adjacency to Ice
+- Sunlight: +1
+- Ore Type: Fire
+- Ore Freq: 32/256
+
+Sea
+- Elem Bonus: Elec
+- Effect: Prevent Movement (1 turn)
+ - Affect: Not [Aqua]
+- Effect: Dodge+1
+ - Affect: [Aqua]
+- Transform: Ice
+ - Proc: Freeze type (FreezBom, FrostLns, etc)
+- Sunlight: 0
+- Ore Type: H2O
+- Ore Freq: 48/256
+
+Sand
+- Elem Bonus: No
+- Effect: Prevent Movement (1 turn)
+ - Affect: All
+- Transform: Basic
+ - Proc: Wind (Wind, Fan, etc)
+ - Special: Piles up on side of field it was pushed to
+- Sunlight: 0
+- Ore Type: Soil
+- Ore Freq: 48/256
+
+Aluminum
+- Elem Bonus: Elec
+- Effect: No
+- Transform: Grass
+ - Proc: [Wood]
+- Unbreakable
+- Sunlight: 0
+- Ore Type: Iron
+- Ore Freq: 48/256
+
+Charging
+- Elem Bonus: No
+- Effect: Charge x2
+ - Affect: Not [Dark]
+- Transform: No
+- Sunlight: 0
+- Ore Type: Zap
+- Ore Freq: 48/256
+- Alt Ore Type: Glow
+- Alt Ore Freq: 1/256
+
+Grass
+- Elem Bonus: Fire
+- Effect: Delay Heal50
+ - Affect: [Wood]
+- Transform: Basic
+ - Proc: [Fire]
+- Sunlight: 0
+- Ore Type: Herb
+- Ore Freq: 40/256
+
+Swamp
+- Elem Bonus: No
+- Effect: Delay AllAdd20
+ - Affect: All
+- Transform: No
+- Sunlight: -2
+- Ore Type: Zoo
+- Ore Freq: 64/256
+- Alt Ore Type: Dark
+- Alt Ore Freq: 3/256
+
+Lava
+- Elem Bonus: No
+- Effect: Norm50
+ - Affect: Not [Fire]
+- Transform: Basic
+ - Proc: [Aqua]
+- Sunlight: +2
+- Ore Type: Fire
+- Ore Freq: 240/256
+
+Ice
+- Elem Bonus: No
+- Effect: Slide
+ - Affect: Not [Aqua]
+- Transform: Sea
+ - Proc: Adjacency to Heat or Lava
+- Sunlight: 0
+- Ore Type: H2O
+- Ore Freq: 160/256
+
+Magnet
+- Elem Bonus: No
+- Effect: Pull
+ - Affect: All
+- Effect: Dodge-2
+ - Affect: [Elec]
+- Transform: No
+- Sunlight: 0
+- Ore Type: Zap
+- Ore Freq: 96/256
+- Alt Ore Type: Iron
+- Alt Ore Freq: 48/256
+
+Holy
+- Elem Bonus: No
+- Effect: Half Damage
+ - Affect: Not [Dark]
+- Transform: No
+- Sunlight: +5
+- Ore Type: Glow
+- Ore Freq: 64/256
+
+Abyss
+- Elem Bonus: No
+- Effect: Require AirShoes
+ - Affect: All
+- Transform: No
+- Sunlight: -5
+- Ore Type: Dark
+- Ore Freq: 128/256
+
+Cracked
+- Elem Bonus: No
+- Effect: No
+- Transform: Pit
+ - Proc: Step Off
+- Sunlight: -1
+- Ore Type: Time
+- Ore Freq: 1/256
+
+Pit
+- Elem Bonus: No
+- Effect: Require AirShoes
+ - Affect: All
+- Transform: Basic
+ - Proc: 3 Turns
+- Sunlight: -2
+- Ore Type: Time
+- Ore Freq: 1/256

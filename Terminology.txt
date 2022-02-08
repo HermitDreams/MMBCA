@@ -1,0 +1,49 @@
+ATTACK TYPES
+
+Projectile
+- Instantly hits the targeted panel
+- Lose 1 Accuracy Tier if misaligned
+
+Melee
+- Must step onto panel in front of target
+- Gain 1 Accuracy Tier if already positioned
+
+Aerial
+- Strikes targeted panel from above
+- Must be able to impact panel
+- Gain 1 Accuracy Tier if precisely 3 tiles away
+
+Floor
+- Affects every panel on its path
+
+Obstacle
+- Replaces object on panel in front of user
+
+Personal
+- Exists on same panel as user
+
+
+VIRUS TRAITS
+
+Armor
+- Reduces damage from each hit by specified amount
+- Turns off after first attack per turn
+
+Sighted
+- Gains the specified accuracy for aligning with target
+
+Trail
+- Changes the panel to the specified type in its wake
+
+Bolted
+- Cannot be moved around by attacks
+
+AirShoes
+- Cannot sink into a panel
+
+Gauge
+- The virus has a visible Custom Gauge
+
+Unflinching
+- Cannot be stunned nor pinned
+

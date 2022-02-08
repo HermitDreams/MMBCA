@@ -1,0 +1,2795 @@
+Cannon
+Normal60 [None]
+60 HP, 10 MB
+Acc C, Spd B
+Projectile
+Tier 1
+
+HiCannon
+Normal80 [None]
+90 HP, 20 MB
+Acc C, Spd B
+Projectile
+Tier 2
+
+M-Cannon
+Normal120 [None]
+150 HP, 40 MB
+Acc D, Spd B
+Projectile
+Tier 4
+
+Shotgun
+Add30 [None]
+40 HP, 10 MB
+Acc S, Spd A
+Projectile
+Tier 1
+- Splashes tile behind target
+
+V-Gun
+Add50 [None]
+70 HP, 20 MB
+Acc S, Spd C
+Projectile
+Tier 2
+- Splashes diagonal tiles behind target
+
+CrossGun
+Add60 [None]
+90 HP, 30 MB
+Acc S, Spd C
+Projectile
+Tier 3
+- Splashes all tiles diagonally adjacent to target
+
+Spreader
+Add70 [None]
+150 HP, 40 MB
+Acc S, Spd C
+Projectile
+Tier 4
+- Splashes all tiles adjacent to target
+
+Bubbler
+Add20 [Aqua]
+40 HP, 10 MB
+Acc S, Spd A
+Projectile
+Tier 1
+- Splashes tile behind target
+
+Bub-V
+Add30 [Aqua]
+60 HP, 20 MB
+Acc S, Spd C
+Projectile
+Tier 2
+- Splashes diagonal tiles behind target
+
+BubCross
+Add40 [Aqua]
+90 HP, 30 MB
+Acc S, Spd C
+Projectile
+Tier 3
+- Splashes all tiles diagonally adjacent to target
+
+BubSprd
+Add50 [Aqua]
+130 HP, 40 MB
+Acc S, Spd D
+Projectile
+Tier 4
+- Splashes all tiles adjacent to target
+
+HeatShot
+Add20 [Fire]
+40 HP, 10 MB
+Acc S, Spd B
+Projectile
+Tier 1
+- Splashes tile behind target
+
+Heat-V
+Add30 [Fire]
+60 HP, 20 MB
+Acc S, Spd C
+Projectile
+Tier 2
+- Splashes diagonal tiles behind target
+
+HeatCros
+Add40 [Fire]
+90 HP, 30 MB
+Acc S, Spd D
+Projectile
+Tier 3
+- Splashes all tiles diagonally adjacent to target
+
+HeatSprd
+Add50 [Fire]
+120 HP, 40 MB
+Acc S, Spd D
+Projectile
+Tier 4
+- Splashes all tiles adjacent to target
+
+InkSprd
+BlindAdd50 [None]
+100 HP, 40 MB
+Acc S, Spd D
+Projectile
+Tier 4
+- Splashes all tiles adjacent to target
+
+PoisSprd
+BlindAdd70 [Dark]
+150 HP, 70 MB
+Acc S, Spd D
+Projectile
+Tier 5
+- Splashes all tiles adjancent to target
+- Turns affected panels to Swamp
+
+MiniBomb
+AllAdd10 [None]
+120 HP, 10 MB
+Acc B, Spd D
+Aerial
+Tier 1
+
+LilBomb
+AllAdd20 [None]
+220 HP, 20 MB
+Acc B, Spd D
+Aerial
+Tier 2
+- Splashes tiles beside impact point
+
+CrosBomb
+AllAdd30 [None]
+250 HP, 40 MB
+Acc B, Spd D
+Aerial
+Tier 3
+- Splashes tiles cardinally adjacent to impact
+
+BigBomb
+AllAdd40 [None]
+300 HP, 60 MB
+Acc B, Spd D
+Aerial
+Tier 4
+- Splashes all tiles adjacent to impact
+
+TreeBom1
+AllAdd20 [Wood]
+120 HP, 30 MB
+Acc A, Spd D
+Aerial, then Floor
+Tier 1
+- Launches seeking spikes after impact
+
+TreeBom2
+AllAdd30 [Wood]
+130 HP, 40 MB
+Acc A, Spd D
+Aerial, then Floor
+Tier 2
+- Launches seeking spikes after impact
+
+TreeBom3
+AllAdd40 [Wood]
+180 HP, 50 MB
+Acc A, Spd C
+Aerial, then Floor
+Tier 4
+- Launches seeking spikes after impact
+
+Sword
+Rand70 [None]
+40 HP, 10 MB
+Acc E, Spd C
+Melee
+Tier 1
+
+WideSwrd
+Rand80 [None]
+80 HP, 20 MB
+Acc D, Spd C
+Melee
+Tier 2
+- Strikes panels beside target
+
+LongSwrd
+Rand90 [None]
+70 HP, 20 MB
+Acc D, Spd C
+Melee
+Tier 2
+- Reaches panel behind target
+
+FireSwrd
+Rand80 [Fire]
+110 HP, 30 MB
+Acc C, Spd C
+Melee
+Tier 3
+- Strikes panels beside target
+
+AquaSwrd
+Rand80 [Aqua]
+110 HP, 30 MB
+Acc C, Spd C
+Melee
+Tier 3
+- Strikes panels beside target
+
+ElecSwrd
+Rand80 [Elec]
+110 HP, 30 MB
+Acc C, Spd C
+Melee
+Tier 3
+- Strikes panels beside target
+
+FireBlde
+Rand90 [Fire]
+130 HP, 40 MB
+Acc D, Spd C
+Melee
+Tier 3
+- Reaches panel behind target
+
+AquaBlde
+Rand90 [Aqua]
+130 HP, 40 MB
+Acc D, Spd C
+Melee
+Tier 3
+- Reaches panel behind target
+
+ElecBlde
+Rand90 [Elec]
+130 HP, 40 MB
+Acc D, Spd C
+Melee
+Tier 3
+- Reaches panel behind target
+
+StepSwrd
+Rand70 [None]
+80 HP, 40 MB
+Acc D, Spd B
+Melee
+Tier 4
+- Strikes panels beside target
+- Ignores panel the attacker steps on
+
+StepCros
+Double Rand40 [None]
+100 HP, 60 MB
+Acc C, Spd C
+Melee
+Tier 5
+- Strikes all panels diagonally adjacent to target once
+- Ignores panel the attacker steps on
+
+PickAxe1
+PierceRand50 [None]
+60 HP, 20 MB
+Acc D, Spd D
+Melee
+Tier 2
+
+PickAxe2
+PierceRand70 [None]
+90 HP, 30 MB
+Acc D, Spd D
+Melee
+Tier 3
+
+PickAxe3
+PierceRand100 [None]
+140 HP, 50 MB
+Acc E, Spd C
+Melee
+Tier 4
+
+Kunai1
+Triple Rand10 [None]
+60 HP, 10 MB
+Acc C, Spd C
+Melee
+Tier 2
+- Flanks target diagonally
+
+Kunai2
+Triple Rand20 [None]
+70 HP, 20 MB
+Acc C, Spd C
+Melee
+Tier 3
+- Flanks target diagonally
+
+Kunai3
+Triple Rand30 [None]
+80 HP, 30 MB
+Acc C, Spd B
+Melee
+Tier 4
+- Flanks target diagonally
+
+Lance
+Rand70 [Wood]
+110 HP, 30 MB
+Acc C, Spd A
+Melee
+Tier 3
+- Flanks target from behind
+
+CustSwrd
+RandGauge30 [Sol]
+150 HP, 40 MB
+Acc D, Spd E
+Melee
+Tier 4
+- Cuts a 2x3 grid
+- Deals damage equal to 30x the tens column of the gauge
+
+Muramasa
+RandBleed10 [Dark]
+60 HP, 70 MB
+Acc E, Spd E
+Melee
+Tier 4
+- Reaches two tiles behind target
+- Deals damage equal to amount of HP that could be healed by attacker
+
+VarSwrd
+Random [None]
+160 HP, 30 MB
+Acc D, Spd E
+Melee
+Tier 4
+- Selects a random damage and property from any single-hit [None] Melee with Rand effect
+
+Slasher
+Counter:Territory Random100 [None]
+180 HP, 50 MB
+Acc D, Spd A
+Personal, Melee
+Tier 4
+- Activates if an enemy enters a panel you own
+- Cancels the attack that activated this
+- Strikes all tiles adjacent to attacker
+
+ShockWav
+Pierce50 [None]
+120 HP, 10 MB
+Acc B, Spd C
+Floor
+Tier 1
+- Travels forward in own territory, then through line of target's territory
+
+SonicWav
+Pierce70 [None]
+120 HP, 20 MB
+Acc B, Spd C
+Floor
+Tier 2
+- Travels forward in own territory, then through line of target's territory
+
+DynaWave
+Pierce130 [None]
+120 HP, 40 MB
+Acc B, Spd D
+Floor
+Tier 4
+- Travels forward in own territory, then through line of target's territory
+
+LilShout
+Stun60 [None]
+30 HP, 10 MB
+Acc D, Spd D
+Melee
+Tier 1
+- Hits all tiles surrounding user
+
+MedShout
+Stun80 [None]
+80 HP, 30 MB
+Acc C, Spd D
+Melee
+Tier 2
+- Hits all tiles surrounding user in a radius of 2
+
+BigShout
+Stun130 [None]
+150 HP, 50 MB
+Acc A, Spd E
+Melee
+Tier 4
+- Hits all tiles surrounding user in a radius of 3
+
+Quake1
+AllAddBreak30 [None]
+70 HP, 40 MB
+Acc C, Spd D
+Aerial
+Tier 2
+- Cracks the panel it lands on
+
+Quake2
+AllAddBreak40 [None]
+80 HP, 50 MB
+Acc C, Spd D
+Aerial
+Tier 3
+- Cracks panels cardinally adjacent to the one it lands on
+
+Quake3
+AllAddBreak50 [None]
+90 HP, 60 MB
+Acc C, Spd E
+Aerial
+Tier 4
+- Cracks all panels adjacent to the one it lands on
+
+GutPunch
+Shove1 Break70 [None]
+160 HP, 30 MB
+Acc B, Spd D
+Melee
+Tier 3
+- Launches a Projectile if it misses
+
+ColdPnch
+Shove1 Break70 [Aqua]
+110 HP, 30 MB
+Acc B, Spd D
+Melee
+Tier 3
+
+AirShot1
+Shove1 Normal10 [None]
+50 HP, 10 MB
+Acc A, Spd B
+Projectile
+Tier 1
+
+AirShot2
+Shove2 Normal30 [None]
+150 HP, 20 MB
+Acc A, Spd B
+Projectile
+Tier 2
+
+AirShot3
+ShoveAll Normal50 [None]
+250 HP, 30 MB
+Acc A, Spd S
+Projectile
+Tier 3
+
+DashAtk
+Pierce80 [None]
+90 HP, 40 MB
+Acc A, Spd B
+Projectile
+Tier 2
+- Travels forward in own territory, then through line of target's territory
+- Carries attacker with it
+
+Condor
+Pierce120 [None]
+130 HP, 60 MB
+Acc S, Spd C
+Projectile
+Tier 4
+- Travels forward in own territory, then through line of target's territory
+- Carries attacker with it
+
+Burner
+Pierce80 [Fire]
+80 HP, 50 MB
+Acc A, Spd B
+Projectile
+Tier 3
+- Travels forward in own territory, then through line of target's territory
+- Carries attacker with it
+
+Wrecker
+Break40 [None]
+120 HP, 20 MB
+Acc D, Spd E
+Aerial
+Tier 2
+- Destroys the panel it lands on
+
+CannBall
+Break80 [None]
+160 HP, 30 MB
+Acc D, Spd E
+Aerial
+Tier 3
+- Destroys the panel it lands on
+
+Howitzer
+Break120 [None]
+200 HP, 40 MB
+Acc E, Spd E
+Aerial
+Tier 4
+- Destroys the panel it lands on
+
+IceBall
+Break80 [Aqua]
+120 HP, 40 MB
+Acc D, Spd E
+Aerial
+Tier 4
+- Freezes the panel it lands on
+
+LavaBall
+Break80 [Fire]
+100 HP, 40 MB
+Acc D, Spd E
+Aerial
+Tier 4
+- Leaves Lava on the panel it lands on
+
+DoubNdl
+Double20 [None]
+70 HP, 10 MB
+Acc B, Spd B
+Projectile
+Tier 2
+
+TripNdl
+Triple20 [None]
+120 HP, 20 MB
+Acc B, Spd A
+Projectile
+Tier 3
+
+QuadNdl
+Quad20 [None]
+140 HP, 30 MB
+Acc B, Spd A
+Projectile
+Tier 4
+
+Trident
+Triple30 [None]
+170 HP, 30 MB
+Acc B, Spd A
+Projectile
+Tier 4
+
+Ratton1
+Add40 [None]
+80 HP, 10 MB
+Acc S, Spd D
+Floor
+Tier 1
+- Travels forward until it needs to turn toward target
+
+Ratton2
+Add50 [None]
+120 HP, 20 MB
+Acc S, Spd D
+Floor
+Tier 2
+- Travels forward until it needs to turn toward target
+
+Ratton3
+Add60 [None]
+160 HP, 30 MB
+Acc S, Spd C
+Floor
+Tier 3
+- Travels forward until it needs to turn toward target
+
+FireRatn
+Counter:Fire Add120 [Fire]
+120 HP, 60 MB
+Acc S, Spd E
+Obstacle, Floor
+Tier 4
+- Travels forward until it needs to turn toward target
+
+ApplSeed
+Reflect:Wood Absorb:Aqua AllAdd50 Recov100 [Wood]
+150 HP, 60 MB
+Acc A, Spd E
+Obstacle, Floor
+Tier 4
+- Sprouts into a Tree if hit by Aqua, and heals user
+- Wood Towers shift toward attacker's lane
+
+Tornado
+AllAddTriple10 [None]
+50 HP, 40 MB
+Acc D, Spd E
+Aerial
+Tier 3
+- Does not require a panel to touch down on
+- Picks up Sand Panels to add an extra hit
+- Picks up Sea Panels to change element to [Aqua]
+
+Twister
+AllAddTriple10 [Wood]
+30 HP, 40 MB
+Acc D, Spd E
+Aerial
+Tier 3
+- Does not require a panel to touch down on
+
+Blower
+AllAddTriple10 [Fire]
+20 HP, 40 MB
+Acc D, Spd E
+Aerial
+Tier 3
+- Does not require a panel to touch down on
+
+ZapRing1
+Stun10 [Elec]
+120 HP, 40 MB
+Acc C, Spd C
+Projectile
+Tier 1
+
+ZapRing2
+Stun50 [Elec]
+60 HP, 40 MB
+Acc C, Spd B
+Projectile
+Tier 2
+
+ZapRing3
+Stun100 [Elec]
+30 HP, 40 MB
+Acc C, Spd S
+Projectile
+Tier 4
+
+SandRing
+Panel Stun10 [None]
+150 HP, 30 MB
+Acc D, Spd B
+Projectile
+Tier 2
+- Turns the target's panel into Sand
+
+Satelit1
+Add40 [Elec]
+50 HP, 20 MB
+Acc B, Spd C
+Projectile
+Tier 2
+- Gets caught orbitting nearest Obstacle
+
+Satelit2
+Add50 [Elec]
+80 HP, 30 MB
+Acc B, Spd C
+Projectile
+Tier 3
+- Gets caught orbitting nearest Obstacle
+
+Satelit3
+Add60 [Elec]
+120 HP, 40 MB
+Acc B, Spd C
+Projectile
+Tier 4
+- Gets caught orbitting nearest Obstacle
+
+Prong1
+Double20 [Elec]
+50 HP, 10 MB
+Acc D, Spd B
+Melee
+Tier 2
+
+Prong2
+Triple20 [Elec]
+100 HP, 20 MB
+Acc C, Spd C
+Melee
+Tier 3
+
+Prong3
+Triple30 [Elec]
+120 HP, 40 MB
+Acc C, Spd D
+Melee
+Tier 4
+
+Spice1
+Require:Grass SkipAllAdd30 [Wood]
+200 HP, 20 MB
+Acc S, Spd D
+Floor
+Tier 2
+- Targets all Grass Panels on field
+
+Spice2
+Require:Grass SkipAllAdd50 [Wood]
+240 HP, 30 MB
+Acc S, Spd D
+Floor
+Tier 3
+- Targets all Grass Panels on field
+
+Spice3
+Require:Grass SkipAllAdd70 [Wood]
+300 HP, 40 MB
+Acc S, Spd D
+Floor
+Tier 4
+- Targets all Grass Panels on field
+
+Erupt1
+Require:Lava Skip100 [Fire]
+160 HP, 20 MB
+Acc S, Spd B
+Floor
+Tier 2
+- Targets all Lava Panels on field
+
+Erupt2
+Require:Lava Skip150 [Fire]
+200 HP, 30 MB
+Acc S, Spd B
+Floor
+Tier 3
+- Targets all Lava Panels on field
+
+Erupt3
+Require:Lava Skip200 [Fire]
+250 HP, 40 MB
+Acc S, Spd B
+Floor
+Tier 4
+- Targets all Lava Panels on field
+
+No-Beam1
+Require:Obstacle Add50 [None]
+200 HP, 10 MB
+Acc A, Spd B
+Projectile
+Tier 2
+- Launches attack from behind an obstacle
+
+No-Beam2
+Require:Obstacle Add70 [None]
+220 HP, 20 MB
+Acc A, Spd B
+Projectile
+Tier 3
+- Launches attack from behind an obstacle
+
+No-Beam3
+Require:Obstacle Add100 [None]
+250 HP, 30 MB
+Acc A, Spd B
+Projectile
+Tier 4
+- Launches attack from behind an obstacle
+
+MagBomb1
+Require:Magnet StunAllAdd20 [Elec]
+180 HP, 10 MB
+Acc C, Spd C
+Aerial
+Tier 2
+- All affected Magnet Panels spread cardinally
+
+MagBomb2
+Require:Magnet StunAllAdd40 [Elec]
+220 HP, 20 MB
+Acc B, Spd C
+Aerial
+Tier 3
+- All affected Magnet Panels spread cardinally
+- Affects all panels cardinally adjacent to impact
+
+MagBomb3
+Require:Magnet StunAllAdd60 [Elec]
+260 HP, 30 MB
+Acc S, Spd C
+Aerial
+Tier 4
+- All affected Magnet Panels spread cardinally
+- Affects all panels adjacent to impact
+
+Yo-Yo1
+Triple30 [None]
+60 HP, 30 MB
+Acc C, Spd D
+Projectile
+Tier 2
+- Travels to target in straight line
+- Gets caught on first Obstacle in way
+
+Yo-Yo2
+Triple40 [None]
+80 HP, 40 MB
+Acc C, Spd D
+Projectile
+Tier 3
+- Travels to target in straight line
+- Gets caught on first Obstacle in way
+
+Yo-Yo3
+Triple50 [None]
+120 HP, 50 MB
+Acc C, Spd D
+Projectile
+Tier 4
+- Travels to target in straight line
+- Gets caught on first Obstacle in way
+
+Boomer1
+Double30 [Wood]
+60 HP, 20 MB
+Acc C, Spd D
+Projectile
+Tier 2
+- Swings around bottom lane and then crosses through target
+- Returns through top lane
+- Starts return trip if it hits an Obstacle
+
+Boomer2
+Double40 [Wood]
+80 HP, 30 MB
+Acc C, Spd D
+Projectile
+Tier 3
+- Swings around bottom lane and then crosses through target
+- Returns through top lane
+- Starts return trip if it hits an Obstacle
+
+Boomer3
+Double50 [Wood]
+120 HP, 40 MB
+Acc C, Spd D
+Projectile
+Tier 4
+- Swings around bottom lane and then crosses through target
+- Returns through top lane
+- Starts return trip if it hits an Obstacle
+
+CrsShld1
+Defense Counter50 [None]
+180 HP, 40 MB
+Acc A, Spd E
+Personal, Projectile
+Tier 2
+
+CrsShld2
+Defense Counter60 [None]
+250 HP, 50 MB
+Acc A, Spd E
+Personal, Projectile
+Tier 3
+
+CrsShld3
+Defense Counter70 [None]
+300 HP, 60 MB
+Acc A, Spd E
+Personal, Projectile
+Tier 4
+
+AntHill1
+Defense1 Remove20 [None]
+70 HP, 20 MB
+Acc A, Spd A
+Obstacle
+Tier 1
+- Absorbs one hit per use
+- Removes any Defense from attacker when disturbed
+- Leaves a Sand Panel in its wake
+
+AntHill2
+Defense1 Remove40 [None]
+150 HP, 30 MB
+Acc A, Spd A
+Obstacle
+Tier 2
+- Absorbs one hit per use
+- Removes any Defense from attacker when disturbed
+- Leaves a Sand Panel in its wake
+
+AntHill3
+Defense1 Remove70 [None]
+300 HP, 40 MB
+Acc A, Spd B
+Obstacle
+Tier 3
+- Absorbs one hit per use
+- Removes any Defense from attacker when disturbed
+- Leaves a Sand Panel in its wake
+
+Pulse1
+Ping:Mind40 [None]
+60 HP, 10 MB
+Acc C, Spd S
+Projectile
+Tier 1
+- Gains a damage bonus, turns [Dark], and gains secondary effect if it hits an Obstacle
+- Affects all panels around the obstacle
+
+Pulse2
+Ping:Mind60 [None]
+80 HP, 20 MB
+Acc C, Spd S
+Projectile
+Tier 2
+- Gains a damage bonus, turns [Dark], and gains secondary effect if it hits an Obstacle
+- Affects all panels around the obstacle
+
+Pulse3
+Ping:Mind80 [None]
+100 HP, 30 MB
+Acc B, Spd S
+Projectile
+Tier 3
+- Gains a damage bonus, turns [Dark], and gains secondary effect if it hits an Obstacle
+- Affects all panels around the obstacle
+
+BrakHamr
+BreakAllAdd30 [None]
+40 HP, 30 MB
+Acc C, Spd E
+Melee
+Tier 2
+
+ZeusHamr
+BreakAllAdd50 [None]
+40 HP, 60 MB
+Acc C, Spd E
+Melee
+Tier 5
+- Splashes all entities without AirShoes
+
+SloGauge
+Drain50% [None]
+120 HP, 20 MB
+Acc S, Spd S
+Instant
+Tier 3
+
+BrnzFist
+Shove2 Break90 [None]
+110 HP, 30 MB
+Acc C, Spd E
+Melee
+Tier 2
+
+SilvFist
+Shove2 Break120 [None]
+100 HP, 40 MB
+Acc C, Spd E
+Melee
+Tier 3
+
+GoldFist
+ShoveAll Break150 [None]
+90 HP, 50 MB
+Acc C, Spd E
+Melee
+Tier 4
+
+PoisMask
+Defense CounterAllAdd20 [None]
+140 HP, 30 MB
+Acc A, Spd A
+Personal, Floor
+Tier 3
+- Targets whole enemy field
+
+PoisFace
+Defense CounterAllAdd30 [None]
+180 HP, 50 MB
+Acc A, Spd A
+Personal, Floor
+Tier 4
+- Targets whole enemy field
+
+Decay
+CounterChip??? [Dark]
+80 HP, 50 MB
+Acc S, Spd A
+Personal, Instant
+Tier 4
+- Does not take damage for user
+- Any chip damage done to user gets copied to the chip that dealt it
+
+Whirlpl
+DeleteRand10 [None]
+80 HP, 30 MB
+Acc D, Spd A
+Aerial
+Tier 3
+- Leaves a Sea Panel if it misses
+
+BlckHole
+DeleteRand10 [Dark]
+250 HP, 50 MB
+Acc B, Spd A
+Aerial
+Tier 4
+- Leaves a Dark Hole if it misses
+
+DeepFrez
+StunStop80 [Aqua]
+150 HP, 40 MB
+Acc S, Spd A
+Floor
+Tier 4
+- Affects entire field
+- Freezes panels
+
+Meteor3
+3Meteo40 [Fire]
+70 HP, 30 MB
+Acc E, Spd B
+Aerial
+Tier 1
+- Missed meteors hit random other panels
+
+Meteor4
+4Meteo40 [Fire]
+90 HP, 40 MB
+Acc E, Spd B
+Aerial
+Tier 2
+- Missed meteors hit random other panels
+
+Meteor5
+5Meteo40 [Fire]
+100 HP, 50 MB
+Acc E, Spd B
+Aerial
+Tier 3
+- Missed meteors hit random other panels
+
+Meteor6
+6Meteo40 [Fire]
+120 HP, 60 MB
+Acc E, Spd C
+Aerial
+Tier 4
+- Missed meteors hit random other panels
+
+TimeBom1
+Defense DelayAllAdd40 [None]
+90 HP, 30 MB
+Acc S, Spd S
+Obstacle, Floor
+Tier 2
+- Targets whole field it detonated on
+
+TimeBom2
+Defense DelayAllAdd40 [None]
+180 HP, 50 MB
+Acc S, Spd S
+Obstacle, Floor
+Tier 3
+- Targets whole field it detonated on
+
+TimeBom3
+Defense DelayAllAdd40 [None]
+260 HP, 60 MB
+Acc S, Spd S
+Obstacle, Floor
+Tier 4
+- Targets whole field it detonated on
+
+Sundial
+DefenseStop DelaySkip40 [Sol]
+200 HP, 20 MB
+Acc S, Spd S
+Obstacle, Aerial
+Tier 3
+- Requires at least 4 solar bars to work
+- Doesn't affect dimming panels
+
+LilCloud
+AllAdd10 [Aqua]
+180 HP, 20 MB
+Acc B, Spd B
+Aerial
+Tier 1
+
+MedCloud
+AllAdd20 [Aqua]
+150 HP, 30 MB
+Acc B, Spd B
+Aerial
+Tier 2
+
+BigCloud
+AllAdd30 [Aqua]
+120 HP, 40 MB
+Acc B, Spd A
+Aerial
+Tier 3
+
+Mine
+Counter:Melee AllAdd50 [None]
+100 HP, 30 MB
+Acc S, Spd E
+Obstacle, Floor
+Tier 3
+- Does not block attacks
+- Interrupts the attack it counters
+
+FrntSnsr
+PersistCounter:Projectile Normal40 [None]
+300 HP, 50 MB
+Acc S, Spd E
+Personal, Projectile
+Tier 2
+- Does not block attacks
+- Interrupts the attack it counters
+
+DblSnsr
+PersistCounter:Projectile Double30 [None]
+140 HP, 50 MB
+Acc S, Spd E
+Personal, Projectile
+Tier 3
+- Does not block attacks
+- Interrupts the attack it counters
+
+Remobit1
+Defense AllAdd10 [Elec]
+150 HP, 30 MB
+Acc B, Spd B
+Obstacle, Aerial
+Tier 2
+- Cracks panel
+
+Remobit2
+Defense AllAdd20 [Elec]
+210 HP, 40 MB
+Acc B, Spd B
+Obstacle, Aerial
+Tier 3
+- Cracks panel
+
+Remobit3
+Defense AllAdd30 [Elec]
+300 HP, 50 MB
+Acc B, Spd A
+Obstacle, Aerial
+Tier 4
+- Cracks panel
+
+AquaBall
+Store:Aqua Delay10+ [Aqua]
+160 HP, 30 MB
+Acc C, Spd D
+Personal, Projectile
+Tier 3
+- Detonates full charge if Shoved
+
+ElecBall
+Store:Elec Delay10+ [Elec]
+160 HP, 30 MB
+Acc C, Spd D
+Personal, Projectile
+Tier 3
+- Detonates full charge if Shoved
+
+HeatBall
+Store:Fire Delay10+ [Fire]
+160 HP, 30 MB
+Acc C, Spd D
+Personal, Projectile
+Tier 3
+- Detonates full charge if Shoved
+
+Geyser
+Require:Hole AllAdd50 [Aqua]
+50 HP, 40 MB
+Acc A, Spd B
+Floor
+Tier 5
+- Affects all panels adjacent to a Hole
+- Fills holes with Sea Panels
+
+LavaDrag
+Require:Hole AllAdd50+ [Fire]
+40 HP, 50 MB
+Acc A, Spd A
+Projectile
+Tier 5
+- Add 10 damage for every Lava Panel on field
+- All Lava Panels become Heat Panels
+
+GodStone
+Require:Hole Meteo+80 [None]
+60 HP, 50 MB
+Acc E, Spd A
+Aerial
+Tier 5
+- Attempts one attack per Hole on the field
+- Missed attacks leave Boulders on random panels
+
+OldWood
+Require:Hole PierceAllAdd50 [Wood]
+40 HP, 50 MB
+Acc A, Spd C
+Floor
+Tier 5
+- Can target as many enemies as there are Holes
+
+Snake
+Require:Hole Multi30 [Wood]
+50 HP, 40 MB
+Acc A, Spd C
+Projectile
+Tier 4
+- Attacks once for every Hole
+
+Vacuum
+Require:Hole DeleteTriple10 [Dark]
+30 HP, 50 MB
+Acc B, Spd A
+Floor
+Tier 5
+- Pulls target toward the nearest Hole
+
+Piledriv
+Require:Hole Multi??? [Sol]
+80 HP, 50 MB
+Acc A, Spd A
+Projectile
+Tier 5
+- Deals 10 damage per Solar Bar
+- Hits once for every Hole
+- Fills all Holes with Charge Panels
+
+Guard
+Reflect:Non Skip40 [None]
+10 HP, 20 MB
+Acc A, Spd E
+Personal, Floor
+Tier 2
+
+Kindler
+Reflect:Wood Skip40 [Fire]
+10 HP, 30 MB
+Acc A, Spd E
+Personal, Floor
+Tier 3
+- Completely nullifies Wood attacks and retaliates with Fire
+
+Hydrant
+Reflect:Fire Skip40 [Aqua]
+10 HP, 30 MB
+Acc A, Spd E
+Personal, Projectile
+Tier 3
+- Completely nullifies Fire attacks and retaliates with Aqua
+
+Wires
+Reflect:Aqua Skip40 [Elec]
+10 HP, 30 MB
+Acc A, Spd E
+Personal, Projectile
+Tier 3
+- Completely nullifies Aqua attacks and retaliates with Elec
+
+Snapper
+Reflect:Elec Skip40 [Wood]
+10 HP, 30 MB
+Acc A, Spd E
+Personal, Floor
+Tier 3
+- Completely nullifies Elec attacks and retaliates with Wood
+
+Catcher
+Lucky Snatch [None]
+200 HP, 20 MB
+Acc D, Spd E
+Projectile
+Tier 3
+- Steals primed chip for remainder of battle
+- Increased chance to loot affected chip
+
+MindBndr
+Mind10 [None]
+100 HP, 10 MB
+Acc S, Spd C
+Projectile
+Tier 2
+- Forces random movement
+
+Recov10
+Heal10 [None]
+80 HP, 0 MB
+Spd A
+Personal
+Tier 1
+
+Recov30
+Heal30 [None]
+40 HP, 0 MB
+Spd A
+Personal
+Tier 3
+
+Recov50
+Heal50 [None]
+80 HP, 10 MB
+Spd B
+Personal
+Tier 1
+
+Recov80
+Heal80 [None]
+80 HP, 20 MB
+Spd B
+Personal
+Tier 2
+
+Recov120
+Heal120 [None]
+40 HP, 20 MB
+Spd C
+Personal
+Tier 2
+
+Recov150
+Heal150 [None]
+60 HP, 30 MB
+Spd C
+Personal
+Tier 3
+
+Recov200
+Heal200 [None]
+90 HP, 40 MB
+Spd D
+Personal
+Tier 3
+
+Recov300
+Heal300 [None]
+20 HP, 40 MB
+Spd D
+Personal
+Tier 4
+
+Recov500
+Heal500 [Dark]
+40 HP, 50 MB
+Spd E
+Personal
+Tier 5
+
+Dfrag50
+Fix50 [None]
+50 HP, 10 MB
+Spd S
+Personal
+Tier 1
+- Restores 50 HP to the next chip used
+
+Dfrag100
+Fix100 [None]
+100 HP, 20 MB
+Spd A
+Personal
+Tier 3
+- Restores 100 HP to the next chip used
+
+Dfrag150
+Fix150 [None]
+150 HP, 30 MB
+Spd C
+Personal
+Tier 4
+- Restores 150 HP to the next chip used
+
+VampBit1
+Absorb50 [Dark]
+60 HP, 30 MB
+Acc D, Spd B
+Melee
+Tier 1
+
+VampBit2
+Absorb80 [Dark]
+80 HP, 50 MB
+Acc D, Spd C
+Melee
+Tier 3
+
+VampBit3
+Absorb150 [Dark]
+80 HP, 70 MB
+Acc D, Spd D
+Melee
+Tier 4
+
+AirShoes
+Buff:Float [None]
+100 HP, 20 MB
+Spd C
+Personal
+Tier 3
+
+Candle1
+Defense DelayHeal40 [Fire]
+100 HP, 10 MB
+Spd C
+Obstacle
+Tier 2
+- Heals whole side of field
+
+Candle2
+Defense DelayHeal70 [Fire]
+100 HP, 20 MB
+Spd C
+Obstacle
+Tier 3
+- Heals whole side of field
+
+Candle3
+Defense DelayHeal100 [Fire]
+100 HP, 40 MB
+Spd C
+Obstacle
+Tier 4
+- Heals whole side of field
+
+Totem1
+Defense Delay Normal60 Heal50 [Fire]
+100 HP, 20 MB
+Acc B, Spd E
+Obstacle, Projectile
+Tier 2
+- Swaps between Healing and Damage each time it takes a hit
+
+Totem2
+Defense Delay Normal80 Heal80 [Fire]
+150 HP, 30 MB
+Acc B, Spd E
+Obstacle, Projectile
+Tier 3
+- Swaps between Healing and Damage each time it takes a hit
+
+Totem3
+Defense Delay Normal120 Heal100 [Fire]
+200 HP, 50 MB
+Acc B, Spd E
+Obstacle, Projectile
+Tier 4
+- Swaps between Healing and Damage each time it takes a hit
+
+Fanfare
+Defense InvisAll [None]
+80 HP, 30 MB
+Spd C
+Obstacle
+Tier 3
+- All entities on your side (except this Obstacle) gain Invis status while active
+
+Discord
+Defense MindAll [None]
+150 HP, 20 MB
+Acc S, Spd A
+Obstacle, Instant
+Tier 3
+- All entities on the opposing field are inflicted with Mind status while active
+
+RockCube
+Defense [None]
+250 HP, 10 MB
+Spd E
+Obstacle
+Tier 1
+
+IceCube
+Defense [Aqua]
+200 HP, 10 MB
+Spd E
+Obstacle
+Tier 2
+
+Pawn
+Defense DelayRand30 [None]
+150 HP, 10 MB
+Acc E, Spd E
+Obstacle, Melee
+Tier 2
+
+Rook
+Defense DelayAdd60 [None]
+120 HP, 30 MB
+Acc C, Spd D
+Obstacle, Projectile
+Tier 3
+
+Prism
+Defense DelayCopy [None]
+150 HP, 30 MB
+Acc S, Spd C
+Obstacle, Instant
+Tier 4
+- Repeats all damage dealt by user since it was placed
+
+Guardian
+Defense Counter150 [Sol]
+70 HP, 70 MB
+Acc S, Spd E
+Obstacle, Aerial
+Tier 5
+
+Wind
+Repel Remove [None]
+160 HP, 20 MB
+Acc S, Spd C
+Obstacle, Projectile
+Tier 2
+
+Fan
+Attract Remove [None]
+180 HP, 20 MB
+Acc S, Spd A
+Obstacle, Projectile
+Tier 2
+
+Anubis
+Defense AllAdd30 [None]
+230 HP, 60 MB
+Acc S, Spd C
+Obstacle, Floor
+Tier 5
+- Affects all opposing panels
+
+Press1
+Dodge1 [None]
+200 HP, 0 MB
+Spd B
+Personal
+Tier 1
+- Increases Dodge score by 1 grade
+
+Press2
+Dodge2 [None]
+120 HP, 10 MB
+Spd B
+Personal
+Tier 2
+- Increases Dodge score by 2 grades
+
+Press3
+Dodge3 [None]
+120 HP, 20 MB
+Spd C
+Personal
+Tier 3
+- Increases Dodge score by 3 grades
+
+Invis1
+Invis [None]
+10 HP, 20 MB
+Spd S
+Personal
+Tier 2
+
+Invis2
+Invis [None]
+20 HP, 30 MB
+Spd S
+Personal
+Tier 3
+
+Invis3
+Invis [None]
+40 HP, 40 MB
+Spd S
+Personal
+Tier 4
+
+DropDown
+Weak:Aerial Invis [Wood]
+60 HP, 30 MB
+Spd A
+Personal
+Tier 4
+
+Popup
+Weak:Floor Invis [None]
+60 HP, 30 MB
+Spd A
+Personal
+Tier 4
+
+Escape
+Weak:Projectile Invis Flee [None]
+100 HP, 30 MB
+Spd D
+Personal
+Tier 3
+- Slips out of a virus battle without fail
+
+StoneBod
+Defense Buff:Rock [None]
+80 HP, 30 MB
+Spd E
+Personal
+Tier 3
+- Take only 10 damage per hit while active
+
+Shadow1
+Defense Counter+ Rand30 [Dark]
+30 HP, 40 MB
+Acc S, Spd E
+Personal, Melee
+Tier 2
+- Immune to everything except Rand and [Sol]
+
+Shadow2
+Defense Counter+ Rand40 [Dark]
+30 HP, 50 MB
+Acc S, Spd E
+Personal, Melee
+Tier 3
+- Immune to everything except Rand and [Sol]
+
+Shadow3
+Defense Counter+ Rand60 [Dark]
+30 HP, 60 MB
+Acc S, Spd E
+Personal, Melee
+Tier 4
+- Immune to everything except Rand and [Sol]
+
+UnderSht
+Survive10 [None]
+120 HP, 20 MB
+Spd C
+Personal
+Tier 2
+- Survive with 10 HP
+
+UndrArmr
+Survive50 [None]
+30 HP, 50 MB
+Spd D
+Personal
+Tier 4
+- Survive with 50 HP
+
+Barrier
+Defense Barr1 [None]
+120 HP, 30 MB
+Spd S
+Personal
+Tier 2
+- Blocks a single hit without taking damage
+
+BblWrap
+Defense Barr1 [Aqua]
+90 HP, 30 MB
+Spd S
+Personal
+Tier 3
+- Blocks a single non-[Elec] hit without taking damage
+
+LeafShld
+Defense Barr1 [Wood]
+90 HP, 30 MB
+Spd S
+Personal
+Tier 3
+- Blocks a single non-[Fire] hit without taking damage
+
+Corona
+Defense Barr1 [Sol]
+100 HP, 30 MB
+Spd S
+Personal
+Tier 3
+- Blocks a single non-[Dark] hit without taking damage
+
+AquaAura
+Defense Aura80 [Aqua]
+60 HP, 50 MB
+Spd A
+Personal
+Tier 3
+- Blocks any non-[Elec] under 80 damage
+
+FireAura
+Defense Aura80 [Fire]
+60 HP, 50 MB
+Spd A
+Personal
+Tier 3
+- Blocks any non-[Aqua] under 80 damage
+
+WoodAura
+Defense Aura80 [Wood]
+60 HP, 50 MB
+Spd A
+Personal
+Tier 3
+- Blocks any non-[Fire] under 80 damage
+
+ElecAura
+Defense Aura80 [Elec]
+60 HP, 50 MB
+Spd A
+Personal
+Tier 3
+- Blocks any non-[Wood] under 80 damage
+
+LifeAur1
+Defense Aura60 [Life]
+60 HP, 30 MB
+Spd A
+Personal
+Tier 4
+- Blocks any hit under 60 damage
+
+LifeAur2
+Defense Aura100 [Life]
+40 HP, 50 MB
+Spd B
+Personal
+Tier 4
+- Blocks any hit under 100 damage
+
+LifeAur3
+Defense Aura150 [Life]
+10 HP, 60 MB
+Spd B
+Personal
+Tier 4
+- Blocks any hit under 150 damage
+
+DarkAura
+Defense Aura150 [Dark]
+100 HP, 80 MB
+Spd A
+Personal
+Tier 5
+- Blocks any non-[Sol] hit under 150 damage
+
+Jealousy
+Smash10 [None]
+10 HP, 60 MB
+Acc S, Spd S
+Projectile
+Tier 5
+- Destroys both Slot-In chips
+
+AntiFire
+Counter:Fire AllAdd40 [Fire]
+120 HP, 50 MB
+Acc S, Spd C
+Personal, Instant
+Tier 4
+- Cancels the incoming Fire attack
+
+AntiElec
+Counter:Elec AllAdd40 [Elec]
+120 HP, 50 MB
+Acc S, Spd C
+Personal, Instant
+Tier 4
+- Cancels the incoming Elec attack
+
+AntiWatr
+Counter:Aqua AllAdd40 [Aqua]
+120 HP, 50 MB
+Acc S, Spd C
+Personal, Instant
+Tier 4
+- Cancels the incoming Aqua attack
+
+AntiDmg
+Defense Counter:Life TripleRand30 [None]
+70 HP, 50 MB
+Acc C, Spd S
+Personal, Aerial
+Tier 4
+- Immune to any traditional element
+
+AntiSwrd
+Counter:Sword Rand80 [None]
+60 HP, 40 MB
+Acc S, Spd S
+Personal, Melee
+Tier 4
+- Cancels the incoming Rand damage
+
+AntiAir
+Counter:Aerial Delete120 [None]
+80 HP, 50 MB
+Acc B, Spd A
+Personal, Melee
+Tier 4
+- Cancels the incoming Aerial damage and deletes the offending chip
+
+AntiRecv
+Counter:Heal Normal??? [Dark]
+100 HP, 40 MB
+Acc S, Spd S
+Personal, Instant
+Tier 4
+- Cancels the attempt to recover HP and turns it into damage
+
+FstGauge
+Charge50% [None]
+200 HP, 20 MB
+Spd C
+Personal
+Tier 2
+
+FullCust
+Charge100% [None]
+50 HP, 40 MB
+Spd D
+Personal
+Tier 4
+
+Atk+10
+Power10 [None]
+160 HP, 10 MB
+Spd A
+Personal
+Tier 1
+
+Atk+20
+Power20 [None]
+80 HP, 10 MB
+Spd A
+Personal
+Tier 2
+
+Atk+30
+Power30 [None]
+80 HP, 20 MB
+Spd A
+Personal
+Tier 4
+
+Fire+40
+Power:Fire40 [Fire]
+60 HP, 20 MB
+Spd B
+Personal
+Tier 3
+
+Aqua+40
+Power:Aqua40 [Aqua]
+60 HP, 20 MB
+Spd B
+Personal
+Tier 3
+
+Wood+40
+Power:Wood40 [Wood]
+60 HP, 20 MB
+Spd B
+Personal
+Tier 3
+
+Elec+40
+Power:Elec40 [Elec]
+60 HP, 20 MB
+Spd B
+Personal
+Tier 3
+
+Sol+50
+Power:Sol50 [Sol]
+80 HP, 30 MB
+Spd C
+Personal
+Tier 4
+
+Dark+50
+Power:Dark50 [Dark]
+80 HP, 30 MB
+Spd C
+Personal
+Tier 4
+
+Navi+20
+Power:Navi20 [None]
+60 HP, 10 MB
+Spd C
+Personal
+Tier 1
+
+Navi+40
+Power:Navi40 [None]
+40 HP, 20 MB
+Spd C
+Personal
+Tier 3
+
+Battery
+Charge [Sol]
+200 HP, 0 MB
+Spd C
+Personal
+Tier 1
+- Fills the Custom Gauge by 1x Solar Level
++ This is a Solar Gun Part (Battery), and has a Gauge/2.5 efficiency rate
+
+DoublBat
+Charge [Sol]
+150 HP, 10 MB
+Spd C
+Personal
+Tier 2
+- Fills the Custom Gauge by 2x Solar Level
++ This is a Solar Gun Part (Battery), and has a Gauge/2 efficiency rate
+
+TriplBat
+Charge [Sol]
+80 HP, 10 MB
+Spd C
+Personal
+Tier 2
+- Fills the Custom Gauge by 3x Solar Level
++ This is a Solar Gun Part (Battery), and has a Gauge/1.5 efficiency rate
+
+QuadBatt
+Charge [Sol]
+80 HP, 20 MB
+Spd C
+Personal
+Tier 3
+- Fills the Custom Gauge by 4x Solar Level
++ This is a Solar Gun Part (Battery), and has a Gauge/1.2 efficiency rate
+
+QuintBat
+Charge [Sol]
+50 HP, 30 MB
+Spd C
+Personal
+Tier 4
+- Fills the Custom Gauge by 5x Solar Level
++ This is a Solar Gun Part (Battery), and has a Gauge/0.5 efficiency rate
+
+ChaosBat
+Charge [Dark]
+100 HP, 40 MB
+Spd C
+Personal
+Tier 4
+- Fills the Custom Gauge by a random amount remaining
++ This is a Solar Gun Part (Battery), requires a DarkLens, and has a Gauge/0.5 efficiency rate
+
+AstroBat
+Store [None]
+300 HP, 30 MB
+Spd C
+Personal
+Tier 5
+- Freezes your Custom Gauge for the remainder of the turn, preventing both filling and draining
++ This is a Solar Gun Part (Battery), requires a StarLens, and has a Gauge/1.5 efficiency rate without draining it
+
+Infinity
+Gauge [None]
+50 HP, 40 MB
+Spd E
+Personal
+Tier 5
+- Removes the cap on the Custom Gauge for the remainder of the turn
+* The gauge will not reset back to 100% until used
++ This is a Solar Gun Part (Battery) with a Gauge/1.0 efficiency rate and prevents draining
+
+SolLens
+Lens [Sol]
+100 HP*, 20 MB
+Spd A
+Personal
+Tier 4
+- Changes the next attack to the chip's own type
+* This stat is multiplied by the chip's Level, which increases with successful use.
++ This is a Solar Gun Part (Lens), and applies Blind
+
+LunaLens
+Lens [None]
+100 HP*, 10 MB
+Spd A
+Personal
+Tier 4
+- Changes the next attack to the chip's own type
+* This stat is multiplied by the chip's Level, which increases with successful use.
++ This is a Solar Gun Part (Lens)
++ At Level III, this applies Stun, and Lunacy grants it Atk+30
+
+FlameLns
+Lens [Fire]
+100 HP*, 20 MB
+Spd A
+Personal
+Tier 4
+- Changes the next attack to the chip's own type
+* This stat is multiplied by the chip's Level, which increases with successful use.
++ This is a Solar Gun Part (Lens), and applies AddAll
+
+FrostLns
+Lens [Aqua]
+100 HP*, 20 MB
+Spd A
+Personal
+Tier 4
+- Changes the next attack to the chip's own type
+* This stat is multiplied by the chip's Level, which increases with successful use.
++ This is a Solar Gun Part (Lens), and freezes affected panels
+
+EarthLns
+Lens [Wood]
+100 HP*, 20 MB
+Spd A
+Personal
+Tier 4
+- Changes the next attack to the chip's own type
+* This stat is multiplied by the chip's Level, which increases with successful use.
++ This is a Solar Gun Part (Lens), and applies Restore
+
+CloudLns
+Lens [Elec]
+100 HP*, 20 MB
+Spd A
+Personal
+Tier 4
+- Changes the next attack to the chip's own type
+* This stat is multiplied by the chip's Level, which increases with successful use.
++ This is a Solar Gun Part (Lens), and applies Break
+
+DarkLens
+Lens [Dark]
+100 HP*, 20 MB
+Spd A
+Personal
+Tier 4
+- Changes the next attack to the chip's own type
+* This stat is multiplied by the chip's Level, which increases with successful use.
++ This is a Solar Gun Part (Lens), requires a ChaosBat, and applies Drain
+
+StarLens
+Lens [Life]
+100 HP*, 30 MB
+Spd A
+Personal
+Tier 5
+- Changes the next attack to the chip's own type
+* This stat is multiplied by the chip's Level, which increases with successful use.
++ This is a Solar Gun Part (Lens), and requires an AstroBat
+
+Fighter
+FrameCann10 [None]
+50 HP, 0 MB
+Acc D, Spd A
+Personal, Projectile+
+Tier 1
+- Changes the attack to a Cannon's type and uses this chip's Acc and Spd
++ This is a Solar Gun Part (Frame) that fires a single shot
+
+Knight
+FrameWide20 [None]
+80 HP, 20 MB
+Acc C, Spd B
+Personal, Melee+, Projectile+
+Tier 3
+- Changes the attack to a WideSwrd's type and uses this chip's Acc and Spd
++ This is a Solar Gun Part (Frame) that deals Melee damage equal to Battery output, then fires a shot
+
+Crusader
+FrameWide30 [None]
+120 HP, 30 MB
+Acc B, Spd B
+Personal, Melee+, Projectile+
+Tier 4
+- Changes the attack to a WideSwrd's type and uses this chip's Acc and Spd
++ This is a Solar Gun Part (Frame) that deals Melee damage equal to Battery output, then fires a shot
+
+Dragoon
+FrameWide50 [Sol]*
+160 HP, 40 MB
+Acc A, Spd A
+Personal, Melee+, Projectile+
+Tier 5
+- Changes the attack to a WideSwrd's type and uses this chip's Acc and Spd
++ This is a Solar Gun Part (Frame) that deals Melee damage equal to Battery output, then fires a shot
+* This element only matters for Priority and the StarLens
+
+Axel
+FrameSpin [None]
+50 HP, 0 MB
+Acc D, Spd C
+Personal, Melee+
+Tier 1
+- Changes the attack to a Melee Counter that hits all panels adjacent to the user
++ This is a Solar Gun Part (Frame) that deals Melee damage equal to 50% Battery output to all panels adjacent to user
+
+Vortex
+FrameDouble [None]
+80 HP, 20 MB
+Acc D, Spd B
+Personal, Melee+
+Tier 3
+- Changes the attack to a Melee Counter that hits all panels adjacent to the user twice
++ This is a Solar Gun Part (Frame) that deals Melee damage equal to 40% Battery output to all panels adjacent to user twice
+
+Cyclone
+FrameTriple [None]
+120 HP, 30 MB
+Acc D, Spd A
+Personal, Melee+
+Tier 4
+- Changes the attack to a Melee Counter that hits all panels adjacent to the user three times
++ This is a Solar Gun Part (Frame) that deals Melee damage equal to 30% Battery output to all panels adjacent to user three times
+
+Tempest
+FrameQuad [Elec]*
+160 HP, 40 MB
+Acc D, Spd S
+Personal, Melee+
+Tier 5
+- Changes the attack to a Melee Counter that hits all panels adjacent to the user four times
++ This is a Solar Gun Part (Frame) that deals Melee damage equal to 30% Battery output to all panels adjacent to user four times
+* This element only matters for Priority and the StarLens
+
+Fencer
+FrameRand [None]
+50 HP, 0 MB
+Acc E, Spd C
+Personal, Melee+
+Tier 1
+- Changes the attack to a Melee that deals damage to a random chip
++ This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to 80% Battery output
+
+Duelist
+FrameRand [None]
+80 HP, 20 MB
+Acc D, Spd C
+Personal, Melee+
+Tier 3
+- Changes the attack to a Melee that deals damage to a random chip
++ This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to Battery output
+
+Shinobi
+FrameRand [None]
+120 HP, 30 MB
+Acc D, Spd A
+Personal, Melee+
+Tier 4
+- Changes the attack to a Melee that deals damage to a random chip
++ This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to 110% Battery output
+
+Samurai
+FrameRand [Fire]*
+160 HP, 40 MB
+Acc C, Spd A
+Personal, Melee+
+Tier 5
+- Changes the attack to a Melee that deals damage to a random chip
++ This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to 125% Battery output
+* This element only matters for Priority and the StarLens
+
+Spear
+FrameShove10 [None]
+50 HP, 0 MB
+Acc E, Spd D
+Personal, Melee+
+Tier 1
+- Changes the attack to a Melee that inflicts Shove
++ This is a Solar Gun Part (Frame) that deals Melee damage at 25% Battery cost
+
+Pike
+FrameShovePierce50 [None]
+80 HP, 20 MB
+Acc E, Spd B
+Personal, Melee+
+Tier 3
+- Changes the attack to a Melee that Shoves and Pierces
++ This is a Solar Gun Part (Frame) that deals Melee damage at 25% Battery cost
+
+Javelin
+FrameShovePierceStun80 [None]
+120 HP, 30 MB
+Acc E, Spd A
+Personal, Melee+
+Tier 4
+- Changes the attack to a Melee that Shoves, Stuns, and Pierces
++ This is a Solar Gun Part (Frame) that deals Melee damage at 25% Battery cost
+
+Phalanx
+FrameShoveBreakStun120 [Wood]*
+160 HP, 40 MB
+Acc E, Spd S
+Personal, Melee+
+Tier 5
+- Changes the attack to a Melee that Shoves, Stuns, and Breaks
++ This is a Solar Gun Part (Frame) that deals Melee damage at 25% Battery cost
+* This element only matters for Priority and the StarLens
+
+Knife
+Frame2Meteo10 [None]
+50 HP, 0 MB
+Acc D, Spd B
+Personal, Projectile+
+Tier 1
+- Changes the attack to a flurry of two shots at half damage
++ This is a Solar Gun Part (Frame) that fires 10% of Battery output as shots
+
+Dagger
+Frame3Meteo20 [None]
+80 HP, 20 MB
+Acc D, Spd B
+Personal, Projectile+
+Tier 3
+- Changes the attack to a flurry of three shots
++ This is a Solar Gun Part (Frame) that fires 10% of Battery output as shots
+
+Gradius
+Frame4Meteo30 [None]
+120 HP, 30 MB
+Acc D, Spd A
+Personal, Projectile+
+Tier 4
+- Changes the attack to a flurry of four shots
++ This is a Solar Gun Part (Frame) that fires 10% of Battery output as shots
+
+Calamity
+Frame5Meteo40 [Aqua]*
+160 HP, 40 MB
+Acc C, Spd A
+Personal, Projectile+
+Tier 5
+- Changes the attack to a flurry of five shots
++ This is a Solar Gun Part (Frame) that fires 10% of Battery output as shots
+* This element only matters for Priority and the StarLens
+
+Otorange
+FrameStunMind60 [None]
+120 HP, 30 MB
+Acc D, Spd D
+Personal, Projectile+
+Tier 4
+- Changes the attack to a projectile that Stuns and Mindbends
++ This is a Solar Gun Part (Frame) that fires a shot at 20% Battery usage
+
+Shield
+FrameDefense [None]
+200 HP, 30 MB
+Spd E
+Personal, Obstacle+
+Tier 4
+- Changes the attack to an Obstacle that uses its attack at the end of the turn
++ This is a Solar Gun Part (Frame) that adds Battery output to the chip as additional HP
+
+Juggler
+FrameAdd80 [None]
+120 HP, 30 MB
+Acc B, Spd D
+Personal, Aerial+
+Tier 4
+- Changes the attack to an Aerial that deals chip damage
++ This is a Solar Gun Part (Frame) with 20% Battery usage
+
+Phantom
+FrameDarkWide70 [Dark]
+250 HP, 40 MB
+Acc S, Spd S
+Personal, Melee+, Projectile+
+Tier 5
+- Changes the attack to a double damage DarkChip with a WideSwrd's type and uses this chip's Acc and Spd
++ This is a Solar Gun Part (Frame) that deals Melee damage equal to Battery output, then fires a shot
++ This requires a DarkLens and a ChaosBat
+
+Stalker
+Frame Skip60 [None]
+120 HP, 30 MB
+Acc S, Spd S
+Personal, Projectile+
+Tier 4
+- Changes the attack to a high-accuracy projectile
++ This is a Solar Gun Part (Frame) that uses 20% of Battery output and ignores Defenses
+
+Wizard
+FrameMulti60 [None]
+120 HP, 20 MB
+Acc B, Spd B
+Personal, Projectile+
+Tier 4
+- Makes the attack hit all opposing targets
++ This is a Solar Gun Part (Frame) that uses 10% of Battery output
+
+Napalm
+AllAdd10 [Fire]
+250 HP, 30 MB
+Acc C, Spd C
+Aerial
+Tier 3
+- Hits a cross pattern
+- Leaves a Lava Panel where it landed
+
+Sanitize
+Consume:Swamp [None]
+250 HP, 20 MB
+Spd A
+Personal
+Tier 3
+- Turns all Swamp Panels into Basic Panels
+- Gain 25% gauge per Swamp Panel
+
+FlashBom
+AllAddBlind20 [None]
+250 HP, 30 MB
+Acc S, Spd A
+Aerial
+Tier 3
+- Hits whole field
+
+ScanBomb
+AllAddDisarm10 [None]
+250 HP, 30 MB
+Acc S, Spd C
+Aerial
+Tier 3
+- Removes personal buffs from target
+- Disarms all bomb obstacles
+
+Sunrise
+AllAddSun10 [Sol]
+250 HP, 30 MB
+Acc A, Spd C
+Aerial
+Tier 4
+- Raises UV level by 4
+
+Nitemare
+AllAdd40 [Dark]
+250 HP, 50 MB
+Acc B, Spd D
+Aerial
+Tier 4
+- Stretches forever in the cardinal directions on impact
+
+PineAppl
+AllAdd??? [Sol]
+250 HP, 60 MB
+Acc A, Spd D
+Aerial
+Tier 5
+- Drains gauge to deal 10 damage per 20%, and hits once per 2 bars of sunlight
+
+BgRedWav
+Pierce AllAdd90 [Fire]
+10 HP, 80 MB
+Acc A, Spd E
+Floor
+Tier 5
+- Sweeps entire field
+
+FreezBom
+AllAdd40 [Aqua]
+250 HP, 40 MB
+Acc B, Spd B
+Aerial, Floor
+Tier 5
+- Causes ice spires to rise in a cross formation on impact
+- Freezes Sea Panels
+
+Sparker
+Defense AllAdd50 [Elec]
+300 HP, 70 MB
+Acc C, Spd B
+Projectile
+Tier 5
+
+GaiaSwrd
+Copy:NextAll Rand100+ [Wood]
+90 HP, 70 MB
+Acc C, Spd D
+Melee
+Tier 5
+- Swipes both vertically adjacent panels
+
+BlkBomb
+Defense Counter:Fire AllAdd60 [Fire]
+300 HP, 50 MB
+Acc A, Spd C
+Obstacle, Instant
+Tier 5
+- Stops blocking when hit by Fire
+- Hits entire enemy field
+
+PwrSurge
+RecoilStun50:Max Custom??? [Elec]
+200 HP, 50 MB
+Acc S, Spd A
+Floor
+Tier 5
+- Aims in a straight line
+- Drains the Custom Gauge to do 150% damage based on what drained
+- Full Gauge causes user to take 50 damage and Stun
+
+FoldrBak
+AllFix300 [None]
+10 HP, 80 MB
+Spd A
+Personal
+Tier 5
+- Restores the entire deck's health
+
+FtrSword
+Rand150 [None]
+150 HP, 40 MB
+Acc C, Spd B
+Melee
+Tier 4
+- Reaches two panels behind target
+
+KngtSwrd
+Rand180 [None]
+130 HP, 50 MB
+Acc C, Spd C
+Melee
+Tier 4
+- Reaches two panels behind target
+
+HeroSwrd
+Rand250 [None]
+110 HP, 70 MB
+Acc C, Spd B
+Melee
+Tier 5
+- Reaches two panels behind target
+
+Meteors
+6Meteo60 [Fire]
+70 HP, 80 MB
+Acc E, Spd C
+Aerial
+Tier 5
+- Misses hit random panels
+
+BlueMoon
+Add160 [None]
+200 HP, 60 MB
+Acc B, Spd D
+Aerial
+Tier 5
+- Boosted by Lunacy
+
+RedSun
+SolarMeteo80 [Sol]
+90 HP, 60 MB
+Acc C, Spd A
+Aerial
+Tier 5
+- Strikes once for every Solar Level
+- Misses hit random panels
+
+DeltEdge
+TripleRand70 [None]
+90 HP, 60 MB
+Acc C, Spd A
+Melee
+Tier 5
+- Cuts a triangle around target
+
+MetrStge
+Panel 9Meteo??? [Life]
+30 HP, 60 MB
+Acc B, Spd B
+Aerial
+Tier 5
+- Targets 9 opposing panels
+- Strikes each one with a random panel type that determines the effect
+
+Poltrgst
+Throw120 [None]
+160 HP, 50 MB
+Acc A, Spd B 
+Projectile
+Tier 5
+- Every Obstacle on the field gets thrown at the target
+
+FuryBust
+5Meteo30 [None]
+250 HP, 30 MB
+Acc S, Spd A
+Projectile
+Tier 4
+Requires "Lunacy" to work
+
+Rippler
+Add100 [None]
+200 HP, 20 MB
+Acc B, Spd C
+Projectile
+Tier 4
+Requires "Lunacy" to work
+
+EchoBomb
+AllAdd80 [None]
+150 HP, 30 MB
+Acc A, Spd E
+Aerial
+Tier 5
+Requires "Lunacy" to work
+
+Horizon
+Rand150 [None]
+200 HP, 20 MB
+Acc D, Spd B
+Melee
+Tier 5
+Requires "Lunacy" to work
+
+Moondish
+Regen100 [None]
+300 HP, 10 MB
+Spd C
+Personal
+Tier 4
+Requires "Lunacy" to work
+
+PanlGrab
+Steal:Front10 [None]
+120 HP, 0 MB
+Acc A, Spd A
+Aerial
+Tier 1
+- Steals first enemy panel in front of user
+- Does 10 damage if blocked
+
+AreaGrab
+Steal:Row10 [None]
+120 HP, 10 MB
+Acc A, Spd A
+Aerial
+Tier 2
+- Steals front 3 enemy panels
+- Does 10 damage when blocked
+
+MetaGel1
+Steal:Row30 [Aqua]
+60 HP, 10 MB
+Acc B, Spd D
+Aerial
+Tier 2
+- Steals front 3 enemy panels
+- Does 30 damage when blocked
+
+MetaGel2
+Steal:Row50 [Aqua]
+90 HP, 20 MB
+Acc B, Spd D
+Aerial
+Tier 3
+- Steals front 3 enemy panels
+- Does 50 damage when blocked
+
+MetaGel3
+Steal:Row70 [Aqua]
+150 HP, 30 MB
+Acc B, Spd D
+Aerial
+Tier 4
+- Steals front 3 enemy panels
+- Does 70 damage when blocked
+
+HeatPanl
+Panel:Front [Fire]
+50 HP, 0 MB
+Spd C
+Instant
+Tier 1
+- The panel in front of the user turns to Heat
+
+SeaPanel
+Panel:Front [Aqua]
+50 HP, 0 MB
+Spd C
+Instant
+Tier 1
+- The panel in front of the user turns to Sea
+
+GrassPnl
+Panel:Front [Wood]
+50 HP, 0 MB
+Spd C
+Instant
+Tier 1
+- The panel in front of the user turns to Grass
+
+ChargPnl
+Panel:Front [Elec]
+50 HP, 0 MB
+Spd C
+Instant
+Tier 1
+- The panel in front of the user turns to Charger
+
+AlumiPnl
+Panel:Front [None]
+50 HP, 0 MB
+Spd C
+Instant
+Tier 1
+- The panel in front of the user turns to Metal
+
+LavaPanl
+Panel:Front [Fire]
+50 HP, 10 MB
+Spd C
+Instant
+Tier 2
+- The panel in front of the user turns to Lava
+
+PanlOut
+Panel:Front10 [None]
+30 HP, 10 MB
+Spd C
+Melee
+Tier 2
+- The panel in front of the user is whacked and broken
+
+HolyPanl
+Panel:Self [Sol]
+20 HP, 40 MB
+Spd C
+Instant
+Tier 4
+- The panel the user is standing on turns to Holy
+
+IceLine
+Panel:Line [Aqua]
+30 HP, 10 MB
+Spd C
+Instant
+Tier 2
+- The user's entire horizontal line turns to Ice
+
+MagLine
+Panel:Line [Elec]
+30 HP, 10 MB
+Spd C
+Instant
+Tier 2
+- The user's entire horizontal line turns to Magnet
+
+Repair
+Panel:Stage [None]
+30 HP, 10 MB
+Spd D
+Instant
+Tier 1
+- The entire stage returns to Basic Panels
+
+HeatStge
+Panel:Stage [Fire]
+10 HP, 20 MB
+Spd D
+Instant
+Tier 2
+- The entire stage turns to Heat Panels
+
+SeaStage
+Panel:Stage [Aqua]
+10 HP, 20 MB
+Spd D
+Instant
+Tier 2
+- The entire stage turns to Sea Panels
+
+Desert
+Panel:Stage [None]
+10 HP, 20 MB
+Spd D
+Instant
+Tier 2
+- The entire stage turns to Sand Panels
+
+GrassStg
+Panel:Stage [Wood]
+10 HP, 20 MB
+Spd D
+Instant
+Tier 2
+- The entire stage turns to Sand Panels
+
+ChargStg
+Panel:Stage [Elec]
+10 HP, 20 MB
+Spd D
+Instant
+Tier 2
+- The entire stage turns to Charger Panels
+
+AlumiStg
+Panel:Stage [None]
+10 HP, 20 MB
+Spd D
+Instant
+Tier 2
+- The entire stage turns to Metal Panels
+
+IceStage
+Panel:Stage [Aqua]
+10 HP, 20 MB
+Spd D
+Instant
+Tier 2
+- The entire stage turns to Ice Panels
+
+LavaStge
+Panel:Stage [Fire]
+10 HP, 40 MB
+Spd D
+Instant
+Tier 3
+- The entire stage turns to Lava Panels
+
+Geddon1
+Panel:Stage [None]
+10 HP, 20 MB
+Spd D
+Instant
+Tier 3
+- The entire stage is Cracked
+
+Geddon2
+Panel:Stage [None]
+10 HP, 30 MB
+Spd D
+Instant
+Tier 4
+- The entire stage is broken
+
+Geddon3
+Panel:Stage [None]
+10 HP, 30 MB
+Spd D
+Instant
+Tier 4
+- The entire stage turns to Swamp Panels
+
+DarkPrtl
+Panel:Front [Dark]
+10 HP, 20 MB
+Spd C
+Instant
+Tier 4
+- Opens a sinister hole that removes all Darkchip penalties
+
+Beacon
+Panel:Front [Sol]
+10 HP, 20 MB
+Spd C
+Instant
+Tier 4
+- Opens a brilliant gate that removes all Solar Lashback
+
+Sanctary
+Panel:Territory [Sol]
+10 HP, 80 MB
+Spd D
+Instant
+Tier 5
+- Turns the user's entire field to Holy Panels

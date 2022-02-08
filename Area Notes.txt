@@ -1,0 +1,181 @@
+All viruses within an area have a 3/256 chance to "share" chips with each other.
+Areas segmented into tiers for purposes of "Emergent Viruses"
+Want Quarantine to be plot climax but maybe should just have different plot?
+WWW Castle also has plot relevance, but they're all the Postgame Areas.
+Will probably have a plot that subdues the threats and Postgame Areas resolve them.
+
+ACDC
+Panels:
+-     1-3: Mystery Data
+-    4-14: Tree
+-   15-40: Sand
+-   41-70: Grass
+-  71-256: Basic
+Viruses:
+-     1-3: "Emergent"
+-    4-25: heatshot dog
+-   26-50: Ratty
+-   51-75: school thing
+-  76-125: RelyAnt
+- 126-175: Bushy
+- 176-256: Pebblet
+
+Den City
+Panels:
+-     1-3: Mystery Data
+-    4-14: Aluminum
+-   15-40: Cracked
+-   41-85: Heat
+-  86-256: Basic
+Viruses:
+-     1-3: "Emergent"
+-    4-25: Batty
+-   26-50: Traffic Light thing
+-   51-75: Cloudy
+-  76-125: Beetank
+- 126-175: Gunnet
+- 176-256: Mettaur1
+
+Kotobuki
+Panels:
+-     1-3: Mystery Data
+-    4-14: Sea
+-   15-40: Charging
+-   41-95: Heat
+-  96-256: Basic
+Viruses:
+-     1-3: "Emergent"
+-    4-25: Shrimpy
+-   26-50: Flower thing
+-   51-75: invis ghost
+-  76-125: Swordy
+- 126-175: Bunny
+- 176-256: Mettaur1
+
+
+SciLab
+Panels:
+-     1-6: Mystery Data
+-    7-10: Sand
+-   11-20: Gear
+-   21-75: Charging
+-  76-140: Aluminum
+- 141-180: Heat
+- 181-256: Basic
+
+Hospital
+Panels:
+-     1-6: Mystery Data
+-    7-10: Lava
+-   11-20: Holy
+-   21-75: Grass
+-  76-140: Heat
+- 141-180: Sea
+- 181-256: Basic
+
+Okuden
+-     1-6: Mystery Data
+-    7-20: Swamp
+-   21-40: Tree
+-   41-75: Boulder
+-  76-140: Grass
+- 141-180: Heat
+- 181-256: Basic
+
+Airport
+-     1-6: Mystery Data
+-    7-10: Abyss
+-   11-20: Cracked
+-   21-75: Magnet
+-  76-140: Heat
+- 141-180: Charging
+- 181-256: Basic
+
+
+YumLand (Grass, Cracked, Swamp?)
+Panels:
+-    1-12: Mystery Data
+-   13-25: Sand
+-   26-40: Ice
+-   41-60: Boulder
+-   61-90: Swamp
+-  91-130: Cracked
+- 131-200: Grass
+- 201-256: Basic
+
+Nettopia (Heat, Magnet, Sea)
+Panels:
+-    1-12: Mystery Data
+-   13-25: Lava
+-   26-40: Abyss
+-   41-60: Gear
+-   61-90: Magnet
+-  91-130: Aluminum
+- 131-200: Heat
+- 201-256: Charging
+
+Kingscape (Grass, Sand, Lava)
+Panels:
+-    1-12: Mystery Data
+-   13-25: Sea
+-   26-40: Holy
+-   41-60: Tree
+-   61-90: Grass
+-  91-130: Heat
+- 131-200: Sand
+- 201-256: Basic
+
+Icewall (Ice, Sea, Metal)
+Panels:
+-    1-12: Mystery Data
+-   13-25: Abyss
+-   26-40: Cracked
+-   41-60: IceCube
+-   61-90: Magnet
+-  91-130: Sea
+- 131-200: Ice
+- 201-256: Aluminum
+
+
+UnderNet Beta
+Panels:
+-    1-18: Mystery Data
+-   19-25: Volcano
+-   26-50: Abyss
+-   51-90: Lava
+-  91-130: Aluminum
+- 131-170: Swamp
+- 171-210: Grass
+- 211-256: Basic
+
+UnderNet Gamma
+Panels:
+-    1-18: Mystery Data
+-   19-25: Fountain
+-   26-50: Abyss
+-   51-90: Magnet
+-  91-130: Sand
+- 131-170: Ice
+- 171-210: Cracked
+- 211-256: Basic
+
+UnderNet Delta
+Panels:
+-    1-18: Mystery Data
+-   19-22: DarkHole
+-   23-25: Beacon
+-   26-50: Abyss
+-   51-90: Sand
+-  91-130: Charging
+- 131-170: Heat
+- 171-210: Sea
+- 211-256: Basic
+
+
+WWW Castle (LaserMan, NapalmMan, PlanetMan)
+
+Admin Lounge (Comet, DarkMan, Serenade)
+
+Bitrot (JunkMan, VideoMan, YokuMan)
+
+Quarantine (Medic, GateMan, Sigma)
