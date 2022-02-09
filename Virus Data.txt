@@ -1128,6 +1128,126 @@ Attacks: (4-90/256)
 - Trident
 - ElecBall (Guarantee 2)
 
+Shroob (Tier 3)
+140 HP [Wood]
+Dodge D, Spd B
+Flavour:
+- A fungal shrub with a sturdy mask. Claims to be a VPN.
+Movement:
+- Lateral
+Traits:
+- Immunity: Swamp
+- Armor: 50
+Attacks: (4-75/256)
+- TreeBom1
+- TreeBom2
+- Lance
+- Spice1
+- SloGauge (Guarantee)
+- Yo-Yo1
+- Boomer1
+- Boomer2
+- CrsShld1
+- PoisMask (Guarantee 2)
+- Guard
+- Recov50
+- VampBit1
+- DarkLens
+- Knight
+- Pike
+- Shield
+- GrassStg
+- DarkPrtl
+
+Shrooob (Tier 4)
+180 HP [Wood]
+Dodge D, Spd A
+Flavour:
+- A brighter variant of Shroob. Toxicity behind a proxy.
+Movement:
+- Lateral
+Traits:
+- Immunity: Swamp
+- Armor: 50
+Attacks: (4-128/256)
+- PoisSprd
+- TreeBom2
+- Lance
+- Spice2
+- SloGauge (Guarantee)
+- Yo-Yo2
+- Boomer2
+- CrsShld1
+- CrsShld2
+- PoisMask (Guarantee)
+- PoisFace (Guarantee 2)
+- Decay
+- Guard
+- OldWood
+- Recov80
+- Dfrag50
+- VampBit2
+- DarkLens
+- Knight
+- Javelin
+- Shield
+- PanlOut
+- GrassStg
+- Geddon3
+- DarkPrtl
+
+Shroooob (Tier 5: Bitrot)
+250 HP [Wood]
+Dodge C, Spd A
+Flavour:
+- A darker variant of Shroob. Decay as an extant form of life.
+Movement:
+- Lateral
+Traits:
+- Immunity: Swamp
+- Trail: Swamp
+- Armor: 50
+Attacks: (4-200/256)
+- PoisSprd (Guarantee)
+- TreeBom2
+- TreeBom3
+- Lance
+- Muramasa
+- Spice2
+- Spice3
+- SloGauge
+- Yo-Yo2
+- Yo-Yo3
+- Boomer2
+- Boomer3
+- CrsShld2
+- CrsShld3
+- PoisMask
+- PoisFace (Guarantee)
+- Decay
+- Guard
+- Snapper
+- OldWood
+- Anubis
+- Recov80
+- Recov150
+- Dfrag100
+- VampBit2
+- VampBit3
+- Wood+40
+- Dark+50
+- TriplBat
+- QuadBatt
+- DarkLens
+- Crusader
+- Phalanx
+- Shield (Guarantee)
+- PanlOut
+- GrassStg
+- Geddon1
+- Geddon3
+- DarkPrtl
+
 TimeFace (Tier 2: Workplaces)
 120 HP [None]
 Dodge C, Spd A
