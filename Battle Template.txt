@@ -13,22 +13,22 @@ ________          SeaStage
                   MedCloud
 ________                   ________
 
-2. Knighted
+2. Shroooob
 
-________                   ________
-                  StoneBod
-         ________          FtrSword
-________          ________
-         ElecSwrd          AreaGrab
-                  LongSwrd
-________                   CustSwrd
-
-3. BlueOcto
-
-AquaBall                   ________
+________                   DarkPrtl
                   ________
-         InkSprd           InkSprd
-________          AquaBall
-         ________          ________
-                  InkSprd
-________                   ________
+         Guard             Geddon1 
+________          Shield
+         Anubis            PoisFace
+                  PoisSprd
+CrsShld3                   Boomer2
+
+3. Steeled
+
+________                   AquaSwrd
+                  ________
+         StepSwrd          ________
+________          AquaBlde
+         AquaSwrd          Sword
+                  ________
+AreaGrab                   ________
