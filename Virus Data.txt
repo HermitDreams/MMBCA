@@ -683,7 +683,7 @@ Attacks: (4-200/256)
 - HeroSwrd
 - HolyPanl (Guarantee)
 - Beacon
-- Sanctary
+- Sancuary
 
 Pebblet (Tier 1: Hometowns)
 100 HP [None]
@@ -769,7 +769,7 @@ Attacks: (4-200/256)
 - Atk+30
 - Repair
 - Geddon2
-- Sanctary
+- Sancuary
 
 Batty (Tier 1)
 60 HP [Dark]
@@ -854,6 +854,7 @@ Attacks: (4-64/256)
 - Wrecker (Guarantee x2)
 - CannBall (Guarantee)
 - StoneBod
+- Juggler
 - UnderSht
 
 Hothead
@@ -886,6 +887,7 @@ Attacks: (4-96/256)
 - Totem2
 - StoneBod
 - UnderSht
+- Trebucht
 - Meteors
 - LavaPanl
 - LavaStge (Guarantee)
@@ -917,6 +919,7 @@ Attacks: (4-96/256)
 - Wind
 - StoneBod
 - UnderSht
+- Trebucht
 - FreezBom
 - IceLine
 - IceStage (Guarantee)
@@ -953,7 +956,10 @@ Attacks: (4-128/256)
 - LifeAur2
 - Recov120
 - Dfrag100
+- DoublBat
 - DarkLens
+- Missile
+- Juggler
 - Nitemare (Guarantee)
 - Geddon1
 
@@ -1076,6 +1082,142 @@ Attacks: (4-200/256)
 - Poltrgst
 - MagLine
 - Desert
+
+Cupid (Tier 2: Airport)
+100 HP [Sol]
+Dodge C, Spd C
+Flavour:
+- A winged virus inviting you to find singles outside your area
+Movement:
+- Moves diagonally one panel at a time
+Traits:
+- Suspended
+- Deficiency: 20
+Attacks: (4-60/256)
+- WideSwrd
+- DashAtk
+- DoubNdl
+- TripNdl
+- LiteRay1 (Guarantee)
+- No-Beam1 (Guarantee)
+- Catcher
+- MindBndr
+- Barrier
+- Recov50
+- Atk+10
+- Battery
+- SolLens
+- Quiver
+- Archer
+- Sanitize (Guarantee)
+- ScanBomb
+- Repair
+
+Icarus (Tier 4)
+160 HP [Sol]
+Dodge B, Spd A
+Flavour:
+- A stern variant of Cupid. Marks NetNavis that surf too close to the ads.
+Movement:
+- Moves diagonally one panel at a time
+Traits:
+- Suspended
+- Deficiency: 30
+Attacks: (4-80/256)
+- WideSwrd
+- CustSwrd
+- DashAtk
+- Remobit1
+- TripNdl
+- QuadNdl
+- LiteRay1
+- LiteRay2 (Guarantee)
+- No-Beam1
+- No-Beam2 (Guarantee)
+- Fanfare
+- Piledriv
+- Catcher
+- MindBndr
+- DropDown
+- Barrier (Guarantee)
+- Corona
+- LifeAur1
+- Jealousy
+- Recov80
+- Atk+10
+- Atk+20
+- DoublBat
+- TriplBat
+- SolLens
+- Archer
+- Trebucht
+- Sanitize (Guarantee)
+- FlashBom
+- ScanBomb
+- Sunrise
+- FtrSword
+- HolyPanl
+- Beacon
+
+Angel
+250 HP [Sol]
+Dodge S, Spd S
+Flavour:
+- A divine variant of Cupid. Judges the infected for their browser history.
+Movement:
+- Moves diagonally per action
+Traits:
+- AirShoes
+- Charge: x1.5
+- Deficiency: 50
+Attacks: (4-90/256)
+- StepSwrd
+- VarSwrd
+- CustSwrd
+- BigCloud
+- DashAtk
+- Condor
+- Remobit2
+- QuadNdl
+- LiteRay1
+- LiteRay2
+- LiteRay3 (Guarantee)
+- No-Beam1
+- No-Beam2
+- No-Beam3 (Guarantee)
+- Meteor5
+- Fanfare (Guarantee)
+- Piledriv
+- Catcher
+- MindBndr
+- DropDown
+- Barrier
+- Corona
+- LifeAur2
+- Jealousy
+- Recov200 (Guarantee)
+- Atk+20
+- Atk+30
+- Sol+50
+- TriplBat
+- QuadBatt
+- SolLens
+- Gradius
+- Trebucht
+- Missile
+- Juggler
+- Stalker
+- Sanitize
+- FlashBom
+- ScanBomb
+- Sunrise
+- Pineappl
+- GaiaSwrd
+- KngtSwrd
+- RedSun
+- HolyPanl
+- Beacon
+- Sancuary
 
 BlueOcto (Tier 3)
 200 HP [Aqua]
