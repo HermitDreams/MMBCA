@@ -568,6 +568,27 @@ Acc B, Spd A
 Projectile
 Tier 4
 
+LiteRay1
+Double30 [Sol]
+150 HP, 20 MB
+Acc S, Spd S
+Aerial
+Tier 2
+
+LiteRay2
+Triple30 [Sol]
+200 HP, 40 MB
+Acc S, Spd S
+Aerial
+Tier 3
+
+LiteRay3
+Quad30 [Sol]
+300 HP, 50 MB
+Acc S, Spd S
+Aerial
+Tier 4
+
 Ratton1
 Add40 [None]
 80 HP, 10 MB
@@ -758,7 +779,7 @@ Tier 4
 - Targets all Lava Panels on field
 
 No-Beam1
-Require:Obstacle Add50 [None]
+Require:Obstacle Add50 [Sol]
 200 HP, 10 MB
 Acc A, Spd B
 Projectile
@@ -766,7 +787,7 @@ Tier 2
 - Launches attack from behind an obstacle
 
 No-Beam2
-Require:Obstacle Add70 [None]
+Require:Obstacle Add70 [Sol]
 220 HP, 20 MB
 Acc A, Spd B
 Projectile
@@ -774,7 +795,7 @@ Tier 3
 - Launches attack from behind an obstacle
 
 No-Beam3
-Require:Obstacle Add100 [None]
+Require:Obstacle Add100 [Sol]
 250 HP, 30 MB
 Acc A, Spd B
 Projectile
@@ -2262,6 +2283,42 @@ Tier 5
 + This is a Solar Gun Part (Frame) that fires 10% of Battery output as shots
 * This element only matters for Priority and the StarLens
 
+Quiver
+FrameAerial [None]
+50 HP, 0 MB
+Acc D, Spd E
+Personal, Aerial+
+Tier 1
+- Changes the attack to an Aerial type
++ This is a Solar Gun Part (Frame) that drains the full gauge to deal 10 damage per 20% Battery usage
+
+Archer
+FrameAerial [None]
+80 HP, 20 MB
+Acc B, Spd D
+Personal, Aerial+
+Tier 2
+- Changes the attack to an Aerial type
++ This is a Solar Gun Part (Frame) that drains the full gauge to deal 20 damage per 20% Battery usage
+
+Trebucht
+FrameAerial [None]
+120 HP, 30 MB
+Acc A, Spd C
+Personal, Aerial+
+Tier 3
+- Changes the attack to an Aerial type
++ This is a Solar Gun Part (Frame) that drains the full gauge to deal 30 damage per 25% Battery usage
+
+Missile
+FrameAerial [None]
+200 HP, 40 MB
+Acc S, Spd B
+Personal, Aerial+
+Tier 4
+- Changes the attack to an Aerial type
++ This is a Solar Gun Part (Frame) that drains the full gauge to deal 50 damage per 25% Battery usage
+
 Otorange
 FrameStunMind60 [None]
 120 HP, 30 MB
@@ -2368,7 +2425,7 @@ Aerial
 Tier 4
 - Stretches forever in the cardinal directions on impact
 
-PineAppl
+Pineappl
 AllAdd??? [Sol]
 250 HP, 60 MB
 Acc A, Spd D
@@ -2777,6 +2834,9 @@ Spd C
 Instant
 Tier 4
 - Opens a sinister hole that removes all Darkchip penalties
+- Allows usage of DarkLens, Phantom, and ChaosBat without matching parts
+- Dispels Sunlight on field
+* Lunacy: When a Beacon is present, all penalties are removed, all bonuses are present, gauge will charge, and no Sunburn is taken
 
 Beacon
 Panel:Front [Sol]
@@ -2785,6 +2845,9 @@ Spd C
 Instant
 Tier 4
 - Opens a brilliant gate that removes all Solar Lashback
+- Cuts gauge usage in half
+- Increases Solar Level by a flat 2 bars
+* Lunacy: When a DarkPrtl is present, all penalties are removed, all bonuses are present, gauge will charge, and no Sunburn is taken
 
 Sanctary
 Panel:Territory [Sol]
