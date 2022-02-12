@@ -29,6 +29,9 @@ Armor
 - Reduces damage from each hit by specified amount
 - Turns off after first attack per turn
 
+Charge
+- Gains the specific gauge charging bonus
+
 Sighted
 - Gains the specified accuracy for aligning with target
 
@@ -39,11 +42,16 @@ Bolted
 - Cannot be moved around by attacks
 
 AirShoes
-- Cannot sink into a panel
+- Can safely occupy all panels
 
-Gauge
-- The virus has a visible Custom Gauge
+Suspended
+- Has AirShoes until struck by Rand damage
 
 Unflinching
 - Cannot be stunned nor pinned
 
+Sunburn
+- The target takes the specified damage per action while exposed to direct light
+
+Deficiency
+- The target takes the specified AllAdd damage per turn while shrouded in darkness
