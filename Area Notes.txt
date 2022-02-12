@@ -173,6 +173,16 @@ Panels:
 
 
 WWW Castle (LaserMan, NapalmMan, PlanetMan)
+Panels:
+-    1-32: Mystery Data
+-   33-56: Abyss
+-   57-60: Gear
+-   61-64: Volcano
+-   65-72: Holy
+-  73-104: Charging
+- 105-136: Magnet
+- 137-196: Ice
+- 197-256: Aluminum
 
 Admin Lounge (Comet, DarkMan, Serenade)
 
