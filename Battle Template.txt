@@ -1,34 +1,34 @@
-BAS BAS BAS  BAS B3S BAS
-BAS BAS HET  BAS BAS B1S
-BAS BAS BAS  H2T HET BAS
+CHR BAS SEA  CHR CHR HET
+GMD SND GMD  HET SND GMD
+BAS CHR SEA  HET SND BAS
 
 
-1. Drimpy
+1. Hothead
 
-HiCannon                   BubSprd
-                  SeaPanel
-         BubCross          ________
-________          SeaStage
-         BblWrap           BblWrap
-                  MedCloud
+Meteor5                    CannBall
+                  Totem1
+         Erupt2            Erupt2
+________          LavaBall
+         LavaBall          Quake2
+                  LilBomb
+________                   LavaStge
+
+2. Windbox
+
 ________                   ________
+                  Fan
+         ________          AirShot1
+________          Wind
+         ________          ________
+                  Wind
+AirShot2                   ________
 
-2. Shroooob
+3. BlueOcto
 
-________                   DarkPrtl
+________                   ________
                   ________
-         Guard             Geddon1 
-________          Shield
-         Anubis            PoisFace
-                  PoisSprd
-CrsShld3                   Boomer2
-
-3. Steeled
-
-________                   AquaSwrd
-                  ________
-         StepSwrd          ________
-________          AquaBlde
-         AquaSwrd          Sword
-                  ________
-AreaGrab                   ________
+         AquaBall          ________
+________          ________
+         AquaBall          ________
+                  InkSprd
+AquaBall                   ________
