@@ -2849,7 +2849,7 @@ Tier 4
 - Increases Solar Level by a flat 2 bars
 * Lunacy: When a DarkPrtl is present, all penalties are removed, all bonuses are present, gauge will charge, and no Sunburn is taken
 
-Sanctary
+Sancuary
 Panel:Territory [Sol]
 10 HP, 80 MB
 Spd D
