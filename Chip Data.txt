@@ -1121,6 +1121,14 @@ Tier 3
 - Requires at least 4 solar bars to work
 - Doesn't affect dimming panels
 
+PowerOrb
+Waning DelayTripleAdd50 [Sol]
+150 HP, 60 MB
+Acc A, Spd S
+Personal, Aerial
+Tier 4
+- Loses one strike per hit taken by user
+
 LilCloud
 AllAdd10 [Aqua]
 180 HP, 20 MB
@@ -1166,6 +1174,15 @@ PersistCounter:Projectile Double30 [None]
 Acc S, Spd E
 Personal, Projectile
 Tier 3
+- Does not block attacks
+- Interrupts the attack it counters
+
+FrntLasr
+PersistCounter:Projectile BlindAdd70 [Sol]
+140 HP, 50 MB
+Acc S, Spd C
+Personal, Projectile
+Tier 4
 - Does not block attacks
 - Interrupts the attack it counters
 
@@ -1652,6 +1669,14 @@ Spd E
 Personal
 Tier 3
 - Take only 10 damage per hit while active
+
+Radiance
+Counter:Melee Blind50 [Sol]
+80 HP, 30 MB
+Spd S
+Personal
+Tier 3
+- Incoming Melee attacks get interrupted by blinding light
 
 Shadow1
 Defense Counter+ Rand30 [Dark]
@@ -2483,6 +2508,15 @@ Tier 5
 - Aims in a straight line
 - Drains the Custom Gauge to do 150% damage based on what drained
 - Full Gauge causes user to take 50 damage and Stun
+
+StarBarr
+Defense Barr4 [????]
+20 HP, 70 MB
+Spd S
+Personal
+Tier 5
+- Blocks the next 4 incoming strikes
+- Element is [Sol] if Solar Level is over 4 bars, [Dark] if under 3, [None] otherwise
 
 FoldrBak
 AllFix300 [None]
