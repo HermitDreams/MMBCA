@@ -805,6 +805,121 @@ Attacks: (4-200/256)
 - Geddon2
 - Sancuary
 
+Panella (Tier 1)
+100 HP [Sol]
+Dodge D, Spd E
+Flavour:
+- A flower with its solar panels blooming
+Movement:
+- None
+Traits:
+- Bolted
+- Charge: x1.5
+Attacks: (4-35/256)
+- MiniBomb
+- Recov10
+- Corona
+- Battery (Guarantee)
+- SolLens (Guarantee)
+- Fighter (Guarantee)
+- Axel
+- ChargPnl
+
+Lilicone (Tier 3)
+200 HP [Sol]
+Dodge D, Spd D
+Flavour:
+- A flexible variant of Panella. Seeds region-locked torrents.
+Movement:
+- Sprouts at nearest Charging panel
+Traits:
+- Bolted
+- Charge: x2.0
+Attacks: (4-80/256)
+- LilBomb
+- Spice2
+- MagBomb2
+- Remobit1
+- Sundial
+- LiteRay1
+- Wires
+- Snapper
+- Recov30
+- Press1
+- Radiance
+- Corona
+- WoodAura
+- FstGauge
+- DoublBat (Guarantee)
+- TriplBat
+- SolLens (Guarantee)
+- EarthLns
+- Fighter
+- Vortex (Guarantee)
+- Juggler
+- Sanitize
+- Sunrise
+- HolyPanl
+- MagLine
+- GrassStg
+- ChargStg
+- Beacon
+
+Petalica (Tier 5: Quarantine)
+300 HP [Sol]
+Dodge D, Spd C
+Flavour:
+- A sheen variant of Panella. Powers cryptomining facilities, somehow.
+Movement:
+- Sprout at nearest Charging panel
+Traits:
+- Bolted
+- Charge: x2.5
+Attacks: (4-200/256)
+- CrosBomb
+- Spice3
+- MagBomb3
+- Remobit2
+- Sundial
+- LiteRay2
+- Meteor5
+- PowerOrb
+- Piledriv
+- Wires
+- Snapper
+- Recov150 (Guarantee)
+- Candle2
+- Press2
+- Press3
+- Radiance
+- Corona
+- LifeAur2
+- FullCust
+- Sol+50
+- QuadBatt (Guarantee)
+- QuintBat
+- Infinity
+- SolLens (Guarantee)
+- EarthLns
+- CloudLns
+- StarLens
+- Fighter
+- Cyclone (Guarantee)
+- Trebucht
+- Juggler
+- Sanitize
+- Sunrise
+- Pineappl
+- PwrSurge
+- RedSun
+- Moondish
+- HolyPanl
+- MagLine
+- GrassStg
+- ChargStg (Guarantee)
+- Beacon
+- Sancuary
+
 Batty (Tier 1)
 60 HP [Dark]
 Dodge A, Spd C
