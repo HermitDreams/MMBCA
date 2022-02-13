@@ -66,6 +66,7 @@ Attacks: (20%, 4-55/256)
 - Cannon (Guarantee)
 - Shotgun
 - AirShot1
+- Fighter
 
 Cannet (Tier 3: International)
 100 HP [None]
@@ -86,6 +87,10 @@ Attacks: (35%)
 - AirShot2
 - DoubNdl
 - FrntSnsr (Guarantee)
+- TriplBat
+- LunaLens
+- Fighter
+- Knife
 
 Slugget (Tier 4: Undernet)
 150 HP [None]
@@ -114,7 +119,17 @@ Attacks: (50%)
 - TripNdl
 - FrntSnsr
 - DblSnsr (Guarantee)
+- FrntLasr
 - Jealousy
+- QuadBatt
+- SolLens
+- LunaLens
+- FlameLns
+- FrostLns
+- Fighter
+- Dagger
+- Gradius
+- Stalker
 - FuryBust
 
 Barker (Tier 1: Hometowns)
@@ -160,6 +175,7 @@ Attacks: (4-75/256)
 - Candle1
 - Candle2
 - Totem1
+- FlameLns
 - HeatPanl
 - HeatStge
 
@@ -301,16 +317,17 @@ Movement:
 Traits:
 - Charge: x1.5
 Attacks: (35%, 4-90/256)
- 5. ElecBlde
- 1. ZapRing1
- 2. ZapRing2 (Guaranteed)
- 3. Prong1 (Guaranteed)
- 4. Prong2
- 6. Catcher
- 7. Atk+10
- 9. Battery (Guaranteed)
-10. DoublBat
- 8. ChargPnl
+- ElecBlde
+- ZapRing1
+- ZapRing2 (Guaranteed)
+- SandRing
+- Prong1 (Guaranteed)
+- Prong2
+- Catcher
+- Atk+10
+- Battery (Guaranteed)
+- DoublBat
+- ChargPnl
 
 Bunny3 (Tier 4: Undernet)
 180 HP [Elec]
@@ -327,6 +344,7 @@ Attacks: (60%, 4-155/256)
 - ZapRing1
 - ZapRing2 (Guaranteed)
 - ZapRing3 (Guaranteed)
+- SandRing
 - Prong1
 - Prong2 (Guaranteed)
 - Prong3
@@ -339,7 +357,9 @@ Attacks: (60%, 4-155/256)
 - Battery
 - DoublBat (Guaranteed)
 - QuadBatt
+- CloudLns
 - Javelin
+- Otorange
 - PwrSurge
 - ChargPnl
 - ChargStg
@@ -514,18 +534,20 @@ Movement:
 Traits:
 - None
 Attacks: (25%, 4-70/256)
- 4. Cannon
- 5. V-Gun
- 1. MiniBomb
- 2. LilBomb (Guarantee)
- 3. CrosBomb (Guarantee)
- 6. TreeBom1
- 8. Wrecker
- 7. MagBomb1
-  - Meteor3
-11. Battery
- 9. FlashBom (Guarantee)
-10. ScanBomb
+- Cannon
+- V-Gun
+- MiniBomb
+- LilBomb (Guarantee)
+- CrosBomb (Guarantee)
+- TreeBom1
+- Wrecker
+- MagBomb1
+- Meteor3
+- Battery
+- LunaLens
+- Quiver
+- FlashBom (Guarantee)
+- ScanBomb
 
 Beetank3 (Tier 4: Undernet)
 180 HP [None]
@@ -537,25 +559,29 @@ Movement:
 Traits:
 - Armor: 20
 Attacks: (50%, 4-130/256)
- 5. HiCannon
- 6. CrossGun
- 1. MiniBomb
- 2. LilBomb
- 3. CrosBomb (Guarantee)
- 4. BigBomb (Guarantee)
- 7. TreeBom2
- 9. Wrecker (Guarantee)
-10. CannBall
- 8. MagBomb2
-11. Meteor4
-12. Meteor5
-18. DublBatt
-13. Napalm
-14. FlashBom
-15. ScanBomb (Guarantee)
-16. Sunrise
-12. BlkBomb
-17. Geddon1
+- HiCannon
+- CrossGun
+- MiniBomb
+- LilBomb
+- CrosBomb (Guarantee)
+- BigBomb (Guarantee)
+- TreeBom2
+- Wrecker (Guarantee)
+- CannBall
+- MagBomb2
+- Meteor4
+- Meteor5
+- DublBatt
+- LunaLens
+- CloudLns
+- Archer
+- Trebucht
+- Napalm
+- FlashBom
+- ScanBomb (Guarantee)
+- Sunrise
+- BlkBomb
+- Geddon1
 
 Swordy (Tier 1)
 80 HP [None]
@@ -671,6 +697,7 @@ Attacks: (4-200/256)
 - GoldFist (Guarantee)
 - AirShoes
 - StoneBod
+- Radiance
 - Fanfare (Guarantee)
 - Pawn
 - Corona (Guarantee)
@@ -700,6 +727,7 @@ Attacks: (4-60/256)
 - Recov10
 - RockCube (Guarantee)
 - Press1
+- LunaLens
 
 Pebbler (Tier 3: International)
 200 HP [None]
@@ -729,6 +757,7 @@ Attacks: (4-90/256)
 - AntiFire
 - AntiAir
 - Fire+40
+- FlameLns
 - Repair
 
 Pebblest (Tier 5: Admin Lounge)
@@ -767,6 +796,11 @@ Attacks: (4-200/256)
 - UndrArmr
 - AntiAir
 - Atk+30
+- DoublBat
+- LunaLens
+- Trebucht
+- Shield
+- StarBarr
 - Repair
 - Geddon2
 - Sancuary
@@ -1134,6 +1168,7 @@ Attacks: (4-80/256)
 - LiteRay2 (Guarantee)
 - No-Beam1
 - No-Beam2 (Guarantee)
+- PowerOrb
 - Fanfare
 - Piledriv
 - Catcher
@@ -1186,10 +1221,12 @@ Attacks: (4-90/256)
 - No-Beam2
 - No-Beam3 (Guarantee)
 - Meteor5
+- PowerOrb
 - Fanfare (Guarantee)
 - Piledriv
 - Catcher
 - MindBndr
+- Radiance
 - DropDown
 - Barrier
 - Corona
