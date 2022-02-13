@@ -2044,83 +2044,75 @@ Tier 5
 
 SolLens
 Lens [Sol]
-100 HP*, 20 MB
+200 HP, 20 MB
 Spd A
 Personal
-Tier 4
+Tier 2
 - Changes the next attack to the chip's own type
-* This stat is multiplied by the chip's Level, which increases with successful use.
 + This is a Solar Gun Part (Lens), and applies Blind
 
 LunaLens
 Lens [None]
-100 HP*, 10 MB
+250 HP, 10 MB
 Spd A
 Personal
-Tier 4
+Tier 2
 - Changes the next attack to the chip's own type
-* This stat is multiplied by the chip's Level, which increases with successful use.
 + This is a Solar Gun Part (Lens)
-+ At Level III, this applies Stun, and Lunacy grants it Atk+30
++ Under Lunacy, this applies Stun and Atk+30
 
 FlameLns
 Lens [Fire]
-100 HP*, 20 MB
+150 HP, 20 MB
 Spd A
 Personal
-Tier 4
+Tier 3
 - Changes the next attack to the chip's own type
-* This stat is multiplied by the chip's Level, which increases with successful use.
 + This is a Solar Gun Part (Lens), and applies AddAll
 
 FrostLns
 Lens [Aqua]
-100 HP*, 20 MB
+150 HP, 20 MB
 Spd A
 Personal
-Tier 4
+Tier 3
 - Changes the next attack to the chip's own type
-* This stat is multiplied by the chip's Level, which increases with successful use.
 + This is a Solar Gun Part (Lens), and freezes affected panels
 
 EarthLns
 Lens [Wood]
-100 HP*, 20 MB
+150 HP, 20 MB
 Spd A
 Personal
-Tier 4
+Tier 3
 - Changes the next attack to the chip's own type
-* This stat is multiplied by the chip's Level, which increases with successful use.
 + This is a Solar Gun Part (Lens), and applies Restore
 
 CloudLns
 Lens [Elec]
-100 HP*, 20 MB
+150 HP, 20 MB
 Spd A
 Personal
-Tier 4
+Tier 3
 - Changes the next attack to the chip's own type
-* This stat is multiplied by the chip's Level, which increases with successful use.
 + This is a Solar Gun Part (Lens), and applies Break
 
 DarkLens
 Lens [Dark]
-100 HP*, 20 MB
+200 HP, 20 MB
 Spd A
 Personal
 Tier 4
 - Changes the next attack to the chip's own type
-* This stat is multiplied by the chip's Level, which increases with successful use.
 + This is a Solar Gun Part (Lens), requires a ChaosBat, and applies Drain
 
 StarLens
 Lens [Life]
-100 HP*, 30 MB
+300 HP, 30 MB
 Spd A
 Personal
-Tier 5
+Tier 4
 - Changes the next attack to the chip's own type
-* This stat is multiplied by the chip's Level, which increases with successful use.
 + This is a Solar Gun Part (Lens), and requires an AstroBat
 
 Fighter
