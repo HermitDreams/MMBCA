@@ -4,7 +4,7 @@ Want Quarantine to be plot climax but maybe should just have different plot?
 WWW Castle also has plot relevance, but they're all the Postgame Areas.
 Will probably have a plot that subdues the threats and Postgame Areas resolve them.
 
-ACDC
+ACDC (64 Solar)
 Panels:
 -     1-3: Mystery Data
 -    4-14: Tree
@@ -20,7 +20,7 @@ Viruses:
 - 126-175: Bushy
 - 176-256: Pebblet
 
-Den City
+Den City (64 Solar)
 Panels:
 -     1-3: Mystery Data
 -    4-14: Aluminum
@@ -36,7 +36,7 @@ Viruses:
 - 126-175: Gunnet
 - 176-256: Mettaur1
 
-Kotobuki
+Kotobuki (80 Solar)
 Panels:
 -     1-3: Mystery Data
 -    4-14: Sea
@@ -53,7 +53,7 @@ Viruses:
 - 176-256: Mettaur1
 
 
-SciLab
+SciLab (48 Solar)
 Panels:
 -     1-6: Mystery Data
 -    7-10: Sand
@@ -63,7 +63,7 @@ Panels:
 - 141-180: Heat
 - 181-256: Basic
 
-Hospital
+Hospital (64 Solar)
 Panels:
 -     1-6: Mystery Data
 -    7-10: Lava
@@ -73,7 +73,7 @@ Panels:
 - 141-180: Sea
 - 181-256: Basic
 
-Okuden
+Okuden (80 Solar)
 -     1-6: Mystery Data
 -    7-20: Swamp
 -   21-40: Tree
@@ -82,7 +82,7 @@ Okuden
 - 141-180: Heat
 - 181-256: Basic
 
-Airport
+Airport (96 Solar)
 -     1-6: Mystery Data
 -    7-10: Abyss
 -   11-20: Cracked
@@ -92,7 +92,7 @@ Airport
 - 181-256: Basic
 
 
-YumLand (Grass, Cracked, Swamp?)
+YumLand (64 Solar)
 Panels:
 -    1-12: Mystery Data
 -   13-25: Sand
@@ -103,7 +103,7 @@ Panels:
 - 131-200: Grass
 - 201-256: Basic
 
-Nettopia (Heat, Magnet, Sea)
+Nettopia (64 Solar)
 Panels:
 -    1-12: Mystery Data
 -   13-25: Lava
@@ -114,7 +114,7 @@ Panels:
 - 131-200: Heat
 - 201-256: Charging
 
-Kingscape (Grass, Sand, Lava)
+Kingscape (80 Solar)
 Panels:
 -    1-12: Mystery Data
 -   13-25: Sea
@@ -125,7 +125,7 @@ Panels:
 - 131-200: Sand
 - 201-256: Basic
 
-Icewall (Ice, Sea, Metal)
+Icewall (48 Solar)
 Panels:
 -    1-12: Mystery Data
 -   13-25: Abyss
@@ -137,7 +137,7 @@ Panels:
 - 201-256: Aluminum
 
 
-UnderNet Beta
+UnderNet Beta (16 Solar)
 Panels:
 -    1-18: Mystery Data
 -   19-25: Volcano
@@ -148,7 +148,7 @@ Panels:
 - 171-210: Grass
 - 211-256: Basic
 
-UnderNet Gamma
+UnderNet Gamma (16 Solar)
 Panels:
 -    1-18: Mystery Data
 -   19-25: Fountain
@@ -159,7 +159,7 @@ Panels:
 - 171-210: Cracked
 - 211-256: Basic
 
-UnderNet Delta
+UnderNet Delta (32 Solar)
 Panels:
 -    1-18: Mystery Data
 -   19-22: DarkHole
@@ -172,7 +172,7 @@ Panels:
 - 211-256: Basic
 
 
-WWW Castle (LaserMan, NapalmMan, PlanetMan)
+WWW Castle (32 Solar) [LaserMan, NapalmMan, PlanetMan]
 Panels:
 -    1-32: Mystery Data
 -   33-56: Abyss
@@ -184,8 +184,8 @@ Panels:
 - 137-196: Ice
 - 197-256: Aluminum
 
-Admin Lounge (Comet, DarkMan, Serenade)
+Admin Lounge (128 Solar) [Comet, DarkMan, Serenade]
 
-Bitrot (JunkMan, VideoMan, YokuMan)
+Bitrot (0 Solar) [JunkMan, VideoMan, YokuMan]
 
-Quarantine (Medic, GateMan, Sigma)
+Quarantine (48 Solar) [Medic, GateMan, Sigma]

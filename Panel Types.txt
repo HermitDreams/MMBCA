@@ -14,7 +14,7 @@ Heat
  - Affect: All
 - Transform: Sea
  - Proc: Adjacency to Ice
-- Sunlight: +1
+- Sunlight: +3
 - Ore Type: Fire
 - Ore Freq: 32/256
 
@@ -77,7 +77,7 @@ Swamp
 - Effect: Delay AllAdd20
  - Affect: All
 - Transform: No
-- Sunlight: -2
+- Sunlight: -8
 - Ore Type: Zoo
 - Ore Freq: 64/256
 - Alt Ore Type: Dark
@@ -89,7 +89,7 @@ Lava
  - Affect: Not [Fire]
 - Transform: Basic
  - Proc: [Aqua]
-- Sunlight: +2
+- Sunlight: +6
 - Ore Type: Fire
 - Ore Freq: 240/256
 
@@ -121,7 +121,7 @@ Holy
 - Effect: Half Damage
  - Affect: Not [Dark]
 - Transform: No
-- Sunlight: +5
+- Sunlight: +8
 - Ore Type: Glow
 - Ore Freq: 64/256
 
@@ -130,7 +130,7 @@ Abyss
 - Effect: Require AirShoes
  - Affect: All
 - Transform: No
-- Sunlight: -5
+- Sunlight: -4
 - Ore Type: Dark
 - Ore Freq: 128/256
 
