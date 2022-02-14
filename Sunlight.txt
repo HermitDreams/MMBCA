@@ -1,0 +1,21 @@
+SUNLIGHT GENERATION
+
+There are 8 bars of sunlight on a Solar Gauge.
+The Solar Gauge is placed at the top of the screen, where the Custom Gauge goes in Battle Network.
+The Solar Level goes between 64 to 192 points. After that, it counts up to 256.
+Every 16 points after 64 is a Bar.
+Areas have a Base Sunlight attached to them (usual is 64, UnderNet is 16).
+Alter this per battle by rolling 4d32 and adding the result to the total Solar Level.
+
+EFFECTS
+
++ The Custom Gauge charges by up to 4xBars per action taken.
++ [Sol] Chips gain +1 Priority for every Bar *after* 8 Bars (every 16 after 192 Solar Level)
++ [Dark] Chips gain +1 Accuracy for every Bar *under* 0 Bars (every 16 under 64 Solar Level)
+- [Sol] Chips FAIL at a rate of Solar Level / 256 if you are not a [Sol] user
+- [Sol] Chips DISARM the user at a rate of Solar Level / 512 if you are not a [Sol] user
+- [Dark] Chips DRAIN GAUGE by 128 - Solar Level if you are not a [Dark] user
+- [Dark] Chips REDUCE MAX HP by 64 - Solar Level if you are not a [Dark] user
+
+* If your Max HP has been damaged, it will be restored at the next Hub that heals you.
+* Max HP can only be damaged in increments of 10. This will round UP to nearest, per the damage system.
