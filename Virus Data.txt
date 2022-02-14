@@ -1630,6 +1630,86 @@ Attacks: (90%)
 - Geddon3
 - DarkPrtl
 
+ColdIdol (Tier 4)
+150 HP [Aqua]
+Dodge C, Spd A
+Flavour:
+- A banshee head carrying the essence of Ice. A piece of the LifeVirus.
+Movement:
+- Teleports each turn
+Traits:
+- AirShoes
+Attacks: (4-64/256)
+- MedShout
+- ColdPnch
+- DashAtk (Guarantee)
+- Yo-Yo2 (Guarantee)
+- Hydrant
+- BblWrap
+- AquaAura (Guarantee 2)
+- FrostLns
+- IceStage
+
+HeatIdol (Tier 4)
+150 HP [Fire]
+Dodge C, Spd A
+Flavour:
+- A banshee head carrying the essence of Fire. A piece of the LifeVirus.
+Movement:
+- Teleports each turn
+Traits:
+- AirShoes
+Attacks: (4-64/256)
+- MedShout
+- DashAtk (Guarantee)
+- Burner
+- FireRatn
+- Yo-Yo2 (Guarantee)
+- Kindler
+- FireAura (Guarantee 2)
+- FlameLns
+- HeatStge
+
+WoodIdol (Tier 4)
+150 HP [Wood]
+Dodge C, Spd A
+Flavour:
+- A banshee head carrying the essence of Earth. A piece of the LifeVirus.
+Movement:
+- Teleports each turn
+Traits:
+- AirShoes
+Attacks: (4-64/256)
+- MedShout
+- DashAtk (Guarantee)
+- Yo-Yo2 (Guarantee)
+- Boomer3
+- Snapper
+- LeafShld
+- WoodAura (Guarantee 2)
+- EarthLns
+- GrassStg
+
+ElecIdol (Tier 4)
+150 HP [Elec]
+Dodge C, Spd A
+Flavour:
+- A banshee head carrying the essence of Lightning. A piece of the LifeVirus.
+Movement:
+- Teleports each turn
+Traits:
+- AirShoes
+Attacks: (4-64/256)
+- MedShout
+- DashAtk (Guarantee)
+- Satelit3
+- Yo-Yo2 (Guarantee)
+- Remobit3
+- Wires
+- ElecAura (Guarantee 2)
+- CloudLns
+- AlumiStg
+
 
 VIRUSES BY TIER
 
