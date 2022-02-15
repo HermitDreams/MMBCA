@@ -1,34 +1,38 @@
-CHR BAS SEA  CHR CHR HET
-GMD SND GMD  HET SND GMD
-BAS CHR SEA  HET SND BAS
+[>*<:        ] (0 Bars, 67 Units)
+SEA HET SEA  SEA SND HET
+BAS SND SEA  ABY CHR BAS
+BAS ABY SND  CHR CHR SND
+
+Bonus Light: +6 (HETx2)
+Malus Light: -8 (ABYx2)
 
 
-1. Hothead
-
-Meteor5                    CannBall
-                  Totem1
-         Erupt2            Erupt2
-________          LavaBall
-         LavaBall          Quake2
-                  LilBomb
-________                   LavaStge
-
-2. Windbox
-
-________                   ________
-                  Fan
-         ________          AirShot1
-________          Wind
-         ________          ________
-                  Wind
-AirShot2                   ________
-
-3. BlueOcto
+1. Lilicone
 
 ________                   ________
                   ________
-         AquaBall          ________
+         Vortex            SolLens
 ________          ________
-         AquaBall          ________
-                  InkSprd
-AquaBall                   ________
+         DoublBat          HolyPanl
+                  Beacon
+________                   ________
+
+2. Coldhead
+
+FreezBom                   IceStage
+                  IceBall
+         ________          CannBall
+________          StoneBod
+         IceBall           IceCube
+                  ________
+________                   ________
+
+3. Shroooob
+
+Geddon3                    DarkLens
+                  CrsShld3
+         TreeBom3          PoisSprd
+________          Shield
+         Dfrag100          ________
+                  PoisFace
+Muramasa                   Spice3
