@@ -712,6 +712,128 @@ Attacks: (4-200/256)
 - Beacon
 - Sancuary
 
+Orbits (Tier 2: Scilab)
+90 HP [Elec]
+Dodge B, Spd C
+Flavour:
+- A textureless non-euclidean orb that maxes out GPU time
+Movement:
+- Oscillates inside own area one tile per turn
+- Orbits any ally or obstacle it would bump into
+Traits:
+- Suspended: Magnet
+Attacks: (4-64/256)
+- MiniBomb
+- LilBomb
+- DashAtk
+- Ratton1
+- Satelit1 (Guarantee 2)
+- MagBomb1
+- Dfrag50
+- AirShoes
+- Press1
+- Invis1
+- CloudLns
+- MagLine (Guarantee)
+
+Orbim (Tier 4)
+140 HP [Elec]
+Dodge A, Spd B
+Flavour:
+- A variant of Orbits in many shades of blue. Corrupts nearby textures.
+Movement:
+- Oscillates inside own area one tile per action
+- Orbits any ally or obstacle it would bump into
+Traits:
+- Suspended: Magnet
+Attacks: (4-64/256)
+- BubCross
+- LilBomb
+- CrosBomb
+- ElecSwrd
+- DashAtk
+- Wrecker
+- Ratton2
+- Satelit1
+- Satelit2 (Guarantee 2)
+- Prong1
+- Prong2
+- MagBomb1 (Guarantee)
+- MagBomb2
+- PowerOrb
+- Remobit1
+- ElecBall
+- Wires
+- MindBndr
+- Dfrag100
+- AirShoes
+- Prism
+- Press1
+- Press2
+- Invis1
+- Invis2
+- ElecAura
+- AntiElec
+- TriplBat
+- CloudLns
+- Juggler
+- SeaPanel
+- MagLine (Guarantee)
+- AlumiStg
+
+Orber (Tier 5: WWW Castle)
+180 HP [Elec]
+Dodge S, Spd A
+Flavour:
+- A variant of Orbits in many shades of red. Its textures stretch as it approaches.
+Movement:
+- Oscillates through whole battlefield one tile per action
+- Orbits any enemy, ally, or obstacle it would bump into
+Traits:
+- Suspended: Magnet
+- Unstoppable
+Attacks: (4-64/256)
+- CrosBomb
+- ElecBlde
+- DashAtk
+- Condor
+- CannBall
+- Ratton2
+- Ratton3
+- Satelit1
+- Satelit2
+- Satelit3 (Guarantee 2)
+- Prong2
+- Prong3
+- Erupt2
+- MagBomb2 (Guarantee)
+- MagBomb3
+- PowerOrb
+- Remobit2
+- ElecBall
+- Wires
+- MindBndr
+- Dfrag150
+- AirShoes
+- Prism
+- Press2
+- Press3
+- Invis2
+- Invis3
+- Radiance
+- ElecAura (Guarantee)
+- AntiElec
+- Elec+40
+- QuadBatt
+- CloudLns
+- Duelist
+- Juggler
+- Sparker
+- MetrStge
+- LavaPanl
+- MagLine (Guarantee)
+- AlumiStg
+
 Pebblet (Tier 1: Hometowns)
 100 HP [None]
 Dodge E, Spd E
@@ -1240,7 +1362,7 @@ Flavour:
 Movement:
 - Moves diagonally one panel at a time
 Traits:
-- Suspended
+- Suspended: Aerial
 - Deficiency: 20
 Attacks: (4-60/256)
 - WideSwrd
@@ -1253,6 +1375,7 @@ Attacks: (4-60/256)
 - MindBndr
 - Barrier
 - Recov50
+- AirShoes
 - Atk+10
 - Battery
 - SolLens
@@ -1270,7 +1393,7 @@ Flavour:
 Movement:
 - Moves diagonally one panel at a time
 Traits:
-- Suspended
+- Suspended: Aerial
 - Deficiency: 30
 Attacks: (4-80/256)
 - WideSwrd
@@ -1294,6 +1417,7 @@ Attacks: (4-80/256)
 - LifeAur1
 - Jealousy
 - Recov80
+- AirShoes
 - Atk+10
 - Atk+20
 - DoublBat
