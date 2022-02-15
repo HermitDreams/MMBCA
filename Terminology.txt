@@ -45,7 +45,7 @@ AirShoes
 - Can safely occupy all panels
 
 Suspended
-- Has AirShoes until struck by Rand damage
+- Has AirShoes until struck by the specified damage type
 
 Unflinching
 - Cannot be stunned nor pinned
