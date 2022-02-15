@@ -9,7 +9,7 @@ Alter this per battle by rolling 4d32 and adding the result to the total Solar L
 
 EFFECTS
 
-+ The Custom Gauge charges by up to 4xBars per action taken.
++ The Custom Gauge charges by up to 4xBars per action taken, in addition to the guaranteed 5%.
 + [Sol] Chips gain +1 Priority for every Bar *after* 8 Bars (every 16 after 192 Solar Level)
 + [Dark] Chips gain +1 Accuracy for every Bar *under* 0 Bars (every 16 under 64 Solar Level)
 - [Sol] Chips FAIL at a rate of Solar Level / 256 if you are not a [Sol] user
