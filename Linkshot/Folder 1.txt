@@ -1,0 +1,39 @@
+Cannon    60/ 60 HP
+Cannon    60/ 60 HP
+Cannon    60/ 60 HP
+Cannon    60/ 60 HP
+Shotgun   40/ 40 HP
+Shotgun   40/ 40 HP
+Shotgun   40/ 40 HP
+MiniBomb 120/120 HP [Slot 7]
+MiniBomb 120/120 HP [Slot 8]
+MiniBomb 120/120 HP
+Sword     40/ 40 HP
+Sword     40/ 40 HP
+Sword     40/ 40 HP
+Sword     40/ 40 HP
+AirShot1  50/ 50 HP [Slot L]
+AirShot1  50/ 50 HP
+DashAtk   90/ 90 HP [Slot 4]
+Wrecker  120/120 HP
+DoubNdl   70/ 70 HP [Slot 6]
+DoubNdl   70/ 70 HP [Slot 9]
+Recov10   80/ 80 HP
+Recov10   80/ 80 HP
+Recov50   80/ 80 HP
+Recov50   80/ 80 HP
+RockCube 250/250 HP [Slot 1]
+RockCube 250/250 HP [Slot 2]
+Atk+10   160/160 HP [Slot 3]
+Atk+10   160/160 HP [Slot 5]
+PanlGrab 120/120 HP
+Repair    30/ 30 HP [Slot R]
+
+AirShot1                   DoubNdl
+10/40 MB          Atk+10
+         RockCube          MiniBomb
+DummyMan          DashAtk
+         RockCube          MiniBomb
+                  Atk+10
+Repair                     DoubNdl
+10/40 MB        120/300 MB
