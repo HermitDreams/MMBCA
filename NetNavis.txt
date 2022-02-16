@@ -1,0 +1,5 @@
+DummyMan [None]
+Add40 [None]
+500 HP, 300 MB
+Acc B, Dodge B, Spd B
+Projectile
