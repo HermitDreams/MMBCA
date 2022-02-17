@@ -343,7 +343,7 @@ RandBleed10 [Dark]
 60 HP, 70 MB
 Acc E, Spd E
 Melee
-Tier 4
+Tier 5
 - Reaches two tiles behind target
 - Deals damage equal to amount of HP that could be healed by attacker
 
@@ -1555,7 +1555,7 @@ Rook
 Defense DelayAdd60 [None]
 120 HP, 30 MB
 Acc C, Spd D
-Obstacle, Projectile
+Obstacle, Floor
 Tier 3
 
 Prism
