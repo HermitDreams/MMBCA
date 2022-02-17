@@ -17,6 +17,8 @@ Heat
 - Sunlight: +3
 - Ore Type: Fire
 - Ore Freq: 32/256
+- Alt Ore Type: Glow
+- Alt Ore Freq: 3/256
 
 Sea
 - Elem Bonus: Elec
@@ -60,7 +62,7 @@ Charging
 - Ore Type: Zap
 - Ore Freq: 48/256
 - Alt Ore Type: Glow
-- Alt Ore Freq: 1/256
+- Alt Ore Freq: 3/256
 
 Grass
 - Elem Bonus: Fire
