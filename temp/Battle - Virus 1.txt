@@ -1,0 +1,12 @@
+ElecIdol
+Dodge C, Spd A
+- AirShoes [Indef]
+
+MedShout   0/ 80 HP [Slot R] (Acc C, Spd D)
+DashAtk   90/ 90 HP [Slot 2] (Acc A, Spd B)
+DashAtk    0/ 90 HP [Slot L] (Acc A, Spd B)
+Yo-Yo2    80/ 80 HP [Slot 6] (Acc C, Spd D)
+Remobit3 300/300 HP [Slot 9] (Acc B, Spd A)
+ElecAura  60/ 60 HP [Slot 7] (Spd A)
+ElecAura  60/ 60 HP [Slot 8] (Spd A)
+AlumiStg  10/ 10 HP [Slot 5] (Spd D)

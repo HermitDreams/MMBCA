@@ -1,0 +1,48 @@
+- Quake2
+- Quake3
+- Wrecker
+- CannBall
+- BrakHamr
+- ZeusHamr
+- SilvFist
+- GoldFist
+- GodStone
+- Recov30
+- Recov80
+- Recov150
+- RockCube
+- Pawn
+- Rook (Guarantee)
+- Prism
+- Guardian
+- Press1
+- Press2
+- Press3 (Guarantee)
+- StoneBod (Guarantee)
+- UnderSht
+- UndrArmr
+- AntiAir
+- Atk+30
+- DoublBat
+- LunaLens
+- Trebucht
+- Shield
+- StarBarr
+- Repair
+- Geddon2
+- Sancuary
+
+Pebblest (4-200)
+Dodge E, Spd A
+- Bolted [Indef]
+- Armor:50 [Inactive]
+
+Quake3    30/ 90 HP [Slot 1] (Acc C, Spd E)
+SilvFist   0/100 HP [Slot R] (Acc C, Spd E)
+RockCube   0/250 HP [Slot 4] (Spd E)
+RockCube 140/250 HP [Slot 9] (Spd E)
+Rook       0/120 HP [Slot 3] (Acc C, Spd D)
+Rook       0/120 HP [Slot 8] (Acc C, Spd D)
+Press3   110/120 HP [Slot 5] (Spd C)
+StoneBod  20/ 80 HP [Slot 2] (Spd E)
+StarBarr   0/ 20 HP [Slot 6] (Spd S)

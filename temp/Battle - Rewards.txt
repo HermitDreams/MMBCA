@@ -1,0 +1,27 @@
+M-Cannon:     1-3
+   V-Gun:     4-9
+CrossGun:   10-14
+MedShout:   15-20
+  Quake3:   21-23
+AirShot2:   24-29
+ DashAtk:   30-35
+ DashAtk:   36-41
+  Yo-Yo2:   42-46
+SilvFist:   47-51
+ DblSnsr:   52-56
+FrntLasr:   57-59
+Remobit3:   60-62
+RockCube:   63-69
+RockCube:   70-76
+    Rook:   77-81
+    Rook:   82-86
+  Press3:   87-91
+StoneBod:   92-96
+ElecAura:  97-101
+ElecAura: 102-106
+ Gradius: 107-109
+StarBarr:     110
+AlumiStg: 111-116
+
+Rolled: 134
+Reward: 1300z

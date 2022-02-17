@@ -1,0 +1,40 @@
+- Cannon
+- HiCannon
+- M-Cannon (Guarantee)
+- Shotgun
+- V-Gun
+- CrossGun (Guarantee)
+- Spreader
+- BubCross
+- HeatCros
+- AirShot1
+- AirShot2 (Guarantee)
+- AirShot3
+- DoubNdl
+- TripNdl
+- FrntSnsr
+- DblSnsr (Guarantee)
+- FrntLasr
+- Jealousy
+- QuadBatt
+- SolLens
+- LunaLens
+- FlameLns
+- FrostLns
+- Fighter
+- Dagger
+- Gradius
+- Stalker
+- FuryBust
+
+Slugget (4-128)
+Dodge E, Spd B
+- Bolted [Indef]
+
+M-Cannon 150/150 HP [Slot 3] (Acc D, Spd B)
+V-Gun     70/ 70 HP [Slot R] (Acc S, Spd C)
+CrossGun  90/ 90 HP [Slot 9] (Acc S, Spd C)
+AirShot2 150/150 HP [Slot 6] (Acc A, Spd B)
+DblSnsr  140/140 HP [Slot 4] (Acc S, Spd E)
+FrntLasr 140/140 HP [Slot 2] (Acc S, Spd C)
+Gradius  120/120 HP [Slot L] (Acc D, Spd A)
