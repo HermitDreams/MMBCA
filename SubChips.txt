@@ -77,3 +77,8 @@ Rainnot
 Guarantees at least 2 Bars of sunlight for the next fight
 Price: 1500z
 Craft: 100 Air, 250 Fire, 150 Soil, 10 Glow, 1 Time
+
+GlowDust
+Grants an immediate Bonus Reward but burns whole stack
+Stack: 5
+Craft: 25 Glow, 5 Soul
