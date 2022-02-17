@@ -102,7 +102,7 @@ Movement:
 Traits:
 - Bolted
 - Sighted: +2
-Attacks: (50%)
+Attacks: (4-128/256)
 - Cannon
 - HiCannon
 - M-Cannon (Guarantee)
