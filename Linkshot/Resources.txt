@@ -1,0 +1,13 @@
+Zenny: 1300z
+
+SUBCHIPS
+- 
+
+ORE
+
+ Air:      Fire:
+ H2O:      Soil:
+Iron:       Zap:
+Herb:       Zoo:
+Glow:      Dark:
+Soul:      Time:
