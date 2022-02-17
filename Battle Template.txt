@@ -1,38 +1,43 @@
-[>*<:        ] (0 Bars, 67 Units)
-SEA HET SEA  SEA SND HET
-BAS SND SEA  ABY CHR BAS
-BAS ABY SND  CHR CHR SND
+[>*<:|       ] (1 Bar, 90 Units)
+    1   2   3    4   5   6
+A: ABY BAS CRK  CRK BAS ICE
+B: PT1 CRK CRK  ICE BAS BAS
+C: CRK ABY CRK  BAS ICE BAS
 
-Bonus Light: +6 (HETx2)
-Malus Light: -8 (ABYx2)
+Bonus Light: +0
+Malus Light: -16 (ABYx2, CRKx6, PIT)
 
 
-1. Lilicone
+0. DUMMYMAN 100/500 HP [C1]
+            [  10%]
+ - Shrouded (Cracked Panel)
 
-________                   ________
+1. ElecIdol   0/150 HP [XX]
+            [   0%]
+________                   Yo-Yo2
                   ________
-         Vortex            SolLens
+         ________          ElecAura
 ________          ________
-         DoublBat          HolyPanl
-                  Beacon
-________                   ________
+         DashAtk           ElecAura
+                  AlumiStg
+________                   Remobit3
 
-2. Coldhead
-
-FreezBom                   IceStage
-                  IceBall
-         ________          CannBall
-________          StoneBod
-         IceBall           IceCube
+2. Slugget    0/150 HP [XX]
+            [   7%]
+Gradius                    AirShot2
+                  M-Cannon
+         ________          ________
+________          DblSnsr
+         FrntLasr          ________
                   ________
+V-Gun                      CrossGun
+
+3. Pebblest   0/300 HP [XX]
+            [   0%]
 ________                   ________
-
-3. Shroooob
-
-Geddon3                    DarkLens
-                  CrsShld3
-         TreeBom3          PoisSprd
-________          Shield
-         Dfrag100          ________
-                  PoisFace
-Muramasa                   Spice3
+                  ________
+         Quake3            ________
+________          ________
+         StoneBod          ________
+                  Press3
+________                   RockCube
