@@ -24,6 +24,14 @@ Breaks other Obstacles in way
 Ore Type: Iron
 Ore Freq: 128/256
 
+Hive
+Counter:PerHit AllAdd10 [None]
+200 HP [None]
+Places Honey Panel underneath it
+Targets nearest entity with health
+Ore Type: Zoo
+Ore Freq: 128/256
+
 Volcano
 350 HP [Fire]
 Places Lava Panel underneath it

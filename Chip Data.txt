@@ -163,6 +163,14 @@ Aerial
 Tier 4
 - Splashes all tiles adjacent to impact
 
+HiveBomb
+AllAdd30 [None]
+200 HP, 40 MB
+Acc D, Spd E
+Aerial
+Tier 4
+- Places a Hive in front of target
+
 TreeBom1
 AllAdd20 [Wood]
 120 HP, 30 MB
@@ -296,6 +304,13 @@ PierceRand100 [None]
 Acc E, Spd C
 Melee
 Tier 4
+
+Stinger
+PierceRand70 [None]
+60 HP, 30 MB
+Acc C, Spd A
+Projectile
+Tier 3
 
 Kunai1
 Triple Rand10 [None]
@@ -754,6 +769,30 @@ Floor
 Tier 4
 - Targets all Grass Panels on field
 
+Swarm1
+Require:Honey MultiSkipStun10 [None]
+150 HP, 20 MB
+Acc S, Spd B
+Projectile
+Tier 2
+- Hits once for every Honey Panel on field
+
+Swarm2
+Require:Honey MultiDoubleSkipStun10 [None]
+200 HP, 30 MB
+Acc S, Spd B
+Projectile
+Tier 3
+- Hits twice for every Honey Panel on field
+
+Swarm3
+Require:Honey MultiTripleSkipStun10 [None]
+250 HP, 40 MB
+Acc S, Spd B
+Projectile
+Tier 4
+- Hits thrice for every Honey Panel on field
+
 Erupt1
 Require:Lava Skip100 [Fire]
 160 HP, 20 MB
@@ -884,6 +923,15 @@ Tier 4
 - Swings around bottom lane and then crosses through target
 - Returns through top lane
 - Starts return trip if it hits an Obstacle
+
+GelCrash
+Shove AllAdd20 [Aqua]
+50 HP, 40 MB
+Acc A, Spd D
+Floor
+Tier 3
+- Sweeps whole field
+- Turns Sea Panels into Honey Panels
 
 CrsShld1
 Defense Counter50 [None]
@@ -2451,7 +2499,7 @@ Tier 5
 - Drains gauge to deal 10 damage per 20%, and hits once per 2 bars of sunlight
 
 BgRedWav
-Pierce AllAdd90 [Fire]
+Shove AllAdd90 [Fire]
 10 HP, 80 MB
 Acc A, Spd E
 Floor
@@ -2676,6 +2724,24 @@ Aerial
 Tier 4
 - Steals front 3 enemy panels
 - Does 70 damage when blocked
+
+HonyDrop
+Steal:FrontStun50 [None]
+80 HP, 20 MB
+Acc A, Spd E
+Aerial
+Tier 2
+- Steals front enemy panel
+- Turns panel to Honey
+
+HonySpil
+Steal:Front2Stun50 [None]
+40 HP, 30 MB
+Acc A, Spd E
+Aerial
+Tier 3
+- Steals 2 enemy panels in front of user
+- Turns panels to Honey
 
 HeatPanl
 Panel:Front [Fire]
