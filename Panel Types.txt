@@ -78,7 +78,7 @@ Honey
 - Elem Bonus: No
 - Effect: Dodge -1
  - Affect: All
-- Effect: DelayAllRepair10
+- Effect: DelayAllFix10
  - Affect: All
 - Sunlight: 0
 - Ore Type: Zoo

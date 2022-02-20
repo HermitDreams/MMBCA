@@ -280,6 +280,7 @@ Attacks: (4-100/256)
 - MedCloud (Guarantee)
 - BigCloud
 - Pulse2
+- GelCrash
 - AquaBall
 - Geyser
 - PopUp
@@ -416,6 +417,7 @@ Attacks: (35%)
 - MiniBomb
 - LilBomb
 - CrosBomb
+- HiveBomb
 - TreeBom1
 - TreeBom2 (Guaranteed)
 - TreeBom3 (Guaranteed)
@@ -433,7 +435,7 @@ Attacks: (35%)
 - Atk+20
 - Atk+30
 - EarthLns
-- GaiaBlde
+- GaiaSwrd
 - AreaGrab (Guaranteed)
 - GrassPnl
 - GrassStg (Guaranteed)
@@ -466,6 +468,7 @@ Traits:
 Attacks: (25%, 4-70/256)
   - Sword
  4. Kunai1
+- PickAxe1
  5. GutPunch
   - SandRing
   - CrsShld1
@@ -489,6 +492,8 @@ Attacks: (35%, 4-90/256)
 - FireBlde (Guaranteed)
 - Kunai1
 - Kunai2
+- Stinger
+- PickAxe2
 - SandRing
 - CrsShld2
 - AntHill1
@@ -582,6 +587,124 @@ Attacks: (50%, 4-130/256)
 - Sunrise
 - BlkBomb
 - Geddon1
+
+Adfly
+80 HP [None]
+Dodge A, Spd D
+Flavour:
+- A busy bee that harvests your data to fill its moneycombs.
+Movement:
+- Moves either up or diagonally down every turn.
+Traits:
+- AirShoes
+Attacks: (4-32/256)
+- Sword
+- Swarm1 (Guarantee)
+- DoubNdl
+- HoneyPot
+- Escape
+- Atk+10
+- HonyDrop (Guarantee)
+
+Webee
+120 HP [None]
+Dodge A, Spd B
+Flavour:
+- A sleek variant of Adfly. Your reward for finding its hive.
+Movement:
+- Moves either up or diagonally down every action.
+Traits:
+- AirShoes
+- Hide: Hive
+Attacks: (4-64/256)
+- Sword
+- LongSwrd
+- Kunai1
+- Stinger (Guarantee)
+- Swarm1
+- Swarm2 (Guarantee)
+- Prong1
+- DoubNdl
+- TripNdl
+- Catcher
+- HoneyPot
+- Escape
+- Atk+10
+- Atk+20
+- Pike
+- HonyDrop
+- HonySpil (Guarantee)
+
+Hornet
+180 HP [None]
+Dodge S, Spd S
+Flavour:
+- A sharp variant of Adfly. Not what you were searching for.
+Movement:
+- Moves either up or diagonally down every action
+- Invades territory once antagonized
+Traits:
+- AirShoes
+- Hide: Hive
+Attacks: (4-64/256)
+- Sword
+- LongSwrd
+- Kunai2
+- Stinger (Guarantee)
+- Swarm1
+- Swarm2
+- Swarm3 (Guarantee)
+- Prong2
+- TripNdl
+- QuadNdl
+- GelCrash (Guarantee)
+- Catcher (Guarantee)
+- HoneyPot
+- Escape
+- Atk+20
+- Atk+30
+- Javelin
+- FtrSword
+- HonyDrop
+- HonySpil
+- SeaStage
+
+Queenly
+300 HP [None]
+Dodge D, Spd C
+Flavour:
+- A large lethargic bee with a spawner attached
+Movement:
+- Only moves if on hazardous panel
+Traits:
+- Summon:Webee
+- Summon:Adfly
+- Hide: Hive
+Attacks: (4-200/256)
+- HiveBomb (Guarantee)
+- Swarm3 (Guarantee)
+- No-Beam3
+- Trident
+- Remobit3
+- AntHill3
+- ZeusHamr
+- GelCrash
+- Snapper
+- Pawn
+- Rook
+- Recov200
+- Dfrag150
+- HoneyPot (Guarantee)
+- Totem3
+- LifeAur2
+- Atk+30
+- Navi+20
+- Navi+40
+- BgRedWav
+- HonyDrop
+- HonySpil
+- SeaStage
+- GrassStg
 
 Swordy (Tier 1)
 80 HP [None]

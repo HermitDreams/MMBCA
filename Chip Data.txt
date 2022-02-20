@@ -1507,6 +1507,15 @@ Acc D, Spd D
 Melee
 Tier 4
 
+HoneyPot
+Absorb:Floor DelayAllFix30+ [None]
+150 HP, 20 MB
+Spd C
+Obstacle, Personal
+Tier 2
+- Spills a 3x3 square of Honey down when it breaks
+- Damage absorbed from Floor attacks gets added to Fix amount
+
 AirShoes
 Buff:Float [None]
 100 HP, 20 MB
