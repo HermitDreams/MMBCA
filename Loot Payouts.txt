@@ -48,3 +48,29 @@ Tier 2:  5-12
 Tier 3: 13-22
 Tier 4: 23-30
 Tier 5: 31-32
+
+
+ORE TRADER
+
+Insert at least 100 Ore to make a chip
+Types of Ore influence chip that comes out
+
+Enable Tier 1: 100 Ore
+Enable Tier 2: 200 Ore
+Enable Tier 3: 500 Ore
+Enable Tier 4: 1250 Ore
+Enable Tier 5: 2000 Ore
+
+Base Weight per type: 10
+Air : +2 to Projectile (per 50)
+Fire: +2 to [Fire], +1 to [None] (per 50)
+H2O : +2 to [Aqua], +1 to [None] (per 50)
+Soil: +2 to Floor (per 50)
+Iron: +2 to Aerial (per 50)
+Zap : +2 to [Elec], +1 to [None] (per 50)
+Herb: +2 to [Wood], +1 to [None] (per 50)
+Zoo : +2 to Melee (per 50)
+Glow: +4 to [Sol] (per 25)
+Dark: +4 to [Dark] (per 25)
+Soul: +10 to Personal/Instant (per 1)
+Time: +10 to Obstacle (per 1)
