@@ -1,0 +1,8 @@
+SloGauge (Tier 3, [None], Instant)
+Decay    (Tier 4, [Dark], Personal, Instant)
+Discord  (Tier 3, [None], Obstacle, Instant)
+Radiance (Tier 3, [Sol], Personal, Instant)
+AntiFire (Tier 4, [Fire], Personal, Instant)
+AntiElec (Tier 4, [Elec], Personal, Instant)
+AntiWatr (Tier 4, [Aqua], Personal, Instant)
+AntiRecv (Tier 4, [Dark], Personal, Instant)
