@@ -1,0 +1,64 @@
+AUGMENTS
+
+HP+50
+HP+100
+HP+250
+Cap+30
+Cap+60
+Cap+100
+Slot+10
+Slot+20
+Slot+40
+Charg+5
+Charg+10
+Charg+25
+Navi+10
+Navi+20
+Navi+30
+Acc+1
+Acc+2
+Acc+3
+Speed+1
+Speed+2
+Speed+3
+Dodge+1
+Dodge+2
+Dodge+3
+Splash+1
+Splash+2
+Splash+3
+
+ADAPTORS
+
+Blaster  (Applies Add to Navi Attack)
+Xplosive (Applies AllAdd to Navi Attack)
+Sharpen  (Applies Rand to Navi Attack)
+Snare    (Applies Stun to Navi Attack)
+Ruthless (Applies Break to Navi Attack)
+Regen    (Heal 50 HP per Navi Attack)
+NormAttk (Changes Navi Attack to [None])
+FireAttk (Changes Navi Attack to [Fire])
+WatrAttk (Changes Navi Attack to [Aqua])
+SparkAtk (Changes Navi Attack to [Elec])
+GrassAtk (Changes Navi Attack to [Wood])
+SolrAttk (Changes Navi Attack to [Sol])
+DarkAttk (Changes Navi Attack to [Dark])
+Rifle    (Changes Navi Attack to Projectile)
+Scrapper (Changes Navi Attack to Melee)
+Grenade  (Changes Navi Attack to Aerial)
+Undrfoot (Changes Navi Attack to Floor)
+FreezAtk (Changes Navi Attack to an [Aqua] that freezes Sea Panels)
+StormAtk (Changes Navi Attack to a [None] that uproots Sand Panels)
+QuikBarr (Start fights with a single-use Barrier)
+QuikGaug (Start fights with 50% Charge)
+Soothing (Opposing Viruses have -1 to Dodge and Spd)
+Plain    (Attract [None] Viruses)
+Cook     (Attract [Fire] Viruses)
+Fish     (Attract [Aqua] Viruses)
+Circuit  (Attract [Elec] Viruses)
+Bloom    (Attract [Wood] Viruses)
+Light    (Attract [Sol] Viruses)
+Shade    (Attract [Dark] Viruses)
+UltraV   (Always be considered Sunlit)
+Umbrella (Always be considered Shrouded)
+Miner    (Double chance of Ore Collection)
