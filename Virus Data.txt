@@ -507,6 +507,7 @@ Attacks: (35%, 4-90/256)
 - Fan
 - Popup
 - FireAura
+- FlameLns
 - FtrSword
 - Poltrgst
 - PanlGrab
@@ -1219,13 +1220,13 @@ Attacks: (4-128/256)
 - Pulse3
 - SloGauge
 - BlckHole
-- Shadow2 (Guarantee)
-- Shadow3
-- DropDown
-- Discord
 - VampBit1
 - VampBit2
 - VampBit3 (Guarantee)
+- Discord
+- DropDown
+- Shadow2 (Guarantee)
+- Shadow3
 - DarkLens
 - BlueMoon
 
