@@ -17,7 +17,7 @@ Normal120 [None]
 150 HP, 40 MB
 Acc D, Spd B
 Projectile
-Tier 4
+Tier 3
 
 Shotgun
 Add30 [None]
@@ -167,7 +167,7 @@ HiveBomb
 AllAdd30 [None]
 200 HP, 40 MB
 Acc D, Spd E
-Aerial
+Aerial, Obstacle
 Tier 4
 - Places a Hive in front of target
 
@@ -192,7 +192,7 @@ AllAdd40 [Wood]
 180 HP, 50 MB
 Acc A, Spd C
 Aerial, then Floor
-Tier 4
+Tier 3
 - Launches seeking spikes after impact
 
 Sword
@@ -271,7 +271,7 @@ Rand70 [None]
 80 HP, 40 MB
 Acc D, Spd B
 Melee
-Tier 4
+Tier 3
 - Strikes panels beside target
 - Ignores panel the attacker steps on
 
@@ -280,7 +280,7 @@ Double Rand40 [None]
 100 HP, 60 MB
 Acc C, Spd C
 Melee
-Tier 5
+Tier 4
 - Strikes all panels diagonally adjacent to target once
 - Ignores panel the attacker steps on
 
@@ -289,21 +289,21 @@ PierceRand50 [None]
 60 HP, 20 MB
 Acc D, Spd D
 Melee
-Tier 2
+Tier 1
 
 PickAxe2
 PierceRand70 [None]
 90 HP, 30 MB
 Acc D, Spd D
 Melee
-Tier 3
+Tier 2
 
 PickAxe3
 PierceRand100 [None]
 140 HP, 50 MB
 Acc E, Spd C
 Melee
-Tier 4
+Tier 3
 
 Stinger
 PierceRand70 [None]
@@ -401,7 +401,7 @@ Pierce130 [None]
 120 HP, 40 MB
 Acc B, Spd D
 Floor
-Tier 4
+Tier 3
 - Travels forward in own territory, then through line of target's territory
 
 LilShout
@@ -924,15 +924,6 @@ Tier 4
 - Returns through top lane
 - Starts return trip if it hits an Obstacle
 
-GelCrash
-Shove AllAdd20 [Aqua]
-50 HP, 40 MB
-Acc A, Spd D
-Floor
-Tier 3
-- Sweeps whole field
-- Turns Sea Panels into Honey Panels
-
 CrsShld1
 Defense Counter50 [None]
 180 HP, 40 MB
@@ -958,7 +949,7 @@ AntHill1
 Defense1 Remove20 [None]
 70 HP, 20 MB
 Acc A, Spd A
-Obstacle
+Obstacle, Melee
 Tier 1
 - Absorbs one hit per use
 - Removes any Defense from attacker when disturbed
@@ -968,7 +959,7 @@ AntHill2
 Defense1 Remove40 [None]
 150 HP, 30 MB
 Acc A, Spd A
-Obstacle
+Obstacle, Melee
 Tier 2
 - Absorbs one hit per use
 - Removes any Defense from attacker when disturbed
@@ -978,7 +969,7 @@ AntHill3
 Defense1 Remove70 [None]
 300 HP, 40 MB
 Acc A, Spd B
-Obstacle
+Obstacle, Melee
 Tier 3
 - Absorbs one hit per use
 - Removes any Defense from attacker when disturbed
@@ -1022,9 +1013,18 @@ ZeusHamr
 BreakAllAdd50 [None]
 40 HP, 60 MB
 Acc C, Spd E
-Melee
+Melee, Floor
 Tier 5
 - Splashes all entities without AirShoes
+
+GelCrash
+Shove AllAdd20 [Aqua]
+50 HP, 40 MB
+Acc A, Spd D
+Floor
+Tier 3
+- Sweeps whole field
+- Turns Sea Panels into Honey Panels
 
 SloGauge
 Drain50% [None]
@@ -1527,7 +1527,7 @@ Candle1
 Defense DelayHeal40 [Fire]
 100 HP, 10 MB
 Spd C
-Obstacle
+Obstacle, Personal
 Tier 2
 - Heals whole side of field
 
@@ -1535,7 +1535,7 @@ Candle2
 Defense DelayHeal70 [Fire]
 100 HP, 20 MB
 Spd C
-Obstacle
+Obstacle, Personal
 Tier 3
 - Heals whole side of field
 
@@ -1543,7 +1543,7 @@ Candle3
 Defense DelayHeal100 [Fire]
 100 HP, 40 MB
 Spd C
-Obstacle
+Obstacle, Personal
 Tier 4
 - Heals whole side of field
 
@@ -1551,7 +1551,7 @@ Totem1
 Defense Delay Normal60 Heal50 [Fire]
 100 HP, 20 MB
 Acc B, Spd E
-Obstacle, Projectile
+Obstacle, Projectile, Personal
 Tier 2
 - Swaps between Healing and Damage each time it takes a hit
 
@@ -1559,7 +1559,7 @@ Totem2
 Defense Delay Normal80 Heal80 [Fire]
 150 HP, 30 MB
 Acc B, Spd E
-Obstacle, Projectile
+Obstacle, Projectile, Personal
 Tier 3
 - Swaps between Healing and Damage each time it takes a hit
 
@@ -1567,7 +1567,7 @@ Totem3
 Defense Delay Normal120 Heal100 [Fire]
 200 HP, 50 MB
 Acc B, Spd E
-Obstacle, Projectile
+Obstacle, Projectile, Personal
 Tier 4
 - Swaps between Healing and Damage each time it takes a hit
 
@@ -1575,7 +1575,7 @@ Fanfare
 Defense InvisAll [None]
 80 HP, 30 MB
 Spd C
-Obstacle
+Obstacle, Personal
 Tier 3
 - All entities on your side (except this Obstacle) gain Invis status while active
 
@@ -1616,10 +1616,10 @@ Obstacle, Floor
 Tier 3
 
 Prism
-Defense DelayCopy [None]
+Defense DelayCopy [Sol]
 150 HP, 30 MB
 Acc S, Spd C
-Obstacle, Instant
+Obstacle, Projectile
 Tier 4
 - Repeats all damage dealt by user since it was placed
 
@@ -1731,7 +1731,7 @@ Radiance
 Counter:Melee Blind50 [Sol]
 80 HP, 30 MB
 Spd S
-Personal
+Personal, Instant
 Tier 3
 - Incoming Melee attacks get interrupted by blinding light
 
@@ -1772,7 +1772,7 @@ Survive50 [None]
 30 HP, 50 MB
 Spd D
 Personal
-Tier 4
+Tier 3
 - Survive with 50 HP
 
 Barrier
@@ -1860,7 +1860,7 @@ Defense Aura150 [Life]
 10 HP, 60 MB
 Spd B
 Personal
-Tier 4
+Tier 5
 - Blocks any hit under 150 damage
 
 DarkAura
@@ -1944,10 +1944,10 @@ Tier 2
 
 FullCust
 Charge100% [None]
-50 HP, 40 MB
+50 HP, 60 MB
 Spd D
 Personal
-Tier 4
+Tier 5
 
 Atk+10
 Power10 [None]
@@ -2495,7 +2495,7 @@ Nitemare
 AllAdd40 [Dark]
 250 HP, 50 MB
 Acc B, Spd D
-Aerial
+Aerial, Floor
 Tier 4
 - Stretches forever in the cardinal directions on impact
 
@@ -2528,7 +2528,7 @@ Sparker
 Defense AllAdd50 [Elec]
 300 HP, 70 MB
 Acc C, Spd B
-Projectile
+Projectile, Personal
 Tier 5
 
 GaiaSwrd
@@ -2543,7 +2543,7 @@ BlkBomb
 Defense Counter:Fire AllAdd60 [Fire]
 300 HP, 50 MB
 Acc A, Spd C
-Obstacle, Instant
+Obstacle, Aerial
 Tier 5
 - Stops blocking when hit by Fire
 - Hits entire enemy field
@@ -2756,7 +2756,7 @@ HeatPanl
 Panel:Front [Fire]
 50 HP, 0 MB
 Spd C
-Instant
+Floor
 Tier 1
 - The panel in front of the user turns to Heat
 
@@ -2764,7 +2764,7 @@ SeaPanel
 Panel:Front [Aqua]
 50 HP, 0 MB
 Spd C
-Instant
+Floor
 Tier 1
 - The panel in front of the user turns to Sea
 
@@ -2772,7 +2772,7 @@ GrassPnl
 Panel:Front [Wood]
 50 HP, 0 MB
 Spd C
-Instant
+Floor
 Tier 1
 - The panel in front of the user turns to Grass
 
@@ -2780,7 +2780,7 @@ ChargPnl
 Panel:Front [Elec]
 50 HP, 0 MB
 Spd C
-Instant
+Floor
 Tier 1
 - The panel in front of the user turns to Charger
 
@@ -2788,7 +2788,7 @@ AlumiPnl
 Panel:Front [None]
 50 HP, 0 MB
 Spd C
-Instant
+Floor
 Tier 1
 - The panel in front of the user turns to Metal
 
@@ -2796,7 +2796,7 @@ LavaPanl
 Panel:Front [Fire]
 50 HP, 10 MB
 Spd C
-Instant
+Floor
 Tier 2
 - The panel in front of the user turns to Lava
 
@@ -2812,7 +2812,7 @@ HolyPanl
 Panel:Self [Sol]
 20 HP, 40 MB
 Spd C
-Instant
+Floor
 Tier 4
 - The panel the user is standing on turns to Holy
 
@@ -2820,7 +2820,7 @@ IceLine
 Panel:Line [Aqua]
 30 HP, 10 MB
 Spd C
-Instant
+Floor
 Tier 2
 - The user's entire horizontal line turns to Ice
 
@@ -2828,7 +2828,7 @@ MagLine
 Panel:Line [Elec]
 30 HP, 10 MB
 Spd C
-Instant
+Floor
 Tier 2
 - The user's entire horizontal line turns to Magnet
 
@@ -2836,7 +2836,7 @@ Repair
 Panel:Stage [None]
 30 HP, 10 MB
 Spd D
-Instant
+Floor
 Tier 1
 - The entire stage returns to Basic Panels
 
@@ -2844,7 +2844,7 @@ HeatStge
 Panel:Stage [Fire]
 10 HP, 20 MB
 Spd D
-Instant
+Floor
 Tier 2
 - The entire stage turns to Heat Panels
 
@@ -2852,7 +2852,7 @@ SeaStage
 Panel:Stage [Aqua]
 10 HP, 20 MB
 Spd D
-Instant
+Floor
 Tier 2
 - The entire stage turns to Sea Panels
 
@@ -2860,7 +2860,7 @@ Desert
 Panel:Stage [None]
 10 HP, 20 MB
 Spd D
-Instant
+Floor
 Tier 2
 - The entire stage turns to Sand Panels
 
@@ -2868,7 +2868,7 @@ GrassStg
 Panel:Stage [Wood]
 10 HP, 20 MB
 Spd D
-Instant
+Floor
 Tier 2
 - The entire stage turns to Sand Panels
 
@@ -2876,7 +2876,7 @@ ChargStg
 Panel:Stage [Elec]
 10 HP, 20 MB
 Spd D
-Instant
+Floor
 Tier 2
 - The entire stage turns to Charger Panels
 
@@ -2884,7 +2884,7 @@ AlumiStg
 Panel:Stage [None]
 10 HP, 20 MB
 Spd D
-Instant
+Floor
 Tier 2
 - The entire stage turns to Metal Panels
 
@@ -2892,7 +2892,7 @@ IceStage
 Panel:Stage [Aqua]
 10 HP, 20 MB
 Spd D
-Instant
+Floor
 Tier 2
 - The entire stage turns to Ice Panels
 
@@ -2900,7 +2900,7 @@ LavaStge
 Panel:Stage [Fire]
 10 HP, 40 MB
 Spd D
-Instant
+Floor
 Tier 3
 - The entire stage turns to Lava Panels
 
@@ -2908,7 +2908,7 @@ Geddon1
 Panel:Stage [None]
 10 HP, 20 MB
 Spd D
-Instant
+Floor
 Tier 3
 - The entire stage is Cracked
 
@@ -2916,15 +2916,15 @@ Geddon2
 Panel:Stage [None]
 10 HP, 30 MB
 Spd D
-Instant
+Floor
 Tier 4
 - The entire stage is broken
 
 Geddon3
-Panel:Stage [None]
+Panel:Stage [Dark]
 10 HP, 30 MB
 Spd D
-Instant
+Floor
 Tier 4
 - The entire stage turns to Swamp Panels
 
@@ -2932,7 +2932,7 @@ DarkPrtl
 Panel:Front [Dark]
 10 HP, 20 MB
 Spd C
-Instant
+Obstacle
 Tier 4
 - Opens a sinister hole that removes all Darkchip penalties
 - Allows usage of DarkLens, Phantom, and ChaosBat without matching parts
@@ -2943,7 +2943,7 @@ Beacon
 Panel:Front [Sol]
 10 HP, 20 MB
 Spd C
-Instant
+Obstacle
 Tier 4
 - Opens a brilliant gate that removes all Solar Lashback
 - Cuts gauge usage in half
@@ -2954,6 +2954,6 @@ Sancuary
 Panel:Territory [Sol]
 10 HP, 80 MB
 Spd D
-Instant
+Floor
 Tier 5
 - Turns the user's entire field to Holy Panels
