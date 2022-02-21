@@ -1317,6 +1317,15 @@ Floor
 Tier 5
 - Can target as many enemies as there are Holes
 
+Tripwire
+Require:Hole Counter:Floor Norm150 [Elec]
+150 HP, 50 MB
+Acc S, Spd B
+Obstacle, Floor
+Tier 5
+- Raises an Obstacle from every Hole
+- Cardinally aligned Obstacles place Counters between them
+
 Snake
 Require:Hole Multi30 [Wood]
 50 HP, 40 MB
