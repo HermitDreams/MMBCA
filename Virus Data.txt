@@ -30,7 +30,7 @@ Attacks: (25%)
 - Guard (Guarantee)
 - PanlOut
 
-Mettaur3 (Tier 4: Undernet)
+Mettaur3 (Tier 3: International)
 120 HP [None]
 Dodge A, Spd D
 Flavour:
@@ -217,7 +217,7 @@ Attacks: (4-75/256)
 - HeatStge
 - LavaPanl
 
-Wimpy
+Wimpy (Tier 1)
 90 HP [Aqua]
 Dodge C, Spd C
 Flavour:
@@ -233,7 +233,7 @@ Attacks: (4-50/256)
 - LilCloud
 - SeaPanel
 
-Shrimpy
+Shrimpy (Tier 2)
 120 HP [Aqua]
 Dodge C, Spd C
 Flavour:
@@ -257,7 +257,7 @@ Attacks: (4-75/256)
 - SeaPanel
 - SeaStage
 
-Drimpy
+Drimpy (Tier 4)
 180 HP [Aqua]
 Dodge B, Spd A
 Flavour:
@@ -350,6 +350,7 @@ Attacks: (60%, 4-155/256)
 - Prong2 (Guaranteed)
 - Prong3
 - Remobit1
+- Tripwire
 - Catcher
 - AntiElec
 - Atk+10
@@ -398,6 +399,7 @@ Attacks: (25%, 4-70/256)
 - Lance
 - Wrecker
 - ApplSeed
+- VampBit1
 - LeafShld
 - Atk+10
 - Atk+20
@@ -589,7 +591,7 @@ Attacks: (50%, 4-130/256)
 - BlkBomb
 - Geddon1
 
-Adfly
+Adfly (Tier 2)
 80 HP [None]
 Dodge A, Spd D
 Flavour:
@@ -602,12 +604,13 @@ Attacks: (4-32/256)
 - Sword
 - Swarm1 (Guarantee)
 - DoubNdl
+- PnkLotus
 - HoneyPot
 - Escape
 - Atk+10
 - HonyDrop (Guarantee)
 
-Webee
+Webee (Tier 3)
 120 HP [None]
 Dodge A, Spd B
 Flavour:
@@ -627,6 +630,7 @@ Attacks: (4-64/256)
 - Prong1
 - DoubNdl
 - TripNdl
+- RedLotus
 - Catcher
 - HoneyPot
 - Escape
@@ -636,7 +640,7 @@ Attacks: (4-64/256)
 - HonyDrop
 - HonySpil (Guarantee)
 
-Hornet
+Hornet (Tier 4)
 180 HP [None]
 Dodge S, Spd S
 Flavour:
@@ -658,6 +662,7 @@ Attacks: (4-64/256)
 - Prong2
 - TripNdl
 - QuadNdl
+- RedLotus
 - GelCrash (Guarantee)
 - Catcher (Guarantee)
 - HoneyPot
@@ -670,7 +675,7 @@ Attacks: (4-64/256)
 - HonySpil
 - SeaStage
 
-Queenly
+Queenly (Tier 5: Quarantine)
 300 HP [None]
 Dodge D, Spd C
 Flavour:
@@ -687,6 +692,7 @@ Attacks: (4-200/256)
 - No-Beam3
 - Trident
 - Remobit3
+- YelLotus
 - AntHill3
 - ZeusHamr
 - GelCrash
@@ -1026,6 +1032,7 @@ Attacks: (4-200/256)
 - SilvFist
 - GoldFist
 - GodStone
+- Tripwire
 - Recov30
 - Recov80
 - Recov150
@@ -1086,6 +1093,7 @@ Attacks: (4-80/256)
 - Spice2
 - MagBomb2
 - Remobit1
+- PnkLotus
 - Sundial
 - LiteRay1
 - Wires
@@ -1126,10 +1134,13 @@ Attacks: (4-200/256)
 - Spice3
 - MagBomb3
 - Remobit2
+- RedLotus
+- YelLotus
 - Sundial
 - LiteRay2
 - Meteor5
 - PowerOrb
+- Tripwire
 - Piledriv
 - Wires
 - Snapper
@@ -1201,7 +1212,7 @@ Attacks: (4-75/256)
 - VampBit1
 - VampBit2 (Guarantee)
 
-Batty3 (Tier 4)
+Batty3 (Tier 4: Beta)
 120 HP [Dark]
 Dodge S, Spd S
 Flavour:
@@ -1227,10 +1238,15 @@ Attacks: (4-128/256)
 - DropDown
 - Shadow2 (Guarantee)
 - Shadow3
+- TriplBat
+- ChaosBat
+- LunaLens
 - DarkLens
+- Phantom
+- Otorange
 - BlueMoon
 
-Hardhead
+Hardhead (Tier 3)
 80 HP [None]
 Dodge E, Spd D
 Flavour:
@@ -1252,7 +1268,7 @@ Attacks: (4-64/256)
 - Juggler
 - UnderSht
 
-Hothead
+Hothead (Tier 4)
 150 HP [Fire]
 Dodge E, Spd C
 Flavour:
@@ -1287,7 +1303,7 @@ Attacks: (4-96/256)
 - LavaPanl
 - LavaStge (Guarantee)
 
-Coldhead
+Coldhead (Tier 4)
 150 HP [Aqua]
 Dodge E, Spd C
 Flavour:
@@ -1358,7 +1374,7 @@ Attacks: (4-128/256)
 - Nitemare (Guarantee)
 - Geddon1
 
-Windbox
+Windbox (Tier 2)
 120 HP [None]
 Dodge E, Spd B
 Flavour:
@@ -1377,7 +1393,7 @@ Attacks: (4-64/256)
 - Fan (Guarantee)
 - Axel
 
-Windome
+Windome (Tier 3)
 160 HP [None]
 Dodge E, Spd A
 Flavour:
@@ -1406,7 +1422,7 @@ Attacks: (4-100/256)
 - MagLine
 - Desert
 
-Windchil
+Windchil (Tier 3)
 200 HP [Aqua]
 Dodge E, Spd S
 Flavour:
@@ -1557,7 +1573,7 @@ Attacks: (4-80/256)
 - HolyPanl
 - Beacon
 
-Angel
+Angel (Tier 5: Admin Lounge)
 250 HP [Sol]
 Dodge S, Spd S
 Flavour:
@@ -1686,6 +1702,7 @@ Attacks: (4-75/256)
 - Lance
 - Spice1
 - SloGauge (Guarantee)
+- PnkLotus
 - Yo-Yo1
 - Boomer1
 - Boomer2
@@ -1717,6 +1734,7 @@ Attacks: (4-128/256)
 - Lance
 - Spice2
 - SloGauge (Guarantee)
+- PnkLotus
 - Yo-Yo2
 - Boomer2
 - CrsShld1
@@ -1758,6 +1776,9 @@ Attacks: (4-200/256)
 - Spice2
 - Spice3
 - SloGauge
+- PnkLotus
+- RedLotus
+- YelLotus
 - Yo-Yo2
 - Yo-Yo3
 - Boomer2
@@ -1799,7 +1820,7 @@ Movement:
 - Rotates clockwise around player
 Traits:
 - AirShoes
-Attacks: (30%, 4-80/256)
+Attacks: (4-80/256)
 - CustSwrd
 - Satelit1
 - SloGauge (Guarantee)
@@ -1811,10 +1832,12 @@ Attacks: (30%, 4-80/256)
 - Dfrag50
 - FstGauge
 - Battery
+- LunaLens
+- Axel
 - Repair
 
-FaceTime (Tier 4: Undernet)
-200 HP [None]
+FaceTime (Tier 4: Delta)
+150 HP [None]
 Dodge B, Spd S
 Flavour:
 - A grinning variant of TimeFace. Loves to schedule things 5 minutes too soon.
@@ -1825,7 +1848,7 @@ Traits:
 - AirShoes
 - Unflinching
 - Charge: x1.5
-Attacks: (70%)
+Attacks: (4-180/256)
 - CustSwrd
 - Satelit2
 - Whirlpl
@@ -1837,8 +1860,13 @@ Attacks: (70%)
 - Recov30
 - Recov120 (Guarantee)
 - Dfrag100
-- FullCust
+- FstGauge
+- DoublBat
 - TriplBat
+- SolLens
+- LunaLens
+- Vortex
+- Fencer
 - Geddon1 (Guarantee)
 
 Entroper (Tier 5: Bitrot)
@@ -1852,7 +1880,7 @@ Traits:
 - AirShoes
 - Unflinching
 - Trail: Swamp
-Attacks: (90%)
+Attacks: (4-210/256)
 - CustSwrd
 - Satelit3
 - SloGauge
@@ -1871,6 +1899,16 @@ Attacks: (90%)
 - FstGauge
 - FullCust
 - ChaosBat
+- AstroBat
+- Infinity
+- SolLens
+- LunaLens
+- DarkLens
+- StarLens
+- Tempest
+- Samurai
+- Calamity
+- Phantom
 - FoldrBak
 - Repair
 - Geddon1
@@ -1957,25 +1995,3 @@ Attacks: (4-64/256)
 - ElecAura (Guarantee 2)
 - CloudLns
 - AlumiStg
-
-
-VIRUSES BY TIER
-
-TIER 1
-- Mettaur
-- Gunnet
-- Beetank
-- Ratty
-- Swordy
-- Bushy
-- Bunny
-- heatshot dog
-- Shrimpy
-- RelyAnt
-- Cloudy
-- Pebblet
-- invis ghost
-- school thing [healer?]
-- traffic thing [Fire?]
-- solar panel flower
-- pulse bat
