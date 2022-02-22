@@ -6,6 +6,7 @@ Batteries activate their Program Advances (Solar Guns) sooner than 100%.
 X-Cannon
 Triple70 [None]
 Acc B, Spd D
+Projectile
 Combinations:
 - Cannon * HiCannon * M-Cannon
 Properties
@@ -14,6 +15,7 @@ Properties
 LifeSwrd
 Rand150 [Life]
 Acc A, Spd A
+Melee
 Combinations:
 - Sword * WideSwrd * LongSwrd
 - FireSwrd * AquaSwrd * ElecSwrd
@@ -24,7 +26,22 @@ Properties:
 IceStorm
 Break 10Meteo20 [Aqua]
 Acc D, Spd B
+Aerial
 Combinations:
 - Wind * IceBall * DeepFrez
 Properties:
 - Changes every panel it hits to Ice
+
+FoluNuke
+Drain??? Delay AllAdd120 [Dark]
+Acc S, Spd E
+Aerial, Obstacle
+Combinations:
+- HiveBomb * TimeBom1 * Anubis
+- HiveBomb * TimeBom2 * Anubis
+- HiveBomb * TimeBom3 * Anubis
+Properties:
+- Throws Obstacle in front of opponent
+- HP is determined by TimeBomb used
+- Every hit the Obstacle takes drains the target's gauge by that amount
+- At end of turn, blows up and damages all adjacent entities
