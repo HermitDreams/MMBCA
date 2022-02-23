@@ -9,8 +9,18 @@ Acc B, Spd D
 Projectile
 Combinations:
 - Cannon * HiCannon * M-Cannon
-Properties
+Properties:
 - The hit that defeats an entity continues down its lane
+
+Antipode
+Add180 [Dark]
+Acc A, Spd A
+Projectile
+Combinations:
+- BubSprd * HeatSprd * InkSprd
+Properties:
+- Strikes all adjacent panels
+- [Fire] and [Aqua] gain affinity bonus
 
 LifeSwrd
 Rand150 [Life]
@@ -23,6 +33,47 @@ Combinations:
 Properties:
 - Chops a 2x3 area
 
+AntQueen
+Defense Spawn:Ant [None]
+Spd D
+Obstacle
+Combinations:
+- AntHill1 * AntHill2 * AntHill3
+Propeties:
+- Combines remaining chip HP
+- Spawns a random Ant every time she is attacked
+* Entities with Program Decks cap at 3 per side of a field
+
+Timpani1
+Defense PerAction SkipStun50 [None]
+Acc S, Spd D
+Obstacle, Instant
+Combinations:
+- Discord * Quake1 * LilShout
+Properties:
+- Uses combined remaining HP of all chips
+- Affects whole field except user
+
+Timpani2
+Defense PerAction SkipStun80 [None]
+Acc S, Spd D
+Obstacle, Instant
+Combinations:
+- Discord * Quake2 * MedShout
+Properties:
+- Uses combined remaining HP of all chips
+- Affects whole field except user
+
+Timpani3
+Defense PerAction SkipStun110 [None]
+Acc S, Spd D
+Obstacle, Instant
+Combinations:
+- Discord * Quake3 * BigShout
+Properties:
+- Uses combined remaining HP of all chips
+- Affects whole field except user
+
 IceStorm
 Break 10Meteo20 [Aqua]
 Acc D, Spd B
@@ -31,6 +82,74 @@ Combinations:
 - Wind * IceBall * DeepFrez
 Properties:
 - Changes every panel it hits to Ice
+
+ZapClap1
+Splash:Mind StunAllAdd50 [Elec]
+Acc A, Spd S
+Aerial
+Combinations:
+- LilCloud * Remobit1 * Pulse1
+Properties:
+- Splashes to all adjacent panels
+
+ZapClap2
+Splash:Mind StunAllAdd70 [Elec]
+Acc A, Spd S
+Aerial
+Combinations:
+- MedCloud * Remobit2 * Pulse2
+Properties:
+- Splashes to all adjacent panels
+
+ZapClap3
+Splash:Mind StunAllAdd100 [Elec]
+Acc A, Spd S
+Aerial
+Combinations:
+- BigCloud * Remobit3 * Pulse3
+Properties:
+- Splashes to all adjacent panels
+
+MagSphr1
+Barr2 Waning DoubleAdd50 [Elec]
+Acc B, Spd S
+Personal, Projectile
+Combinations:
+- Barrier * Satelit1 * Satelit1
+Properties:
+- Sustains two non-[Wood] hits
+- Each hit taken reduces end-of-turn hits
+
+MagSphr2
+Barr3 Waning TripleAdd50 [Elec]
+Acc B, Spd S
+Personal, Projectile
+Combinations:
+- Barrier * Satelit2 * Satelit2
+- Barrier * Satelit2 * PowerOrb
+Properties:
+- Sustains three non-[Wood] hits
+- Each hit taken reduces end-of-turn hits
+
+MagSphr3
+Barr4 Waning QuadAdd50 [Elec]
+Acc B, Spd S
+Personal, Projectile
+Combinations:
+- Barrier * Satelit3 * Satelit3
+- StarBarr * Satelit3 * Satelit3
+Properties:
+- Sustains four non-[Wood] hits
+- Each hit taken reduces end-of-turn hits
+
+Forest
+Defense Panel [Wood]
+Spd C
+Obstacle, Floor
+Combinations:
+- OldWood * LeafShld * GrassStg
+Propeties:
+- Surrounds all entities with Trees
 
 FoluNuke
 Drain??? Delay AllAdd120 [Dark]
