@@ -1,8 +1,14 @@
 All viruses within an area have a 3/256 chance to "share" chips with each other.
 Areas segmented into tiers for purposes of "Emergent Viruses"
-Want Quarantine to be plot climax but maybe should just have different plot?
-WWW Castle also has plot relevance, but they're all the Postgame Areas.
-Will probably have a plot that subdues the threats and Postgame Areas resolve them.
+
+Amount of Enemies in a fight per zone:
+     One  Two  Three
+1st: 1-4, 5-7, 8
+2nd: 1-3, 4-6, 7-8
+3rd: 1-2, 3-5, 6-8
+
+(First portion leans toward one, last leans away)
+(Rolls a d8 to decide amount)
 
 ACDC (64 Solar)
 Panels:
