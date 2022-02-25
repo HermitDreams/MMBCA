@@ -949,7 +949,7 @@ AntHill1
 Defense1 Remove20 [None]
 70 HP, 20 MB
 Acc A, Spd A
-Obstacle, Melee
+Obstacle, Floor
 Tier 1
 - Absorbs one hit per use
 - Removes any Defense from attacker when disturbed
@@ -959,7 +959,7 @@ AntHill2
 Defense1 Remove40 [None]
 150 HP, 30 MB
 Acc A, Spd A
-Obstacle, Melee
+Obstacle, Floor
 Tier 2
 - Absorbs one hit per use
 - Removes any Defense from attacker when disturbed
@@ -969,7 +969,7 @@ AntHill3
 Defense1 Remove70 [None]
 300 HP, 40 MB
 Acc A, Spd B
-Obstacle, Melee
+Obstacle, Floor
 Tier 3
 - Absorbs one hit per use
 - Removes any Defense from attacker when disturbed
@@ -1966,14 +1966,14 @@ Tier 4
 - Cancels the attempt to recover HP and turns it into damage
 
 FstGauge
-Charge50% [None]
+ChargeDouble [None]
 200 HP, 20 MB
 Spd C
 Personal
 Tier 2
 
 FullCust
-Charge100% [None]
+Charge+100% [None]
 50 HP, 60 MB
 Spd D
 Personal
@@ -2861,6 +2861,16 @@ Spd C
 Floor
 Tier 2
 - The user's entire horizontal line turns to Magnet
+
+CrackOut
+Panel:Line Multi10 [None]
+30 HP, 30 MB
+Acc D, Spd A
+Floor, Projectile
+Tier 3
+- Destroys every panel between user and target in a line
+- Each panel destroyed adds 1 hit to the amount
+- Stops at first panel it can't break
 
 Repair
 Panel:Stage [None]
