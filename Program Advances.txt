@@ -44,13 +44,40 @@ Combinations:
 Properties:
 - Throws your RockCube chip at the opponent, as if it were Shoved
 
+Helper1
+Spawn:Mettaur1 [None]
+Spd D
+Obstacle
+Combinations:
+- Guard * PickAxe1 * ShockWav
+Properties:
+- Spawns a Tier 1 Mettaur in front of the user
+
+Helper2
+Spawn:Mettaur2 [None]
+Spd E
+Obstacle
+Combinations:
+- Guard * PickAxe2 * SonicWav
+Properties:
+- Spawns a Tier 2 Mettaur in front of the user
+
+Helper3
+Spawn:Mettaur3 [None]
+Spd E
+Obstacle
+Combinations:
+- Guard * PickAxe3 * DynaWave
+Properties:
+- Spawns a Tier 3 Mettaur in front of the user
+
 AntQueen
 Defense Spawn:Ant [None]
 Spd D
 Obstacle
 Combinations:
 - AntHill1 * AntHill2 * AntHill3
-Propeties:
+Properties:
 - Combines remaining chip HP
 - Spawns a random Ant every time she is attacked
 * Entities with Program Decks cap at 3 per side of a field
