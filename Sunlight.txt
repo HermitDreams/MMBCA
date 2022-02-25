@@ -12,8 +12,10 @@ EFFECTS
 + The Custom Gauge charges by up to 4xBars per action taken, in addition to the guaranteed 5%.
 + [Sol] Chips gain +1 Priority for every Bar *after* 8 Bars (every 16 after 192 Solar Level)
 + [Dark] Chips gain +1 Accuracy for every Bar *under* 0 Bars (every 16 under 64 Solar Level)
-- [Sol] Chips FAIL at a rate of Solar Level / 256 if you are not a [Sol] user
-- [Sol] Chips DISARM the user at a rate of Solar Level / 512 if you are not a [Sol] user
+- [Sol] Chips FAIL under 4 Bars of light if you are not a [Sol] user
+- [Sol] Chips DISARM the user at a rate of Solar Level / 256 if you are not a [Sol] user
+- [Sol] Chips SELFDESTRUCT at a rate of (Solar Level - 64) / 256 if you are not a [Sol] user
+- [Dark] Chips FAIL over 5 Bars of light if you are not a [Dark] user
 - [Dark] Chips DRAIN GAUGE by 128 - Solar Level if you are not a [Dark] user
 - [Dark] Chips REDUCE MAX HP by 64 - Solar Level if you are not a [Dark] user
 
