@@ -162,5 +162,7 @@ Pit
 - Transform: Basic
  - Proc: 3 Turns
 - Sunlight: -2
-- Ore Type: Time
-- Ore Freq: 1/256
+- Ore Type: Dark
+- Ore Freq: 16/256
+- Alt Ore Type: Time
+- Alt Ore Freq: 1/256
