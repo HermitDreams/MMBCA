@@ -1,43 +1,44 @@
-[>*<:|       ] (1 Bar, 90 Units)
+[>*<:|||||   ] (5 Bars, 146 Units)
     1   2   3    4   5   6
-A: ABY BAS CRK  CRK BAS ICE
-B: PT1 CRK CRK  ICE BAS BAS
-C: CRK ABY CRK  BAS ICE BAS
+A: ICE MGN SEA  MET CRK ICE
+B: ICE ICE ICE  ICE MET ICE
+C: SEA MGN MET  MET MET ICE
 
 Bonus Light: +0
-Malus Light: -16 (ABYx2, CRKx6, PIT)
+Malus Light: -1 (CRK)
+
+ - IceCube  200/200 HP [A6]
 
 
-0. DUMMYMAN 100/500 HP [C1]
-            [  10%]
- - Shrouded (Cracked Panel)
-
-1. ElecIdol   0/150 HP [XX]
+0. DUMMYMAN 100/500 HP [B2]
             [   0%]
-________                   Yo-Yo2
-                  ________
-         ________          ElecAura
-________          ________
-         DashAtk           ElecAura
-                  AlumiStg
-________                   Remobit3
 
-2. Slugget    0/150 HP [XX]
-            [   7%]
-Gradius                    AirShot2
-                  M-Cannon
-         ________          ________
-________          DblSnsr
-         FrntLasr          ________
-                  ________
-V-Gun                      CrossGun
+1. Batty3   120/120 HP [XX]
+            [   0%]
+________                   Shadow2
+                  Muramasa
+         VampBit3          ________
+________          Muramasa
+         ________          Pulse2
+                  BlueMoon
+________                   DropDown
 
-3. Pebblest   0/300 HP [XX]
+2. Tantrum  210/210 HP [XX]
+            [   0%]
+LavaPanl                   PickAxe2
+                  ________
+         ________          FireBlde
+________          FireBlde
+         AreaGrab          ________
+                  LavaStge
+AntHill2                   AntHill3
+
+3. WoodIdol 150/150 HP [XX]
             [   0%]
 ________                   ________
                   ________
-         Quake3            ________
-________          ________
-         StoneBod          ________
-                  Press3
-________                   RockCube
+         WoodAura          MedShout
+________          Yo-Yo2
+         WoodAura          DashAtk
+                  ________
+________                   WoodAura
