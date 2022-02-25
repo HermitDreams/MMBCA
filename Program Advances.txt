@@ -33,6 +33,17 @@ Combinations:
 Properties:
 - Chops a 2x3 area
 
+GutThrow
+Sac:RockCube Break??? [None]
+Acc B, Spd C
+Aerial
+Combinations:
+- GutPunch * Wrecker * RockCube
+- GutPunch * CannBall * RockCube
+- GutPunch * Howitzer * RockCube
+Properties:
+- Throws your RockCube chip at the opponent, as if it were Shoved
+
 AntQueen
 Defense Spawn:Ant [None]
 Spd D
@@ -148,8 +159,17 @@ Spd C
 Obstacle, Floor
 Combinations:
 - OldWood * LeafShld * GrassStg
-Propeties:
+Properties:
 - Surrounds all entities with Trees
+
+QuikStep
+OctoMeteoRand70 [None]
+Acc D, Spd S
+Melee
+Combinations:
+- StepSwrd * StepCros * DeltEdge
+Properties:
+- Strikes from every unoccupied panel adjacent to target
 
 FoluNuke
 Drain??? Delay AllAdd120 [Dark]
