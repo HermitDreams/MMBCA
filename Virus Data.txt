@@ -50,6 +50,7 @@ Attacks: (40%)
 - StoneBod
 - UnderSht
 - PanlOut
+- CrackOut
 - Geddon1
 
 Gunnet (Tier 1: Hometowns)
@@ -1054,8 +1055,8 @@ Attacks: (4-200/256)
 - Trebucht
 - Shield
 - StarBarr
+- CrackOut
 - Repair
-- Geddon2
 - Sancuary
 
 Panella (Tier 1)
@@ -1870,7 +1871,7 @@ Attacks: (4-180/256)
 - Geddon1 (Guarantee)
 
 Entroper (Tier 5: Bitrot)
-400 HP [Dark]
+200 HP [Dark]
 Dodge S, Spd A
 Flavour:
 - A buzzing static variant of TimeFace. Not compliant with UNIX Time Standards.
