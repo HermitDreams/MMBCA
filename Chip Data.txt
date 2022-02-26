@@ -2235,7 +2235,7 @@ FrameWide50 [Sol]*
 Acc A, Spd A
 Personal, Melee+, Projectile+
 Tier 5
-- Changes the attack to a WideSwrd's type and uses this chip's Acc and Spd
+- Changes the attack to a LifeSwrd's type and uses this chip's Acc and Spd
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to Battery output, then fires a shot
 * This element only matters for Priority and the StarLens
 
@@ -2272,7 +2272,7 @@ FrameQuad [Elec]*
 Acc D, Spd S
 Personal, Melee+
 Tier 5
-- Changes the attack to a Melee Counter that hits all panels adjacent to the user four times
+- Changes the attack to a Melee Counter that hits all panels adjacent to the user (radius 2) four times
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to 30% Battery output to all panels adjacent to user four times
 * This element only matters for Priority and the StarLens
 
@@ -2300,7 +2300,7 @@ FrameRand [None]
 Acc D, Spd A
 Personal, Melee+
 Tier 4
-- Changes the attack to a Melee that deals damage to a random chip
+- Changes the attack to a LongSwrd that deals damage to a random chip
 + This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to 110% Battery output
 
 Samurai
@@ -2309,7 +2309,7 @@ FrameRand [Fire]*
 Acc C, Spd A
 Personal, Melee+
 Tier 5
-- Changes the attack to a Melee that deals damage to a random chip
+- Changes the attack to a FtrSword that deals damage to a random chip
 + This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to 125% Battery output
 * This element only matters for Priority and the StarLens
 
