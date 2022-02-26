@@ -180,6 +180,78 @@ Properties:
 - Sustains four non-[Wood] hits
 - Each hit taken reduces end-of-turn hits
 
+NinjKat1
+Dodge1 SkipRand100 [Dark]
+Spd S
+Melee, Personal
+Combinations:
+- Invis1 * Kunai1 * Shadow1
+- Invis1 * Kunai1 * Muramasa
+Properties:
+- Always hits
+- Dodge next attack
+
+NinjKat2
+Dodge2 SkipRand150 [Dark]
+Spd S
+Melee, Personal
+Combinations:
+- Invis2 * Kunai2 * Shadow2
+- Invis2 * Kunai2 * Muramasa
+Properties:
+- Always hits
+- Dodge next two attacks
+
+NinjKat3
+Invis SkipRand200 [Dark]
+Spd S
+Melee, Personal
+Combinations:
+- Invis3 * Kunai3 * Shadow3
+- Invis3 * Kunai3 * Muramasa
+Properties:
+- Always hits
+- Gain Full Invis
+
+WhakMole
+DiceBreakAllAdd40 [None]
+Acc C, Spd B
+Melee, Floor
+Combinations:
+- BrakHamr * Mine * PopUp
+Properties:
+- Hits between 1 to 6 times
+- Counts as Floor for the purpose of hurting target through PopUp
+
+Lasher
+Counter:Attack Add90 [Sol]
+Acc S, Spd A
+Obstacle, Projectile
+Combinations:
+- Beacon * Prism * FrntLasr
+Properties:
+- Counts as a Beacon while active
+- Interrupts all opponents' attempts to attack
+
+WeakCurs
+Curse:Recoil AllAdd50 [Dark]
+Acc S, Spd S
+Instant
+Combinations:
+- SloGauge * Decay * AntiRecv
+Properties:
+- Inflicts a curse on target that causes them to take 50 All Add per action
+
+Igloo
+Buff:Rock Defense [Aqua]
+Spd D
+Personal, Obstacle
+Combinations:
+- Fan * IceCube * IceStage
+Properties:
+- Surrounds self with permanent IceCubes
+- Self and IceCubes gain StoneBod effect for remainder of turn
+
 Forest
 Defense Panel [Wood]
 Spd C
