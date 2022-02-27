@@ -1,0 +1,65 @@
+/chip { 
+  ; Folder has made this really messy oh no
+  unset %mmbca.pull
+  unset %mmbca.kill
+  if (!%mmbca.file) {
+    if ($2 isnum) && ($1 isnum) { var %mmbca.tier $rand( $+ $1 $+ , $+ $2 $+ ) | var %mmbca.file $3- }
+    elseif ($1 isnum) { var %mmbca.tier $1 | var %mmbca.file $2- }
+    else { var %mmbca.file $1- }
+  }
+  if (%mmbca.tier isnum) {
+    if (%mmbca.tier !isnum 1-4) { set %mmbca.pull $read("\MMBCA\Chip List (Abridged)\ $+ %mmbca.file $+ .txt") }
+    else {
+      set %mmbca.kill 0
+      set %mmbca.pull $read("\MMBCA\Chip List (Abridged)\ $+ %mmbca.file $+ .txt")
+      ; Please forgive me for this
+      if (%mmbca.tier = 4) {
+        while (5, isin %mmbca.pull) {
+          set %mmbca.pull $read("\MMBCA\Chip List (Abridged)\ $+ %mmbca.file $+ .txt")
+          if (%mmbca.kill = 40) { echo 12 -s Error: 40 failed attempts | return }
+          else { inc %mmbca.kill 1 }
+        }
+      }
+      elseif (%mmbca.tier = 3) {
+        while (5, isin %mmbca.pull) || (4, isin %mmbca.pull) {
+          set %mmbca.pull $read("\MMBCA\Chip List (Abridged)\ $+ %mmbca.file $+ .txt")
+          if (%mmbca.kill = 40) { echo 12 -s Error: 40 failed attempts | return }
+          else { inc %mmbca.kill 1 }
+        }
+      }
+      elseif (%mmbca.tier = 2) {
+        while (2, !isin %mmbca.pull) && (1, !isin %mmbca.pull) {
+          set %mmbca.pull $read("\MMBCA\Chip List (Abridged)\ $+ %mmbca.file $+ .txt")
+          if (%mmbca.kill = 40) { echo 12 -s Error: 40 failed attempts | return }
+          else { inc %mmbca.kill 1 }
+        }
+      }
+      else {
+        while (1, !isin %mmbca.pull) {
+          set %mmbca.pull $read("\MMBCA\Chip List (Abridged)\ $+ %mmbca.file $+ .txt")
+          if (%mmbca.kill = 40) { echo 12 -s Error: 40 failed attempts | return }
+          else { inc %mmbca.kill 1 }
+        }
+      }
+    }
+  }
+  else { set %mmbca.pull $read("\MMBCA\Chip List (Abridged)\ $+ %mmbca.file $+ .txt") }
+  if ([Life] isin %mmbca.pull) { echo -s 1,9 $+ %mmbca.pull | return }
+  elseif (5, isin %mmbca.pull) {
+    if ([Dark] isin %mmbca.pull) { var %mmbca.color 6 }
+    elseif ([Sol]  isin %mmbca.pull) { var %mmbca.color 7 }
+    else { var %mmbca.color 13 }
+  }
+  elseif ([Dark] isin %mmbca.pull) { var %mmbca.color 14 }
+  elseif ([Sol]  isin %mmbca.pull) { var %mmbca.color 0 }
+  elseif ([Fire] isin %mmbca.pull) { var %mmbca.color 4 }
+  elseif ([Aqua] isin %mmbca.pull) { var %mmbca.color 11 }
+  elseif ([Elec] isin %mmbca.pull) { var %mmbca.color 8 }
+  elseif ([Wood] isin %mmbca.pull) { var %mmbca.color 9 }
+  else { var %mmbca.color 15 }
+  if (4, isin %mmbca.pull) {
+    if ([Dark] isin %mmbca.pull) { var %mmbca.color 6 }
+    elseif ([Sol]  isin %mmbca.pull) { var %mmbca.color 7 }
+  }
+  echo %mmbca.color -s %mmbca.pull
+}
