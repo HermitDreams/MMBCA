@@ -725,7 +725,6 @@ Traits:
 - None
 Attacks: (4-30/256)
 - Sword (Guarantee)
-- WideSwrd (Guarantee)
 - LongSwrd (Guarantee)
 - StepSwrd
 - AreaGrab
@@ -746,7 +745,7 @@ Attacks: (4-50/256)
 - StepSwrd
 - FireSwrd (Guarantee)
 - FireBlde
-- AreaGrab
+- AreaGrab (Guarantee)
 
 Steeled (Tier 3)
 150 HP [Aqua]
@@ -1645,9 +1644,9 @@ Movement:
 Traits:
 - None
 Attacks: (4-90/256)
-- BubCross
 - BubSprd
 - InkSprd (Guarantee)
+- GelCrash
 - Whirlpl
 - Trident
 - AquaBall (Guarantee 2)
