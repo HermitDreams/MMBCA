@@ -69,6 +69,13 @@ Panels:
 -  76-140: Aluminum
 - 141-180: Heat
 - 181-256: Basic
+Viruses:
+- Clock
+- Sword
+- Orb
+- Needle Clam?
+- Meteor Mage?
+- Mettaur2
 
 Hospital (64 Solar)
 Panels:
@@ -80,6 +87,13 @@ Panels:
 -  76-140: Heat
 - 141-180: Sea
 - 181-256: Basic
+Viruses:
+- Bee
+- Bat
+- Shrimp
+- Candle Demon?
+- Lotus Plant?
+- Mettaur2
 
 Okuden (80 Solar)
 -     1-6: Mystery Data
@@ -89,6 +103,13 @@ Okuden (80 Solar)
 -  76-140: Grass
 - 141-180: Heat
 - 181-256: Basic
+Viruses:
+- Dog
+- Ant
+- Rat
+- Ghost
+- Kunai Ninja?
+- Boomer Things?
 
 Airport (96 Solar)
 -     1-6: Mystery Data
@@ -98,6 +119,13 @@ Airport (96 Solar)
 -  76-140: Heat
 - 141-180: Charging
 - 181-256: Basic
+Viruses:
+- Beetle
+- Cherub
+- Sensor Mud?
+- DashAtk Hawk?
+- Remobit Thing?
+- Mettaur2
 
 
 YumLand (64 Solar)
