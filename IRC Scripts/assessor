@@ -1,0 +1,38 @@
+/assess {
+  if (!%mmbca.fld.chip) { echo 12 -s Folder not running! | halt }
+
+  if (%mmbca.fld.chip <= 30) { inc %mmbca.chp. $+ $lower($left(%mmbca.pull,8)) 1 }
+
+  if (%mmbca.fld.chip = 30) {
+    if (%mmbca.chp.cannon  ) && (%mmbca.chp.hicannon) && (%mmbca.chp.m-cannon) { set %mmbca.adv.x-cannon online }
+    if (%mmbca.chp.bubsprd ) && (%mmbca.chp.heatsprd) && (%mmbca.chp.inksprd ) { set %mmbca.adv.antipode online }
+    if ((%mmbca.chp.sword   ) && (%mmbca.chp.wideswrd) && (%mmbca.chp.longswrd)) || ((%mmbca.chp.fireswrd) && (%mbca.chp.aquaswrd) && (%mmbca.chp.elecswrd)) || ((%mmbca.chp.fireblde) && (%mmbca.chp.aquablde) && (%mmbca.chp.elecblde)) { set %mmbca.adv.lifeswrd online }
+    if (%mmbca.chp.gutpunch) && (%mmbca.chp.rockcube) && ((%mmbca.chp.wrecker ) || (%mmbca.chp.cannball) || (%mmbca.chp.howitzer)) { set %mmbca.adv.gutthrow online }
+    if (%mmbca.chp.pickaxe1) && (%mmbca.chp.shockwav) && (%mmbca.chp.guard   ) { set %mmbca.adv.helper1  online }
+    if (%mmbca.chp.pickaxe2) && (%mmbca.chp.sonicwav) && (%mmbca.chp.guard   ) { set %mmbca.adv.helper2  online }
+    if (%mmbca.chp.pickaxe3) && (%mmbca.chp.dynawave) && (%mmbca.chp.guard   ) { set %mmbca.adv.helper3  online }
+    if (%mmbca.chp.anthill1) && (%mmbca.chp.anthill2) && (%mmbca.chp.anthill3) { set %mmbca.adv.antqueen online }
+    if (%mmbca.chp.lilshout) && (%mmbca.chp.quake1  ) && (%mmbca.chp.discord ) { set %mmbca.adv.timpani1 online }
+    if (%mmbca.chp.medshout) && (%mmbca.chp.quake2  ) && (%mmbca.chp.discord ) { set %mmbca.adv.timpani2 online }
+    if (%mmbca.chp.bigshout) && (%mmbca.chp.quake3  ) && (%mmbca.chp.discord ) { set %mmbca.adv.timpani3 online }
+    if (%mmbca.chp.iceball ) && (%mmbca.chp.deepfrez) && (%mmbca.chp.wind    ) { set %mmbca.adv.icestorm online }
+    if (%mmbca.chp.pulse1  ) && (%mmbca.chp.lilcloud) && (%mmbca.chp.remobit1) { set %mmbca.adv.zapclap1 online }
+    if (%mmbca.chp.pulse2  ) && (%mmbca.chp.medcloud) && (%mmbca.chp.remobit2) { set %mmbca.adv.zapclap2 online }
+    if (%mmbca.chp.pulse3  ) && (%mmbca.chp.bigcloud) && (%mmbca.chp.remobit3) { set %mmbca.adv.zapclap3 online }
+    if (%mmbca.chp.barrier ) && (%mmbca.chp.satelit1 > 1) { set %mmbca.adv.magsphr1 online }
+    if (%mmbca.chp.barrier ) && (%mmbca.chp.satelit2) && ((%mmbca.chp.satelit2 > 1) || (%mmbca.chp.powerorb)) { set %mmbca.adv.magsphr2 online }
+    if ((%mmbca.chp.barrier ) || (%mmbca.chp.starbarr)) && (%mmbca.chp.satelit3 > 1) { set %mmbca.adv.magsphr3 online }
+    if (%mmbca.chp.kunai1  ) && (%mmbca.chp.invis1  ) && ((%mmbca.chp.shadow1 ) || (%mmbca.chp.muramasa)) { set %mmbca.adv.ninjkat1 online }
+    if (%mmbca.chp.kunai2  ) && (%mmbca.chp.invis2  ) && ((%mmbca.chp.shadow2 ) || (%mmbca.chp.muramasa)) { set %mmbca.adv.ninjkat2 online }
+    if (%mmbca.chp.kunai3  ) && (%mmbca.chp.invis3  ) && ((%mmbca.chp.shadow3 ) || (%mmbca.chp.muramasa)) { set %mmbca.adv.ninjkat3 online }
+    if (%mmbca.chp.brakhamr) && (%mmbca.chp.mine    ) && (%mmbca.chp.popup   ) { set %mmbca.adv.whakmole online }
+    if (%mmbca.chp.frntlasr) && (%mmbca.chp.prism   ) && (%mmbca.chp.beacon  ) { set %mmbca.adv.lasher   online }
+    if (%mmbca.chp.slogauge) && (%mmbca.chp.decay   ) && (%mmbca.chp.antirecv) { set %mmbca.adv.weakcurs online }
+    if (%mmbca.chp.icecube ) && (%mmbca.chp.fan     ) && (%mmbca.chp.icestage) { set %mmbca.adv.igloo    online }
+    if (%mmbca.chp.oldwood ) && (%mmbca.chp.leafshld) && (%mmbca.chp.grassstg) { set %mmbca.adv.forest   online }
+    if (%mmbca.chp.stepswrd) && (%mmbca.chp.stepcros) && (%mmbca.chp.deltedge) { set %mmbca.adv.quikstep online }
+    if (%mmbca.chp.sundial ) && (%mmbca.chp.fstgauge) && (%mmbca.chp.bluemoon) { set %mmbca.adv.daybreak online }
+    if (%mmbca.chp.hivebomb) && (%mmbca.chp.anubis  ) && ((%mmbca.chp.timebom1) || (%mmbca.chp.timebom2) || %mmbca.chp.timebom3)) { set %mmbca.adv.folunuke online }
+    if (%mmbca.chp.meteors ) && (%mmbca.chp.redsun  ) && (%mmbca.chp.metrstge) { set %mmbca.adv.suprnova online }
+  }
+}
