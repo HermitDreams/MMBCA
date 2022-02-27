@@ -1,0 +1,62 @@
+/folder {
+  unset %mmbca*
+  set %mmbca.fld.none 0
+  set %mmbca.fld.fire 0
+  set %mmbca.fld.aqua 0
+  set %mmbca.fld.elec 0
+  set %mmbca.fld.wood 0
+  set %mmbca.fld.dark 0
+  set %mmbca.fld.sol  0
+  set %mmbca.fld.chip 0
+
+  while (%mmbca.fld.chip < 30) {
+    if ($2 isnum) && ($1 isnum) { set %mmbca.tier $rand( $+ $1 $+ , $+ $2 $+ ) | set %mmbca.file $3- }
+    elseif ($1 isnum) { set %mmbca.tier $1 | set %mmbca.file $2- }
+    else { set %mmbca.file $1- }
+    chip
+    if ([Fire] isin %mmbca.pull) { inc %mmbca.fld.fire 1 }
+    elseif ([Aqua] isin %mmbca.pull) { inc %mmbca.fld.aqua 1 }
+    elseif ([Elec] isin %mmbca.pull) { inc %mmbca.fld.elec 1 }
+    elseif ([Wood] isin %mmbca.pull) { inc %mmbca.fld.wood 1 }
+    elseif ([Dark] isin %mmbca.pull) { inc %mmbca.fld.dark 1 }
+    elseif ([Sol]  isin %mmbca.pull) { inc %mmbca.fld.sol  1 }
+    else { inc %mmbca.fld.none 1 }
+    inc %mmbca.fld.chip 1
+    assess
+  }
+
+  /echo 2 -s -
+  /echo 10 -s Tally: %mmbca.fld.none [None], %mmbca.fld.fire [Fire], %mmbca.fld.aqua [Aqua], %mmbca.fld.elec [Elec], %mmbca.fld.wood [Wood], %mmbca.fld.dark [Dark], %mmbca.fld.sol [Sol]
+  /echo 2 -s -
+
+  if (%mmbca.adv.x-cannon) { /echo 13 -s Program Advance: X-Cannon }
+  if (%mmbca.adv.antipode) { /echo 13 -s Program Advance: Antipode }
+  if (%mmbca.adv.lifeswrd) { /echo 13 -s Program Advance: LifeSwrd }
+  if (%mmbca.adv.gutthrow) { /echo 13 -s Program Advance: GutThrow }
+  if (%mmbca.adv.helper1 ) { /echo 13 -s Program Advance: Helper1  }
+  if (%mmbca.adv.helper2 ) { /echo 13 -s Program Advance: Helper2  }
+  if (%mmbca.adv.helper3 ) { /echo 13 -s Program Advance: Helper3  }
+  if (%mmbca.adv.antqueen) { /echo 13 -s Program Advance: AntQueen }
+  if (%mmbca.adv.timpani1) { /echo 13 -s Program Advance: Timpani1 }
+  if (%mmbca.adv.timpani2) { /echo 13 -s Program Advance: Timpani2 }
+  if (%mmbca.adv.timpani3) { /echo 13 -s Program Advance: Timpani3 }
+  if (%mmbca.adv.icestorm) { /echo 13 -s Program Advance: IceStorm }
+  if (%mmbca.adv.zapclap1) { /echo 13 -s Program Advance: ZapClap1 }
+  if (%mmbca.adv.zapclap2) { /echo 13 -s Program Advance: ZapClap2 }
+  if (%mmbca.adv.zapclap3) { /echo 13 -s Program Advance: ZapClap3 }
+  if (%mmbca.adv.magsphr1) { /echo 13 -s Program Advance: MagSphr1 }
+  if (%mmbca.adv.magsphr2) { /echo 13 -s Program Advance: MagSphr2 }
+  if (%mmbca.adv.magsphr3) { /echo 13 -s Program Advance: MagSphr3 }
+  if (%mmbca.adv.ninjkat1) { /echo 13 -s Program Advance: NinjKat1 }
+  if (%mmbca.adv.ninjkat2) { /echo 13 -s Program Advance: NinjKat2 }
+  if (%mmbca.adv.ninjkat3) { /echo 13 -s Program Advance: NinjKat3 }
+  if (%mmbca.adv.whakmole) { /echo 13 -s Program Advance: WhakMole }
+  if (%mmbca.adv.lasher  ) { /echo 13 -s Program Advance: Lasher   }
+  if (%mmbca.adv.weakcurs) { /echo 13 -s Program Advance: WeakCurs }
+  if (%mmbca.adv.igloo   ) { /echo 13 -s Program Advance: Igloo    }
+  if (%mmbca.adv.forest  ) { /echo 13 -s Program Advance: Forest   }
+  if (%mmbca.adv.quikstep) { /echo 13 -s Program Advance: QuikStep }
+  if (%mmbca.adv.daybreak) { /echo  7 -s Program Advance: Daybreak }
+  if (%mmbca.adv.folunuke) { /echo  6 -s Program Advance: FoluNuke }
+  if (%mmbca.adv.suprnova) { /echo -s 1,9Program Advance: Suprnova }
+}
