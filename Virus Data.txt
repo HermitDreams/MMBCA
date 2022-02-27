@@ -975,7 +975,6 @@ Movement:
 Traits:
 - Armor: 10
 Attacks: (4-60/256)
-- GutPunch
 - Wrecker
 - Recov10
 - RockCube (Guarantee)
