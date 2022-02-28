@@ -1199,7 +1199,7 @@ Aerial
 Tier 3
 
 Mine
-Counter:Melee AllAdd50 [None]
+Counter:Melee+Floor AllAdd50 [None]
 100 HP, 30 MB
 Acc S, Spd E
 Obstacle, Floor
@@ -1217,7 +1217,7 @@ Tier 2
 - Interrupts the attack it counters
 
 DblSnsr
-PersistCounter:Projectile Double30 [None]
+PersistCounter:Projectile+Aerial Double30 [None]
 140 HP, 50 MB
 Acc S, Spd E
 Personal, Projectile
