@@ -375,7 +375,7 @@ Counter:Territory Random100 [None]
 180 HP, 50 MB
 Acc D, Spd A
 Personal, Melee
-Tier 4
+Tier 3
 - Activates if an enemy enters a panel you own
 - Cancels the attack that activated this
 - Strikes all tiles adjacent to attacker
@@ -1203,7 +1203,7 @@ Counter:Melee+Floor AllAdd50 [None]
 100 HP, 30 MB
 Acc S, Spd E
 Obstacle, Floor
-Tier 3
+Tier 4
 - Does not block attacks
 - Interrupts the attack it counters
 
@@ -1212,7 +1212,7 @@ PersistCounter:Projectile Normal40 [None]
 300 HP, 50 MB
 Acc S, Spd E
 Personal, Projectile
-Tier 2
+Tier 3
 - Does not block attacks
 - Interrupts the attack it counters
 
@@ -1221,7 +1221,7 @@ PersistCounter:Projectile+Aerial Double30 [None]
 140 HP, 50 MB
 Acc S, Spd E
 Personal, Projectile
-Tier 3
+Tier 4
 - Does not block attacks
 - Interrupts the attack it counters
 
