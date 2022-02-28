@@ -2218,6 +2218,7 @@ Acc C, Spd B
 Personal, Melee+, Projectile+
 Tier 3
 - Changes the attack to a WideSwrd's type and uses this chip's Acc and Spd
+- Panel chips will be expanded to this range
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to Battery output, then fires a shot
 
 Crusader
@@ -2227,6 +2228,7 @@ Acc B, Spd B
 Personal, Melee+, Projectile+
 Tier 4
 - Changes the attack to a WideSwrd's type and uses this chip's Acc and Spd
+- Panel chips will be expanded to this range
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to Battery output, then fires a shot
 
 Dragoon
@@ -2236,6 +2238,7 @@ Acc A, Spd A
 Personal, Melee+, Projectile+
 Tier 5
 - Changes the attack to a LifeSwrd's type and uses this chip's Acc and Spd
+- Panel chips will be expanded to this range
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to Battery output, then fires a shot
 * This element only matters for Priority and the StarLens
 
@@ -2246,6 +2249,7 @@ Acc D, Spd C
 Personal, Melee+
 Tier 1
 - Changes the attack to a Melee Counter that hits all panels adjacent to the user
+- Obstacles and Panels will place one in front and behind on proc
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to 50% Battery output to all panels adjacent to user
 
 Vortex
@@ -2255,6 +2259,7 @@ Acc D, Spd B
 Personal, Melee+
 Tier 3
 - Changes the attack to a Melee Counter that hits all panels adjacent to the user twice
+- Obstacles and Panels will place a Wide spread on proc
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to 40% Battery output to all panels adjacent to user twice
 
 Cyclone
@@ -2264,6 +2269,7 @@ Acc D, Spd A
 Personal, Melee+
 Tier 4
 - Changes the attack to a Melee Counter that hits all panels adjacent to the user three times
+- Obstacles and Panels will places one in each cardinal direction on proc
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to 30% Battery output to all panels adjacent to user three times
 
 Tempest
@@ -2273,6 +2279,7 @@ Acc D, Spd S
 Personal, Melee+
 Tier 5
 - Changes the attack to a Melee Counter that hits all panels adjacent to the user (radius 2) four times
+- Obstacles and Panels will completely surround user on proc
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to 30% Battery output to all panels adjacent to user four times
 * This element only matters for Priority and the StarLens
 
@@ -2301,6 +2308,7 @@ Acc D, Spd A
 Personal, Melee+
 Tier 4
 - Changes the attack to a LongSwrd that deals damage to a random chip
+- Obstacles and Panels will cover two tiles
 + This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to 110% Battery output
 
 Samurai
@@ -2310,6 +2318,7 @@ Acc C, Spd A
 Personal, Melee+
 Tier 5
 - Changes the attack to a FtrSword that deals damage to a random chip
+- Obstacles and Panels will change to filling the whole Line forward
 + This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to 125% Battery output
 * This element only matters for Priority and the StarLens
 
@@ -2394,6 +2403,7 @@ Acc D, Spd E
 Personal, Aerial+
 Tier 1
 - Changes the attack to an Aerial type
+- Obstacles will be thrown to protect target
 + This is a Solar Gun Part (Frame) that drains the full gauge to deal 10 damage per 20% Battery usage
 
 Archer
@@ -2403,6 +2413,7 @@ Acc B, Spd D
 Personal, Aerial+
 Tier 2
 - Changes the attack to an Aerial type
+- Obstacles will be thrown to protect target
 + This is a Solar Gun Part (Frame) that drains the full gauge to deal 20 damage per 20% Battery usage
 
 Trebucht
@@ -2412,6 +2423,7 @@ Acc A, Spd C
 Personal, Aerial+
 Tier 3
 - Changes the attack to an Aerial type
+- Obstacles will be thrown to protect target
 + This is a Solar Gun Part (Frame) that drains the full gauge to deal 30 damage per 25% Battery usage
 
 Missile
@@ -2421,6 +2433,7 @@ Acc S, Spd B
 Personal, Aerial+
 Tier 4
 - Changes the attack to an Aerial type
+- Obstacles will be thrown to protect target
 + This is a Solar Gun Part (Frame) that drains the full gauge to deal 50 damage per 25% Battery usage
 
 Otorange
@@ -2448,6 +2461,7 @@ Acc B, Spd D
 Personal, Aerial+
 Tier 4
 - Changes the attack to an Aerial that deals chip damage
+- Obstacles will be thrown to protect target, and deal Add damage if Shoved
 + This is a Solar Gun Part (Frame) with 20% Battery usage
 
 Phantom
@@ -2456,7 +2470,8 @@ FrameDarkWide70 [Dark]
 Acc S, Spd S
 Personal, Melee+, Projectile+
 Tier 5
-- Changes the attack to a double damage DarkChip with a WideSwrd's type and uses this chip's Acc and Spd
+- Changes the attack to a double damage DarkChip with a LifeSwrd's type and uses this chip's Acc and Spd
+- Panels will use same spread but place Swamp instead
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to Battery output, then fires a shot
 + This requires a DarkLens and a ChaosBat
 
@@ -2476,6 +2491,8 @@ Acc B, Spd B
 Personal, Projectile+
 Tier 4
 - Makes the attack hit all opposing targets
+- Obstacles will protect self and all allies
+- Panels will be placed directly under all battling entities
 + This is a Solar Gun Part (Frame) that uses 10% of Battery output
 
 Napalm
