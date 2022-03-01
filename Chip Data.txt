@@ -123,15 +123,6 @@ Projectile
 Tier 4
 - Splashes all tiles adjacent to target
 
-PoisSprd
-BlindAdd70 [Dark]
-150 HP, 70 MB
-Acc S, Spd D
-Projectile
-Tier 5
-- Splashes all tiles adjancent to target
-- Turns affected panels to Swamp
-
 MiniBomb
 AllAdd10 [None]
 120 HP, 10 MB
@@ -1485,13 +1476,6 @@ Spd D
 Personal
 Tier 4
 
-Recov500
-Heal500 [Dark]
-40 HP, 50 MB
-Spd E
-Personal
-Tier 5
-
 Dfrag50
 Fix50 [None]
 50 HP, 10 MB
@@ -1892,14 +1876,6 @@ Spd B
 Personal
 Tier 5
 - Blocks any hit under 150 damage
-
-DarkAura
-Defense Aura150 [Dark]
-100 HP, 80 MB
-Spd A
-Personal
-Tier 5
-- Blocks any non-[Sol] hit under 150 damage
 
 Jealousy
 Smash10 [None]
@@ -2554,6 +2530,46 @@ Aerial
 Tier 5
 - Drains gauge to deal 10 damage per 20%, and hits once per 2 bars of sunlight
 
+VoidCann
+Invis100 [Dark]
+30 HP, 60 MB
+Acc D, Spd E
+Projectile, Personal
+Tier 5
+
+PoisSprd
+BlindAdd70 [Dark]
+150 HP, 70 MB
+Acc S, Spd D
+Projectile
+Tier 5
+- Splashes all tiles adjancent to target
+- Turns affected panels to Swamp
+
+CyberElf
+Revive??? [Dark]
+10 HP, 50 MB
+Spd E
+Personal
+Tier 5
+- Restore health to what it was when this chip was used if user would be defeated
+- Delete this chip after it procs
+
+Queen
+Defense Delay150 [Dark]
+300 HP, 70 MB
+Spd B
+Obstacle, Floor
+Tier 5
+
+DarkAura
+Defense Aura150 [Dark]
+100 HP, 80 MB
+Spd A
+Personal
+Tier 5
+- Blocks any non-[Sol] hit under 150 damage
+
 BgRedWav
 Shove AllAdd90 [Fire]
 10 HP, 80 MB
@@ -2621,6 +2637,14 @@ Spd A
 Personal
 Tier 5
 - Restores the entire deck's health
+
+Subtank
+Fuel Heal??? [None]
+80 HP, 50 MB
+Spd C
+Personal
+Tier 5
+- Drains gauge to heal 10 HP per 2%
 
 FtrSword
 Rand150 [None]
