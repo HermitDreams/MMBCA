@@ -1245,6 +1245,70 @@ Attacks: (4-128/256)
 - Otorange
 - BlueMoon
 
+LilSass (Tier 2)
+90 HP [None]
+Dodge B, Spd C
+Movement:
+- Teleports every time it dodges
+Traits:
+- Hide: Shrouded
+Attacks: (4-48/256)
+- Sword
+- StepSwrd
+- Kunai1 (Guarantee 2)
+- Kunai2
+- Slasher
+- Recov30
+- Press1
+- Invis1 (Guarantee)
+- Atk+10
+- Battery
+- DoublBat
+- LunaLens
+- Fencer
+- Duelist
+- PanlGrab
+
+Strider (Tier 4)
+180 HP [Dark]
+Dodge B, Spd A
+Movement:
+- Teleports every time it dodges
+Traits:
+- Hide: Shrouded
+Attacks: (4-128/256)
+- HeatCros
+- Sword
+- Lance
+- StepSwrd
+- StepCros
+- Kunai1
+- Kunai2 (Guarantee)
+- Kunai3 (Guarantee)
+- Stinger
+- Muramasa
+- VarSwrd
+- Slasher
+- Prong2
+- No-Beam1
+- Recov80
+- Press2 (Guarantee)
+- Invis1
+- Invis2 (Guarantee)
+- Shadow1
+- Shadow2
+- UnderSht
+- AntiSwrd
+- AntiDmg
+- Atk+20
+- QuadBatt
+- QuintBat
+- DarkLens
+- Shinobi
+- Samurai
+- FtrSword
+- AreaGrab
+
 Hardhead (Tier 3)
 80 HP [None]
 Dodge E, Spd D
@@ -1890,7 +1954,6 @@ Attacks: (4-210/256)
 - TimeBom3 (Guarantee)
 - Sundial
 - Recov200
-- Recov500
 - Dfrag150 (Guarantee)
 - Anubis
 - Jealousy
@@ -1908,6 +1971,7 @@ Attacks: (4-210/256)
 - Samurai
 - Calamity
 - Phantom
+- CyberElf
 - FoldrBak
 - Repair
 - Geddon1
