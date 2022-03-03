@@ -1364,6 +1364,30 @@ Tier 5
 - Hits once for every Hole
 - Fills all Holes with Charge Panels
 
+Shell
+Defense Armor+20 [Aqua]
+150 HP, 20 MB
+Spd E
+Personal
+Tier 2
+- Deducts 20 damage from every attack that pierces it
+
+TurtShel
+Defense Armor+30 [Aqua]
+180 HP, 30 MB
+Spd A
+Personal
+Tier 3
+- Deducts 30 damage from every attack that pierces it
+
+PwrShell
+Defense Armor+30 CounterAdd30 [Aqua]
+230 HP, 50 MB
+Spd B
+Personal, Projectile
+Tier 4
+- Deducts 30 damage from every attack that pierces it
+
 Guard
 Reflect:Non Skip40 [None]
 10 HP, 20 MB

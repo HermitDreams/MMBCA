@@ -1057,6 +1057,114 @@ Attacks: (4-200/256)
 - Repair
 - Sancuary
 
+Hermit (Tier 2)
+100 HP [Aqua]
+Dodge D, Spd E
+Flavour:
+- A shell protecting a small aquatic virus.
+Movement:
+- None
+Traits:
+- Armor: 30
+Attacks: (4-64/256)
+- Bubbler (Guarantee)
+- Bub-V
+- DoubNdl (Guarantee)
+- GelCrash
+- Shell (Guarantee)
+- Recov10
+- Press1
+- StoneBod
+- UnderSht
+- BblWrap
+- Knife
+- HonyDrop
+- SeaPanel
+
+Tortent (Tier 3)
+140 HP [Aqua]
+Dodge D, Spd D
+Flavour:
+- An encrypted shell protecting a lumbering aquatic virus.
+Movement:
+- Moves toward nearest Sea Panel at end of turn
+Traits:
+- Armor: 50
+Attacks: (4-64/256)
+- Bubbler
+- Bub-V
+- BubCross
+- AquaBlde
+- DoubNdl
+- TripNdl (Guarantee)
+- GelCrash
+- LilCloud (Guarantee)
+- MedCloud
+- Shell
+- TurtShel (Guarantee)
+- Guard
+- Hydrant
+- Recov10
+- Pawn
+- Press2
+- StoneBod (Guarantee)
+- UnderSht
+- UndrArmr
+- Atk+10
+- Dagger
+- Axel
+- SeaPanel
+- SeaStage
+
+Endocryo (Tier 5: Quarantine)
+230 HP [Aqua]
+Dodge C, Spd B
+Flavour:
+- A spiky frozen shell seeking a weakened virus to claim
+Movement:
+- Attempts to stay in front of allies
+Traits:
+- Armor: 80
+- Freezing
+Attacks: (4-128/256)
+- BubCross
+- BubSprd
+- AquaSwrd
+- AquaBlde
+- Stinger
+- Slasher
+- ColdPnch (Guarantee)
+- DoubNdl
+- TripNdl
+- QuadNdl (Guarantee)
+- Trident
+- Yo-Yo2
+- IceBall
+- Geyser
+- Shell
+- TurtShel
+- PwrShell (Guarantee)
+- Guard
+- Hydrant
+- Dfrag100
+- IceCube
+- Rook
+- Press3
+- StoneBod
+- UnderSht
+- UndrArmr
+- AntiWatr
+- Atk+30
+- Aqua+40 (Guarantee)
+- TriplBat
+- FrostLns (Guarantee)
+- Cyclone
+- Gradius
+- Calamity
+- FreezBom
+- IceLine
+- IceStage
+
 Panella (Tier 1)
 100 HP [Sol]
 Dodge D, Spd E
@@ -1391,6 +1499,7 @@ Attacks: (4-96/256)
 - DeepFrez
 - IceCube (Guarantee)
 - Wind
+- Fan
 - StoneBod
 - UnderSht
 - Trebucht
