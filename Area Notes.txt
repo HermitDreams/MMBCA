@@ -20,7 +20,7 @@ Panels:
 -  71-256: Basic
 Viruses:
 -     1-3: "Emergent"
--    4-25: heatshot dog
+-    4-25: Barker
 -   26-50: Ratty
 -   51-75: school thing
 -  76-125: RelyAnt
@@ -70,12 +70,15 @@ Panels:
 - 141-180: Heat
 - 181-256: Basic
 Viruses:
-- Clock
-- Sword
-- Orb
-- Needle Clam?
-- Meteor Mage?
-- Mettaur2
+-     1-3: "Emergent"
+-    4-19: Mettaur1
+-   20-35: Gunnet
+-   36-67: TimeFace
+-   68-99: Tempered
+- 100-131: Orbits
+- 132-163: Hermit
+- 164-195: Meteor Mage
+- 196-256: Mettaur2
 
 Hospital (64 Solar)
 Panels:
@@ -88,12 +91,15 @@ Panels:
 - 141-180: Sea
 - 181-256: Basic
 Viruses:
-- Bee
-- Bat
-- Shrimp
-- Candle Demon?
-- Lotus Plant?
-- Mettaur2
+-     1-3: "Emergent"
+-    4-19: Ghost1
+-   20-35: Bushy
+-   36-67: Ratty2
+-   68-99: Batty2
+- 100-131: Shrimpy
+- 132-163: Candle Demon
+- 164-195: Lotus Plant
+- 196-256: Mettaur2
 
 Okuden (80 Solar)
 -     1-6: Mystery Data
@@ -104,12 +110,15 @@ Okuden (80 Solar)
 - 141-180: Heat
 - 181-256: Basic
 Viruses:
-- Dog
-- Ant
-- Rat
-- Ghost
-- Kunai Ninja?
-- Boomer Things?
+-     1-3: "Emergent"
+-    4-19: Pebblet
+-   20-35: Cloudy
+-   36-67: Growler
+-   68-99: Boomer Clasp
+- 100-131: DefyAnt
+- 132-163: Ghost2
+- 164-195: LilSass
+- 196-256: Adfly
 
 Airport (96 Solar)
 -     1-6: Mystery Data
@@ -120,12 +129,15 @@ Airport (96 Solar)
 - 141-180: Charging
 - 181-256: Basic
 Viruses:
-- Beetle
-- Cherub
-- Sensor Mud?
-- DashAtk Hawk?
-- Remobit Thing?
-- Mettaur2
+-     1-3: "Emergent"
+-    4-19: Mettaur1
+-   20-35: Panella
+-   36-67: Beetank2
+-   68-99: Cupid
+- 100-131: Sensor Mud
+- 132-163: DashAtk Hawk
+- 164-195: Remobit Jerk
+- 196-256: Mettaur2
 
 
 YumLand (64 Solar)
@@ -138,6 +150,14 @@ Panels:
 -  91-130: Cracked
 - 131-200: Grass
 - 201-256: Basic
+Viruses:
+- Nybbly
+- Pebbler
+- Tortent
+- Shroob
+- Bunny2
+- Sensor Mud
+- Growler
 
 Nettopia (64 Solar)
 Panels:
@@ -149,6 +169,15 @@ Panels:
 -  91-130: Aluminum
 - 131-200: Heat
 - 201-256: Charging
+Viruses:
+- Windome
+- Cannet
+- Steeled
+- Hardhead
+- Mettaur3
+- Beetank2
+- Mettaur2
+- Tempered
 
 Kingscape (80 Solar)
 Panels:
@@ -161,6 +190,15 @@ Panels:
 -  91-130: Heat
 - 131-200: Sand
 - 201-256: Basic
+Viruses:
+- Nybbly
+- Webee
+- Pebbler
+- Lilicone
+- DefyAnt
+- Candle Demon
+- Ghost
+- Scuttle
 
 Icewall (48 Solar)
 Panels:
@@ -172,6 +210,13 @@ Panels:
 -  91-130: Sea
 - 131-200: Ice
 - 201-256: Aluminum
+Viruses:
+- Windchil
+- Bunny2
+- Mettaur3
+- Shrimpy
+- Orbits
+- Meteor Mage
 
 
 UnderNet Beta (16 Solar)
@@ -220,8 +265,42 @@ Panels:
 - 105-136: Magnet
 - 137-196: Ice
 - 197-256: Aluminum
+Viruses:
+- Sniper Joe
+- Orber
+- Bonehead
+- WindXP
+- Knighted
+- Blazer
+- Drimpy
+- Byter
+- Bunny3
+- Meteor Mage
+- Beetank3
+- Scuttlest
 
 Admin Lounge (128 Solar) [Comet, DarkMan, Serenade]
+Panels:
+-    1-32: Mystery Data
+-   33-56: Basic
+-   57-60: Fountain
+-   61-64: Beacon
+-  65-104: Holy
+- 105-136: Sea
+- 137-196: Charging
+- 197-256: Heat
+Viruses:
+- Monolith
+- Pally
+- Pebblest
+- Petalica
+- Angel
+- Candle Demon
+- Cloudy
+- Tortent
+- Hornet
+- Lotus
+- Traffic Thing?
 
 Bitrot (0 Solar) [JunkMan, VideoMan, YokuMan]
 
