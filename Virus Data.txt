@@ -592,6 +592,71 @@ Attacks: (50%, 4-130/256)
 - BlkBomb
 - Geddon1
 
+Clicker (Tier 1)
+60 HP [None]
+Dodge A, Spd E
+Flavour:
+- A small brown mouse pretending to be your cursor
+Movement:
+- Teleports if lined up with player
+Traits:
+- None
+Attacks: (4-35/256)
+- PickAxe1
+- Ratton1 (Guarantee)
+- BrakHamr
+- Battery
+- PanlGrab
+
+Squeaker (Tier 2)
+90 HP [None]
+Dodge A, Spd C
+Flavour:
+- A red variant of Clicker. Turned on Scroll Lock.
+Movement:
+- Teleports if lined up with player
+Traits:
+- None
+Attacks: (4-64/256)
+- PickAxe1
+- Ratton1 (Guarantee)
+- Ratton2 (Guarantee)
+- ZapRing1
+- Yo-Yo1
+- BrakHamr
+- Escape
+- DoublBat
+- PanlGrab (Guarantee)
+- Repair
+
+Curser (Tier 4)
+150 HP [None]
+Dodge S, Spd B
+Flavour:
+- A grey variant of Clicker. Trapped the cursor in an applet.
+Movement:
+- Teleports if lined up with player
+Traits:
+- None
+Attacks: (4-128/256)
+- PickAxe2 (Guarantee)
+- PickAxe3
+- Ratton1
+- Ratton2
+- Ratton3 (Guarantee 2)
+- FireRatn
+- ZapRing2
+- Yo-Yo2
+- Pulse2
+- BrakHamr
+- ZeusHamr
+- DblSnsr
+- Discord
+- Escape
+- QuadBatt
+- AreaGrab (Guarantee)
+- Repair
+
 Adfly (Tier 2)
 80 HP [None]
 Dodge A, Spd D
