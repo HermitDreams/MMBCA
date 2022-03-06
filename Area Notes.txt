@@ -21,7 +21,7 @@ Panels:
 Viruses:
 -     1-3: "Emergent"
 -    4-25: Barker
--   26-50: Ratty
+-   26-50: Clicker
 -   51-75: school thing
 -  76-125: RelyAnt
 - 126-175: Bushy
@@ -52,8 +52,8 @@ Panels:
 -  96-256: Basic
 Viruses:
 -     1-3: "Emergent"
--    4-25: Shrimpy
--   26-50: Flower thing
+-    4-25: Wimpy
+-   26-50: Panella
 -   51-75: invis ghost
 -  76-125: Swordy
 - 126-175: Bunny
@@ -94,7 +94,7 @@ Viruses:
 -     1-3: "Emergent"
 -    4-19: Ghost1
 -   20-35: Bushy
--   36-67: Ratty2
+-   36-67: Squeaker
 -   68-99: Batty2
 - 100-131: Shrimpy
 - 132-163: Candle Demon
@@ -132,12 +132,12 @@ Viruses:
 -     1-3: "Emergent"
 -    4-19: Mettaur1
 -   20-35: Panella
--   36-67: Beetank2
+-   36-67: Windbox
 -   68-99: Cupid
 - 100-131: Sensor Mud
 - 132-163: DashAtk Hawk
 - 164-195: Remobit Jerk
-- 196-256: Mettaur2
+- 196-256: Beetank2
 
 
 YumLand (64 Solar)
@@ -212,6 +212,7 @@ Panels:
 - 201-256: Aluminum
 Viruses:
 - Windchil
+- Squeaker
 - Bunny2
 - Mettaur3
 - Shrimpy
