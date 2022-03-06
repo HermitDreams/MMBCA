@@ -1,5 +1,108 @@
 DummyMan [None]
 Add40 [None]
-500 HP, 300 MB
+500 HP, 120 MB
 Acc B, Dodge B, Spd B
 Projectile
+
+PharoMan [None]
+Add50 [Sol]
+550 HP, 150 MB
+Acc B, Dodge E, Spd B
+Projectile
+Boss Traits:
+- Armor: 50
+- Sand Immune
+Boss Attacks:
+- HiveBomb (Refight)
+- SandRing
+- QuadNdl  (Refight)
+- CrsShld2
+- CrsShld3 (Refight)
+- PoisFace
+- TimeBom2
+- TimeBom3 (Refight)
+- Snake
+- TurtShel
+- PwrShell (Refight)
+- Anubis   (Refight)
+- Recov200
+- Subtank  (Refight)
+- CrackOut
+- Desert
+
+VideoMan [None]
+TripleStun20 [None]
+450 HP, 180 MB
+Acc C, Dodge B, Spd A
+Melee
+Boss Traits:
+- Sunburn: 10 (First Fight)
+- Stun Damage: 30 (First Fight)
+- Unstoppable (Refight)
+- Magnet Trail (Refight)
+- Scroll Territory (Refight)
+- +1 Navi Hit (Refight)
+- +2 Dodge (Refight)
+- +200 HP (Refight)
+Boss Attacks:
+- StepSwrd
+- StepCros
+- Tornado
+- MagBomb3 (Refight)
+- Yo-Yo3
+- FrntSnsr
+- FrntLasr (Refight)
+- DeepFrez
+- Vacuum   (Refight)
+- Discord
+- Prism
+- Popup
+- FstGauge
+- FullCust (Refight)
+- Atk+30
+- Navi+20
+- Navi+40  (Refight)
+- Infinity (Refight)
+- FoldrBak (Refight)
+- DeltEdge (Refight)
+- AreaGrab
+- MetaGel3 (Refight)
+- MagLine
+
+Serenade [Sol]
+BlindBreak70 [Sol]
+400 HP, 140 MB
+Acc D, Dodge A, Spd S
+Melee
+Boss Traits:
+- +300 HP
+- Charge: x2.0
+- Teleport Dodge
+- +300 HP (Refight)
+- +1 Dodge (Refight)
+- +4 Accuracy (Refight)
+- Lunacy (Refight)
+- Non-Elemental (Refight)
+Boss Attacks:
+- CustSwrd
+- No-Beam3
+- Howitzer
+- GoldFist
+- Piledriv
+- Radiance
+- Corona
+- ChaosBat (Refight)
+- LunaLens (Refight)
+- Tempest  (Refight)
+- Phalanx  (Refight)
+- Phantom  (Refight)
+- Pineappl
+- BlueMoon (Refight)
+- RedSun
+- FuryBust (Refight)
+- Rippler  (Refight)
+- EchoBomb (Refight)
+- Horizon  (Refight)
+- Moondish (Refight)
+- Geddon1
+- Sancuary
