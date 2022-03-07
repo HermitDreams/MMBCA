@@ -644,8 +644,8 @@ Attacks: (4-128/256)
 - Ratton1
 - Ratton2
 - Ratton3 (Guarantee 2)
-- FireRatn
 - ZapRing2
+- CrsShld2
 - Yo-Yo2
 - Pulse2
 - BrakHamr
@@ -654,8 +654,41 @@ Attacks: (4-128/256)
 - Discord
 - Escape
 - QuadBatt
+- CloudLns
+- Stalker
 - AreaGrab (Guarantee)
 - Repair
+
+Marshall (Tier 4)
+200 HP [Fire]
+Dodge B, Spd A
+Flavour:
+- An overheating variant of Clicker. Its pointer might be a gun.
+Movement:
+- Teleports if lined up with player
+Traits:
+- Dodge Max on: [Fire]
+- Selfdestruct in 3 turns on: [Fire]
+Attacks: (4-180/256)
+- HeatSprd (Guarantee)
+- FireSwrd
+- FireBlde
+- Burner
+- Ratton2
+- Ratton3
+- FireRatn (Guarantee 2)
+- BrakHamr
+- Kindler
+- Totem2
+- FireAura
+- Fire+40
+- Navi+40
+- QuintBat
+- FlameLns
+- Javelin
+- Stalker
+- BlkBomb
+- LavaPanl
 
 Adfly (Tier 2)
 80 HP [None]
