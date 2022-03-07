@@ -1418,6 +1418,71 @@ Attacks: (4-128/256)
 - Otorange
 - BlueMoon
 
+Traffic (Tier 1)
+70 HP [None]
+Dodge D, Spd B
+Flavour:
+- A small remote car with blinking lights clogging the road
+Movement:
+- Moves to front, then matches player movement
+Traits:
+- Unstoppable
+- Shift Element
+Attacks: (4-32/256)
+- Shotgun
+- Bubbler (Guarantee)
+- HeatShot (Guarantee)
+- DashAtk
+- ZapRing1
+- SloGauge
+- Battery
+- AreaGrab
+- HeatPanl
+- SeaPanel
+- ChargPnl
+
+Speeddos (Tier 4)
+200 HP [None]
+Dodge D, Spd S
+Flavour:
+- A variant of Traffic with a stoplight and turbo. Claimed all the parking spots.
+Movement:
+- Moves to front, then matches player movement
+Traits:
+- Unstoppable
+- Shift Element
+Attacks: (4-180/256)
+- BubCross
+- HeatCros
+- Burner
+- ZapRing2
+- SloGauge
+- Sundial
+- DblSnsr
+- FrntLasr
+- DeepFrez
+- Remobit2
+- Kindler (Guarantee)
+- Hydrant (Guarantee)
+- Wires (Guarantee)
+- Candle2
+- Fanfare
+- AntiFire
+- AntiWatr
+- AntiElec
+- AntiDmg
+- FstGauge
+- QuadBatt
+- FlameLns
+- FrostLns
+- CloudLns
+- Javelin
+- MetaGel2
+- ChargStg
+- AlumiStg
+- LavaStge
+- IceStage
+
 LilSass (Tier 2)
 90 HP [None]
 Dodge B, Spd C
