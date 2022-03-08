@@ -1829,6 +1829,185 @@ Attacks: (4-200/256)
 - MagLine
 - Desert
 
+TraceBok (Tier 1)
+50 HP [Dark]
+Dodge B, Spd E
+Flavour:
+- The lingering data of a purified zombie. Task manager insists it closed.
+Movement:
+- Teleports every time it uses a Personal chip
+Traits:
+- AirShoes
+- Sunburn: 10
+Attacks: (4-32/256)
+- MiniBomb
+- LilShout (Guarantee)
+- Press1
+- Invis1 (Guarantee)
+
+ImageBok (Tier 2)
+90 HP [Dark]
+Dodge B, Spd D
+Flavour:
+- A periwinkle variant of TraceBok. It's starting to get pigmentation back.
+Movement:
+- Teleports every time it uses a Personal chip
+Traits:
+- AirShoes
+- Sunburn: 10
+Attacks: (4-48/256)
+- LilBomb
+- Sword
+- Lance
+- LilShout (Guarantee)
+- Wrecker
+- VampBit1
+- Press1
+- Invis1
+- Invis2 (Guarantee)
+
+PhantBok (Tier 3)
+130 HP [Dark]
+Dodge A, Spd C
+Flavour:
+- A grey variant of TraceBok. Restored most of its data.
+Movement:
+- Teleports every time it uses a Personal chip
+Traits:
+- AirShoes
+- Sunburn: 20
+Attacks: (4-64/256)
+- LilBomb
+- WideSwrd
+- Lance
+- LilShout
+- MedShout (Guarantee)
+- Wrecker
+- Decay
+- Dfrag50
+- VampBit1
+- Press1
+- Invis1
+- Invis2
+- Invis3 (Guarantee)
+- Shadow1 (Guarantee)
+
+MossBok (Tier 4)
+150 HP [Wood]
+Dodge B, Spd B
+Flavour:
+- A green variant of TraceBok. Has an affinity for travelling through the earth.
+Movement:
+- Teleports every time it uses a Personal chip
+Traits:
+- Honorary [Dark]
+- AirShoes
+- Sunburn: 20
+- Trail: Grass
+Attacks: (4-128/256)
+- TreeBom3
+- Lance (Guarantee)
+- MedShout
+- ApplSeed
+- Spice2
+- Spice3
+- CannBall
+- Decay
+- OldWood
+- Dfrag100
+- VampBit2
+- Press2
+- Invis2
+- Invis3 (Guarantee)
+- Shadow1
+- Shadow2
+- LeafShld (Guarantee)
+- WoodAura
+- ChaosBat
+- EarthLns
+- Crusader
+- GaiaSwrd
+- CrackOut
+- GrassStg
+
+ServBok (Tier 4)
+150 HP [Elec]
+Dodge B, Spd B
+Flavour:
+- A yellow variant of TraceBok. Reconstructed itself with a database.
+Movement:
+- Teleports every time it uses a Personal chip
+Traits:
+- Honorary [Dark]
+- AirShoes
+- Sunburn: 20
+- Trail: Magnet
+Attacks: (4-128/256)
+- ElecSwrd (Guarantee)
+- ElecBlde
+- MedShout
+- Prong2
+- Prong3
+- MagBomb2
+- MagBomb3
+- CannBall
+- Decay
+- Remobit2
+- Remobit3
+- Tripwire
+- Wires (Guarantee)
+- Dfrag100
+- VampBit2
+- Press2
+- Invis2
+- Invis3 (Guarantee)
+- Shadow1
+- Shadow2
+- ElecAura
+- ChaosBat
+- CloudLns
+- Crusader
+- Sparker
+- MagLine
+- CrackOut
+- AlumiStg
+
+ShadeBok (Tier 5: Bitrot)
+200 HP [Dark]
+Dodge A, Spd A
+Flavour:
+- A pitch dark variant of TraceBok. Possessed by the anger of a fallen Step.
+Movement:
+- Teleports every time it uses a Personal chip
+Traits:
+- AirShoes
+- Sunburn: 50
+Attacks: (4-200/256)
+- InkSprd
+- CrosBomb
+- ElecBlde
+- Lance
+- StepCros
+- Muramasa
+- BigShout (Guarantee)
+- CannBall
+- Decay
+- DeepFrez
+- Dfrag100
+- VampBit3
+- Press3
+- Invis2
+- Invis3
+- Shadow2
+- Shadow3 (Guarantee)
+- ChaosBat
+- DarkLens
+- Phantom
+- Napalm
+- Nitemare (Guarantee)
+- VoidCann
+- Geddon2
+
 Cupid (Tier 2: Airport)
 100 HP [Sol]
 Dodge C, Spd C
