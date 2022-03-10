@@ -940,6 +940,108 @@ Attacks: (4-200/256)
 - Beacon
 - Sancuary
 
+Cloudy (Tier 1)
+60 HP [Aqua]
+Dodge C, Spd C
+Flavour:
+-
+Movement:
+- Moves up and down randomly
+Traits:
+- AirShoes
+- Shrouded
+Attacks: (4-48/256)
+- Bubbler
+- MiniBomb
+- LilCloud (Guarantee)
+- Recov10
+- Wind
+- Press1
+- MetaGel1 (Guarantee)
+- SeaPanel
+
+Stormy (Tier 3)
+110 HP [Aqua]
+Dodge B, Spd B
+Flavour:
+-
+Movement:
+- Moves up and down randomly
+Traits:
+- AirShoes
+- Shrouded
+- Trail: Sea
+Attacks: (4-72/256)
+- Bub-V
+- LilBomb
+- LilShout
+- AirShot2
+- LilCloud
+- MedCloud (Guarantee)
+- Remobit1
+- AquaBall
+- Hydrant
+- Recov50
+- Wind
+- Press2
+- DropDown
+- AquaAura
+- CloudLns (Guarantee)
+- FlashBom
+- MetaGel1
+- MetaGel2 (Guarantee)
+- SeaPanel
+- SeaStage
+
+Squally (Tier 4)
+160 HP [Aqua]
+Dodge B, Spd A
+Flavour:
+-
+Movement:
+- Moves up and down randomly
+Traits:
+- AirShoes
+- Shrouded
+- Trail: Sea
+Attacks: (4-128/256)
+- BubCross
+- CrosBomb
+- LilShout
+- MedShout
+- AirShot3
+- Tornado
+- GelCrash
+- Whirlpl
+- LilCloud
+- MedCloud
+- BigCloud (Guarantee)
+- Remobit1 (Guarantee)
+- Remobit2
+- AquaBall
+- Geyser
+- Hydrant
+- Recov120
+- Wind
+- Press3
+- DropDown
+- Shadow1
+- AquaAura
+- ElecAura
+- Jealousy
+- AntiWatr
+- AntiAir
+- Aqua+40
+- CloudLns (Guarantee)
+- FlashBom
+- PwrSurge
+- Poltrgst
+- MetaGel1
+- MetaGel2
+- MetaGel3 (Guarantee)
+- SeaPanel
+- SeaStage (Guarantee)
+
 Orbits (Tier 2: Scilab)
 90 HP [Elec]
 Dodge B, Spd C
