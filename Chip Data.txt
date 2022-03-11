@@ -395,6 +395,57 @@ Floor
 Tier 3
 - Travels forward in own territory, then through line of target's territory
 
+WoodTowr
+Pierce70 [Wood]
+150 HP, 30 MB
+Acc A, Spd C
+Floor
+Tier 3
+- Seeks out target
+
+FireTowr
+Pierce70 [Fire]
+130 HP, 30 MB
+Acc A, Spd D
+Floor
+Tier 3
+- Seeks out target
+
+WatrTowr
+Pierce70 [Aqua]
+140 HP, 30 MB
+Acc A, Spd D
+Floor
+Tier 3
+- Seeks out target
+
+DarkFlm1
+Burn10 Pierce40 [Dark]
+40 HP, 30 MB
+Acc C, Spd D
+Floor
+Tier 2
+- Travels in a straight line
+- Targets take 10 damage per action taken
+
+DarkFlm2
+Burn20 Pierce60 [Dark]
+70 HP, 40 MB
+Acc C, Spd C
+Floor
+Tier 3
+- Travels in a straight line
+- Targets take 20 damage per action taken
+
+DarkFlm3
+Burn30 Pierce100 [Dark]
+100 HP, 60 MB
+Acc B, Spd A
+Floor
+Tier 4
+- Travels in a straight line
+- Targets take 30 damage per action taken
+
 LilShout
 Stun60 [None]
 30 HP, 10 MB
