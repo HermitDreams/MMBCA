@@ -200,6 +200,7 @@ Attacks: (4-75/256)
 - FireBlde
 - StepCros
 - Slasher
+- FireTowr
 - LilShout
 - MedShout (Guarantee)
 - BigShout (Guarantee)
@@ -276,6 +277,7 @@ Attacks: (4-100/256)
 - BubSprd (Guarantee)
 - AquaSwrd
 - AquaBlde
+- WatrTowr
 - Trident
 - LilCloud
 - MedCloud (Guarantee)
@@ -398,6 +400,7 @@ Attacks: (25%, 4-70/256)
 - TreeBom2 (Guaranteed)
 - Sword
 - Lance
+- WoodTowr
 - Wrecker
 - ApplSeed
 - VampBit1
@@ -422,10 +425,11 @@ Attacks: (35%)
 - CrosBomb
 - HiveBomb
 - TreeBom1
-- TreeBom2 (Guaranteed)
+- TreeBom2
 - TreeBom3 (Guaranteed)
 - Sword
 - Lance
+- WoodTowr (Guaranteed)
 - Wrecker
 - CannBall
 - ApplSeed
@@ -673,6 +677,7 @@ Attacks: (4-180/256)
 - HeatSprd (Guarantee)
 - FireSwrd
 - FireBlde
+- FireTowr
 - Burner
 - Ratton2
 - Ratton3
@@ -1007,6 +1012,7 @@ Traits:
 Attacks: (4-128/256)
 - BubCross
 - CrosBomb
+- WatrTowr
 - LilShout
 - MedShout
 - AirShot3
@@ -1475,6 +1481,7 @@ Attacks: (4-200/256)
 - Sunrise
 - Pineappl
 - PwrSurge
+- Subtank
 - RedSun
 - Moondish
 - HolyPanl
@@ -1589,6 +1596,8 @@ Traits:
 Attacks: (4-180/256)
 - BubCross
 - HeatCros
+- FireTowr
+- WatrTowr
 - Burner
 - ZapRing2
 - SloGauge
@@ -1662,6 +1671,7 @@ Attacks: (4-128/256)
 - Muramasa
 - VarSwrd
 - Slasher
+- DarkFlm1
 - Prong2
 - No-Beam1
 - Recov80
@@ -1786,6 +1796,7 @@ Traits:
 Attacks: (4-128/256)
 - CrosBomb
 - BigBomb
+- DarkFlm2
 - Quake2
 - Quake3
 - Wrecker
@@ -1961,7 +1972,8 @@ Attacks: (4-48/256)
 - LilBomb
 - Sword
 - Lance
-- LilShout (Guarantee)
+- DarkFlm1 (Guarantee)
+- LilShout
 - Wrecker
 - VampBit1
 - Press1
@@ -1982,8 +1994,10 @@ Attacks: (4-64/256)
 - LilBomb
 - WideSwrd
 - Lance
+- DarkFlm1
+- DarkFlm2 (Guarantee)
 - LilShout
-- MedShout (Guarantee)
+- MedShout
 - Wrecker
 - Decay
 - Dfrag50
@@ -2008,7 +2022,9 @@ Traits:
 - Trail: Grass
 Attacks: (4-128/256)
 - TreeBom3
-- Lance (Guarantee)
+- Lance
+- WoodTowr (Guarantee)
+- DarkFlm1
 - MedShout
 - ApplSeed
 - Spice2
@@ -2047,6 +2063,8 @@ Traits:
 Attacks: (4-128/256)
 - ElecSwrd (Guarantee)
 - ElecBlde
+- Lance
+- DarkFlm1
 - MedShout
 - Prong2
 - Prong3
@@ -2091,7 +2109,11 @@ Attacks: (4-200/256)
 - Lance
 - StepCros
 - Muramasa
-- BigShout (Guarantee)
+- WoodTowr
+- DarkFlm1
+- DarkFlm2
+- DarkFlm3 (Guarantee)
+- BigShout
 - CannBall
 - Decay
 - DeepFrez
@@ -2122,6 +2144,7 @@ Traits:
 Attacks: (4-48/256)
 - Heat-V
 - WideSwrd
+- DarkFlm1
 - Erupt1
 - Recov50
 - Candle1 (Guarantee)
@@ -2145,6 +2168,8 @@ Attacks: (4-128/256)
 - FireSwrd
 - FireBlde (Guarantee)
 - StepCros
+- FireTowr
+- DarkFlm2
 - Blower
 - Erupt2
 - LavaDrag
@@ -2153,17 +2178,19 @@ Attacks: (4-128/256)
 - Candle2 (Guarantee)
 - Totem1
 - Totem2 (Guarantee)
+- Shadow2
 - FireAura
+- AntiRecv
 - Fire+40
 - QuadBatt
 - FlameLns
 - DarkLens
 - Shinobi
-- DarkAura
 - HeatPanl
 - HeatStge
 - LavaPanl
 - LavaStge (Guarantee)
+- DarkPrtl
 
 Pyron (Tier 5: Quarantine)
 300 HP [Fire]
@@ -2181,6 +2208,8 @@ Attacks: (4-196/256)
 - FireSwrd
 - FireBlde
 - StepCros
+- FireTowr
+- DarkFlm3
 - GutPunch
 - LavaBall
 - Blower
@@ -2195,11 +2224,12 @@ Attacks: (4-196/256)
 - Totem1
 - Totem2
 - Totem3 (Guarantee)
-- Radiant
+- Radiance
 - Corona
 - FireAura
 - LifeAur1
 - AntiAir
+- AntiRecv
 - Fire+40
 - QuintBat
 - ChaosBat
@@ -2214,6 +2244,7 @@ Attacks: (4-196/256)
 - HeatStge (Guarantee)
 - LavaPanl
 - LavaStge (Guarantee)
+- DarkPrtl
 
 Cupid (Tier 2: Airport)
 100 HP [Sol]
@@ -2368,7 +2399,7 @@ Traits:
 Attacks: (4-90/256)
 - BubSprd
 - InkSprd (Guarantee)
-- GelCrash
+- WatrTowr
 - Whirlpl
 - Trident
 - AquaBall (Guarantee 2)
@@ -2385,7 +2416,7 @@ Traits:
 Attacks: (4-90/256)
 - HeatSprd
 - InkSprd (Guarantee)
-- Meteor4
+- FireTowr
 - Whirlpl
 - Trident
 - HeatBall (Guarantee 2)
