@@ -2110,6 +2110,111 @@ Attacks: (4-200/256)
 - VoidCann
 - Geddon2
 
+Jark (Tier 2)
+100 HP [Fire]
+Dodge D, Spd C
+Flavour:
+- An infernal virus seeking souls to encrypt.
+Movement:
+- Moves toward Heat Panels
+Traits:
+- Honorary Dark
+Attacks: (4-48/256)
+- Heat-V
+- WideSwrd
+- Erupt1
+- Recov50
+- Candle1 (Guarantee)
+- Totem1 (Guarantee)
+- FlameLns
+- HeatPanl (Guarantee)
+- HeatStge
+
+Berial (Tier 4)
+200 HP [Fire]
+Dodge D, Spd A
+Flavour:
+- A bladed variant of Jark. Forces Navis to surrender their memories.
+Movement:
+- Moves toward Lava Panels
+Traits:
+- Honorary Dark
+- Trail: Heat
+Attacks: (4-128/256)
+- HeatCros
+- FireSwrd
+- FireBlde (Guarantee)
+- StepCros
+- Blower
+- Erupt2
+- LavaDrag
+- Recov120
+- Candle1
+- Candle2 (Guarantee)
+- Totem1
+- Totem2 (Guarantee)
+- FireAura
+- Fire+40
+- QuadBatt
+- FlameLns
+- DarkLens
+- Shinobi
+- DarkAura
+- HeatPanl
+- HeatStge
+- LavaPanl
+- LavaStge (Guarantee)
+
+Pyron (Tier 5: Quarantine)
+300 HP [Fire]
+Dodge C, Spd A
+Flavour:
+- A burly variant of Jark. Ransomware from an unknown world.
+Movement:
+- Teleports to Heat and Lava Panels
+Traits:
+- Honorary Dark
+- Honorary Sol
+- Unflinching
+Attacks: (4-196/256)
+- HeatSprd
+- FireSwrd
+- FireBlde
+- StepCros
+- GutPunch
+- LavaBall
+- Blower
+- Erupt3
+- GoldFist
+- Meteor6
+- LavaDrag
+- Recov200
+- Candle1
+- Candle2
+- Candle3 (Guarantee)
+- Totem1
+- Totem2
+- Totem3 (Guarantee)
+- Radiant
+- Corona
+- FireAura
+- LifeAur1
+- AntiAir
+- Fire+40
+- QuintBat
+- ChaosBat
+- SolLens
+- FlameLns (Guarantee)
+- DarkLens
+- Shinobi
+- Javelin
+- DarkAura
+- RedSun
+- HeatPanl
+- HeatStge (Guarantee)
+- LavaPanl
+- LavaStge (Guarantee)
+
 Cupid (Tier 2: Airport)
 100 HP [Sol]
 Dodge C, Spd C
