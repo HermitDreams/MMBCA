@@ -33,6 +33,15 @@ Combinations:
 Properties:
 - Chops a 2x3 area
 
+PowrGysr
+Pierce200 [Life]
+Acc B, Spd S
+Floor
+Combinations:
+- WoodTowr * FireTowr * WatrTowr
+Properties
+- Does not exhaust gauge at 50 HP and under
+
 GutThrow
 Sac:RockCube Break??? [None]
 Acc B, Spd C
@@ -148,6 +157,41 @@ Combinations:
 Properties:
 - Splashes to all adjacent panels
 
+SpikShel
+Defense Counter+Delay Double40 [Aqua]
+Acc S, Spd D
+Personal, Projectile
+Combinations:
+- DoubNdl * CrsShld1 * Shell
+Properties:
+- Uses chip with most HP for the guard
+- Preps two attacks per hit taken
+- Launches all attacks at end of turn
+
+SpikGard
+Defense Counter+Delay Triple50 [Aqua]
+Acc S, Spd D
+Personal, Projectile
+Combinations:
+- TripNdl * CrsShld2 * TurtShel
+- Trident * CrsShld2 * TurtShel
+Properties:
+- Uses chip with most HP for the guard
+- Preps three attacks per hit taken
+- Launches all attacks at end of turn
+
+SpikWall
+Defense Counter+Delay Quad60 [Aqua]
+Acc S, Spd D
+Personal, Projectile
+Combinations:
+- QuadNdl * CrsShld3 * PwrShell
+Properties:
+- Uses chip with most HP for the guard
+- Preps four attacks per hit taken
+- Launches all attacks at end of turn
+- Freezes Sea Panels
+
 MagSphr1
 Barr2 Waning DoubleAdd50 [Elec]
 Acc B, Spd S
@@ -223,6 +267,17 @@ Properties:
 - Hits between 1 to 6 times
 - Counts as Floor for the purpose of hurting target through PopUp
 
+Swallow
+Absorb:Range DelayDelete??? [Dark]
+Acc S, Spd D
+Obstacle, Instant
+Combinations:
+- DarkPrtl * BlckHole * Vacuum
+Properties:
+- Counts as a DarkPrtl while active
+- Nullifies all non-Melee attacks
+- Instantly deletes any selected chip with less HP than it absorbed, including the attackers
+
 Lasher
 Counter:Attack Add90 [Sol]
 Acc S, Spd A
@@ -270,6 +325,16 @@ Combinations:
 Properties:
 - Strikes from every unoccupied panel adjacent to target
 
+Daybreak
+Pierce300 [Sol]
+Acc B, Spd B
+Projectile
+Combinations:
+- Sundial * FstGauge * BlueMoon
+Properties:
+- Strikes all panels on way to and past target
+- Adds 32 Sunlight to the Solar Level, even if it fails
+
 FoluNuke
 Drain??? Delay AllAdd120 [Dark]
 Acc S, Spd E
@@ -283,3 +348,15 @@ Properties:
 - HP is determined by TimeBomb used
 - Every hit the Obstacle takes drains the target's gauge by that amount
 - At end of turn, blows up and damages all adjacent entities
+
+Suprnova
+Delay Meteo:Ore AllAdd100 [Life]
+Acc C, Spd S
+Aerial
+Combinations:
+- Meteors * RedSun * MetrStge
+Properties:
+- Turns Ore collected during turn into Meteors using MetrStge properties
+- Missed Meteors hit random panels on whole field
+- Missed Meteors turn into panels
+- Three missed Meteors of same type aligning will blow up all cardinally adjacent panels for the stated AllAdd damage
