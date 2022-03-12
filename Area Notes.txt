@@ -37,7 +37,7 @@ Panels:
 Viruses:
 -     1-3: "Emergent"
 -    4-25: Batty
--   26-50: Traffic Light thing
+-   26-50: Traffic
 -   51-75: Cloudy
 -  76-125: Beetank
 - 126-175: Gunnet
@@ -54,7 +54,7 @@ Viruses:
 -     1-3: "Emergent"
 -    4-25: Wimpy
 -   26-50: Panella
--   51-75: invis ghost
+-   51-75: TraceBok
 -  76-125: Swordy
 - 126-175: Bunny
 - 176-256: Mettaur1
@@ -92,12 +92,12 @@ Panels:
 - 181-256: Basic
 Viruses:
 -     1-3: "Emergent"
--    4-19: Ghost1
+-    4-19: TraceBok
 -   20-35: Bushy
 -   36-67: Squeaker
 -   68-99: Batty2
 - 100-131: Shrimpy
-- 132-163: Candle Demon
+- 132-163: Jark
 - 164-195: Lotus Plant
 - 196-256: Mettaur2
 
@@ -116,7 +116,7 @@ Viruses:
 -   36-67: Growler
 -   68-99: Boomer Clasp
 - 100-131: DefyAnt
-- 132-163: Ghost2
+- 132-163: ImageBok
 - 164-195: LilSass
 - 196-256: Adfly
 
@@ -196,8 +196,8 @@ Viruses:
 - Pebbler
 - Lilicone
 - DefyAnt
-- Candle Demon
-- Ghost
+- Jark
+- PhantBok
 - Scuttle
 
 Icewall (48 Solar)
@@ -296,13 +296,15 @@ Viruses:
 - Pebblest
 - Petalica
 - Angel
-- Candle Demon
+- Berial
 - Cloudy
 - Tortent
 - Hornet
 - Lotus
-- Traffic Thing?
+- Speeddos
 
 Bitrot (0 Solar) [JunkMan, VideoMan, YokuMan]
 
 Quarantine (48 Solar) [Medic, GateMan, Sigma]
+Viruses:
+- Pyron
