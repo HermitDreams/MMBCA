@@ -224,6 +224,52 @@ Properties:
 - Sustains four non-[Wood] hits
 - Each hit taken reduces end-of-turn hits
 
+Buckler
+Armor50 Counter StunAdd50 [None]
+Acc B, Spd A
+Personal, Melee
+Combinations:
+- Pawn * UnderSht * AlumiPnl
+Properties:
+- Uses Pawn's HP
+
+MetalBod
+Armor100 DelayPanel [None]
+Spd A
+Personal, Obstacle
+Combinations:
+- StoneBod * UndrArmr * AlumiStg
+Properties:
+- Subtracts 100 damage from each hit taken
+- Spawns a Gear at end of turn if not hit by Break
+
+HolyGnt1
+NaviPower:Add QuintBreak30 [Sol]
+Acc B, Spd B
+Projectile
+Combinations:
+- No-Beam1 * BrnzFist * FtrSword
+Properties:
+- The following Navi Attack has Add applied
+
+HolyGnt2
+NaviPower:Add QuintBreak40 [Sol]
+Acc A, Spd B
+Projectile
+Combinations:
+- No-Beam2 * SilvFist * KngtSwrd
+Properties:
+- The following Navi Attack has Add applied
+
+HolyGnt3
+NaviPower:AllAdd QuintBreak50 [Sol]
+Acc A, Spd A
+Projectile
+Combinations:
+- No-Beam3 * GoldFist * HeroSwrd
+Properties:
+- The following Navi Attack has AllAdd applied
+
 NinjKat1
 Dodge1 SkipRand100 [Dark]
 Spd S
