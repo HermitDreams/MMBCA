@@ -91,6 +91,38 @@ Properties:
 - Spawns a random Ant every time she is attacked
 * Entities with Program Decks cap at 3 per side of a field
 
+Altar1
+Defense DelaySpawn:Jark [Fire]
+Spd E
+Obstacle
+Combinations:
+- DarkFlm1 * Candle1 * Totem1
+Properties:
+- Uses the higher HP between Candle and Totem
+- Spawns a Jark if it survives the turn
+
+Altar2
+Defense Require:Fire DelaySpawn:Berial [Fire]
+Spd E
+Obstacle
+Combinations:
+- DarkFlm2 * Candle2 * Totem2
+Properties:
+- Uses the higher HP between Candle and Totem
+- Spawns a Berial on a Heat or Lava Panel in your territory if it survives the turn
+- An active DarkPrtl will forego the need for a [Fire] Panel
+
+Altar3
+Defense Require:Lava DelaySpawn:Pyron [Fire]
+Spd E
+Obstacle
+Combinations:
+- DarkFlm3 * Candle3 * Totem3
+Properties:
+- Uses the higher HP between Candle and Totem
+- Spawns a Pyron on a Lava Panel in your territory if it survives the turn
+- An active DarkPrtl will forego the need for a Lava Panel
+
 Timpani1
 Defense PerAction SkipStun50 [None]
 Acc S, Spd D
@@ -343,6 +375,15 @@ Combinations:
 Properties:
 - Inflicts a curse on target that causes them to take 50 All Add per action
 
+Molotov
+AllAdd70 Panel:Lava [Fire]
+Acc B, Spd A
+Aerial
+Combinations:
+- BblWrap * Napalm * LavaPanl
+Properties:
+- Spreads a 3x3 of Lava Panels on impact, even if it misses
+
 Igloo
 Buff:Rock Defense [Aqua]
 Spd D
@@ -361,6 +402,27 @@ Combinations:
 - OldWood * LeafShld * GrassStg
 Properties:
 - Surrounds all entities with Trees
+
+Detonate
+Counter:Fire AllAdd200 [Fire]
+Acc A, Spd S
+Projectile, Instant
+Combinations:
+- FireRatn * AntiFire * BlkBomb
+Properties:
+- Shoots a fire charge at the target, which can be dodged
+- Blows up when target uses [Fire], which can't be dodged
+
+Divide
+Rand??? [Life]
+Acc B, Spd A
+Melee
+Combinations:
+- CustSwrd * Muramasa * Horizon
+Properties:
+- Cuts targets' remaining HP in half
+- Reaches behind target
+- Steals panels in all other lanes
 
 QuikStep
 OctoMeteoRand70 [None]
