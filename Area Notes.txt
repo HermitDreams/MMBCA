@@ -198,7 +198,6 @@ Viruses:
 - DefyAnt
 - Jark
 - PhantBok
-- Scuttle
 
 Icewall (48 Solar)
 Panels:
@@ -226,7 +225,7 @@ Panels:
 -   19-25: Volcano
 -   26-50: Abyss
 -   51-90: Lava
--  91-130: Aluminum
+-  91-130: Ice
 - 131-170: Swamp
 - 171-210: Grass
 - 211-256: Basic
@@ -237,8 +236,8 @@ Panels:
 -   19-25: Fountain
 -   26-50: Abyss
 -   51-90: Magnet
--  91-130: Honey
-- 131-170: Ice
+-  91-130: Sand
+- 131-170: Aluminum
 - 171-210: Cracked
 - 211-256: Basic
 
@@ -248,7 +247,7 @@ Panels:
 -   19-22: DarkHole
 -   23-25: Beacon
 -   26-50: Abyss
--   51-90: Sand
+-   51-90: Honey
 -  91-130: Charging
 - 131-170: Heat
 - 171-210: Sea
@@ -267,7 +266,7 @@ Panels:
 - 137-196: Ice
 - 197-256: Aluminum
 Viruses:
-- Sniper Joe
+- Jonathan
 - Orber
 - Bonehead
 - WindXP
@@ -278,7 +277,7 @@ Viruses:
 - Bunny3
 - Meteor Mage
 - Beetank3
-- Scuttlest
+- BugStag
 
 Admin Lounge (128 Solar) [Comet, DarkMan, Serenade]
 Panels:
@@ -294,7 +293,6 @@ Viruses:
 - Monolith
 - Pally
 - Pebblest
-- Petalica
 - Angel
 - Berial
 - Cloudy
@@ -304,7 +302,36 @@ Viruses:
 - Speeddos
 
 Bitrot (0 Solar) [JunkMan, VideoMan, YokuMan]
+Panels:
+-    1-32: Mystery Data
+-   33-48: DarkPrtl
+-   49-96: Abyss
+-  97-112: Lava
+- 113-136: Sand
+- 137-160: Swamp
+- 161-208: Aluminum
+- 209-256: Cracked
+Viruses:
+- CopyPast
+- Shroooob
+- Entroper
+- ShadeBok
+- Orber
 
 Quarantine (48 Solar) [Medic, GateMan, Sigma]
+Panels:
+-    1-32: Mystery Data
+-   33-48: Tree
+-   48-96: Hive
+-  97-112: Holy
+- 113-136: Grass
+- 137-160: Honey
+- 161-208: Ice
+- 209-256: Magnet
 Viruses:
+- BugCore (1/256 chance)
+- AlphaGel
 - Pyron
+- Queenly
+- Endocryo
+- Petalica
