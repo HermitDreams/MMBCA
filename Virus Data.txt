@@ -1481,6 +1481,7 @@ Attacks: (4-200/256)
 - Sunrise
 - Pineappl
 - PwrSurge
+- DireRoot
 - Subtank
 - RedSun
 - Moondish
@@ -2481,7 +2482,6 @@ Traits:
 - Immunity: Swamp
 - Armor: 50
 Attacks: (4-128/256)
-- PoisSprd
 - TreeBom2
 - Lance
 - Spice2
@@ -2503,6 +2503,7 @@ Attacks: (4-128/256)
 - Knight
 - Javelin
 - Shield
+- PoisSprd
 - PanlOut
 - GrassStg
 - Geddon3
@@ -2520,7 +2521,6 @@ Traits:
 - Trail: Swamp
 - Armor: 50
 Attacks: (4-200/256)
-- PoisSprd (Guarantee)
 - TreeBom2
 - TreeBom3
 - Lance
@@ -2557,6 +2557,8 @@ Attacks: (4-200/256)
 - Crusader
 - Phalanx
 - Shield (Guarantee)
+- PoisSprd (Guarantee)
+- DireRoot
 - PanlOut
 - GrassStg
 - Geddon1
@@ -2747,3 +2749,179 @@ Attacks: (4-64/256)
 - ElecAura (Guarantee 2)
 - CloudLns
 - AlumiStg
+
+Buggle (Tier 4)
+250 HP [Life]
+Dodge C, Spd A
+Flavour:
+- A dust mite hoarding BugFrags. Its body and web have crystallized.
+Movement:
+- Moves cardinally every turn
+Traits:
+- Barrier: 1
+- Trail: Honey
+Attacks: (4-128/256)
+- Sword
+- WideSwrd
+- LongSwrd
+- VarSwrd
+- ShockWav
+- SonicWav
+- Swarm1 (Guarantee)
+- Swarm2
+- AntHill1
+- AntHill2
+- Whirlpl
+- Mine
+- Recov120
+- Recov150
+- Dfrag50 (Guarantee)
+- HoneyPot
+- Prism
+- PopUp
+- Escape
+- Barrier
+- FireAura
+- AquaAura
+- WoodAura
+- ElecAura
+- LifeAur1 (Guarantee)
+- AntiFire
+- AntiElec
+- AntiWatr
+- StarLens
+- MetaGel1
+- HonyDrop
+- HonySpil
+- SeaPanel
+- GrassPnl
+- ChargPnl
+- LavaPanl
+
+BugStag (Tier 5: WWW Castle)
+200 HP [Life]
+Dodge D, Spd S
+Flavour:
+- A variant of Buggle that has been optimized for performance by the WWW.
+Movement:
+- Moves cardinally every action
+Traits:
+- Aura: 60 [Life]
+- Trail: Basic
+Attacks: (4-256/256)
+- M-Cannon
+- BubSprd
+- HeatSprd
+- FireBlde
+- AquaBlde
+- ElecBlde
+- VarSwrd (Guarantee)
+- CustSwrd
+- Muramasa
+- DynaWave
+- WoodTowr
+- FireTowr
+- WatrTowr
+- ZapRing3
+- Pulse3
+- Recov200
+- VampBit3
+- Dfrag100 (Guarantee)
+- Fanfare
+- Barrier
+- BblWrap
+- LeafShld
+- LifeAur1
+- LifeAur2 (Guarantee)
+- Atk+30
+- AstroBat
+- StarLens
+- Wizard
+- VoidCann
+- BgRedWav
+- FreezBom
+- GaiaSwrd
+- PwrSurge
+- FtrSword
+- KngtSwrd
+- MetrStge
+- Horizon
+- MetaGel2
+- Repair
+- GrassStg
+- ChargStg
+- IceStage
+- LavaStge
+
+BugCore (Tier 5: Quarantine)
+300 HP [Life]
+Dodge E, Spd E
+Flavour:
+- A variant of Buggle that has become a host, drawing in any loose BugFrags
+Movement:
+- None
+Traits:
+- Aura: 100 [Life]
+- Armor: 150
+- Trail: Holy
+Attacks: (4-256/256)
+- HiveBomb
+- FireSwrd
+- AquaSwrd
+- ElecSwrd
+- VarSwrd
+- Slasher
+- DarkFlm3
+- QuadNdl
+- FireRatn
+- ApplSeed
+- CrsShld3
+- AntHill1
+- AntHIll2
+- AntHill3
+- TimeBom3
+- Mine
+- DblSnsr
+- PwrShell (Guarantee)
+- Guard
+- Anubis
+- Recov300
+- Candle3
+- Totem3
+- Dfrag150 (Guarantee)
+- Fanfare
+- IceCube
+- Pawn
+- Rook
+- Guardian
+- StoneBod
+- UndrArmr
+- LifeAur1
+- LifeAur2
+- LifeAur3 (Guarantee)
+- Jealousy
+- AntiFire
+- AntiElec
+- AntiWatr
+- AntiDmg
+- AntiSwrd
+- AntiAir
+- AntiRecv
+- AstroBat
+- StarLens
+- Shield
+- Queen
+- CyberElf
+- DarkAura
+- Sparker
+- BlkBomb
+- DireRoot
+- FoldrBak
+- Subtank
+- StarBarr
+- HolyPanl
+- HeatStge
+- SeaStage
+- AlumiStg
+- Geddon2
+- Sancuary
