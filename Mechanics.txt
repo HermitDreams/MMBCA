@@ -1,0 +1,21 @@
+BATTLE MECHANICS
+
+When generating a virus battle, try to place player in center of their field.
+If the center panel has a penalty (Sand, Swamp, etc), select a random viable panel.
+If no panels are viable, place them in center anyway and reroll panel type until viable.
+Viruses get placed onto random panels in their field they can occupy.
+
+The start of a turn will select all three chips in a branching pattern for all entities with a Deck.
+Before a chip activates, the entity can commit any available movement.
+By default, the player moves one tile in a cardinal direction per chip they select.
+If an entity spends the whole turn not moving, a -1 Dodge penalty is accrued.
+
+Accuracy and Dodge each roll d32 against each other, and the grade adds a Grade*4 bonus to their rolls.
+Penalties to Dodge and Acc are applied as a modifier after the roll. e.g., -2 Dodge will roll d32, add bonus, then subtract 8 from total.
+* The Blind debuff sets Acc to Grade E.
+
+The Custom Gauge will charge by 5+(d4*Bars) per chip column, before any action is taken.
+The "Shrouded" debuff sets the Sunlight Bonus to a flat 0.
+Slot-Ins have a Gauge% chance to succeed. An attempt, successful or not, will delete the chip but let defenses inherit its HP anyway.
+At 50% or higher, the selected branch can be rerolled at the cost of fully draining the gauge.
+A reroll can only be done once per turn, in the event a bonus prevents gauge from draining below 50%.
