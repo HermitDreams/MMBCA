@@ -153,6 +153,20 @@ Properties:
 - Uses combined remaining HP of all chips
 - Affects whole field except user
 
+WebSurf
+Stage:Honey Lock2 PierceStopAllAdd70 [Aqua]
+Acc A, Spd D
+Floor
+Combinations:
+- GelCrash * MetaGel1 * HonySpil
+- GelCrash * MetaGel2 * HonySpil
+- GelCrash * MetaGel3 * HonySpil
+Properties:
+- Hits whole stage
+- Waves are stopped by Holes
+- Every affected panel turns to Honey
+- Thick honey prevents affected entities from charging their gauge and lowers their Dodge by 2 grades
+
 IceStorm
 Break 10Meteo20 [Aqua]
 Acc D, Spd B
@@ -380,7 +394,7 @@ AllAdd70 Panel:Lava [Fire]
 Acc B, Spd A
 Aerial
 Combinations:
-- BblWrap * Napalm * LavaPanl
+- LavaBall * BblWrap * Napalm
 Properties:
 - Spreads a 3x3 of Lava Panels on impact, even if it misses
 
