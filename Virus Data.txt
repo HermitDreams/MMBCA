@@ -1263,6 +1263,125 @@ Attacks: (4-200/256)
 - Repair
 - Sancuary
 
+HumDrum (Tier 2)
+90 HP [None]
+Dodge C, Spd C
+Flavour:
+- An upbeat musical note coming from an unknown tab.
+Movement:
+- Jumps to random panel every turn
+Traits:
+- Carry: Aerial
+Attacks: (4-64/256)
+- LilBomb
+- LilShout (Guarantee)
+- DashAtk
+- GutPunch
+- Quake1 (Guarantee)
+- Pulse1
+- LilCloud
+- Remobit1
+- Mindbndr
+- Press1
+- Atk+10
+- DoublBat
+- LunaLens
+- Vortex
+- Dagger
+- Archer
+- PanlGrab
+- AreaGrab
+- AlumiPnl
+
+KickDrum (Tier 3)
+150 HP [None]
+Dodge C, Spd B
+Flavour:
+- A pink variant of HumDrum. Embedded itself into the webpage.
+Movement:
+- Jumps to random panel every turn and dodge
+Traits:
+- Carry: Aerial
+Attacks: (4-128/256)
+- LilBomb
+- LilShout
+- MedShout (Guarantee)
+- DashAtk
+- GutPunch
+- Quake1
+- Quake2 (Guarantee)
+- Pulse1
+- Pulse2
+- MedCloud
+- Remobit2
+- Mindbndr
+- Fanfare (Guarantee)
+- Discord
+- Press2
+- Atk+20
+- TriplBat
+- LunaLens
+- CloudLns
+- Vortex
+- Dagger
+- Otorange
+- Juggler
+- PanlGrab
+- MetaGel1
+- AlumiStg
+
+DrumBeat (Tier 4)
+210 HP [None]
+Dodge C, Spd B
+Flavour:
+- A purple variant of HumDrum. Wants access to media files.
+Movement:
+- Jumps to random panel every attack and dodge
+Traits:
+- Carry: Aerial
+- Unflinching
+Attacks: (4-128/256)
+- HiCannon
+- CrosBomb
+- LIlShout
+- MedShout
+- BigShout (Guarantee)
+- DashAtk
+- Burner
+- GutPunch
+- ColdPnch
+- CannBall
+- Quake1
+- Quake2
+- Quake3 (Guarantee)
+- Erupt2
+- Pulse1
+- Pulse2
+- Pulse3 (Guarantee)
+- BigCloud
+- Remobit3
+- Mindbndr
+- Fanfare (Guarantee)
+- Discord
+- Press3
+- DropDown
+- UnderSht
+- Atk+20
+- Atk+30
+- QuadBatt
+- AstroBat
+- FlameLns
+- CloudLns
+- StarLens
+- Cyclone
+- Gradius
+- Otorange
+- Juggler
+- PanlGrab
+- MetaGel2
+- ChargStg
+- AlumiStg
+
 Hermit (Tier 2)
 100 HP [Aqua]
 Dodge D, Spd E
