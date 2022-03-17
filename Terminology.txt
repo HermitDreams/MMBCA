@@ -2,25 +2,104 @@ ATTACK TYPES
 
 Projectile
 - Instantly hits the targeted panel
+- Blocked by Obstacles directly in front of target
+ - Includes Obstacles in front of that Obstacle as well
 - Lose 1 Accuracy Tier if misaligned
 
 Melee
 - Must step onto panel in front of target
+ - Some chips shift this standing placement (Kunai, Lance, etc)
 - Gain 1 Accuracy Tier if already positioned
 
 Aerial
 - Strikes targeted panel from above
 - Must be able to impact panel
+- Flies over Obstacles
 - Gain 1 Accuracy Tier if precisely 3 tiles away
 
 Floor
 - Affects every panel on its path
+- Can fall through holes or stop on Obstacles
 
 Obstacle
 - Replaces object on panel in front of user
 
 Personal
 - Exists on same panel as user
+
+Instant
+- Immediately materializes on the target
+
+
+ATTACK EFFECTS
+
+Add
+- Copies the damage taken to the last chip selected this turn
+
+All
+- Chip damage affects all selected chips
+
+Rand
+- Copies the damage taken to a randomly selected chip this turn
+
+Delete
+- Instantly destroys the targeted chip
+
+Smash
+- Instantly destroys both Slot-In chips
+
+Stun
+- Prevents movement and end-of-turn attack
+
+Stop
+- Prevents next chip from being used and gauge from charging for duration of turn
+
+Mind
+- Randomizes movement and prevents usage of gauge for duration of turn
+
+Snatch
+- Steals the primed chip from the program deck for duration of battle
+
+Pierce
+- Damage Obstacles and Guards while still damaging target
+
+Break
+- Destroys Obstacles and Guards en route to target
+
+Shove
+- Pushes the entity by specified amount (default: infinite)
+- Obstacles that collide with other entities are broken and deal damage equal to remaining health
+
+Pull
+- Pulls the entity by specified amount (default: infinite)
+- Obstacles that collide with other entities are broken and deal damage equal to remaining health
+
+Skip
+- Ignores any Guards and Status attached to the target
+
+Require
+- Only the specified panels or objects can spawn the attack
+
+Drain
+- Lowers the target's gauge by specified amount
+
+Counter
+- Delivers a counterattack when condition is met
+
+Interrupt
+- Cancels the incoming attack type from occurring
+
+Freeze
+- Turns Sea Panels to Ice Panels and Heat Panels to Basic Panels
+
+Steal
+- Turns the affected territory into the user's
+
+Panel
+- Changes the affected panels to the type indicated
+
+Crack
+- Turns traversible non-Metal panels into Cracked, and Cracked panels into Pits
 
 
 VIRUS TRAITS
@@ -48,7 +127,10 @@ Suspended
 - Has AirShoes until struck by the specified damage type
 
 Unflinching
-- Cannot be stunned nor pinned
+- Cannot be stopped nor interrupted
+
+Unstoppable
+- Cannot be stunned nor confused
 
 Sunburn
 - The target takes the specified damage per action while exposed to direct light
