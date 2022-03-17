@@ -1145,6 +1145,7 @@ Floor
 Tier 4
 - Affects entire field
 - Freezes panels
+- Only affects entities on panels that changed (Heat/Sea/Lava)
 
 Meteor3
 3Meteo40 [Fire]
@@ -1816,14 +1817,6 @@ Personal
 Tier 3
 - Take only 10 damage per hit while active
 
-Radiance
-Counter:Melee Blind50 [Sol]
-80 HP, 30 MB
-Spd S
-Personal, Instant
-Tier 3
-- Incoming Melee attacks get interrupted by blinding light
-
 Shadow1
 Defense Counter+ Rand30 [Dark]
 30 HP, 40 MB
@@ -1847,6 +1840,14 @@ Acc S, Spd E
 Personal, Melee
 Tier 4
 - Immune to everything except Rand and [Sol]
+
+Radiance
+Counter:Melee Blind50 [Sol]
+80 HP, 30 MB
+Spd S
+Personal, Instant
+Tier 3
+- Incoming Melee attacks get interrupted by blinding light
 
 UnderSht
 Survive10 [None]
@@ -2695,6 +2696,14 @@ Tier 5
 - Aims in a straight line
 - Drains the Custom Gauge to do 150% damage based on what drained
 - Full Gauge causes user to take 50 damage and Stun
+
+DireRoot
+SkipAbsorb120 [Wood]
+250 HP, 40 MB
+Acc D, Spd B
+Floor
+Tier 5
+- Spawns on target panel
 
 StarBarr
 Defense Barr4 [????]
