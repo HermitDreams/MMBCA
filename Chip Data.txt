@@ -671,7 +671,7 @@ Tier 3
 - Travels forward until it needs to turn toward target
 
 FireRatn
-Counter:Fire Add120 [Fire]
+Interrupt:Fire Add120 [Fire]
 120 HP, 60 MB
 Acc S, Spd E
 Obstacle, Floor
@@ -679,7 +679,7 @@ Tier 4
 - Travels forward until it needs to turn toward target
 
 ApplSeed
-Reflect:Wood Absorb:Aqua AllAdd50 Recov100 [Wood]
+Counter:Wood Absorb:Aqua AllAdd50 Recov100 [Wood]
 150 HP, 60 MB
 Acc A, Spd E
 Obstacle, Floor
@@ -688,7 +688,7 @@ Tier 4
 - Wood Towers shift toward attacker's lane
 
 Tornado
-AllAddTriple10 [None]
+Swirl AllAddTriple10 [None]
 50 HP, 40 MB
 Acc D, Spd E
 Aerial
@@ -698,20 +698,22 @@ Tier 3
 - Picks up Sea Panels to change element to [Aqua]
 
 Twister
-AllAddTriple10 [Wood]
+Swirl AllAddTriple10 [Wood]
 30 HP, 40 MB
 Acc D, Spd E
 Aerial
 Tier 3
 - Does not require a panel to touch down on
+- Still grants bonus to [Wood] on Sea Panels
 
 Blower
-AllAddTriple10 [Fire]
+Swirl AllAddTriple10 [Fire]
 20 HP, 40 MB
 Acc D, Spd E
 Aerial
 Tier 3
 - Does not require a panel to touch down on
+- Still grants bonus to [Fire] on Sea Panels
 
 ZapRing1
 Stun10 [Elec]
@@ -1122,7 +1124,7 @@ Tier 4
 - Any chip damage done to user gets copied to the chip that dealt it
 
 Whirlpl
-DeleteRand10 [None]
+Swirl DeleteRand10 [None]
 80 HP, 30 MB
 Acc D, Spd A
 Aerial
@@ -1130,15 +1132,16 @@ Tier 3
 - Leaves a Sea Panel if it misses
 
 BlckHole
-DeleteRand10 [Dark]
+Swirl DeleteRand10 [Dark]
 250 HP, 50 MB
 Acc B, Spd A
 Aerial
 Tier 4
 - Leaves a Dark Hole if it misses
+- Still grants bonus to [Dark] on Sea Panels
 
 DeepFrez
-StunStop80 [Aqua]
+Freeze StunStop80 [Aqua]
 150 HP, 40 MB
 Acc S, Spd A
 Floor
