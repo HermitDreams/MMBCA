@@ -60,6 +60,9 @@ Mind
 Snatch
 - Steals the primed chip from the program deck for duration of battle
 
+Lucky
+- The targeted chip will replace the Zenny reward at the end of the battle
+
 Pierce
 - Damage Obstacles and Guards while still damaging target
 
@@ -69,10 +72,12 @@ Break
 Shove
 - Pushes the entity by specified amount (default: infinite)
 - Obstacles that collide with other entities are broken and deal damage equal to remaining health
+- Also shifts affected Sand Panels
 
 Pull
 - Pulls the entity by specified amount (default: infinite)
-- Obstacles that collide with other entities are broken and deal damage equal to remaining health
+- Obstacles that collide ith other entities are broken and deal damage equal to remaining health
+- Also shifts affected Sand Panels
 
 Skip
 - Ignores any Guards and Status attached to the target
@@ -83,6 +88,9 @@ Require
 Drain
 - Lowers the target's gauge by specified amount
 
+Defense
+- Takes damage for user
+
 Counter
 - Delivers a counterattack when condition is met
 
@@ -92,6 +100,9 @@ Interrupt
 Freeze
 - Turns Sea Panels to Ice Panels and Heat Panels to Basic Panels
 
+Slip
+- Applies a -1 Accuracy penalty per stack
+
 Steal
 - Turns the affected territory into the user's
 
@@ -100,6 +111,47 @@ Panel
 
 Crack
 - Turns traversible non-Metal panels into Cracked, and Cracked panels into Pits
+
+Swirl
+- Turns Sand or Sea Panels into Basic and powers up the attack
+ - Sand grants a Damage Bonus
+ - Sea turns the attack to [Aqua]
+
+Double
+- Launches two attacks if it connects
+
+Triple
+- Launches three attacks if it connects
+
+Quad
+- Launches four attacks if it connects
+
+Quint
+- Launches five attacks if it connects
+
+Dice
+- Launches between 1 to 6 attacks if it connects
+
+Meteo
+- Launches the specified amount of attacks, each rolled for dodge individually
+
+Heal
+- Heals target instead of damaging
+
+Absorb
+- Damages target and heals user
+
+Bleed
+- Deals damage equal to health lost
+
+Delay
+- Executes attack after end-of-turn actions
+
+Copy
+- Repeats damage that the user dealt
+
+Power
+- Increases the specified type's damage by the specified amount
 
 
 VIRUS TRAITS
