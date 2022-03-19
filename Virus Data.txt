@@ -133,6 +133,96 @@ Attacks: (4-128/256)
 - Stalker
 - FuryBust
 
+Cleaner (Tier 1)
+60 HP [None]
+Dodge D, Spd D
+Flavour:
+- A virus posing as the recycle bin. Deletes unsorted files.
+Movement:
+- One tile cardinally per action
+- Drawn to Sand Panels
+- Trail: Basic
+Traits:
+- None
+Attacks: (4-48/256)
+- Shotgun (Guarantee)
+- Bubbler
+- AirShot1
+- Recov10
+- Recov30
+- PanlGrab (Guarantee)
+- Repair
+
+Sweeper (Tier 2)
+90 HP [None]
+Dodge C, Spd D
+Flavour:
+- A blue variant of Cleaner. Programs convinced it to do their jobs.
+Movement:
+- One tile cardinally per action
+- Drawn to Sand Panels
+- Trail: Basic
+Traits:
+- None
+Attacks: (4-64/256)
+- Shotgun
+- V-Gun (Guarantee)
+- Bub-V
+- AirShot1
+- AirShot2
+- AntHill1
+- LilCloud
+- Recov50
+- Recov80
+- AirShoes
+- Fan
+- PanlGrab
+- AreaGrab (Guarantee)
+- Repair
+
+Trasher (Tier 4)
+200 HP [None]
+Dodge C, Spd B
+Flavour:
+- A red variant of Cleaner. Nothing is truly clean until deleted.
+Movement:
+- One tile cardinally per action
+- Drawn to Sand Panels
+- Drawn to Swamp Panels
+- Trail: Basic
+Traits:
+- Immunity: Lock
+Attacks: (4-128/256)
+- CrossGun
+- Spreader (Guarantee)
+- BubCross
+- Slasher
+- SonicWav
+- AirShot2
+- AirShot3
+- Ratton3
+- Blower
+- AntHill2
+- GelCrash
+- Whirlpl (Guarantee)
+- MedCloud
+- Recov150
+- Recov200
+- Dfrag50
+- AirShoes
+- Wind
+- Fan
+- Jealousy
+- AntiDmg
+- ScanBomb
+- Sanitize (Guarantee)
+- Poltrgst
+- PanlGrab
+- AreaGrab
+- HolyPanl
+- Repair
+- Geddon1
+
 Barker (Tier 1: Hometowns)
 90 HP [Fire]
 Dodge B, Spd E
