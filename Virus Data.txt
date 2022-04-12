@@ -28,6 +28,7 @@ Attacks: (25%)
 - ShockWav
 - SonicWav (Guarantee)
 - Guard (Guarantee)
+- Fighter
 - PanlOut
 
 Mettaur3 (Tier 3: International)
@@ -46,9 +47,10 @@ Attacks: (40%)
 - ShockWav
 - SonicWav
 - DynaWave (Guarantee)
+- Shell
 - Guard (Guarantee)
-- StoneBod
 - UnderSht
+- Dagger
 - PanlOut
 - CrackOut
 - Geddon1
@@ -907,6 +909,76 @@ Attacks: (4-200/256)
 - SeaStage
 - GrassStg
 
+Clasp (Tier 2)
+90 HP [Wood]
+Dodge C, Spd C
+Flavour:
+- A snake attached to a clip, lunging at the mice in the zoo
+Movement:
+Traits:
+- Armor: 30
+Attacks: (4-48/256)
+- Lance
+- ZapRing1
+- Twister
+- Yo-Yo1 (Guarantee)
+- Boomer1 (Guarantee)
+- Snapper
+- Press1
+- Atk+20
+
+Clipboa (Tier 3)
+150 HP [Wood]
+Dodge B, Spd B
+Flavour:
+Movement:
+Traits:
+- Armor: 40
+Attacks: (4-96/256)
+- Lance
+- ZapRing2
+- Twister (Guarantee)
+- Yo-Yo1
+- Yo-Yo2 (Guarantee)
+- Boomer1
+- Boomer2 (Guarantee)
+- CrsShld1
+- Snake
+- Snapper
+- Catcher
+- VampBit1
+- Press2
+- Atk+20
+- Wood+40
+- EarthLns
+
+Python (Tier 4?)
+210 HP [Wood]
+Dodge B, Spd B
+Flavour:
+Movement:
+Traits:
+- Armor: 50
+Attacks: (4-160/256)
+- Lance
+- ZapRing3
+- Twister (Guarantee)
+- Yo-Yo2
+- Yo-Yo3 (Guarantee)
+- Boomer2
+- Boomer3 (Guarantee)
+- CrsShld2
+- LavaDrag
+- Snake
+- Snapper (Guarantee)
+- Catcher
+- VampBit2
+- Press3
+- Atk+20
+- Wood+40
+- EarthLns
+- Geddon1
+
 Swordy (Tier 1)
 80 HP [None]
 Dodge D, Spd C
@@ -918,8 +990,9 @@ Traits:
 - None
 Attacks: (4-30/256)
 - Sword (Guarantee)
-- LongSwrd (Guarantee)
+- LongSwrd
 - StepSwrd
+- PanlGrab (Guarantee)
 - AreaGrab
 
 Tempered (Tier 2)
@@ -932,12 +1005,14 @@ Movement:
 Traits:
 - None
 Attacks: (4-50/256)
-- Sword (Guarantee)
-- WideSwrd
+- Sword
+- WideSwrd (Guarantee)
 - LongSwrd
 - StepSwrd
 - FireSwrd (Guarantee)
 - FireBlde
+- UnderSht
+- PanlGrab
 - AreaGrab (Guarantee)
 
 Steeled (Tier 3)
@@ -950,15 +1025,17 @@ Movement:
 Traits:
 - None
 Attacks: (4-75/256)
-- Sword (Guarantee)
+- Sword
 - WideSwrd
-- LongSwrd
-- VarSwrd
+- LongSwrd (Guarantee)
 - StepSwrd
-- AquaSwrd (Guarantee)
+- AquaSwrd
 - AquaBlde (Guarantee)
+- Shell
 - Guard
+- UndrArmr
 - FtrSword
+- PanlGrab
 - AreaGrab (Guarantee)
 
 Knighted (Tier 4)
@@ -973,24 +1050,31 @@ Traits:
 Attacks: (4-75/256)
 - Sword
 - WideSwrd
-- LongSwrd (Guarantee)
-- VarSwrd
+- LongSwrd
+- VarSwrd  (Guarantee)
 - CustSwrd
 - StepSwrd
 - StepCros
 - FireSwrd
-- AquaSwrd
+- AquaBlde
 - ElecSwrd
+- ElecBlde
 - Lance
+- BrnzFist
 - SilvFist
+- Shell
+- TurtShel
 - Guard
-- StoneBod (Guarantee)
+- StoneBod
 - Fanfare
-- Pawn
+- Pawn     (Guarantee)
+- UnderSht
+- UndrArmr
 - AntiSwrd
 - FtrSword (Guarantee)
 - KngtSwrd
 - AreaGrab (Guarantee)
+- AlumiPnl
 - AlumiStg
 
 Pally (Tier 5: Admin Lounge)
@@ -1713,8 +1797,8 @@ Traits:
 - Sunburn: 10
 Attacks: (4-45/256)
 - Sword
-- Pulse1
-- VampBit1 (Guarantee)
+- Pulse1 (Guarantee)
+- VampBit1
 
 Batty2 (Tier 2)
 80 HP [Dark]
@@ -1728,13 +1812,13 @@ Traits:
 - Sunburn: 30
 Attacks: (4-75/256)
 - Sword
-- Pulse1 (Guarantee)
-- Pulse2
+- Pulse1
+- Pulse2 (Guarantee)
 - Shadow1
 - DropDown
 - Discord
-- VampBit1
-- VampBit2 (Guarantee)
+- VampBit1 (Guarantee)
+- VampBit2
 
 Batty3 (Tier 4: Beta)
 120 HP [Dark]
@@ -1751,13 +1835,13 @@ Attacks: (4-128/256)
 - Kunai3
 - Muramasa
 - Pulse1
-- Pulse2 (Guarantee)
-- Pulse3
+- Pulse2
+- Pulse3 (Guarantee)
 - SloGauge
 - BlckHole
 - VampBit1
-- VampBit2
-- VampBit3 (Guarantee)
+- VampBit2 (Guarantee)
+- VampBit3
 - Discord
 - DropDown
 - Shadow2 (Guarantee)
