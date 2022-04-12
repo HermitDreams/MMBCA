@@ -6,33 +6,104 @@
   if (%mmbca.fld.chip = 30) {
     if (%mmbca.chp.cannon  ) && (%mmbca.chp.hicannon) && (%mmbca.chp.m-cannon) { set %mmbca.adv.x-cannon online }
     if (%mmbca.chp.bubsprd ) && (%mmbca.chp.heatsprd) && (%mmbca.chp.inksprd ) { set %mmbca.adv.antipode online }
-    if ((%mmbca.chp.sword   ) && (%mmbca.chp.wideswrd) && (%mmbca.chp.longswrd)) || ((%mmbca.chp.fireswrd) && (%mbca.chp.aquaswrd) && (%mmbca.chp.elecswrd)) || ((%mmbca.chp.fireblde) && (%mmbca.chp.aquablde) && (%mmbca.chp.elecblde)) { set %mmbca.adv.lifeswrd online }
+    if ((%mmbca.chp.sword   ) && (%mmbca.chp.wideswrd) && (%mmbca.chp.longswrd)) || ((%mmbca.chp.fireswrd) && (%mmbca.chp.aquaswrd) && (%mmbca.chp.elecswrd)) || ((%mmbca.chp.fireblde) && (%mmbca.chp.aquablde) && (%mmbca.chp.elecblde)) { set %mmbca.adv.lifeswrd online }
+    if (%mmbca.chp.woodtowr) && (%mmbca.chp.firetowr) && (%mmbca.chp.watrtowr) { set %mmbca.adv.powrgysr online }
     if (%mmbca.chp.gutpunch) && (%mmbca.chp.rockcube) && ((%mmbca.chp.wrecker ) || (%mmbca.chp.cannball) || (%mmbca.chp.howitzer)) { set %mmbca.adv.gutthrow online }
     if (%mmbca.chp.pickaxe1) && (%mmbca.chp.shockwav) && (%mmbca.chp.guard   ) { set %mmbca.adv.helper1  online }
     if (%mmbca.chp.pickaxe2) && (%mmbca.chp.sonicwav) && (%mmbca.chp.guard   ) { set %mmbca.adv.helper2  online }
     if (%mmbca.chp.pickaxe3) && (%mmbca.chp.dynawave) && (%mmbca.chp.guard   ) { set %mmbca.adv.helper3  online }
     if (%mmbca.chp.anthill1) && (%mmbca.chp.anthill2) && (%mmbca.chp.anthill3) { set %mmbca.adv.antqueen online }
+    if (%mmbca.chp.darkflm1) && (%mmbca.chp.candle1 ) && (%mmbca.chp.totem1  ) { set %mmbca.adv.altar1   online }
+    if (%mmbca.chp.darkflm2) && (%mmbca.chp.candle2 ) && (%mmbca.chp.totem2  ) { set %mmbca.adv.altar2   online }
+    if (%mmbca.chp.darkflm3) && (%mmbca.chp.candle3 ) && (%mmbca.chp.totem3  ) { set %mmbca.adv.altar3   online }
     if (%mmbca.chp.lilshout) && (%mmbca.chp.quake1  ) && (%mmbca.chp.discord ) { set %mmbca.adv.timpani1 online }
     if (%mmbca.chp.medshout) && (%mmbca.chp.quake2  ) && (%mmbca.chp.discord ) { set %mmbca.adv.timpani2 online }
     if (%mmbca.chp.bigshout) && (%mmbca.chp.quake3  ) && (%mmbca.chp.discord ) { set %mmbca.adv.timpani3 online }
+    if (%mmbca.chp.gelcrash) && ((%mmbca.chp.metagel1) || (%mmbca.chp.metagel2) || (%mmbca.chp.metagel3)) && (%mmbca.chp.honyspil) { set %mmbca.adv.websurf  online }
     if (%mmbca.chp.iceball ) && (%mmbca.chp.deepfrez) && (%mmbca.chp.wind    ) { set %mmbca.adv.icestorm online }
     if (%mmbca.chp.pulse1  ) && (%mmbca.chp.lilcloud) && (%mmbca.chp.remobit1) { set %mmbca.adv.zapclap1 online }
     if (%mmbca.chp.pulse2  ) && (%mmbca.chp.medcloud) && (%mmbca.chp.remobit2) { set %mmbca.adv.zapclap2 online }
     if (%mmbca.chp.pulse3  ) && (%mmbca.chp.bigcloud) && (%mmbca.chp.remobit3) { set %mmbca.adv.zapclap3 online }
+    if (%mmbca.chp.doubndl ) && (%mmbca.chp.crsshld1) && (%mmbca.chp.shell   ) { set %mmbca.adv.spikshel online }
+    if ((%mmbca.chp.tripndl ) || (%mmbca.chp.trident)) && (%mmbca.chp.crsshld2) && (%mmbca.chp.turtshel) { set %mmbca.adv.spikgard online }
+    if (%mmbca.chp.quadndl ) && (%mmbca.chp.crsshld3) && (%mmbca.chp.pwrshell) { set %mmbca.adv.spikwall online }
     if (%mmbca.chp.barrier ) && (%mmbca.chp.satelit1 > 1) { set %mmbca.adv.magsphr1 online }
     if (%mmbca.chp.barrier ) && (%mmbca.chp.satelit2) && ((%mmbca.chp.satelit2 > 1) || (%mmbca.chp.powerorb)) { set %mmbca.adv.magsphr2 online }
     if ((%mmbca.chp.barrier ) || (%mmbca.chp.starbarr)) && (%mmbca.chp.satelit3 > 1) { set %mmbca.adv.magsphr3 online }
+    if (%mmbca.chp.pawn    ) && (%mmbca.chp.undersht) && (%mmbca.chp.alumipnl) { set %mmbca.adv.buckler  online }
+    if (%mmbca.chp.stonebod) && (%mmbca.chp.undrarmr) && (%mmbca.chp.alumistg) { set %mmbca.adv.metalbod online }
+    if (%mmbca.chp.no-beam1) && (%mmbca.chp.brnzfist) && (%mmbca.chp.ftrsword) { set %mmbca.adv.holygnt1 online }
+    if (%mmbca.chp.no-beam2) && (%mmbca.chp.silvfist) && (%mmbca.chp.kngtswrd) { set %mmbca.adv.holygnt2 online }
+    if (%mmbca.chp.no-beam3) && (%mmbca.chp.goldfist) && (%mmbca.chp.heroswrd) { set %mmbca.adv.holygnt3 online }
     if (%mmbca.chp.kunai1  ) && (%mmbca.chp.invis1  ) && ((%mmbca.chp.shadow1 ) || (%mmbca.chp.muramasa)) { set %mmbca.adv.ninjkat1 online }
     if (%mmbca.chp.kunai2  ) && (%mmbca.chp.invis2  ) && ((%mmbca.chp.shadow2 ) || (%mmbca.chp.muramasa)) { set %mmbca.adv.ninjkat2 online }
     if (%mmbca.chp.kunai3  ) && (%mmbca.chp.invis3  ) && ((%mmbca.chp.shadow3 ) || (%mmbca.chp.muramasa)) { set %mmbca.adv.ninjkat3 online }
     if (%mmbca.chp.brakhamr) && (%mmbca.chp.mine    ) && (%mmbca.chp.popup   ) { set %mmbca.adv.whakmole online }
+    if (%mmbca.chp.blckhole) && (%mmbca.chp.vacuum  ) && (%mmbca.chp.darkprtl) { set %mmbca.adv.swallow  online }
     if (%mmbca.chp.frntlasr) && (%mmbca.chp.prism   ) && (%mmbca.chp.beacon  ) { set %mmbca.adv.lasher   online }
     if (%mmbca.chp.slogauge) && (%mmbca.chp.decay   ) && (%mmbca.chp.antirecv) { set %mmbca.adv.weakcurs online }
+    if (%mmbca.chp.lavaball) && (%mmbca.chp.bblwrap ) && (%mmbca.chp.napalm  ) { set %mmbca.adv.molotov  online }
     if (%mmbca.chp.icecube ) && (%mmbca.chp.fan     ) && (%mmbca.chp.icestage) { set %mmbca.adv.igloo    online }
     if (%mmbca.chp.oldwood ) && (%mmbca.chp.leafshld) && (%mmbca.chp.grassstg) { set %mmbca.adv.forest   online }
+    if (%mmbca.chp.fireratn) && (%mmbca.chp.antifire) && (%mmbca.chp.blkbomb ) { set %mmbca.adv.detonate online }
+    if (%mmbca.chp.custswrd) && (%mmbca.chp.muramasa) && (%mmbca.chp.horizon ) { set %mmbca.adv.divide   online }
     if (%mmbca.chp.stepswrd) && (%mmbca.chp.stepcros) && (%mmbca.chp.deltedge) { set %mmbca.adv.quikstep online }
     if (%mmbca.chp.sundial ) && (%mmbca.chp.fstgauge) && (%mmbca.chp.bluemoon) { set %mmbca.adv.daybreak online }
-    if (%mmbca.chp.hivebomb) && (%mmbca.chp.anubis  ) && ((%mmbca.chp.timebom1) || (%mmbca.chp.timebom2) || %mmbca.chp.timebom3)) { set %mmbca.adv.folunuke online }
+    if (%mmbca.chp.hivebomb) && (%mmbca.chp.anubis  ) && ((%mmbca.chp.timebom1) || (%mmbca.chp.timebom2) || (%mmbca.chp.timebom3)) { set %mmbca.adv.folunuke online }
     if (%mmbca.chp.meteors ) && (%mmbca.chp.redsun  ) && (%mmbca.chp.metrstge) { set %mmbca.adv.suprnova online }
+  }
+
+  if (%mmbca.fld.chip = 30) {
+    set %mmbca.fam.cannons  $calc(%mmbca.chp.cannon   + %mmbca.chp.hicannon + %mmbca.chp.m-cannon + %mmbca.chp.mindbndr + %mmbca.chp.jealousy + %mmbca.chp.fighter  + %mmbca.chp.voidcann)
+    set %mmbca.fam.adds     $calc(%mmbca.chp.shotgun  + %mmbca.chp.v-gun    + %mmbca.chp.crossgun + %mmbca.chp.spreader + %mmbca.chp.bubbler  + %mmbca.chp.bub-v    + %mmbca.chp.bubcross + %mmbca.chp.bubsprd  + %mmbca.chp.heatshot + %mmbca.chp.heat-v   + %mmbca.chp.heatcros + %mmbca.chp.heatsprd + %mmbca.chp.inksprd  + %mmbca.chp.satelit1 + %mmbca.chp.satelit2 + %mmbca.chp.satelit3 + %mmbca.chp.ratton1  + %mmbca.chp.ratton2  + %mmbca.chp.ratton3 + %mmbca.chp.poissprd + %mmbca.chp.bluemoon)
+    set %mmbca.fam.spreads  $calc(%mmbca.chp.shotgun  + %mmbca.chp.v-gun    + %mmbca.chp.crossgun + %mmbca.chp.spreader)
+    set %mmbca.fam.aquaguns $calc(%mmbca.chp.bubbler  + %mmbca.chp.bub-v    + %mmbca.chp.bubcross + %mmbca.chp.bubsprd )
+    set %mmbca.fam.fireguns $calc(%mmbca.chp.heatshot + %mmbca.chp.heat-v   + %mmbca.chp.heatcros + %mmbca.chp.heatsprd)
+    set %mmbca.fam.bombs    $calc(%mmbca.chp.minibomb + %mmbca.chp.lilbomb  + %mmbca.chp.crosbomb + %mmbca.chp.bigbomb  + %mmbca.chp.quake1   + %mmbca.chp.quake2   + %mmbca.chp.quake3   + %mmbca.chp.whirlpl  + %mmbca.chp.blckhole + %mmbca.chp.timebom1 + %mmbca.chp.timebom2 + %mmbca.chp.timebom3 + %mmbca.chp.quiver   + %mmbca.chp.archer   + %mmbca.chp.trebucht + %mmbca.chp.missile )
+    set %mmbca.fam.honey    $calc(%mmbca.chp.hivebomb + %mmbca.chp.swarm1   + %mmbca.chp.swarm2   + %mmbca.chp.swarm3   + %mmbca.chp.gelcrash + %mmbca.chp.honeypot + %mmbca.chp.honydrop + %mmbca.chp.honyspil)
+    set %mmbca.fam.treebomb $calc(%mmbca.chp.treebom1 + %mmbca.chp.treebom2 + %mmbca.chp.treebom3 + %mmbca.chp.woodtowr + %mmbca.chp.applseed + %mmbca.chp.oldwood )
+    set %mmbca.fam.swords   $calc(%mmbca.chp.sword    + %mmbca.chp.wideswrd + %mmbca.chp.longswrd + %mmbca.chp.fireswrd + %mmbca.chp.aquaswrd + %mmbca.chp.elecswrd + %mmbca.chp.fireblde + %mmbca.chp.aquablde + %mmbca.chp.elecblde + %mmbca.chp.stepswrd + %mmbca.chp.stepcros + %mmbca.chp.ftrsword + %mmbca.chp.kngtswrd + %mmbca.chp.heroswrd)
+    set %mmbca.fam.fncyswrd $calc(%mmbca.chp.pickaxe1 + %mmbca.chp.pickaxe2 + %mmbca.chp.pickaxe3 + %mmbca.chp.stinger  + %mmbca.chp.kunai1   + %mmbca.chp.kunai2   + %mmbca.chp.kunai3   + %mmbca.chp.lance    + %mmbca.chp.custswrd + %mmbca.chp.muramasa + %mmbca.chp.varswrd  + %mmbca.chp.shadow1  + %mmbca.chp.shadow2  + %mmbca.chp.shadow3  + %mmbca.chp.antiswrd + %mmbca.chp.fencer   + %mmbca.chp.duelist  + %mmbca.chp.shinobi  + %mmbca.chp.samurai + %mmbca.chp.gaiaswrd + %mmbca.chp.deltedge)
+    set %mmbca.fam.interupt $calc(%mmbca.chp.slasher  + %mmbca.chp.mine     + %mmbca.chp.frntsnsr + %mmbca.chp.dblsnsr  + %mmbca.chp.frntlasr + %mmbca.chp.radiance + %mmbca.chp.antifire + %mmbca.chp.antiaqua + %mmbca.chp.antielec + %mmbca.chp.antiswrd + %mmbca.chp.antiair  + %mmbca.chp.antirecv + %mmbca.chp.axel     + %mmbca.chp.vortex   + %mmbca.chp.cyclone  + %mmbca.chp.tempest )
+    set %mmbca.fam.waves    $calc(%mmbca.chp.shockwav + %mmbca.chp.sonicwav + %mmbca.chp.dynawave + %mmbca.chp.woodtowr + %mmbca.chp.firetowr + %mmbca.chp.watrtowr + %mmbca.chp.darkflm1 + %mmbca.chp.darkflm2 + %mmbca.chp.darkflm3 + %mmbca.chp.gelcrash + %mmbca.chp.bgredwav)
+    set %mmbca.fam.sound    $calc(%mmbca.chp.lilshout + %mmbca.chp.medshout + %mmbca.chp.bigshout + %mmbca.chp.pulse1   + %mmbca.chp.pulse2   + %mmbca.chp.pulse3   + %mmbca.chp.fanfare  + %mmbca.chp.discord )
+    set %mmbca.fam.heavy    $calc(%mmbca.chp.quake1   + %mmbca.chp.quake2   + %mmbca.chp.quake3   + %mmbca.chp.brakhamr + %mmbca.chp.zeushamr + %mmbca.chp.wrecker  + %mmbca.chp.cannball + %mmbca.chp.howitzer + %mmbca.chp.iceball  + %mmbca.chp.lavaball)
+    set %mmbca.fam.punch    $calc(%mmbca.chp.gutpunch + %mmbca.chp.coldpnch + %mmbca.chp.brnzfist + %mmbca.chp.silvfist + %mmbca.chp.goldfist + %mmbca.chp.antiair  + %mmbca.chp.spear    + %mmbca.chp.pike     + %mmbca.chp.javelin  + %mmbca.chp.phalanx )
+    set %mmbca.fam.air      $calc(%mmbca.chp.airshot1 + %mmbca.chp.airshot2 + %mmbca.chp.airshot3 + %mmbca.chp.tornado  + %mmbca.chp.twister  + %mmbca.chp.blower   + %mmbca.chp.wind     + %mmbca.chp.fan    )
+    set %mmbca.fam.dashes   $calc(%mmbca.chp.dashatk  + %mmbca.chp.condor   + %mmbca.chp.burner  )
+    set %mmbca.fam.multis   $calc(%mmbca.chp.kunai1   + %mmbca.chp.kunai2   + %mmbca.chp.kunai3   + %mmbca.chp.doubndl  + %mmbca.chp.tripndl  + %mmbca.chp.quadndl  + %mmbca.chp.trident  + %mmbca.chp.literay1 + %mmbca.chp.literay2 + %mmbca.chp.literay3 + %mmbca.chp.tornado  + %mmbca.chp.twister  + %mmbca.chp.burner   + %mmbca.chp.prong1   + %mmbca.chp.prong2   + %mmbca.chp.prong3   + %mmbca.chp.yo-yo1   + %mmbca.chp.yo-yo2   + %mmbca.chp.yo-yo3   + %mmbca.chp.boomer1  + %mmbca.chp.boomer2  + %mmbca.chp.boomer3  + %mmbca.chp.snake    + %mmbca.chp.vacuum   + %mmbca.chp.piledriv + %mmbca.chp.axel     + %mmbca.chp.vortex   + %mmbca.chp.cyclone  + %mmbca.chp.tempest  + %mmbca.chp.deltedge + %mmbca.chp.crackout)
+    set %mmbca.fam.needles  $calc(%mmbca.chp.doubndl  + %mmbca.chp.tripndl  + %mmbca.chp.quadndl  + %mmbca.chp.trident )
+    set %mmbca.fam.rays     $calc(%mmbca.chp.literay1 + %mmbca.chp.literay2 + %mmbca.chp.literay3)
+    set %mmbca.fam.storms   $calc(%mmbca.chp.tornado  + %mmbca.chp.twister  + %mmbca.chp.burner   + %mmbca.chp.lilcloud + %mmbca.chp.medcloud + %mmbca.chp.bigcloud)
+    set %mmbca.fam.rats     $calc(%mmbca.chp.ratton1  + %mmbca.chp.ratton2  + %mmbca.chp.ratton3  + %mmbca.chp.fireratn)
+    set %mmbca.fam.countgrd $calc(%mmbca.chp.fireratn + %mmbca.chp.applseed + %mmbca.chp.anthill1 + %mmbca.chp.anthill2 + %mmbca.chp.anthill3 + %mmbca.chp.guardian + %mmbca.chp.blkbomb )
+    set %mmbca.fam.rings    $calc(%mmbca.chp.zapring1 + %mmbca.chp.zapring2 + %mmbca.chp.zapring3 + %mmbca.chp.sandring + %mmbca.chp.catcher )
+    set %mmbca.fam.orbits   $calc(%mmbca.chp.satelit1 + %mmbca.chp.satelit2 + %mmbca.chp.satelit3)
+    set %mmbca.fam.prongs   $calc(%mmbca.chp.prong1   + %mmbca.chp.prong2   + %mmbca.chp.prong3  )
+    set %mmbca.fam.grass    $calc(%mmbca.chp.spice1   + %mmbca.chp.spice2   + %mmbca.chp.spice3   + %mmbca.chp.grasspnl + %mmbca.chp.grassstg)
+    set %mmbca.fam.lava     $calc(%mmbca.chp.erupt1   + %mmbca.chp.erupt2   + %mmbca.chp.erupt3   + %mmbca.chp.lavaball + %mmbca.chp.lavadrag + %mmbca.chp.lavapanl + %mmbca.chp.lavastge)
+    set %mmbca.fam.magnets  $calc(%mmbca.chp.magbomb1 + %mmbca.chp.magbomb2 + %mmbca.chp.magbomb3 + %mmbca.chp.magline )
+    set %mmbca.fam.guards   $calc(%mmbca.chp.crsshld1 + %mmbca.chp.crsshld2 + %mmbca.chp.crsshld3 + %mmbca.chp.poismask + %mmbca.chp.poisface + %mmbca.chp.pwrshell + %mmbca.chp.guard    + %mmbca.chp.kindler  + %mmbca.chp.hydrant  + %mmbca.chp.wires    + %mmbca.chp.snapper  + %mmbca.chp.shadow1  + %mmbca.chp.shadow2  + %mmbca.chp.shadow3  + %mmbca.chp.antidmg )
+    set %mmbca.fam.gauges   $calc(%mmbca.chp.custswrd + %mmbca.chp.slogauge + %mmbca.chp.piledriv + %mmbca.chp.fstgauge + %mmbca.chp.fullcust + %mmbca.chp.pwrsurge + %mmbca.chp.subtank  + %mmbca.chp.chargpnl + %mmbca.chp.chargstg)
+    set %mmbca.fam.status   $calc(%mmbca.chp.decay    + %mmbca.chp.shell    + %mmbca.chp.turtshel + %mmbca.chp.pwrshell + %mmbca.chp.airshoes + %mmbca.chp.press1   + %mmbca.chp.press2   + %mmbca.chp.press3   + %mmbca.chp.invis1   + %mmbca.chp.invis2   + %mmbca.chp.invis3   + %mmbca.chp.dropdown + %mmbca.chp.popup    + %mmbca.chp.escape   + %mmbca.chp.stonebod + %mmbca.chp.undersht + %mmbca.chp.undrarmr + %mmbca.chp.cyberelf)
+    set %mmbca.fam.darkchip $calc(%mmbca.chp.muramasa + %mmbca.chp.blckhole + %mmbca.chp.darklens + %mmbca.chp.chaosbat + %mmbca.chp.phantom  + %mmbca.chp.voidcann + %mmbca.chp.poissprd + %mmbca.chp.cyberelf + %mmbca.chp.queen    + %mmbca.chp.darkaura + %mmbca.chp.darkprtl)
+    set %mmbca.fam.ice      $calc(%mmbca.chp.coldpnch + %mmbca.chp.iceball  + %mmbca.chp.deepfrez + %mmbca.chp.icecube  + %mmbca.chp.frostlns + %mmbca.chp.freezbom + %mmbca.chp.iceline  + %mmbca.chp.icestage)
+    set %mmbca.fam.meteo    $calc(%mmbca.chp.meteor3  + %mmbca.chp.meteor4  + %mmbca.chp.meteor5  + %mmbca.chp.meteor6  + %mmbca.chp.godstone + %mmbca.chp.knife    + %mmbca.chp.dagger   + %mmbca.chp.gradius  + %mmbca.chp.calamity + %mmbca.chp.meteors  + %mmbca.chp.redsun   + %mmbca.chp.metrstge)
+    set %mmbca.fam.delay    $calc(%mmbca.chp.timebom1 + %mmbca.chp.timebom2 + %mmbca.chp.timebom3 + %mmbca.chp.sundial  + %mmbca.chp.powerorb + %mmbca.chp.aquaball + %mmbca.chp.elecball + %mmbca.chp.heatball + %mmbca.chp.honeypot + %mmbca.chp.candle1  + %mmbca.chp.candle2  + %mmbca.chp.candle3  + %mmbca.chp.totem1   + %mmbca.chp.totem2   + %mmbca.chp.totem3   + %mmbca.chp.pawn     + %mmbca.chp.rook     + %mmbca.chp.prism    + %mmbca.chp.shield   + %mmbca.chp.queen   )
+    set %mmbca.fam.atkguard $calc(%mmbca.chp.remobit1 + %mmbca.chp.remobit3 + %mmbca.chp.remobit3 + %mmbca.chp.pnklotus + %mmbca.chp.redlotus + %mmbca.chp.yellotus + %mmbca.chp.anubis   + %mmbca.chp.sparker )
+    set %mmbca.fam.firecanc $calc(%mmbca.chp.fireratn + %mmbca.chp.heatball + %mmbca.chp.hydrant  + %mmbca.chp.antifire + %mmbca.chp.antidmg  + %mmbca.chp.blkbomb )
+    set %mmbca.fam.aquacanc $calc(%mmbca.chp.aquaball + %mmbca.chp.wires    + %mmbca.chp.antiwatr + %mmbca.chp.antidmg )
+    set %mmbca.fam.eleccanc $calc(%mmbca.chp.elecball + %mmbca.chp.snapper  + %mmbca.chp.antielec + %mmbca.chp.antidmg )
+    set %mmbca.fam.holes    $calc(%mmbca.chp.wrecker  + %mmbca.chp.cannball + %mmbca.chp.howitzer + %mmbca.chp.geyser   + %mmbca.chp.lavadrag + %mmbca.chp.godstone + %mmbca.chp.oldwood  + %mmbca.chp.tripwire + %mmbca.chp.snake    + %mmbca.chp.vacuum   + %mmbca.chp.piledriv + %mmbca.chp.panlout  + %mmbca.chp.crackout + %mmbca.chp.geddon2 )
+    set %mmbca.fam.heals    $calc(%mmbca.chp.applseed + %mmbca.chp.recov10  + %mmbca.chp.recov30  + %mmbca.chp.recov50  + %mmbca.chp.recov80  + %mmbca.chp.recov120 + %mmbca.chp.recov150 + %mmbca.chp.recov200 + %mmbca.chp.recov300 + %mmbca.chp.dfrag50  + %mmbca.chp.dfrag100 + %mmbca.chp.dfrag150 + %mmbca.chp.vampbit1 + %mmbca.chp.vampbit2 + %mmbca.chp.vampbit3 + %mmbca.chp.honeypot + %mmbca.chp.candle1  + %mmbca.chp.candle2  + %mmbca.chp.candle3  + %mmbca.chp.totem1   + %mmbca.chp.totem2   + %mmbca.chp.totem3   + %mmbca.chp.direroot + %mmbca.chp.foldrbak + %mmbca.chp.subtank )
+    set %mmbca.fam.barriers $calc(%mmbca.chp.barrier  + %mmbca.chp.bblwrap  + %mmbca.chp.leafshld + %mmbca.chp.corona   + %mmbca.chp.aquaaura + %mmbca.chp.fireaura + %mmbca.chp.woodaura + %mmbca.chp.elecaura + %mmbca.chp.lifeaur1 + %mmbca.chp.lifeaur2 + %mmbca.chp.lifeaur3 + %mmbca.chp.darkaura + %mmbca.chp.starbarr)
+    set %mmbca.fam.boosts   $calc(%mmbca.chp.atk+10   + %mmbca.chp.atk+20   + %mmbca.chp.atk+30   + %mmbca.chp.fire+40  + %mmbca.chp.aqua+40  + %mmbca.chp.wood+40  + %mmbca.chp.elec+40  + %mmbca.chp.sol+50   + %mmbca.chp.dark+50  + %mmbca.chp.navi+20  + %mmbca.chp.navi+40 )
+    set %mmbca.fam.batts    $calc(%mmbca.chp.battery  + %mmbca.chp.doublbat + %mmbca.chp.triplbat + %mmbca.chp.quadbatt + %mmbca.chp.quintbat + %mmbca.chp.chaosbat + %mmbca.chp.astrobat + %mmbca.chp.infinity)
+    set %mmbca.fam.lenses   $calc(%mmbca.chp.sollens  + %mmbca.chp.lunalens + %mmbca.chp.flamelns + %mmbca.chp.frostlns + %mmbca.chp.earthlns + %mmbca.chp.cloudlns + %mmbca.chp.darklens + %mmbca.chp.starlens)
+    set %mmbca.fam.frames   $calc(%mmbca.chp.fighter  + %mmbca.chp.knight   + %mmbca.chp.crusader + %mmbca.chp.dragoon  + %mmbca.chp.axel     + %mmbca.chp.vortex   + %mmbca.chp.cyclone  + %mmbca.chp.tempest  + %mmbca.chp.fencer   + %mmbca.chp.duelist  + %mmbca.chp.shinobi  + %mmbca.chp.samurai  + %mmbca.chp.spear    + %mmbca.chp.pike     + %mmbca.chp.javelin  + %mmbca.chp.phalanx  + %mmbca.chp.knife    + %mmbca.chp.dagger   + %mmbca.chp.gradius  + %mmbca.chp.calamity + %mmbca.chp.quiver   + %mmbca.chp.archer   + %mmbca.chp.trebucht + %mmbca.chp.missile  + %mmbca.chp.otorange + %mmbca.chp.shield   + %mmbca.chp.juggler  + %mmbca.chp.phantom  + %mmbca.chp.stalker  + %mmbca.chp.wizard  )
+    set %mmbca.fam.grenades $calc(%mmbca.chp.napalm   + %mmbca.chp.sanitize + %mmbca.chp.flashbom + %mmbca.chp.scanbomb + %mmbca.chp.sunrise  + %mmbca.chp.nitemare + %mmbca.chp.pineappl)
+    set %mmbca.fam.gigachip $calc(%mmbca.chp.infinity + %mmbca.chp.bgredwav + %mmbca.chp.freezbom + %mmbca.chp.sparker  + %mmbca.chp.gaiaswrd + %mmbca.chp.starbarr + %mmbca.chp.foldrbak + %mmbca.chp.subtank  + %mmbca.chp.heroswrd + %mmbca.chp.meteors  + %mmbca.chp.bluemoon + %mmbca.chp.redsun   + %mmbca.chp.deltedge + %mmbca.chp.metrstge + %mmbca.chp.sancuary + %mmbca.chp.poltrgst)
+    set %mmbca.fam.lunacy   $calc(%mmbca.chp.lunalens + %mmbca.chp.bluemoon + %mmbca.chp.furybust + %mmbca.chp.rippler  + %mmbca.chp.echobomb + %mmbca.chp.horizon  + %mmbca.chp.moondish)
+    set %mmbca.fam.area     $calc(%mmbca.chp.panlgrab + %mmbca.chp.areagrab + %mmbca.chp.metagel1 + %mmbca.chp.metagel2 + %mmbca.chp.metagel3 + %mmbca.chp.honydrop + %mmbca.chp.honyspil)
   }
 }
