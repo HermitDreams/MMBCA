@@ -1,0 +1,31 @@
+/virus {
+  if ($1 isnum) { var %mmbca.chance $1 }
+  elseif ($1 isalnum) { var %mmbca.chance 256 | var %mmbca.virus $1 }
+  else { var %mmbca.chance 256 }
+  if ($2- isalnum) { var %mmbca.virus $2 }
+  elseif (!%mmbca.virus) { var %mmbca.virus $read("C:\Users\Linkshot\Documents\MMBCA\Virus List (Abridged)\All Viruses.txt") }
+  echo 4 -s %mmbca.virus
+  var %mmbca.truncate 8
+  while ($left(%mmbca.virus,%mmbca.truncate) !isalnum) { dec %mmbca.truncate 1 }
+  while (%mmbca.slot != 11) {
+    inc %mmbca.slot 1
+    if ($rand(1,256) <= %mmbca.chance) {
+      ; echo 0 -s Debug: Roll was $v1
+      if ($v1 <= 3) { var %mmbca.pull [Borrow] }
+      else { var %mmbca.pull $read("C:\Users\Linkshot\Documents\MMBCA\Virus List (Abridged)\ $+ $left(%mmbca.virus,%mmbca.truncate) $+ .txt") }
+      if (%mmbca.slot < 3) { echo 11 -s Slot %mmbca.slot $+ : %mmbca.pull }
+      elseif (%mmbca.slot < 6) { echo 8 -s Slot %mmbca.slot $+ : %mmbca.pull }
+      elseif (%mmbca.slot = 10) { echo 13 -s Slot L: %mmbca.pull }
+      elseif (%mmbca.slot = 11) { echo 13 -s Slot R: %mmbca.pull }
+      else { echo 9 -s Slot %mmbca.slot $+ : %mmbca.pull }
+    }
+    else {
+      ; echo 0 -s Debug: Roll was $v1
+      if (%mmbca.slot = 10) { echo 14 -s Slot L: Empty }
+      elseif (%mmbca.slot = 11) { echo 14 -s Slot R: Empty }
+      else { echo 14 -s Slot %mmbca.slot $+ : Empty }
+    }
+  }
+  unset %mmbca.slot
+  echo 2 -s -
+}
