@@ -8,6 +8,11 @@
   set %mmbca.fld.dark 0
   set %mmbca.fld.sol  0
   set %mmbca.fld.chip 0
+  set %mmbca.fld.okay 0
+  set %mmbca.fld.fine 0
+  set %mmbca.fld.good 0
+  set %mmbca.fld.rare 0
+  set %mmbca.fld.mega 0
 
   while (%mmbca.fld.chip < 30) {
     if ($2 isnum) && ($1 isnum) { set %mmbca.tier $rand( $+ $1 $+ , $+ $2 $+ ) | set %mmbca.file $3- }
@@ -21,42 +26,123 @@
     elseif ([Dark] isin %mmbca.pull) { inc %mmbca.fld.dark 1 }
     elseif ([Sol]  isin %mmbca.pull) { inc %mmbca.fld.sol  1 }
     else { inc %mmbca.fld.none 1 }
+    if (1, isin %mmbca.pull) { inc %mmbca.fld.okay 1 }
+    elseif (2, isin %mmbca.pull) { inc %mmbca.fld.fine 1 }
+    elseif (3, isin %mmbca.pull) { inc %mmbca.fld.good 1 }
+    elseif (4, isin %mmbca.pull) { inc %mmbca.fld.rare 1 }
+    elseif (5, isin %mmbca.pull) { inc %mmbca.fld.mega 1 }
+    else { echo 12 -s Error: Couldn't find tier }
     inc %mmbca.fld.chip 1
     assess
   }
 
   /echo 2 -s -
-  /echo 10 -s Tally: %mmbca.fld.none [None], %mmbca.fld.fire [Fire], %mmbca.fld.aqua [Aqua], %mmbca.fld.elec [Elec], %mmbca.fld.wood [Wood], %mmbca.fld.dark [Dark], %mmbca.fld.sol [Sol]
+  /echo 10 -s Elems: %mmbca.fld.none [15N], %mmbca.fld.fire [4F], %mmbca.fld.aqua [11A], %mmbca.fld.elec [8E], %mmbca.fld.wood [9W], %mmbca.fld.dark [14D], %mmbca.fld.sol [0S]
+  /echo 10 -s Tiers: %mmbca.fld.okay =1=, %mmbca.fld.fine =2=, %mmbca.fld.good =3=, %mmbca.fld.rare =4=, %mmbca.fld.mega =5=
+  /echo 2 -s -
+
+  if (%mmbca.fam.cannons ) { /echo 14 -s Cannons: %mmbca.fam.cannons }
+  if (%mmbca.fam.adds    ) { /echo 14 -s Adds: %mmbca.fam.adds }
+  ; if (%mmbca.fam.spreads ) { /echo 14 -s Spreads: %mmbca.fam.spreads }
+  ; if (%mmbca.fam.aquaguns) { /echo 14 -s Aqua Guns: %mmbca.fam.aquaguns }
+  ; if (%mmbca.fam.fireguns) { /echo 14 -s Fire Guns: %mmbca.fam.fireguns }
+  if (%mmbca.fam.bombs   ) { /echo 14 -s Bombs: %mmbca.fam.bombs }
+  if (%mmbca.fam.honey   ) { /echo 14 -s Honey: %mmbca.fam.honey }
+  ; if (%mmbca.fam.treebomb) { /echo 14 -s Tree Bombs: %mmbca.fam.treebomb }
+  if (%mmbca.fam.swords  ) { /echo 14 -s Swords: %mmbca.fam.swords }
+  if (%mmbca.fam.fncyswrd) { /echo 14 -s Fancy Swords: %mmbca.fam.fncyswrd }
+  if (%mmbca.fam.interupt) { /echo 14 -s Interrupts: %mmbca.fam.interupt }
+  if (%mmbca.fam.waves   ) { /echo 14 -s Waves: %mmbca.fam.waves }
+  if (%mmbca.fam.sound   ) { /echo 14 -s Sound: %mmbca.fam.sound }
+  if (%mmbca.fam.heavy   ) { /echo 14 -s Heavies: %mmbca.fam.heavy }
+  if (%mmbca.fam.punch   ) { /echo 14 -s Punches: %mmbca.fam.punch }
+  ; if (%mmbca.fam.air     ) { /echo 14 -s Air: %mmbca.fam.air }
+  ; if (%mmbca.fam.dashes  ) { /echo 14 -s Dashes: %mmbca.fam.dashes }
+  if (%mmbca.fam.multis  ) { /echo 14 -s Multihits: %mmbca.fam.multis }
+  ; if (%mmbca.fam.needles ) { /echo 14 -s Needles: %mmbca.fam.needles }
+  ; if (%mmbca.fam.rays    ) { /echo 14 -s Rays: %mmbca.fam.rays }
+  ; if (%mmbca.fam.storms  ) { /echo 14 -s Storms: %mmbca.fam.storms }
+  ; if (%mmbca.fam.rats    ) { /echo 14 -s Rats: %mmbca.fam.rats }
+  if (%mmbca.fam.countgrd) { /echo 14 -s Counter Blocks: %mmbca.fam.countgrd }
+  ; if (%mmbca.fam.rings   ) { /echo 14 -s Rings: %mmbca.fam.rings }
+  ; if (%mmbca.fam.orbits  ) { /echo 14 -s Orbits: %mmbca.fam.orbits }
+  ; if (%mmbca.fam.prongs  ) { /echo 14 -s Prongs: %mmbca.fam.prongs }
+  if (%mmbca.fam.grass   ) { /echo 9  -s Grass: %mmbca.fam.grass }
+  if (%mmbca.fam.lava    ) { /echo 4  -s Lava: %mmbca.fam.lava }
+  if (%mmbca.fam.ice     ) { /echo 11 -s Ice: %mmbca.fam.ice }  
+  if (%mmbca.fam.magnets ) { /echo 8  -s Magnets: %mmbca.fam.magnets }
+  if (%mmbca.fam.guards  ) { /echo 14 -s Reflect: %mmbca.fam.guards }
+  if (%mmbca.fam.gauges  ) { /echo 14 -s Gauges: %mmbca.fam.gauges  }
+  if (%mmbca.fam.status  ) { /echo 14 -s Buffs: %mmbca.fam.status }
+  ; if (%mmbca.fam.meteo   ) { /echo 14 -s Meteos: %mmbca.fam.meteo }
+  if (%mmbca.fam.delay   ) { /echo 14 -s Delayed: %mmbca.fam.delay }
+  if (%mmbca.fam.atkguard) { /echo 14 -s Attack Guard: %mmbca.fam.atkguard }
+  ; if (%mmbca.fam.firecanc) { /echo 14 -s Fire Cancel: %mmbca.fam.firecanc }
+  ; if (%mmbca.fam.aquacanc) { /echo 14 -s Aqua Cancel: %mmbca.fam.aquacanc }
+  ; if (%mmbca.fam.eleccanc) { /echo 14 -s Elec Cancel: %mmbca.fam.eleccanc }
+  if (%mmbca.fam.holes   ) { /echo 14 -s Holes: %mmbca.fam.holes }
+  if (%mmbca.fam.heals   ) { /echo 14 -s Heals: %mmbca.fam.heals }
+  if (%mmbca.fam.barriers) { /echo 14 -s Barriers: %mmbca.fam.barriers }
+  if (%mmbca.fam.boosts  ) { /echo 14 -s Chip Boosts: %mmbca.fam.boosts }
+  if (%mmbca.fam.area    ) { /echo 14 -s Area: %mmbca.fam.area }
+  if (%mmbca.fam.batts   ) { /echo 7  -s Batteries: %mmbca.fam.batts }
+  if (%mmbca.fam.lenses  ) { /echo 14 -s Lenses: %mmbca.fam.lenses }
+  if (%mmbca.fam.frames  ) { /echo 14 -s Frames: %mmbca.fam.frames }
+  if (%mmbca.fam.grenades) { /echo 14 -s Grenades: %mmbca.fam.grenades }
+  if (%mmbca.fam.darkchip) { /echo 6  -s DarkChips: %mmbca.fam.darkchip }
+  if (%mmbca.fam.gigachip) { /echo 13 -s GigaChips: %mmbca.fam.gigachip }
+  if (%mmbca.fam.lunacy  ) { /echo 0  -s MoonChips: %mmbca.fam.lunacy }
   /echo 2 -s -
 
   if (%mmbca.adv.x-cannon) { /echo 13 -s Program Advance: X-Cannon }
   if (%mmbca.adv.antipode) { /echo 13 -s Program Advance: Antipode }
   if (%mmbca.adv.lifeswrd) { /echo 13 -s Program Advance: LifeSwrd }
+  if (%mmbca.adv.powrgysr) { /echo 13 -s Program Advance: PowrGysr }
   if (%mmbca.adv.gutthrow) { /echo 13 -s Program Advance: GutThrow }
   if (%mmbca.adv.helper1 ) { /echo 13 -s Program Advance: Helper1  }
   if (%mmbca.adv.helper2 ) { /echo 13 -s Program Advance: Helper2  }
   if (%mmbca.adv.helper3 ) { /echo 13 -s Program Advance: Helper3  }
   if (%mmbca.adv.antqueen) { /echo 13 -s Program Advance: AntQueen }
+  if (%mmbca.adv.altar1  ) { /echo 13 -s Program Advance: Altar1   }
+  if (%mmbca.adv.altar2  ) { /echo 13 -s Program Advance: Altar2   }
+  if (%mmbca.adv.altar3  ) { /echo 13 -s Program Advance: Altar3   }
   if (%mmbca.adv.timpani1) { /echo 13 -s Program Advance: Timpani1 }
   if (%mmbca.adv.timpani2) { /echo 13 -s Program Advance: Timpani2 }
   if (%mmbca.adv.timpani3) { /echo 13 -s Program Advance: Timpani3 }
+  if (%mmbca.adv.websurf ) { /echo 13 -s Program Advance: WebSurf  }
   if (%mmbca.adv.icestorm) { /echo 13 -s Program Advance: IceStorm }
   if (%mmbca.adv.zapclap1) { /echo 13 -s Program Advance: ZapClap1 }
   if (%mmbca.adv.zapclap2) { /echo 13 -s Program Advance: ZapClap2 }
   if (%mmbca.adv.zapclap3) { /echo 13 -s Program Advance: ZapClap3 }
+  if (%mmbca.adv.spikshel) { /echo 13 -s Program Advance: SpikShel }
+  if (%mmbca.adv.spikgard) { /echo 13 -s Program Advance: SpikGard }
+  if (%mmbca.adv.spikwall) { /echo 13 -s Program Advance: SpikWall }
   if (%mmbca.adv.magsphr1) { /echo 13 -s Program Advance: MagSphr1 }
   if (%mmbca.adv.magsphr2) { /echo 13 -s Program Advance: MagSphr2 }
   if (%mmbca.adv.magsphr3) { /echo 13 -s Program Advance: MagSphr3 }
+  if (%mmbca.adv.buckler ) { /echo 13 -s Program Advance: Buckler  }
+  if (%mmbca.adv.metalbod) { /echo 13 -s Program Advance: MetalBod }
+  if (%mmbca.adv.holygnt1) { /echo 13 -s Program Advance: HolyGnt1 }
+  if (%mmbca.adv.holygnt2) { /echo 13 -s Program Advance: HolyGnt2 }
+  if (%mmbca.adv.holygnt3) { /echo 13 -s Program Advance: HolyGnt3 }
   if (%mmbca.adv.ninjkat1) { /echo 13 -s Program Advance: NinjKat1 }
   if (%mmbca.adv.ninjkat2) { /echo 13 -s Program Advance: NinjKat2 }
   if (%mmbca.adv.ninjkat3) { /echo 13 -s Program Advance: NinjKat3 }
   if (%mmbca.adv.whakmole) { /echo 13 -s Program Advance: WhakMole }
-  if (%mmbca.adv.lasher  ) { /echo 13 -s Program Advance: Lasher   }
+  if (%mmbca.adv.swallow ) { /echo  6 -s Program Advance: Swallow  }
+  if (%mmbca.adv.lasher  ) { /echo  0 -s Program Advance: Lasher   }
   if (%mmbca.adv.weakcurs) { /echo 13 -s Program Advance: WeakCurs }
+  if (%mmbca.adv.molotov ) { /echo 13 -s Program Advance: Molotov  }
   if (%mmbca.adv.igloo   ) { /echo 13 -s Program Advance: Igloo    }
   if (%mmbca.adv.forest  ) { /echo 13 -s Program Advance: Forest   }
+  if (%mmbca.adv.detonate) { /echo  4 -s Program Advance: Detonate }
+  if (%mmbca.adv.divide  ) { /echo 13 -s Program Advance: Divide   }
   if (%mmbca.adv.quikstep) { /echo 13 -s Program Advance: QuikStep }
   if (%mmbca.adv.daybreak) { /echo  7 -s Program Advance: Daybreak }
   if (%mmbca.adv.folunuke) { /echo  6 -s Program Advance: FoluNuke }
   if (%mmbca.adv.suprnova) { /echo -s 1,9Program Advance: Suprnova }
+  /echo 2 -s -
+
+  unset %mmbca.file
+  unset %mmbca.fld.chip
 }
