@@ -1602,10 +1602,10 @@ Tier 4
 
 HoneyPot
 Absorb:Floor DelayAllFix30+ [None]
-150 HP, 20 MB
+150 HP, 30 MB
 Spd C
 Obstacle, Personal
-Tier 2
+Tier 3
 - Spills a 3x3 square of Honey down when it breaks
 - Damage absorbed from Floor attacks gets added to Fix amount
 
