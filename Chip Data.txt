@@ -2258,49 +2258,52 @@ Tier 4
 + This is a Solar Gun Part (Lens), and requires an AstroBat
 
 Fighter
-FrameCann10 [None]
+Frame:Shot-20 Gun:Normal10 [None]
 50 HP, 0 MB
-Acc D, Spd A
+Acc E, Spd C
 Personal, Projectile+
 Tier 1
-- Changes the attack to a Cannon's type and uses this chip's Acc and Spd
+- Changes the attack to a simple Projectile with 20 reduced damage and uses this chip's Acc and Spd
 + This is a Solar Gun Part (Frame) that fires a single shot
 
 Knight
-FrameWide20 [None]
-80 HP, 20 MB
-Acc C, Spd B
+Frame:Spread Gun:Normal20 [None]
+80 HP, 10 MB
+Acc D, Spd B
 Personal, Melee+, Projectile+
 Tier 3
-- Changes the attack to a WideSwrd's type and uses this chip's Acc and Spd
+- Changes the attack to a WideSwrd delivery and uses this chip's Acc and Spd
+- Fires a shot at -20 Damage if Melee attack fails
 - Panel chips will be expanded to this range
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to Battery output, then fires a shot
 
 Crusader
-FrameWide30 [None]
+Frame:Spread10 Gun:Normal30 [None]
 120 HP, 30 MB
-Acc B, Spd B
+Acc C, Spd B
 Personal, Melee+, Projectile+
 Tier 4
-- Changes the attack to a WideSwrd's type and uses this chip's Acc and Spd
+- Changes the attack to a WideSwrd delivery with 10 extra damage and uses this chip's Acc and Spd
+- Fires a shot at -20 Damage if Melee attack fails
 - Panel chips will be expanded to this range
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to Battery output, then fires a shot
 
 Dragoon
-FrameWide50 [Sol]*
+Frame:Spread20 Gun:Normal50 [Sol]*
 160 HP, 40 MB
-Acc A, Spd A
+Acc B, Spd A
 Personal, Melee+, Projectile+
 Tier 5
-- Changes the attack to a LifeSwrd's type and uses this chip's Acc and Spd
+- Changes the attack to a LifeSwrd delivery with 20 extra damage and uses this chip's Acc and Spd
+- Fires a shot at -20 Damage if Melee attack fails
 - Panel chips will be expanded to this range
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to Battery output, then fires a shot
 * This element only matters for Priority and the StarLens
 
 Axel
-FrameSpin [None]
+Frame:CounterSpin Gun:Spin [None]
 50 HP, 0 MB
-Acc D, Spd C
+Acc C, Spd C
 Personal, Melee+
 Tier 1
 - Changes the attack to a Melee Counter that hits all panels adjacent to the user
@@ -2308,33 +2311,33 @@ Tier 1
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to 50% Battery output to all panels adjacent to user
 
 Vortex
-FrameDouble [None]
-80 HP, 20 MB
-Acc D, Spd B
+Frame:CounterSpin Gun:DoubleSpin [None]
+80 HP, 10 MB
+Acc B, Spd D
 Personal, Melee+
 Tier 3
-- Changes the attack to a Melee Counter that hits all panels adjacent to the user twice
-- Obstacles and Panels will place a Wide spread on proc
+- Changes the attack to a Melee Counter that hits all panels adjacent to the user
+- Obstacles and Panels will place one in all cardinal directions on proc
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to 40% Battery output to all panels adjacent to user twice
 
 Cyclone
-FrameTriple [None]
+Frame:CounterDoubleSpin Gun:TripleSpin [None]
 120 HP, 30 MB
-Acc D, Spd A
+Acc B, Spd D
 Personal, Melee+
 Tier 4
-- Changes the attack to a Melee Counter that hits all panels adjacent to the user three times
-- Obstacles and Panels will places one in each cardinal direction on proc
+- Changes the attack to a Melee Counter that hits all panels adjacent to the user twice
+- Obstacles and Panels will completely surround user on proc
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to 30% Battery output to all panels adjacent to user three times
 
 Tempest
-FrameQuad [Elec]*
+Frame:CounterDoubleSpin Gun:QuadSpin [Elec]*
 160 HP, 40 MB
-Acc D, Spd S
+Acc A, Spd E
 Personal, Melee+
 Tier 5
-- Changes the attack to a Melee Counter that hits all panels adjacent to the user (radius 2) four times
-- Obstacles and Panels will completely surround user on proc
+- Changes the attack to a Melee Counter that hits all panels adjacent to the user (radius 2) twice
+- Obstacles and Panels will completely surround user at 2 radius on proc
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to 30% Battery output to all panels adjacent to user four times
 * This element only matters for Priority and the StarLens
 
@@ -2349,7 +2352,7 @@ Tier 1
 
 Duelist
 FrameRand [None]
-80 HP, 20 MB
+80 HP, 10 MB
 Acc D, Spd C
 Personal, Melee+
 Tier 3
@@ -2358,21 +2361,21 @@ Tier 3
 
 Shinobi
 FrameRand [None]
-120 HP, 30 MB
+120 HP, 20 MB
 Acc D, Spd A
 Personal, Melee+
 Tier 4
-- Changes the attack to a LongSwrd that deals damage to a random chip
+- Changes the attack to a LongSwrd delivery that deals damage to a random chip
 - Obstacles and Panels will cover two tiles
 + This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to 110% Battery output
 
 Samurai
 FrameRand [Fire]*
-160 HP, 40 MB
+160 HP, 30 MB
 Acc C, Spd A
 Personal, Melee+
 Tier 5
-- Changes the attack to a FtrSword that deals damage to a random chip
+- Changes the attack to a FtrSword delivery that deals damage to a random chip
 - Obstacles and Panels will change to filling the whole Line forward
 + This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to 125% Battery output
 * This element only matters for Priority and the StarLens
@@ -2415,39 +2418,39 @@ Tier 5
 * This element only matters for Priority and the StarLens
 
 Knife
-Frame2Meteo10 [None]
+Frame:3Meteo-100 Gun:2Meteo10 [None]
 50 HP, 0 MB
-Acc D, Spd B
+Acc E, Spd B
 Personal, Projectile+
 Tier 1
-- Changes the attack to a flurry of two shots at half damage
+- Reduces the next attack by 100 damage but attacks up to 3 times
 + This is a Solar Gun Part (Frame) that fires 10% of Battery output as shots
 
 Dagger
-Frame3Meteo20 [None]
-80 HP, 20 MB
+Frame:3Meteo-50 Gun:3Meteo20 [None]
+80 HP, 10 MB
 Acc D, Spd B
 Personal, Projectile+
 Tier 3
-- Changes the attack to a flurry of three shots
+- Reduces the next attack by 50 damage but attacks up to 3 times
 + This is a Solar Gun Part (Frame) that fires 10% of Battery output as shots
 
 Gradius
-Frame4Meteo30 [None]
+Frame:3Meteo-30 Gun:4Meteo30 [None]
 120 HP, 30 MB
 Acc D, Spd A
 Personal, Projectile+
 Tier 4
-- Changes the attack to a flurry of four shots
+- Reduces the next attack by 30 damage but attacks up to 3 times
 + This is a Solar Gun Part (Frame) that fires 10% of Battery output as shots
 
 Calamity
-Frame5Meteo40 [Aqua]*
-160 HP, 40 MB
+Frame:3Meteo Gun:5Meteo40 [Aqua]*
+160 HP, 50 MB
 Acc C, Spd A
 Personal, Projectile+
 Tier 5
-- Changes the attack to a flurry of five shots
+- The next attack attempts to hit up to 3 times
 + This is a Solar Gun Part (Frame) that fires 10% of Battery output as shots
 * This element only matters for Priority and the StarLens
 
