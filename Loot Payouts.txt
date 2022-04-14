@@ -1,10 +1,11 @@
 VIRUS REWARDS
 (out of 256)
-Tier 1 Chip: +23 / +11 / +7 (x11 = 253/256, x22 = 242/256, x33 = 231/256)
-Tier 2 Chip: +19 / + 9 / +6
-Tier 3 Chip: +15 / + 7 / +5
-Tier 4 Chip: +11 / + 5 / +3
-Tier 5 Chip: + 3 / + 2 / +1
+Chip Amount: <12 /12-22/ >22 
+Tier 1 Chip: +23 / +11 / + 7 (x11 = 253/256, x22 = 242/256, x33 = 231/256)
+Tier 2 Chip: +19 / + 9 / + 6
+Tier 3 Chip: +15 / + 7 / + 5
+Tier 4 Chip: +11 / + 5 / + 3
+Tier 5 Chip: + 3 / + 2 / + 1
 
 Empty Space awards Zenny equal to 100 x Total Tier of all viruses
 Catcher changes Empty Space to the Chip that was Snatched
