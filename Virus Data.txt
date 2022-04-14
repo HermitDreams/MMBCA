@@ -638,21 +638,24 @@ Movement:
 - Moves up and down its own column
 Traits:
 - None
-Attacks: (25%, 4-70/256)
-- Cannon
-- V-Gun
-- MiniBomb
-- LilBomb (Guarantee)
-- CrosBomb (Guarantee)
-- TreeBom1
-- Wrecker
-- MagBomb1
-- Meteor3
-- Battery
+Attacks: (4-112/256)
+- CrosBomb (+7)
+- MiniBomb (+5)
+- LilBomb  (+5)
+- TreeBom1 (+3)
+- Wrecker  (+3)
+- TimeBom1 (+3)
+- Quake1   (+2)
+- MagBomb1 (+2)
+- FlashBom (+2)
+- ScanBomb (+2)
+- Cannon  
+- V-Gun   
+- Meteor3 
+- DoublBat
 - LunaLens
-- Quiver
-- FlashBom (Guarantee)
-- ScanBomb
+- Archer  
+[Total Weight: 40. Adjust to 64?]
 
 Beetank3 (Tier 4: Undernet)
 180 HP [None]
