@@ -2438,17 +2438,19 @@ Movement:
 - Moves toward Heat Panels
 Traits:
 - Honorary Dark
-Attacks: (4-48/256)
-- Heat-V
+Attacks: (4-128/256)
+- Candle1  (x10)
+- Totem1   ( x8)
+- HeatPanl ( x6)
+- DarkFlm1 ( x4)
+- Recov50  ( x4)
+- Heat-V   ( x3)
+- HeatStge ( x3)
 - WideSwrd
-- DarkFlm1
-- Erupt1
-- Recov50
-- Candle1 (Guarantee)
-- Totem1 (Guarantee)
+- FireTowr
+- Recov80
 - FlameLns
-- HeatPanl (Guarantee)
-- HeatStge
+[Total Weight: 42]
 
 Berial (Tier 4)
 200 HP [Fire]
@@ -2975,16 +2977,17 @@ Movement:
 - Teleports each turn
 Traits:
 - AirShoes
-Attacks: (4-64/256)
+Attacks: (4-144/256)
+- AquaAura (+8)
+- Yo-Yo2   (+5)
+- ColdPnch (+3)
+- DashAtk  (+3)
 - MedShout
-- ColdPnch
-- DashAtk (Guarantee)
-- Yo-Yo2 (Guarantee)
 - Hydrant
 - BblWrap
-- AquaAura (Guarantee 2)
 - FrostLns
 - IceStage
+[Total Weight: 24]
 
 HeatIdol (Tier 4)
 150 HP [Fire]
