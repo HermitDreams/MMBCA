@@ -789,6 +789,30 @@ Acc C, Spd D
 Melee
 Tier 4
 
+Buzzsaw1
+Indirect Rand60 [Elec]
+180 HP, 20 MB
+Acc D, Spd B
+Floor
+Tier 2
+- Hits all panels around target without hitting target
+
+Buzzsaw2
+Indirect Rand90 [Elec]
+230 HP, 30 MB
+Acc C, Spd B
+Floor
+Tier 3
+- Hits all panels around target without hitting target
+
+Buzzsaw3
+Indirect Rand140 [Elec]
+270 HP, 50 MB
+Acc C, Spd C
+Floor
+Tier 4
+- Hits all panels around target without hitting target
+
 Spice1
 Require:Grass SkipAllAdd30 [Wood]
 200 HP, 20 MB
@@ -967,6 +991,15 @@ Tier 4
 - Swings around bottom lane and then crosses through target
 - Returns through top lane
 - Starts return trip if it hits an Obstacle
+
+Chakram
+DoubleRand50 [None]
+150 HP, 40 MB
+Acc D, Spd A
+Projectile
+Tier 4
+- Swings through both lanes and converges on target, making a return trip
+- Bounces off Obstacles after damaging them
 
 CrsShld1
 Defense Counter50 [None]
