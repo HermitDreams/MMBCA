@@ -289,6 +289,39 @@ Properties:
 - Subtracts 100 damage from each hit taken
 - Spawns a Gear at end of turn if not hit by Break
 
+MtlBlad1
+Pierce Meteo3 TripleRand10 [None]
+Acc C, Spd A
+Projectile
+Combinations:
+- Buzzsaw1 * Yo-Yo1 * Chakram
+Properties:
+- Cuts through enemy and continues past it
+- Attempts to hit 3 times, each dealing 3 attacks
+- Bounces off Armor / StoneBod, up and backwards, starting from defender's panel
+
+MtlBlad2
+Pierce Meteo3 TripleRand20 [None]
+Acc C, Spd B
+Projectile
+Combinations:
+- Buzzsaw2 * Yo-Yo2 * Chakram
+Properties:
+- Cuts through enemy and continues past it
+- Attempts to hit 3 times, each dealing 3 attacks
+- Bounces off Armor / StoneBod, up and backwards, starting from defender's panel
+
+MtlBlad3
+Pierce Meteo3 TripleRand30 [None]
+Acc B, Spd B
+Projectile
+Combinations:
+- Buzzsaw3 * Yo-Yo3 * Chakram
+Properties:
+- Cuts through enemy and continues past it
+- Attempts to hit 3 times, each dealing 3 attacks
+- Bounces off Armor / StoneBod, up and backwards, starting from defender's panel
+
 HolyGnt1
 NaviPower:Add QuintBreak30 [Sol]
 Acc B, Spd B
