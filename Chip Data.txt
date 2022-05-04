@@ -257,6 +257,30 @@ Melee
 Tier 3
 - Reaches panel behind target
 
+FrlClaw1
+Rand30 Boost10 [Wood]
+50 HP, 20 MB
+Acc E, Spd D
+Melee, Personal
+Tier 1
+- Only boosts if the attack lands
+
+FrlClaw2
+Rand50 Boost20 [Wood]
+70 HP, 30 MB
+Acc E, Spd C
+Melee, Personal
+Tier 2
+- Only boosts if the attack lands
+
+FrlClaw3
+Rand80 Boost20 [Wood]
+120 HP, 40 MB
+Acc D, Spd B
+Melee, Personal
+Tier 3
+- Only boosts if the attack lands
+
 StepSwrd
 Rand70 [None]
 80 HP, 40 MB
