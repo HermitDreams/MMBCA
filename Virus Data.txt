@@ -159,7 +159,7 @@ Sweeper (Tier 2)
 90 HP [None]
 Dodge C, Spd D
 Flavour:
-- A blue variant of Cleaner. Programs convinced it to do their jobs.
+- A blue variant of Cleaner. Progs convinced it to do their jobs.
 Movement:
 - One tile cardinally per action
 - Drawn to Sand Panels
@@ -444,6 +444,7 @@ Attacks: (60%, 4-155/256)
 - Prong1
 - Prong2 (Guaranteed)
 - Prong3
+- Chakram
 - Remobit1
 - Tripwire
 - Catcher
@@ -473,7 +474,7 @@ Traits:
 - Drawn toward Trees
 Attacks: (20%)
 - TreeBom1 (Guaranteed)
-- Sword
+- FrlClaw1
 - Atk+10
 
 Nybbly (Tier 3: International)
@@ -490,7 +491,8 @@ Attacks: (25%, 4-70/256)
 - LilBomb
 - TreeBom1
 - TreeBom2 (Guaranteed)
-- Sword
+- FrlClaw1
+- FrlClaw2
 - Lance
 - WoodTowr
 - Wrecker
@@ -519,7 +521,9 @@ Attacks: (35%)
 - TreeBom1
 - TreeBom2
 - TreeBom3 (Guaranteed)
-- Sword
+- FrlClaw1
+- FrlClaw2
+- FrlClaw3
 - Lance
 - WoodTowr (Guaranteed)
 - Wrecker
@@ -1792,7 +1796,7 @@ Batty (Tier 1)
 60 HP [Dark]
 Dodge A, Spd C
 Flavour:
-- A small purple bat that nest under the nullspace
+- A small purple bat that nests under the nullspace
 Movement:
 - Always moves horizontally after moving vertically and vice versa
 Traits:
