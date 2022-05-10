@@ -147,7 +147,7 @@ Tier 3
 - Splashes tiles cardinally adjacent to impact
 
 BigBomb
-AllAdd40 [None]
+AllAdd50 [None]
 300 HP, 60 MB
 Acc B, Spd D
 Aerial
