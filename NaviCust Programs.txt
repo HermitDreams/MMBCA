@@ -27,6 +27,9 @@ Dodge+3
 Splash+1
 Splash+2
 Splash+3
+Split+1
+Split+2
+Split+3
 
 ADAPTORS
 
@@ -62,3 +65,4 @@ Shade    (Attract [Dark] Viruses)
 UltraV   (Always be considered Sunlit)
 Umbrella (Always be considered Shrouded)
 Miner    (Double chance of Ore Collection)
+Reload   (Unbroken Chips regain 50 HP per reselect)
