@@ -165,7 +165,7 @@ Tier 4
 TreeBom1
 AllAdd20 [Wood]
 120 HP, 30 MB
-Acc A, Spd D
+Acc B, Spd D
 Aerial, then Floor
 Tier 1
 - Launches seeking spikes after impact
@@ -173,7 +173,7 @@ Tier 1
 TreeBom2
 AllAdd30 [Wood]
 130 HP, 40 MB
-Acc A, Spd D
+Acc B, Spd D
 Aerial, then Floor
 Tier 2
 - Launches seeking spikes after impact
@@ -183,7 +183,7 @@ AllAdd40 [Wood]
 180 HP, 50 MB
 Acc A, Spd C
 Aerial, then Floor
-Tier 3
+Tier 4
 - Launches seeking spikes after impact
 
 Sword
@@ -373,7 +373,7 @@ RandBleed10 [Dark]
 60 HP, 70 MB
 Acc E, Spd E
 Melee
-Tier 5
+Tier 4
 - Reaches two tiles behind target
 - Deals damage equal to amount of HP that could be healed by attacker
 
@@ -587,7 +587,6 @@ Break40 [None]
 Acc D, Spd E
 Aerial
 Tier 2
-- Destroys the panel it lands on
 
 CannBall
 Break80 [None]
@@ -934,7 +933,7 @@ Tier 4
 - Launches attack from behind an obstacle
 
 MagBomb1
-Require:Magnet StunAllAdd20 [Elec]
+Lock1 Require:Magnet StunAllAdd20 [Elec]
 180 HP, 10 MB
 Acc C, Spd C
 Aerial
@@ -942,7 +941,7 @@ Tier 2
 - All affected Magnet Panels spread cardinally
 
 MagBomb2
-Require:Magnet StunAllAdd40 [Elec]
+Lock2 Require:Magnet StunAllAdd40 [Elec]
 220 HP, 20 MB
 Acc B, Spd C
 Aerial
@@ -951,7 +950,7 @@ Tier 3
 - Affects all panels cardinally adjacent to impact
 
 MagBomb3
-Require:Magnet StunAllAdd60 [Elec]
+Lock3 Require:Magnet StunAllAdd60 [Elec]
 260 HP, 30 MB
 Acc S, Spd C
 Aerial
@@ -1128,11 +1127,12 @@ Tier 3
 - Turns Sea Panels into Honey Panels
 
 SloGauge
-Drain50% [None]
+Stop [None]
 120 HP, 20 MB
 Acc S, Spd S
 Instant
-Tier 3
+Tier 2
+- Prevents opponent's Gauge from charging
 
 BrnzFist
 Shove2 Break90 [None]
@@ -1406,61 +1406,61 @@ Personal, Projectile
 Tier 3
 - Detonates full charge if Shoved
 
+Snake
+Require:Hole Multi20 [Wood]
+100 HP, 40 MB
+Acc B, Spd C
+Projectile
+Tier 3
+- Attacks once for every Hole
+
 Geyser
 Require:Hole AllAdd50 [Aqua]
-50 HP, 40 MB
+80 HP, 40 MB
 Acc A, Spd B
 Floor
-Tier 5
+Tier 4
 - Affects all panels adjacent to a Hole
 - Fills holes with Sea Panels
 
 LavaDrag
 Require:Hole AllAdd50+ [Fire]
-40 HP, 50 MB
+60 HP, 50 MB
 Acc A, Spd A
 Projectile
-Tier 5
+Tier 4
 - Add 10 damage for every Lava Panel on field
 - All Lava Panels become Heat Panels
 
 GodStone
 Require:Hole Meteo+80 [None]
-60 HP, 50 MB
+140 HP, 50 MB
 Acc E, Spd A
 Aerial
-Tier 5
+Tier 4
 - Attempts one attack per Hole on the field
 - Missed attacks leave Boulders on random panels
 
 OldWood
 Require:Hole PierceAllAdd50 [Wood]
-40 HP, 50 MB
+120 HP, 50 MB
 Acc A, Spd C
 Floor
-Tier 5
+Tier 4
 - Can target as many enemies as there are Holes
 
 Tripwire
 Require:Hole Counter:Floor Norm150 [Elec]
-150 HP, 50 MB
+160 HP, 50 MB
 Acc S, Spd B
 Obstacle, Floor
-Tier 5
+Tier 4
 - Raises an Obstacle from every Hole
 - Cardinally aligned Obstacles place Counters between them
 
-Snake
-Require:Hole Multi30 [Wood]
-50 HP, 40 MB
-Acc A, Spd C
-Projectile
-Tier 4
-- Attacks once for every Hole
-
 Vacuum
 Require:Hole DeleteTriple10 [Dark]
-30 HP, 50 MB
+50 HP, 50 MB
 Acc B, Spd A
 Floor
 Tier 5
@@ -1468,7 +1468,7 @@ Tier 5
 
 Piledriv
 Require:Hole Multi??? [Sol]
-80 HP, 50 MB
+120 HP, 50 MB
 Acc A, Spd A
 Projectile
 Tier 5
@@ -1666,13 +1666,6 @@ Tier 3
 - Spills a 3x3 square of Honey down when it breaks
 - Damage absorbed from Floor attacks gets added to Fix amount
 
-AirShoes
-Buff:Float [None]
-100 HP, 20 MB
-Spd C
-Personal
-Tier 3
-
 Candle1
 Defense DelayHeal40 [Fire]
 100 HP, 10 MB
@@ -1785,14 +1778,14 @@ Repel Remove [None]
 160 HP, 20 MB
 Acc S, Spd C
 Obstacle, Projectile
-Tier 2
+Tier 3
 
 Fan
 Attract Remove [None]
 180 HP, 20 MB
 Acc S, Spd A
 Obstacle, Projectile
-Tier 2
+Tier 3
 
 Anubis
 Defense AllAdd30 [None]
@@ -1909,6 +1902,13 @@ Personal, Instant
 Tier 3
 - Incoming Melee attacks get interrupted by blinding light
 
+AirShoes
+Buff:Float [None]
+100 HP, 20 MB
+Spd C
+Personal
+Tier 2
+
 UnderSht
 Survive10 [None]
 120 HP, 20 MB
@@ -1994,7 +1994,7 @@ Defense Aura60 [Life]
 60 HP, 30 MB
 Spd A
 Personal
-Tier 4
+Tier 3
 - Blocks any hit under 60 damage
 
 LifeAur2
@@ -2018,7 +2018,7 @@ Smash10 [None]
 10 HP, 60 MB
 Acc S, Spd S
 Projectile
-Tier 5
+Tier 4
 - Destroys both Slot-In chips
 
 AntiFire
@@ -2214,12 +2214,13 @@ Tier 4
 + This is a Solar Gun Part (Battery), and has a Gauge/0.5 efficiency rate
 
 ChaosBat
-Charge [Dark]
+DrainCharge [Dark]
 100 HP, 40 MB
 Spd C
 Personal
-Tier 4
+Tier 5
 - Fills the Custom Gauge by a random amount remaining
+- Drains the opponent's gauge to do so
 + This is a Solar Gun Part (Battery), requires a DarkLens, and has a Gauge/0.5 efficiency rate
 
 AstroBat
@@ -2246,7 +2247,7 @@ Lens [Sol]
 200 HP, 20 MB
 Spd A
 Personal
-Tier 2
+Tier 4
 - Changes the next attack to the chip's own type
 + This is a Solar Gun Part (Lens), and applies Blind
 
@@ -2310,7 +2311,7 @@ Lens [Life]
 300 HP, 30 MB
 Spd A
 Personal
-Tier 4
+Tier 5
 - Changes the next attack to the chip's own type
 + This is a Solar Gun Part (Lens), and requires an AstroBat
 
@@ -2328,7 +2329,7 @@ Frame:Spread Gun:Normal20 [None]
 80 HP, 10 MB
 Acc D, Spd B
 Personal, Melee+, Projectile+
-Tier 3
+Tier 2
 - Changes the attack to a WideSwrd delivery and uses this chip's Acc and Spd
 - Fires a shot at -20 Damage if Melee attack fails
 - Panel chips will be expanded to this range
@@ -2339,7 +2340,7 @@ Frame:Spread10 Gun:Normal30 [None]
 120 HP, 30 MB
 Acc C, Spd B
 Personal, Melee+, Projectile+
-Tier 4
+Tier 3
 - Changes the attack to a WideSwrd delivery with 10 extra damage and uses this chip's Acc and Spd
 - Fires a shot at -20 Damage if Melee attack fails
 - Panel chips will be expanded to this range
@@ -2350,7 +2351,7 @@ Frame:Spread20 Gun:Normal50 [Sol]*
 160 HP, 40 MB
 Acc B, Spd A
 Personal, Melee+, Projectile+
-Tier 5
+Tier 4
 - Changes the attack to a LifeSwrd delivery with 20 extra damage and uses this chip's Acc and Spd
 - Fires a shot at -20 Damage if Melee attack fails
 - Panel chips will be expanded to this range
@@ -2372,7 +2373,7 @@ Frame:CounterSpin Gun:DoubleSpin [None]
 80 HP, 10 MB
 Acc B, Spd D
 Personal, Melee+
-Tier 3
+Tier 2
 - Changes the attack to a Melee Counter that hits all panels adjacent to the user
 - Obstacles and Panels will place one in all cardinal directions on proc
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to 40% Battery output to all panels adjacent to user twice
@@ -2382,7 +2383,7 @@ Frame:CounterDoubleSpin Gun:TripleSpin [None]
 120 HP, 30 MB
 Acc B, Spd D
 Personal, Melee+
-Tier 4
+Tier 3
 - Changes the attack to a Melee Counter that hits all panels adjacent to the user twice
 - Obstacles and Panels will completely surround user on proc
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to 30% Battery output to all panels adjacent to user three times
@@ -2392,7 +2393,7 @@ Frame:CounterDoubleSpin Gun:QuadSpin [Elec]*
 160 HP, 40 MB
 Acc A, Spd E
 Personal, Melee+
-Tier 5
+Tier 4
 - Changes the attack to a Melee Counter that hits all panels adjacent to the user (radius 2) twice
 - Obstacles and Panels will completely surround user at 2 radius on proc
 + This is a Solar Gun Part (Frame) that deals Melee damage equal to 30% Battery output to all panels adjacent to user four times
@@ -2412,7 +2413,7 @@ FrameRand [None]
 80 HP, 10 MB
 Acc D, Spd C
 Personal, Melee+
-Tier 3
+Tier 2
 - Changes the attack to a Melee that deals damage to a random chip
 + This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to Battery output
 
@@ -2421,7 +2422,7 @@ FrameRand [None]
 120 HP, 20 MB
 Acc D, Spd A
 Personal, Melee+
-Tier 4
+Tier 3
 - Changes the attack to a LongSwrd delivery that deals damage to a random chip
 - Obstacles and Panels will cover two tiles
 + This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to 110% Battery output
@@ -2431,7 +2432,7 @@ FrameRand [Fire]*
 160 HP, 30 MB
 Acc C, Spd A
 Personal, Melee+
-Tier 5
+Tier 4
 - Changes the attack to a FtrSword delivery that deals damage to a random chip
 - Obstacles and Panels will change to filling the whole Line forward
 + This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to 125% Battery output
@@ -2451,7 +2452,7 @@ FrameShovePierce50 [None]
 80 HP, 20 MB
 Acc E, Spd B
 Personal, Melee+
-Tier 3
+Tier 2
 - Changes the attack to a Melee that Shoves and Pierces
 + This is a Solar Gun Part (Frame) that deals Melee damage at 25% Battery cost
 
@@ -2460,7 +2461,7 @@ FrameShovePierceStun80 [None]
 120 HP, 30 MB
 Acc E, Spd A
 Personal, Melee+
-Tier 4
+Tier 3
 - Changes the attack to a Melee that Shoves, Stuns, and Pierces
 + This is a Solar Gun Part (Frame) that deals Melee damage at 25% Battery cost
 
@@ -2469,7 +2470,7 @@ FrameShoveBreakStun120 [Wood]*
 160 HP, 40 MB
 Acc E, Spd S
 Personal, Melee+
-Tier 5
+Tier 4
 - Changes the attack to a Melee that Shoves, Stuns, and Breaks
 + This is a Solar Gun Part (Frame) that deals Melee damage at 25% Battery cost
 * This element only matters for Priority and the StarLens
@@ -2488,7 +2489,7 @@ Frame:3Meteo-50 Gun:3Meteo20 [None]
 80 HP, 10 MB
 Acc D, Spd B
 Personal, Projectile+
-Tier 3
+Tier 2
 - Reduces the next attack by 50 damage but attacks up to 3 times
 + This is a Solar Gun Part (Frame) that fires 10% of Battery output as shots
 
@@ -2497,7 +2498,7 @@ Frame:3Meteo-30 Gun:4Meteo30 [None]
 120 HP, 30 MB
 Acc D, Spd A
 Personal, Projectile+
-Tier 4
+Tier 3
 - Reduces the next attack by 30 damage but attacks up to 3 times
 + This is a Solar Gun Part (Frame) that fires 10% of Battery output as shots
 
@@ -2506,7 +2507,7 @@ Frame:3Meteo Gun:5Meteo40 [Aqua]*
 160 HP, 50 MB
 Acc C, Spd A
 Personal, Projectile+
-Tier 5
+Tier 4
 - The next attack attempts to hit up to 3 times
 + This is a Solar Gun Part (Frame) that fires 10% of Battery output as shots
 * This element only matters for Priority and the StarLens
@@ -2526,7 +2527,7 @@ Frame:Bomb Gun:Batt20 [None]
 80 HP, 10 MB
 Acc C, Spd D
 Personal, Aerial+
-Tier 3
+Tier 2
 - Changes the attack to an Aerial type
 - Obstacles will be thrown to protect target
 + This is a Solar Gun Part (Frame) that drains the full gauge to deal 20 damage per 20% Battery usage
@@ -2536,7 +2537,7 @@ Frame:Quake1 Gun:Batt30 [None]
 120 HP, 20 MB
 Acc C, Spd C
 Personal, Aerial+
-Tier 4
+Tier 3
 - Changes the attack to an Aerial type that cracks the panel
 - Obstacles will be thrown to protect target
 + This is a Solar Gun Part (Frame) that drains the full gauge to deal 30 damage per 25% Battery usage
@@ -2546,7 +2547,7 @@ Frame:Quake2 Gun:Batt50 [None]
 200 HP, 40 MB
 Acc A, Spd B
 Personal, Aerial+
-Tier 5
+Tier 4
 - Changes the attack to an Aerial type that cracks all cardinally adjacent panels
 - Obstacles will be thrown to protect target
 + This is a Solar Gun Part (Frame) that drains the full gauge to deal 50 damage per 25% Battery usage
@@ -2556,7 +2557,7 @@ Frame:Pulse Gun:StunMind60 [None]
 120 HP, 30 MB
 Acc D, Spd D
 Personal, Projectile+
-Tier 4
+Tier 3
 - Grants the next attack Pulse behavior (Spreads, Stuns, and Damage Bonus if it hits an Obstacle)
 + This is a Solar Gun Part (Frame) that fires a Stunning and Confusing shot at 20% Battery usage
 
@@ -2565,17 +2566,17 @@ FrameDefense [None]
 200 HP, 30 MB
 Spd E
 Personal, Obstacle+
-Tier 4
+Tier 3
 - Changes the attack to an Obstacle that uses its attack at the end of the turn
 + This is a Solar Gun Part (Frame) that adds Battery output to the chip as additional HP
 
 Juggler
-FrameAdd80 [None]
+FrameDelaySkip80 [None]
 120 HP, 30 MB
 Acc B, Spd D
 Personal, Aerial+
-Tier 4
-- Changes the attack to an Aerial that deals chip damage
+Tier 3
+- Changes the attack to a delayed Aerial that ignores guards
 - Obstacles will be thrown to protect target, and deal Add damage if Shoved
 + This is a Solar Gun Part (Frame) with 20% Battery usage
 
@@ -2612,63 +2613,70 @@ Tier 4
 + This is a Solar Gun Part (Frame) that uses 10% of Battery output and hits once for every opposing entity
 
 Napalm
-AllAdd10 [Fire]
-250 HP, 30 MB
+Grenade AllAdd10 [Fire]
+150 HP, 30 MB
 Acc C, Spd C
 Aerial
 Tier 3
 - Hits a cross pattern
 - Leaves a Lava Panel where it landed
+- Returns to Folder with 50 less HP if used as Slot-In
 
 Sanitize
-Consume:Swamp [None]
+Grenade Consume:Swamp [None]
 250 HP, 20 MB
 Spd A
 Personal
 Tier 3
-- Turns all Swamp Panels into Basic Panels
+- Turns all Swamp, Lava, and Honey Panels into Basic Panels
 - Gain 25% gauge per Swamp Panel
+- Returns to Folder with 50 less HP if used as Slot-In
 
 FlashBom
-AllAddBlind20 [None]
-250 HP, 30 MB
+Grenade AllAddBlind20 [None]
+200 HP, 30 MB
 Acc S, Spd A
 Aerial
 Tier 3
 - Hits whole field
+- Returns to Folder with 50 less HP if used as Slot-In
 
 ScanBomb
-AllAddDisarm10 [None]
+Grenade DisarmAllAdd0 [None]
 250 HP, 30 MB
 Acc S, Spd C
 Aerial
-Tier 3
-- Removes personal buffs from target
+Tier 2
+- Removes personal buffs from field, including self and allies
 - Disarms all bomb obstacles
+- Returns to Folder with 50 less HP if used as Slot-In
 
 Sunrise
-AllAddSun10 [Sol]
-250 HP, 30 MB
+Grenade AllAddSun10 [Sol]
+100 HP, 30 MB
 Acc A, Spd C
 Aerial
 Tier 4
 - Raises UV level by 4
+- Returns to Folder with 50 less HP if used as Slot-In
 
 Nitemare
-AllAdd40 [Dark]
-250 HP, 50 MB
+Grenade AllAdd40 [Dark]
+100 HP, 50 MB
 Acc B, Spd D
 Aerial, Floor
 Tier 4
 - Stretches forever in the cardinal directions on impact
+- Returns to Folder with 50 less HP if used as Slot-In
 
 Pineappl
-AllAdd??? [Sol]
-250 HP, 60 MB
+Grenade AllAdd??? [Sol]
+150 HP, 60 MB
 Acc A, Spd D
 Aerial
 Tier 5
 - Drains gauge to deal 10 damage per 20%, and hits once per 2 bars of sunlight
+- Returns to Folder with 50 less HP if used as Slot-In
 
 VoidCann
 Invis100 [Dark]
@@ -2796,8 +2804,8 @@ Tier 5
 
 FtrSword
 Rand150 [None]
-150 HP, 40 MB
-Acc C, Spd B
+150 HP, 50 MB
+Acc B, Spd A
 Melee
 Tier 4
 - Reaches two panels behind target
@@ -2873,7 +2881,7 @@ FuryBust
 250 HP, 30 MB
 Acc S, Spd A
 Projectile
-Tier 4
+Tier 5
 Requires "Lunacy" to work
 
 Rippler
@@ -2881,7 +2889,7 @@ Add100 [None]
 200 HP, 20 MB
 Acc B, Spd C
 Projectile
-Tier 4
+Tier 5
 Requires "Lunacy" to work
 
 EchoBomb
@@ -2905,7 +2913,7 @@ Regen100 [None]
 300 HP, 10 MB
 Spd C
 Personal
-Tier 4
+Tier 5
 Requires "Lunacy" to work
 
 PanlGrab
