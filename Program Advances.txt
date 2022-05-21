@@ -153,6 +153,17 @@ Properties:
 - Uses combined remaining HP of all chips
 - Affects whole field except user
 
+Ambush
+Lock5 FlinchSkip100 [Wood]
+Acc A, Spd S
+Aerial
+Combinations:
+- Lance * DropDown * HonyDrop
+Properties:
+- Lowers Dodge grade of target by 5
+- Moves user from panel like a Melee attack
+- The target's next attack fails
+
 WebSurf
 Stage:Honey Lock2 PierceStopAllAdd70 [Aqua]
 Acc A, Spd D
@@ -391,6 +402,17 @@ Combinations:
 Properties:
 - Hits between 1 to 6 times
 - Counts as Floor for the purpose of hurting target through PopUp
+
+Picnic
+Heal50+ Repair30+ [Life]
+Spd E
+Personal
+Combinations:
+- ApplSeed * HoneyPot * Pineappl
+Properties:
+- Heals a base of 50 health and an additional 50 per Grass Panel
+- Repairs deck by a base amount of 30 and an additional 30 per Honey Panel
+- Solar Gauge provides an additional 25% of recovery per Bar (Range: x1.0 to x3.0), rounded up to nearest 10
 
 Swallow
 Absorb:Range DelayDelete??? [Dark]
