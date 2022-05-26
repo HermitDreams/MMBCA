@@ -1,8 +1,24 @@
 DummyMan [None]
-Add40 [None]
+Add40 [None] ("TestShot")
 500 HP, 120 MB
 Acc B, Dodge B, Spd B
 Projectile
+
+Skyfall  [Elec]
+DoubleRand30 [Elec] ("LitStrik")
+500 HP, 100 MB
+Acc C, Dodge A, Spd A
+Melee
+- Attack hits 3sq wide and then 2sq long
+
+Flaribel [Fire]
+ChainBoost10:Fire Normal30 [Fire] ("Blaze")
+450 HP,  90 MB
+Acc A, Dodge A, Spd A
+Melee
+- Creates a ring of fire around herself
+- Anybody inside ring gains Fire+10 for entire next turn
+* Effect stacks if it occurs again next turn, otherwise resets
 
 PharoMan [None]
 Add50 [Sol]
@@ -50,6 +66,7 @@ Boss Attacks:
 - Tornado
 - MagBomb3 (Refight)
 - Yo-Yo3
+- Chakram
 - FrntSnsr
 - FrntLasr (Refight)
 - DeepFrez
@@ -88,6 +105,7 @@ Boss Attacks:
 - No-Beam3
 - Howitzer
 - GoldFist
+- Chakram
 - Piledriv
 - Radiance
 - Corona
@@ -106,3 +124,37 @@ Boss Attacks:
 - Moondish (Refight)
 - Geddon1
 - Sancuary
+
+- Running List -
+
+Allies:
+- Darnell   [Sol] Scarecrow girl, heals after battles
+- Aquilon  [Aqua] Windseeking fish, scouts dead ends
+- Silent   [Wood] Shadowy ent, reduces encounters
+- Skyfall  [Elec] Human girl transformed by Kotobuki incident, grants combat buffs
+
+Antagonists:
+- Glory    [None] An adorned Navi that wants to be the center of attention
+- Vampere  [Dark] An Immortal inciting commotion
+- IlluMan   [Sol] A shapeshifting faerie creating holograms
+- Riverie  [Aqua] A rowboating escort of inevitability
+- RootMan  [Wood] A hacker that seizes control of vital command centers
+- Flaribel [Fire] A flame spirit seeking to dance to ashes, also victim to Kotobuki..?
+- AnonyMan [Elec] The ringleader of the UnderNet takeover
+
+Stolen Chars for Postgame:
+- PharoMan [None]
+- LaserMan [None]
+- Comet    [Aqua]
+- JunkMan  [None]
+- Medic     [Sol]
+- JoeMan   [None]
+- DarkMan  [Dark]
+- VideoMan [None]
+- GateMan  [None]
+- WorldMan [Wood] (aka PlanetMan)
+- Serenade  [Sol]
+- YokuMan  [None]
+- Sigma    [None]
+- Bass     [None]
+- BassGS   [Dark]
