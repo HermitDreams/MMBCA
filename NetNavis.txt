@@ -4,6 +4,63 @@ Add40 [None] ("TestShot")
 Acc B, Dodge B, Spd B
 Projectile
 
+Glory    [None]
+DiceBreak10 [None] ("Pummel")
+600 HP, 120 MB
+Acc D, Dodge C, Spd B
+Melee
+- Deals up to 6 hits
+
+Darnell   [Sol]
+Absorb40 [Sol] ("Sunsoak")
+400 HP,  90 MB
+Acc B, Dodge B, Spd D
+Aerial
+- Absorption heals allies instead of self
+
+Vampere  [Dark]
+PierceDrain50 [Dark] ("AmpUp")
+450 HP,  80 MB
+Acc B, Dodge B, Spd B
+Projectile
+- Steals custom gauge by half of damage dealt
+
+IlluMan   [Sol]
+Panel:Hole Mind40 [Sol] ("Isolate")
+400 HP, 150 MB
+Acc D, Dodge S, Spd E
+Floor
+- Changes a random panel adjacent to target to Hole
+
+Aquilon  [Aqua]
+Shove2 Normal50 [Aqua] ("WindWash")
+500 HP, 110 MB
+Acc C, Dodge B, Spd S
+Projectile
+- Hits one tile behind target
+
+Riverie  [Aqua]
+Panel:Sea Pierce60 [Aqua] ("OarCrash")
+600 HP, 100 MB
+Acc D, Dodge D, Spd C
+Floor
+- Navi travels with attack
+- Every panel it affects turns to Sea
+
+RootMan  [Wood]
+SkipAdd40 [Wood] ("Backdoor")
+450 HP,  80 MB
+Acc B, Dodge C, Spd B
+Floor
+- Does not need to travel
+
+Silent   [Wood]
+Counter150 [Dark] ("DarkOak")
+700 HP,  60 MB
+Acc A, Dodge D, Spd E
+Melee
+- Retaliates against one hit after using this skill
+
 Skyfall  [Elec]
 DoubleRand30 [Elec] ("LitStrik")
 500 HP, 100 MB
@@ -20,8 +77,14 @@ Melee
 - Anybody inside ring gains Fire+10 for entire next turn
 * Effect stacks if it occurs again next turn, otherwise resets
 
+AnonyMan [Elec]
+Pierce50 [Elec] ("SparkWav")
+650 HP, 130 MB
+Acc B, Dodge C, Spd S
+Floor
+
 PharoMan [None]
-Add50 [Sol]
+Add50 [Sol] ("PharoSun")
 550 HP, 150 MB
 Acc B, Dodge E, Spd B
 Projectile
@@ -47,7 +110,7 @@ Boss Attacks:
 - Desert
 
 VideoMan [None]
-TripleStun20 [None]
+TripleStun20 [None] ("Rewind")
 450 HP, 180 MB
 Acc C, Dodge B, Spd A
 Melee
@@ -87,7 +150,7 @@ Boss Attacks:
 - MagLine
 
 Serenade [Sol]
-BlindBreak70 [Sol]
+BlindBreak70 [Sol] ("StarBrak")
 400 HP, 140 MB
 Acc D, Dodge A, Spd S
 Melee
@@ -158,3 +221,41 @@ Stolen Chars for Postgame:
 - Sigma    [None]
 - Bass     [None]
 - BassGS   [Dark]
+
+- Biographies -
+
+= Darnell =
+A scarecrow-based NetNavi from the outskirts of Kotobuki, designed by her operator to maximize crop health. She is well-versed in virus battle operations, despite playing a more supportive role, as her whole farm is synced up to Unix Standard Time. She is inviting and flirty, but nobody is allowed to touch the straw hat.
+
+[Operator To-Be-Named]
+Her operator is skilled in repairs and tinkering, but not oft seen outside the farmhouse. As such, she burns easily and wears a hat that matches her NetNavi. She is well-mannered and sometimes taken aback by how outgoing Darnell is.
+
+= Aquilon =
+A mackerel-based NetNavi that has sworn himself to the guidance of the fresh ocean breeze. He believes that listening to the wind will lead you to your heart's desires and purpose. He is quite serious and confident but always speaks softly.
+
+[Operator To-Be-Named]
+His operator was a former naval navigator and now a sailor by hobby. He took to the seas and left Aquilon behind, knowing the winds would bring them back together when they've become wiser and better travelled.
+
+= Silent =
+A dark-oak ent-based NetNavi, belonging to a ranger that sees over protected wildlife. He only speaks when spoken to, and will stand guard, literally, to keep poachers away from sensitive virus banks. He is next in line to look after The Quarantine, should tragedy befall the current curators.
+
+[Operator To-Be-Named]
+A middleage woman recruited by Yoku Zoo to protect plants and animals that are not yet ready to be coveted by the world. She has a home in the southern reaches of Kingscape that she rarely gets to visit, but still appreciates the wildlife that gets to roam free in the city without fear.
+
+= Skyfall =
+An unoperated Navi that was once a human living in an apartment neighbouring ground zero of the Kotobuki Incident. She had succumb to too much radiation to come back to physical space and still survive. Following guidance from Colonel's teachings, she has learned to master her own essence to protect this world in a way she couldn't protect her home.
+
+= Vampere =
+Not quite a Navi at all, but rather an Immortal hailing from an underworld cathedral. The screams of anguish echoing through her crystalline walls has beckoned her to play a rallying concert for those that wish to make noise.
+
+= IlluMan =
+A shapeshifting spirit of the sun, taking the form of a NetNavi just to be more easily perceived. The true nature of the Cyberworld's potholes has intrigued faer to play along until Lunacy takes over.
+
+= Flaribel =
+The neighbour two doors down from Skyfall. A blazing passion within her has become completely directed toward giving Navis a second lease on life, and transformed her into the essence of fire. She yearns to burn down the oubliette of Cyberspace and return home.
+
+= AnonyMan =
+A NetNavi built purely from static, intended to be hard to identify but relatable to all. A diplomat that held no power in everyday life, but has become a leader among the UnderNet denizens.
+
+[Operator To-Be-Named]
+A rejected Official, he has decided to make and enforce his own laws with the help of his NetNavi's electric cuffs and swift shocks. One day, he will embrace and synchronize with his NetNavi, and no one will be able to deny his authority. No one quite knows how he gathered such a following and budget...
