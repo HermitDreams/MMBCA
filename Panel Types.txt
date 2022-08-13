@@ -1,6 +1,6 @@
 PANEL PROPERTIES
 
-Basic
+Basic [BAS]
 - Elem Bonus: No
 - Effect: None
 - Transform: No
@@ -8,10 +8,12 @@ Basic
 - Ore Type: Air
 - Ore Freq: 16/256
 
-Heat
+Heat [HET]
 - Elem Bonus: Fire
 - Effect: Delay Heal20
  - Affect: All
+- Transform: Basic
+ - Proc: Freeze type
 - Transform: Sea
  - Proc: Adjacency to Ice
 - Sunlight: +3
@@ -20,7 +22,7 @@ Heat
 - Alt Ore Type: Glow
 - Alt Ore Freq: 3/256
 
-Sea
+Sea [SEA]
 - Elem Bonus: Elec
 - Effect: Prevent Movement (1 turn)
  - Affect: Not [Aqua]
@@ -32,7 +34,7 @@ Sea
 - Ore Type: H2O
 - Ore Freq: 48/256
 
-Sand
+Sand [SND]
 - Elem Bonus: No
 - Effect: Prevent Movement (1 turn)
  - Affect: All
@@ -43,7 +45,7 @@ Sand
 - Ore Type: Soil
 - Ore Freq: 48/256
 
-Aluminum
+Aluminum [MTL]
 - Elem Bonus: Elec
 - Effect: No
 - Transform: Grass
@@ -53,7 +55,7 @@ Aluminum
 - Ore Type: Iron
 - Ore Freq: 48/256
 
-Charging
+Charging [CHG]
 - Elem Bonus: No
 - Effect: Charge x2
  - Affect: Not [Dark]
@@ -64,7 +66,7 @@ Charging
 - Alt Ore Type: Glow
 - Alt Ore Freq: 3/256
 
-Grass
+Grass [GRS]
 - Elem Bonus: Fire
 - Effect: Delay Heal50
  - Affect: [Wood]
@@ -74,7 +76,7 @@ Grass
 - Ore Type: Herb
 - Ore Freq: 40/256
 
-Honey
+Honey [WEB]
 - Elem Bonus: No
 - Effect: Dodge -1
  - Affect: All
@@ -84,7 +86,7 @@ Honey
 - Ore Type: Zoo
 - Ore Freq: 40/256
 
-Lava
+Lava [LAV]
 - Elem Bonus: No
 - Effect: Norm50
  - Affect: Not [Fire]
@@ -94,7 +96,7 @@ Lava
 - Ore Type: Fire
 - Ore Freq: 240/256
 
-Ice
+Ice [ICE]
 - Elem Bonus: No
 - Effect: Slide
  - Affect: Not [Aqua]
@@ -104,7 +106,7 @@ Ice
 - Ore Type: H2O
 - Ore Freq: 160/256
 
-Magnet
+Magnet [MAG]
 - Elem Bonus: No
 - Effect: Pull
  - Affect: All
@@ -117,7 +119,7 @@ Magnet
 - Alt Ore Type: Iron
 - Alt Ore Freq: 48/256
 
-Swamp
+Swamp [PSN]
 - Elem Bonus: No
 - Effect: Delay AllAdd20
  - Affect: All
@@ -128,7 +130,7 @@ Swamp
 - Alt Ore Type: Dark
 - Alt Ore Freq: 3/256
 
-Holy
+Holy [HLY]
 - Elem Bonus: No
 - Effect: Half Damage
  - Affect: Not [Dark]
@@ -137,7 +139,7 @@ Holy
 - Ore Type: Glow
 - Ore Freq: 64/256
 
-Abyss
+Abyss [ABY]
 - Elem Bonus: No
 - Effect: Require AirShoes
  - Affect: All
@@ -146,7 +148,7 @@ Abyss
 - Ore Type: Dark
 - Ore Freq: 128/256
 
-Cracked
+Cracked [CRK]
 - Elem Bonus: No
 - Effect: No
 - Transform: Pit
@@ -155,7 +157,7 @@ Cracked
 - Ore Type: Time
 - Ore Freq: 1/256
 
-Pit
+Pit [PIT]
 - Elem Bonus: No
 - Effect: Require AirShoes
  - Affect: All
