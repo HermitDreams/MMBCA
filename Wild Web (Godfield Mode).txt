@@ -1,0 +1,83 @@
+GODFIELD STYLE
+
+= Game Rules =
+
+- Support 9 players
+- Each player starts with 400 + (100 x Amount of Opponents) Max HP, 10 MB, and a plain 30 Damage Navi ATtack (NormNav1)
+- Each player has 9 panels they can stand on (3x3) and starts in middle
+- Sunlight rules apply wholesale (Gauge is now consumable MB capping at 100)
+- Each player draws 11 chips (9 regular, 2 wild) at start of battle (rarity table below)
+- Cards are replaced when Deleted or Added
+- Turn order based on Navi Speed + Chip Speed
+- Each player selects 3 chips and a target at beginning of round
+- Each chip costs 10% of its normal MB Size to use
+- You can shuffle all 3 chips for new ones if you can't afford the full cost
+- You can interrupt a turn by sacrificing a wild chip for 10x its MB cost
+- Navi Attack is used at end of turn
+- You may move one panel at end of round (Dodge penalties still apply for staying still)
+- The last player without 0 HP remaining is the winner
+- A limit of rounds can be set with a rule of "Stalemate" or "Bugs"
+- "Stalemate" will determine the winner based on who has the most HP remaining
+- "Bugs" will continue to play with random effects happening at the beginning of each round
+
+= Chip Selection =
+
+% Chance of each Rarity appearing
+
+1: 25%
+2: 25%
+3: 20%
+4: 15%
+N: 10%
+5:  5%
+
+= Mechanic Changes =
+
+- Amount of Splashed Targets will be added to most spreading attacks
+  * Maybe Splash AoE picks a random other field to hit if it spills out of a boundary?
+- Meteors select random targets
+- Confusion is Random Movement
+- NaviChips change your Max HP, Element, and Attack 
+- NaviChips will be either consumed or shuffled upon picking them up
+
++ Battlefields +
+
+- All players on one Team share the same field, and are thus more susceptible to being splashed
+- If an attack tries to hit a panel outside of a field, somebody else's field will be arbitrarily placed adjacent to it for that attack
+  * i.e. Target is at 2-B3 and Player 3 is at 3-B1
+  * Target is hit with WideSwrd, which tries to reach to 2-B4 (doesn't exist)
+  * Player 3's field is chosen to be adjacent to the south
+  * 2-B4 becomes 3-B1
+  * Player 3 is hit with WideSwrd too
+- If there are only 2 occupied fields, they are placed side-by-side at a randomly decided edge until a Virus generates a new field
+
+= Bugged Play =
+
+- During Bugged Play, one of a series of affects will occur to each player at the beginning of a round
+- Additionally, a Virus will be spawned every (20% of Round Timer Setting) rounds
+- Each Virus group is given their own 3x3 field
+- Virus generation follows standard RPG methods
+- Viruses target by weighing everybody's remaining HP as the chance to be targeted
+
++ Possible Effects +
+
+- Grant Barrier (1 hit)
+- Navi+10
+- Regen (10 to 30 Recov or Dfrag)
+- Burn (10 to 30)
+- Stunned
+- Shuffle random chip
+- Change random panel
+- Swamp Trail (1 turn)
+- Pull in random direction (1 turn)
+- Reverse Gauge (empties instead of fills)
+
++ Virus Rarity Rate +
+
+Amount: 1 = 60%, 2 = 30%, 3 = 10%
+
+1: 30%
+2: 36%
+3: 20%
+4: 12%
+5:  2%
