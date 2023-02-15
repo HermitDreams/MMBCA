@@ -19,3 +19,24 @@ The "Shrouded" debuff sets the Sunlight Bonus to a flat 0.
 Slot-Ins have a Gauge% chance to succeed. An attempt, successful or not, will delete the chip but let defenses inherit its HP anyway.
 At 50% or higher, the selected branch can be rerolled at the cost of fully draining the gauge.
 A reroll can only be done once per turn, in the event a bonus prevents gauge from draining below 50%.
+
+
+MAYBES
+
+- Obstacles protect your deck from chip damage, at cost of being bypassed by certain attack methods?
+ - Prevents situation where a Sword would attack your Obstacle and deal chip damage to your own deck
+- Sparker changed to a Barrier? (HP will be reduced)
+
+
+DIFFICULTY OPTIONS
+
+Restrained (Default)
+- Deleted chips can be repaired at safe zones, but player folders are limited to:
+ - 3 GigaChips
+ - 3 T5 Non-Gigas
+ - No duplicates of T5s
+ - 1 duplicate of T4s
+ - 3 duplicates of anything else
+
+Proglike
+- Deleted chips are gone forever, but all folder restrictions are lifted
