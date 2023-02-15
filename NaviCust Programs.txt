@@ -30,6 +30,8 @@ Splash+3
 Split+1
 Split+2
 Split+3
+Mega+1 (Add 1 more T4 Dupe to folder, T4s are T3 rarity for battle loot tables)
+Giga+1 (Add 1 more T5 Dupe to folder, T5s are T4 rarity for battle loot tables)
 
 ADAPTORS
 
