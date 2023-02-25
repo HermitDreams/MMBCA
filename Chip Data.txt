@@ -548,7 +548,7 @@ Projectile
 Tier 2
 
 AirShot3
-ShoveAll Normal50 [None]
+Shove4 Normal50 [None]
 250 HP, 30 MB
 Acc A, Spd S
 Projectile
@@ -1149,7 +1149,7 @@ Melee
 Tier 3
 
 GoldFist
-ShoveAll Break150 [None]
+Shove10 Break150 [None]
 90 HP, 50 MB
 Acc C, Spd E
 Melee
@@ -1495,7 +1495,7 @@ Tier 3
 PwrShell
 Defense Armor+30 CounterAdd30 [Aqua]
 230 HP, 50 MB
-Spd B
+Acc B, Spd B
 Personal, Projectile
 Tier 4
 - Deducts 30 damage from every attack that pierces it
@@ -2577,7 +2577,7 @@ Acc B, Spd D
 Personal, Aerial+
 Tier 3
 - Changes the attack to a delayed Aerial that ignores guards
-- Obstacles will be thrown to protect target, and deal Add damage if Shoved
+- Obstacles will be thrown to protect target, and ignore personal guards if Shoved
 + This is a Solar Gun Part (Frame) with 20% Battery usage
 
 Phantom
@@ -3107,7 +3107,7 @@ Panel:Stage [Wood]
 Spd D
 Floor
 Tier 2
-- The entire stage turns to Sand Panels
+- The entire stage turns to Grass Panels
 
 ChargStg
 Panel:Stage [Elec]
