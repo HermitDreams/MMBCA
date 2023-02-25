@@ -1,3 +1,40 @@
+PLAIN LIST
+
+NormNavi
+PunkNavi
+GuardNav
+SmileNav
+
+Glory
+Darnell
+Vampere
+IlluMan
+Aquilon
+Falshor
+RootMan
+Silent
+Skyfall
+Flaribel
+AnonyMan
+
+PharoMan
+Joe
+LaserMan
+Comet
+DarkMan
+Medic
+GateMan
+JunkMan
+VideoMan
+WorldMan
+Serenade
+YokuMan
+Sigma
+
+=====
+STATS
+=====
+
 DummyMan [None]
 Add40 [None] ("TestShot")
 500 HP, 120 MB
@@ -39,7 +76,7 @@ Acc C, Dodge B, Spd S
 Projectile
 - Hits one tile behind target
 
-Riverie  [Aqua]
+Falshor  [Aqua]
 Panel:Sea Pierce60 [Aqua] ("OarCrash")
 600 HP, 100 MB
 Acc D, Dodge D, Spd C
@@ -109,6 +146,51 @@ Boss Attacks:
 - CrackOut
 - Desert
 
+Joe [None]
+Triple30 [None] ("JoeBust")
+500 HP, 150 MB
+Acc B, Dodge B, Spd B
+Projectile
+
+LaserMan [None]
+Pierce70 [Dark] ("RedLaser")
+550 HP, 130 MB
+Acc A, Dodge C, Spd B
+Projectile
+
+Comet [Aqua]
+Shove50 [Aqua] ("ComtDash")
+450 HP, 150 MB
+Acc B, Dodge A, Spd A
+Melee (Carry through)
+
+DarkMan [Dark]
+Normal80 [Life] ("ElemPrsm")
+600 HP, 130 MB
+Acc A, Dodge C, Spd D
+Aerial
+Attack becomes [Fire], [Aqua], or [Elec] if struck by one of those elements
+
+Medic [None]
+FixAll50 [None] ("Refresh")
+400 HP, 180 MB
+Dodge B, Spd S
+Personal
+(Grants 50 HP to all surviving chips used this turn)
+
+GateMan [None]
+Throw90 [None] ("OpenGate")
+600 HP, 170 MB
+Acc C, Dodge D, Spd D
+Projectile
+(Must be protected by an Obstacle to throw it)
+
+JunkMan [None]
+Delete30 [None] ("ScrewDrv")
+450 HP, 180 MB
+Acc E, Dodge C, Spd E
+Projectile
+
 VideoMan [None]
 TripleStun20 [None] ("Rewind")
 450 HP, 180 MB
@@ -149,6 +231,18 @@ Boss Attacks:
 - MetaGel3 (Refight)
 - MagLine
 
+WorldMan [Wood]
+Skip40 [Life] ("TerrForm")
+700 HP, 120 MB
+Acc S, Dodge E, Spd E
+Floor
+(Changes target's panel to Lava, Sea, Grass, or Desert at random.
+  Adopts [Fire], [Aqua], [Wood], or [None] respectively.)
+Boss Traits:
+- +300 HP (Refight)
+- Life Element (Refight)
+- Passive Aura100 (Refight)
+
 Serenade [Sol]
 BlindBreak70 [Sol] ("StarBrak")
 400 HP, 140 MB
@@ -188,6 +282,51 @@ Boss Attacks:
 - Geddon1
 - Sancuary
 
+YokuMan [None]
+TripleMeteo50 [None] ("YokuPanl")
+400 HP, 180 MB
+Acc E, Dodge S, Spd A
+Floor
+(Changes affected panels to Abyss. Abysses become Basic.)
+
+Sigma [Life]
+DoubleRandBreak40 [None] ("ViralCut")
+750 HP, 100 MB
+Acc C, Dodge A, Spd A
+Melee (second hit is 3 long)
+
+=========
+ PLAYERS
+=========
+
+NormNavi [None]
+Normal50 [None]
+500 HP, 80 MB
+Acc C, Dodge B, Spd C
+Projectile
+- Siphon Damage <-> MB (10:10)
+- Siphon HP <-> Dodge (50:1)
+
+PunkNavi [None] or [Dark] (NG+?)
+Add50 <Floor, Acc A>, Rand60 <Melee, Acc D>, or AllAdd20 <Aerial, Acc B> [None]
+450 HP, 100 MB
+Dodge C, Spd B
+
+GuardNav [None] or [Sol] (NG+?)
+Stun or Pierce 80 [None]
+550 HP, 70 MB
+Acc B, Dodge C, Spd D
+Melee
+- Siphon Damage <-> Acc (10:1)
+- Siphon Damage --> HP (20:50)
+
+SmileNav [Fire], [Aqua], [Elec], or [Wood]
+Add40 or Recov40
+450 HP, 90 MB
+Acc A, Dodge B, Spd C
+Aerial (-1 Acc), or Floor (+1 Acc)
+- Siphon HP <-> Acc (50:2)
+
 - Running List -
 
 Allies:
@@ -210,8 +349,8 @@ Stolen Chars for Postgame:
 - LaserMan [None]
 - Comet    [Aqua]
 - JunkMan  [None]
-- Medic     [Sol]
-- JoeMan   [None]
+- Medic    [None]
+- Joe      [None]
 - DarkMan  [Dark]
 - VideoMan [None]
 - GateMan  [None]
@@ -219,8 +358,28 @@ Stolen Chars for Postgame:
 - Serenade  [Sol]
 - YokuMan  [None]
 - Sigma    [None]
-- Bass     [None]
-- BassGS   [Dark]
+- Bass     [None] // Might Remove
+- BassGS   [Dark] // So that all NaviChips are new
+
+- Passive Effects -
+
+Darnell
+- Heal 10 HP every time your custom gauge fills at least 25% in one action
+- Heal 50 HP when rewarded Zenny at the end of battle
+- Can place Beacon with no chance of penalty
+
+Aquilon
+- Immunity to negative panel effects (not full AirShoes)
+- Faster cyberworld movement
+
+Silent
+- Can opt to Jack Out at the start of a random encounter
+- Roll Dodge twice if Sunlight Bar is empty
+- Can place DarkPrtl with no chance of penalty
+
+Skyfall
+- Grants LifeAur1 to all Mystery Data on the field
+- Start battle with an [Elec] Barrier
 
 - Biographies -
 
@@ -245,11 +404,20 @@ A middleage woman recruited by Yoku Zoo to protect plants and animals that are n
 = Skyfall =
 An unoperated Navi that was once a human living in an apartment neighbouring ground zero of the Kotobuki Incident. She had succumb to too much radiation to come back to physical space and still survive. Following guidance from Colonel's teachings, she has learned to master her own essence to protect this world in a way she couldn't protect her home.
 
+= Glory =
+A shiny NetNavi who serves no purpose other than to be the center of attention. His creator designed him out of boredom and then let him loose on the web. Wherever there are problems, he will be there to make them worse. Officials are offering a reward to whoever can convince his operator to jack him out.
+
 = Vampere =
-Not quite a Navi at all, but rather an Immortal hailing from an underworld cathedral. The screams of anguish echoing through her crystalline walls has beckoned her to play a rallying concert for those that wish to make noise.
+Not quite a Navi at all, but rather an Immortal hailing from an underworld cathedral. The screams of anguish echoing through her crystalline walls have beckoned her to play a rallying concert for those that wish to make noise.
 
 = IlluMan =
 A shapeshifting spirit of the sun, taking the form of a NetNavi just to be more easily perceived. The true nature of the Cyberworld's potholes has intrigued faer to play along until Lunacy takes over.
+
+= Riverie =
+A cloaked captain that surfs the web cleaning up dead links at the behest of their operator. They will happily guide headstrong Navis to their inevitable destinations. Their operator lives in isolation and manages cloud services, supposedly somewhere in Nettopia.
+
+= RootMan =
+A fungal Navi that leaves copies of himself scattered around and seeks to infect all devices. His operator is a mould inspector that helps him reach devices not yet connected to the internet. He hopes to control the new unstable virus spreading around.
 
 = Flaribel =
 The neighbour two doors down from Skyfall. A blazing passion within her has become completely directed toward giving Navis a second lease on life, and transformed her into the essence of fire. She yearns to burn down the oubliette of Cyberspace and return home.
@@ -259,3 +427,16 @@ A NetNavi built purely from static, intended to be hard to identify but relatabl
 
 [Operator To-Be-Named]
 A rejected Official, he has decided to make and enforce his own laws with the help of his NetNavi's electric cuffs and swift shocks. One day, he will embrace and synchronize with his NetNavi, and no one will be able to deny his authority. No one quite knows how he gathered such a following and budget...
+
+
+==============
+
+Darnell, Vampere, IlluMan: Adversaries? Darnell complaining about them trying to harvest souls, "The only one doin' any harvestin' 'round here is me! Now git! Fly back to your own netpage!"
+
+Aquilon & Riverie: The winds of Promise and Inevitability. Riverie condescending Aquilon, "Oh, my young minnow. You still insist on following the jetstream, unaware you're fighting the rapids."
+
+Silent & RootMan: Fighting over territory. Silent seeks to end RootMan's ruckus and insists on laying low, "This is not the way plants were meant to rule." "Fungi aren't bound to rules! We'll take control of everywhere!"
+
+Skyfall & Flaribel: Lost intertwined fates. Flaribel insists everything will be better once they're home, "Dance with me, Sarah! We'll burn this prison down and make a better world for everyone!" "This isn't the way, Kayla! This is our home now, and we have to protect it!"
+
+Glory & AnonyMan: Ends of the food chain? Glory proves to be a wonderful asset to elevate Anony to power, "however, at this stage, there can be no problems. Arresting you will be my first peacekeeping duty!"
