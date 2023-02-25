@@ -1,0 +1,15 @@
+C:\Users\Linkshot\Utilities\Projects\MMBCA\MMBCA\bin\Debug\net6.0\MMBCA.exe
+C:\Users\Linkshot\Utilities\Projects\MMBCA\MMBCA\bin\Debug\net6.0\MMBCA.deps.json
+C:\Users\Linkshot\Utilities\Projects\MMBCA\MMBCA\bin\Debug\net6.0\MMBCA.runtimeconfig.json
+C:\Users\Linkshot\Utilities\Projects\MMBCA\MMBCA\bin\Debug\net6.0\MMBCA.dll
+C:\Users\Linkshot\Utilities\Projects\MMBCA\MMBCA\bin\Debug\net6.0\MMBCA.pdb
+C:\Users\Linkshot\Utilities\Projects\MMBCA\MMBCA\obj\Debug\net6.0\MMBCA.csproj.AssemblyReference.cache
+C:\Users\Linkshot\Utilities\Projects\MMBCA\MMBCA\obj\Debug\net6.0\MMBCA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Linkshot\Utilities\Projects\MMBCA\MMBCA\obj\Debug\net6.0\MMBCA.AssemblyInfoInputs.cache
+C:\Users\Linkshot\Utilities\Projects\MMBCA\MMBCA\obj\Debug\net6.0\MMBCA.AssemblyInfo.cs
+C:\Users\Linkshot\Utilities\Projects\MMBCA\MMBCA\obj\Debug\net6.0\MMBCA.csproj.CoreCompileInputs.cache
+C:\Users\Linkshot\Utilities\Projects\MMBCA\MMBCA\obj\Debug\net6.0\MMBCA.dll
+C:\Users\Linkshot\Utilities\Projects\MMBCA\MMBCA\obj\Debug\net6.0\refint\MMBCA.dll
+C:\Users\Linkshot\Utilities\Projects\MMBCA\MMBCA\obj\Debug\net6.0\MMBCA.pdb
+C:\Users\Linkshot\Utilities\Projects\MMBCA\MMBCA\obj\Debug\net6.0\MMBCA.genruntimeconfig.cache
+C:\Users\Linkshot\Utilities\Projects\MMBCA\MMBCA\obj\Debug\net6.0\ref\MMBCA.dll
