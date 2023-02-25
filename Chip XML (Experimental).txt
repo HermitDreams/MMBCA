@@ -1,0 +1,4977 @@
+<Library>
+<Chip staticID="1">
+  <Name>Cannon</Name>
+  <Damage>60</Damage>
+  <Health>60</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="2">
+  <Name>HiCannon</Name>
+  <Damage>80</Damage>
+  <Health>90</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="3">
+  <Name>M-Cannon</Name>
+  <Damage>120</Damage>
+  <Health>150</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="4">
+  <Name>Shotgun</Name>
+  <Damage>30</Damage>
+  <ChipDmg>Last</ChipDmg>
+  <Health>40</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>5</Priority>
+  <Projectile/>
+  <Splash>behind</Splash>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="5">
+  <Name>V-Gun</Name>
+  <Damage>50</Damage>
+  <ChipDmg>Last</ChipDmg>
+  <Health>70</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <Splash>diverge</Splash>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="6">
+  <Name>CrossGun</Name>
+  <Damage>60</Damage>
+  <ChipDmg>Last</ChipDmg>
+  <Health>90</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <Splash>diagonal</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="7">
+  <Name>Spreader</Name>
+  <Damage>70</Damage>
+  <ChipDmg>Last</ChipDmg>
+  <Health>150</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <Splash>surround</Splash>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="8">
+  <Name>Bubbler</Name>
+  <Damage>20</Damage>
+  <Element>Aqua</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Health>40</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>5</Priority>
+  <Projectile/>
+  <Splash>behind</Splash>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="9">
+  <Name>Bub-V</Name>
+  <Damage>30</Damage>
+  <Element>Aqua</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Health>60</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <Splash>diverge</Splash>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="10">
+  <Name>BubCross</Name>
+  <Damage>40</Damage>
+  <Element>Aqua</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Health>90</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <Splash>diagonal</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="11">
+  <Name>BubSprd</Name>
+  <Damage>50</Damage>
+  <Element>Aqua</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Health>130</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>2</Priority>
+  <Projectile/>
+  <Splash>surround</Splash>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="12">
+  <Name>HeatShot</Name>
+  <Damage>20</Damage>
+  <Element>Fire</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Health>40</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <Splash>behind</Splash>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="13">
+  <Name>Heat-V</Name>
+  <Damage>30</Damage>
+  <Element>Fire</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Health>60</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <Splash>diverge</Splash>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="14">
+  <Name>HeatCros</Name>
+  <Damage>40</Damage>
+  <Element>Fire</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Health>90</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>2</Priority>
+  <Projectile/>
+  <Splash>diagonal</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="15">
+  <Name>HeatSprd</Name>
+  <Damage>50</Damage>
+  <Element>Fire</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Health>120</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>2</Priority>
+  <Projectile/>
+  <Splash>surround</Splash>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="332">
+  <Name>InkSprd</Name>
+  <Damage>50</Damage>
+  <ChipDmg>Last</ChipDmg>
+  <Debuff>Blind</Debuff>
+  <Health>100</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>2</Priority>
+  <Projectile/>
+  <Splash>surround</Splash>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="16">
+  <Name>MiniBomb</Name>
+  <Damage>10</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Health>120</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>2</Priority>
+  <Aerial/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="17">
+  <Name>LilBomb</Name>
+  <Damage>20</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Health>220</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>2</Priority>
+  <Aerial/>
+  <Splash>vertical</Splash>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="18">
+  <Name>CrosBomb</Name>
+  <Damage>30</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Health>250</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>2</Priority>
+  <Aerial/>
+  <Splash>cardinal</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="19">
+  <Name>BigBomb</Name>
+  <Damage>50</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Health>300</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>2</Priority>
+  <Aerial/>
+  <Splash>surround</Splash>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="357">
+  <Name>HiveBomb</Name>
+  <Damage>30</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Health>200</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Aerial/>
+  <GiveObstacle>Hive</GiveObstacle>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="20">
+  <Name>TreeBom1</Name>
+  <Damage>20</Damage>
+  <Element>Wood</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>120</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>2</Priority>
+  <Aerial/>
+  <Splash delivType="Floor" remove="ChipDmg" addPene="Pierce">seeking</Splash>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="21">
+  <Name>TreeBom2</Name>
+  <Damage>30</Damage>
+  <Element>Wood</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>130</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>2</Priority>
+  <Aerial/>
+  <Splash delivType="Floor" remove="ChipDmg" addPene="Pierce">seeking</Splash>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="22">
+  <Name>TreeBom3</Name>
+  <Damage>40</Damage>
+  <Element>Wood</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>120</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>3</Priority>
+  <Aerial/>
+  <Splash delivType="Floor" remove="ChipDmg" addPene="Pierce">seeking</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="23">
+  <Name>Sword</Name>
+  <Damage>70</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>40</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>1</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="24">
+  <Name>WideSwrd</Name>
+  <Damage>80</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>80</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <Splash>vertical</Splash>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="25">
+  <Name>LongSwrd</Name>
+  <Damage>90</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>70</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <Splash>behind</Splash>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="26">
+  <Name>FireSwrd</Name>
+  <Damage>80</Damage>
+  <Element>Fire</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>110</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <Splash>vertical</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="27">
+  <Name>AquaSwrd</Name>
+  <Damage>80</Damage>
+  <Element>Aqua</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>110</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <Splash>vertical</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="28">
+  <Name>ElecSwrd</Name>
+  <Damage>80</Damage>
+  <Element>Elec</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>110</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <Splash>vertical</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="29">
+  <Name>FireBlde</Name>
+  <Damage>90</Damage>
+  <Element>Fire</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>130</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <Splash>behind</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="30">
+  <Name>AquaBlde</Name>
+  <Damage>90</Damage>
+  <Element>Aqua</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>130</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <Splash>behind</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="31">
+  <Name>ElecBlde</Name>
+  <Damage>90</Damage>
+  <Element>Elec</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>130</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <Splash>behind</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="250">
+  <Name>FrlClaw1</Name>
+  <Damage>30</Damage>
+  <Element>Wood</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <BoostChip onMiss="false">10</BoostChip>
+  <Health>50</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>1</Accuracy>
+  <Priority>2</Priority>
+  <Melee/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="251">
+  <Name>FrlClaw2</Name>
+  <Damage>50</Damage>
+  <Element>Wood</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <BoostChip onMiss="false">20</BoostChip>
+  <Health>70</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>1</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="252">
+  <Name>FrlClaw3</Name>
+  <Damage>80</Damage>
+  <Element>Wood</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <BoostChip onMiss="false">20</BoostChip>
+  <Health>120</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>4</Priority>
+  <Melee/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="32">
+  <Name>StepSwrd</Name>
+  <Damage>70</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>80</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>4</Priority>
+  <Melee/>
+  <AirShoes/>
+  <Splash>vertical</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="253">
+  <Name>StepCros</Name>
+  <Damage>40</Damage>
+  <Hits>2</Hits>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>100</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <AirShoes/>
+  <Splash hitID="1">slash</Splash>
+  <Splash hitID="2">backslash</Splash>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="244">
+  <Name>PickAxe1</Name>
+  <Damage>50</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Penetration>Pierce</Penetration>
+  <Health>60</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>2</Priority>
+  <Melee/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="245">
+  <Name>PickAxe2</Name>
+  <Damage>70</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Penetration>Pierce</Penetration>
+  <Health>90</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>2</Priority>
+  <Melee/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="246">
+  <Name>PickAxe3</Name>
+  <Damage>100</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Penetration>Pierce</Penetration>
+  <Health>140</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="361">
+  <Name>Stinger</Name>
+  <Damage>70</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Penetration>Pierce</Penetration>
+  <Health>60</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>5</Priority>
+  <Projectile/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="33">
+  <Name>Kunai1</Name>
+  <Damage>10</Damage>
+  <Hits>3</Hits>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>60</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <meleeOffset>flank</meleeOffset>
+  <Splash xOffset="-1">diverge</Splash>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="34">
+  <Name>Kunai2</Name>
+  <Damage>20</Damage>
+  <Hits>3</Hits>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>70</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <meleeOffset>flank</meleeOffset>
+  <Splash xOffset="-1">diverge</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="35">
+  <Name>Kunai3</Name>
+  <Damage>30</Damage>
+  <Hits>3</Hits>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>80</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>4</Priority>
+  <Melee/>
+  <meleeOffset>flank</meleeOffset>
+  <Splash xOffset="-1">diverge</Splash>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="215">
+  <Name>Lance</Name>
+  <Damage>70</Damage>
+  <Element>Wood</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>110</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>5</Priority>
+  <Melee/>
+  <meleeOffset>behind</meleeOffset>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="36">
+  <Name>CustSwrd</Name>
+  <Damage bonusMultPer="1" bonusFrom="GaugeTensColumn">30</Damage>
+  <Element>Sol</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>150</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <Splash>lifeswrd</Splash>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="37">
+  <Name>Muramasa</Name>
+  <Damage bonusDmgPer="10" bonusFrom="CanHeal">10</Damage>
+  <Element>Dark</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>60</Health>
+  <MBSize>70</MBSize>
+  <Accuracy>1</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <Splash range="2">behind</Splash>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="38">
+  <Name>VarSwrd</Name>
+  <SelectChip useDmg="Damage" useChipDmg="ChipDmg" useShape="Splash">
+    	<selElem>None</selElem>
+	<selHits>1</selHits>
+	<selChipDmg>Rand</selChipDmg>
+	<selDeliv strict="true">Melee</selDeliv>
+  </SelectChip>
+  <Health>160</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="39">
+  <Name>Slasher</Name>
+  <Damage activateOn="Interrupt">100</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>180</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>5</Priority>
+  <Melee/>
+  <Stance/>
+  <Interrupt>Trespass</Interrupt>
+  <Splash target="self">surround</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="40">
+  <Name>ShockWav</Name>
+  <Damage>50</Damage>
+  <Penetration>Pierce</Penetration>
+  <Health>120</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>3</Priority>
+  <Floor/>
+  <Travel>direct</Travel>
+  <Splash>continue</Splash>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="41">
+  <Name>SonicWav</Name>
+  <Damage>70</Damage>
+  <Penetration>Pierce</Penetration>
+  <Health>120</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>3</Priority>
+  <Floor/>
+  <Travel>direct</Travel>
+  <Splash>continue</Splash>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="42">
+  <Name>DynaWave</Name>
+  <Damage>130</Damage>
+  <Penetration>Pierce</Penetration>
+  <Health>120</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>direct</Travel>
+  <Splash>continue</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="219">
+  <Name>WoodTowr</Name>
+  <Damage>70</Damage>
+  <Element>Wood</Element>
+  <Penetration>Pierce</Penetration>
+  <Health>150</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>3</Priority>
+  <Floor/>
+  <Travel>seeking</Travel>
+  <Splash>continue</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="220">
+  <Name>FireTowr</Name>
+  <Damage>70</Damage>
+  <Element>Fire</Element>
+  <Penetration>Pierce</Penetration>
+  <Health>130</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>seeking</Travel>
+  <Splash>continue</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="221">
+  <Name>WatrTowr</Name>
+  <Damage>70</Damage>
+  <Element>Aqua</Element>
+  <Penetration>Pierce</Penetration>
+  <Health>140</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>seeking</Travel>
+  <Splash>continue</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="313">
+  <Name>DarkFlm1</Name>
+  <Damage>40</Damage>
+  <Element>Dark</Element>
+  <Debuff power="10">Burn</Debuff>
+  <Penetration>Pierce</Penetration>
+  <Health>40</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>direct</Travel>
+  <Splash>continue</Splash>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="314">
+  <Name>DarkFlm2</Name>
+  <Damage>60</Damage>
+  <Element>Dark</Element>
+  <Debuff power="20">Burn</Debuff>
+  <Penetration>Pierce</Penetration>
+  <Health>70</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>3</Priority>
+  <Floor/>
+  <Travel>direct</Travel>
+  <Splash>continue</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="315">
+  <Name>DarkFlm3</Name>
+  <Damage>100</Damage>
+  <Element>Dark</Element>
+  <Debuff power="30">Burn</Debuff>
+  <Penetration>Pierce</Penetration>
+  <Health>100</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>5</Priority>
+  <Floor/>
+  <Travel>direct</Travel>
+  <Splash>continue</Splash>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="362">
+  <Name>LilShout</Name>
+  <Damage>60</Damage>
+  <Debuff>Stun</Debuff>
+  <Health>30</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>2</Priority>
+  <Melee/>
+  <Splash target="self">surround</Splash>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="363">
+  <Name>MedShout</Name>
+  <Damage>80</Damage>
+  <Debuff>Stun</Debuff>
+  <Health>80</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>2</Priority>
+  <Melee/>
+  <Splash target="self" range="2">surround</Splash>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="364">
+  <Name>BigShout</Name>
+  <Damage>130</Damage>
+  <Debuff>Stun</Debuff>
+  <Health>150</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <Splash target="self" range="3">surround</Splash>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="43">
+  <Name>Quake1</Name>
+  <Damage>30</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Penetration>Break</Penetration>
+  <Health>70</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>2</Priority>
+  <Aerial/>
+  <Crack/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="44">
+  <Name>Quake2</Name>
+  <Damage>40</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Penetration>Break</Penetration>
+  <Health>80</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>2</Priority>
+  <Aerial/>
+  <Crack>cardinal</Crack>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="45">
+  <Name>Quake3</Name>
+  <Damage>50</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Penetration>Break</Penetration>
+  <Health>90</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>1</Priority>
+  <Aerial/>
+  <Crack>surround</Crack>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="46">
+  <Name>GutPunch</Name>
+  <Damage>70</Damage>
+  <Penetration>Break</Penetration>
+  <Shove>1</Shove>
+  <Health>160</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>2</Priority>
+  <Melee/>
+  <onMiss>
+    <Splash delivType="Projectile">continue</Splash>
+  </onMiss>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="47">
+  <Name>ColdPnch</Name>
+  <Damage>70</Damage>
+  <Element>Aqua</Element>
+  <Penetration>Break</Penetration>
+  <Shove>1</Shove>
+  <Health>110</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>2</Priority>
+  <Melee/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip  staticID="337">
+  <Name>AirShot1</Name>
+  <Damage>10</Damage>
+  <Shove>1</Shove>
+  <Health>50</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="338">
+  <Name>AirShot2</Name>
+  <Damage>30</Damage>
+  <Shove>2</Shove>
+  <Health>150</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="339">
+  <Name>AirShot3</Name>
+  <Damage>50</Damage>
+  <Shove>4</Shove>
+  <Health>250</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>6</Priority>
+  <Projectile/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="48">
+  <Name>DashAtk</Name>
+  <Damage>80</Damage>
+  <Penetration>Pierce</Penetration>
+  <Health>90</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <Travel/>
+  <Carry/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="340">
+  <Name>Condor</Name>
+  <Damage>120</Damage>
+  <Penetration>Pierce</Penetration>
+  <Health>130</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <Travel/>
+  <Carry/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="62">
+  <Name>Burner</Name>
+  <Damage>80</Damage>
+  <Element>Fire</Element>
+  <Penetration>Pierce</Penetration>
+  <Health>80</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <Travel/>
+  <Carry/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="49">
+  <Name>Wrecker</Name>
+  <Damage>40</Damage>
+  <Penetration>Break</Penetration>
+  <Health>120</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Aerial/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="50">
+  <Name>CannBall</Name>
+  <Damage>80</Damage>
+  <Penetration>Break</Penetration>
+  <Health>160</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Aerial/>
+  <Hole/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="341">
+  <Name>Howitzer</Name>
+  <Damage>120</Damage>
+  <Penetration>Break</Penetration>
+  <Health>200</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>1</Accuracy>
+  <Priority>1</Priority>
+  <Aerial/>
+  <Hole/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="342">
+  <Name>IceBall</Name>
+  <Damage>80</Damage>
+  <Element>Aqua</Element>
+  <Penetration>Break</Penetration>
+  <Health>120</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Aerial/>
+  <Freeze/>
+  <ChangePanel>Ice</ChangePanel>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="343">
+  <Name>LavaBall</Name>
+  <Damage>80</Damage>
+  <Element>Fire</Element>
+  <Penetration>Break</Penetration>
+  <Health>100</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Aerial/>
+  <ChangePanel>Lava</ChangePanel>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="51">
+  <Name>DoubNdl</Name>
+  <Damage>20</Damage>
+  <Hits>2</Hits>
+  <Health>70</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="52">
+  <Name>TripNdl</Name>
+  <Damage>20</Damage>
+  <Hits>3</Hits>
+  <Health>120</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>5</Priority>
+  <Projectile/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="53">
+  <Name>QuadNdl</Name>
+  <Damage>20</Damage>
+  <Hits>4</Hits>
+  <Health>140</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>5</Priority>
+  <Projectile/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="54">
+  <Name>Trident</Name>
+  <Damage>30</Damage>
+  <Hits>3</Hits>
+  <Health>170</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>5</Priority>
+  <Projectile/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="316">
+  <Name>LiteRay1</Name>
+  <Damage>30</Damage>
+  <Element>Sol</Element>
+  <Hits>2</Hits>
+  <Health>150</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>6</Priority>
+  <Aerial/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="317">
+  <Name>LiteRay2</Name>
+  <Damage>30</Damage>
+  <Element>Sol</Element>
+  <Hits>3</Hits>
+  <Health>200</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>6</Priority>
+  <Aerial/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="318">
+  <Name>LiteRay3</Name>
+  <Damage>30</Damage>
+  <Element>Sol</Element>
+  <Hits>4</Hits>
+  <Health>300</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>6</Priority>
+  <Aerial/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="55">
+  <Name>Ratton1</Name>
+  <Damage>40</Damage>
+  <ChipDmg>Last</ChipDmg>
+  <Health>80</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>turn</Travel>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="56">
+  <Name>Ratton2</Name>
+  <Damage>50</Damage>
+  <ChipDmg>Last</ChipDmg>
+  <Health>120</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>turn</Travel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="57">
+  <Name>Ratton3</Name>
+  <Damage>60</Damage>
+  <ChipDmg>Last</ChipDmg>
+  <Health>160</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Floor/>
+  <Travel>turn</Travel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="58">
+  <Name>FireRatn</Name>
+  <Damage activateOn="Counter">120</Damage>
+  <Element>Fire</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Health>120</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>1</Priority>
+  <Floor/>
+  <Travel>turn</Travel>
+  <Obstacle/>
+  <Immunity>Fire</Immunity>
+  <Counter>
+	<ReactToElement>Fire</ReactToElement>
+	<RemoveOwnObstacle/>
+  </Counter>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="365">
+  <Name>ApplSeed</Name>
+  <Damage activateOn="Counter">50</Damage>
+  <Element>Wood</Element>
+  <ChipDmg>All</ChipDmg>
+  <RestoreHP activateOn="Transform">100</RestoreHP>
+  <Health>150</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Floor/>
+  <Travel>seeking</Travel>
+  <Obstacle/>
+  <Immunity>Aqua</Immunity>
+  <Counter>
+	<ReactToElement>Wood</ReactToElement>
+	<RemoveOwnObstacle/>
+  </Counter>
+  <Transform>
+	<ReactToElement>Aqua</ReactToElement>
+	<BecomeObstacle>Tree</BecomeObstacle>
+  </Transform>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="59">
+  <Name>Tornado</Name>
+  <Damage>10</Damage>
+  <Hits>3</Hits>
+  <ChipDmg>All</ChipDmg>
+  <Health>50</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Aerial/>
+  <AirShoes/>
+  <Swirl/>
+  <ChangeElement onTargetPanel="Sea">Aqua</ChangeElement>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="60">
+  <Name>Twister</Name>
+  <Damage>10</Damage>
+  <Element>Wood</Element>
+  <Hits>3</Hits>
+  <ChipDmg>All</ChipDmg>
+  <Health>30</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Aerial/>
+  <AirShoes/>
+  <Swirl/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="61">
+  <Name>Blower</Name>
+  <Damage>10</Damage>
+  <Element>Fire</Element>
+  <Hits>3</Hits>
+  <ChipDmg>All</ChipDmg>
+  <Health>20</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Aerial/>
+  <AirShoes/>
+  <Swirl/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="63">
+  <Name>ZapRing1</Name>
+  <Damage>10</Damage>
+  <Element>Elec</Element>
+  <Debuff>Stun</Debuff>
+  <Health>120</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="64">
+  <Name>ZapRing2</Name>
+  <Damage>50</Damage>
+  <Element>Elec</Element>
+  <Debuff>Stun</Debuff>
+  <Health>60</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="65">
+  <Name>ZapRing3</Name>
+  <Damage>100</Damage>
+  <Element>Elec</Element>
+  <Debuff>Stun</Debuff>
+  <Health>30</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>6</Priority>
+  <Projectile/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="203">
+  <Name>SandRing</Name>
+  <Damage>10</Damage>
+  <Debuff>Stun</Debuff>
+  <Health>150</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>5</Priority>
+  <Projectile/>
+  <ChangePanel onMiss="false">Sand</ChangePanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="66">
+  <Name>Satelit1</Name>
+  <Damage>40</Damage>
+  <Element>Elec</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Health>50</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <Travel>sweeping</Travel>
+  <Orbit/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="67">
+  <Name>Satelit2</Name>
+  <Damage>50</Damage>
+  <Element>Elec</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Health>80</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <Travel>sweeping</Travel>
+  <Orbit/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="68">
+  <Name>Satelit3</Name>
+  <Damage>60</Damage>
+  <Element>Elec</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Health>120</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <Travel>sweeping</Travel>
+  <Orbit/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="222">
+  <Name>Prong1</Name>
+  <Damage>20</Damage>
+  <Element>Elec</Element>
+  <Hits>2</Hits>
+  <Health>50</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>4</Priority>
+  <Melee/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="223">
+  <Name>Prong2</Name>
+  <Damage>20</Damage>
+  <Element>Elec</Element>
+  <Hits>3</Hits>
+  <Health>100</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="224">
+  <Name>Prong3</Name>
+  <Damage>30</Damage>
+  <Element>Elec</Element>
+  <Hits>3</Hits>
+  <Health>120</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>2</Priority>
+  <Melee/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="225">
+  <Name>Buzzsaw1</Name>
+  <Damage>60</Damage>
+  <Element>Elec</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>180</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>4</Priority>
+  <Floor/>
+  <Travel source="target">around</Travel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="226">
+  <Name>Buzzsaw2</Name>
+  <Damage>90</Damage>
+  <Element>Elec</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>230</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>4</Priority>
+  <Floor/>
+  <Travel source="target">around</Travel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="227">
+  <Name>Buzzsaw3</Name>
+  <Damage>140</Damage>
+  <Element>Elec</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>270</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>3</Priority>
+  <Floor/>
+  <Travel source="target">around</Travel>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="69">
+  <Name>Spice1</Name>
+  <Damage>30</Damage>
+  <Element>Wood</Element>
+  <ChipDmg>All</ChipDmg>
+  <Penetration>Skip</Penetration>
+  <Health>200</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>2</Priority>
+  <Floor/>
+  <AffectPanel only="true">Grass</AffectPanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="70">
+  <Name>Spice2</Name>
+  <Damage>50</Damage>
+  <Element>Wood</Element>
+  <ChipDmg>All</ChipDmg>
+  <Penetration>Skip</Penetration>
+  <Health>240</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>2</Priority>
+  <Floor/>
+  <AffectPanel only="true">Grass</AffectPanel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="71">
+  <Name>Spice3</Name>
+  <Damage>70</Damage>
+  <Element>Wood</Element>
+  <ChipDmg>All</ChipDmg>
+  <Penetration>Skip</Penetration>
+  <Health>300</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>2</Priority>
+  <Floor/>
+  <AffectPanel only="true">Grass</AffectPanel>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="358">
+  <Name>Swarm1</Name>
+  <Damage>10</Damage>
+  <Hits bonusMultPer="1" bonusFrom="Honey">1</Hits>
+  <Penetration>Skip</Penetration>
+  <Debuff>Stun</Debuff>
+  <Health>150</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <FailWithoutPanel>Honey</FailWithoutPanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="359">
+  <Name>Swarm2</Name>
+  <Damage>10</Damage>
+  <Hits bonusMultPer="2" bonusFrom="Honey">1</Hits>
+  <Penetration>Skip</Penetration>
+  <Debuff>Stun</Debuff>
+  <Health>200</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <FailWithoutPanel>Honey</FailWithoutPanel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="360">
+  <Name>Swarm3</Name>
+  <Damage>10</Damage>
+  <Hits bonusMultPer="3" bonusFrom="Honey">1</Hits>
+  <Penetration>Skip</Penetration>
+  <Debuff>Stun</Debuff>
+  <Health>250</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <FailWithoutPanel>Honey</FailWithoutPanel>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="228">
+  <Name>Erupt1</Name>
+  <Damage>100</Damage>
+  <Element>Fire</Element>
+  <Penetration>Skip</Penetration>
+  <Health>160</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>4</Priority>
+  <Floor/>
+  <AffectPanel only="true">Lava</AffectPanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="229">
+  <Name>Erupt2</Name>
+  <Damage>150</Damage>
+  <Element>Fire</Element>
+  <Penetration>Skip</Penetration>
+  <Health>200</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>4</Priority>
+  <Floor/>
+  <AffectPanel only="true">Lava</AffectPanel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="230">
+  <Name>Erupt3</Name>
+  <Damage>200</Damage>
+  <Element>Fire</Element>
+  <Penetration>Skip</Penetration>
+  <Health>250</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>4</Priority>
+  <Floor/>
+  <AffectPanel only="true">Lava</AffectPanel>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="310">
+  <Name>No-Beam1</Name>
+  <Damage>50</Damage>
+  <Element>Sol</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Health>200</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <Travel source="AllObstacles">forward</Travel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="311">
+  <Name>No-Beam2</Name>
+  <Damage>70</Damage>
+  <Element>Sol</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Health>220</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <Travel source="AllObstacles">forward</Travel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="312">
+  <Name>No-Beam3</Name>
+  <Damage>100</Damage>
+  <Element>Sol</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Health>250</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <Travel source="AllObstacles">forward</Travel>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="72">
+  <Name>MagBomb1</Name>
+  <Damage activateOn="Magnet">20</Damage>
+  <Element>Elec</Element>
+  <ChipDmg activateOn="Magnet">All</ChipDmg>
+  <Debuff activateOn="Magnet">Stun</Debuff>
+  <Debuff power="1">DodgeDown</Debuff>
+  <Health>180</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>3</Priority>
+  <Aerial/>
+  <SpreadPanel type="Magnet">cardinal</SpreadPanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="73">
+  <Name>MagBomb2</Name>
+  <Damage activateOn="Magnet">40</Damage>
+  <Element>Elec</Element>
+  <ChipDmg activateOn="Magnet">All</ChipDmg>
+  <Debuff activateOn="Magnet">Stun</Debuff>
+  <Debuff power="2">DodgeDown</Debuff>
+  <Health>220</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>3</Priority>
+  <Aerial/>
+  <Splash>cardinal</Splash>
+  <SpreadPanel type="Magnet">cardinal</SpreadPanel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="74">
+  <Name>MagBomb3</Name>
+  <Damage activateOn="Magnet">60</Damage>
+  <Element>Elec</Element>
+  <ChipDmg activateOn="Magnet">All</ChipDmg>
+  <Debuff activateOn="Magnet">Stun</Debuff>
+  <Debuff power="3">DodgeDown</Debuff>
+  <Health>260</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Aerial/>
+  <Splash>surround</Splash>
+  <SpreadPanel type="Magnet">cardinal</SpreadPanel>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="75">
+  <Name>Yo-Yo1</Name>
+  <Damage>30</Damage>
+  <Hits bonusHits="2" bonusFrom="ReturnPanel">1</Hits>
+  <Health>60</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>2</Priority>
+  <Projectile/>
+  <Travel>direct</Travel>
+  <Return/>
+  <CutThrough/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="76">
+  <Name>Yo-Yo2</Name>
+  <Damage>40</Damage>
+  <Hits bonusHits="2" bonusFrom="ReturnPanel">1</Hits>
+  <Health>80</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>2</Priority>
+  <Projectile/>
+  <Travel>direct</Travel>
+  <Return/>
+  <CutThrough/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="77">
+  <Name>Yo-Yo3</Name>
+  <Damage>50</Damage>
+  <Hits bonusHits="2" bonusFrom="ReturnPanel">1</Hits>
+  <Health>120</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>2</Priority>
+  <Projectile/>
+  <Travel>direct</Travel>
+  <Return/>
+  <CutThrough/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="212">
+  <Name>Boomer1</Name>
+  <Damage>30</Damage>
+  <Element>Wood</Element>
+  <Hits>2</Hits>
+  <Health>60</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>2</Priority>
+  <Projectile/>
+  <Travel source="BottomBack">turn</Travel>
+  <Continues/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="213">
+  <Name>Boomer2</Name>
+  <Damage>40</Damage>
+  <Element>Wood</Element>
+  <Hits>2</Hits>
+  <Health>80</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>2</Priority>
+  <Projectile/>
+  <Travel source="BottomBack">turn</Travel>
+  <Continues/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="214">
+  <Name>Boomer3</Name>
+  <Damage>50</Damage>
+  <Element>Wood</Element>
+  <Hits>2</Hits>
+  <Health>120</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>2</Priority>
+  <Projectile/>
+  <Travel source="BottomBack">turn</Travel>
+  <Continues/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="366">
+  <Name>Chakram</Name>
+  <Damage>50</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Hits>2</Hits>
+  <Health>150</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>5</Priority>
+  <Projectile/>
+  <Travel id="1" source="TopBack">turn</Travel>
+  <Travel id="2" source="BottomBack">turn</Travel>
+  <CutThrough/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="78">
+  <Name>CrsShld1</Name>
+  <Damage activateOn="Counter">50</Damage>
+  <Health>180</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Projectile/>
+  <Shield/>
+  <Counter/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="79">
+  <Name>CrsShld2</Name>
+  <Damage activateOn="Counter">60</Damage>
+  <Health>250</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Projectile/>
+  <Shield/>
+  <Counter/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="80">
+  <Name>CrsShld3</Name>
+  <Damage activateOn="Counter">70</Damage>
+  <Health>300</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Projectile/>
+  <Shield/>
+  <Counter/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="247">
+  <Name>AntHill1</Name>
+  <Damage activateOn="Counter">20</Damage>
+  <Penetration activateOn="Counter">Strip</Penetration>
+  <Health>70</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>5</Priority>
+  <Floor/>
+  <Travel>direct</Travel>
+  <Obstacle/>
+  <Counter>
+	<ChangePanel source="self">Sand</ChangePanel>
+	<RemoveOwnObstacle/>
+  </Counter>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="248">
+  <Name>AntHill2</Name>
+  <Damage activateOn="Counter">40</Damage>
+  <Penetration activateOn="Counter">Strip</Penetration>
+  <Health>150</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>5</Priority>
+  <Floor/>
+  <Travel>direct</Travel>
+  <Obstacle/>
+  <Counter>
+	<ChangePanel source="self">Sand</ChangePanel>
+	<RemoveOwnObstacle/>
+  </Counter>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="249">
+  <Name>AntHill3</Name>
+  <Damage activateOn="Counter">70</Damage>
+  <Penetration activateOn="Counter">Strip</Penetration>
+  <Health>300</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>4</Priority>
+  <Floor/>
+  <Travel>direct</Travel>
+  <Obstacle/>
+  <Counter>
+	<ChangePanel source="self">Sand</ChangePanel>
+	<RemoveOwnObstacle/>
+  </Counter>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="319">
+  <Name>Pulse1</Name>
+  <Damage bonusFrom="Splash">40</Damage>
+  <Debuff activateOn="Splash">Confuse</Debuff>
+  <Health>60</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>6</Priority>
+  <Projectile/>
+  <Splash activateOn="Obstacle" element="Dark">surround</Splash>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="320">
+  <Name>Pulse2</Name>
+  <Damage bonusFrom="Splash">60</Damage>
+  <Debuff activateOn="Splash">Confuse</Debuff>
+  <Health>80</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>6</Priority>
+  <Projectile/>
+  <Splash activateOn="Obstacle" element="Dark">surround</Splash>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="321">
+  <Name>Pulse3</Name>
+  <Damage bonusFrom="Splash">80</Damage>
+  <Debuff activateOn="Splash">Confuse</Debuff>
+  <Health>100</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>6</Priority>
+  <Projectile/>
+  <Splash activateOn="Obstacle" element="Dark">surround</Splash>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="81">
+  <Name>BrakHamr</Name>
+  <Damage>30</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Penetration>Break</Penetration>
+  <Health>40</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="82">
+  <Name>ZeusHamr</Name>
+  <Damage>50</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Penetration>Break</Penetration>
+  <Health>40</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <Splash deliv="Floor" dontHit="AirShoes" grief="true" range="5">surround</Splash>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="367">
+  <Name>GelCrash</Name>
+  <Damage>20</Damage>
+  <Element>Aqua</Element>
+  <ChipDmg>All</ChipDmg>
+  <Shove>4</Shove>
+  <Health>50</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>tidal</Travel>
+  <ChangePanel affectPanel="Sea">Honey</ChangePanel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="83">
+  <Name>SloGauge</Name>
+  <Debuff>NoCharge</Debuff>
+  <Health>120</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>6</Priority>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="84">
+  <Name>BrnzFist</Name>
+  <Damage>90</Damage>
+  <Penetration>Break</Penetration>
+  <Shove>2</Shove>
+  <Health>110</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="85">
+  <Name>SilvFist</Name>
+  <Damage>120</Damage>
+  <Penetration>Break</Penetration>
+  <Shove>2</Shove>
+  <Health>100</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="86">
+  <Name>GoldFist</Name>
+  <Damage>150</Damage>
+  <Penetration>Break</Penetration>
+  <Shove>10</Shove>
+  <Health>90</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="87">
+  <Name>PoisMask</Name>
+  <Damage activateOn="Counter">20</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Health>140</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>5</Priority>
+  <Floor/>
+  <Shield/>
+  <Counter/>
+  <AffectPanel>Enemy</AffectPanel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="88">
+  <Name>PoisFace</Name>
+  <Damage activateOn="Counter">30</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Health>180</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>5</Priority>
+  <Floor/>
+  <Shield/>
+  <Counter/>
+  <AffectPanel>Enemy</AffectPanel>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="368">
+  <Name>Decay</Name>
+  <Element>Dark</Element>
+  <ChipDmg activateOn="Counter">Return</ChipDmg>
+  <Health>80</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>5</Priority>
+  <Stance/>
+  <Counter/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="89">
+  <Name>Whirlpl</Name>
+  <Damage>10</Damage>
+  <ChipDmg>Delete</ChipDmg>
+  <Health>80</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>5</Priority>
+  <Aerial/>
+  <Swirl/>
+  <ChangePanel onHit="false">Sea</ChangePanel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="90">
+  <Name>BlckHole</Name>
+  <Damage>10</Damage>
+  <Element>Dark</Element>
+  <ChipDmg>Delete</ChipDmg>
+  <Health>250</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>5</Priority>
+  <Aerial/>
+  <Swirl/>
+  <GiveObstacle onHit="false">DarkPrtl</GiveObstacle>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="344">
+  <Name>DeepFrez</Name>
+  <Damage>80</Damage>
+  <Element>Aqua</Element>
+  <Debuff>Halt</Debuff>
+  <Debuff>NoCharge</Debuff>
+  <Health>150</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>5</Priority>
+  <Floor/>
+  <Freeze/>
+  <AffectPanel>Cryophobic</AffectPanel>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="91">
+  <Name>Meteor3</Name>
+  <Damage>40</Damage>
+  <Element>Fire</Element>
+  <Hits>3</Hits>
+  <Health>70</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>1</Accuracy>
+  <Priority>4</Priority>
+  <Aerial/>
+  <Meteor/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="92">
+  <Name>Meteor4</Name>
+  <Damage>40</Damage>
+  <Element>Fire</Element>
+  <Hits>4</Hits>
+  <Health>90</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>1</Accuracy>
+  <Priority>4</Priority>
+  <Aerial/>
+  <Meteor/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="93">
+  <Name>Meteor5</Name>
+  <Damage>40</Damage>
+  <Element>Fire</Element>
+  <Hits>5</Hits>
+  <Health>100</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>1</Accuracy>
+  <Priority>4</Priority>
+  <Aerial/>
+  <Meteor/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="94">
+  <Name>Meteor6</Name>
+  <Damage>40</Damage>
+  <Element>Fire</Element>
+  <Hits>6</Hits>
+  <Health>120</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>1</Accuracy>
+  <Priority>3</Priority>
+  <Aerial/>
+  <Meteor/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="95">
+  <Name>TimeBom1</Name>
+  <Damage activateOn="Survive">40</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Health>90</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>6</Priority>
+  <Floor/>
+  <Obstacle/>
+  <AffectPanel>Enemy</AffectPanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="96">
+  <Name>TimeBom2</Name>
+  <Damage activateOn="Survive">40</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Health>180</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>6</Priority>
+  <Floor/>
+  <Obstacle/>
+  <AffectPanel>Enemy</AffectPanel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="97">
+  <Name>TimeBom3</Name>
+  <Damage activateOn="Survive">40</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Health>260</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>6</Priority>
+  <Floor/>
+  <Obstacle/>
+  <AffectPanel>Enemy</AffectPanel>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="325">
+  <Name>Sundial</Name>
+  <Damage activateOn="Survive">40</Damage>
+  <Element>Sol</Element>
+  <Debuff>NoCharge</Debuff>
+  <Penetration>Skip</Penetration>
+  <Health>200</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>6</Priority>
+  <Aerial/>
+  <Obstacle/>
+  <AffectPanel uvMin="4">Lit</AffectPanel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="326">
+  <Name>PowerOrb</Name>
+  <Damage activateOn="Survive">50</Damage>
+  <Element>Sol</Element>
+  <Hits>3</Hits>
+  <ChipDmg>Last</ChipDmg>
+  <Health>150</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>6</Priority>
+  <Aerial/>
+  <Stance/>
+  <Counter>
+	<SubtractHits>1</SubtractHits>
+	<PerHit/>
+  </Counter>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="98">
+  <Name>LilCloud</Name>
+  <Damage>10</Damage>
+  <Element>Aqua</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>180</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>4</Priority>
+  <Aerial/>
+  <AirShoes/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="99">
+  <Name>MedCloud</Name>
+  <Damage>20</Damage>
+  <Element>Aqua</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>150</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>4</Priority>
+  <Aerial/>
+  <AirShoes/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="100">
+  <Name>BigCloud</Name>
+  <Damage>30</Damage>
+  <Element>Aqua</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>120</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>5</Priority>
+  <Aerial/>
+  <AirShoes/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="101">
+  <Name>Mine</Name>
+  <Damage activateOn="Interrupt">50</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Health>100</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>1</Priority>
+  <Floor/>
+  <OneUseBuff/>
+  <Interrupt>Melee</Interrupt>
+  <Interrupt>Floor</Interrupt>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="102">
+  <Name>FrntSnsr</Name>
+  <Damage activateOn="Interrupt">40</Damage>
+  <Health>300</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>1</Priority>
+  <Projectile/>
+  <Stance/>
+  <Interrupt>Projectile</Interrupt>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="103">
+  <Name>DblSnsr</Name>
+  <Damage activateOn="Interrupt">30</Damage>
+  <Hits>2</Hits>
+  <Health>140</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>1</Priority>
+  <Projectile/>
+  <Stance/>
+  <Interrupt>Projectile</Interrupt>
+  <Interrupt>Aerial</Interrupt>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="369">
+  <Name>FrntLasr</Name>
+  <Damage activateOn="Interrupt">70</Damage>
+  <Element>Sol</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Debuff activateOn="Interrupt">Blind</Debuff>
+  <Health>140</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <Stance/>
+  <Interrupt>Projectile</Interrupt>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="104">
+  <Name>Remobit1</Name>
+  <Damage>10</Damage>
+  <Element>Elec</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>150</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>4</Priority>
+  <Aerial/>
+  <Crack/>
+  <Obstacle/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="105">
+  <Name>Remobit2</Name>
+  <Damage>20</Damage>
+  <Element>Elec</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>210</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>4</Priority>
+  <Aerial/>
+  <Crack/>
+  <Obstacle/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="106">
+  <Name>Remobit3</Name>
+  <Damage>30</Damage>
+  <Element>Elec</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>300</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>5</Priority>
+  <Aerial/>
+  <Crack/>
+  <Obstacle/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="216">
+  <Name>PnkLotus</Name>
+  <Damage>20</Damage>
+  <Element>Wood</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>150</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>3</Priority>
+  <Floor/>
+  <Obstacle/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="217">
+  <Name>RedLotus</Name>
+  <Damage>20</Damage>
+  <Element>Wood</Element>
+  <Debuff>Confuse</Debuff>
+  <ChipDmg>All</ChipDmg>
+  <Health>210</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>3</Priority>
+  <Floor/>
+  <Obstacle/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="218">
+  <Name>YelLotus</Name>
+  <Damage>30</Damage>
+  <Element>Wood</Element>
+  <Debuff>Stun</Debuff>
+  <ChipDmg>All</ChipDmg>
+  <Health>300</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>4</Priority>
+  <Floor/>
+  <Obstacle/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="107">
+  <Name>AquaBall</Name>
+  <Damage activateOn="Survive">10</Damage>
+  <Element>Aqua</Element>
+  <Health>160</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>2</Priority>
+  <Projectile/>
+  <Shield/>
+  <CanShove/>
+  <Store/>
+  <Immunity>Aqua</Immunity>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="108">
+  <Name>ElecBall</Name>
+  <Damage activateOn="Survive">10</Damage>
+  <Element>Elec</Element>
+  <Health>160</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>2</Priority>
+  <Projectile/>
+  <Shield/>
+  <CanShove/>
+  <Store/>
+  <Immunity>Elec</Immunity>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="109">
+  <Name>HeatBall</Name>
+  <Damage activateOn="Survive">10</Damage>
+  <Element>Fire</Element>
+  <Health>160</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>2</Priority>
+  <Projectile/>
+  <Shield/>
+  <CanShove/>
+  <Store/>
+  <Immunity>Fire</Immunity>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="370">
+  <Name>Snake</Name>
+  <Damage>20</Damage>
+  <Element>Wood</Element>
+  <Hits bonusMultPer="1" bonusFrom="Hole">1</Hits>
+  <Health>100</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <FailWithoutPanel>Hole</FailWithoutPanel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="110">
+  <Name>Geyser</Name>
+  <Damage>50</Damage>
+  <Element>Aqua</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>80</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>4</Priority>
+  <Floor/>
+  <AffectPanel>Hole</AffectPanel>
+  <Splash>surround</Splash>
+  <ChangePanel affectPanel="Hole">Sea</ChangePanel>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="111">
+  <Name>LavaDrag</Name>
+  <Damage bonusDmgPer="10" bonusFrom="Lava">50</Damage>
+  <Element>Fire</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>60</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>5</Priority>
+  <Projectile/>
+  <FailWithoutPanel>Hole</FailWithoutPanel>
+  <ChangePanel affectPanel="Lava">Heat</ChangePanel>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="112">
+  <Name>GodStone</Name>
+  <Damage>80</Damage>
+  <Hits bonusMultPer="1" bonusFrom="Hole">1</Hits>
+  <Health>140</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>1</Accuracy>
+  <Priority>5</Priority>
+  <Aerial/>
+  <Meteor/>
+  <FailWithoutPanel>Hole</FailWithoutPanel>
+  <LeaveBehind>Boulder</LeaveBehind>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="113">
+  <Name>OldWood</Name>
+  <Damage>50</Damage>
+  <Element>Wood</Element>
+  <ChipDmg>All</ChipDmg>
+  <Penetration>Pierce</Penetration>
+  <Health>120</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>3</Priority>
+  <Floor/>
+  <Travel source="Hole">seeking</Travel>
+  <Targets per="Hole">1</Targets>
+  <FailWithoutPanel>Hole</FailWithoutPanel>
+  <LeaveBehind>Boulder</LeaveBehind>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="309">
+  <Name>Tripwire</Name>
+  <Damage activateOn="Interrupt">150</Damage>
+  <Element>Elec</Element>
+  <Health>160</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>4</Priority>
+  <Floor/>
+  <Obstacle/>
+  <FailWithoutPanel>Hole</FailWithoutPanel>
+  <AffectPanel>Hole</AffectPanel>
+  <Connect>cardinal</Connect>
+  <Interrupt>Floor</Interrupt>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="308">
+  <Name>Vacuum</Name>
+  <Damage>10</Damage>
+  <Element>Dark</Element>
+  <ChipDmg>Delete</ChipDmg>
+  <Hits>3</Hits>
+  <Pull source="Hole">1</Pull>
+  <Health>50</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>5</Priority>
+  <Floor/>
+  <FailWithoutPanel>Hole</FailWithoutPanel>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="307">
+  <Name>PileDriv</Name>
+  <Damage bonusMultPer="1" bonusFrom="Sunlight">10</Damage>
+  <Element>Sol</Element>
+  <Hits bonusMultPer="1" bonusFrom="Hole">1</Hits>
+  <Health>120</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>5</Priority>
+  <Projectile/>
+  <FailWithoutPanel>Hole</FailWithoutPanel>
+  <ChangePanel affectPanel="Hole">Charge</ChangePanel>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="235">
+  <Name>Shell</Name>
+  <Element>Aqua</Element>
+  <Health>150</Health>
+  <MBSize>20</MBSize>
+  <Priority>1</Priority>
+  <Shield/>
+  <Counter>
+	<Armor>20</Armor>
+  </Counter>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="236">
+  <Name>TurtShel</Name>
+  <Element>Aqua</Element>
+  <Health>180</Health>
+  <MBSize>30</MBSize>
+  <Priority>5</Priority>
+  <Shield/>
+  <Counter>
+	<Armor>30</Armor>
+  </Counter>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="237">
+  <Name>PwrShell</Name>
+  <Damage activateOn="Counter">30</Damage>
+  <Element>Aqua</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Health>230</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <Shield/>
+  <Counter>
+	<Armor>30</Armor>
+  </Counter>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="114">
+  <Name>Guard</Name>
+  <Damage activateOn="Counter">40</Damage>
+  <Penetration>Skip</Penetration>
+  <Health>10</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Floor/>
+  <Travel>direct</Travel>
+  <Shield/>
+  <Immunity>None</Immunity>
+  <Counter/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="238">
+  <Name>Kindler</Name>
+  <Damage activateOn="Counter">40</Damage>
+  <Element>Fire</Element>
+  <Penetration>Skip</Penetration>
+  <Health>10</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Floor/>
+  <Travel>direct</Travel>
+  <Shield/>
+  <Immunity>Wood</Immunity>
+  <Counter/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="239">
+  <Name>Hydrant</Name>
+  <Damage activateOn="Counter">40</Damage>
+  <Element>Aqua</Element>
+  <Penetration>Skip</Penetration>
+  <Health>10</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Projectile/>
+  <Shield/>
+  <Immunity>Fire</Immunity>
+  <Counter/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="240">
+  <Name>Wires</Name>
+  <Damage activateOn="Counter">40</Damage>
+  <Element>Elec</Element>
+  <Penetration>Skip</Penetration>
+  <Health>10</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Projectile/>
+  <Shield/>
+  <Immunity>Aqua</Immunity>
+  <Counter/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="241">
+  <Name>Snapper</Name>
+  <Damage activateOn="Counter">40</Damage>
+  <Element>Wood</Element>
+  <Penetration>Skip</Penetration>
+  <Health>10</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Floor/>
+  <Travel>direct</Travel>
+  <Shield/>
+  <Immunity>Elec</Immunity>
+  <Counter/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="115">
+  <Name>Catcher</Name>
+  <Health>200</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Projectile/>
+  <Snatch/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="116">
+  <Name>MindBndr</Name>
+  <Damage>10</Damage>
+  <Debuff>Confuse</Debuff>
+  <Health>100</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="117">
+  <Name>Recov10</Name>
+  <RestoreHP>10</RestoreHP>
+  <Health>80</Health>
+  <MBSize>0</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="118">
+  <Name>Recov30</Name>
+  <RestoreHP>30</RestoreHP>
+  <Health>40</Health>
+  <MBSize>0</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="119">
+  <Name>Recov50</Name>
+  <RestoreHP>50</RestoreHP>
+  <Health>80</Health>
+  <MBSize>10</MBSize>
+  <Priority>4</Priority>
+  <Self/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="120">
+  <Name>Recov80</Name>
+  <RestoreHP>80</RestoreHP>
+  <Health>80</Health>
+  <MBSize>20</MBSize>
+  <Priority>4</Priority>
+  <Self/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="121">
+  <Name>Recov120</Name>
+  <RestoreHP>120</RestoreHP>
+  <Health>40</Health>
+  <MBSize>20</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="122">
+  <Name>Recov150</Name>
+  <RestoreHP>150</RestoreHP>
+  <Health>60</Health>
+  <MBSize>30</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="123">
+  <Name>Recov200</Name>
+  <RestoreHP>200</RestoreHP>
+  <Health>90</Health>
+  <MBSize>40</MBSize>
+  <Priority>2</Priority>
+  <Self/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="124">
+  <Name>Recov300</Name>
+  <RestoreHP>300</RestoreHP>
+  <Health>20</Health>
+  <MBSize>40</MBSize>
+  <Priority>2</Priority>
+  <Self/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="239">
+  <Name>Dfrag50</Name>
+  <RestoreChip target="next">50</RestoreChip>
+  <Health>50</Health>
+  <MBSize>10</MBSize>
+  <Priority>6</Priority>
+  <Self/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="240">
+  <Name>Dfrag100</Name>
+  <RestoreChip target="next">100</RestoreChip>
+  <Health>100</Health>
+  <MBSize>20</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="241">
+  <Name>Dfrag150</Name>
+  <RestoreChip target="next">150</RestoreChip>
+  <Health>150</Health>
+  <MBSize>30</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="322">
+  <Name>VampBit1</Name>
+  <Damage>50</Damage>
+  <Element>Dark</Element>
+  <RestoreHP>Absorb</RestoreHP>
+  <Health>60</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>4</Priority>
+  <Melee/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="323">
+  <Name>VampBit2</Name>
+  <Damage>80</Damage>
+  <Element>Dark</Element>
+  <RestoreHP>Absorb</RestoreHP>
+  <Health>80</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="324">
+  <Name>VampBit3</Name>
+  <Damage>150</Damage>
+  <Element>Dark</Element>
+  <RestoreHP>Absorb</RestoreHP>
+  <Health>80</Health>
+  <MBSize>70</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>2</Priority>
+  <Melee/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="356">
+  <Name>HoneyPot</Name>
+  <RestoreChip activateOn="survive" target="all">30</RestoreChip>
+  <Health>150</Health>
+  <MBSize>30</MBSize>
+  <Priority>3</Priority>
+  <Obstacle/>
+  <Store>Floor</Store>
+  <Immunity>Floor</Immunity>
+  <Explode>
+	<ChangePanel>Honey</ChangePanel>
+	<Splash>surround</Splash>
+  </Explode>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="126">
+  <Name>Candle1</Name>
+  <Element>Fire</Element>
+  <RestoreHP activateOn="Survive">40</RestoreHP>
+  <Health>100</Health>
+  <MBSize>10</MBSize>
+  <Priority>3</Priority>
+  <Obstacle/>
+  <AffectPanel>Allied</AffectPanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="127">
+  <Name>Candle2</Name>
+  <Element>Fire</Element>
+  <RestoreHP activateOn="Survive">70</RestoreHP>
+  <Health>100</Health>
+  <MBSize>20</MBSize>
+  <Priority>3</Priority>
+  <Obstacle/>
+  <AffectPanel>Allied</AffectPanel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="128">
+  <Name>Candle3</Name>
+  <Element>Fire</Element>
+  <RestoreHP activateOn="Survive">100</RestoreHP>
+  <Health>100</Health>
+  <MBSize>40</MBSize>
+  <Priority>3</Priority>
+  <Obstacle/>
+  <AffectPanel>Allied</AffectPanel>
+  <ClearDebuff/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="231">
+  <Name>Totem1</Name>
+  <Damage face="front" activateOn="Survive">60</Damage>
+  <Element>Fire</Element>
+  <RestoreHP face="back" activateOn="Survive">50</RestoreHP>
+  <Health>100</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <Projectile/>
+  <Obstacle/>
+  <Counter>
+	<SwapFace/>
+        <PerHit/>
+  </Counter>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="232">
+  <Name>Totem2</Name>
+  <Damage face="front" activateOn="Survive">80</Damage>
+  <Element>Fire</Element>
+  <RestoreHP face="back" activateOn="Survive">80</RestoreHP>
+  <Health>150</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <Projectile/>
+  <Obstacle/>
+  <Counter>
+	<SwapFace/>
+        <PerHit/>
+  </Counter>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="233">
+  <Name>Totem3</Name>
+  <Damage face="front" activateOn="Survive">120</Damage>
+  <Element>Fire</Element>
+  <RestoreHP face="back" activateOn="Survive">100</RestoreHP>
+  <Health>200</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <Projectile/>
+  <Obstacle/>
+  <Counter>
+	<SwapFace/>
+        <PerHit/>
+  </Counter>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="234">
+  <Name>Fanfare</Name>
+  <Sustain target="allied">Invincible</Sustain>
+  <Health>80</Health>
+  <MBSize>30</MBSize>
+  <Priority>3</Priority>
+  <Obstacle/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="235">
+  <Name>Discord</Name>
+  <Sustain target="enemies">Confuse</Sustain>
+  <Health>150</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>5</Priority>
+  <Obstacle/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="129">
+  <Name>RockCube</Name>
+  <Health>250</Health>
+  <MBSize>10</MBSize>
+  <Priority>1</Priority>
+  <Obstacle/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="238">
+  <Name>IceCube</Name>
+  <Element>Aqua</Element>
+  <Health>200</Health>
+  <MBSize>10</MBSize>
+  <Priority>1</Priority>
+  <Obstacle/>
+  <Slide/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="236">
+  <Name>Pawn</Name>
+  <Damage activateOn="Survive">30</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>150</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>1</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <Obstacle/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="237">
+  <Name>Rook</Name>
+  <Damage activateOn="Survive">60</Damage>
+  <ChipDmg>Last</ChipDmg>
+  <Health>120</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>2</Priority>
+  <Floor/>
+  <Obstacle/>
+  <Travel>direct</Travel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="130">
+  <Name>Prism</Name>
+  <Damage activateOn="Survive">-1</Damage>
+  <Element>Sol</Element>
+  <Health>150</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <Obstacle/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="131">
+  <Name>Guardian</Name>
+  <Damage activateOn="Counter">150</Damage>
+  <Element>Sol</Element>
+  <Health>70</Health>
+  <MBSize>70</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>1</Priority>
+  <Aerial/>
+  <Obstacle/>
+  <Counter>
+	<ActivateBeforeDeath/>
+	<RemoveOwnObstacle/>
+  </Counter>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="132">
+  <Name>Wind</Name>
+  <Sustain target="enemies" power="5">Shove</Sustain>
+  <Sustain target="enemies" power="1">AccDown</Sustain>
+  <Penetration>Remove</Penetration>
+  <Health>160</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <Obstacle/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="133">
+  <Name>Fan</Name>
+  <Sustain target="enemies" power="5">Pull</Sustain>
+  <Sustain target="enemies" power="1">DodgeDown</Sustain>
+  <Penetration>Remove</Penetration>
+  <Health>180</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>5</Priority>
+  <Projectile/>
+  <Obstacle/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="134">
+  <Name>Anubis</Name>
+  <Damage>30</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Penetration>Skip</Penetration>
+  <Health>230</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Floor/>
+  <Obstacle/>
+  <AffectPanels>Enemy</AffectPanels>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="371">
+  <Name>Press1</Name>
+  <Buff power="1">DodgeUp</Buff>
+  <Health>200</Health>
+  <MBSize>0</MBSize>
+  <Priority>4</Priority>
+  <Self/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="372">
+  <Name>Press2</Name>
+  <Buff power="2">DodgeUp</Buff>
+  <Health>120</Health>
+  <MBSize>10</MBSize>
+  <Priority>4</Priority>
+  <Self/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="373">
+  <Name>Press3</Name>
+  <Buff power="3">DodgeUp</Buff>
+  <Health>120</Health>
+  <MBSize>20</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="135">
+  <Name>Invis1</Name>
+  <Buff>Invincible</Buff>
+  <Health>10</Health>
+  <MBSize>20</MBSize>
+  <Priority>6</Priority>
+  <Self/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="136">
+  <Name>Invis2</Name>
+  <Buff>Invincible</Buff>
+  <Health>20</Health>
+  <MBSize>30</MBSize>
+  <Priority>6</Priority>
+  <Self/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="137">
+  <Name>Invis3</Name>
+  <Buff>Invincible</Buff>
+  <Health>40</Health>
+  <MBSize>40</MBSize>
+  <Priority>6</Priority>
+  <Self/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="138">
+  <Name>DropDown</Name>
+  <Element>Wood</Element>
+  <Buff weakness="Aerial">Invincible</Buff>
+  <Health>60</Health>
+  <MBSize>30</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="139">
+  <Name>Popup</Name>
+  <Buff weakness="Floor">Invincible</Buff>
+  <Health>60</Health>
+  <MBSize>30</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="243">
+  <Name>Escape</Name>
+  <Buff weakness="Projectile">Invincible</Buff>
+  <Health>100</Health>
+  <MBSize>30</MBSize>
+  <Priority>2</Priority>
+  <Self/>
+  <EndVirus/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="140">
+  <Name>StoneBod</Name>
+  <Health>80</Health>
+  <MBSize>30</MBSize>
+  <Priority>1</Priority>
+  <Shield/>
+  <Counter>
+	<SetDamage>10</SetDamage>
+  </Counter>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="141">
+  <Name>Shadow1</Name>
+  <Damage activateOn="Counter">30</Damage>
+  <Element>Dark</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <Buff weakness="Rand, Sol">Invincible</Buff>
+  <Health>30</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <Stance/>
+  <Counter/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="142">
+  <Name>Shadow2</Name>
+  <Damage activateOn="Counter">40</Damage>
+  <Element>Dark</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <Buff weakness="Rand, Sol">Invincible</Buff>
+  <Health>30</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <Stance/>
+  <Counter/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="143">
+  <Name>Shadow3</Name>
+  <Damage activateOn="Counter">60</Damage>
+  <Element>Dark</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <Buff weakness="Rand, Sol">Invincible</Buff>
+  <Health>30</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <Stance/>
+  <Counter/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="374">
+  <Name>Radiance</Name>
+  <Damage activateOn="Interrupt">50</Damage>
+  <Element>Sol</Element>
+  <Debuff activateOn="Interrupt">Blind</Debuff>
+  <Health>80</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>6</Priority>
+  <Stance/>
+  <Interrupt>Melee</Interrupt>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="125">
+  <Name>AirShoes</Name>
+  <Buff>AirShoes</Buff>
+  <Health>100</Health>
+  <MBSize>20</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="144">
+  <Name>UnderSht</Name>
+  <Buff power="10">StayAbove</Buff>
+  <Health>120</Health>
+  <MBSize>20</MBSize>
+  <Priority>3</Priority>
+  <Stance/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="375">
+  <Name>UndrArmr</Name>
+  <Buff power="50">StayAbove</Buff>
+  <Health>30</Health>
+  <MBSize>50</MBSize>
+  <Priority>2</Priority>
+  <Stance/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="145">
+  <Name>Barrier</Name>
+  <Buff power="1">Block</Buff>
+  <Health>120</Health>
+  <MBSize>30</MBSize>
+  <Priority>6</Priority>
+  <Stance/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="146">
+  <Name>BblWrap</Name>
+  <Element>Aqua</Element>
+  <Buff power="1" weakness="Elec">Block</Buff>
+  <Health>90</Health>
+  <MBSize>30</MBSize>
+  <Priority>6</Priority>
+  <Stance/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="147">
+  <Name>LeafShld</Name>
+  <Element>Wood</Element>
+  <Buff power="1" weakness="Fire">Block</Buff>
+  <Health>90</Health>
+  <MBSize>30</MBSize>
+  <Priority>6</Priority>
+  <Stance/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="327">
+  <Name>Corona</Name>
+  <Element>Sol</Element>
+  <Buff power="1" weakness="Dark">Block</Buff>
+  <Health>100</Health>
+  <MBSize>30</MBSize>
+  <Priority>6</Priority>
+  <Stance/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="148">
+  <Name>AquaAura</Name>
+  <Element>Aqua</Element>
+  <Buff power="80" weakness="Elec">Block</Buff>
+  <Health>60</Health>
+  <MBSize>50</MBSize>
+  <Priority>5</Priority>
+  <Stance/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="149">
+  <Name>FireAura</Name>
+  <Element>Fire</Element>
+  <Buff power="80" weakness="Aqua">Block</Buff>
+  <Health>60</Health>
+  <MBSize>50</MBSize>
+  <Priority>5</Priority>
+  <Stance/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="150">
+  <Name>WoodAura</Name>
+  <Element>Wood</Element>
+  <Buff power="80" weakness="Fire">Block</Buff>
+  <Health>60</Health>
+  <MBSize>50</MBSize>
+  <Priority>5</Priority>
+  <Stance/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="151">
+  <Name>ElecAura</Name>
+  <Element>Elec</Element>
+  <Buff power="80" weakness="Wood">Block</Buff>
+  <Health>60</Health>
+  <MBSize>50</MBSize>
+  <Priority>5</Priority>
+  <Stance/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="152">
+  <Name>LifeAur1</Name>
+  <Buff power="60">Block</Buff>
+  <Health>60</Health>
+  <MBSize>30</MBSize>
+  <Priority>5</Priority>
+  <Stance/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="153">
+  <Name>LifeAur2</Name>
+  <Buff power="100">Block</Buff>
+  <Health>40</Health>
+  <MBSize>50</MBSize>
+  <Priority>4</Priority>
+  <Stance/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="154">
+  <Name>LifeAur3</Name>
+  <Buff power="150">Block</Buff>
+  <Health>10</Health>
+  <MBSize>60</MBSize>
+  <Priority>4</Priority>
+  <Stance/>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="155">
+  <Name>Jealousy</Name>
+  <Damage>10</Damage>
+  <ChipDmg>Smash</ChipDmg>
+  <Health>10</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>6</Priority>
+  <Projectile/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="156">
+  <Name>AntiFire</Name>
+  <Damage activateOn="Interrupt">40</Damage>
+  <Element>Fire</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>120</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Stance/>
+  <Interrupt>Fire</Interrupt>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="157">
+  <Name>AntiElec</Name>
+  <Damage activateOn="Interrupt">40</Damage>
+  <Element>Elec</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>120</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Stance/>
+  <Interrupt>Elec</Interrupt>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="158">
+  <Name>AntiWatr</Name>
+  <Damage activateOn="Interrupt">40</Damage>
+  <Element>Aqua</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>120</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Stance/>
+  <Interrupt>Aqua</Interrupt>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="159">
+  <Name>AntiDmg</Name>
+  <Damage activateOn="Counter">30</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Hits>3</Hits>
+  <Health>70</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>6</Priority>
+  <Aerial/>
+  <Shield/>
+  <Counter/>
+  <Immunity>Life</Immunity>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="160">
+  <Name>AntiSwrd</Name>
+  <Damage activateOn="Interrupt">80</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>60</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>6</Priority>
+  <Melee/>
+  <Stance/>
+  <Interrupt>Rand</Interrupt>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="242">
+  <Name>AntiAir</Name>
+  <Damage activateOn="Interrupt">120</Damage>
+  <ChipDmg>Disarm</ChipDmg>
+  <Health>80</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>5</Priority>
+  <Melee/>
+  <Stance/>
+  <Interrupt>Aerial</Interrupt>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="162">
+  <Name>AntiRecv</Name>
+  <Damage activateOn="Interrupt">-1</Damage>
+  <Element>Dark</Element>
+  <Health>100</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>6</Priority>
+  <Stance/>
+  <Interrupt>RestoreHP</Interrupt>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="161">
+  <Name>FstGauge</Name>
+  <Buff power="2.0">ChargeSpeed</Buff>
+  <Health>200</Health>
+  <MBSize>20</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="233">
+  <Name>FullCust</Name>
+  <Buff power="100">Charge</Buff>
+  <Health>50</Health>
+  <MBSize>60</MBSize>
+  <Priority>2</Priority>
+  <Self/>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="163">
+  <Name>Atk+10</Name>
+  <BoostChip>10</BoostChip>
+  <Health>160</Health>
+  <MBSize>10</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="164">
+  <Name>Atk+20</Name>
+  <BoostChip>20</BoostChip>
+  <Health>80</Health>
+  <MBSize>10</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="165">
+  <Name>Atk+30</Name>
+  <BoostChip>30</BoostChip>
+  <Health>80</Health>
+  <MBSize>20</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="166">
+  <Name>Fire+40</Name>
+  <Element>Fire</Element>
+  <BoostChip only="Fire">40</BoostChip>
+  <Health>60</Health>
+  <MBSize>20</MBSize>
+  <Priority>4</Priority>
+  <Self/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="167">
+  <Name>Aqua+40</Name>
+  <Element>Aqua</Element>
+  <BoostChip only="Aqua">40</BoostChip>
+  <Health>60</Health>
+  <MBSize>20</MBSize>
+  <Priority>4</Priority>
+  <Self/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="168">
+  <Name>Wood+40</Name>
+  <Element>Wood</Element>
+  <BoostChip only="Wood">40</BoostChip>
+  <Health>60</Health>
+  <MBSize>20</MBSize>
+  <Priority>4</Priority>
+  <Self/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="169">
+  <Name>Elec+40</Name>
+  <Element>Elec</Element>
+  <BoostChip only="Elec">40</BoostChip>
+  <Health>60</Health>
+  <MBSize>20</MBSize>
+  <Priority>4</Priority>
+  <Self/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="376">
+  <Name>Sol+50</Name>
+  <Element>Sol</Element>
+  <BoostChip only="Sol">50</BoostChip>
+  <Health>80</Health>
+  <MBSize>30</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="377">
+  <Name>Dark+50</Name>
+  <Element>Dark</Element>
+  <BoostChip only="Dark">50</BoostChip>
+  <Health>80</Health>
+  <MBSize>30</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="170">
+  <Name>Navi+20</Name>
+  <BoostNavi>20</BoostNavi>
+  <Health>60</Health>
+  <MBSize>10</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="171">
+  <Name>Navi+40</Name>
+  <BoostNavi>40</BoostNavi>
+  <Health>40</Health>
+  <MBSize>20</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="262">
+  <Name>Battery</Name>
+  <Element>Sol</Element>
+  <Buff power="1">Taiyoh</Buff>
+  <Health>200</Health>
+  <MBSize>0</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Battery>2.5</Battery>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="263">
+  <Name>DoublBat</Name>
+  <Element>Sol</Element>
+  <Buff power="2">Taiyoh</Buff>
+  <Health>150</Health>
+  <MBSize>10</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Battery>2.0</Battery>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="264">
+  <Name>TriplBat</Name>
+  <Element>Sol</Element>
+  <Buff power="3">Taiyoh</Buff>
+  <Health>80</Health>
+  <MBSize>10</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Battery>1.5</Battery>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="265">
+  <Name>QuadBatt</Name>
+  <Element>Sol</Element>
+  <Buff power="4">Taiyoh</Buff>
+  <Health>80</Health>
+  <MBSize>20</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Battery>1.2</Battery>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="266">
+  <Name>QuintBat</Name>
+  <Element>Sol</Element>
+  <Buff power="5">Taiyoh</Buff>
+  <Health>50</Health>
+  <MBSize>30</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Battery>0.5</Battery>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="267">
+  <Name>ChaosBat</Name>
+  <Element>Dark</Element>
+  <GaugeDrain>RandRemain</GaugeDrain>
+  <Health>100</Health>
+  <MBSize>40</MBSize>
+  <Priority>3</Priority>
+  <Battery reqLens="Dark">0.5</Battery>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="268">
+  <Name>AstroBat</Name>
+  <Buff>GaugeFreeze</Buff>
+  <Health>300</Health>
+  <MBSize>30</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Battery reqLens="Star" spend="false">1.5</Battery>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="269">
+  <Name>Infinity</Name>
+  <Buff>UncapGauge</Buff>
+  <Health>50</Health>
+  <MBSize>40</MBSize>
+  <Priority>1</Priority>
+  <Self/>
+  <Battery spend="false">1.0</Battery>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="254">
+  <Name>SolLens</Name>
+  <Element>Sol</Element>
+  <Health>200</Health>
+  <MBSize>20</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Lens>Blind</Lens>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="255">
+  <Name>LunaLens</Name>
+  <Health>250</Health>
+  <MBSize>10</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Lens reqBuff="Lunacy">Stun</Lens>
+  <Lens reqBuff="Lunacy" power="30">BoostChip</Lens>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="256">
+  <Name>FlameLns</Name>
+  <Element>Fire</Element>
+  <Health>150</Health>
+  <MBSize>20</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Lens group="ChipDmg">All</Lens>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="257">
+  <Name>FrostLns</Name>
+  <Element>Aqua</Element>
+  <Health>150</Health>
+  <MBSize>20</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Lens>Freeze</Lens>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="258">
+  <Name>EarthLns</Name>
+  <Element>Wood</Element>
+  <Health>150</Health>
+  <MBSize>20</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Lens group="RestoreHP">Absorb</Lens>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="259">
+  <Name>CloudLns</Name>
+  <Element>Elec</Element>
+  <Health>150</Health>
+  <MBSize>20</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Lens group="Penetration">Break</Lens>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="260">
+  <Name>DarkLens</Name>
+  <Element>Dark</Element>
+  <Health>200</Health>
+  <MBSize>20</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Lens reqBatt="Chaos">Drain</Lens>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="261">
+  <Name>StarLens</Name>
+  <Element>Life</Element>
+  <Health>300</Health>
+  <MBSize>30</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Lens reqBatt="Astro">Normal</Lens>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="270">
+  <Name>Fighter</Name>
+  <Health>50</Health>
+  <MBSize>0</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Frame>
+	<Damage>10</Damage>
+	<Projectile/>
+	<Accuracy>1</Accuracy>
+	<Priority>3</Priority>
+	<BoostChip>-20</BoostChip>
+  </Frame>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="271">
+  <Name>Knight</Name>
+  <Health>80</Health>
+  <MBSize>10</MBSize>
+  <Priority>4</Priority>
+  <Self/>
+  <Frame>
+	<Melee/>
+	<Accuracy>2</Accuracy>
+	<Priority>4</Priority>
+	<Splash>vertical</Splash>
+	<onMiss>
+		<Damage>20</Damage>
+		<Projectile/>
+		<BoostChip>-20</BoostChip>
+	</onMiss>
+	<Efficiency>1.0</Efficiency>
+  </Frame>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="272">
+  <Name>Crusader</Name>
+  <Health>120</Health>
+  <MBSize>30</MBSize>
+  <Priority>4</Priority>
+  <Self/>
+  <Frame>
+	<Melee/>
+	<Accuracy>3</Accuracy>
+	<Priority>4</Priority>
+	<Splash>vertical</Splash>
+	<BoostChip>10</BoostChip>
+	<onMiss>
+		<Damage>30</Damage>
+		<Projectile/>
+		<BoostChip>-20</BoostChip>
+	</onMiss>
+	<Efficiency>1.0</Efficiency>
+  </Frame>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="273">
+  <Name>Dragoon</Name>
+  <Element>Sol</Element>
+  <Health>160</Health>
+  <MBSize>40</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Frame>
+	<Melee/>
+	<Accuracy>4</Accuracy>
+	<Priority>5</Priority>
+	<Splash>lifeswrd</Splash>
+	<BoostChip>20</BoostChip>
+	<onMiss>
+		<Damage>50</Damage>
+		<Projectile/>
+		<BoostChip>-20</BoostChip>
+	</onMiss>
+	<Efficiency>1.0</Efficiency>
+  </Frame>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="274">
+  <Name>Axel</Name>
+  <Health>50</Health>
+  <MBSize>0</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Frame>
+	<Melee/>
+	<Interrupt>Melee</Interrupt>
+	<Accuracy>3</Accuracy>
+	<Priority>3</Priority>
+	<Splash target="self">surround</Splash>
+	<Placement>horizontal</Placement>
+	<Efficiency>0.5</Efficiency>
+  </Frame>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="275">
+  <Name>Vortex</Name>
+  <Health>80</Health>
+  <MBSize>10</MBSize>
+  <Priority>2</Priority>
+  <Self/>
+  <Frame>
+	<Melee/>
+	<Interrupt>Melee</Interrupt>
+	<Accuracy>4</Accuracy>
+	<Priority>2</Priority>
+	<Splash target="self">surround</Splash>
+	<Placement>cardinal</Placement>
+	<Efficiency hits="2">0.4</Efficiency>
+  </Frame>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="276">
+  <Name>Cyclone</Name>
+  <Health>120</Health>
+  <MBSize>30</MBSize>
+  <Priority>2</Priority>
+  <Self/>
+  <Frame>
+	<Hits>2</Hits>
+	<Melee/>
+	<Interrupt>Melee</Interrupt>
+	<Accuracy>4</Accuracy>
+	<Priority>2</Priority>
+	<Splash target="self">surround</Splash>
+	<Efficiency hits="3">0.3</Efficiency>
+  </Frame>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="277">
+  <Name>Tempest</Name>
+  <Element>Elec</Element>
+  <Health>160</Health>
+  <MBSize>40</MBSize>
+  <Priority>1</Priority>
+  <Self/>
+  <Frame>
+	<Hits>2</Hits>
+	<Melee/>
+	<Interrupt>Melee</Interrupt>
+	<Accuracy>5</Accuracy>
+	<Priority>1</Priority>
+	<Splash range="2" target="self">surround</Splash>
+	<Efficiency hits="4">0.3</Efficiency>
+  </Frame>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="278">
+  <Name>Fencer</Name>
+  <Health>50</Health>
+  <MBSize>0</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Frame>
+	<ChipDmg>Rand</ChipDmg>
+	<Melee/>
+	<Accuracy>1</Accuracy>
+	<Priority>3</Priority>
+	<Efficiency>0.8</Efficiency>
+  </Frame>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="279">
+  <Name>Duelist</Name>
+  <Health>80</Health>
+  <MBSize>10</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Frame>
+	<ChipDmg>Rand</ChipDmg>
+	<Melee/>
+	<Accuracy>2</Accuracy>
+	<Priority>3</Priority>
+	<Efficiency>1.0</Efficiency>
+  </Frame>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="280">
+  <Name>Shinobi</Name>
+  <Health>120</Health>
+  <MBSize>20</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Frame>
+	<ChipDmg>Rand</ChipDmg>
+	<Melee/>
+	<Splash>behind</Splash>
+	<Accuracy>2</Accuracy>
+	<Priority>5</Priority>
+	<Efficiency>1.1</Efficiency>
+  </Frame>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="281">
+  <Name>Samurai</Name>
+  <Element>Fire</Element>
+  <Health>160</Health>
+  <MBSize>30</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Frame>
+	<ChipDmg>Rand</ChipDmg>
+	<Melee/>
+	<Splash range="2">behind</Splash>
+	<Placement range="5">behind</Placement>
+	<Accuracy>3</Accuracy>
+	<Priority>5</Priority>
+	<Efficiency>1.25</Efficiency>
+  </Frame>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="282">
+  <Name>Spear</Name>
+  <Health>50</Health>
+  <MBSize>0</MBSize>
+  <Priority>2</Priority>
+  <Self/>
+  <Frame>
+	<Damage>10</Damage>
+	<Shove>1</Shove>
+	<Melee/>
+	<Accuracy>1</Accuracy>
+	<Priority>2</Priority>
+	<Cost>0.25</Cost>
+  </Frame>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="283">
+  <Name>Pike</Name>
+  <Health>80</Health>
+  <MBSize>20</MBSize>
+  <Priority>4</Priority>
+  <Self/>
+  <Frame>
+	<Damage>50</Damage>
+	<Shove>1</Shove>
+	<Penetration>Pierce</Penetration>
+	<Melee/>
+	<Accuracy>1</Accuracy>
+	<Priority>4</Priority>
+	<Cost>0.25</Cost>
+  </Frame>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="284">
+  <Name>Javelin</Name>
+  <Health>120</Health>
+  <MBSize>30</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Frame>
+	<Damage>50</Damage>
+	<Shove>1</Shove>
+	<Penetration>Pierce</Penetration>
+	<Debuff>Stun</Debuff>
+	<Melee/>
+	<Accuracy>1</Accuracy>
+	<Priority>5</Priority>
+	<Cost>0.25</Cost>
+  </Frame>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="285">
+  <Name>Phalanx</Name>
+  <Element>Wood</Element>
+  <Health>160</Health>
+  <MBSize>40</MBSize>
+  <Priority>6</Priority>
+  <Self/>
+  <Frame>
+	<Damage>50</Damage>
+	<Shove>1</Shove>
+	<Penetration>Break</Penetration>
+	<Debuff>Stun</Debuff>
+	<Melee/>
+	<Accuracy>1</Accuracy>
+	<Priority>6</Priority>
+	<Cost>0.25</Cost>
+  </Frame>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="286">
+  <Name>Knife</Name>
+  <Health>50</Health>
+  <MBSize>0</MBSize>
+  <Priority>4</Priority>
+  <Self/>
+  <Frame>
+	<Damage>10</Damage>
+	<Hits>3</Hits>
+	<BoostChip>-100</BoostChip>
+	<Projectile/>
+	<Meteor/>
+	<Accuracy>1</Accuracy>
+	<Priority>4</Priority>
+	<Efficiency hitsPer="2">0.1</Efficiency>
+  </Frame>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="287">
+  <Name>Dagger</Name>
+  <Health>80</Health>
+  <MBSize>10</MBSize>
+  <Priority>4</Priority>
+  <Self/>
+  <Frame>
+	<Damage>20</Damage>
+	<Hits>3</Hits>
+	<BoostChip>-50</BoostChip>
+	<Projectile/>
+	<Meteor/>
+	<Accuracy>2</Accuracy>
+	<Priority>4</Priority>
+	<Efficiency hitsPer="3">0.1</Efficiency>
+  </Frame>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="288">
+  <Name>Gradius</Name>
+  <Health>120</Health>
+  <MBSize>30</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Frame>
+	<Damage>30</Damage>
+	<Hits>3</Hits>
+	<BoostChip>-30</BoostChip>
+	<Projectile/>
+	<Meteor/>
+	<Accuracy>2</Accuracy>
+	<Priority>5</Priority>
+	<Efficiency hitsPer="4">0.1</Efficiency>
+  </Frame>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="289">
+  <Name>Calamity</Name>
+  <Element>Aqua</Element>
+  <Health>160</Health>
+  <MBSize>50</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Frame>
+	<Damage>40</Damage>
+	<Hits>3</Hits>
+	<Projectile/>
+	<Meteor/>
+	<Accuracy>3</Accuracy>
+	<Priority>5</Priority>
+	<Efficiency hitsPer="5">0.1</Efficiency>
+  </Frame>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="296">
+  <Name>Quiver</Name>
+  <Health>50</Health>
+  <MBSize>0</MBSize>
+  <Priority>1</Priority>
+  <Self/>
+  <Frame>
+	<Aerial/>
+	<Accuracy>1</Accuracy>
+	<Priority>1</Priority>
+	<Placement>Gift</Placement>
+	<Efficiency>0.2</Efficiency>
+	<FullDrain/>
+  </Frame>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="297">
+  <Name>Archer</Name>
+  <Health>80</Health>
+  <MBSize>10</MBSize>
+  <Priority>2</Priority>
+  <Self/>
+  <Frame>
+	<Aerial/>
+	<Accuracy>3</Accuracy>
+	<Priority>2</Priority>
+	<Placement>Gift</Placement>
+	<Efficiency mult="2.0">0.2</Efficiency>
+	<FullDrain/>
+  </Frame>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="298">
+  <Name>Trebucht</Name>
+  <Health>120</Health>
+  <MBSize>20</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <Frame>
+	<Aerial/>
+	<Crack/>
+	<Accuracy>3</Accuracy>
+	<Priority>3</Priority>
+	<Placement>Gift</Placement>
+	<Efficiency mult="3.0">0.25</Efficiency>
+	<FullDrain/>
+  </Frame>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="299">
+  <Name>Missile</Name>
+  <Health>200</Health>
+  <MBSize>40</MBSize>
+  <Priority>4</Priority>
+  <Self/>
+  <Frame>
+	<Aerial/>
+	<Crack>cardinal</Crack>
+	<Accuracy>5</Accuracy>
+	<Priority>4</Priority>
+	<Placement>Gift</Placement>
+	<Efficiency mult="5.0">0.25</Efficiency>
+	<FullDrain/>
+  </Frame>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="290">
+  <Name>Otorange</Name>
+  <Health>120</Health>
+  <MBSize>30</MBSize>
+  <Priority>2</Priority>
+  <Self/>
+  <Frame>
+	<Damage bonusFrom="Splash">60</Damage>
+	<Debuff activateOn="Gun">Stun</Debuff>
+	<Debuff activateOn="Splash, Gun">Confuse</Debuff>
+	<Projectile/>
+	<Splash activateOn="Obstacle">surround</Splash>
+	<Accuracy>2</Accuracy>
+	<Priority>2</Priority>
+	<Cost>0.2</Cost>
+  </Frame>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="291">
+  <Name>Shield</Name>
+  <Health>200</Health>
+  <MBSize>30</MBSize>
+  <Priority>1</Priority>
+  <Self/>
+  <Frame>
+	<DelayAttack/>
+	<MakeObstacle/>
+	<Efficiency>1.0</Efficiency>
+	<ConvertToChipHP/>
+  </Frame>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="292">
+  <Name>Juggler</Name>
+  <Health>120</Health>
+  <MBSize>30</MBSize>
+  <Priority>2</Priority>
+  <Self/>
+  <Frame>
+	<Damage activateOn="Survive">80</Damage>
+	<Penetration>Skip</Penetration>
+	<Aerial/>
+	<Accuracy>4</Accuracy>
+	<Priority>2</Priority>
+	<Placement>Gift</Placement>
+	<BoostObstacle group="Penetration">Skip</BoostObstacle>
+	<Cost>0.2</Cost>
+  </Frame>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="295">
+  <Name>Phantom</Name>
+  <Element>Dark</Element>
+  <Health>250</Health>
+  <MBSize>50</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <Frame>
+	<Melee/>
+	<Accuracy>5</Accuracy>
+	<Priority>5</Priority>
+	<Splash>lifeswrd</Splash>
+	<BoostChip>40</BoostChip>
+	<Penalty>Dark</Penalty>
+	<onMiss>
+		<Damage>70</Damage>
+		<Projectile/>
+		<BoostChip>-20</BoostChip>
+		<DoublePenalty/>
+	</onMiss>
+	<ChangePanel>Swamp</ChangePanel>
+	<Efficiency reqLens="Dark" reqBatt="Chaos">1.0</Efficiency>
+  </Frame>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="293">
+  <Name>Stalker</Name>
+  <Health>120</Health>
+  <MBSize>30</MBSize>
+  <Priority>6</Priority>
+  <Self/>
+  <Frame>
+	<Projectile/>
+	<AutoHit/>
+	<Penetration activateOn="Gun">Skip</Penetration>
+	<Accuracy>6</Accuracy>
+	<Priority>6</Priority>
+	<Cost>0.2</Cost>
+  </Frame>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="294">
+  <Name>Wizard</Name>
+  <Health>120</Health>
+  <MBSize>30</MBSize>
+  <Priority>4</Priority>
+  <Self/>
+  <Frame>
+	<Projectile/>
+	<TargetAll/>
+	<Accuracy>4</Accuracy>
+	<Priority>4</Priority>
+	<Cost hits="enemyCount">0.1</Cost>
+  </Frame>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="300">
+  <Name>Napalm</Name>
+  <Damage>10</Damage>
+  <Element>Fire</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>150</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>3</Priority>
+  <Aerial/>
+  <ChangePanel>Lava</ChangePanel>
+  <Splash>cardinal</Splash>
+  <Grenade>50</Grenade>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="301">
+  <Name>Sanitize</Name>
+  <Charge perPanel="Swamp">25</Charge>
+  <Health>250</Health>
+  <MBSize>20</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <ChangePanel affectPanel="Swamp, Lava, Honey">Basic</ChangePanel>
+  <Grenade>50</Grenade>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="302">
+  <Name>FlashBom</Name>
+  <Damage>20</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Debuff>Blind</Debuff>
+  <Health>200</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>5</Priority>
+  <Aerial/>
+  <Splash>field</Splash>
+  <Grenade>50</Grenade>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="303">
+  <Name>ScanBomb</Name>
+  <ChipDmg>All</ChipDmg>
+  <Penetration grief="true">Remove</Penetration>
+  <Health>250</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>3</Priority>
+  <Aerial/>
+  <RemoveTraps/>
+  <Grenade>50</Grenade>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="304">
+  <Name>Sunrise</Name>
+  <Damage>10</Damage>
+  <Element>Sol</Element>
+  <ChipDmg>All</ChipDmg>
+  <AddLight>4</AddLight>
+  <Health>100</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>3</Priority>
+  <Aerial/>
+  <Grenade>50</Grenade>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="305">
+  <Name>Nitemare</Name>
+  <Damage>40</Damage>
+  <Element>Dark</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>100</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>2</Priority>
+  <Aerial/>
+  <Splash deliv="Floor" range="10">cardinal</Splash>
+  <Grenade>50</Grenade>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="306">
+  <Name>Pineappl</Name>
+  <Damage bonusMultPer="0.05" bonusFrom="Gauge">10</Damage>
+  <Element>Sol</Element>
+  <Hits bonusMultPer="0.5" bonusFrom="UV">1</Hits>
+  <ChipDmg>All</ChipDmg>
+  <Health>150</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>3</Priority>
+  <Aerial/>
+  <FullDrain/>
+  <Grenade>50</Grenade>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="331">
+  <Name>VoidCann</Name>
+  <Damage>100</Damage>
+  <Element>Dark</Element>
+  <Buff>Invincible</Buff>
+  <Health>30</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Projectile/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="333">
+  <Name>PoisSprd</Name>
+  <Damage>70</Damage>
+  <Element>Dark</Element>
+  <ChipDmg>Last</ChipDmg>
+  <Debuff>Blind</Debuff>
+  <Health>150</Health>
+  <MBSize>70</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>2</Priority>
+  <Projectile/>
+  <Splash>surround</Splash>
+  <ChangePanel splash="surround">Swamp</ChangePanel>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="336">
+  <Name>CyberElf</Name>
+  <Element>Dark</Element>
+  <Buff onProc="SD">Revive</Buff>
+  <Health>10</Health>
+  <MBSize>50</MBSize>
+  <Priority>1</Priority>
+  <Stance/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="334">
+  <Name>Queen</Name>
+  <Damage activateOn="Survive">150</Damage>
+  <Element>Dark</Element>
+  <Health>300</Health>
+  <MBSize>70</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>4</Priority>
+  <Floor/>
+  <Obstacle/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="335">
+  <Name>DarkAura</Name>
+  <Element>Dark</Element>
+  <Buff power="150" weakness="Sol">Block</Buff>
+  <Health>100</Health>
+  <MBSize>80</MBSize>
+  <Priority>5</Priority>
+  <Stance/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="172">
+  <Name>BgRedWav</Name>
+  <Damage>90</Damage>
+  <Element>Fire</Element>
+  <ChipDmg>All</ChipDmg>
+  <Shove>6</Shove>
+  <Health>10</Health>
+  <MBSize>80</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Floor/>
+  <Splash>tidal</Splash>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="173">
+  <Name>FreezBom</Name>
+  <Damage>40</Damage>
+  <Element>Aqua</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>250</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>4</Priority>
+  <Aerial/>
+  <Freeze/>
+  <Splash deliv="Floor">cardinal</Splash>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="174">
+  <Name>Sparker</Name>
+  <Damage>50</Damage>
+  <Element>Elec</Element>
+  <ChipDmg>All</ChipDmg>
+  <Buff power="1">Block</Buff>
+  <Health>300</Health>
+  <MBSize>70</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <Stance/>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="175">
+  <Name>GaiaSwrd</Name>
+  <Damage bonusDmg="Copy" bonusFrom="NextChips">100</Damage>
+  <Element>Wood</Element>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>90</Health>
+  <MBSize>70</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>2</Priority>
+  <Melee/>
+  <Splash>vertical</Splash>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="176">
+  <Name>BlkBomb</Name>
+  <Damage activateOn="Counter">60</Damage>
+  <Element>Fire</Element>
+  <ChipDmg>All</ChipDmg>
+  <Health>300</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>3</Priority>
+  <Aerial/>
+  <Obstacle/>
+  <AffectPanel>Enemy</AffectPanel>
+  <Immunity>Fire</Immunity>
+  <Counter>
+	<ReactToElement>Fire</ReactToElement>
+	<RemoveOwnObstacle/>
+  </Counter>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="345">
+  <Name>PwrSurge</Name>
+  <Damage bonusMultPer=".15" bonusFrom="Gauge">10</Damage>
+  <Element>Elec</Element>
+  <Health>200</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>5</Priority>
+  <Floor/>
+  <Travel>direct</Travel>
+  <FullDrain/>
+  <Recoil>
+	<Damage>50</Damage>
+	<Debuff>Stun</Debuff>
+	<Condition minAmount="100">Gauge</Condition>
+  </Recoil>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="346">
+  <Name>DireRoot</Name>
+  <Damage>120</Damage>
+  <Element>Wood</Element>
+  <Penetration>Skip</Penetration>
+  <RestoreHP>Absorb</RestoreHP>
+  <Health>250</Health>
+  <MBSize>40</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>4</Priority>
+  <Floor/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="378">
+  <Name>StarBarr</Name>
+  <Element>Life</Element>
+  <Buff power="4" weakness="adopt">Block</Buff>
+  <Health>20</Health>
+  <MBSize>70</MBSize>
+  <Priority>6</Priority>
+  <Stance/>
+  <ChangeElement minUV="5">Sol</ChangeElement>
+  <ChangeElement maxUV="2">Dark</ChangeElement>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="232">
+  <Name>FoldrBak</Name>
+  <RestoreChip target="deck">300</RestoreChip>
+  <Health>10</Health>
+  <MBSize>80</MBSize>
+  <Priority>5</Priority>
+  <Self/>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="234">
+  <Name>Subtank</Name>
+  <RestoreHP bonusMultPer="0.5" bonusFrom="Gauge">10</RestoreHP>
+  <Health>80</Health>
+  <MBSize>50</MBSize>
+  <Priority>3</Priority>
+  <Self/>
+  <FullDrain/>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="177">
+  <Name>FtrSword</Name>
+  <Damage>150</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>150</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>5</Priority>
+  <Melee/>
+  <Splash range="2">behind</Splash>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="178">
+  <Name>KngtSwrd</Name>
+  <Damage>180</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>130</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <Splash range="2">behind</Splash>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="179">
+  <Name>HeroSwrd</Name>
+  <Damage>250</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>110</Health>
+  <MBSize>70</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>4</Priority>
+  <Melee/>
+  <Splash range="2">behind</Splash>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="180">
+  <Name>Meteors</Name>
+  <Damage>60</Damage>
+  <Element>Fire</Element>
+  <Hits>6</Hits>
+  <Health>70</Health>
+  <MBSize>80</MBSize>
+  <Accuracy>1</Accuracy>
+  <Priority>3</Priority>
+  <Aerial/>
+  <Meteor/>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="328">
+  <Name>BlueMoon</Name>
+  <Damage boostFrom="Lunacy">160</Damage>
+  <ChipDmg>Last</ChipDmg>
+  <Health>200</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>2</Priority>
+  <Aerial/>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="329">
+  <Name>RedSun</Name>
+  <Damage>80</Damage>
+  <Element>Sol</Element>
+  <Hits bonusMultPer="1" bonusFrom="UV">1</Hits>
+  <Health>90</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>5</Priority>
+  <Aerial/>
+  <Meteor/>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="330">
+  <Name>DeltEdge</Name>
+  <Damage>70</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Hits>3</Hits>
+  <Health>90</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>3</Accuracy>
+  <Priority>5</Priority>
+  <Melee/>
+  <MeleeOffset>delta</MeleeOffset>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="379">
+  <Name>MetrStge</Name>
+  <Element>Life</Element>
+  <Hits>9</Hits>
+  <Health>30</Health>
+  <MBSize>60</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>4</Priority>
+  <Aerial/>
+  <AffectPanel>Enemy</AffectPanel>
+  <RollTable>MeteorPanels</RollTable>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="181">
+  <Name>Poltrgst</Name>
+  <Damage>120</Damage>
+  <Penetration>Throw</Penetration>
+  <Health>160</Health>
+  <MBSize>50</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>4</Priority>
+  <Projectile/>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="349">
+  <Name>FuryBust</Name>
+  <Damage>30</Damage>
+  <Hits>5</Hits>
+  <Health>250</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>6</Accuracy>
+  <Priority>5</Priority>
+  <Projectile/>
+  <Meteor/>
+  <RequireLunacy/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="350">
+  <Name>Rippler</Name>
+  <Damage>100</Damage>
+  <ChipDmg>Last</ChipDmg>
+  <Health>200</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>3</Priority>
+  <Projectile/>
+  <RequireLunacy/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="351">
+  <Name>EchoBomb</Name>
+  <Damage>80</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Health>150</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Aerial/>
+  <Splash range="3">surround</Splash>
+  <RequireLunacy/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="352">
+  <Name>Horizon</Name>
+  <Damage>150</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Health>200</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>4</Priority>
+  <Melee/>
+  <Splash range="5">vertical</Splash>
+  <RequireLunacy/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="353">
+  <Name>Moondish</Name>
+  <Buff power="100">Regen</Buff>
+  <Health>300</Health>
+  <MBSize>10</MBSize>
+  <Priority>3</Priority>
+  <Stance/>
+  <RequireLunacy/>
+  <Rarity>5</Rarity>
+</Chip>
+<Chip staticID="182">
+  <Name>PanlGrab</Name>
+  <Damage>10</Damage>
+  <Health>120</Health>
+  <MBSize>0</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>5</Priority>
+  <Aerial/>
+  <Steal>Front</Steal>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="183">
+  <Name>AreaGrab</Name>
+  <Damage>10</Damage>
+  <Health>120</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>5</Priority>
+  <Aerial/>
+  <Steal>FrontRow</Steal>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="209">
+  <Name>MetaGel1</Name>
+  <Damage>30</Damage>
+  <Element>Aqua</Element>
+  <Health>60</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>2</Priority>
+  <Aerial/>
+  <Steal>FrontRow</Steal>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="210">
+  <Name>MetaGel2</Name>
+  <Damage>50</Damage>
+  <Element>Aqua</Element>
+  <Health>90</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>2</Priority>
+  <Aerial/>
+  <Steal>FrontRow</Steal>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="211">
+  <Name>MetaGel3</Name>
+  <Damage>70</Damage>
+  <Element>Aqua</Element>
+  <Health>150</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>4</Accuracy>
+  <Priority>2</Priority>
+  <Aerial/>
+  <Steal>FrontRow</Steal>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="354">
+  <Name>HonyDrop</Name>
+  <Damage>50</Damage>
+  <Debuff>Halt</Debuff>
+  <Health>80</Health>
+  <MBSize>20</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Aerial/>
+  <Steal>Front</Steal>
+  <ChangePanel>Honey</ChangePanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="355">
+  <Name>HonySpil</Name>
+  <Damage>50</Damage>
+  <Debuff>Halt</Debuff>
+  <Health>40</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Aerial/>
+  <Steal range="2">Front</Steal>
+  <ChangePanel>Honey</ChangePanel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="204">
+  <Name>HeatPanl</Name>
+  <Element>Fire</Element>
+  <Health>50</Health>
+  <MBSize>0</MBSize>
+  <Priority>3</Priority>
+  <Floor/>
+  <SelectAny/>
+  <ChangePanel>Heat</ChangePanel>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="201">
+  <Name>SeaPanel</Name>
+  <Element>Aqua</Element>
+  <Health>50</Health>
+  <MBSize>0</MBSize>
+  <Priority>3</Priority>
+  <Floor/>
+  <SelectAny/>
+  <ChangePanel>Sea</ChangePanel>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="199">
+  <Name>GrassPnl</Name>
+  <Element>Wood</Element>
+  <Health>50</Health>
+  <MBSize>0</MBSize>
+  <Priority>3</Priority>
+  <Floor/>
+  <SelectAny/>
+  <ChangePanel>Grass</ChangePanel>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="202">
+  <Name>ChargPnl</Name>
+  <Element>Elec</Element>
+  <Health>50</Health>
+  <MBSize>0</MBSize>
+  <Priority>3</Priority>
+  <Floor/>
+  <SelectAny/>
+  <ChangePanel>Charge</ChangePanel>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="200">
+  <Name>AlumiPnl</Name>
+  <Health>50</Health>
+  <MBSize>0</MBSize>
+  <Priority>3</Priority>
+  <Floor/>
+  <SelectAny/>
+  <ChangePanel>Metal</ChangePanel>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="198">
+  <Name>LavaPanl</Name>
+  <Element>Fire</Element>
+  <Health>50</Health>
+  <MBSize>10</MBSize>
+  <Priority>3</Priority>
+  <Floor/>
+  <SelectAny/>
+  <ChangePanel>Lava</ChangePanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="189">
+  <Name>PanlOut</Name>
+  <Damage>10</Damage>
+  <Health>30</Health>
+  <MBSize>10</MBSize>
+  <Accuracy>1</Accuracy>
+  <Priority>3</Priority>
+  <Melee/>
+  <SelectAny/>
+  <ChangePanel>Hole</ChangePanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="205">
+  <Name>HolyPanl</Name>
+  <Element>Sol</Element>
+  <Health>20</Health>
+  <MBSize>40</MBSize>
+  <Priority>3</Priority>
+  <Floor/>
+  <SelectAny/>
+  <ChangePanel>Holy</ChangePanel>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="206">
+  <Name>IceLine</Name>
+  <Element>Aqua</Element>
+  <Health>30</Health>
+  <MBSize>10</MBSize>
+  <Priority>3</Priority>
+  <Floor/>
+  <Target source="user">Row</Target>
+  <ChangePanel>Ice</ChangePanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="207">
+  <Name>MagLine</Name>
+  <Element>Elec</Element>
+  <Health>30</Health>
+  <MBSize>10</MBSize>
+  <Priority>3</Priority>
+  <Floor/>
+  <Target source="user">Row</Target>
+  <ChangePanel>Magnet</ChangePanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="208">
+  <Name>CrackOut</Name>
+  <Damage>10</Damage>
+  <Hits bonusMultPer="1" bonusFrom="TileCount">1</Hits>
+  <Health>30</Health>
+  <MBSize>30</MBSize>
+  <Accuracy>2</Accuracy>
+  <Priority>5</Priority>
+  <Floor/>
+  <Travel>direct</Travel>
+  <Projectile/>
+  <ChangePanel>Hole</ChangePanel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="190">
+  <Name>Repair</Name>
+  <Health>30</Health>
+  <MBSize>10</MBSize>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>tidal</Travel>
+  <ChangePanel>Basic</ChangePanel>
+  <Rarity>1</Rarity>
+</Chip>
+<Chip staticID="194">
+  <Name>HeatStge</Name>
+  <Element>Fire</Element>
+  <Health>10</Health>
+  <MBSize>20</MBSize>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>tidal</Travel>
+  <ChangePanel>Heat</ChangePanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="191">
+  <Name>SeaStage</Name>
+  <Element>Aqua</Element>
+  <Health>10</Health>
+  <MBSize>20</MBSize>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>tidal</Travel>
+  <ChangePanel>Sea</ChangePanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="193">
+  <Name>Desert</Name>
+  <Health>10</Health>
+  <MBSize>20</MBSize>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>tidal</Travel>
+  <ChangePanel>Sand</ChangePanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="186">
+  <Name>GrassStg</Name>
+  <Element>Wood</Element>
+  <Health>10</Health>
+  <MBSize>20</MBSize>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>tidal</Travel>
+  <ChangePanel>Grass</ChangePanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="192">
+  <Name>ChargStg</Name>
+  <Element>Elec</Element>
+  <Health>10</Health>
+  <MBSize>20</MBSize>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>tidal</Travel>
+  <ChangePanel>Charge</ChangePanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="187">
+  <Name>AlumiStg</Name>
+  <Health>10</Health>
+  <MBSize>20</MBSize>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>tidal</Travel>
+  <ChangePanel>Metal</ChangePanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="185">
+  <Name>IceStage</Name>
+  <Element>Aqua</Element>
+  <Health>10</Health>
+  <MBSize>20</MBSize>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>tidal</Travel>
+  <ChangePanel>Ice</ChangePanel>
+  <Rarity>2</Rarity>
+</Chip>
+<Chip staticID="184">
+  <Name>LavaStge</Name>
+  <Element>Fire</Element>
+  <Health>10</Health>
+  <MBSize>40</MBSize>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>tidal</Travel>
+  <ChangePanel>Lava</ChangePanel>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="195">
+  <Name>Geddon1</Name>
+  <Health>10</Health>
+  <MBSize>20</MBSize>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>tidal</Travel>
+  <Crack/>
+  <Rarity>3</Rarity>
+</Chip>
+<Chip staticID="196">
+  <Name>Geddon2</Name>
+  <Health>10</Health>
+  <MBSize>30</MBSize>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>tidal</Travel>
+  <ChangePanel>Hole</ChangePanel>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="188">
+  <Name>Geddon3</Name>
+  <Element>Dark</Element>
+  <Health>10</Health>
+  <MBSize>30</MBSize>
+  <Priority>2</Priority>
+  <Floor/>
+  <Travel>tidal</Travel>
+  <ChangePanel>Swamp</ChangePanel>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="347">
+  <Name>DarkPrtl</Name>
+  <Element>Dark</Element>
+  <Health>10</Health>
+  <MBSize>20</MBSize>
+  <Priority>3</Priority>
+  <Obstacle/>
+  <NoTarget/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="348">
+  <Name>Beacon</Name>
+  <Element>Sol</Element>
+  <Health>10</Health>
+  <MBSize>20</MBSize>
+  <Priority>3</Priority>
+  <Obstacle/>
+  <NoTarget/>
+  <Rarity>4</Rarity>
+</Chip>
+<Chip staticID="197">
+  <Name>Sancuary</Name>
+  <Element>Sol</Element>
+  <Health>10</Health>
+  <MBSize>80</MBSize>
+  <Priority>2</Priority>
+  <Floor/>
+  <AffectPanel>Allied</AffectPanel>
+  <ChangePanel>Holy</ChangePanel>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+</Chip>
+</Library>
