@@ -1,0 +1,15 @@
+﻿Currently finished tasks:
+- Damage Calculator
+- Elemental Weakness Circle
+- Panel Weaknesses
+- Elemental Panel Changes
+
+Next Tasks:
+- Write ApplyChipDmg
+- Write ApplyNaviDmg
+
+Unassigned Tasks:
+- Core Battle Variable Handling
+- Write DialogueBox to parse messages
+- Copy and Rewrite XML File (change to vanilla values)
+- Populate Battle Variables with XML Files
