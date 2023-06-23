@@ -888,10 +888,10 @@
   <MBSize>50</MBSize>
   <Accuracy>4</Accuracy>
   <Priority>3</Priority>
+  <Melee/>
   <Rarity>4</Rarity>
   <Line2>AccB AllAdd40</Line2>
   <Line3>Bchip Attack</Line3>
-  <Melee/>
 </Chip>
 <Chip staticID="63">
   <Name>ZapRing1</Name>
@@ -2339,7 +2339,7 @@
   <Priority>6</Priority>
   <Guard>Anti</Guard>
   <RefHeal/>
-  <Interrupt>Recover</Interrupt>
+  <Interrupt>Restore</Interrupt>
   <Rarity>4</Rarity>
   <Line1>None AccS Trap???</Line1>
   <Line2>Triggers When</Line2>
@@ -2520,6 +2520,7 @@
   <Priority>2</Priority>
   <RefQueued/>
   <Melee/>
+  <Sword/>
   <GigaChip/>
   <Rarity>5</Rarity>
   <Line1>Wood AccC Rndm100</Line1>
@@ -2554,6 +2555,7 @@
   <Accuracy>3</Accuracy>
   <Priority>4</Priority>
   <Melee/>
+  <Sword/>
   <GigaChip/>
   <Rarity>5</Rarity>
   <Line2>AccC Rndm150</Line2>
@@ -2569,6 +2571,7 @@
   <Accuracy>3</Accuracy>
   <Priority>4</Priority>
   <Melee/>
+  <Sword/>
   <GigaChip/>
   <Rarity>5</Rarity>
   <Line2>AccC Rndm180</Line2>
@@ -2584,6 +2587,7 @@
   <Accuracy>3</Accuracy>
   <Priority>5</Priority>
   <Melee/>
+  <Sword/>
   <GigaChip/>
   <Rarity>5</Rarity>
   <Line2>AccC Rndm250</Line2>
@@ -2729,3 +2733,107 @@
   <Line3>Panel to Normal!</Line3>
 </Chip>
 </Library>
+
+<!-- Glossary / Documentation -->
+<!--
+	Mandatory Inclusion! These have no defaults!
+
+          <Name>: The text that will be displayed when the battlechip is referenced
+       <Display>: The information displayed under the battlechip's coloured image.
+             - "@" will parse as the word "ALL" vertically displayed in one character
+        <Health>: How much damage this chip can sustain in one battle. Typically caps at 300.
+        <MBSize>: How much the Program Deck pays to insert this chip.
+      <Priority>: The speed tier of a chip. Higher numbers act before lower numbers. Typically caps at 6.
+        <Rarity>: The general Rarity / Value of a chip. Purely aesthetic by default. Ranged from 1 to 5.
+
+	Defaulting Inclusions. These will pick for you if you don't include them.
+
+      <Accuracy>: This value is compared to the target Navi's Dodge value to determine the chance of affecting them
+             - If this is missing, the effect will automatically succeed, or defer to the Meteor and Dice tags.
+       <Element>: The element and icon displayed on this chip. Adds 6 to Priority if not None.
+             - Defaults to "None"
+	  <Hits>: How many times the attack repeats in one action.
+             - Defaults to 1
+         <Line1>: The first line in the classic Select-button description
+             - Defaults to displaying Element
+
+	Optional Inclusions. These have to be specified to do anything!
+
+        <Damage>: The amount of damage the chip will attempt to do to the target immediately upon being selected.
+       <Counter>: The amount of damage the chip will attempt to do to the target each time its Guard requirement is met. This ignores the opponent's guard.
+       <Delayed>: The amount of damage the chip will attempt to do to the target at the end of the turn if its Guard is still active.
+       <Restore>: The amount of health the chip will attempt to restore to the user immediately upon being selected.
+    <GaugeDrain>: The amount of Custom Gauge the target will lose.
+       <GaugeUp>: The amount the user's Custom Gauge will fill by.
+     <BoostChip>: The next chip's Damage, Counter, Delayed, or BoostChip will be increased by the specified amount. If this chip has an Element, they must match.
+     <BoostNavi>: The user's NaviChip Attack will be boosted by the specified amount, cumulative.
+          <Lock>: Alters the target's Dodge score by the specified amount. Raises in Bugged, Lowers in Fixed.
+     <FixedLock>: Lowers the target's Dodge score by the specified amount.
+    <BuggedLock>: Raises the target's Dodge score by the specified amount.
+
+       <ChipDmg>: How the damage dealt will also be applied to selected Battlechips. Accepts the following strings:
+             - Last: The final chip queued by the target will take damage
+             - Rand: A randomly selected queued slot, including empty ones, will take the damage
+             -  All: All of the target's queued chips will take full damage
+             - Delete: A randomly selected queued slot, including empty ones, will instantly be removed from the battle
+             - Smash: The target's Slot-In chips will be removed from the battle.
+
+       <Pierce/>: The attack will damage both the Navi and its Block
+        <Break/>: If the Block fails to nullify the damage, it will be deleted and the Navi sustains full damage.
+         <Skip/>: The attack completely ignores anything in the target's Guard slot.
+         <Stun/>: If the Navi takes damage from this, it will be unable to use its own Attack this turn.
+       <Repeat/>: If the Navi takes damage from this, it will be forced to use the same Deck Path next turn.
+
+         <Guard>: This chip will occupy or replace the user's Guard slot. It accepts the following strings:
+             - Block: The attached chip will take damage in place of the Navi it is set to
+             - Anti: This Guard waits for the specified attacks to occur and then cancels them.
+             - Buff: Fills the Guard slot with the passive effect referenced in the Buff tag
+             - Dodge: This Guard prevents both itself and the Navi from taking damage.
+             - Barrier: The Guard will nullify damage from one hit and then dispel itself.
+
+          <Buff>: The passive effect that the Guard will supply. Accepts the following strings:
+             - Float: Attacks tagged with Melee will work on HoleStg.
+             - Wind: Your Accuracy with Swords will drop but your Dodge score will rise (effects flipped in bugged)
+             - Fan: Your Accuracy with Swords will rise but your Dodge score will lower (effects flipped in bugged)
+             - Stone: All hits are reduced to 10 Damage and the chip that set this will also sustain that damage.
+             - Endure: Prevents the Navi it is attached to from dropping below 10 HP
+
+     <Interrupt>: Prevents the incoming attack type and initiates Counter. If the string is not a valid Element, it will attempt to match a tag.
+    <Activation>: Initiates the Counter when the specified attack type is matched, and then dispels itself.
+          <Aura>: The Block will nullify incoming damage if it is less than the specified amount. A Weakness will completely pierce it.
+    <Retaliate/>: Initiates the Counter every time the Guard survives a hit.
+       <OneUse/>: The chip deletes itself after attacking.
+      <Immunity>: The Guard prevents all damage from the specified attack type. "Life" can be used as a stand-in for "All 4 Elements".
+      <Weakness>: The Guard cannot prevent damage from the specified type regardless of any previously specified invincibilities.
+
+     <NeedPanel>: The action fails entirely if the panel type does not match the specified string.
+   <ChangePanel>: The action will change the battlefield to the specified panel type. Accepts the strings:
+             - Basic
+             - Lava
+             - Ice
+             - Grass
+             - Metal
+             - Swamp
+             - Hole
+
+        <Melee/>: This attack fails on HoleStg unless the AirShoes buff is active.
+        <Floor/>: This attack fails on HoleStg, but does not get into the target's personal space.
+        <Sword/>: This attack will trigger AntiSwrd and damage Shadows.
+   <IgnoreHole/>: This attack will work on HoleStg regardless of previous tags.
+
+       <Meteor/>: Every Hit will be individually rolled for success. If Accuracy is not specified, each hit has a 75% chance of succeeding.
+         <Dice/>: The attack will hit up to the amount of Hits specified, with a minimum of 1.
+
+      <RefTurn/>: The Damage, Counter, or Delayed value will be multiplied by the current Turn number.
+    <RefLostHP/>: The Damage, Counter, or Delayed value will be replaced by [MaxHP-CurHP] if the result is not 0.
+    <RefSwords/>: The Damage, Counter, or Delayed value will roll from a table that includes Sword, WideSwrd, LongSwrd, and FtrSword.
+      <RefHeal/>: The Counter value will be replaced by the Restore value of the opponent's chip
+    <RefQueued/>: The Damage, Counter, or Delayed value will add the total Damage, Counter, or Delayed values of the chips that come after it.
+   <CopyOutput/>: The Counter or Delayed value will be replaced by the total damage dealt to the target or its guard for the duration this chip's Guard was active.
+    <Stockpile/>: The Damage, Counter, or Delayed value will add how much damage the Guard has sustained during this battle, including what its Immunity shrugged off.
+   <RemoveStun/>: Sets the user's "Stunned" value to false if something else had set it to true this turn
+  <RemoveGuard/>: Empties the target's Guard slot.
+   <ThrowGuard/>: Empties all players' Guard slots and multiplies the Damage, Counter, or Delayed value by how many guard slots got emptied.
+     <GigaChip/>: Specifies that this chip is an incredibly powerful reward. Purely aesthetic by default.
+         <Line2>: The text that will occupy the middle line of the classic select-button description.
+         <Line3>: The text that will occupy the bottom line of the classic select-button description.
