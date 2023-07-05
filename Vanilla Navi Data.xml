@@ -1,0 +1,831 @@
+<Library>
+<Navi staticID="1">
+  <Name>MegaMan</Name>
+  <Display>Add50</Display>
+  <Health>500</Health>
+  <MBCap>170</MBSize>
+  <Dodge>4</Dodge>
+  <Attack>ChgShot</Attack>
+  <Damage>50</Damage>
+  <ChipDmg>Last</ChipDmg>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Rarity>5</Rarity>
+  <Line1>None AccA DodgeB</Line1>
+  <Line2>ChgShot Atk None</Line2>
+  <Line3>Left Bchip Attack</Line3>
+</Navi>
+<Navi staticID="2">
+  <Name>Roll</Name>
+  <Display>Recvr50</Display>
+  <Health>400</Health>
+  <MBCap>140</MBSize>
+  <Dodge>5</Dodge>
+  <Attack>HrtFlash</Attack>
+  <Damage>50</Damage>
+  <Restore>50</Restore>
+  <Accuracy>3</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <IgnoreHole/>
+  <Rarity>5</Rarity>
+  <Line1>None AccC DodgeA</Line1>
+  <Line2>HrtFlash Atk None</Line2>
+  <Line3>Recov50 aftr Atk</Line3>
+</Navi>
+<Navi staticID="3">
+  <Name>GutsMan</Name>
+  <Display>Break70</Display>
+  <Health>600</Health>
+  <MBCap>130</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>GutsHamr</Attack>
+  <Damage>70</Damage>
+  <Accuracy>3</Accuracy>
+  <Priority>1</Priority>
+  <Break/>
+  <Melee/>
+  <Rarity>5</Rarity>
+  <Line1>None AccC DodgeC</Line1>
+  <Line2>GutsHamr Atk None</Line2>
+  <Line3>Del Guard Bchip</Line3>
+</Navi>
+<Navi staticID="4">
+  <Name>ProtoMan</Name>
+  <Display>Rndm60</Display>
+  <Health>550</Health>
+  <MBCap>160</MBSize>
+  <Dodge>4</Dodge>
+  <Attack>SoniBoom</Attack>
+  <Damage>60</Damage>
+  <ChipDmg>Rand</ChipDmg>
+  <Accuracy>4</Accuracy>
+  <Priority>2</Priority>
+  <Sword/>
+  <Rarity>5</Rarity>
+  <Line1>None AccB DodgeB</Line1>
+  <Line2>SoniBoom Atk None</Line2>
+  <Line3>Rnd Bchp Add Atk</Line3>
+</Navi>
+<Navi staticID="5">
+  <Name>TurboMan</Name>
+  <Display>@Add20</Display>
+  <Health>550</Health>
+  <MBCap>160</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>TrbWheel</Attack>
+  <AtkElem>Fire</AtkElem>
+  <Damage>20</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Rarity>5</Rarity>
+  <Line1>None AccA DodgeC</Line1>
+  <Line2>TrbWheel Atk Fire</Line2>
+  <Line3>All Bchip Add Atk</Line3>
+</Navi>
+<Navi staticID="6">
+  <Name>Ring</Name>
+  <Display>Add20</Display>
+  <Health>450</Health>
+  <MBCap>150</MBSize>
+  <Dodge>5</Dodge>
+  <Attack>RingRang</Attack>
+  <AtkElem>Elec</AtkElem>
+  <Damage>20</Damage>
+  <Hits>2</Hits>
+  <ChipDmg>Last</ChipDmg>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <Rarity>5</Rarity>
+  <Line1>None AccB DodgeA</Line1>
+  <Line2>RingRang Atk Elec</Line2>
+  <Line3>Left Bchip Atk *2</Line3>
+</Navi>
+<Navi staticID="7">
+  <Name>BassGS</Name>
+  <Display>@Add40</Display>
+  <Health>800</Health>
+  <MBCap>170</MBSize>
+  <Dodge>4</Dodge>
+  <Attack>GsplCann</Attack>
+  <AtkElem>Fire</AtkElem>
+  <Damage>40</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <!-- <Melee/>
+       <IgnoreHole/> -->
+  <GigaChip/>
+  <Rarity>5</Rarity>
+  <Line1>None AccB DodgeB</Line1>
+  <Line2>GsplCann Atk Fire</Line2>
+  <Line3>All Bchip Add Atk</Line3>
+</Navi>
+<Navi staticID="8">
+  <Name>Bass</Name>
+  <Display>AddT20</Display>
+  <Health>700</Health>
+  <MBCap>140</MBSize>
+  <Dodge>4</Dodge>
+  <Attack>AirBurst</Attack>
+  <Damage>20</Damage>
+  <Hits>3</Hits>
+  <ChipDmg>Last</ChipDmg>
+  <Accuracy>5</Accuracy>
+  <Priority>2</Priority>
+  <Rarity>5</Rarity>
+  <Line1>None AccA DodgeB</Line1>
+  <Line2>AirBurst Atk None</Line2>
+  <Line3>Left Bchip Atk *3</Line3>
+</Navi>
+<Navi staticID="9">
+  <Name>IceMan</Name>
+  <Display>Pierce60</Display>
+  <NavElem>Aqua</NavElem>
+  <Health>500</Health>
+  <MBCap>130</MBSize>
+  <Dodge>5</Dodge>
+  <Attack>FreezTwr</Attack>
+  <Damage>60</Damage>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <Pierce/>
+  <Rarity>5</Rarity>
+  <Line1>Aqua AccB DodgeA</Line1>
+  <Line2>FreezTwr Atk Aqua</Line2>
+  <Line3>Pierce Guard</Line3>
+</Navi>
+<Navi staticID="10">
+  <Name>FireMan</Name>
+  <Display>Pierce60</Display>
+  <NavElem>Fire</NavElem>
+  <Health>500</Health>
+  <MBCap>130</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>FireArm</Attack>
+  <Damage>60</Damage>
+  <Accuracy>4</Accuracy>
+  <Priority>2</Priority>
+  <Pierce/>
+  <Rarity>5</Rarity>
+  <Line1>Fire AccB DodgeC</Line1>
+  <Line2>FireArm Atk Fire</Line2>
+  <Line3>Pierce Guard</Line3>
+</Navi>
+<Navi staticID="11">
+  <Name>ElecMan</Name>
+  <Display>@Add20</Display>
+  <NavElem>Elec</NavElem>
+  <Health>450</Health>
+  <MBCap>130</MBSize>
+  <Dodge>4</Dodge>
+  <Attack>SprkStrk</Attack>
+  <Damage>20</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Accuracy>4</Accuracy>
+  <Priority>5</Priority>
+  <Rarity>5</Rarity>
+  <Line1>Elec AccB DodgeB</Line1>
+  <Line2>SprkStrk Atk Elec</Line2>
+  <Line3>All Bchip Add Atk</Line3>
+</Navi>
+<Navi staticID="12">
+  <Name>WoodMan</Name>
+  <Display>Pierce80</Display>
+  <NavElem>Wood</NavElem>
+  <Health>600</Health>
+  <MBCap>130</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>WoodTwr</Attack>
+  <Damage>80</Damage>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <Pierce/>
+  <Floor/>
+  <Rarity>5</Rarity>
+  <Line1>Wood AccB DodgeC</Line1>
+  <Line2>WoodTwr Atk Wood</Line2>
+  <Line3>Pierce Guard</Line3>
+</Navi>
+<Navi staticID="13">
+  <Name>SkullMan</Name>
+  <Display>Norm90</Display>
+  <Health>650</Health>
+  <MBCap>150</MBSize>
+  <Dodge>4</Dodge>
+  <Attack>BoneCrsh</Attack>
+  <Damage>90</Damage>
+  <Accuracy>4</Accuracy>
+  <Priority>3</Priority>
+  <Rarity>5</Rarity>
+  <Line1>None AccB DodgeB</Line1>
+  <Line2>BoneCrsh Atk None</Line2>
+  <Line3>Navichip Attack</Line3>
+</Navi>
+<Navi staticID="14">
+  <Name>NumbrMan</Name>
+  <Display>@AddX</Display>
+  <Health>400</Health>
+  <MBCap>120</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>DiceBomb</Attack>
+  <Damage>10</Damage>
+  <Hits>6</Hits>
+  <ChipDmg>All</ChipDmg>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <Dice/>
+  <Rarity>5</Rarity>
+  <Line1>None AccB DodgeC</Line1>
+  <Line2>DiceBomb Atk None</Line2>
+  <Line3>All Bchip Atk *?</Line3>
+</Navi>
+<Navi staticID="15">
+  <Name>AirMan</Name>
+  <Display>@Add30</Display>
+  <Health>550</Health>
+  <MBCap>140</MBSize>
+  <Dodge>4</Dodge>
+  <Attack>AirShot</Attack>
+  <Damage>30</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Accuracy>3</Accuracy>
+  <Priority>1</Priority>
+  <Rarity>5</Rarity>
+  <Line1>None AccC DodgeB</Line1>
+  <Line2>AirShot Atk None</Line2>
+  <Line3>All Bchip Add Atk</Line3>
+</Navi>
+<Navi staticID="16">
+  <Name>QuickMan</Name>
+  <Display>Add30</Display>
+  <Health>450</Health>
+  <MBCap>150</MBSize>
+  <Dodge>6</Dodge>
+  <Attack>QuikBmrg</Attack>
+  <Damage>30</Damage>
+  <Hits>2</Hits>
+  <ChipDmg>Last</ChipDmg>
+  <Accuracy>5</Accuracy>
+  <Priority>6</Priority>
+  <Rarity>5</Rarity>
+  <Line1>None AccA DodgeS</Line1>
+  <Line2>QuikBmrg Atk None</Line2>
+  <Line3>Left Bchip Atk *2</Line3>
+</Navi>
+<Navi staticID="17">
+  <Name>ThunMan</Name>
+  <Display>Stun40</Display>
+  <NavElem>Elec</NavElem>
+  <Health>550</Health>
+  <MBCap>120</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>ThdrBolt</Attack>
+  <Damage>40</Damage>
+  <Accuracy>3</Accuracy>
+  <Priority>1</Priority>
+  <Stun/>
+  <Rarity>5</Rarity>
+  <Line1>Elec AccC DodgeC</Line1>
+  <Line2>ThdrBolt Atk Elec</Line2>
+  <Line3>Stun Enemy</Line3>
+</Navi>
+<Navi staticID="18">
+  <Name>GateMan</Name>
+  <Display>Norm100</Display>
+  <Health>600</Health>
+  <MBCap>130</MBSize>
+  <Dodge>4</Dodge>
+  <Attack>GateCann</Attack>
+  <Damage>100</Damage>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <Rarity>5</Rarity>
+  <Line1>None AccB DodgeB</Line1>
+  <Line2>GateCann Atk None</Line2>
+  <Line3>Navichip Attack</Line3>
+</Navi>
+<Navi staticID="19">
+  <Name>SharkMan</Name>
+  <Display>Add40</Display>
+  <NavElem>Aqua</NavElem>
+  <Health>400</Health>
+  <MBCap>120</MBSize>
+  <Dodge>5</Dodge>
+  <Attack>Fin</Attack>
+  <Damage>40</Damage>
+  <ChipDmg>Last</ChipDmg>
+  <Accuracy>3</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <Rarity>5</Rarity>
+  <Line1>Aqua AccC DodgeA</Line1>
+  <Line2>Fin Atk Aqua</Line2>
+  <Line3>Left Bchip Attack</Line3>
+</Navi>
+<Navi staticID="20">
+  <Name>ShadoMan</Name>
+  <Display>Triple20</Display>
+  <Health>450</Health>
+  <MBCap>130</MBSize>
+  <Dodge>6</Dodge>
+  <Attack>Shuriken</Attack>
+  <Damage>20</Damage>
+  <Hits>3</Hits>
+  <Accuracy>6</Accuracy>
+  <Priority>2</Priority>
+  <Rarity>5</Rarity>
+  <Line1>None AccS DodgeS</Line1>
+  <Line2>Shuriken Atk None</Line2>
+  <Line3>Navichip Atk *3</Line3>
+</Navi>
+<Navi staticID="21">
+  <Name>KnightMn</Name>
+  <Display>Break50</Display>
+  <Health>700</Health>
+  <MBCap>140</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>R.W.B.</Attack>
+  <Damage>50</Damage>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <Break/>
+  <Rarity>5</Rarity>
+  <Line1>None AccB DodgeC</Line1>
+  <Line2>R.W.B. Atk None</Line2>
+  <Line3>Del Guard Bchip</Line3>
+</Navi>
+<Navi staticID="22">
+  <Name>MagnetMn</Name>
+  <Display>Pierce60</Display>
+  <NavElem>Elec</NavElem>
+  <Health>600</Health>
+  <MBCap>120</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>MagMissl</Attack>
+  <Damage>60</Damage>
+  <Accuracy>6</Accuracy>
+  <Priority>1</Priority>
+  <!-- <Floor/> -->
+  <Rarity>5</Rarity>
+  <Line1>Elec AccS DodgeC</Line1>
+  <Line2>MagMissl Atk Elec</Line2>
+  <Line3>Pierce Guard</Line3>
+</Navi>
+<Navi staticID="23">
+  <Name>FreezeMn</Name>
+  <Display>@Add30</Display>
+  <NavElem>Aqua</NavElem>
+  <Health>500</Health>
+  <MBCap>120</MBSize>
+  <Dodge>4</Dodge>
+  <Attack>IceTwr</Attack>
+  <Damage>30</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <!-- <Floor/> -->
+  <Rarity>5</Rarity>
+  <Line1>Aqua AccA DodgeB</Line1>
+  <Line2>IceTwr Atk Aqua</Line2>
+  <Line3>All Bchip Add Atk</Line3>
+</Navi>
+<Navi staticID="24">
+  <Name>SnakeMan</Name>
+  <Display>Stun30</Display>
+  <NavElem>Wood</NavElem>
+  <Health>450</Health>
+  <MBCap>120</MBSize>
+  <Dodge>5</Dodge>
+  <Attack>SnakArow</Attack>
+  <Damage>30</Damage>
+  <Accuracy>4</Accuracy>
+  <Priority>2</Priority>
+  <Stun/>
+  <Rarity>5</Rarity>
+  <Line1>Wood AccB DodgeS</Line1>
+  <Line2>SnakArow Atk Wood</Line2>
+  <Line3>Stun Enemy</Line3>
+</Navi>
+<Navi staticID="25">
+  <Name>ToadMan</Name>
+  <Display>Stun30</Display>
+  <NavElem>Aqua</NavElem>
+  <Health>400</Health>
+  <MBCap>130</MBSize>
+  <Dodge>6</Dodge>
+  <Attack>Melody</Attack>
+  <AtkElem>Elec</AtkElem>
+  <Damage>30</Damage>
+  <Accuracy>6</Accuracy>
+  <Priority>1</Priority>
+  <Stun/>
+  <Rarity>5</Rarity>
+  <Line1>Aqua AccS DodgeS</Line1>
+  <Line2>Melody Atk Elec</Line2>
+  <Line3>Stun Enemy</Line3>
+</Navi>
+<Navi staticID="26">
+  <Name>HeatMan</Name>
+  <Display>Pierce70</Display>
+  <NavElem>Fire</NavElem>
+  <Health>650</Health>
+  <MBCap>120</MBSize>
+  <Dodge>4</Dodge>
+  <Attack>FlameTwr</Attack>
+  <Damage>70</Damage>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <Pierce/>
+  <Floor/>
+  <Rarity>5</Rarity>
+  <Line1>Fire AccB DodgeB</Line1>
+  <Line2>FlameTwr Atk Fire</Line2>
+  <Line3>Pierce Guard</Line3>
+</Navi>
+<Navi staticID="27">
+  <Name>ColorMan</Name>
+  <Display>Norm80</Display>
+  <Health>450</Health>
+  <MBCap>170</MBSize>
+  <Dodge>5</Dodge>
+  <Attack>FA-Twr</Attack>
+  <Damage>80</Damage>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Floor/>
+  <Rarity>5</Rarity>
+  <Line1>None AccA DodgeA</Line1>
+  <Line2>FA-Twr Atk None</Line2>
+  <Line3>Navichip Attack</Line3>
+</Navi>
+<Navi staticID="28">
+  <Name>MagicMan</Name>
+  <Display>Delete10</Display>
+  <NavElem>Fire</NavElem>
+  <Health>350</Health>
+  <MBCap>180</MBSize>
+  <Dodge>5</Dodge>
+  <Attack>MagiFire</Attack>
+  <Damage>10</Damage>
+  <ChipDmg prob="0.5">Delete</ChipDmg>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Rarity>5</Rarity>
+  <Line1>Fire AccA DodgeA</Line1>
+  <Line2>MagiFire Atk Fire</Line2>
+  <Line3>Del Bchp 1/2Chnce</Line3>
+</Navi>
+<Navi staticID="29">
+  <Name>FlashMan</Name>
+  <Display>Stun30</Display>
+  <NavElem>Elec</NavElem>
+  <Health>550</Health>
+  <MBCap>110</MBSize>
+  <Dodge>4</Dodge>
+  <Attack>NeonLite</Attack>
+  <Damage>30</Damage>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Stun/>
+  <Rarity>5</Rarity>
+  <Line1>Elec AccA DodgeB</Line1>
+  <Line2>NeonLite Atk Elec</Line2>
+  <Line3>Stun Enemy</Line3>
+</Navi>
+<Navi staticID="30">
+  <Name>BeastMan</Name>
+  <Display>Triple30</Display>
+  <Health>500</Health>
+  <MBCap>130</MBSize>
+  <Dodge>6</Dodge>
+  <Attack>WildRush</Attack>
+  <Damage>30</Damage>
+  <Hits>3</Hits>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <IgnoreHole/>
+  <Rarity>5</Rarity>
+  <Line1>None AccB DodgeS</Line1>
+  <Line2>WildRush Atk None</Line2>
+  <Line3>Navichip Atk *3</Line3>
+</Navi>
+<Navi staticID="31">
+  <Name>PlantMan</Name>
+  <Display>@Add20</Display>
+  <NavElem>Wood</NavElem>
+  <Health>550</Health>
+  <MBCap>110</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>YelwFlwr</Attack>
+  <Damage>20</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Rarity>5</Rarity>
+  <Line1>Wood AccA DodgeC</Line1>
+  <Line2>YelwFlwr Atk Wood</Line2>
+  <Line3>All Bchip Add Atk</Line3>
+</Navi>
+<Navi staticID="32">
+  <Name>FlameMan</Name>
+  <Display>@Add30</Display>
+  <NavElem>Fire</NavElem>
+  <Health>600</Health>
+  <MBCap>110</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>FireBrth</Attack>
+  <Damage>30</Damage>
+  <ChipDmg>All</ChipDmg>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <!-- <Melee/> -->
+  <Rarity>5</Rarity>
+  <Line1>Fire AccB DodgeC</Line1>
+  <Line2>FireBrth Atk Fire</Line2>
+  <Line3>All Bchip Add Atk</Line3>
+</Navi>
+<Navi staticID="33">
+  <Name>MetalMan</Name>
+  <Display>Break80</Display>
+  <Health>650</Health>
+  <MBCap>140</MBSize>
+  <Dodge>4</Dodge>
+  <Attack>MetlFist</Attack>
+  <Damage>80</Damage>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <Break/>
+  <Melee/>
+  <Rarity>5</Rarity>
+  <Line1>None AccB DodgeB</Line1>
+  <Line2>MetlFist Atk None</Line2>
+  <Line3>Del Guard Bchip</Line3>
+</Navi>
+<Navi staticID="34">
+  <Name>KingMan</Name>
+  <Display>@Add20</Display>
+  <Health>500</Health>
+  <MBCap>130</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>Chckmate</Attack>
+  <Damage>20</Damage>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Melee/>
+  <IgnoreHole/>
+  <Rarity>5</Rarity>
+  <Line1>None AccA DodgeC</Line1>
+  <Line2>Chckmate Atk None</Line2>
+  <Line3>All Bchip Add Atk</Line3>
+</Navi>
+<Navi staticID="35">
+  <Name>HubStyl</Name>
+  <Display>Norm20</Display>
+  <Health>200</Health>
+  <MBCap>350</MBSize>
+  <Dodge>4</Dodge>
+  <Attack>MegaBstr</Attack>
+  <Damage>20</Damage>
+  <Hits>5</Hits>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+  <Line1>None AccB DodgeB</Line1>
+  <Line2>MegaBstr Atk None</Line2>
+  <Line3>Navichip Atk *5</Line3>
+</Navi>
+<Navi staticID="36">
+  <Name>HeatGuts</Name>
+  <Display>Norm70</Display>
+  <NavElem>Fire</NavElem>
+  <Health>400</Health>
+  <MBCap>150</MBSize>
+  <Dodge>4</Dodge>
+  <Attack>FireCann</Attack>
+  <Damage>70</Damage>
+  <Accuracy>3</Accuracy>
+  <Priority>1</Priority>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+  <Line1>Fire AccC DodgeB</Line1>
+  <Line2>FireCann Atk Fire</Line2>
+  <Line3>Navichip Attack</Line3>
+</Navi>
+<Navi staticID="37">
+  <Name>ElecTeam</Name>
+  <Display>Stun30</Display>
+  <NavElem>Elec</NavElem>
+  <Health>400</Health>
+  <MBCap>150</MBSize>
+  <Dodge>4</Dodge>
+  <Attack>ZapRing</Attack>
+  <Damage>30</Damage>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <Stun/>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+  <Line1>Elec AccB DodgeB</Line1>
+  <Line2>ZapRing Atk Elec</Line2>
+  <Line3>Stun Enemy</Line3>
+</Navi>
+<Navi staticID="38">
+  <Name>WoodShld</Name>
+  <Display>@AddT10</Display>
+  <Health>400</Health>
+  <MBCap>150</MBSize>
+  <Dodge>4</Dodge>
+  <Attack>Twister</Attack>
+  <Damage>10</Damage>
+  <Hits>3</Hits>
+  <ChipDmg>All</ChipDmg>
+  <Accuracy>1</Accuracy>
+  <Priority>1</Priority>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+  <Line1>Wood AccE DodgeB</Line1>
+  <Line2>Twister Atk Wood</Line2>
+  <Line3>All Bchip Atk *3</Line3>
+</Navi>
+<Navi staticID="39">
+  <Name>AquaCust</Name>
+  <Display>Add50</Display>
+  <NavElem>Aqua</NavElem>
+  <Health>400</Health>
+  <MBCap>150</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>AquaShot</Attack>
+  <Damage>50</Damage>
+  <ChipDmg>Last</ChipDmg>
+  <Accuracy>6</Accuracy>
+  <Priority>1</Priority>
+  <GigaChip/>
+  <Rarity>5</Rarity>
+  <Line1>Aqua AccS DodgeC</Line1>
+  <Line2>AquaShot Atk Aqua</Line2>
+  <Line3>Left Bchip Attack</Line3>
+</Navi>
+<Navi staticID="40">
+  <Name>NormNav1</Name>
+  <Display>Norm30</Display>
+  <Health>500</Health>
+  <MBCap>170</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>NormBstr</Attack>
+  <Damage>30</Damage>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Rarity>5</Rarity>
+  <Line1>None AccD DodgeC</Line1>
+  <Line2>NormBstr Atk None</Line2>
+  <Line3>Navichip Attack</Line3>
+</Navi>
+<Navi staticID="41">
+  <Name>NormNav2</Name>
+  <Display>Norm30</Display>
+  <Health>550</Health>
+  <MBCap>180</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>NormBstr</Attack>
+  <Damage>30</Damage>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Rarity>5</Rarity>
+  <Line1>None AccD DodgeC</Line1>
+  <Line2>NormBstr Atk None</Line2>
+  <Line3>Navichip Attack</Line3>
+</Navi>
+<Navi staticID="42">
+  <Name>NormNav3</Name>
+  <Display>Norm20</Display>
+  <Health>600</Health>
+  <MBCap>190</MBSize>
+  <Dodge>2</Dodge>
+  <Attack>NormBstr</Attack>
+  <Damage>20</Damage>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Rarity>5</Rarity>
+  <Line1>None AccD DodgeD</Line1>
+  <Line2>NormBstr Atk None</Line2>
+  <Line3>Navichip Attack</Line3>
+</Navi>
+<Navi staticID="43">
+  <Name>NormNav4</Name>
+  <Display>Norm20</Display>
+  <Health>650</Health>
+  <MBCap>200</MBSize>
+  <Dodge>2</Dodge>
+  <Attack>NormBstr</Attack>
+  <Damage>20</Damage>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Rarity>5</Rarity>
+  <Line1>None AccD DodgeD</Line1>
+  <Line2>NormBstr Atk None</Line2>
+  <Line3>Navichip Attack</Line3>
+</Navi>
+<Navi staticID="44">
+  <Name>NormNav5</Name>
+  <Display>Norm10</Display>
+  <Health>700</Health>
+  <MBCap>220</MBSize>
+  <Dodge>2</Dodge>
+  <Attack>NormBstr</Attack>
+  <Damage>10</Damage>
+  <Accuracy>2</Accuracy>
+  <Priority>1</Priority>
+  <Rarity>5</Rarity>
+  <Line1>None AccD DodgeD</Line1>
+  <Line2>NormBstr Atk None</Line2>
+  <Line3>Navichip Attack</Line3>
+</Navi>
+<Navi staticID="45">
+  <Name>Navi-F</Name>
+  <Display>Norm70</Display>
+  <NavElem>Fire</NavElem>
+  <Health>550</Health>
+  <MBCap>160</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>FireCann</Attack>
+  <Damage>70</Damage>
+  <Accuracy>3</Accuracy>
+  <Priority>1</Priority>
+  <Rarity>5</Rarity>
+  <Line1>Fire AccC DodgeC</Line1>
+  <Line2>FireCann Atk Fire</Line2>
+  <Line3>Navichip Attack</Line3>
+</Navi>
+<Navi staticID="46">
+  <Name>Navi-A</Name>
+  <Display>Add40</Display>
+  <NavElem>Aqua</NavElem>
+  <Health>550</Health>
+  <MBCap>160</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>AquaShot</Attack>
+  <Damage>40</Damage>
+  <ChipDmg>Last</ChipDmg>
+  <Accuracy>6</Accuracy>
+  <Priority>1</Priority>
+  <Rarity>5</Rarity>
+  <Line1>Aqua AccS DodgeC</Line1>
+  <Line2>AquaShot Atk Aqua</Line2>
+  <Line3>Left Bchip Attack</Line3>
+</Navi>
+<Navi staticID="47">
+  <Name>Navi-W</Name>
+  <Display>@AddT10</Display>
+  <NavElem>Wood</NavElem>
+  <Health>550</Health>
+  <MBCap>160</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>Twister</Attack>
+  <Damage>10</Damage>
+  <Hits>3</Hits>
+  <ChipDmg>All</ChipDmg>
+  <Accuracy>1</Accuracy>
+  <Priority>1</Priority>
+  <Rarity>5</Rarity>
+  <Line1>Wood AccE DodgeC</Line1>
+  <Line2>Twister Atk Wood</Line2>
+  <Line3>All Bchip Atk *3</Line3>
+</Navi>
+<Navi staticID="48">
+  <Name>Navi-E</Name>
+  <Display>Stun30</Display>
+  <NavElem>Elec</NavElem>
+  <Health>550</Health>
+  <MBCap>160</MBSize>
+  <Dodge>3</Dodge>
+  <Attack>ZapRing</Attack>
+  <Damage>30</Damage>
+  <Accuracy>4</Accuracy>
+  <Priority>1</Priority>
+  <Stun/>
+  <Rarity>5</Rarity>
+  <Line1>Elec AccB DodgeC</Line1>
+  <Line2>ZapRing Atk Elec</Line2>
+  <Line3>Stun Enemy</Line3>
+</Navi>
+<Navi staticID="49">
+  <Name>NormNavX</Name>
+  <Display>Add30</Display>
+  <Health>700</Health>
+  <MBCap>210</MBSize>
+  <Dodge>1</Dodge>
+  <Attack>ChgShot</Attack>
+  <Damage>30</Damage>
+  <ChipDmg>Last</ChipDmg>
+  <Accuracy>5</Accuracy>
+  <Priority>1</Priority>
+  <Rarity>5</Rarity>
+  <Line1>None AccA DodgeE</Line1>
+  <Line2>ChgShot Atk None</Line2>
+  <Line3>Left Bchip Attack</Line3>
+</Navi>
+</Library>
