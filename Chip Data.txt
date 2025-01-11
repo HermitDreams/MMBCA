@@ -3194,3 +3194,15 @@ Spd D
 Floor
 Tier 5
 - Turns the user's entire field to Holy Panels
+
+
+TO-DO:
+
+- Condense or Remove gun frames
+- Condense Batteries into SolDVice
+- DarkSwrd -> Vanrgand
+- Jormgand ([Dark] Piercing)
+- HelScyth ([Dark] ZeusHamr)
+- MoonChip: Crescent ([Luna] Sword, hits 5 panels)
+- Lunar Revamp: Usable when Solar Gauge is neutral (Beacon + Portal forces this)
+- Rename MetrStge to MeteoStg?
