@@ -69,11 +69,11 @@ To Advance in Bitrot 2:
 
 OTHER PLOT POINTS
 - PlanetMan was once meant to be the LifeNavi. This power can still be activated.
-- Serenade is the Lunar Child, destined to bring prosperity to both Hallowed and Fallen. Bring them a reminder?
+- Serenade is a Lunar Child, destined to maintain harmony between the Hallowed and Fallen. Bring them a reminder?
 - VideoMan has been corrupted by sheer age. Perhaps bringing his emblem to Quarantine could prove important?
 
 REFIGHTS?
 
-- PlanetMan [Life] with StarLens gun, LifeAuras, and MetrStge. Gives pieces of Suprnova PA?
-- Serenade, the Lunar Child, with latent Lunacy and MoonChips. Gives all the MoonChips?
+- PlanetMan [Life] with StarLens gun, LifeAuras, and MetrStge. Unlocks Area Parameter Editing (virus/panel frequencies)?
+- Serenade, the Moon Beauty, with latent Lunacy and MoonChips. Purges Sol/Dark penalties accrued?
 - VideoMan BETAMAXED, peddler of obsolete tech and DRM. Leaves Magnet Panels behind as he moves, and the arena territory shifts to the right gradually, with horizontal world wrap. Reveals where to find all chips on defeat?
