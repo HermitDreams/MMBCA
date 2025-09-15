@@ -351,6 +351,44 @@ Melee
 Tier 4
 - Flanks target diagonally
 
+Bushido1
+StackDbl Rand20 [None]
+50 HP, 20 MB
+Acc D, Spd B
+Melee
+Tier 2
+- Strikes forward then Wide
+- Gains +1 Acc and +1 Hit per Bushido selected
+- Further hits are Long and Life
+
+Bushido2
+StackDbl Rand30 [None]
+80 HP, 30 MB
+Acc D, Spd B
+Melee
+Tier 3
+- Strikes forward then Wide
+- Gains +1 Acc and +1 Hit per Bushido selected
+- Further hits are Long and Life
+
+Bushido3
+StackDbl Rand40 [None]
+90 HP, 40 MB
+Acc D, Spd B
+Melee
+Tier 4
+- Strikes forward then Wide
+- Gains +1 Acc and +1 Hit per Bushido selected
+- Further hits are Long and Life
+
+WindRack
+ShoveRand100 [None]
+150 HP, 30 MB
+Acc C, Spd A
+Melee
+Tier 3
+- Strikes in a Wide pattern
+
 Lance
 Rand70 [Wood]
 110 HP, 30 MB
@@ -791,6 +829,57 @@ Projectile
 Tier 4
 - Gets caught orbitting nearest Obstacle
 
+MagBolt1
+Pull50 [Elec]
+100 HP, 10 MB
+Acc A, Spd B
+Melee
+Tier 1
+- Reduces enemy Evade by 1 tier
+- Pulls AirShoes targets in if out of reach
+
+MagBolt2
+Pull70 [Elec]
+140 HP, 20 MB
+Acc A, Spd B
+Melee
+Tier 2
+- Reduces enemy Evade by 1 tier
+- Pulls AirShoes targets in if out of reach
+
+MagBolt3
+Pull100 [Elec]
+200 HP, 40 MB
+Acc A, Spd B
+Melee
+Tier 3
+- Reduces enemy Evade by 1 tier
+- Pulls AirShoes targets in if out of reach
+
+ElcReel1
+Spread40 [Elec]
+80 HP, 10 MB
+Acc B, Spd A
+Projectile
+Tier 1
+- Hits all enemies adjacent to impact, which bypasses obstacles
+
+ElcReel2
+Spread60 [Elec]
+100 HP, 20 MB
+Acc B, Spd A
+Projectile
+Tier 2
+- Hits all enemies adjacent to impact, which bypasses obstacles
+
+ElcReel3
+Spread80 [Elec]
+120 HP, 30 MB
+Acc B, Spd S
+Projectile
+Tier 3
+- Hits all enemies adjacent to impact, which bypasses obstacles
+
 Prong1
 Double20 [Elec]
 50 HP, 10 MB
@@ -1102,6 +1191,27 @@ Tier 3
 - Gains a damage bonus, turns [Dark], and gains secondary effect if it hits an Obstacle
 - Affects all panels around the obstacle
 
+DrilArm1
+TripBreak10 [None]
+140 HP, 20 MB
+Acc D, Spd D
+Melee
+Tier 2
+
+DrilArm2
+TripBreak20 [None]
+180 HP, 30 MB
+Acc D, Spd D
+Melee
+Tier 3
+
+DrilArm3
+TripBreak30 [None]
+230 HP, 30 MB
+Acc D, Spd D
+Melee
+Tier 4
+
 BrakHamr
 BreakAllAdd30 [None]
 40 HP, 30 MB
@@ -1239,6 +1349,27 @@ Aerial
 Tier 4
 - Missed meteors hit random other panels
 
+CactBal1
+4Meteor40 [Wood]
+90 HP, 30 MB
+Acc D, Spd B
+Floor
+Tier 1
+
+CactBal2
+5Meteor40 [Wood]
+110 HP, 40 MB
+Acc D, Spd B
+Floor
+Tier 2
+
+CactBal3
+6Meteor40 [Wood]
+130 HP, 40 MB
+Acc D, Spd B
+Floor
+Tier 3
+
 TimeBom1
 Defense DelayAllAdd40 [None]
 90 HP, 30 MB
@@ -1301,6 +1432,15 @@ Acc B, Spd A
 Aerial
 Tier 3
 
+BublHook
+Panel:Sea Stun80 [Aqua]
+90 HP, 30 MB
+Acc C, Spd S
+Projectile
+Tier 3
+- Strikes in a Wide pattern
+- Places Sea Panel under every target hit
+
 Mine
 Counter:Melee+Floor AllAdd50 [None]
 100 HP, 30 MB
@@ -1336,6 +1476,33 @@ Personal, Projectile
 Tier 4
 - Does not block attacks
 - Interrupts the attack it counters
+
+WoolRam1
+BarrDef Norm40 [None]
+100 HP, 20 MB
+Acc D, Spd B
+Personal, Floor
+Tier 2
+- Does not hit Obstacles
+- Sustains one hit before taking damage
+
+WoolRam2
+BarrDef Norm60 [None]
+150 HP, 30 MB
+Acc D, Spd B
+Personal, Floor
+Tier 3
+- Does not hit Obstacles
+- Sustains one hit before taking damage
+
+WoolRam3
+BarrDef Norm80 [None]
+180 HP, 40 MB
+Acc D, Spd C
+Personal, Floor
+Tier 4
+- Does not hit Obstacles
+- Sustains one hit before taking damage
 
 Remobit1
 Defense AllAdd10 [Elec]
@@ -1405,6 +1572,38 @@ Acc C, Spd D
 Personal, Projectile
 Tier 3
 - Detonates full charge if Shoved
+
+Blizzard
+Panel:Ice Pierce50 [Aqua]
+90 HP, 30 MB
+Acc B, Spd C
+Melee, Floor
+Tier 3
+- Fans out once
+
+HeatBrth
+Panel:Lava Pierce30 [Fire]
+70 HP, 30 MB
+Acc B, Spd C
+Melee, Floor
+Tier 3
+- Fans out once
+
+WoodPwdr
+Panel:Grass Pierce40 [Wood]
+110 HP, 30 MB
+Acc B, Spd C
+Melee, Floor
+Tier 3
+- Fans out once
+
+ElemRage
+Adapt:Panel Pierce90 [None]
+50 HP, 40 MB
+Acc A, Spd A
+Projectile
+Tier 4
+- Gains boost and takes element of user's panel and turns it to Basic
 
 Snake
 Require:Hole Multi20 [Wood]
@@ -2315,302 +2514,62 @@ Tier 5
 - Changes the next attack to the chip's own type
 + This is a Solar Gun Part (Lens), and requires an AstroBat
 
-Fighter
-Frame:Shot-20 Gun:Normal10 [None]
-50 HP, 0 MB
-Acc E, Spd C
-Personal, Projectile+
-Tier 1
-- Changes the attack to a simple Projectile with 20 reduced damage and uses this chip's Acc and Spd
-+ This is a Solar Gun Part (Frame) that fires a single shot
-
-Knight
-Frame:Spread Gun:Normal20 [None]
-80 HP, 10 MB
-Acc D, Spd B
-Personal, Melee+, Projectile+
-Tier 2
-- Changes the attack to a WideSwrd delivery and uses this chip's Acc and Spd
-- Fires a shot at -20 Damage if Melee attack fails
-- Panel chips will be expanded to this range
-+ This is a Solar Gun Part (Frame) that deals Melee damage equal to Battery output, then fires a shot
-
-Crusader
-Frame:Spread10 Gun:Normal30 [None]
-120 HP, 30 MB
-Acc C, Spd B
-Personal, Melee+, Projectile+
-Tier 3
-- Changes the attack to a WideSwrd delivery with 10 extra damage and uses this chip's Acc and Spd
-- Fires a shot at -20 Damage if Melee attack fails
-- Panel chips will be expanded to this range
-+ This is a Solar Gun Part (Frame) that deals Melee damage equal to Battery output, then fires a shot
-
 Dragoon
-Frame:Spread20 Gun:Normal50 [Sol]*
+AddSkip??? [Sol]
 160 HP, 40 MB
 Acc B, Spd A
 Personal, Melee+, Projectile+
 Tier 4
-- Changes the attack to a LifeSwrd delivery with 20 extra damage and uses this chip's Acc and Spd
-- Fires a shot at -20 Damage if Melee attack fails
-- Panel chips will be expanded to this range
-+ This is a Solar Gun Part (Frame) that deals Melee damage equal to Battery output, then fires a shot
-* This element only matters for Priority and the StarLens
-
-Axel
-Frame:CounterSpin Gun:Spin [None]
-50 HP, 0 MB
-Acc C, Spd C
-Personal, Melee+
-Tier 1
-- Changes the attack to a Melee Counter that hits all panels adjacent to the user
-- Obstacles and Panels will place one in front and behind on proc
-+ This is a Solar Gun Part (Frame) that deals Melee damage equal to 50% Battery output to all panels adjacent to user
-
-Vortex
-Frame:CounterSpin Gun:DoubleSpin [None]
-80 HP, 10 MB
-Acc B, Spd D
-Personal, Melee+
-Tier 2
-- Changes the attack to a Melee Counter that hits all panels adjacent to the user
-- Obstacles and Panels will place one in all cardinal directions on proc
-+ This is a Solar Gun Part (Frame) that deals Melee damage equal to 40% Battery output to all panels adjacent to user twice
-
-Cyclone
-Frame:CounterDoubleSpin Gun:TripleSpin [None]
-120 HP, 30 MB
-Acc B, Spd D
-Personal, Melee+
-Tier 3
-- Changes the attack to a Melee Counter that hits all panels adjacent to the user twice
-- Obstacles and Panels will completely surround user on proc
-+ This is a Solar Gun Part (Frame) that deals Melee damage equal to 30% Battery output to all panels adjacent to user three times
+- Deals 50 damage +10 per solar level
 
 Tempest
-Frame:CounterDoubleSpin Gun:QuadSpin [Elec]*
+Counter:Territory??? [Elec]
 160 HP, 40 MB
 Acc A, Spd E
 Personal, Melee+
 Tier 4
-- Changes the attack to a Melee Counter that hits all panels adjacent to the user (radius 2) twice
-- Obstacles and Panels will completely surround user at 2 radius on proc
-+ This is a Solar Gun Part (Frame) that deals Melee damage equal to 30% Battery output to all panels adjacent to user four times
-* This element only matters for Priority and the StarLens
-
-Fencer
-FrameRand [None]
-50 HP, 0 MB
-Acc E, Spd C
-Personal, Melee+
-Tier 1
-- Changes the attack to a Melee that deals damage to a random chip
-+ This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to 80% Battery output
-
-Duelist
-FrameRand [None]
-80 HP, 10 MB
-Acc D, Spd C
-Personal, Melee+
-Tier 2
-- Changes the attack to a Melee that deals damage to a random chip
-+ This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to Battery output
-
-Shinobi
-FrameRand [None]
-120 HP, 20 MB
-Acc D, Spd A
-Personal, Melee+
-Tier 3
-- Changes the attack to a LongSwrd delivery that deals damage to a random chip
-- Obstacles and Panels will cover two tiles
-+ This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to 110% Battery output
+- Deals 80 damage +10 per solar level
 
 Samurai
-FrameRand [Fire]*
-160 HP, 30 MB
-Acc C, Spd A
+Rand??? [Fire]
+160 HP, 40 MB
+Acc D, Spd A
 Personal, Melee+
 Tier 4
-- Changes the attack to a FtrSword delivery that deals damage to a random chip
-- Obstacles and Panels will change to filling the whole Line forward
-+ This is a Solar Gun Part (Frame) that deals Melee Rand damage equal to 125% Battery output
-* This element only matters for Priority and the StarLens
-
-Spear
-FrameShove10 [None]
-50 HP, 0 MB
-Acc E, Spd D
-Personal, Melee+
-Tier 1
-- Changes the attack to a Melee that inflicts Shove
-+ This is a Solar Gun Part (Frame) that deals Melee damage at 25% Battery cost
-
-Pike
-FrameShovePierce50 [None]
-80 HP, 20 MB
-Acc E, Spd B
-Personal, Melee+
-Tier 2
-- Changes the attack to a Melee that Shoves and Pierces
-+ This is a Solar Gun Part (Frame) that deals Melee damage at 25% Battery cost
-
-Javelin
-FrameShovePierceStun80 [None]
-120 HP, 30 MB
-Acc E, Spd A
-Personal, Melee+
-Tier 3
-- Changes the attack to a Melee that Shoves, Stuns, and Pierces
-+ This is a Solar Gun Part (Frame) that deals Melee damage at 25% Battery cost
+- Deals 20 damage +20 per solar level
 
 Phalanx
-FrameShoveBreakStun120 [Wood]*
+Shove??? [Wood]*
 160 HP, 40 MB
 Acc E, Spd S
 Personal, Melee+
 Tier 4
-- Changes the attack to a Melee that Shoves, Stuns, and Breaks
-+ This is a Solar Gun Part (Frame) that deals Melee damage at 25% Battery cost
-* This element only matters for Priority and the StarLens
-
-Knife
-Frame:3Meteo-100 Gun:2Meteo10 [None]
-50 HP, 0 MB
-Acc E, Spd B
-Personal, Projectile+
-Tier 1
-- Reduces the next attack by 100 damage but attacks up to 3 times
-+ This is a Solar Gun Part (Frame) that fires 10% of Battery output as shots
-
-Dagger
-Frame:3Meteo-50 Gun:3Meteo20 [None]
-80 HP, 10 MB
-Acc D, Spd B
-Personal, Projectile+
-Tier 2
-- Reduces the next attack by 50 damage but attacks up to 3 times
-+ This is a Solar Gun Part (Frame) that fires 10% of Battery output as shots
-
-Gradius
-Frame:3Meteo-30 Gun:4Meteo30 [None]
-120 HP, 30 MB
-Acc D, Spd A
-Personal, Projectile+
-Tier 3
-- Reduces the next attack by 30 damage but attacks up to 3 times
-+ This is a Solar Gun Part (Frame) that fires 10% of Battery output as shots
+- Deals 100 damage +10 per solar level
 
 Calamity
-Frame:3Meteo Gun:5Meteo40 [Aqua]*
+Multi30 [Aqua]
 160 HP, 50 MB
 Acc C, Spd A
 Personal, Projectile+
 Tier 4
-- The next attack attempts to hit up to 3 times
-+ This is a Solar Gun Part (Frame) that fires 10% of Battery output as shots
-* This element only matters for Priority and the StarLens
-
-Quiver
-Frame:Bomb Gun:Batt10 [None]
-50 HP, 0 MB
-Acc E, Spd E
-Personal, Aerial+
-Tier 1
-- Changes the attack to an Aerial type
-- Obstacles will be thrown to protect target
-+ This is a Solar Gun Part (Frame) that drains the full gauge to deal 10 damage per 20% Battery usage
-
-Archer
-Frame:Bomb Gun:Batt20 [None]
-80 HP, 10 MB
-Acc C, Spd D
-Personal, Aerial+
-Tier 2
-- Changes the attack to an Aerial type
-- Obstacles will be thrown to protect target
-+ This is a Solar Gun Part (Frame) that drains the full gauge to deal 20 damage per 20% Battery usage
-
-Trebucht
-Frame:Quake1 Gun:Batt30 [None]
-120 HP, 20 MB
-Acc C, Spd C
-Personal, Aerial+
-Tier 3
-- Changes the attack to an Aerial type that cracks the panel
-- Obstacles will be thrown to protect target
-+ This is a Solar Gun Part (Frame) that drains the full gauge to deal 30 damage per 25% Battery usage
+- Deals 1 extra hit per 2 solar levels
 
 Missile
-Frame:Quake2 Gun:Batt50 [None]
+AllAdd??? [None]
 200 HP, 40 MB
 Acc A, Spd B
 Personal, Aerial+
 Tier 4
-- Changes the attack to an Aerial type that cracks all cardinally adjacent panels
-- Obstacles will be thrown to protect target
-+ This is a Solar Gun Part (Frame) that drains the full gauge to deal 50 damage per 25% Battery usage
-
-Otorange
-Frame:Pulse Gun:StunMind60 [None]
-120 HP, 30 MB
-Acc D, Spd D
-Personal, Projectile+
-Tier 3
-- Grants the next attack Pulse behavior (Spreads, Stuns, and Damage Bonus if it hits an Obstacle)
-+ This is a Solar Gun Part (Frame) that fires a Stunning and Confusing shot at 20% Battery usage
-
-Shield
-FrameDefense [None]
-200 HP, 30 MB
-Spd E
-Personal, Obstacle+
-Tier 3
-- Changes the attack to an Obstacle that uses its attack at the end of the turn
-+ This is a Solar Gun Part (Frame) that adds Battery output to the chip as additional HP
-
-Juggler
-FrameDelaySkip80 [None]
-120 HP, 30 MB
-Acc B, Spd D
-Personal, Aerial+
-Tier 3
-- Changes the attack to a delayed Aerial that ignores guards
-- Obstacles will be thrown to protect target, and ignore personal guards if Shoved
-+ This is a Solar Gun Part (Frame) with 20% Battery usage
+- Deals 30 damage + 10 per 2 solar levels
 
 Phantom
-Frame:SpreadCursed40 Gun:Normal70 [Dark]
+AddDrain??? [Dark]
 250 HP, 50 MB
 Acc A, Spd A
-Personal, Melee+, Projectile+
+Personal, Melee+
 Tier 5
-- Changes the attack to a +40 Damage DarkChip with a LifeSwrd's type and uses this chip's Acc and Spd
-- Fires a shot at -20 Damage if the Melee attack fails, and doubles any darkness penalties
-- Panels will use same spread but place Swamp instead
-+ This is a Solar Gun Part (Frame) that deals Melee damage equal to Battery output, then fires a shot
-+ This requires a DarkLens and a ChaosBat
-
-Stalker
-Frame:Homing Gun:Skip60 [None]
-120 HP, 30 MB
-Acc S, Spd S
-Personal, Projectile+
-Tier 4
-- Forces the next attack to hit
-+ This is a Solar Gun Part (Frame) that uses 20% of Battery output and ignores Defenses
-
-Wizard
-Frame:Copy Gun:Expo30 [None]
-120 HP, 30 MB
-Acc B, Spd B
-Personal, Projectile+
-Tier 4
-- Makes the next attack target all opposing entities
-- Obstacles will protect self and all allies
-- Panels will be placed directly under all battling entities
-+ This is a Solar Gun Part (Frame) that uses 10% of Battery output and hits once for every opposing entity
+- Deals 50 damage + 10 per missing solar level
+- Drains enemy custom gauge
 
 Napalm
 Grenade AllAdd10 [Fire]
@@ -2694,6 +2653,22 @@ Tier 5
 - Splashes all tiles adjancent to target
 - Turns affected panels to Swamp
 
+BugCharg
+Turn50+ [Dark]
+300 HP, 60 MB
+Acc B, Spd E
+Projectile
+Tier 5
+- Deals 50xTurn damage
+
+BlakWing
+MultiSkip20 [Dark]
+80 HP, 50 MB
+Acc S, Spd S
+Projectile
+Tier 5
+- Strikes whole field twice per negative solar level
+
 CyberElf
 Revive??? [Dark]
 10 HP, 50 MB
@@ -2758,6 +2733,14 @@ Obstacle, Aerial
 Tier 5
 - Stops blocking when hit by Fire
 - Hits entire enemy field
+
+SupSpray
+Triple Pierce70 [Aqua]
+300 HP, 60 MB
+Acc S, Spd B
+Projectile
+Tier 5
+- Sweeps whole field in a Wide pattern
 
 PwrSurge
 RecoilStun50:Max Custom??? [Elec]
@@ -2826,6 +2809,18 @@ Melee
 Tier 5
 - Reaches two panels behind target
 
+NeoVari
+Rand??? [None]
+250 HP, 50 MB
+Acc B, Spd D
+Melee
+Tier 4
+- Selects one of the following:
+ - 150 Damage Melee
+ - Pierce120 Projectile
+ - Double90 Melee Cross
+ - Double100 Melee Life
+
 Meteors
 6Meteo60 [Fire]
 70 HP, 80 MB
@@ -2851,13 +2846,21 @@ Tier 5
 - Strikes once for every Solar Level
 - Misses hit random panels
 
-DeltEdge
+DeltaRay
 TripleRand70 [None]
 90 HP, 60 MB
 Acc C, Spd A
 Melee
 Tier 5
 - Cuts a triangle around target
+
+CrossDiv
+DoubleRand100 [None]
+70 HP, 80 MB
+Acc D, Spd B
+Projectile
+Tier 5
+- Hits target with two diagonals
 
 MetrStge
 Panel 9Meteo??? [Life]
