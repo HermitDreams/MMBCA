@@ -27,8 +27,8 @@ Attacks: (25%)
 - PickAxe2
 - ShockWav
 - SonicWav (Guarantee)
+- WoolRam1
 - Guard (Guarantee)
-- Fighter
 - PanlOut
 
 Mettaur3 (Tier 3: International)
@@ -70,7 +70,7 @@ Attacks: (20%, 4-55/256)
 - Cannon (Guarantee)
 - Shotgun
 - AirShot1
-- Fighter
+- Shell
 
 Cannet (Tier 3: International)
 100 HP [None]
@@ -89,12 +89,10 @@ Attacks: (35%)
 - V-Gun
 - AirShot1 (Guarantee)
 - AirShot2
-- DoubNdl
 - FrntSnsr (Guarantee)
+- Shell
 - TriplBat
 - LunaLens
-- Fighter
-- Knife
 
 Slugget (Tier 4: Undernet)
 150 HP [None]
@@ -119,21 +117,17 @@ Attacks: (4-128/256)
 - AirShot1
 - AirShot2 (Guarantee)
 - AirShot3
-- DoubNdl
-- TripNdl
 - FrntSnsr
 - DblSnsr (Guarantee)
 - FrntLasr
 - Jealousy
+- TurtShel
+- CrsShld1
 - QuadBatt
 - SolLens
 - LunaLens
 - FlameLns
 - FrostLns
-- Fighter
-- Dagger
-- Gradius
-- Stalker
 - Rippler
 
 Cleaner (Tier 1)
@@ -174,6 +168,7 @@ Attacks: (4-64/256)
 - Bub-V
 - AirShot1
 - AirShot2
+- WindRack
 - AntHill1
 - LilCloud
 - Recov50
@@ -202,6 +197,7 @@ Attacks: (4-128/256)
 - CrossGun
 - Spreader (Guarantee)
 - BubCross
+- WindRack
 - Slasher
 - SonicWav
 - AirShot2
@@ -379,6 +375,7 @@ Attacks: (4-100/256)
 - LilCloud
 - MedCloud (Guarantee)
 - BigCloud
+- BublHook
 - Pulse2
 - GelCrash
 - AquaBall
@@ -387,7 +384,8 @@ Attacks: (4-100/256)
 - AntiAqua
 - BblWrap (Guarantee)
 - AquaAura
-- Wizard
+- Calamity
+- SupSpray
 - MetaGel2
 - MetaGel3
 - SeaPanel
@@ -404,6 +402,7 @@ Traits:
 - Charge: x1.1
 Attacks: (20%, 4-55/256)
 - ZapRing1 (Guaranteed)
+- ElcReel1
 - Prong1
 - Battery
 - ChargPnl
@@ -422,6 +421,8 @@ Attacks: (35%, 4-90/256)
 - ZapRing1
 - ZapRing2 (Guaranteed)
 - SandRing
+- ElcReel1
+- ElcReel2
 - Prong1 (Guaranteed)
 - Prong2
 - Catcher
@@ -446,6 +447,9 @@ Attacks: (60%, 4-155/256)
 - ZapRing2 (Guaranteed)
 - ZapRing3 (Guaranteed)
 - SandRing
+- ElcReel1
+- ElcReel2
+- ElcReel3
 - Prong1
 - Prong2 (Guaranteed)
 - Prong3
@@ -463,8 +467,6 @@ Attacks: (60%, 4-155/256)
 - DoublBat (Guaranteed)
 - QuadBatt
 - CloudLns
-- Javelin
-- Otorange
 - PwrSurge
 - ChargPnl
 - ChargStg
@@ -561,7 +563,7 @@ Movement:
 Traits:
 - Hides in Sand
 Attacks: (20%)
-- Sword
+- DrilArm1
 - SandRing
 - AntHill1 (Guaranteed)
 - Press1
@@ -577,7 +579,8 @@ Movement:
 Traits:
 - Hides in Sand
 Attacks: (25%, 4-70/256)
-  - Sword
+  - DrilArm1
+  - DrilArm2
  4. Kunai1
 - PickAxe1
  5. GutPunch
@@ -600,6 +603,9 @@ Movement:
 Traits:
 - Hides in Sand and Lava
 Attacks: (35%, 4-90/256)
+- DrilArm1
+- DrilArm2
+- DrilArm3
 - FireBlde (Guaranteed)
 - Kunai1
 - Kunai2
@@ -666,8 +672,7 @@ Attacks: (4-112/256)
 - Meteor3 
 - DoublBat
 - LunaLens
-- Archer  
-[Total Weight: 40. Adjust to 64?]
+[Total Weight: 39. Adjust to 64?]
 
 Beetank3 (Tier 4: Undernet)
 180 HP [None]
@@ -694,8 +699,7 @@ Attacks: (50%, 4-130/256)
 - DublBatt
 - LunaLens
 - CloudLns
-- Archer
-- Trebucht
+- Missile
 - Napalm
 - FlashBom
 - ScanBomb (Guarantee)
@@ -770,7 +774,6 @@ Attacks: (4-128/256)
 - Navi+20
 - QuadBatt
 - CloudLns
-- Stalker
 - AreaGrab (Guarantee)
 - Repair
 
@@ -801,8 +804,6 @@ Attacks: (4-180/256)
 - Navi+40
 - QuintBat
 - FlameLns
-- Javelin
-- Stalker
 - BlkBomb
 - LavaPanl
 
@@ -816,7 +817,7 @@ Movement:
 Traits:
 - AirShoes
 Attacks: (4-32/256)
-- Sword
+- DrilArm1
 - Swarm1 (Guarantee)
 - DoubNdl
 - PnkLotus
@@ -837,8 +838,8 @@ Traits:
 - AirShoes
 - Hide: Hive
 Attacks: (4-64/256)
-- Sword
-- LongSwrd
+- DrilArm1
+- DrilArm2
 - Kunai1
 - Stinger (Guarantee)
 - Swarm1
@@ -854,7 +855,6 @@ Attacks: (4-64/256)
 - Atk+10
 - Atk+20
 - Navi+20
-- Pike
 - HonyDrop
 - HonySpil (Guarantee)
 
@@ -870,8 +870,9 @@ Traits:
 - AirShoes
 - Hide: Hive
 Attacks: (4-64/256)
-- Sword
-- LongSwrd
+- DrilArm1
+- DrilArm2
+- DrilArm3
 - Kunai2
 - Stinger (Guarantee)
 - Swarm1
@@ -889,7 +890,7 @@ Attacks: (4-64/256)
 - Atk+20
 - Atk+30
 - Navi+20
-- Javelin
+- Phalanx
 - FtrSword
 - HonyDrop
 - HonySpil
@@ -1001,6 +1002,7 @@ Attacks: (4-160/256)
 - Atk+20
 - Wood+40
 - EarthLns
+- Dragoon
 - Geddon1
 
 Swordy (Tier 1)
@@ -1035,7 +1037,9 @@ Attacks: (4-50/256)
 - StepSwrd
 - FireSwrd (Guarantee)
 - FireBlde
+- Bushido1
 - UnderSht
+- Samurai
 - PanlGrab
 - AreaGrab (Guarantee)
 
@@ -1055,6 +1059,7 @@ Attacks: (4-75/256)
 - StepSwrd
 - AquaSwrd
 - AquaBlde (Guarantee)
+- Bushido1
 - Shell
 - Guard
 - UndrArmr
@@ -1083,6 +1088,7 @@ Attacks: (4-75/256)
 - AquaBlde
 - ElecSwrd
 - ElecBlde
+- Bushido2
 - Lance
 - BrnzFist
 - SilvFist
@@ -1095,6 +1101,7 @@ Attacks: (4-75/256)
 - UnderSht
 - UndrArmr
 - AntiSwrd
+- Samurai
 - FtrSword (Guarantee)
 - KngtSwrd
 - AreaGrab (Guarantee)
@@ -1136,6 +1143,7 @@ Attacks: (4-200/256)
 - Recov300
 - AntiSwrd
 - Dragoon
+- Samurai
 - FtrSword
 - KngtSwrd (Guarantee)
 - HeroSwrd
@@ -1157,6 +1165,7 @@ Attacks: (4-48/256)
 - Bubbler
 - MiniBomb
 - LilCloud (Guarantee)
+- WoolRam1
 - Recov10
 - Wind
 - Press1
@@ -1181,6 +1190,8 @@ Attacks: (4-72/256)
 - AirShot2
 - LilCloud
 - MedCloud (Guarantee)
+- WoolRam1
+- WoolRam2
 - Remobit1
 - AquaBall
 - Hydrant
@@ -1220,6 +1231,9 @@ Attacks: (4-128/256)
 - LilCloud
 - MedCloud
 - BigCloud (Guarantee)
+- WoolRam1
+- WoolRam2
+- WoolRam3
 - Remobit1 (Guarantee)
 - Remobit2
 - AquaBall
@@ -1237,6 +1251,8 @@ Attacks: (4-128/256)
 - AntiAir
 - Aqua+40
 - CloudLns (Guarantee)
+- Tempest
+- Calamity
 - FlashBom
 - PwrSurge
 - Poltrgst
@@ -1262,8 +1278,10 @@ Attacks: (4-64/256)
 - DashAtk
 - Ratton1
 - Satelit1 (Guarantee 2)
+- MagBolt1
 - Buzzsaw1
 - MagBomb1
+- CactBal1
 - Dfrag50
 - AirShoes
 - Press1
@@ -1291,10 +1309,14 @@ Attacks: (4-64/256)
 - Ratton2
 - Satelit1
 - Satelit2 (Guarantee 2)
+- MagBolt1
+- MagBolt2
 - Buzzsaw1
 - Buzzsaw2
 - MagBomb1 (Guarantee)
 - MagBomb2
+- CactBal1
+- CactBal2
 - PowerOrb
 - Remobit1
 - ElecBall
@@ -1311,7 +1333,6 @@ Attacks: (4-64/256)
 - AntiElec
 - TriplBat
 - CloudLns
-- Juggler
 - SeaPanel
 - MagLine (Guarantee)
 - AlumiStg
@@ -1338,11 +1359,17 @@ Attacks: (4-64/256)
 - Satelit1
 - Satelit2
 - Satelit3 (Guarantee 2)
+- MagBolt1
+- MagBolt2
+- MagBolt3
 - Buzzsaw2
 - Buzzsaw3
 - Erupt2
 - MagBomb2 (Guarantee)
 - MagBomb3
+- CactBal1
+- CactBal2
+- CactBal3
 - PowerOrb
 - Remobit2
 - ElecBall
@@ -1361,8 +1388,6 @@ Attacks: (4-64/256)
 - Elec+40
 - QuadBatt
 - CloudLns
-- Duelist
-- Juggler
 - Sparker
 - MetrStge
 - LavaPanl
@@ -1455,8 +1480,8 @@ Attacks: (4-200/256)
 - Atk+30
 - DoublBat
 - LunaLens
-- Trebucht
-- Shield
+- Phalanx
+- Missile
 - StarBarr
 - CrackOut
 - Repair
@@ -1485,9 +1510,6 @@ Attacks: (4-64/256)
 - Atk+10
 - DoublBat
 - LunaLens
-- Vortex
-- Dagger
-- Archer
 - PanlGrab
 - AreaGrab
 - AlumiPnl
@@ -1522,10 +1544,6 @@ Attacks: (4-128/256)
 - TriplBat
 - LunaLens
 - CloudLns
-- Vortex
-- Dagger
-- Otorange
-- Juggler
 - PanlGrab
 - MetaGel1
 - AlumiStg
@@ -1573,10 +1591,6 @@ Attacks: (4-128/256)
 - FlameLns
 - CloudLns
 - StarLens
-- Cyclone
-- Gradius
-- Otorange
-- Juggler
 - PanlGrab
 - MetaGel2
 - ChargStg
@@ -1602,7 +1616,6 @@ Attacks: (4-64/256)
 - StoneBod
 - UnderSht
 - BblWrap
-- Knife
 - HonyDrop
 - SeaPanel
 
@@ -1625,6 +1638,7 @@ Attacks: (4-64/256)
 - GelCrash
 - LilCloud (Guarantee)
 - MedCloud
+- BublHook
 - Shell
 - TurtShel (Guarantee)
 - Guard
@@ -1636,8 +1650,7 @@ Attacks: (4-64/256)
 - UnderSht
 - UndrArmr
 - Atk+10
-- Dagger
-- Axel
+- Calamity
 - SeaPanel
 - SeaStage
 
@@ -1683,8 +1696,6 @@ Attacks: (4-128/256)
 - Aqua+40 (Guarantee)
 - TriplBat
 - FrostLns (Guarantee)
-- Cyclone
-- Gradius
 - Calamity
 - FreezBom
 - FuryBust
@@ -1707,8 +1718,6 @@ Attacks: (4-35/256)
 - Corona
 - Battery (Guarantee)
 - SolLens (Guarantee)
-- Fighter (Guarantee)
-- Axel
 - ChargPnl
 
 Lilicone (Tier 3)
@@ -1741,9 +1750,7 @@ Attacks: (4-80/256)
 - TriplBat
 - SolLens (Guarantee)
 - EarthLns
-- Fighter
-- Vortex (Guarantee)
-- Juggler
+- Dragoon
 - Sanitize
 - Sunrise
 - HolyPanl
@@ -1793,10 +1800,8 @@ Attacks: (4-200/256)
 - EarthLns
 - CloudLns
 - StarLens
-- Fighter
-- Cyclone (Guarantee)
-- Trebucht
-- Juggler
+- Dragoon
+- Tempest
 - Sanitize
 - Sunrise
 - Pineappl
@@ -1879,8 +1884,9 @@ Attacks: (4-128/256)
 - LunaLens
 - DarkLens
 - Phantom
-- Otorange
+- BlakWing
 - BlueMoon
+- DarkPrtl
 
 Traffic (Tier 1)
 70 HP [None]
@@ -1942,7 +1948,7 @@ Attacks: (4-180/256)
 - FlameLns
 - FrostLns
 - CloudLns
-- Javelin
+- Tempest
 - MetaGel2
 - ChargStg
 - AlumiStg
@@ -1961,6 +1967,8 @@ Attacks: (4-48/256)
 - StepSwrd
 - Kunai1 (Guarantee 2)
 - Kunai2
+- Bushido1
+- Bushido2
 - Slasher
 - Recov30
 - Press1
@@ -1969,8 +1977,6 @@ Attacks: (4-48/256)
 - Battery
 - DoublBat
 - LunaLens
-- Fencer
-- Duelist
 - PanlGrab
 
 Strider (Tier 4)
@@ -1989,6 +1995,8 @@ Attacks: (4-128/256)
 - Kunai1
 - Kunai2 (Guarantee)
 - Kunai3 (Guarantee)
+- Bushido2
+- Bushido3
 - Stinger
 - Muramasa
 - VarSwrd
@@ -2009,10 +2017,8 @@ Attacks: (4-128/256)
 - QuadBatt
 - QuintBat
 - DarkLens
-- Shinobi
 - Samurai
-- FtrSword
-- DeltaRay
+- NeoVari
 - AreaGrab
 
 Hardhead (Tier 3)
@@ -2034,7 +2040,7 @@ Attacks: (4-64/256)
 - Wrecker (Guarantee x2)
 - CannBall (Guarantee)
 - StoneBod
-- Juggler
+- Missile
 - UnderSht
 
 Hothead (Tier 4)
@@ -2068,7 +2074,6 @@ Attacks: (4-96/256)
 - Totem2
 - StoneBod
 - UnderSht
-- Trebucht
 - Meteors
 - LavaPanl
 - LavaStge (Guarantee)
@@ -2096,12 +2101,12 @@ Attacks: (4-96/256)
 - MedCloud
 - BigCloud
 - DeepFrez
+- Blizzard
 - IceCube (Guarantee)
 - Wind
 - Fan
 - StoneBod
 - UnderSht
-- Trebucht
 - FreezBom
 - IceLine
 - IceStage (Guarantee)
@@ -2142,7 +2147,6 @@ Attacks: (4-128/256)
 - DoublBat
 - DarkLens
 - Missile
-- Juggler
 - Nitemare (Guarantee)
 - Geddon1
 
@@ -2163,7 +2167,6 @@ Attacks: (4-64/256)
 - Tornado
 - Wind (Guarantee)
 - Fan (Guarantee)
-- Axel
 
 Windome (Tier 3)
 160 HP [None]
@@ -2176,7 +2179,9 @@ Traits:
 - None
 Attacks: (4-100/256)
 - Kunai2
+- WindRack
 - SonicWav
+- MagBolt1
 - SloGauge
 - AirShot1
 - AirShot2 (Guarantee)
@@ -2185,12 +2190,13 @@ Attacks: (4-100/256)
 - Tornado (Guarantee)
 - Twister
 - Blower
+- WoodPwdr
 - PoisMask
 - Wind (Guarantee)
 - Fan (Guarantee)
 - Whirlpl
 - Atk+10
-- Vortex
+- Tempest
 - MagLine
 - Desert
 
@@ -2205,8 +2211,10 @@ Traits:
 - Unflinching
 Attacks: (4-150/256)
 - Kunai2
+- WindRack
 - Slasher
 - SonicWav
+- MagBolt2
 - SloGauge
 - AirShot1
 - AirShot2 (Guarantee)
@@ -2214,7 +2222,7 @@ Attacks: (4-150/256)
 - Yo-Yo2
 - Tornado
 - Whirlpl
-- DeepFrez (Guarantee)
+- Blizzard (Guarantee)
 - IceCube
 - Wind (Guarantee)
 - Fan (Guarantee)
@@ -2224,7 +2232,7 @@ Attacks: (4-150/256)
 - Aqua+40
 - TriplBat
 - FrostLns
-- Cyclone
+- Tempest
 - IceLine (Guarantee)
 - MagLine
 - IceStage
@@ -2240,8 +2248,10 @@ Traits:
 - Unflinching
 Attacks: (4-200/256)
 - Kunai3
+- WindRack
 - DynaWave
 - Slasher
+- MagBolt3
 - SloGauge
 - AirShot1
 - AirShot2
@@ -2250,6 +2260,7 @@ Attacks: (4-200/256)
 - Tornado (Guarantee)
 - Twister
 - Blower
+- HeatBrth
 - PoisMask
 - PoisFace
 - Whirlpl
@@ -2367,7 +2378,7 @@ Attacks: (4-128/256)
 - WoodAura
 - ChaosBat
 - EarthLns
-- Crusader
+- Phalanx
 - GaiaSwrd
 - CrackOut
 - GrassStg
@@ -2390,6 +2401,7 @@ Attacks: (4-128/256)
 - Lance
 - DarkFlm1
 - MedShout
+- MagBolt2
 - Prong2
 - Prong3
 - Buzzsaw2
@@ -2411,7 +2423,7 @@ Attacks: (4-128/256)
 - ElecAura
 - ChaosBat
 - CloudLns
-- Crusader
+- Tempest
 - Sparker
 - MagLine
 - CrackOut
@@ -2504,7 +2516,7 @@ Attacks: (4-128/256)
 - Erupt2
 - Meteor4
 - Meteor5
-- LavaDrag
+- HeatBrth
 - Recov120
 - Candle1
 - Candle2 (Guarantee)
@@ -2517,7 +2529,7 @@ Attacks: (4-128/256)
 - QuadBatt
 - FlameLns
 - DarkLens
-- Shinobi
+- Samurai
 - HeatPanl
 - HeatStge
 - LavaPanl
@@ -2569,8 +2581,8 @@ Attacks: (4-196/256)
 - SolLens
 - FlameLns (Guarantee)
 - DarkLens
-- Shinobi
-- Javelin
+- Dragoon
+- Phalanx
 - DarkAura
 - RedSun
 - HeatPanl
@@ -2604,8 +2616,6 @@ Attacks: (4-60/256)
 - Atk+10
 - Battery
 - SolLens
-- Quiver
-- Archer
 - Sanitize (Guarantee)
 - ScanBomb
 - Repair
@@ -2648,8 +2658,8 @@ Attacks: (4-80/256)
 - DoublBat
 - TriplBat
 - SolLens
-- Archer
-- Trebucht
+- Dragoon
+- Missile
 - Sanitize (Guarantee)
 - FlashBom
 - ScanBomb
@@ -2703,11 +2713,9 @@ Attacks: (4-90/256)
 - TriplBat
 - QuadBatt
 - SolLens
-- Gradius
-- Trebucht
+- Dragoon
+- Calamity
 - Missile
-- Juggler
-- Stalker
 - Sanitize
 - FlashBom
 - ScanBomb
@@ -2735,6 +2743,7 @@ Attacks: (4-90/256)
 - WatrTowr
 - Whirlpl
 - Trident
+- BublHook
 - AquaBall (Guarantee 2)
 
 RedOcto (Tier 3)
@@ -2752,6 +2761,7 @@ Attacks: (4-90/256)
 - FireTowr
 - Whirlpl
 - Trident
+- BublHook
 - HeatBall (Guarantee 2)
 
 YellOcto (Tier 3)
@@ -2766,10 +2776,36 @@ Traits:
 Attacks: (4-90/256)
 - InkSprd (Guarantee)
 - Satelit2
+- ElcReel2
 - Remobit2
 - Whirlpl
 - Trident
+- BublHook
 - ElecBall (Guarantee 2)
+
+TonniarM (Tier 3)
+250 HP [None]
+Dodge B, Spd C
+Flavour: A sad little doll hanging from the ceiling
+Movement: Moves every time DropDown wears off
+Traits:
+- AirShoes
+Attacks: (4-90/256)
+- WoodTowr
+- FireTowr
+- WatrTowr
+- Spice1
+- Erupt1
+- SloGauge
+- LilCloud (Guarantee)
+- MedCloud
+- Blizzard
+- HeatBrth
+- WoodPwdr
+- ElemRage
+- DropDown (Guarantee)
+- LeafShld
+- Geddon1
 
 Shroob (Tier 3)
 140 HP [Wood]
@@ -2782,24 +2818,23 @@ Traits:
 - Immunity: Swamp
 - Armor: 50
 Attacks: (4-75/256)
-- TreeBom1
-- TreeBom2
 - Lance
-- Spice1
+- Spice1 (Guarantee)
 - SloGauge (Guarantee)
+- CactBal1
+- WoolRam1
 - PnkLotus
 - Yo-Yo1
 - Boomer1
 - Boomer2
 - CrsShld1
-- PoisMask (Guarantee 2)
+- PoisMask (Guarantee)
 - Guard
+- WoodPwdr
 - Recov50
 - VampBit1
 - DarkLens
-- Knight
-- Pike
-- Shield
+- Phalanx
 - GrassStg
 - DarkPrtl
 
@@ -2814,28 +2849,31 @@ Traits:
 - Immunity: Swamp
 - Armor: 50
 Attacks: (4-128/256)
-- TreeBom2
 - Lance
-- Spice2
+- Spice1
+- Spice2 (Guarantee)
+- CactBal1
+- CactBal2
 - SloGauge (Guarantee)
+- WoolRam1
+- WoolRam2
 - PnkLotus
 - RedLotus
 - Yo-Yo2
 - Boomer2
 - CrsShld1
 - CrsShld2
-- PoisMask (Guarantee)
-- PoisFace (Guarantee 2)
+- PoisMask
+- PoisFace (Guarantee)
 - Decay
 - Guard
+- WoodPwdr
 - OldWood
 - Recov80
 - Dfrag50
 - VampBit2
 - DarkLens
-- Knight
-- Javelin
-- Shield
+- Phalanx
 - PoisSprd
 - PanlOut
 - GrassStg
@@ -2854,13 +2892,18 @@ Traits:
 - Trail: Swamp
 - Armor: 50
 Attacks: (4-200/256)
-- TreeBom2
-- TreeBom3
 - Lance
 - Muramasa
+- Spice1
 - Spice2
-- Spice3
+- Spice3 (Guarantee)
+- CactBal1
+- CactBal2
+- CactBal3
 - SloGauge
+- WoolRam1
+- WoolRam2
+- WoolRam3
 - PnkLotus
 - RedLotus
 - YelLotus
@@ -2869,12 +2912,13 @@ Attacks: (4-200/256)
 - Boomer2
 - Boomer3
 - CrsShld2
-- CrsShld3
+- CrsShld3 (Guarantee)
 - PoisMask
 - PoisFace (Guarantee)
-- Decay
+- Decay (Guarantee)
 - Guard
 - Snapper
+- WoodPwdr
 - OldWood
 - Anubis
 - Recov80
@@ -2887,10 +2931,9 @@ Attacks: (4-200/256)
 - TriplBat
 - QuadBatt
 - DarkLens
-- Crusader
 - Phalanx
-- Shield (Guarantee)
-- PoisSprd (Guarantee)
+- Phantom
+- PoisSprd
 - DireRoot
 - PanlOut
 - GrassStg
@@ -2920,7 +2963,6 @@ Attacks: (4-80/256)
 - FstGauge
 - Battery
 - LunaLens
-- Axel
 - Repair
 
 FaceTime (Tier 4: Delta)
@@ -2952,8 +2994,8 @@ Attacks: (4-180/256)
 - TriplBat
 - SolLens
 - LunaLens
-- Vortex
-- Fencer
+- Tempest
+- Samurai
 - Geddon1 (Guarantee)
 
 Entroper (Tier 5: Bitrot)
@@ -2995,6 +3037,7 @@ Attacks: (4-210/256)
 - Samurai
 - Calamity
 - Phantom
+- BugCharg
 - CyberElf
 - FoldrBak
 - Repair
@@ -3018,6 +3061,7 @@ Attacks: (4-144/256)
 - ColdPnch (+3)
 - DashAtk  (+3)
 - MedShout
+- WoolRam2
 - Hydrant
 - BblWrap
 - FrostLns
@@ -3039,6 +3083,7 @@ Attacks: (4-64/256)
 - Burner
 - FireRatn
 - Yo-Yo2 (Guarantee)
+- WoolRam2
 - Kindler
 - FireAura (Guarantee 2)
 - FlameLns
@@ -3058,6 +3103,8 @@ Attacks: (4-64/256)
 - DashAtk (Guarantee)
 - Yo-Yo2 (Guarantee)
 - Boomer3
+- CactBal2
+- WoolRam2
 - Snapper
 - LeafShld
 - WoodAura (Guarantee 2)
@@ -3077,7 +3124,9 @@ Attacks: (4-64/256)
 - MedShout
 - DashAtk (Guarantee)
 - Satelit3
+- ElcReel2
 - Yo-Yo2 (Guarantee)
+- WoolRam2
 - Remobit3
 - Wires
 - ElecAura (Guarantee 2)
@@ -3107,6 +3156,8 @@ Attacks: (4-128/256)
 - AntHill2
 - Whirlpl
 - Mine
+- WoolRam3
+- ElemRage
 - Recov120
 - Recov150
 - Dfrag50 (Guarantee)
@@ -3124,6 +3175,8 @@ Attacks: (4-128/256)
 - AntiElec
 - AntiWatr
 - StarLens
+- Dragoon
+- BugCharg
 - MetaGel1
 - HonyDrop
 - HonySpil
@@ -3158,6 +3211,7 @@ Attacks: (4-256/256)
 - WatrTowr
 - ZapRing3
 - Pulse3
+- DrilArm3
 - Recov200
 - VampBit3
 - Dfrag100 (Guarantee)
@@ -3170,14 +3224,18 @@ Attacks: (4-256/256)
 - Atk+30
 - AstroBat
 - StarLens
-- Wizard
+- Dragoon
+- Samurai
+- Calamity
 - VoidCann
+- BugCharg
 - BgRedWav
 - FreezBom
 - GaiaSwrd
 - PwrSurge
 - FtrSword
 - KngtSwrd
+- DeltaRay
 - MetrStge
 - Horizon
 - MetaGel2
@@ -3243,7 +3301,10 @@ Attacks: (4-256/256)
 - AntiRecv
 - AstroBat
 - StarLens
-- Shield
+- Tempest
+- Phalanx
+- Missile
+- BugCharg
 - Queen
 - CyberElf
 - DarkAura
@@ -3252,6 +3313,7 @@ Attacks: (4-256/256)
 - DireRoot
 - FoldrBak
 - Subtank
+- CrossDiv
 - StarBarr
 - HolyPanl
 - HeatStge
