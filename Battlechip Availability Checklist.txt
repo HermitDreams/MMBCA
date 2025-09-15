@@ -1,0 +1,1686 @@
+Cannon   (Tier 1, [None], Projectile)
+- Gunnet, Cannet, Slugget
+- Barker, Growler
+- Wimpy, Shrimpy
+- Beetank, Beetank2
+HiCannon (Tier 2, [None], Projectile)
+- Cannet, Slugget
+- Growler, Blazer
+- Shrimpy, Drimpy
+- Beetank3
+- DrumBeat
+M-Cannon (Tier 3, [None], Projectile)
+- Slugget
+- Blazer
+- Drimpy
+- BugStag
+Shotgun  (Tier 1, [None], Projectile)
+- Gunnet, Cannet, Slugget
+- Cleaner, Sweeper
+- Traffic
+V-Gun    (Tier 2, [None], Projectile)
+- Cannet, Slugget
+- Sweeper
+- Beetank2
+CrossGun (Tier 3, [None], Projectile)
+- Slugget
+- Trasher
+- Beetank3
+Spreader (Tier 4, [None], Projectile)
+- Slugget
+- Trasher
+Bubbler  (Tier 1, [Aqua], Projectile)
+- Cleaner
+- Wimpy, Shrimpy, Drimpy
+- Cloudy
+- Hermit, Tortent
+- Traffic
+Bub-V    (Tier 2, [Aqua], Projectile)
+- Sweeper
+- Wimpy, Shrimpy, Drimpy
+- Stormy
+- Hermit, Tortent
+BubCross (Tier 3, [Aqua], Projectile)
+- Slugget
+- Trasher
+- Shrimpy, Drimpy
+- Squally
+- Orbim
+- Tortent, Endocryo
+- Speeddos
+BubSprd  (Tier 4, [Aqua], Projectile)
+- Drimpy
+- Endocryo
+- BlueOcto
+- BugStag
+HeatShot (Tier 1, [Fire], Projectile)
+- Barker, Growler, Blazer
+- Traffic
+Heat-V   (Tier 2, [Fire], Projectile)
+- Barker, Growler, Blazer
+- Jark
+HeatCros (Tier 3, [Fire], Projectile)
+- Slugget
+- Growler, Blazer
+- Speeddos
+- Strider
+- Berial
+HeatSprd (Tier 4, [Fire], Projectile)
+- Blazer
+- Marshall
+- Pyron
+- RedOcto
+- BugStag
+InkSprd  (Tier 4, [None], Projectile)
+- ShadeBok
+- BlueOcto, RedOcto, YellOcto
+MiniBomb (Tier 1, [None], Aerial)
+- Nybbly, Byter
+- Beetank, Beetank2, Beetank3
+- Cloudy
+- Orbits
+- Panella
+- Hardhead
+- TraceBok
+LilBomb  (Tier 2, [None], Aerial)
+- Nybbly, Byter
+- Beetank, Beetank2, Beetank3
+- Stormy
+- Orbits, Orbim
+- HumDrum, KickDrum
+- Lilicone
+- Hardhead, Hothead, Coldhead
+- ImageBok, PhantBok
+CrosBomb (Tier 3, [None], Aerial)
+- Byter
+- Beetank2, Beetank3
+- Squally
+- Orbim, Orber
+- DrumBeat
+- Petalica
+- Hothead, Coldhead, Bonehead
+- ShadeBok
+BigBomb  (Tier 4, [None], Aerial)
+- Beetank3
+- Bonehead
+HiveBomb (Tier 4, [None], Aerial, Obstacle)
+- Byter
+- Queenly
+- BugCore
+TreeBom1 (Tier 1, [Wood], Aerial, Floor)
+- Bushy, Nybbly, Byter
+- Beetank2
+TreeBom2 (Tier 2, [Wood], Aerial, Floor)
+- Nybbly, Byter
+- Beetank3
+TreeBom3 (Tier 4, [Wood], Aerial, Floor)
+- Byter
+- MossBok
+Sword    (Tier 1, [None], Melee)
+- Growler
+- Swordy, Tempered, Steeled, Knighted, Pally
+- Batty, Zany, Batty3
+- LilSass, Strider
+- ImageBok
+- Buggle
+WideSwrd (Tier 2, [None], Melee)
+- Tempered, Steeled, Knighted, Pally
+- PhantBok
+- Jark
+- Cupid, Icarus
+- Buggle
+LongSwrd (Tier 2, [None], Melee)
+- Swordy, Tempered, Steeled, Knighted, Pally
+- Buggle
+FireSwrd (Tier 3, [Fire], Melee)
+- Growler, Blazer
+- Marshall
+- Tempered, Knighted
+- Berial, Pyron
+- BugCore
+AquaSwrd (Tier 3, [Aqua], Melee)
+- Shrimpy, Drimpy
+- Steeled
+- Endocryo
+- BugCore
+ElecSwrd (Tier 3, [Elec], Melee)
+- Knighted
+- Orbim
+- ServBok
+- BugCore
+FireBlde (Tier 3, [Fire], Melee)
+- Blazer
+- Tantrum
+- Marshall
+- Tempered, Pally
+- Berial, Pyron
+- BugStag
+AquaBlde (Tier 3, [Aqua], Melee)
+- Drimpy
+- Steeled, Knighted, Pally
+- Tortent, Endocryo
+- BugStag
+ElecBlde (Tier 3, [Elec], Melee)
+- Hopper, Zipper
+- Knighted, Pally
+- Orber
+- ServBok, ShadeBok
+- BugStag
+FrlClaw1 (Tier 1, [Wood], Melee, Personal)
+- Bushy, Nybbly, Byter
+FrlClaw2 (Tier 2, [Wood], Melee, Personal)
+- Nybbly, Byter
+FrlClaw3 (Tier 3, [Wood], Melee, Personal)
+- Byter
+StepSwrd (Tier 3, [None], Melee)
+- Swordy, Tempered, Steeled, Knighted, Pally
+- LilSass, Strider
+- Angel
+StepCros (Tier 4, [None], Melee)
+- Blazer
+- Knighted, Pally
+- Strider
+- ShadeBok
+- Berial, Pyron
+PickAxe1 (Tier 1, [None], Melee)
+- Mettaur, Mettaur2, Mettaur3
+- DefyAnt
+- Clicker, Squeaker
+PickAxe2 (Tier 2, [None], Melee)
+- Mettaur2, Mettaur3
+- Tantrum
+- Curser
+PickAxe3 (Tier 3, [None], Melee)
+- Mettaur3
+- Curser
+Stinger  (Tier 3, [None], Projectile)
+- Tantrum
+- Webee, Hornet
+- Endocryo
+- Strider
+Kunai1   (Tier 2, [None], Melee)
+- DefyAnt, Tantrum
+- Webee
+- LilSass, Strider
+- Windbox
+Kunai2   (Tier 3, [None], Melee)
+- Tantrum
+- Hornet
+- LilSass, Strider
+- Windome, Windchil
+Kunai3   (Tier 4, [None], Melee)
+- Batty3
+- Strider
+- WindXP
+Bushido1 (Tier 2, [None], Melee)
+- Tempered, Steeled
+- LilSass
+Bushido2 (Tier 3, [None], Melee)
+- Knighted
+- LilSass, Strider
+Bushido3 (Tier 4, [None], Melee)
+- Strider
+WindRack (Tier 3, [None], Melee)
+- Sweeper, Trasher
+- Windome, Windchil, WindXP
+Lance    (Tier 3, [Wood], Melee)
+- Nybbly, Byter
+- Clasp, Clipboa, Python
+- Knighted, Pally
+- Strider
+- ImageBok, PhantBok, MossBok, ServBok, ShadeBok
+- Shroob, Shrooob, Shroooob
+CustSwrd (Tier 4,  [Sol], Melee)
+- Knighted, Pally
+- Icarus, Angel
+- TimeFace, FaceTime, Entroper
+- BugStag
+Muramasa (Tier 4, [Dark], Melee)
+- Batty3
+- Strider
+- ShadeBok
+- Shroooob
+- BugStag
+VarSwrd  (Tier 4, [None], Melee)
+- Knighted, Pally
+- Strider
+- Angel
+- Buggle, BugStag, BugCore
+Slasher  (Tier 3, [None], Melee, Personal)
+- Trasher
+- Growler, Blazer
+- Endocryo
+- LilSass, Strider
+- Windchil, WindXP
+- BugCore
+ShockWav (Tier 1, [None], Floor)
+- Mettaur1, Mettaur2, Mettaur3
+- Buggle
+SonicWav (Tier 2, [None], Floor)
+- Mettaur2, Mettaur3
+- Trasher
+- Windome, Windchil
+- Buggle
+DynaWave (Tier 3, [None], Floor)
+- Mettaur3
+- WindXP
+- BugStag
+WoodTowr (Tier 3, [Wood], Floor)
+- Nybbly, Byter
+- TonniarM
+- MossBok, ShadeBok
+- BugStag
+FireTowr (Tier 3, [Fire], Floor)
+- Blazer
+- Marshall
+- Speeddos
+- Jark, Berial, Pyron
+- RedOcto
+- TonniarM
+- BugStag
+WatrTowr (Tier 3, [Aqua], Floor)
+- Drimpy
+- Squally
+- Speeddos
+- BlueOcto
+- TonniarM
+- BugStag
+DarkFlm1 (Tier 2, [Dark], Floor)
+- Strider
+- ImageBok, PhantBok, MossBok, ServBok, ShadeBok
+- Jark
+DarkFlm2 (Tier 3, [Dark], Floor)
+- Bonehead
+- PhantBok, ShadeBok
+- Berial
+DarkFlm3 (Tier 4, [Dark], Floor)
+- ShadeBok
+- Pyron
+- BugCore
+LilShout (Tier 1, [None], Melee)
+- Barker, Growler, Blazer
+- Stormy, Squally
+- HumDrum, KickDrum, DrumBeat
+- TraceBok, ImageBok, PhantBok
+MedShout (Tier 2, [None], Melee)
+- Growler, Blazer
+- Squally
+- KickDrum, DrumBeat
+- PhantBok, MossBok, ServBok
+- ColdIdol, HeatIdol, WoodIdol, ElecIdol
+BigShout (Tier 4, [None], Melee)
+- Blazer
+- DrumBeat
+- ShadeBok
+Quake1   (Tier 2, [None], Aerial)
+- Beetank2
+- Pebbler
+- HumDrum, KickDrum, DrumBeat
+- Hardhead, Hothead, Coldhead
+Quake2   (Tier 3, [None], Aerial)
+- Pebblest
+- KickDrum, DrumBeat
+- Hardhead, Hothead, Coldhead, Bonehead
+Quake3   (Tier 4, [None], Aerial)
+- Pebblest
+- DrumBeat
+- Hothead, Bonehead
+GutPunch (Tier 3, [None], Projectile, Melee)
+- DefyAnt
+- Pebbler
+- HumDrum, KickDrum, DrumBeat
+- Pyron
+ColdPnch (Tier 3, [Aqua], Melee)
+- DrumBeat
+- Endocryo
+- ColdIdol
+AirShot1 (Tier 1, [None], Projectile)
+- Gunnet, Cannet, Slugget
+- Cleaner, Sweeper
+- Windbox, Windome, Windchil, WindXP
+AirShot2 (Tier 2, [None], Projectile)
+- Cannet, Slugget
+- Sweeper, Trasher
+- Stormy
+- Windbox, Windome, Windchil, WindXP
+AirShot3 (Tier 3, [None], Projectile)
+- Slugget
+- Trasher
+- Squally
+- Windome, Windchil, WindXP
+DashAtk  (Tier 2, [None], Projectile)
+- Orbits, Orbim, Orber
+- HumDrum, KickDrum, DrumBeat
+- Traffic
+- Cupid, Icarus, Angel
+- ColdIdol, HeatIdol, WoodIdol, ElecIdol
+Condor   (Tier 4, [None], Projectile)
+- Orber
+- Angel
+Burner   (Tier 3, [Fire], Projectile)
+- Growler, Blazer
+- Marshall
+- DrumBeat
+- Speeddos
+- HeatIdol
+Wrecker  (Tier 2, [None], Aerial)
+- Nybbly, Byter
+- Beetank2, Beetank3
+- Orbim
+- Pebblet, Pebbler, Pebblest
+- Hardhead, Hothead, Coldhead, Bonehead
+- ImageBok, PhantBok
+CannBall (Tier 3, [None], Aerial)
+- Byter
+- Beetank3
+- Orber
+- Pebblest
+- DrumBeat
+- Hardhead, Hothead, Coldhead, Bonehead
+- MossBok, ServBok, ShadeBok
+Howitzer (Tier 4, [None], Aerial)
+- Bonehead
+IceBall  (Tier 4, [Aqua], Aerial)
+- Endocryo
+- Coldhead
+LavaBall (Tier 4, [Fire], Aerial)
+- Hothead
+- Pyron
+DoubNdl  (Tier 2, [None], Projectile)
+- Cannet, Slugget
+- Adfly, Webee
+- Hermit, Tortent, Endocryo
+- Cupid
+TripNdl  (Tier 3, [None], Projectile)
+- Slugget
+- Webee, Hornet
+- Tortent, Endocryo
+- Cupid, Icarus
+QuadNdl  (Tier 4, [None], Projectile)
+- Hornet
+- Endocryo
+- Icarus, Angel
+- BugCore
+Trident  (Tier 4, [None], Projectile)
+- Drimpy
+- Queenly
+- Endocryo
+- BlueOcto, RedOcto, YellOcto
+LiteRay1 (Tier 2,  [Sol], Aerial)
+- Lilicone
+- Cupid, Icarus, Angel
+LiteRay2 (Tier 3,  [Sol], Aerial)
+- Petalica
+- Icarus, Angel
+LiteRay3 (Tier 4,  [Sol], Aerial)
+- Angel
+Ratton1  (Tier 1, [None], Floor)
+- Clicker, Squeaker, Curser
+- Orbits
+Ratton2  (Tier 2, [None], Floor)
+- Squeaker, Curser, Marshall
+- Orbim, Orber
+Ratton3  (Tier 3, [None], Floor)
+- Trasher
+- Curser, Marshall
+- Orber
+FireRatn (Tier 4, [Fire], Floor, Obstacle)
+- Blazer
+- Marshall
+- HeatIdol
+- BugCore
+ApplSeed (Tier 4, [Wood], Floor, Obstacle)
+- Nybbly, Byter
+- MossBok
+- BugCore
+Tornado  (Tier 3, [None], Aerial)
+- Squally
+- Windbox, Windome, Windchil, WindXP
+Twister  (Tier 3, [Wood], Aerial)
+- Clasp, Clipboa, Python
+- Windome, WindXP
+Blower   (Tier 3, [Fire], Aerial)
+- Trasher
+- Blazer
+- Windome, WindXP
+- Berial, Pyron
+ZapRing1 (Tier 1, [Elec], Projectile)
+- Bunny, Hopper, Zipper
+- Squeaker
+- Clasp
+- Traffic
+ZapRing2 (Tier 2, [Elec], Projectile)
+- Hopper, Zipper
+- Curser
+- Clipboa
+- Speeddos
+ZapRing3 (Tier 4, [Elec], Projectile)
+- Zipper
+- Python
+- BugStag
+SandRing (Tier 2, [None], Projectile)
+- Hopper, Zipper
+- RelyAnt, DefyAnt, Tantrum
+Satelit1 (Tier 2, [Elec], Projectile)
+- Orbits, Orbim, Orber
+- TimeFace
+Satelit2 (Tier 3, [Elec], Projectile)
+- Orbim, Orber
+- YellOcto
+- FaceTime
+Satelit3 (Tier 4, [Elec], Projectile)
+- Orber
+- Entroper
+- ElecIdol
+MagBolt1 (Tier 1, [Elec], Melee)
+- Orbits, Orbim, Orber
+- Windome
+MagBolt2 (Tier 2, [Elec], Melee)
+- Orbim, Orber
+- Windchil
+- ServBok
+MagBolt3 (Tier 3, [Elec], Melee)
+- Orber
+- WindXP
+ElcReel1 (Tier 1, [Elec], Projectile)
+- Bunny, Hopper, Zipper
+ElcReel2 (Tier 2, [Elec], Projectile)
+- Hopper, Zipper
+- YellOcto
+- ElecIdol
+ElcReel3 (Tier 3, [Elec], Projectile)
+- Zipper
+Prong1   (Tier 2, [Elec], Melee)
+- Bunny, Hopper, Zipper
+- Webee
+Prong2   (Tier 3, [Elec], Melee)
+- Hopper, Zipper
+- Hornet
+- Strider
+- ServBok
+Prong3   (Tier 4, [Elec], Melee)
+- Zipper
+- ServBok
+Buzzsaw1 (Tier 2, [Elec], Floor)
+- Webee
+- Orbits, Orbim
+Buzzsaw2 (Tier 3, [Elec], Floor)
+- Hornet
+- Orbim, Orber
+- ServBok
+Buzzsaw3 (Tier 4, [Elec], Floor)
+- Orber
+Spice1   (Tier 2, [Wood], Floor)
+- Byter
+- TonniarM
+- Shroob, Shrooob, Shroooob
+Spice2   (Tier 3, [Wood], Floor)
+- Lilicone
+- MossBok
+- Shrooob, Shroooob
+Spice3   (Tier 4, [Wood], Floor)
+- Petalica
+- MossBok
+- Shroooob
+Swarm1   (Tier 2, [None], Projectile)
+- Adfly, Webee, Hornet
+- Buggle
+Swarm2   (Tier 3, [None], Projectile)
+- Webee, Hornet
+- Buggle
+Swarm3   (Tier 4, [None], Projectile)
+- Hornet, Queenly
+Erupt1   (Tier 2, [Fire], Floor)
+- Growler
+- KickDrum
+- Hothead
+- Jark
+- TonniarM
+Erupt2   (Tier 3, [Fire], Floor)
+- Blazer
+- Orber
+- DrumBeat
+- Hothead
+- Berial
+Erupt3   (Tier 4, [Fire], Floor)
+- Hothead
+- Pyron
+No-Beam1 (Tier 2,  [Sol], Projectile)
+- Strider
+- Cupid, Icarus, Angel
+No-Beam2 (Tier 3,  [Sol], Projectile)
+- Icarus, Angel
+No-Beam3 (Tier 4,  [Sol], Projectile)
+- Queenly
+- Angel
+MagBomb1 (Tier 2, [Elec], Aerial)
+- Beetank2
+- Orbits, Orbim
+MagBomb2 (Tier 3, [Elec], Aerial)
+- Beetank3
+- Orbim, Orber
+- Lilicone
+- ServBok
+MagBomb3 (Tier 4, [Elec], Aerial)
+- Orber
+- Petalica
+- ServBok
+Yo-Yo1   (Tier 2, [None], Projectile)
+- Squeaker
+- Clasp, Clipboa
+- Windbox
+- Shroob
+Yo-Yo2   (Tier 3, [None], Projectile)
+- Curser
+- Clipboa, Python
+- Endocryo
+- Windome, Windchil
+- Shrooob, Shroooob
+- ColdIdol, HeatIdol, WoodIdol, ElecIdol
+Yo-Yo3   (Tier 4, [None], Projectile)
+- Python
+- WindXP
+- Shroooob
+Boomer1  (Tier 2, [Wood], Projectile)
+- Clasp, Clipboa
+- Shroob
+Boomer2  (Tier 3, [Wood], Projectile)
+- Clipboa, Python
+- Shroob, Shrooob, Shroooob
+Boomer3  (Tier 4, [Wood], Projectile)
+- Python
+- Shroooob
+- WoodIdol
+Chakram  (Tier 4, [None], Projectile)
+- Zipper
+CrsShld1 (Tier 2, [None], Projectile, Personal)
+- DefyAnt
+- Clipboa
+- Bonehead
+- Shroob, Shrooob
+CrsShld2 (Tier 3, [None], Projectile, Personal)
+- Tantrum
+- Curser
+- Python
+- Bonehead
+- Shrooob, Shroooob
+CrsShld3 (Tier 4, [None], Projectile, Personal)
+- Shroooob
+- BugCore
+AntHill1 (Tier 1, [None], Floor, Obstacle)
+- Sweeper
+- RelyAnt, DefyAnt, Tantrum
+- Buggle, BugCore
+AntHill2 (Tier 2, [None], Floor, Obstacle)
+- Trasher
+- DefyAnt, Tantrum
+- Buggle, BugCore
+AntHill3 (Tier 3, [None], Floor, Obstacle)
+- Tantrum
+- Queenly
+- BugCore
+Pulse1   (Tier 1, [None], Projectile)
+- Shrimpy
+- HumDrum, KickDrum, DrumBeat
+- Batty, Zany, Batty3
+Pulse2   (Tier 2, [None], Projectile)
+- Drimpy
+- Curser
+- KickDrum, DrumBeat
+- Zany, Batty3
+Pulse3   (Tier 3, [None], Projectile)
+- DrumBeat
+- Batty3
+- BugStag
+DrilArm1 (Tier 2, [None], Melee)
+- RelyAnt, DefyAnt, Tantrum
+- Adfly, Webee, Hornet
+DrilArm2 (Tier 3, [None], Melee)
+- DefyAnt, Tantrum
+- Webee, Hornet
+DrilArm3 (Tier 4, [None], Melee)
+- Tantrum
+- Hornet
+- BugStag
+BrakHamr (Tier 2, [None], Melee)
+- Clicker, Squeaker, Curser, Marshall
+- Pebbler, Pebblest
+ZeusHamr (Tier 5, [None], Melee, Floor)
+- Curser
+- Queenly
+- Pebblest
+GelCrash (Tier 3, [Aqua], Floor)
+- Trasher
+- Drimpy
+- Hornet
+- Queenly
+- Squally
+- Hermit, Tortent
+SloGauge (Tier 2, [None], Instant)
+- Batty3
+- Traffic, Speeddos
+- Windome, Windchil, WindXP
+- TonniarM
+- Shroob, Shrooob, Shroooob
+- TimeFace, Entroper
+BrnzFist (Tier 2, [None], Melee)
+- Knighted
+- Pebbler
+SilvFist (Tier 3, [None], Melee)
+- Tantrum
+- Knighted
+- Pebblest
+GoldFist (Tier 4, [None], Melee)
+- Pally
+- Pebblest
+- Pyron
+PoisMask (Tier 3, [None], Floor, Personal)
+- Bonehead
+- Windome, WindXP
+- Shroob, Shrooob, Shroooob
+PoisFace (Tier 4, [None], Floor, Personal)
+- Bonehead
+- WindXP
+- Shrooob, Shroooob
+Decay    (Tier 4, [Dark], Personal, Instant)
+- PhantBok, MossBok, ServBok, ShadeBok
+- Shrooob, Shroooob
+- Entroper
+Whirlpl  (Tier 3, [None], Aerial)
+- Trasher
+- Tantrum
+- Squally
+- Windome, Windchil, WindXP
+- BlueOcto, RedOcto, YellOcto
+- FaceTime
+- Buggle
+BlckHole (Tier 4, [Dark], Aerial)
+- Batty3
+- Bonehead
+- WindXP
+- Entroper
+DeepFrez (Tier 4, [Aqua], Floor)
+- Speeddos
+- Coldhead
+- ShadeBok
+Meteor3  (Tier 1, [Fire], Aerial)
+- Beetank2
+- Hothead
+- Jark
+Meteor4  (Tier 2, [Fire], Aerial)
+- Beetank3
+- Hothead
+- Jark, Berial
+Meteor5  (Tier 3, [Fire], Aerial)
+- Beetank3
+- Petalica
+- Hothead
+- Berial, Pyron
+- Angel
+Meteor6  (Tier 4, [Fire], Aerial)
+- Hothead
+- Pyron
+CactBal1 (Tier 1, [Wood], Projectile)
+- Orbits, Orbim, Orber
+- Shroob, Shrooob, Shroooob
+CactBal2 (Tier 2, [Wood], Projectile)
+- Orbim, Orber
+- Shrooob, Shroooob
+- WoodIdol
+CactBal3 (Tier 3, [Wood], Projectile)
+- Orber
+- Shroooob
+TimeBom1 (Tier 2, [None], Floor, Obstacle)
+- Beetank2
+- TimeFace, FaceTime, Entroper
+TimeBom2 (Tier 3, [None], Floor, Obstacle)
+- TimeFace, FaceTime, Entroper
+TimeBom3 (Tier 4, [None], Floor, Obstacle)
+- FaceTime, Entroper
+- BugCore
+Sundial  (Tier 3,  [Sol], Aerial, Obstacle)
+- Lilicone, Petalica
+- Speeddos
+- FaceTime, Entroper
+PowerOrb (Tier 4,  [Sol], Aerial, Personal)
+- Orbim, Orber
+- Petalica
+- Icarus, Angel
+LilCloud (Tier 1, [Aqua], Aerial)
+- Sweeper
+- Wimpy, Shrimpy, Drimpy
+- Cloudy, Stormy, Squally
+- HumDrum
+- Tortent
+- Coldhead
+- TonniarM
+MedCloud (Tier 2, [Aqua], Aerial)
+- Trasher
+- Shrimpy, Drimpy
+- Stormy, Squally
+- KickDrum
+- Tortent
+- Coldhead
+- TonniarM
+BigCloud (Tier 3, [Aqua], Aerial)
+- Drimpy
+- Squally
+- DrumBeat
+- Coldhead
+- Angel
+BublHook (Tier 3, [Aqua], Projectile)
+- Drimpy
+- Tortent
+- BlueOcto, RedOcto, YellOcto
+Mine     (Tier 4, [None], Floor, Obstacle)
+- DefyAnt, Tantrum
+- Buggle, BugCore
+FrntSnsr (Tier 3, [None], Projectile, Personal)
+- Cannet, Slugget
+DblSnsr  (Tier 4, [None], Projectile, Personal)
+- Slugget
+- Curser
+- Speeddos
+- BugCore
+FrntLasr (Tier 4,  [Sol], Projectile, Personal)
+- Slugget
+- Speeddos
+WoolRam1 (Tier 2, [None], Floor)
+- Mettaur2
+- Cloudy, Stormy, Squally
+- Shroob, Shrooob, Shroooob
+WoolRam2 (Tier 3, [None], Floor)
+- Stormy, Squally
+- Shrooob, Shroooob
+- ColdIdol, HeatIdol, WoodIdol, ElecIdol
+WoolRam3 (Tier 4, [None], Floor)
+- Squally
+- Shroooob
+- Buggle
+Remobit1 (Tier 2, [Elec], Aerial, Obstacle)
+- Zipper
+- Stormy, Squally
+- Orbim
+- HumDrum
+- Lilicone
+- Icarus
+Remobit2 (Tier 3, [Elec], Aerial, Obstacle)
+- Squally
+- Orber
+- KickDrum
+- Petalica
+- Speeddos
+- ServBok
+- Angel
+- YellOcto
+Remobit3 (Tier 4, [Elec], Aerial, Obstacle)
+- Queenly
+- DrumBeat
+- ServBok
+- ElecIdol
+PnkLotus (Tier 2, [Wood], Floor, Obstacle)
+- Adfly
+- Lilicone
+- Shroob, Shrooob, Shroooob
+RedLotus (Tier 3, [Wood], Floor, Obstacle)
+- Webee, Hornet
+- Petalica
+- Shrooob, Shroooob
+YelLotus (Tier 4, [Wood], Floor, Obstacle)
+- Queenly
+- Petalica
+- Shroooob
+AquaBall (Tier 3, [Aqua], Projectile, Personal)
+- Drimpy
+- Stormy, Squally
+- BlueOcto
+ElecBall (Tier 3, [Elec], Projectile, Personal)
+- Orbim, Orber
+- YellOcto
+HeatBall (Tier 3, [Fire], Projectile, Personal)
+- RedOcto
+Blizzard (Tier 3, [Aqua], Melee, Floor)
+- Coldhead
+- Windchil
+- TonniarM
+HeatBrth (Tier 3, [Fire], Melee, Floor)
+- WindXP
+- Berial
+- TonniarM
+WoodPwdr (Tier 3, [Wood], Melee, Floor)
+- Windome
+- TonniarM
+- Shroob, Shrooob, Shroooob
+ElemRage (Tier 4, [None], Projectile)
+- TonniarM
+- Buggle
+Snake    (Tier 3, [Wood], Projectile)
+- Clipboa, Python
+Geyser   (Tier 4, [Aqua], Floor)
+- Drimpy
+- Squally
+- Endocryo
+LavaDrag (Tier 4, [Fire], Projectile)
+- Tantrum
+- Python
+- Pyron
+GodStone (Tier 4, [None], Aerial)
+- Pebblest
+OldWood  (Tier 4, [Wood], Floor)
+- MossBok
+- Shrooob, Shroooob
+Tripwire (Tier 4, [Elec], Floor, Obstacle)
+- Zipper
+- Pebblest
+- Petalica
+- ServBok
+Vacuum   (Tier 5, [Dark], Floor)
+- WindXP
+Piledriv (Tier 5,  [Sol], Projectile)
+- Pally
+- Petalica
+- Icarus, Angel
+Shell    (Tier 2, [Aqua], Personal)
+- Mettaur3
+- Steeled, Knighted
+- Hermit, Tortent, Endocryo
+TurtShel (Tier 3, [Aqua], Personal)
+- Knighted
+- Tortent, Endocryo
+PwrShell (Tier 4, [Aqua], Projectile, Personal)
+- Endocryo
+- BugCore
+Guard    (Tier 2, [None], Floor, Personal)
+- Mettaur, Mettaur2, Mettaur3
+- Steeled, Knighted, Pally
+- Tortent, Endocryo
+- Bonehead
+- Shroob, Shrooob, Shroooob
+- BugCore
+Kindler  (Tier 3, [Fire], Floor, Personal)
+- Tantrum
+- Marshall
+- Speeddos
+- HeatIdol
+Hydrant  (Tier 3, [Aqua], Projectile, Personal)
+- Barker, Growler, Blazer
+- Stormy, Squally
+- Tortent, Endocryo
+- Speeddos
+- ColdIdol
+Wires    (Tier 3, [Elec], Projectile, Personal)
+- Orbim, Orber
+- Lilicone, Petalica
+- Speeddos
+- ServBok
+- ElecIdol
+Snapper  (Tier 3, [Wood], Floor, Personal)
+- Queenly
+- Clasp, Clipboa, Python
+- Lilicone, Petalica
+- Shroooob
+- WoodIdol
+Catcher  (Tier 3, [None], Projectile)
+- Hopper, Zipper
+- Webee, Hornet
+- Clipboa, Python
+- Cupid, Icarus, Angel
+MindBndr (Tier 2, [None], Projectile)
+- Orbim, Orber
+- HumDrum, KickDrum, DrumBeat
+- Cupid, Icarus, Angel
+- TimeFace, FaceTime
+Recov10  (Tier 1, [None], Personal)
+- Cleaner
+- Cloudy
+- Pebblet, Pebbler
+- Hermit, Tortent
+- Panella
+- TimeFace
+Recov30  (Tier 3, [None], Personal)
+- Cleaner
+- Pebblest
+- Lilicone
+- LilSass
+- FaceTime
+Recov50  (Tier 1, [None], Personal)
+- Sweeper
+- Stormy
+- Pebbler
+- Jark
+- Cupid
+- Shroob
+- TimeFace
+Recov80  (Tier 2, [None], Personal)
+- Sweeper
+- Pebblest
+- Strider
+- Jark
+- Icarus
+- Shrooob
+- Shroooob
+Recov120 (Tier 2, [None], Personal)
+- Squally
+- Bonehead
+- Berial
+- FaceTime
+- Buggle
+Recov150 (Tier 3, [None], Personal)
+- Trasher
+- Pebblest
+- Petalica
+- Shroooob
+- Buggle
+Recov200 (Tier 3, [None], Personal)
+- Trasher
+- Queenly
+- Pyron
+- Angel
+- Entroper
+- BugStag
+Recov300 (Tier 4, [None], Personal)
+- Pally
+- BugCore
+Dfrag50  (Tier 1, [None], Personal)
+- Trasher
+- Orbits
+- PhantBok
+- Shrooob
+- TimeFace
+- Buggle
+Dfrag100 (Tier 3, [None], Personal)
+- Orbim
+- Endocryo
+- Bonehead
+- MossBok, ServBok, ShadeBok
+- Shroooob
+- FaceTime
+- BugStag
+Dfrag150 (Tier 4, [None], Personal)
+- Queenly
+- Orber
+- Entroper
+- BugCore
+VampBit1 (Tier 1, [Dark], Melee)
+- Nybbly, Byter
+- Clipboa
+- Batty, Zany, Batty3
+- ImageBok, PhantBok
+- Shroob
+VampBit2 (Tier 3, [Dark], Melee)
+- Python
+- Zany, Batty3
+- MossBok, ServBok
+- Shrooob, Shroooob
+VampBit3 (Tier 4, [Dark], Melee)
+- Batty3
+- ShadeBok
+- Shroooob
+- BugStag
+HoneyPot (Tier 3, [None], Obstacle, Personal)
+- Adfly, Webee, Hornet, Queenly
+- Buggle
+Candle1  (Tier 2, [Fire], Obstacle, Personal)
+- Barker, Growler
+- Jark, Berial, Pyron
+Candle2  (Tier 3, [Fire], Obstacle, Personal)
+- Growler, Blazer
+- Petalica
+- Speeddos
+- Berial, Pyron
+Candle3  (Tier 4, [Fire], Obstacle, Personal)
+- Blazer
+- Pyron
+- BugCore
+Totem1   (Tier 2, [Fire], Projectile, Obstacle, Personal)
+- Growler
+- Hothead
+- Jark, Berial, Pyron
+Totem2   (Tier 3, [Fire], Projectile, Obstacle, Personal)
+- Blazer
+- Marshall
+- Hothead
+- Berial, Pyron
+Totem3   (Tier 4, [Fire], Projectile, Obstacle, Personal)
+- Queenly
+- Pyron
+- BugCore
+Fanfare  (Tier 3, [None], Obstacle, Personal)
+- Knighted, Pally
+- KickDrum, DrumBeat
+- Speeddos
+- Icarus, Angel
+- BugStag, BugCore
+Discord  (Tier 3, [None], Obstacle, Instant)
+- Curser
+- KickDrum, DrumBeat
+- Zany, Batty3
+RockCube (Tier 1, [None], Obstacle)
+- Pebblet, Pebbler, Pebblest
+IceCube  (Tier 2, [Aqua], Obstacle)
+- Endocryo
+- Coldhead
+- Windchil
+- BugCore
+Pawn     (Tier 2, [None], Melee, Obstacle)
+- Queenly
+- Knighted, Pally
+- Pebbler, Pebblest
+- Tortent
+- BugCore
+Rook     (Tier 3, [None], Floor, Obstacle)
+- Queenly
+- Pebbler, Pebblest
+- Endocryo
+- Bonehead
+- BugCore
+Prism    (Tier 4,  [Sol], Projectile, Obstacle)
+- Byter
+- Orbim, Orber
+- Pebbler, Pebblest
+- Buggle
+Guardian (Tier 5,  [Sol], Aerial, Obstacle)
+- Pebblest
+- BugCore
+Wind     (Tier 3, [None], Projectile, Obstacle)
+- Trasher
+- Cloudy, Stormy, Squally
+- Coldhead
+- Windbox, Windome, Windchil, WindXP
+Fan      (Tier 3, [None], Projectile, Obstacle)
+- Sweeper, Trasher
+- Tantrum
+- Coldhead
+- Windbox, Windome, Windchil, WindXP
+Anubis   (Tier 5, [None], Floor, Obstacle)
+- Shroooob
+- Entroper
+- BugCore
+Press1   (Tier 1, [None], Personal)
+- RelyAnt, DefyAnt
+- Clasp
+- Cloudy
+- Orbits, Orbim
+- Pebblet, Pebbler, Pebblest
+- HumDrum
+- Hermit
+- Lilicone
+- LilSass
+- TraceBok, ImageBok, PhantBok
+Press2   (Tier 2, [None], Personal)
+- DefyAnt
+- Clipboa
+- Stormy
+- Orbim, Orber
+- Pebbler, Pebblest
+- KickDrum
+- Tortent
+- Petalica
+- Strider
+- MossBok, ServBok
+Press3   (Tier 3, [None], Personal)
+- Zipper
+- Python
+- Squally
+- Orber
+- Pebblest
+- DrumBeat
+- Endocryo
+- Petalica
+- ShadeBok
+Invis1   (Tier 2, [None], Personal)
+- Orbits, Orbim
+- LilSass, Strider
+- TraceBok, ImageBok, PhantBok
+Invis2   (Tier 3, [None], Personal)
+- Orbim, Orber
+- Strider
+- ImageBok, PhantBok, MossBok, ServBok, ShadeBok
+Invis3   (Tier 4, [None], Personal)
+- Orber
+- PhantBok, MossBok, ServBok, ShadeBok
+DropDown (Tier 4, [None], Personal)
+- Stormy, Squally
+- DrumBeat
+- Zany, Batty3
+- Icarus, Angel
+- TonniarM
+Popup    (Tier 4, [None], Personal)
+- Drimpy
+- Tantrum
+- Buggle
+Escape   (Tier 3, [None], Personal)
+- Byter
+- Squeaker, Curser
+- Adfly, Webee, Hornet
+- Buggle
+StoneBod (Tier 3, [None], Personal)
+- Knighted, Pally
+- Pebbler, Pebblest
+- Hermit, Tortent, Endocryo
+- Hardhead, Hothead, Coldhead, Bonehead
+- BugCore
+Shadow1  (Tier 2, [Dark], Melee, Personal)
+- Squally
+- Zany
+- Strider
+- PhantBok, MossBok, ServBok
+Shadow2  (Tier 3, [Dark], Melee, Personal)
+- Batty3
+- Strider
+- MossBok, ServBok, ShadeBok
+- Berial
+Shadow3  (Tier 4, [Dark], Melee, Personal)
+- Batty3
+- ShadeBok
+Radiance (Tier 3,  [Sol], Personal, Instant)
+- Pally
+- Orber
+- Lilicone, Petalica
+- Pyron
+- Angel
+AirShoes (Tier 2, [None], Personal)
+- Sweeper, Trasher
+- Pally
+- Orbits, Orbim, Orber
+- Cupid, Icarus, Angel
+UnderSht (Tier 2, [None], Personal)
+- Mettaur3
+- Tempered, Knighted
+- Pebbler, Pebblest
+- DrumBeat
+- Hermit, Tortent, Endocryo
+- Strider
+- Hardhead, Hothead, Coldhead, Bonehead
+UndrArmr (Tier 3, [None], Personal)
+- Steeled, Knighted
+- Pebblest
+- Tortent, Endocryo
+- Bonehead
+- BugCore
+Barrier  (Tier 2, [None], Personal)
+- Cupid, Icarus, Angel
+- Buggle, BugStag
+BblWrap  (Tier 3, [Aqua], Personal)
+- Shrimpy, Drimpy
+- Hermit
+- ColdIdol
+- BugStag
+LeafShld (Tier 3, [Wood], Personal)
+- Nybbly, Byter
+- TonniarM
+- MossBok
+- WoodIdol
+- BugStag
+Corona   (Tier 3,  [Sol], Personal)
+- Pally
+- Panella, Lilicone, Petalica
+- Pyron
+- Icarus, Angel
+AquaAura (Tier 3, [Aqua], Personal)
+- Drimpy
+- Stormy, Squally
+- ColdIdol
+- Buggle
+FireAura (Tier 3, [Fire], Personal)
+- Blazer
+- Tantrum
+- Marshall
+- Berial, Pyron
+- HeatIdol
+- Buggle
+WoodAura (Tier 3, [Wood], Personal)
+- Byter
+- Lilicone
+- MossBok
+- WoodIdol
+- Buggle
+ElecAura (Tier 3, [Elec], Personal)
+- Zipper
+- Squally
+- Orbim, Orber
+- ServBok
+- ElecIdol
+- Buggle
+LifeAur1 (Tier 3, [Life], Personal)
+- Mettaur3
+- Pyron
+- Icarus, Angel
+- Buggle, BugStag, BugCore
+LifeAur2 (Tier 4, [Life], Personal)
+- Queenly
+- Pally
+- Petalica
+- Bonehead
+- Angel
+- BugStag, BugCore
+LifeAur3 (Tier 5, [Life], Personal)
+- BugCore
+Jealousy (Tier 4, [None], Projectile)
+- Slugget
+- Trasher
+- Squally
+- Icarus, Angel
+- Entroper
+- BugCore
+AntiFire (Tier 4, [Fire], Personal, Instant)
+- Pebbler
+- Speeddos
+- Windchil
+- Buggle, BugCore
+AntiElec (Tier 4, [Elec], Personal, Instant)
+- Zipper
+- Orbim, Orber
+- Speeddos
+- Buggle, BugCore
+AntiWatr (Tier 4, [Aqua], Personal, Instant)
+- Squally
+- Endocryo
+- Speeddos
+- Buggle, BugCore
+AntiDmg  (Tier 4, [None], Aerial, Personal)
+- Trasher
+- Speeddos
+- Strider
+- BugCore
+AntiSwrd (Tier 4, [None], Melee, Personal)
+- Knighted, Pally
+- Strider
+- WindXP
+- BugCore
+AntiAir  (Tier 4, [None], Melee, Personal)
+- Squally
+- Pebbler, Pebblest
+- Pyron
+- BugCore
+AntiRecv (Tier 4, [Dark], Personal, Instant)
+- Berial, Pyron
+- Entroper
+- BugCore
+FstGauge (Tier 2, [None], Personal)
+- Lilicone
+- Speeddos
+- WindXP
+- TimeFace, FaceTime, Entroper
+FullCust (Tier 5, [None], Personal)
+- Petalica
+- Entroper
+Atk+10   (Tier 1, [None], Personal)
+- Hopper, Zipper
+- Bushy, Nybbly, Byter
+- Adfly, Webee
+- HumDrum
+- Tortent
+- LilSass
+- Windome
+- Cupid, Icarus
+Atk+20   (Tier 2, [None], Personal)
+- Zipper
+- Nybbly, Byter
+- Webee, Hornet
+- Clasp, Clipboa, Python
+- KickDrum, Drumbeat
+- Strider
+- Windchil, WindXP
+- Icarus, Angel
+Atk+30   (Tier 4, [None], Personal)
+- Byter
+- Hornet, Queenly
+- Pebblest
+- DrumBeat
+- Endocryo
+- WindXP
+- Angel
+- BugStag
+Fire+40  (Tier 3, [Fire], Personal)
+- Marshall
+- Pebbler
+- Berial, Pyron
+Aqua+40  (Tier 3, [Aqua], Personal)
+- Squally
+- Endocryo
+- Windchil
+Wood+40  (Tier 3, [Wood], Personal)
+- Clipboa, Python
+- Shroooob
+Elec+40  (Tier 3, [Elec], Personal)
+- Zipper
+- Orber
+Sol+50   (Tier 4,  [Sol], Personal)
+- Petalica
+- Angel
+Dark+50  (Tier 4, [Dark], Personal)
+- Gnarly
+- Shroooob
+Navi+20  (Tier 1, [None], Personal)
+- Clicker, Squeaker, Curser
+- Adfly, Webee, Hornet
+Navi+40  (Tier 3, [None], Personal)
+- Marshall
+- Queenly
+Battery  (Tier 1,  [Sol], Personal, Part)
+- Bunny, Hopper, Zipper
+- Clicker
+- Panella
+- Traffic
+- LilSass
+- Cupid
+- TimeFace
+DoublBat (Tier 2,  [Sol], Personal, Part)
+- Hopper, Zipper
+- Beetank2
+- Squeaker
+- Pebblest
+- HumDrum
+- Lilicone
+- LilSass
+- Bonehead
+- Icarus
+- FaceTime
+TriplBat (Tier 2,  [Sol], Personal, Part)
+- Cannet
+- Orbim
+- KickDrum
+- Endocryo
+- Lilicone
+- Gnarly
+- Windchil
+- Icarus, Angel
+- Shroooob
+- FaceTime
+QuadBatt (Tier 3,  [Sol], Personal, Part)
+- Slugget
+- Zipper
+- Curser
+- Orber
+- DrumBeat
+- Petalica
+- Speeddos
+- Strider
+- Berial
+- Angel
+- Shroooob
+QuintBat (Tier 4,  [Sol], Personal, Part)
+- Marshall
+- Petalica
+- Strider
+- Pyron
+ChaosBat (Tier 5, [Dark], Personal, Part)
+- Gnarly
+- MossBok, ServBok, ShadeBok
+- Pyron
+- Entroper
+AstroBat (Tier 5, [None], Personal, Part)
+- DrumBeat
+- Entroper
+- BugStag, BugCore
+Infinity (Tier 5, [None], Personal, Part)
+- Petalica
+- Entroper
+SolLens  (Tier 4,  [Sol], Personal, Part)
+- Slugget
+- Panella, Lilicone, Petalica
+- Pyron
+- Cupid, Icarus, Angel
+- FaceTime, Entroper
+LunaLens (Tier 2, [None], Personal, Part)
+- Cannet, Slugget
+- Beetank2, Beetank3
+- Pebblet, Pebblest
+- HumDrum, KickDrum
+- Gnarly
+- LilSass
+- TimeFace, FaceTime, Entroper
+FlameLns (Tier 3, [Fire], Personal, Part)
+- Slugget
+- Growler, Barker
+- Tantrum
+- Marshall
+- Pebbler
+- DrumBeat
+- Speeddos
+- Jark, Berial, Pyron
+- HeatIdol
+FrostLns (Tier 3, [Aqua], Personal, Part)
+- Slugget
+- Endocryo
+- Speeddos
+- Windchil
+- ColdIdol
+EarthLns (Tier 3, [Wood], Personal, Part)
+- Byter
+- Clipboa, Python
+- Lilicone, Petalica
+- MossBok
+- WoodIdol
+CloudLns (Tier 3, [Elec], Personal, Part)
+- Zipper
+- Beetank3
+- Curser
+- Stormy, Squally
+- Orbits, Orbim, Orber
+- KickDrum, DrumBeat
+- Petalica
+- Speeddos
+- ServBok
+- ElecIdol
+DarkLens (Tier 4, [Dark], Personal, Part)
+- Gnarly
+- Strider
+- Bonehead
+- ShadeBok
+- Berial, Pyron
+- Shroob, Shrooob, Shroooob
+- Entroper
+StarLens (Tier 5, [Life], Personal, Part)
+- DrumBeat
+- Petalica
+- Entroper
+- Buggle, BugStag, BugCore
+Dragoon  (Tier 4,  [Sol], Projectile, Melee, Personal, Part)
+- Python
+- Pally
+- Lilicone, Petalica
+- Pyron
+- Icarus, Angel
+- Buggle, BugStag
+Tempest  (Tier 4, [Elec], Melee, Personal, Part)
+- Squally
+- Petalica
+- Speeddos
+- Windome, Windchil, WindXP
+- ServBok
+- FaceTime, Entroper
+- BugCore
+Samurai  (Tier 4, [Fire], Melee, Personal, Part)
+- Tempered, Knighted, Pally
+- Strider
+- Berial
+- FaceTime, Entroper
+- BugStag
+Phalanx  (Tier 4, [Wood], Melee, Personal, Part)
+- Hornet
+- Pebblest
+- MossBok
+- Pyron
+- Shroob, Shrooob, Shroooob
+- BugCore
+Calamity (Tier 4, [Aqua], Projectile, Personal, Part)
+- Drimpy
+- Squally
+- Tortent, Endocryo
+- Angel
+- Entroper
+- BugStag
+Missile  (Tier 4, [None], Aerial, Personal, Part)
+- Beetank3
+- Pebblest
+- Hardhead, Bonehead
+- Icarus, Angel
+- BugCore
+Phantom  (Tier 5, [Dark], Projectile, Melee, Personal, Part)
+- Gnarly
+- ShadeBok
+- Shroooob
+- Entroper
+Napalm   (Tier 3, [Fire], Aerial)
+- Blazer
+- Beetank3
+- ShadeBok
+Sanitize (Tier 3, [None], Personal)
+- Sweeper, Trasher
+- Lilicone, Petalica
+- Cupid, Icarus, Angel
+FlashBom (Tier 3, [None], Aerial)
+- Beetank2, Beetank3
+- Stormy, Squally
+- Icarus, Angel
+ScanBomb (Tier 2, [None], Aerial)
+- Cleaner, Sweeper, Trasher
+- Beetank2, Beetank3
+- Cupid, Icarus, Angel
+Sunrise  (Tier 4,  [Sol], Aerial)
+- Beetank3
+- Lilicone, Petalica
+- Icarus, Angel
+Nitemare (Tier 4, [Dark], Aerial, Floor)
+- Bonehead
+- ShadeBok
+Pineappl (Tier 5,  [Sol], Aerial)
+- Petalica
+- Angel
+VoidCann (Tier 5, [Dark], Projectile, Personal)
+- ShadeBok
+- BugStag
+PoisSprd (Tier 5, [Dark], Projectile)
+- Shrooob, Shroooob
+BugCharg (Tier 5, [Dark], Projectile)
+- Entroper
+- Buggle, BugStag, BugCore
+BlakWing (Tier 5, [Dark], Projectile)
+- Gnarly
+CyberElf (Tier 5, [Dark], Personal)
+- Entroper
+- BugCore
+Queen    (Tier 5, [Dark], Floor, Obstacle)
+- Queenly
+- BugCore
+DarkAura (Tier 5, [Dark], Personal)
+- Pyron
+- BugCore
+BgRedWav (Tier 5, [Fire], Floor)
+- Queenly
+- BugStag
+FreezBom (Tier 5, [Aqua], Aerial, Floor)
+- Endocryo
+- Coldhead
+- BugStag
+Sparker  (Tier 5, [Elec], Projectile, Personal)
+- Orber
+- ServBok
+- BugCore
+GaiaSwrd (Tier 5, [Wood], Melee)
+- Byter
+- MossBok
+- Angel
+- BugStag
+BlkBomb  (Tier 5, [Fire], Aerial, Obstacle)
+- Beetank3
+- Marshall
+- BugCore
+SupSpray (Tier 5, [Aqua], Projectile)
+- Drimpy
+PwrSurge (Tier 5, [Elec], Floor)
+- Zipper
+- Squally
+- Petalica
+- BugStag
+DireRoot (Tier 5, [Wood], Floor)
+- Petalica
+- Shroooob
+- BugCore
+StarBarr (Tier 5, [????], Personal)
+- Pebblest
+- BugCore
+FoldrBak (Tier 5, [None], Personal)
+- Entroper
+- BugCore
+Subtank  (Tier 5, [None], Personal)
+- Petalica
+- BugCore
+FtrSword (Tier 4, [None], Melee)
+- Tantrum
+- Hornet
+- Steeled, Knighted, Pally
+- Icarus
+- BugStag
+KngtSwrd (Tier 4, [None], Melee)
+- Knighted, Pally
+- Angel
+- BugStag
+HeroSwrd (Tier 5, [None], Melee)
+- Pally
+NeoVari  (Tier 4, [None], Melee)
+- Strider
+Meteors  (Tier 5, [Fire], Aerial)
+- Hothead
+BlueMoon (Tier 5, [None], Aerial)
+- Gnarly
+RedSun   (Tier 5,  [Sol], Aerial)
+- Petalica
+- Pyron
+DeltaRay (Tier 5, [None], Melee)
+- BugStag
+CrossDiv (Tier 5, [None], Projectile)
+- BugCore
+MetrStge (Tier 5, [Life], Aerial)
+- Orber
+- BugStag
+Poltrgst (Tier 5, [None], Projectile)
+- Trasher
+- Tantrum
+- Squally
+- WindXP
+FuryBust (Tier 5, [None], Projectile)
+- Endocryo
+Rippler  (Tier 5, [None], Projectile)
+- Slugget
+EchoBomb (Tier 5, [None], Aerial)
+- Beetank3
+Horizon  (Tier 5, [None], Melee)
+- BugStag
+Moondish (Tier 5, [None], Personal)
+- Petalica
+PanlGrab (Tier 1, [None], Aerial)
+AreaGrab (Tier 2, [None], Aerial)
+MetaGel1 (Tier 2, [Aqua], Aerial)
+MetaGel2 (Tier 3, [Aqua], Aerial)
+MetaGel3 (Tier 4, [Aqua], Aerial)
+HonyDrop (Tier 2, [None], Aerial)
+HonySpil (Tier 3, [None], Aerial)
+HeatPanl (Tier 1, [Fire], Floor)
+SeaPanel (Tier 1, [Aqua], Floor)
+GrassPnl (Tier 1, [Wood], Floor)
+ChargPnl (Tier 1, [Elec], Floor)
+AlumiPnl (Tier 1, [None], Floor)
+LavaPanl (Tier 2, [Fire], Floor)
+PanlOut  (Tier 2, [None], Melee)
+HolyPanl (Tier 4,  [Sol], Floor)
+IceLine  (Tier 2, [Aqua], Floor)
+MagLine  (Tier 2, [Elec], Floor)
+CrackOut (Tier 3, [None], Projectile, Floor)
+Repair   (Tier 1, [None], Floor)
+HeatStge (Tier 2, [Fire], Floor)
+SeaStage (Tier 2, [Aqua], Floor)
+Desert   (Tier 2, [None], Floor)
+GrassStg (Tier 2, [Wood], Floor)
+ChargStg (Tier 2, [Elec], Floor)
+AlumiStg (Tier 2, [None], Floor)
+IceStage (Tier 2, [Aqua], Floor)
+LavaStge (Tier 3, [Fire], Floor)
+Geddon1  (Tier 3, [None], Floor)
+Geddon2  (Tier 4, [None], Floor)
+Geddon3  (Tier 4, [Dark], Floor)
+DarkPrtl (Tier 4, [Dark], Obstacle)
+Beacon   (Tier 4,  [Sol], Obstacle)
+Sancuary (Tier 5,  [Sol], Floor)
