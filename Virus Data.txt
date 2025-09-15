@@ -50,6 +50,7 @@ Attacks: (40%)
 - Shell
 - Guard (Guarantee)
 - UnderSht
+- LifeAur1
 - Dagger
 - PanlOut
 - CrackOut
@@ -133,7 +134,7 @@ Attacks: (4-128/256)
 - Dagger
 - Gradius
 - Stalker
-- FuryBust
+- Rippler
 
 Cleaner (Tier 1)
 60 HP [None]
@@ -152,6 +153,7 @@ Attacks: (4-48/256)
 - AirShot1
 - Recov10
 - Recov30
+- ScanBomb
 - PanlGrab (Guarantee)
 - Repair
 
@@ -178,6 +180,8 @@ Attacks: (4-64/256)
 - Recov80
 - AirShoes
 - Fan
+- Sanitize
+- ScanBomb
 - PanlGrab
 - AreaGrab (Guarantee)
 - Repair
@@ -264,6 +268,7 @@ Attacks: (4-75/256)
 - LilShout (Guarantee)
 - MedShout
 - Burner
+- Erupt1
 - Hydrant
 - Candle1
 - Candle2
@@ -403,7 +408,7 @@ Attacks: (20%, 4-55/256)
 - Battery
 - ChargPnl
 
-Bunny2 (Tier 3: International)
+Hopper (Tier 3: International)
 130 HP [Elec]
 Dodge B, Spd B
 Flavour:
@@ -425,7 +430,7 @@ Attacks: (35%, 4-90/256)
 - DoublBat
 - ChargPnl
 
-Bunny3 (Tier 4: Undernet)
+Zipper (Tier 4: Undernet)
 180 HP [Elec]
 Dodge S, Spd S
 Flavour:
@@ -448,6 +453,8 @@ Attacks: (60%, 4-155/256)
 - Remobit1
 - Tripwire
 - Catcher
+- Press3
+- ElecAura
 - AntiElec
 - Atk+10
 - Atk+20
@@ -534,6 +541,7 @@ Attacks: (35%)
 - Prism
 - Escape
 - LeafShld
+- WoodAura
 - Atk+10 (Guaranteed)
 - Atk+20
 - Atk+30
@@ -693,6 +701,7 @@ Attacks: (50%, 4-130/256)
 - ScanBomb (Guarantee)
 - Sunrise
 - BlkBomb
+- EchoBomb
 - Geddon1
 
 Clicker (Tier 1)
@@ -708,6 +717,7 @@ Attacks: (4-35/256)
 - PickAxe1
 - Ratton1 (Guarantee)
 - BrakHamr
+- Navi+20
 - Battery
 - PanlGrab
 
@@ -728,6 +738,7 @@ Attacks: (4-64/256)
 - Yo-Yo1
 - BrakHamr
 - Escape
+- Navi+20
 - DoublBat
 - PanlGrab (Guarantee)
 - Repair
@@ -756,6 +767,7 @@ Attacks: (4-128/256)
 - DblSnsr
 - Discord
 - Escape
+- Navi+20
 - QuadBatt
 - CloudLns
 - Stalker
@@ -811,6 +823,7 @@ Attacks: (4-32/256)
 - HoneyPot
 - Escape
 - Atk+10
+- Navi+20
 - HonyDrop (Guarantee)
 
 Webee (Tier 3)
@@ -831,6 +844,7 @@ Attacks: (4-64/256)
 - Swarm1
 - Swarm2 (Guarantee)
 - Prong1
+- Buzzsaw1
 - DoubNdl
 - TripNdl
 - RedLotus
@@ -839,6 +853,7 @@ Attacks: (4-64/256)
 - Escape
 - Atk+10
 - Atk+20
+- Navi+20
 - Pike
 - HonyDrop
 - HonySpil (Guarantee)
@@ -863,6 +878,7 @@ Attacks: (4-64/256)
 - Swarm2
 - Swarm3 (Guarantee)
 - Prong2
+- Buzzsaw2
 - TripNdl
 - QuadNdl
 - RedLotus
@@ -872,6 +888,7 @@ Attacks: (4-64/256)
 - Escape
 - Atk+20
 - Atk+30
+- Navi+20
 - Javelin
 - FtrSword
 - HonyDrop
@@ -908,8 +925,8 @@ Attacks: (4-200/256)
 - Totem3
 - LifeAur2
 - Atk+30
-- Navi+20
 - Navi+40
+- Queen
 - BgRedWav
 - HonyDrop
 - HonySpil
@@ -1245,6 +1262,7 @@ Attacks: (4-64/256)
 - DashAtk
 - Ratton1
 - Satelit1 (Guarantee 2)
+- Buzzsaw1
 - MagBomb1
 - Dfrag50
 - AirShoes
@@ -1273,8 +1291,8 @@ Attacks: (4-64/256)
 - Ratton2
 - Satelit1
 - Satelit2 (Guarantee 2)
-- Prong1
-- Prong2
+- Buzzsaw1
+- Buzzsaw2
 - MagBomb1 (Guarantee)
 - MagBomb2
 - PowerOrb
@@ -1320,8 +1338,8 @@ Attacks: (4-64/256)
 - Satelit1
 - Satelit2
 - Satelit3 (Guarantee 2)
-- Prong2
-- Prong3
+- Buzzsaw2
+- Buzzsaw3
 - Erupt2
 - MagBomb2 (Guarantee)
 - MagBomb3
@@ -1491,6 +1509,7 @@ Attacks: (4-128/256)
 - GutPunch
 - Quake1
 - Quake2 (Guarantee)
+- Erupt1
 - Pulse1
 - Pulse2
 - MedCloud
@@ -1668,6 +1687,7 @@ Attacks: (4-128/256)
 - Gradius
 - Calamity
 - FreezBom
+- FuryBust
 - IceLine
 - IceStage
 
@@ -1807,7 +1827,7 @@ Attacks: (4-45/256)
 - Pulse1 (Guarantee)
 - VampBit1
 
-Batty2 (Tier 2)
+Zany (Tier 2)
 80 HP [Dark]
 Dodge A, Spd A
 Flavour:
@@ -1827,7 +1847,7 @@ Attacks: (4-75/256)
 - VampBit1 (Guarantee)
 - VampBit2
 
-Batty3 (Tier 4: Beta)
+Gnarly (Tier 4: Beta)
 120 HP [Dark]
 Dodge S, Spd S
 Flavour:
@@ -1853,6 +1873,7 @@ Attacks: (4-128/256)
 - DropDown
 - Shadow2 (Guarantee)
 - Shadow3
+- Dark+50
 - TriplBat
 - ChaosBat
 - LunaLens
@@ -1991,6 +2012,7 @@ Attacks: (4-128/256)
 - Shinobi
 - Samurai
 - FtrSword
+- DeltaRay
 - AreaGrab
 
 Hardhead (Tier 3)
@@ -2029,6 +2051,7 @@ Traits:
 Attacks: (4-96/256)
 - LilBomb
 - CrosBomb
+- Erupt1
 - Erupt2 (Guarantee)
 - Erupt3
 - Quake1
@@ -2369,6 +2392,7 @@ Attacks: (4-128/256)
 - MedShout
 - Prong2
 - Prong3
+- Buzzsaw2
 - MagBomb2
 - MagBomb3
 - CannBall
@@ -2452,9 +2476,12 @@ Attacks: (4-128/256)
 - HeatStge ( x3)
 - WideSwrd
 - FireTowr
+- Erupt1
+- Meteor3
+- Meteor4
 - Recov80
 - FlameLns
-[Total Weight: 42]
+[Total Weight: 45]
 
 Berial (Tier 4)
 200 HP [Fire]
@@ -2475,6 +2502,8 @@ Attacks: (4-128/256)
 - DarkFlm2
 - Blower
 - Erupt2
+- Meteor4
+- Meteor5
 - LavaDrag
 - Recov120
 - Candle1
@@ -2518,6 +2547,7 @@ Attacks: (4-196/256)
 - Blower
 - Erupt3
 - GoldFist
+- Meteor5
 - Meteor6
 - LavaDrag
 - Recov200
@@ -2789,6 +2819,7 @@ Attacks: (4-128/256)
 - Spice2
 - SloGauge (Guarantee)
 - PnkLotus
+- RedLotus
 - Yo-Yo2
 - Boomer2
 - CrsShld1
