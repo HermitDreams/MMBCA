@@ -22,7 +22,7 @@ Viruses:
 -     1-3: "Emergent"
 -    4-25: Barker
 -   26-50: Clicker
--   51-75: school thing
+-   51-75: Cleaner
 -  76-125: RelyAnt
 - 126-175: Bushy
 - 176-256: Pebblet
@@ -77,7 +77,7 @@ Viruses:
 -   68-99: Tempered
 - 100-131: Orbits
 - 132-163: Hermit
-- 164-195: Meteor Mage
+- 164-195: HumDrum
 - 196-256: Mettaur2
 
 Hospital (64 Solar)
@@ -94,11 +94,11 @@ Viruses:
 -     1-3: "Emergent"
 -    4-19: TraceBok
 -   20-35: Bushy
--   36-67: Squeaker
--   68-99: Batty2
+-   36-67: Sweeper
+-   68-99: Zany
 - 100-131: Shrimpy
 - 132-163: Jark
-- 164-195: Lotus Plant
+- 164-195: Panella
 - 196-256: Mettaur2
 
 Okuden (80 Solar)
@@ -114,7 +114,7 @@ Viruses:
 -    4-19: Pebblet
 -   20-35: Cloudy
 -   36-67: Growler
--   68-99: Boomer Clasp
+-   68-99: Clasp
 - 100-131: DefyAnt
 - 132-163: ImageBok
 - 164-195: LilSass
@@ -134,32 +134,35 @@ Viruses:
 -   20-35: Panella
 -   36-67: Windbox
 -   68-99: Cupid
-- 100-131: Sensor Mud
-- 132-163: DashAtk Hawk
-- 164-195: Remobit Jerk
+- 100-131: Traffic
+- 132-163: Squeaker
+- 164-195: HumDrum
 - 196-256: Beetank2
 
 
-YumLand (64 Solar)
+YumLand (96 Solar)
 Panels:
 -    1-12: Mystery Data
 -   13-25: Sand
--   26-40: Ice
+-   26-40: Honey
 -   41-60: Boulder
 -   61-90: Swamp
 -  91-130: Cracked
 - 131-200: Grass
 - 201-256: Basic
 Viruses:
-- Nybbly
-- Pebbler
-- Tortent
-- Shroob
-- Bunny2
-- Sensor Mud
-- Growler
+-     1-3: "Emergent"
+-    4-19: RedOcto
+-   20-35: Growler
+-   36-59: Nybbly
+-   60-83: Webee
+-  84-115: Pebbler
+- 116-147: Shroob
+- 148-178: PhantBok
+- 179-217: Hopper
+- 218-256: Clipboa
 
-Nettopia (64 Solar)
+Netopia (64 Solar)
 Panels:
 -    1-12: Mystery Data
 -   13-25: Lava
@@ -170,16 +173,18 @@ Panels:
 - 131-200: Heat
 - 201-256: Charging
 Viruses:
-- Windome
-- Cannet
-- Steeled
-- Hardhead
-- Mettaur3
-- Beetank2
-- Mettaur2
-- Tempered
+-     1-3: "Emergent"
+-    4-19: YellOcto
+-   20-35: Mettaur2
+-   36-59: Tempered
+-   60-83: Beetank2
+-  84-115: Hardhead
+- 116-147: Cannet
+- 148-178: Windome
+- 179-217: Steeled
+- 218-256: Mettaur3
 
-Kingscape (80 Solar)
+Riverdam (80 Solar)
 Panels:
 -    1-12: Mystery Data
 -   13-25: Sea
@@ -191,13 +196,16 @@ Panels:
 - 131-200: Sand
 - 201-256: Basic
 Viruses:
-- Nybbly
-- Webee
-- Pebbler
-- Lilicone
-- DefyAnt
-- Jark
-- PhantBok
+-     1-3: "Emergent"
+-    4-19: BlueOcto
+-   20-35: DefyAnt
+-   36-59: Jark
+-   60-83: PhantBok
+-  84-115: Pebbler
+- 116-147: Lilicone
+- 148-178: Nybbly
+- 179-217: Stormy
+- 218-256: KickDrum
 
 Icewall (48 Solar)
 Panels:
@@ -210,13 +218,16 @@ Panels:
 - 131-200: Ice
 - 201-256: Aluminum
 Viruses:
-- Windchil
-- Squeaker
-- Bunny2
-- Mettaur3
-- Shrimpy
-- Orbits
-- Meteor Mage
+-     1-3: "Emergent"
+-    4-19: TonniarM
+-   20-35: Growler
+-   36-59: Orbits
+-   60-83: Windchil
+-  84-115: Mettaur3
+- 116-147: Tortent
+- 148-178: Hopper
+- 179-217: Squeaker
+- 218-256: Shrimpy
 
 
 UnderNet Beta (16 Solar)
@@ -229,6 +240,19 @@ Panels:
 - 131-170: Swamp
 - 171-210: Grass
 - 211-256: Basic
+Viruses:
+- Mettaur3
+- Slugget
+- Blazer
+- Drimpy
+- Zipper
+- Byter
+- Beetank3
+- Hothead
+- ColdIdol
+- HeatIdol
+- WoodIdol
+- ElecIdol
 
 UnderNet Gamma (16 Solar)
 Panels:
@@ -240,6 +264,18 @@ Panels:
 - 131-170: Aluminum
 - 171-210: Cracked
 - 211-256: Basic
+Viruses:
+- Tantrum
+- Hornet
+- Python
+- Knighted
+- DrumBeat
+- Speeddos
+- Coldhead
+- ServBok
+- Berial
+- Icarus
+- Buggle
 
 UnderNet Delta (32 Solar)
 Panels:
@@ -252,9 +288,20 @@ Panels:
 - 131-170: Heat
 - 171-210: Sea
 - 211-256: Basic
+Viruses:
+- Trasher
+- Curser
+- Marshall
+- Squally
+- Orbim
+- Gnarly
+- Strider
+- MossBok
+- Shrooob
+- FaceTime
 
 
-WWW Castle (32 Solar) [LaserMan, NapalmMan, PlanetMan]
+WWW Castle (32 Solar) [Joe, LaserMan, WorldMan]
 Panels:
 -    1-32: Mystery Data
 -   33-56: Abyss
@@ -266,20 +313,18 @@ Panels:
 - 137-196: Ice
 - 197-256: Aluminum
 Viruses:
-- Jonathan
 - Orber
 - Bonehead
 - WindXP
-- Knighted
-- Blazer
-- Drimpy
-- Byter
-- Bunny3
-- Meteor Mage
+- BugStag (Rarest)
+- Mettaur3
+- Slugget
+- Strider
+- Speeddos
 - Beetank3
-- BugStag
+- Squally
 
-Admin Lounge (128 Solar) [Comet, DarkMan, Serenade]
+Admin Server (128 Solar) [Comet, DarkMan, Serenade]
 Panels:
 -    1-32: Mystery Data
 -   33-56: Basic
@@ -290,16 +335,16 @@ Panels:
 - 137-196: Charging
 - 197-256: Heat
 Viruses:
-- Monolith
-- Pally
+- Pally (Rarest)
 - Pebblest
 - Angel
-- Berial
-- Cloudy
-- Tortent
-- Hornet
-- Lotus
-- Speeddos
+- Drimpy
+- Zipper
+- Tantrum
+- FaceTime
+- DrumBeat
+- TonniarM
+- Buggle
 
 Bitrot (0 Solar) [JunkMan, VideoMan, YokuMan]
 Panels:
@@ -312,13 +357,18 @@ Panels:
 - 161-208: Aluminum
 - 209-256: Cracked
 Viruses:
-- CopyPast
 - Shroooob
-- Entroper
+- Entroper (Rarest)
 - ShadeBok
-- Orber
+- Blazer
+- Curser
+- Python
+- Orbim
+- Berial
+- Icarus
+- Buggle
 
-Quarantine (48 Solar) [Medic, GateMan, Sigma]
+Quarantine (48 Solar) [Meddy, GateMan, Sigma]
 Panels:
 -    1-32: Mystery Data
 -   33-48: Tree
@@ -329,9 +379,13 @@ Panels:
 - 161-208: Ice
 - 209-256: Magnet
 Viruses:
-- BugCore (1/256 chance)
-- AlphaGel
+- BugCore (Rarest)
 - Pyron
 - Queenly
 - Endocryo
 - Petalica
+- Trasher
+- Byter
+- Hornet
+- Knighted
+- Gnarly
