@@ -1,28 +1,28 @@
 Cannon
 Normal60 [None]
 60 HP, 10 MB
-Acc C, Spd B
+85 Acc (C), 15 Spd (B)
 Projectile
 Tier 1
 
 HiCannon
 Normal80 [None]
 90 HP, 20 MB
-Acc C, Spd B
+81 Acc (C), 14 Spd (B)
 Projectile
 Tier 2
 
 M-Cannon
 Normal120 [None]
 150 HP, 40 MB
-Acc D, Spd B
+73 Acc (D), 11 Spd (B)
 Projectile
 Tier 3
 
 Shotgun
 Add30 [None]
 40 HP, 10 MB
-Acc S, Spd A
+112 Acc (S), 18 Spd (A)
 Projectile
 Tier 1
 - Splashes tile behind target
@@ -30,7 +30,7 @@ Tier 1
 V-Gun
 Add50 [None]
 70 HP, 20 MB
-Acc S, Spd C
+115 Acc (S), 10 Spd (C)
 Projectile
 Tier 2
 - Splashes diagonal tiles behind target
@@ -38,7 +38,7 @@ Tier 2
 CrossGun
 Add60 [None]
 90 HP, 30 MB
-Acc S, Spd C
+120 Acc (S), 9 Spd (C)
 Projectile
 Tier 3
 - Splashes all tiles diagonally adjacent to target
@@ -46,7 +46,7 @@ Tier 3
 Spreader
 Add70 [None]
 150 HP, 40 MB
-Acc S, Spd C
+130 Acc (S), 8 Spd (C)
 Projectile
 Tier 4
 - Splashes all tiles adjacent to target
@@ -54,7 +54,7 @@ Tier 4
 Bubbler
 Add20 [Aqua]
 40 HP, 10 MB
-Acc S, Spd A
+112 Acc (S), 16 Spd (A)
 Projectile
 Tier 1
 - Splashes tile behind target
@@ -62,7 +62,7 @@ Tier 1
 Bub-V
 Add30 [Aqua]
 60 HP, 20 MB
-Acc S, Spd C
+115 Acc (S), 9 Spd (C)
 Projectile
 Tier 2
 - Splashes diagonal tiles behind target
@@ -70,7 +70,7 @@ Tier 2
 BubCross
 Add40 [Aqua]
 90 HP, 30 MB
-Acc S, Spd C
+120 Acc (S), 8 Spd (C)
 Projectile
 Tier 3
 - Splashes all tiles diagonally adjacent to target
@@ -78,7 +78,7 @@ Tier 3
 BubSprd
 Add50 [Aqua]
 130 HP, 40 MB
-Acc S, Spd D
+130 Acc (S), 7 Spd (D)
 Projectile
 Tier 4
 - Splashes all tiles adjacent to target
@@ -86,7 +86,7 @@ Tier 4
 HeatShot
 Add20 [Fire]
 40 HP, 10 MB
-Acc S, Spd B
+112 Acc (S), 15 Spd (B)
 Projectile
 Tier 1
 - Splashes tile behind target
@@ -94,7 +94,7 @@ Tier 1
 Heat-V
 Add30 [Fire]
 60 HP, 20 MB
-Acc S, Spd C
+115 Acc (S), 8 Spd (C)
 Projectile
 Tier 2
 - Splashes diagonal tiles behind target
@@ -102,7 +102,7 @@ Tier 2
 HeatCros
 Add40 [Fire]
 90 HP, 30 MB
-Acc S, Spd D
+120 Acc (S), 7 Spd (D)
 Projectile
 Tier 3
 - Splashes all tiles diagonally adjacent to target
@@ -110,7 +110,7 @@ Tier 3
 HeatSprd
 Add50 [Fire]
 120 HP, 40 MB
-Acc S, Spd D
+130 Acc (S), 6 Spd (D)
 Projectile
 Tier 4
 - Splashes all tiles adjacent to target
@@ -118,7 +118,7 @@ Tier 4
 InkSprd
 BlindAdd50 [None]
 100 HP, 40 MB
-Acc S, Spd D
+130 Acc (S), 7 Spd (D)
 Projectile
 Tier 4
 - Splashes all tiles adjacent to target
@@ -126,14 +126,14 @@ Tier 4
 MiniBomb
 AllAdd10 [None]
 120 HP, 10 MB
-Acc B, Spd D
+89 Acc (B), 4 Spd (D)
 Aerial
 Tier 1
 
 LilBomb
 AllAdd20 [None]
 220 HP, 20 MB
-Acc B, Spd D
+88 Acc (B), 5 Spd (D)
 Aerial
 Tier 2
 - Splashes tiles beside impact point
@@ -141,7 +141,7 @@ Tier 2
 CrosBomb
 AllAdd30 [None]
 250 HP, 40 MB
-Acc B, Spd D
+87 Acc (B), 4 Spd (D)
 Aerial
 Tier 3
 - Splashes tiles cardinally adjacent to impact
@@ -149,7 +149,7 @@ Tier 3
 BigBomb
 AllAdd50 [None]
 300 HP, 60 MB
-Acc B, Spd D
+86 Acc (B), 5 Spd (D)
 Aerial
 Tier 4
 - Splashes all tiles adjacent to impact
@@ -157,7 +157,7 @@ Tier 4
 HiveBomb
 AllAdd30 [None]
 200 HP, 40 MB
-Acc D, Spd E
+73 Acc (D), 2 Spd (E)
 Aerial, Obstacle
 Tier 4
 - Places a Hive in front of target
@@ -165,7 +165,7 @@ Tier 4
 TreeBom1
 AllAdd20 [Wood]
 120 HP, 30 MB
-Acc B, Spd D
+91 Acc (B), 6 Spd (D)
 Aerial, then Floor
 Tier 1
 - Launches seeking spikes after impact
@@ -173,7 +173,7 @@ Tier 1
 TreeBom2
 AllAdd30 [Wood]
 130 HP, 40 MB
-Acc B, Spd D
+92 Acc (B), 7 Spd (D)
 Aerial, then Floor
 Tier 2
 - Launches seeking spikes after impact
@@ -181,7 +181,7 @@ Tier 2
 TreeBom3
 AllAdd40 [Wood]
 180 HP, 50 MB
-Acc A, Spd C
+93 Acc (A), 8 Spd (C)
 Aerial, then Floor
 Tier 4
 - Launches seeking spikes after impact
@@ -189,14 +189,14 @@ Tier 4
 Sword
 Rand70 [None]
 40 HP, 10 MB
-Acc E, Spd C
+65 Acc (E), 11 Spd (C)
 Melee
 Tier 1
 
 WideSwrd
 Rand80 [None]
 80 HP, 20 MB
-Acc D, Spd C
+72 Acc (D), 10 Spd (C)
 Melee
 Tier 2
 - Strikes panels beside target
@@ -204,7 +204,7 @@ Tier 2
 LongSwrd
 Rand90 [None]
 70 HP, 20 MB
-Acc D, Spd C
+72 Acc (D), 11 Spd (C)
 Melee
 Tier 2
 - Reaches panel behind target
@@ -212,7 +212,7 @@ Tier 2
 FireSwrd
 Rand80 [Fire]
 110 HP, 30 MB
-Acc C, Spd C
+79 Acc (C), 10 Spd (C)
 Melee
 Tier 3
 - Strikes panels beside target
@@ -220,7 +220,7 @@ Tier 3
 AquaSwrd
 Rand80 [Aqua]
 110 HP, 30 MB
-Acc C, Spd C
+79 Acc (C), 10 Spd (C)
 Melee
 Tier 3
 - Strikes panels beside target
@@ -228,7 +228,7 @@ Tier 3
 ElecSwrd
 Rand80 [Elec]
 110 HP, 30 MB
-Acc C, Spd C
+78 Acc (C), 10 Spd (C)
 Melee
 Tier 3
 - Strikes panels beside target
@@ -236,7 +236,7 @@ Tier 3
 FireBlde
 Rand90 [Fire]
 130 HP, 40 MB
-Acc D, Spd C
+69 Acc (D), 9 Spd (C)
 Melee
 Tier 3
 - Reaches panel behind target
@@ -244,7 +244,7 @@ Tier 3
 AquaBlde
 Rand90 [Aqua]
 130 HP, 40 MB
-Acc D, Spd C
+69 Acc (D), 9 Spd (C)
 Melee
 Tier 3
 - Reaches panel behind target
@@ -252,7 +252,7 @@ Tier 3
 ElecBlde
 Rand90 [Elec]
 130 HP, 40 MB
-Acc D, Spd C
+68 Acc (D), 9 Spd (C)
 Melee
 Tier 3
 - Reaches panel behind target
@@ -260,7 +260,7 @@ Tier 3
 FrlClaw1
 Rand30 Boost10 [Wood]
 50 HP, 20 MB
-Acc E, Spd D
+64 Acc (E), 7 Spd (D)
 Melee, Personal
 Tier 1
 - Only boosts if the attack lands
@@ -268,7 +268,7 @@ Tier 1
 FrlClaw2
 Rand50 Boost20 [Wood]
 70 HP, 30 MB
-Acc E, Spd C
+65 Acc (E), 10 Spd (C)
 Melee, Personal
 Tier 2
 - Only boosts if the attack lands
@@ -276,7 +276,7 @@ Tier 2
 FrlClaw3
 Rand80 Boost20 [Wood]
 120 HP, 40 MB
-Acc D, Spd B
+66 Acc (D), 13 Spd (B)
 Melee, Personal
 Tier 3
 - Only boosts if the attack lands
@@ -284,7 +284,7 @@ Tier 3
 StepSwrd
 Rand70 [None]
 80 HP, 40 MB
-Acc D, Spd B
+75 Acc (C), 13 Spd (B)
 Melee
 Tier 3
 - Strikes panels beside target
@@ -293,7 +293,7 @@ Tier 3
 StepCros
 Double Rand40 [None]
 100 HP, 60 MB
-Acc C, Spd C
+73 Acc (C), 10 Spd (C)
 Melee
 Tier 4
 - Strikes all panels diagonally adjacent to target once
@@ -302,51 +302,51 @@ Tier 4
 PickAxe1
 PierceRand50 [None]
 60 HP, 20 MB
-Acc D, Spd D
+67 Acc (D), 6 Spd (D)
 Melee
 Tier 1
 
 PickAxe2
 PierceRand70 [None]
 90 HP, 30 MB
-Acc D, Spd D
+66 Acc (D), 7 Spd (D)
 Melee
 Tier 2
 
 PickAxe3
 PierceRand100 [None]
 140 HP, 50 MB
-Acc E, Spd C
+65 Acc (E), 8 Spd (C)
 Melee
 Tier 3
 
 Stinger
 PierceRand70 [None]
 60 HP, 30 MB
-Acc C, Spd A
+72 Acc (C), 17 Spd (A)
 Projectile
 Tier 3
 
 Kunai1
 Triple Rand10 [None]
 60 HP, 10 MB
-Acc C, Spd C
+75 Acc (C), 10 Spd (C)
 Melee
 Tier 2
-- Flanks target diagonally
+- Flanks target diagonally, preventing anti-Melee
 
 Kunai2
 Triple Rand20 [None]
 70 HP, 20 MB
-Acc C, Spd C
+75 Acc (C), 11 Spd (C)
 Melee
 Tier 3
-- Flanks target diagonally
+- Flanks target diagonally, preventing anti-Melee
 
 Kunai3
 Triple Rand30 [None]
 80 HP, 30 MB
-Acc C, Spd B
+75 Acc (C), 12 Spd (B)
 Melee
 Tier 4
 - Flanks target diagonally
@@ -354,37 +354,37 @@ Tier 4
 Bushido1
 StackDbl Rand20 [None]
 50 HP, 20 MB
-Acc D, Spd B
+70 Acc (D), 12 Spd (B)
 Melee
 Tier 2
 - Strikes forward then Wide
-- Gains +1 Acc and +1 Hit per Bushido selected
+- Gains +5 Acc and +1 Hit per Bushido selected
 - Further hits are Long and Life
 
 Bushido2
 StackDbl Rand30 [None]
 80 HP, 30 MB
-Acc D, Spd B
+70 Acc (D), 13 Spd (B)
 Melee
 Tier 3
 - Strikes forward then Wide
-- Gains +1 Acc and +1 Hit per Bushido selected
+- Gains +5 Acc and +1 Hit per Bushido selected
 - Further hits are Long and Life
 
 Bushido3
 StackDbl Rand40 [None]
 90 HP, 40 MB
-Acc D, Spd B
+70 Acc (D), 14 Spd (B)
 Melee
 Tier 4
 - Strikes forward then Wide
-- Gains +1 Acc and +1 Hit per Bushido selected
+- Gains +5 Acc and +1 Hit per Bushido selected
 - Further hits are Long and Life
 
 WindRack
 ShoveRand100 [None]
 150 HP, 30 MB
-Acc C, Spd A
+77 Acc (C), 17 Spd (A)
 Melee
 Tier 3
 - Strikes in a Wide pattern
@@ -392,7 +392,7 @@ Tier 3
 Lance
 Rand70 [Wood]
 110 HP, 30 MB
-Acc C, Spd A
+77 Acc (C), 16 Spd (A)
 Melee
 Tier 3
 - Flanks target from behind
@@ -400,7 +400,7 @@ Tier 3
 CustSwrd
 RandGauge30 [Sol]
 150 HP, 40 MB
-Acc D, Spd E
+70 Acc (D), 3 Spd (E)
 Melee
 Tier 4
 - Cuts a 2x3 grid
@@ -409,7 +409,7 @@ Tier 4
 Muramasa
 RandBleed10 [Dark]
 60 HP, 70 MB
-Acc E, Spd E
+61 Acc (E), 1 Spd (E)
 Melee
 Tier 4
 - Reaches two tiles behind target
@@ -418,7 +418,7 @@ Tier 4
 VarSwrd
 Random [None]
 160 HP, 30 MB
-Acc D, Spd E
+70 Acc (D), 2 Spd (E)
 Melee
 Tier 4
 - Selects a random damage and property from any single-hit [None] Melee with Rand effect
@@ -426,7 +426,7 @@ Tier 4
 Slasher
 Counter:Territory Random100 [None]
 180 HP, 50 MB
-Acc D, Spd A
+70 Acc (D), 18 Spd (A)
 Personal, Melee
 Tier 3
 - Activates if an enemy enters a panel you own
@@ -436,7 +436,7 @@ Tier 3
 ShockWav
 Pierce50 [None]
 120 HP, 10 MB
-Acc B, Spd C
+82 Acc (B), 9 Spd (C)
 Floor
 Tier 1
 - Travels forward in own territory, then through line of target's territory
@@ -444,7 +444,7 @@ Tier 1
 SonicWav
 Pierce70 [None]
 120 HP, 20 MB
-Acc B, Spd C
+84 Acc (B), 8 Spd (C)
 Floor
 Tier 2
 - Travels forward in own territory, then through line of target's territory
@@ -452,7 +452,7 @@ Tier 2
 DynaWave
 Pierce130 [None]
 120 HP, 40 MB
-Acc B, Spd D
+87 Acc (B), 7 Spd (D)
 Floor
 Tier 3
 - Travels forward in own territory, then through line of target's territory
@@ -460,7 +460,7 @@ Tier 3
 WoodTowr
 Pierce70 [Wood]
 150 HP, 30 MB
-Acc A, Spd C
+90 Acc (A), 8 Spd (C)
 Floor
 Tier 3
 - Seeks out target
@@ -468,7 +468,7 @@ Tier 3
 FireTowr
 Pierce70 [Fire]
 130 HP, 30 MB
-Acc A, Spd D
+90 Acc (A), 7 Spd (D)
 Floor
 Tier 3
 - Seeks out target
@@ -476,7 +476,7 @@ Tier 3
 WatrTowr
 Pierce70 [Aqua]
 140 HP, 30 MB
-Acc A, Spd D
+90 Acc (A), 6 Spd (D)
 Floor
 Tier 3
 - Seeks out target
@@ -484,7 +484,7 @@ Tier 3
 DarkFlm1
 Burn10 Pierce40 [Dark]
 40 HP, 30 MB
-Acc C, Spd D
+78 Acc (C), 6 Spd (D)
 Floor
 Tier 2
 - Travels in a straight line
@@ -493,7 +493,7 @@ Tier 2
 DarkFlm2
 Burn20 Pierce60 [Dark]
 70 HP, 40 MB
-Acc C, Spd C
+79 Acc (C), 11 Spd (C)
 Floor
 Tier 3
 - Travels in a straight line
@@ -502,7 +502,7 @@ Tier 3
 DarkFlm3
 Burn30 Pierce100 [Dark]
 100 HP, 60 MB
-Acc B, Spd A
+80 Acc (B), 16 Spd (A)
 Floor
 Tier 4
 - Travels in a straight line
@@ -511,7 +511,7 @@ Tier 4
 LilShout
 Stun60 [None]
 30 HP, 10 MB
-Acc D, Spd D
+67 Acc (D), 7 Spd (D)
 Melee
 Tier 1
 - Hits all tiles surrounding user
@@ -519,7 +519,7 @@ Tier 1
 MedShout
 Stun80 [None]
 80 HP, 30 MB
-Acc C, Spd D
+75 Acc (C), 5 Spd (D)
 Melee
 Tier 2
 - Hits all tiles surrounding user in a radius of 2
@@ -527,7 +527,7 @@ Tier 2
 BigShout
 Stun130 [None]
 150 HP, 50 MB
-Acc A, Spd E
+91 Acc (A), 3 Spd (E)
 Melee
 Tier 4
 - Hits all tiles surrounding user in a radius of 3
@@ -535,7 +535,7 @@ Tier 4
 Quake1
 AllAddBreak30 [None]
 70 HP, 40 MB
-Acc C, Spd D
+75 Acc (C), 5 Spd (D)
 Aerial
 Tier 2
 - Cracks the panel it lands on
@@ -543,7 +543,7 @@ Tier 2
 Quake2
 AllAddBreak40 [None]
 80 HP, 50 MB
-Acc C, Spd D
+74 Acc (C), 4 Spd (D)
 Aerial
 Tier 3
 - Cracks panels cardinally adjacent to the one it lands on
@@ -551,7 +551,7 @@ Tier 3
 Quake3
 AllAddBreak50 [None]
 90 HP, 60 MB
-Acc C, Spd E
+73 Acc (C), 1 Spd (E)
 Aerial
 Tier 4
 - Cracks all panels adjacent to the one it lands on
@@ -559,7 +559,7 @@ Tier 4
 GutPunch
 Shove1 Break70 [None]
 160 HP, 30 MB
-Acc B, Spd D
+85 Acc (B), 4 Spd (D)
 Melee
 Tier 3
 - Launches a Projectile if it misses
@@ -567,35 +567,35 @@ Tier 3
 ColdPnch
 Shove1 Break70 [Aqua]
 110 HP, 30 MB
-Acc B, Spd D
+80 Acc (B), 5 Spd (D)
 Melee
 Tier 3
 
 AirShot1
 Shove1 Normal10 [None]
 50 HP, 10 MB
-Acc A, Spd B
+91 Acc (A), 12 Spd (B)
 Projectile
 Tier 1
 
 AirShot2
 Shove2 Normal30 [None]
 150 HP, 20 MB
-Acc A, Spd B
+95 Acc (A), 15 Spd (B)
 Projectile
 Tier 2
 
 AirShot3
 Shove4 Normal50 [None]
 250 HP, 30 MB
-Acc A, Spd S
+99 Acc (A), 20 Spd (S)
 Projectile
 Tier 3
 
 DashAtk
 Pierce80 [None]
 90 HP, 40 MB
-Acc A, Spd B
+95 Acc (A), 15 Spd (B)
 Projectile
 Tier 2
 - Travels forward in own territory, then through line of target's territory
@@ -604,7 +604,7 @@ Tier 2
 Condor
 Pierce120 [None]
 130 HP, 60 MB
-Acc S, Spd C
+102 Acc (S), 11 Spd (C)
 Projectile
 Tier 4
 - Travels forward in own territory, then through line of target's territory
@@ -613,7 +613,7 @@ Tier 4
 Burner
 Pierce80 [Fire]
 80 HP, 50 MB
-Acc A, Spd B
+92 Acc (A), 13 Spd (B)
 Projectile
 Tier 3
 - Travels forward in own territory, then through line of target's territory
@@ -622,14 +622,14 @@ Tier 3
 Wrecker
 Break40 [None]
 120 HP, 20 MB
-Acc D, Spd E
+65 Acc (E), 3 Spd (E)
 Aerial
 Tier 2
 
 CannBall
 Break80 [None]
 160 HP, 30 MB
-Acc D, Spd E
+69 Acc (D), 2 Spd (E)
 Aerial
 Tier 3
 - Destroys the panel it lands on
@@ -637,7 +637,7 @@ Tier 3
 Howitzer
 Break120 [None]
 200 HP, 40 MB
-Acc E, Spd E
+73 Acc (C), 1 Spd (E)
 Aerial
 Tier 4
 - Destroys the panel it lands on
@@ -645,7 +645,7 @@ Tier 4
 IceBall
 Break80 [Aqua]
 120 HP, 40 MB
-Acc D, Spd E
+69 Acc (D), 1 Spd (E)
 Aerial
 Tier 4
 - Freezes the panel it lands on
@@ -653,7 +653,7 @@ Tier 4
 LavaBall
 Break80 [Fire]
 100 HP, 40 MB
-Acc D, Spd E
+69 Acc (D), 1 Spd (E)
 Aerial
 Tier 4
 - Leaves Lava on the panel it lands on
@@ -661,56 +661,56 @@ Tier 4
 DoubNdl
 Double20 [None]
 70 HP, 10 MB
-Acc B, Spd B
+89 Acc (B), 15 Spd (B)
 Projectile
 Tier 2
 
 TripNdl
 Triple20 [None]
 120 HP, 20 MB
-Acc B, Spd A
+89 Acc (B), 16 Spd (A)
 Projectile
 Tier 3
 
 QuadNdl
 Quad20 [None]
 140 HP, 30 MB
-Acc B, Spd A
+89 Acc (B), 17 Spd (A)
 Projectile
 Tier 4
 
 Trident
 Triple30 [None]
 170 HP, 30 MB
-Acc B, Spd A
+89 Acc (B), 16 Spd (A)
 Projectile
 Tier 4
 
 LiteRay1
 Double30 [Sol]
 150 HP, 20 MB
-Acc S, Spd S
+112 Acc (S), 18 Spd (A)
 Aerial
 Tier 2
 
 LiteRay2
 Triple30 [Sol]
 200 HP, 40 MB
-Acc S, Spd S
+115 Acc (S), 19 Spd (A)
 Aerial
 Tier 3
 
 LiteRay3
 Quad30 [Sol]
 300 HP, 50 MB
-Acc S, Spd S
+120 Acc (S), 20 Spd (S)
 Aerial
 Tier 4
 
 Ratton1
 Add40 [None]
 80 HP, 10 MB
-Acc S, Spd D
+110 Acc (S), 4 Spd (D)
 Floor
 Tier 1
 - Travels forward until it needs to turn toward target
@@ -718,7 +718,7 @@ Tier 1
 Ratton2
 Add50 [None]
 120 HP, 20 MB
-Acc S, Spd D
+110 Acc (S), 6 Spd (D)
 Floor
 Tier 2
 - Travels forward until it needs to turn toward target
@@ -726,7 +726,7 @@ Tier 2
 Ratton3
 Add60 [None]
 160 HP, 30 MB
-Acc S, Spd C
+110 Acc (S), 8 Spd (C)
 Floor
 Tier 3
 - Travels forward until it needs to turn toward target
@@ -734,7 +734,7 @@ Tier 3
 FireRatn
 Interrupt:Fire Add120 [Fire]
 120 HP, 60 MB
-Acc S, Spd E
+110 Acc (S), 1 Spd (E)
 Obstacle, Floor
 Tier 4
 - Travels forward until it needs to turn toward target
@@ -742,7 +742,7 @@ Tier 4
 ApplSeed
 Counter:Wood Absorb:Aqua AllAdd50 Recov100 [Wood]
 150 HP, 60 MB
-Acc A, Spd E
+95 Acc (A), 2 Spd (E)
 Obstacle, Floor
 Tier 4
 - Sprouts into a Tree if hit by Aqua, and heals user
@@ -751,56 +751,61 @@ Tier 4
 Tornado
 Swirl AllAddTriple10 [None]
 50 HP, 40 MB
-Acc D, Spd E
+65 Acc (D), 2 Spd (E)
 Aerial
 Tier 3
 - Does not require a panel to touch down on
-- Picks up Sand Panels to add an extra hit
-- Picks up Sea Panels to change element to [Aqua]
+- Picks up Sand/Honey Panels to add an extra hit
+- Picks up Sea/Lava/Grass/Magnet/Holy/Swamp Panels to change element
+* Does not grant affinity bonus on element change
 
 Twister
 Swirl AllAddTriple10 [Wood]
 30 HP, 40 MB
-Acc D, Spd E
+65 Acc (D), 2 Spd (E)
 Aerial
 Tier 3
 - Does not require a panel to touch down on
-- Still grants bonus to [Wood] on Sea Panels
+- Picks up Sand/Honey Panels to add an extra hit
+- Picks up Sea/Lava/Grass/Magnet/Holy/Swamp Panels to change element
+* Grants Affinity bonus to [Wood] regardless of element change
 
 Blower
 Swirl AllAddTriple10 [Fire]
 20 HP, 40 MB
-Acc D, Spd E
+65 Acc (D), 2 Spd (E)
 Aerial
 Tier 3
 - Does not require a panel to touch down on
-- Still grants bonus to [Fire] on Sea Panels
+- Picks up Sand/Honey Panels to add an extra hit
+- Picks up Sea/Lava/Grass/Magnet/Holy/Swamp Panels to change element
+* Grants Affinity bonus to [Fire] regardless of element change
 
 ZapRing1
 Stun10 [Elec]
 120 HP, 40 MB
-Acc C, Spd C
+75 Acc (C), 8 Spd (C)
 Projectile
 Tier 1
 
 ZapRing2
 Stun50 [Elec]
 60 HP, 40 MB
-Acc C, Spd B
+76 Acc (C), 15 Spd (B)
 Projectile
 Tier 2
 
 ZapRing3
 Stun100 [Elec]
 30 HP, 40 MB
-Acc C, Spd S
+77 Acc (C), 20 Spd (S)
 Projectile
 Tier 4
 
 SandRing
 Panel Stun10 [None]
 150 HP, 30 MB
-Acc D, Spd B
+71 Acc (C), 13 Spd (B)
 Projectile
 Tier 2
 - Turns the target's panel into Sand
@@ -808,7 +813,7 @@ Tier 2
 Satelit1
 Add40 [Elec]
 50 HP, 20 MB
-Acc B, Spd C
+85 Acc (B), 10 Spd (C)
 Projectile
 Tier 2
 - Gets caught orbitting nearest Obstacle
@@ -816,7 +821,7 @@ Tier 2
 Satelit2
 Add50 [Elec]
 80 HP, 30 MB
-Acc B, Spd C
+85 Acc (B), 10 Spd (C)
 Projectile
 Tier 3
 - Gets caught orbitting nearest Obstacle
@@ -824,7 +829,7 @@ Tier 3
 Satelit3
 Add60 [Elec]
 120 HP, 40 MB
-Acc B, Spd C
+85 Acc (B), 10 Spd (C)
 Projectile
 Tier 4
 - Gets caught orbitting nearest Obstacle
@@ -832,7 +837,7 @@ Tier 4
 MagBolt1
 Pull50 [Elec]
 100 HP, 10 MB
-Acc A, Spd B
+90 Acc (A), 12 Spd (B)
 Melee
 Tier 1
 - Reduces enemy Evade by 1 tier
@@ -841,7 +846,7 @@ Tier 1
 MagBolt2
 Pull70 [Elec]
 140 HP, 20 MB
-Acc A, Spd B
+93 Acc (A), 13 Spd (B)
 Melee
 Tier 2
 - Reduces enemy Evade by 1 tier
@@ -850,7 +855,7 @@ Tier 2
 MagBolt3
 Pull100 [Elec]
 200 HP, 40 MB
-Acc A, Spd B
+96 Acc (A), 14 Spd (B)
 Melee
 Tier 3
 - Reduces enemy Evade by 1 tier
@@ -859,7 +864,7 @@ Tier 3
 ElcReel1
 Spread40 [Elec]
 80 HP, 10 MB
-Acc B, Spd A
+88 Acc (B), 18 Spd (A)
 Projectile
 Tier 1
 - Hits all enemies adjacent to impact, which bypasses obstacles
@@ -867,7 +872,7 @@ Tier 1
 ElcReel2
 Spread60 [Elec]
 100 HP, 20 MB
-Acc B, Spd A
+84 Acc (B), 19 Spd (A)
 Projectile
 Tier 2
 - Hits all enemies adjacent to impact, which bypasses obstacles
@@ -875,7 +880,7 @@ Tier 2
 ElcReel3
 Spread80 [Elec]
 120 HP, 30 MB
-Acc B, Spd S
+80 Acc (B), 20 Spd (S)
 Projectile
 Tier 3
 - Hits all enemies adjacent to impact, which bypasses obstacles
@@ -883,28 +888,28 @@ Tier 3
 Prong1
 Double20 [Elec]
 50 HP, 10 MB
-Acc D, Spd B
+69 Acc (D), 15 Spd (B)
 Melee
 Tier 2
 
 Prong2
 Triple20 [Elec]
 100 HP, 20 MB
-Acc C, Spd C
+73 Acc (C), 11 Spd (C)
 Melee
 Tier 3
 
 Prong3
 Triple30 [Elec]
 120 HP, 40 MB
-Acc C, Spd D
+77 Acc (C), 7 Spd (D)
 Melee
 Tier 4
 
 Buzzsaw1
 Indirect Rand60 [Elec]
 180 HP, 20 MB
-Acc D, Spd B
+70 Acc (D), 13 Spd (B)
 Floor
 Tier 2
 - Hits all panels around target without hitting target
@@ -912,7 +917,7 @@ Tier 2
 Buzzsaw2
 Indirect Rand90 [Elec]
 230 HP, 30 MB
-Acc C, Spd B
+71 Acc (C), 12 Spd (B)
 Floor
 Tier 3
 - Hits all panels around target without hitting target
@@ -920,7 +925,7 @@ Tier 3
 Buzzsaw3
 Indirect Rand140 [Elec]
 270 HP, 50 MB
-Acc C, Spd C
+72 Acc (C), 11 Spd (C)
 Floor
 Tier 4
 - Hits all panels around target without hitting target
@@ -928,7 +933,7 @@ Tier 4
 Spice1
 Require:Grass SkipAllAdd30 [Wood]
 200 HP, 20 MB
-Acc S, Spd D
+120 Acc (S), 6 Spd (D)
 Floor
 Tier 2
 - Targets all Grass Panels on field
@@ -936,7 +941,7 @@ Tier 2
 Spice2
 Require:Grass SkipAllAdd50 [Wood]
 240 HP, 30 MB
-Acc S, Spd D
+120 Acc (S), 5 Spd (D)
 Floor
 Tier 3
 - Targets all Grass Panels on field
@@ -944,7 +949,7 @@ Tier 3
 Spice3
 Require:Grass SkipAllAdd70 [Wood]
 300 HP, 40 MB
-Acc S, Spd D
+120 Acc (S), 4 Spd (D)
 Floor
 Tier 4
 - Targets all Grass Panels on field
@@ -952,7 +957,7 @@ Tier 4
 Swarm1
 Require:Honey MultiSkipStun10 [None]
 150 HP, 20 MB
-Acc S, Spd B
+120 Acc (S), 14 Spd (B)
 Projectile
 Tier 2
 - Hits once for every Honey Panel on field
@@ -960,7 +965,7 @@ Tier 2
 Swarm2
 Require:Honey MultiDoubleSkipStun10 [None]
 200 HP, 30 MB
-Acc S, Spd B
+120 Acc (S), 13 Spd (B)
 Projectile
 Tier 3
 - Hits twice for every Honey Panel on field
@@ -968,7 +973,7 @@ Tier 3
 Swarm3
 Require:Honey MultiTripleSkipStun10 [None]
 250 HP, 40 MB
-Acc S, Spd B
+120 Acc (S), 12 Spd (B)
 Projectile
 Tier 4
 - Hits thrice for every Honey Panel on field
@@ -976,7 +981,7 @@ Tier 4
 Erupt1
 Require:Lava Skip100 [Fire]
 160 HP, 20 MB
-Acc S, Spd B
+120 Acc (S), 14 Spd (B)
 Floor
 Tier 2
 - Targets all Lava Panels on field
@@ -984,7 +989,7 @@ Tier 2
 Erupt2
 Require:Lava Skip150 [Fire]
 200 HP, 30 MB
-Acc S, Spd B
+120 Acc (S), 13 Spd (B)
 Floor
 Tier 3
 - Targets all Lava Panels on field
@@ -992,7 +997,7 @@ Tier 3
 Erupt3
 Require:Lava Skip200 [Fire]
 250 HP, 40 MB
-Acc S, Spd B
+120 Acc (S), 12 Spd (B)
 Floor
 Tier 4
 - Targets all Lava Panels on field
@@ -1000,7 +1005,7 @@ Tier 4
 No-Beam1
 Require:Obstacle Add50 [Sol]
 200 HP, 10 MB
-Acc A, Spd B
+100 Acc (A), 15 Spd (B)
 Projectile
 Tier 2
 - Launches attack from behind an obstacle
@@ -1008,7 +1013,7 @@ Tier 2
 No-Beam2
 Require:Obstacle Add70 [Sol]
 220 HP, 20 MB
-Acc A, Spd B
+100 Acc (A), 14 Spd (B)
 Projectile
 Tier 3
 - Launches attack from behind an obstacle
@@ -1016,7 +1021,7 @@ Tier 3
 No-Beam3
 Require:Obstacle Add100 [Sol]
 250 HP, 30 MB
-Acc A, Spd B
+100 Acc (A), 13 Spd (B)
 Projectile
 Tier 4
 - Launches attack from behind an obstacle
@@ -1024,7 +1029,7 @@ Tier 4
 MagBomb1
 Lock1 Require:Magnet StunAllAdd20 [Elec]
 180 HP, 10 MB
-Acc C, Spd C
+75 Acc (C), 10 Spd (C)
 Aerial
 Tier 2
 - All affected Magnet Panels spread cardinally
@@ -1032,7 +1037,7 @@ Tier 2
 MagBomb2
 Lock2 Require:Magnet StunAllAdd40 [Elec]
 220 HP, 20 MB
-Acc B, Spd C
+89 Acc (B), 9 Spd (C)
 Aerial
 Tier 3
 - All affected Magnet Panels spread cardinally
@@ -1041,7 +1046,7 @@ Tier 3
 MagBomb3
 Lock3 Require:Magnet StunAllAdd60 [Elec]
 260 HP, 30 MB
-Acc S, Spd C
+103 Acc (S), 8 Spd (C)
 Aerial
 Tier 4
 - All affected Magnet Panels spread cardinally
@@ -1050,7 +1055,7 @@ Tier 4
 Yo-Yo1
 Triple30 [None]
 60 HP, 30 MB
-Acc C, Spd D
+78 Acc (C), 7 Spd (D)
 Projectile
 Tier 2
 - Travels to target in straight line
@@ -1059,7 +1064,7 @@ Tier 2
 Yo-Yo2
 Triple40 [None]
 80 HP, 40 MB
-Acc C, Spd D
+78 Acc (C), 6 Spd (D)
 Projectile
 Tier 3
 - Travels to target in straight line
@@ -1068,7 +1073,7 @@ Tier 3
 Yo-Yo3
 Triple50 [None]
 120 HP, 50 MB
-Acc C, Spd D
+78 Acc (C), 5 Spd (D)
 Projectile
 Tier 4
 - Travels to target in straight line
@@ -1077,7 +1082,7 @@ Tier 4
 Boomer1
 Double30 [Wood]
 60 HP, 20 MB
-Acc C, Spd D
+78 Acc (C), 7 Spd (D)
 Projectile
 Tier 2
 - Swings around bottom lane and then crosses through target
@@ -1087,7 +1092,7 @@ Tier 2
 Boomer2
 Double40 [Wood]
 80 HP, 30 MB
-Acc C, Spd D
+78 Acc (C), 6 Spd (D)
 Projectile
 Tier 3
 - Swings around bottom lane and then crosses through target
@@ -1097,7 +1102,7 @@ Tier 3
 Boomer3
 Double50 [Wood]
 120 HP, 40 MB
-Acc C, Spd D
+78 Acc (C), 5 Spd (D)
 Projectile
 Tier 4
 - Swings around bottom lane and then crosses through target
@@ -1107,7 +1112,7 @@ Tier 4
 Chakram
 DoubleRand50 [None]
 150 HP, 40 MB
-Acc D, Spd A
+70 Acc (D), 16 Spd (A)
 Projectile
 Tier 4
 - Swings through both lanes and converges on target, making a return trip
@@ -1116,28 +1121,28 @@ Tier 4
 CrsShld1
 Defense Counter50 [None]
 180 HP, 40 MB
-Acc A, Spd E
+95 Acc (A), 1 Spd (E)
 Personal, Projectile
 Tier 2
 
 CrsShld2
 Defense Counter60 [None]
 250 HP, 50 MB
-Acc A, Spd E
+94 Acc (A), 1 Spd (E)
 Personal, Projectile
 Tier 3
 
 CrsShld3
 Defense Counter70 [None]
 300 HP, 60 MB
-Acc A, Spd E
+93 Acc (A), 1 Spd (E)
 Personal, Projectile
 Tier 4
 
 AntHill1
 Defense1 Remove20 [None]
 70 HP, 20 MB
-Acc A, Spd A
+95 Acc (A), 17 Spd (A)
 Obstacle, Floor
 Tier 1
 - Absorbs one hit per use
@@ -1147,7 +1152,7 @@ Tier 1
 AntHill2
 Defense1 Remove40 [None]
 150 HP, 30 MB
-Acc A, Spd A
+94 Acc (A), 16 Spd (A)
 Obstacle, Floor
 Tier 2
 - Absorbs one hit per use
@@ -1157,7 +1162,7 @@ Tier 2
 AntHill3
 Defense1 Remove70 [None]
 300 HP, 40 MB
-Acc A, Spd B
+93 Acc (A), 15 Spd (B)
 Obstacle, Floor
 Tier 3
 - Absorbs one hit per use
@@ -1167,7 +1172,7 @@ Tier 3
 Pulse1
 Ping:Mind40 [None]
 60 HP, 10 MB
-Acc C, Spd S
+79 Acc (C), 20 Spd (S)
 Projectile
 Tier 1
 - Gains a damage bonus, turns [Dark], and gains secondary effect if it hits an Obstacle
@@ -1176,7 +1181,7 @@ Tier 1
 Pulse2
 Ping:Mind60 [None]
 80 HP, 20 MB
-Acc C, Spd S
+80 Acc (C), 20 Spd (S)
 Projectile
 Tier 2
 - Gains a damage bonus, turns [Dark], and gains secondary effect if it hits an Obstacle
@@ -1185,7 +1190,7 @@ Tier 2
 Pulse3
 Ping:Mind80 [None]
 100 HP, 30 MB
-Acc B, Spd S
+81 Acc (B), 20 Spd (S)
 Projectile
 Tier 3
 - Gains a damage bonus, turns [Dark], and gains secondary effect if it hits an Obstacle
@@ -1194,35 +1199,35 @@ Tier 3
 DrilArm1
 TripBreak10 [None]
 140 HP, 20 MB
-Acc D, Spd D
+70 Acc (D), 6 Spd (D)
 Melee
 Tier 2
 
 DrilArm2
 TripBreak20 [None]
 180 HP, 30 MB
-Acc D, Spd D
+69 Acc (D), 5 Spd (D)
 Melee
 Tier 3
 
 DrilArm3
 TripBreak30 [None]
 230 HP, 30 MB
-Acc D, Spd D
+68 Acc (D), 4 Spd (D)
 Melee
 Tier 4
 
 BrakHamr
 BreakAllAdd30 [None]
 40 HP, 30 MB
-Acc C, Spd E
+70 Acc (D), 3 Spd (E)
 Melee
 Tier 2
 
 ZeusHamr
 BreakAllAdd50 [None]
 40 HP, 60 MB
-Acc C, Spd E
+85 Acc (B), 2 Spd (E)
 Melee, Floor
 Tier 5
 - Splashes all entities without AirShoes
@@ -1230,7 +1235,7 @@ Tier 5
 GelCrash
 Shove AllAdd20 [Aqua]
 50 HP, 40 MB
-Acc A, Spd D
+91 Acc (A), 6 Spd (D)
 Floor
 Tier 3
 - Sweeps whole field
@@ -1239,7 +1244,7 @@ Tier 3
 SloGauge
 Stop [None]
 120 HP, 20 MB
-Acc S, Spd S
+200 Acc (S), 20 Spd (S)
 Instant
 Tier 2
 - Prevents opponent's Gauge from charging
@@ -1247,28 +1252,28 @@ Tier 2
 BrnzFist
 Shove2 Break90 [None]
 110 HP, 30 MB
-Acc C, Spd E
+75 Acc (C), 1 Spd (E)
 Melee
 Tier 2
 
 SilvFist
 Shove2 Break120 [None]
 100 HP, 40 MB
-Acc C, Spd E
+75 Acc (C), 2 Spd (E)
 Melee
 Tier 3
 
 GoldFist
 Shove10 Break150 [None]
 90 HP, 50 MB
-Acc C, Spd E
+75 Acc (C), 3 Spd (E)
 Melee
 Tier 4
 
 PoisMask
 Defense CounterAllAdd20 [None]
 140 HP, 30 MB
-Acc A, Spd A
+95 Acc (A), 18 Spd (A)
 Personal, Floor
 Tier 3
 - Targets whole enemy field
@@ -1276,7 +1281,7 @@ Tier 3
 PoisFace
 Defense CounterAllAdd30 [None]
 180 HP, 50 MB
-Acc A, Spd A
+95 Acc (A), 18 Spd (A)
 Personal, Floor
 Tier 4
 - Targets whole enemy field
@@ -1284,7 +1289,7 @@ Tier 4
 Decay
 CounterChip??? [Dark]
 80 HP, 50 MB
-Acc S, Spd A
+200 Acc (S), 18 Spd (A)
 Personal, Instant
 Tier 4
 - Does not take damage for user
@@ -1293,7 +1298,7 @@ Tier 4
 Whirlpl
 Swirl DeleteRand10 [None]
 80 HP, 30 MB
-Acc D, Spd A
+64 Acc (E), 19 Spd (A)
 Aerial
 Tier 3
 - Leaves a Sea Panel if it misses
@@ -1301,16 +1306,16 @@ Tier 3
 BlckHole
 Swirl DeleteRand10 [Dark]
 250 HP, 50 MB
-Acc B, Spd A
+82 Acc (B), 19 Spd (A)
 Aerial
 Tier 4
-- Leaves a Dark Hole if it misses
-- Still grants bonus to [Dark] on Sea Panels
+- Leaves a Swamp Panel if it misses
+- Still grants bonus to [Dark] if element changes
 
 DeepFrez
 Freeze StunStop80 [Aqua]
 150 HP, 40 MB
-Acc S, Spd A
+120 Acc (S), 17 Spd (A)
 Floor
 Tier 4
 - Affects entire field
@@ -1320,7 +1325,7 @@ Tier 4
 Meteor3
 3Meteo40 [Fire]
 70 HP, 30 MB
-Acc E, Spd B
+50 Acc (E), 14 Spd (B)
 Aerial
 Tier 1
 - Missed meteors hit random other panels
@@ -1328,7 +1333,7 @@ Tier 1
 Meteor4
 4Meteo40 [Fire]
 90 HP, 40 MB
-Acc E, Spd B
+50 Acc (E), 13 Spd (B)
 Aerial
 Tier 2
 - Missed meteors hit random other panels
@@ -1336,7 +1341,7 @@ Tier 2
 Meteor5
 5Meteo40 [Fire]
 100 HP, 50 MB
-Acc E, Spd B
+50 Acc (E), 12 Spd (B)
 Aerial
 Tier 3
 - Missed meteors hit random other panels
@@ -1344,7 +1349,7 @@ Tier 3
 Meteor6
 6Meteo40 [Fire]
 120 HP, 60 MB
-Acc E, Spd C
+50 Acc (E), 11 Spd (C)
 Aerial
 Tier 4
 - Missed meteors hit random other panels
@@ -1352,28 +1357,28 @@ Tier 4
 CactBal1
 4Meteor40 [Wood]
 90 HP, 30 MB
-Acc D, Spd B
+66 Acc (D), 14 Spd (B)
 Floor
 Tier 1
 
 CactBal2
 5Meteor40 [Wood]
 110 HP, 40 MB
-Acc D, Spd B
+66 Acc (D), 13 Spd (B)
 Floor
 Tier 2
 
 CactBal3
 6Meteor40 [Wood]
 130 HP, 40 MB
-Acc D, Spd B
+66 Acc (D), 12 Spd (B)
 Floor
 Tier 3
 
 TimeBom1
 Defense DelayAllAdd40 [None]
 90 HP, 30 MB
-Acc S, Spd S
+130 Acc (S), 20 Spd (S)
 Obstacle, Floor
 Tier 2
 - Targets whole field it detonated on
@@ -1381,7 +1386,7 @@ Tier 2
 TimeBom2
 Defense DelayAllAdd40 [None]
 180 HP, 50 MB
-Acc S, Spd S
+130 Acc (S), 20 Spd (S)
 Obstacle, Floor
 Tier 3
 - Targets whole field it detonated on
@@ -1389,7 +1394,7 @@ Tier 3
 TimeBom3
 Defense DelayAllAdd40 [None]
 260 HP, 60 MB
-Acc S, Spd S
+130 Acc (S), 20 Spd (S)
 Obstacle, Floor
 Tier 4
 - Targets whole field it detonated on
@@ -1397,7 +1402,7 @@ Tier 4
 Sundial
 DefenseStop DelaySkip40 [Sol]
 200 HP, 20 MB
-Acc S, Spd S
+120 Acc (S), 20 Spd (S)
 Obstacle, Aerial
 Tier 3
 - Requires at least 4 solar bars to work
@@ -1406,7 +1411,7 @@ Tier 3
 PowerOrb
 Waning DelayTripleAdd50 [Sol]
 150 HP, 60 MB
-Acc A, Spd S
+99 Acc (A), 20 Spd (S)
 Personal, Aerial
 Tier 4
 - Loses one strike per hit taken by user
@@ -1414,28 +1419,28 @@ Tier 4
 LilCloud
 AllAdd10 [Aqua]
 180 HP, 20 MB
-Acc B, Spd B
+82 Acc (B), 12 Spd (B)
 Aerial
 Tier 1
 
 MedCloud
 AllAdd20 [Aqua]
 150 HP, 30 MB
-Acc B, Spd B
+83 Acc (B), 12 Spd (B)
 Aerial
 Tier 2
 
 BigCloud
 AllAdd30 [Aqua]
 120 HP, 40 MB
-Acc B, Spd A
+86 Acc (B), 16 Spd (A)
 Aerial
 Tier 3
 
 BublHook
 Panel:Sea Stun80 [Aqua]
 90 HP, 30 MB
-Acc C, Spd S
+72 Acc (C), 20 Spd (S)
 Projectile
 Tier 3
 - Strikes in a Wide pattern
@@ -1444,7 +1449,7 @@ Tier 3
 Mine
 Counter:Melee+Floor AllAdd50 [None]
 100 HP, 30 MB
-Acc S, Spd E
+200 Acc (S), 1 Spd (E)
 Obstacle, Floor
 Tier 4
 - Does not block attacks
@@ -1453,7 +1458,7 @@ Tier 4
 FrntSnsr
 PersistCounter:Projectile Normal40 [None]
 300 HP, 50 MB
-Acc S, Spd E
+200 Acc (S), 2 Spd (E)
 Personal, Projectile
 Tier 3
 - Does not block attacks
@@ -1462,7 +1467,7 @@ Tier 3
 DblSnsr
 PersistCounter:Projectile+Aerial Double30 [None]
 140 HP, 50 MB
-Acc S, Spd E
+200 Acc (S), 2 Spd (E)
 Personal, Projectile
 Tier 4
 - Does not block attacks
@@ -1471,7 +1476,7 @@ Tier 4
 FrntLasr
 PersistCounter:Projectile BlindAdd70 [Sol]
 140 HP, 50 MB
-Acc S, Spd C
+200 Acc (S), 9 Spd (C)
 Personal, Projectile
 Tier 4
 - Does not block attacks
@@ -1480,7 +1485,7 @@ Tier 4
 WoolRam1
 BarrDef Norm40 [None]
 100 HP, 20 MB
-Acc D, Spd B
+68 Acc (D), 13 Spd (B)
 Personal, Floor
 Tier 2
 - Does not hit Obstacles
@@ -1489,7 +1494,7 @@ Tier 2
 WoolRam2
 BarrDef Norm60 [None]
 150 HP, 30 MB
-Acc D, Spd B
+69 Acc (D), 12 Spd (B)
 Personal, Floor
 Tier 3
 - Does not hit Obstacles
@@ -1498,7 +1503,7 @@ Tier 3
 WoolRam3
 BarrDef Norm80 [None]
 180 HP, 40 MB
-Acc D, Spd C
+70 Acc (D), 11 Spd (C)
 Personal, Floor
 Tier 4
 - Does not hit Obstacles
@@ -1507,7 +1512,7 @@ Tier 4
 Remobit1
 Defense AllAdd10 [Elec]
 150 HP, 30 MB
-Acc B, Spd B
+85 Acc (B), 12 Spd (B)
 Obstacle, Aerial
 Tier 2
 - Cracks panel
@@ -1515,7 +1520,7 @@ Tier 2
 Remobit2
 Defense AllAdd20 [Elec]
 210 HP, 40 MB
-Acc B, Spd B
+85 Acc (B), 13 Spd (B)
 Obstacle, Aerial
 Tier 3
 - Cracks panel
@@ -1523,7 +1528,7 @@ Tier 3
 Remobit3
 Defense AllAdd30 [Elec]
 300 HP, 50 MB
-Acc B, Spd A
+85 Acc (B), 16 Spd (A)
 Obstacle, Aerial
 Tier 4
 - Cracks panel
@@ -1531,28 +1536,28 @@ Tier 4
 PnkLotus
 Defense AllAdd20 [Wood]
 150 HP, 40 MB
-Acc D, Spd C
+69 Acc (D), 9 Spd (C)
 Obstacle, Floor
 Tier 2
 
 RedLotus
 Defense MindAllAdd20 [Wood]
 210 HP, 50 MB
-Acc D, Spd C
+70 Acc (D), 10 Spd (C)
 Obstacle, Floor
 Tier 3
 
 YelLotus
 Defense StunAllAdd30 [Wood]
 300 HP, 60 MB
-Acc C, Spd B
+71 Acc (C), 13 Spd (B)
 Obstacle, Floor
 Tier 4
 
 AquaBall
 Store:Aqua Delay10+ [Aqua]
 160 HP, 30 MB
-Acc C, Spd D
+75 Acc (C), 5 Spd (D)
 Personal, Projectile
 Tier 3
 - Detonates full charge if Shoved
@@ -1560,7 +1565,7 @@ Tier 3
 ElecBall
 Store:Elec Delay10+ [Elec]
 160 HP, 30 MB
-Acc C, Spd D
+75 Acc (C), 5 Spd (D)
 Personal, Projectile
 Tier 3
 - Detonates full charge if Shoved
@@ -1568,7 +1573,7 @@ Tier 3
 HeatBall
 Store:Fire Delay10+ [Fire]
 160 HP, 30 MB
-Acc C, Spd D
+75 Acc (C), 5 Spd (D)
 Personal, Projectile
 Tier 3
 - Detonates full charge if Shoved
@@ -1576,7 +1581,7 @@ Tier 3
 Blizzard
 Panel:Ice Pierce50 [Aqua]
 90 HP, 30 MB
-Acc B, Spd C
+81 Acc (B), 9 Spd (C)
 Melee, Floor
 Tier 3
 - Fans out once
@@ -1584,7 +1589,7 @@ Tier 3
 HeatBrth
 Panel:Lava Pierce30 [Fire]
 70 HP, 30 MB
-Acc B, Spd C
+81 Acc (B), 9 Spd (C)
 Melee, Floor
 Tier 3
 - Fans out once
@@ -1592,7 +1597,7 @@ Tier 3
 WoodPwdr
 Panel:Grass Pierce40 [Wood]
 110 HP, 30 MB
-Acc B, Spd C
+81 Acc (B), 9 Spd (C)
 Melee, Floor
 Tier 3
 - Fans out once
@@ -1600,7 +1605,7 @@ Tier 3
 ElemRage
 Adapt:Panel Pierce90 [None]
 50 HP, 40 MB
-Acc A, Spd A
+91 Acc (A), 16 Spd (A)
 Projectile
 Tier 4
 - Gains boost and takes element of user's panel and turns it to Basic
@@ -1608,7 +1613,7 @@ Tier 4
 Snake
 Require:Hole Multi20 [Wood]
 100 HP, 40 MB
-Acc B, Spd C
+90 Acc (B), 10 Spd (C)
 Projectile
 Tier 3
 - Attacks once for every Hole
@@ -1616,7 +1621,7 @@ Tier 3
 Geyser
 Require:Hole AllAdd50 [Aqua]
 80 HP, 40 MB
-Acc A, Spd B
+92 Acc (A), 15 Spd (B)
 Floor
 Tier 4
 - Affects all panels adjacent to a Hole
@@ -1625,7 +1630,7 @@ Tier 4
 LavaDrag
 Require:Hole AllAdd50+ [Fire]
 60 HP, 50 MB
-Acc A, Spd A
+92 Acc (A), 16 Spd (A)
 Projectile
 Tier 4
 - Add 10 damage for every Lava Panel on field
@@ -1634,7 +1639,7 @@ Tier 4
 GodStone
 Require:Hole Meteo+80 [None]
 140 HP, 50 MB
-Acc E, Spd A
+50 Acc (E), 17 Spd (A)
 Aerial
 Tier 4
 - Attempts one attack per Hole on the field
@@ -1643,7 +1648,7 @@ Tier 4
 OldWood
 Require:Hole PierceAllAdd50 [Wood]
 120 HP, 50 MB
-Acc A, Spd C
+92 Acc (A), 8 Spd (C)
 Floor
 Tier 4
 - Can target as many enemies as there are Holes
@@ -1651,7 +1656,7 @@ Tier 4
 Tripwire
 Require:Hole Counter:Floor Norm150 [Elec]
 160 HP, 50 MB
-Acc S, Spd B
+102 Acc (S), 14 Spd (B)
 Obstacle, Floor
 Tier 4
 - Raises an Obstacle from every Hole
@@ -1660,7 +1665,7 @@ Tier 4
 Vacuum
 Require:Hole DeleteTriple10 [Dark]
 50 HP, 50 MB
-Acc B, Spd A
+82 Acc (B), 18 Spd (A)
 Floor
 Tier 5
 - Pulls target toward the nearest Hole
@@ -1668,7 +1673,7 @@ Tier 5
 Piledriv
 Require:Hole Multi??? [Sol]
 120 HP, 50 MB
-Acc A, Spd A
+92 Acc (A), 18 Spd (A)
 Projectile
 Tier 5
 - Deals 10 damage per Solar Bar
@@ -1678,7 +1683,7 @@ Tier 5
 Shell
 Defense Armor+20 [Aqua]
 150 HP, 20 MB
-Spd E
+100 Acc (A), 3 Spd (E)
 Personal
 Tier 2
 - Deducts 20 damage from every attack that pierces it
@@ -1686,7 +1691,7 @@ Tier 2
 TurtShel
 Defense Armor+30 [Aqua]
 180 HP, 30 MB
-Spd A
+100 Acc (A), 16 Spd (A)
 Personal
 Tier 3
 - Deducts 30 damage from every attack that pierces it
@@ -1694,7 +1699,7 @@ Tier 3
 PwrShell
 Defense Armor+30 CounterAdd30 [Aqua]
 230 HP, 50 MB
-Acc B, Spd B
+85 Acc (B), 13 Spd (B)
 Personal, Projectile
 Tier 4
 - Deducts 30 damage from every attack that pierces it
@@ -1702,14 +1707,14 @@ Tier 4
 Guard
 Reflect:Non Skip40 [None]
 10 HP, 20 MB
-Acc A, Spd E
+89 Acc (B), 1 Spd (E)
 Personal, Floor
 Tier 2
 
 Kindler
 Reflect:Wood Skip40 [Fire]
 10 HP, 30 MB
-Acc A, Spd E
+89 Acc (B), 1 Spd (E)
 Personal, Floor
 Tier 3
 - Completely nullifies Wood attacks and retaliates with Fire
@@ -1717,7 +1722,7 @@ Tier 3
 Hydrant
 Reflect:Fire Skip40 [Aqua]
 10 HP, 30 MB
-Acc A, Spd E
+89 Acc (B), 1 Spd (E)
 Personal, Projectile
 Tier 3
 - Completely nullifies Fire attacks and retaliates with Aqua
@@ -1725,7 +1730,7 @@ Tier 3
 Wires
 Reflect:Aqua Skip40 [Elec]
 10 HP, 30 MB
-Acc A, Spd E
+89 Acc (B), 1 Spd (E)
 Personal, Projectile
 Tier 3
 - Completely nullifies Aqua attacks and retaliates with Elec
@@ -1733,7 +1738,7 @@ Tier 3
 Snapper
 Reflect:Elec Skip40 [Wood]
 10 HP, 30 MB
-Acc A, Spd E
+89 Acc (B), 1 Spd (E)
 Personal, Floor
 Tier 3
 - Completely nullifies Elec attacks and retaliates with Wood
@@ -1741,7 +1746,7 @@ Tier 3
 Catcher
 Lucky Snatch [None]
 200 HP, 20 MB
-Acc D, Spd E
+63 Acc (E), 1 Spd (E)
 Projectile
 Tier 3
 - Steals primed chip for remainder of battle
@@ -1750,7 +1755,7 @@ Tier 3
 MindBndr
 Mind10 [None]
 100 HP, 10 MB
-Acc S, Spd C
+150 Acc (S), 10 Spd (C)
 Projectile
 Tier 2
 - Forces random movement
@@ -1758,63 +1763,63 @@ Tier 2
 Recov10
 Heal10 [None]
 80 HP, 0 MB
-Spd A
+100 Acc (A), 19 Spd (A)
 Personal
 Tier 1
 
 Recov30
 Heal30 [None]
 40 HP, 0 MB
-Spd A
+100 Acc (A), 18 Spd (A)
 Personal
 Tier 3
 
 Recov50
 Heal50 [None]
 80 HP, 10 MB
-Spd B
+100 Acc (A), 13 Spd (B)
 Personal
 Tier 1
 
 Recov80
 Heal80 [None]
 80 HP, 20 MB
-Spd B
+100 Acc (A), 12 Spd (B)
 Personal
 Tier 2
 
 Recov120
 Heal120 [None]
 40 HP, 20 MB
-Spd C
+100 Acc (A), 11 Spd (C)
 Personal
 Tier 2
 
 Recov150
 Heal150 [None]
 60 HP, 30 MB
-Spd C
+100 Acc (A), 8 Spd (C)
 Personal
 Tier 3
 
 Recov200
 Heal200 [None]
 90 HP, 40 MB
-Spd D
+100 Acc (A), 7 Spd (D)
 Personal
 Tier 3
 
 Recov300
 Heal300 [None]
 20 HP, 40 MB
-Spd D
+100 Acc (A), 6 Spd (D)
 Personal
 Tier 4
 
 Dfrag50
 Fix50 [None]
 50 HP, 10 MB
-Spd S
+100 Acc (A), 20 Spd (S)
 Personal
 Tier 1
 - Restores 50 HP to the next chip used
@@ -1822,7 +1827,7 @@ Tier 1
 Dfrag100
 Fix100 [None]
 100 HP, 20 MB
-Spd A
+100 Acc (A), 16 Spd (A)
 Personal
 Tier 3
 - Restores 100 HP to the next chip used
@@ -1830,7 +1835,7 @@ Tier 3
 Dfrag150
 Fix150 [None]
 150 HP, 30 MB
-Spd C
+100 Acc (A), 11 Spd (C)
 Personal
 Tier 4
 - Restores 150 HP to the next chip used
@@ -1838,28 +1843,28 @@ Tier 4
 VampBit1
 Absorb50 [Dark]
 60 HP, 30 MB
-Acc D, Spd B
+66 Acc (D), 12 Spd (B)
 Melee
 Tier 1
 
 VampBit2
 Absorb80 [Dark]
 80 HP, 50 MB
-Acc D, Spd C
+67 Acc (D), 10 Spd (C)
 Melee
 Tier 3
 
 VampBit3
 Absorb150 [Dark]
 80 HP, 70 MB
-Acc D, Spd D
+68 Acc (D), 7 Spd (D)
 Melee
 Tier 4
 
 HoneyPot
 Absorb:Floor DelayAllFix30+ [None]
 150 HP, 30 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Obstacle, Personal
 Tier 3
 - Spills a 3x3 square of Honey down when it breaks
@@ -1868,7 +1873,7 @@ Tier 3
 Candle1
 Defense DelayHeal40 [Fire]
 100 HP, 10 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Obstacle, Personal
 Tier 2
 - Heals whole side of field
@@ -1876,7 +1881,7 @@ Tier 2
 Candle2
 Defense DelayHeal70 [Fire]
 100 HP, 20 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Obstacle, Personal
 Tier 3
 - Heals whole side of field
@@ -1884,7 +1889,7 @@ Tier 3
 Candle3
 Defense DelayHeal100 [Fire]
 100 HP, 40 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Obstacle, Personal
 Tier 4
 - Heals whole side of field
@@ -1892,7 +1897,7 @@ Tier 4
 Totem1
 Defense Delay Normal60 Heal50 [Fire]
 100 HP, 20 MB
-Acc B, Spd E
+88 Acc (B), 1 Spd (E)
 Obstacle, Projectile, Personal
 Tier 2
 - Swaps between Healing and Damage each time it takes a hit
@@ -1900,7 +1905,7 @@ Tier 2
 Totem2
 Defense Delay Normal80 Heal80 [Fire]
 150 HP, 30 MB
-Acc B, Spd E
+88 Acc (B), 1 Spd (E)
 Obstacle, Projectile, Personal
 Tier 3
 - Swaps between Healing and Damage each time it takes a hit
@@ -1908,7 +1913,7 @@ Tier 3
 Totem3
 Defense Delay Normal120 Heal100 [Fire]
 200 HP, 50 MB
-Acc B, Spd E
+88 Acc (B), 1 Spd (E)
 Obstacle, Projectile, Personal
 Tier 4
 - Swaps between Healing and Damage each time it takes a hit
@@ -1916,7 +1921,7 @@ Tier 4
 Fanfare
 Defense InvisAll [None]
 80 HP, 30 MB
-Spd C
+100 Acc (A), 9 Spd (C)
 Obstacle, Personal
 Tier 3
 - All entities on your side (except this Obstacle) gain Invis status while active
@@ -1924,7 +1929,7 @@ Tier 3
 Discord
 Defense MindAll [None]
 150 HP, 20 MB
-Acc S, Spd A
+200 Acc (S), 18 Spd (A)
 Obstacle, Instant
 Tier 3
 - All entities on the opposing field are inflicted with Mind status while active
@@ -1932,35 +1937,35 @@ Tier 3
 RockCube
 Defense [None]
 250 HP, 10 MB
-Spd E
+100 Acc (A), 1 Spd (E)
 Obstacle
 Tier 1
 
 IceCube
 Defense [Aqua]
 200 HP, 10 MB
-Spd E
+100 Acc (A), 1 Spd (E)
 Obstacle
 Tier 2
 
 Pawn
 Defense DelayRand30 [None]
 150 HP, 10 MB
-Acc E, Spd E
+64 Acc (E), 1 Spd (E)
 Obstacle, Melee
 Tier 2
 
 Rook
 Defense DelayAdd60 [None]
 120 HP, 30 MB
-Acc C, Spd D
+75 Acc (C), 4 Spd (D)
 Obstacle, Floor
 Tier 3
 
 Prism
 Defense DelayCopy [Sol]
 150 HP, 30 MB
-Acc S, Spd C
+120 Acc (S), 10 Spd (C)
 Obstacle, Projectile
 Tier 4
 - Repeats all damage dealt by user since it was placed
@@ -1968,28 +1973,28 @@ Tier 4
 Guardian
 Defense Counter150 [Sol]
 70 HP, 70 MB
-Acc S, Spd E
+200 Acc (S), 1 Spd (E)
 Obstacle, Aerial
 Tier 5
 
 Wind
 Repel Remove [None]
 160 HP, 20 MB
-Acc S, Spd C
+100 Acc (A), 10 Spd (C)
 Obstacle, Projectile
 Tier 3
 
 Fan
 Attract Remove [None]
 180 HP, 20 MB
-Acc S, Spd A
+100 Acc (A), 18 Spd (A)
 Obstacle, Projectile
 Tier 3
 
 Anubis
 Defense AllAdd30 [None]
 230 HP, 60 MB
-Acc S, Spd C
+130 Acc (S), 10 Spd (C)
 Obstacle, Floor
 Tier 5
 - Affects all opposing panels
@@ -1997,7 +2002,7 @@ Tier 5
 Press1
 Dodge1 [None]
 200 HP, 0 MB
-Spd B
+100 Acc (A), 15 Spd (B)
 Personal
 Tier 1
 - Increases Dodge score by 1 grade
@@ -2005,7 +2010,7 @@ Tier 1
 Press2
 Dodge2 [None]
 120 HP, 10 MB
-Spd B
+100 Acc (A), 12 Spd (B)
 Personal
 Tier 2
 - Increases Dodge score by 2 grades
@@ -2013,7 +2018,7 @@ Tier 2
 Press3
 Dodge3 [None]
 120 HP, 20 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Personal
 Tier 3
 - Increases Dodge score by 3 grades
@@ -2021,42 +2026,42 @@ Tier 3
 Invis1
 Invis [None]
 10 HP, 20 MB
-Spd S
+100 Acc (A), 5 Spd (D)
 Personal
 Tier 2
 
 Invis2
 Invis [None]
 20 HP, 30 MB
-Spd S
+100 Acc (A), 4 Spd (D)
 Personal
 Tier 3
 
 Invis3
 Invis [None]
 40 HP, 40 MB
-Spd S
+100 Acc (A), 3 Spd (E)
 Personal
 Tier 4
 
 DropDown
 Weak:Aerial Invis [Wood]
 60 HP, 30 MB
-Spd A
+100 Acc (A), 2 Spd (E)
 Personal
 Tier 4
 
 Popup
 Weak:Floor Invis [None]
 60 HP, 30 MB
-Spd A
+100 Acc (A), 1 Spd (E)
 Personal
 Tier 4
 
 Escape
 Weak:Projectile Invis Flee [None]
 100 HP, 30 MB
-Spd D
+100 Acc (A), 1 Spd (E)
 Personal
 Tier 3
 - Slips out of a virus battle without fail
@@ -2064,7 +2069,7 @@ Tier 3
 StoneBod
 Defense Buff:Rock [None]
 80 HP, 30 MB
-Spd E
+100 Acc (A), 1 Spd (E)
 Personal
 Tier 3
 - Take only 10 damage per hit while active
@@ -2072,7 +2077,7 @@ Tier 3
 Shadow1
 Defense Counter+ Rand30 [Dark]
 30 HP, 40 MB
-Acc S, Spd E
+200 Acc (S), 1 Spd (E)
 Personal, Melee
 Tier 2
 - Immune to everything except Rand and [Sol]
@@ -2080,7 +2085,7 @@ Tier 2
 Shadow2
 Defense Counter+ Rand40 [Dark]
 30 HP, 50 MB
-Acc S, Spd E
+200 Acc (S), 1 Spd (E)
 Personal, Melee
 Tier 3
 - Immune to everything except Rand and [Sol]
@@ -2088,7 +2093,7 @@ Tier 3
 Shadow3
 Defense Counter+ Rand60 [Dark]
 30 HP, 60 MB
-Acc S, Spd E
+200 Acc (S), 1 Spd (E)
 Personal, Melee
 Tier 4
 - Immune to everything except Rand and [Sol]
@@ -2096,7 +2101,7 @@ Tier 4
 Radiance
 Counter:Melee Blind50 [Sol]
 80 HP, 30 MB
-Spd S
+200 Acc (S), 20 Spd (S)
 Personal, Instant
 Tier 3
 - Incoming Melee attacks get interrupted by blinding light
@@ -2104,14 +2109,14 @@ Tier 3
 AirShoes
 Buff:Float [None]
 100 HP, 20 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Personal
 Tier 2
 
 UnderSht
 Survive10 [None]
 120 HP, 20 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Personal
 Tier 2
 - Survive with 10 HP
@@ -2119,7 +2124,7 @@ Tier 2
 UndrArmr
 Survive50 [None]
 30 HP, 50 MB
-Spd D
+100 Acc (A), 5 Spd (D)
 Personal
 Tier 3
 - Survive with 50 HP
@@ -2127,7 +2132,7 @@ Tier 3
 Barrier
 Defense Barr1 [None]
 120 HP, 30 MB
-Spd S
+100 Acc (A), 20 Spd (S)
 Personal
 Tier 2
 - Blocks a single hit without taking damage
@@ -2135,7 +2140,7 @@ Tier 2
 BblWrap
 Defense Barr1 [Aqua]
 90 HP, 30 MB
-Spd S
+100 Acc (A), 20 Spd (S)
 Personal
 Tier 3
 - Blocks a single non-[Elec] hit without taking damage
@@ -2143,7 +2148,7 @@ Tier 3
 LeafShld
 Defense Barr1 [Wood]
 90 HP, 30 MB
-Spd S
+100 Acc (A), 20 Spd (S)
 Personal
 Tier 3
 - Blocks a single non-[Fire] hit without taking damage
@@ -2151,7 +2156,7 @@ Tier 3
 Corona
 Defense Barr1 [Sol]
 100 HP, 30 MB
-Spd S
+100 Acc (A), 20 Spd (S)
 Personal
 Tier 3
 - Blocks a single non-[Dark] hit without taking damage
@@ -2159,7 +2164,7 @@ Tier 3
 AquaAura
 Defense Aura80 [Aqua]
 60 HP, 50 MB
-Spd A
+100 Acc (A), 18 Spd (A)
 Personal
 Tier 3
 - Blocks any non-[Elec] under 80 damage
@@ -2167,7 +2172,7 @@ Tier 3
 FireAura
 Defense Aura80 [Fire]
 60 HP, 50 MB
-Spd A
+100 Acc (A), 18 Spd (A)
 Personal
 Tier 3
 - Blocks any non-[Aqua] under 80 damage
@@ -2175,7 +2180,7 @@ Tier 3
 WoodAura
 Defense Aura80 [Wood]
 60 HP, 50 MB
-Spd A
+100 Acc (A), 18 Spd (A)
 Personal
 Tier 3
 - Blocks any non-[Fire] under 80 damage
@@ -2183,7 +2188,7 @@ Tier 3
 ElecAura
 Defense Aura80 [Elec]
 60 HP, 50 MB
-Spd A
+100 Acc (A), 18 Spd (A)
 Personal
 Tier 3
 - Blocks any non-[Wood] under 80 damage
@@ -2191,7 +2196,7 @@ Tier 3
 LifeAur1
 Defense Aura60 [Life]
 60 HP, 30 MB
-Spd A
+100 Acc (A), 16 Spd (A)
 Personal
 Tier 3
 - Blocks any hit under 60 damage
@@ -2199,7 +2204,7 @@ Tier 3
 LifeAur2
 Defense Aura100 [Life]
 40 HP, 50 MB
-Spd B
+100 Acc (A), 15 Spd (B)
 Personal
 Tier 4
 - Blocks any hit under 100 damage
@@ -2207,7 +2212,7 @@ Tier 4
 LifeAur3
 Defense Aura150 [Life]
 10 HP, 60 MB
-Spd B
+100 Acc (A), 14 Spd (B)
 Personal
 Tier 5
 - Blocks any hit under 150 damage
@@ -2215,7 +2220,7 @@ Tier 5
 Jealousy
 Smash10 [None]
 10 HP, 60 MB
-Acc S, Spd S
+120 Acc (S), 20 Spd (S)
 Projectile
 Tier 4
 - Destroys both Slot-In chips
@@ -2223,7 +2228,7 @@ Tier 4
 AntiFire
 Counter:Fire AllAdd40 [Fire]
 120 HP, 50 MB
-Acc S, Spd C
+200 Acc (S), 11 Spd (C)
 Personal, Instant
 Tier 4
 - Cancels the incoming Fire attack
@@ -2231,7 +2236,7 @@ Tier 4
 AntiElec
 Counter:Elec AllAdd40 [Elec]
 120 HP, 50 MB
-Acc S, Spd C
+200 Acc (S), 12 Spd (C)
 Personal, Instant
 Tier 4
 - Cancels the incoming Elec attack
@@ -2239,7 +2244,7 @@ Tier 4
 AntiWatr
 Counter:Aqua AllAdd40 [Aqua]
 120 HP, 50 MB
-Acc S, Spd C
+200 Acc (S), 13 Spd (C)
 Personal, Instant
 Tier 4
 - Cancels the incoming Aqua attack
@@ -2247,7 +2252,7 @@ Tier 4
 AntiDmg
 Defense Counter:Life TripleRand30 [None]
 70 HP, 50 MB
-Acc C, Spd S
+74 Acc (C), 20 Spd (S)
 Personal, Aerial
 Tier 4
 - Immune to any traditional element
@@ -2255,7 +2260,7 @@ Tier 4
 AntiSwrd
 Counter:Sword Rand80 [None]
 60 HP, 40 MB
-Acc S, Spd S
+200 Acc (S), 20 Spd (S)
 Personal, Melee
 Tier 4
 - Cancels the incoming Rand damage
@@ -2263,7 +2268,7 @@ Tier 4
 AntiAir
 Counter:Aerial Delete120 [None]
 80 HP, 50 MB
-Acc B, Spd A
+90 Acc (B), 17 Spd (A)
 Personal, Melee
 Tier 4
 - Cancels the incoming Aerial damage and deletes the offending chip
@@ -2271,7 +2276,7 @@ Tier 4
 AntiRecv
 Counter:Heal Normal??? [Dark]
 100 HP, 40 MB
-Acc S, Spd S
+200 Acc (S), 20 Spd (S)
 Personal, Instant
 Tier 4
 - Cancels the attempt to recover HP and turns it into damage
@@ -2279,98 +2284,98 @@ Tier 4
 FstGauge
 ChargeDouble [None]
 200 HP, 20 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Personal
 Tier 2
 
 FullCust
 Charge+100% [None]
 50 HP, 60 MB
-Spd D
+100 Acc (A), 5 Spd (D)
 Personal
 Tier 5
 
 Atk+10
 Power10 [None]
 160 HP, 10 MB
-Spd A
+100 Acc (A), 18 Spd (A)
 Personal
 Tier 1
 
 Atk+20
 Power20 [None]
 80 HP, 10 MB
-Spd A
+100 Acc (A), 17 Spd (A)
 Personal
 Tier 2
 
 Atk+30
 Power30 [None]
 80 HP, 20 MB
-Spd A
+100 Acc (A), 16 Spd (A)
 Personal
 Tier 4
 
 Fire+40
 Power:Fire40 [Fire]
 60 HP, 20 MB
-Spd B
+100 Acc (A), 15 Spd (B)
 Personal
 Tier 3
 
 Aqua+40
 Power:Aqua40 [Aqua]
 60 HP, 20 MB
-Spd B
+100 Acc (A), 15 Spd (B)
 Personal
 Tier 3
 
 Wood+40
 Power:Wood40 [Wood]
 60 HP, 20 MB
-Spd B
+100 Acc (A), 15 Spd (B)
 Personal
 Tier 3
 
 Elec+40
 Power:Elec40 [Elec]
 60 HP, 20 MB
-Spd B
+100 Acc (A), 15 Spd (B)
 Personal
 Tier 3
 
 Sol+50
 Power:Sol50 [Sol]
 80 HP, 30 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Personal
 Tier 4
 
 Dark+50
 Power:Dark50 [Dark]
 80 HP, 30 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Personal
 Tier 4
 
 Navi+20
 Power:Navi20 [None]
 60 HP, 10 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Personal
 Tier 1
 
 Navi+40
 Power:Navi40 [None]
 40 HP, 20 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Personal
 Tier 3
 
 Battery
 Charge [Sol]
 200 HP, 0 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Personal
 Tier 1
 - Fills the Custom Gauge by 1x Solar Level
@@ -2379,7 +2384,7 @@ Tier 1
 DoublBat
 Charge [Sol]
 150 HP, 10 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Personal
 Tier 2
 - Fills the Custom Gauge by 2x Solar Level
@@ -2388,7 +2393,7 @@ Tier 2
 TriplBat
 Charge [Sol]
 80 HP, 10 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Personal
 Tier 2
 - Fills the Custom Gauge by 3x Solar Level
@@ -2397,7 +2402,7 @@ Tier 2
 QuadBatt
 Charge [Sol]
 80 HP, 20 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Personal
 Tier 3
 - Fills the Custom Gauge by 4x Solar Level
@@ -2406,7 +2411,7 @@ Tier 3
 QuintBat
 Charge [Sol]
 50 HP, 30 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Personal
 Tier 4
 - Fills the Custom Gauge by 5x Solar Level
@@ -2415,7 +2420,7 @@ Tier 4
 ChaosBat
 DrainCharge [Dark]
 100 HP, 40 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Personal
 Tier 5
 - Fills the Custom Gauge by a random amount remaining
@@ -2425,7 +2430,7 @@ Tier 5
 AstroBat
 Store [None]
 300 HP, 30 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Personal
 Tier 5
 - Freezes your Custom Gauge for the remainder of the turn, preventing both filling and draining
@@ -2434,7 +2439,7 @@ Tier 5
 Infinity
 Gauge [None]
 50 HP, 40 MB
-Spd E
+100 Acc (A), 3 Spd (E)
 Personal
 Tier 5
 - Removes the cap on the Custom Gauge for the remainder of the turn
@@ -2444,7 +2449,7 @@ Tier 5
 SolLens
 Lens [Sol]
 200 HP, 20 MB
-Spd A
+100 Acc (A), 17 Spd (A)
 Personal
 Tier 4
 - Changes the next attack to the chip's own type
@@ -2453,7 +2458,7 @@ Tier 4
 LunaLens
 Lens [None]
 250 HP, 10 MB
-Spd A
+100 Acc (A), 17 Spd (A)
 Personal
 Tier 2
 - Changes the next attack to the chip's own type
@@ -2463,7 +2468,7 @@ Tier 2
 FlameLns
 Lens [Fire]
 150 HP, 20 MB
-Spd A
+100 Acc (A), 17 Spd (A)
 Personal
 Tier 3
 - Changes the next attack to the chip's own type
@@ -2472,7 +2477,7 @@ Tier 3
 FrostLns
 Lens [Aqua]
 150 HP, 20 MB
-Spd A
+100 Acc (A), 17 Spd (A)
 Personal
 Tier 3
 - Changes the next attack to the chip's own type
@@ -2481,7 +2486,7 @@ Tier 3
 EarthLns
 Lens [Wood]
 150 HP, 20 MB
-Spd A
+100 Acc (A), 17 Spd (A)
 Personal
 Tier 3
 - Changes the next attack to the chip's own type
@@ -2490,7 +2495,7 @@ Tier 3
 CloudLns
 Lens [Elec]
 150 HP, 20 MB
-Spd A
+100 Acc (A), 17 Spd (A)
 Personal
 Tier 3
 - Changes the next attack to the chip's own type
@@ -2499,7 +2504,7 @@ Tier 3
 DarkLens
 Lens [Dark]
 200 HP, 20 MB
-Spd A
+100 Acc (A), 17 Spd (A)
 Personal
 Tier 4
 - Changes the next attack to the chip's own type
@@ -2508,7 +2513,7 @@ Tier 4
 StarLens
 Lens [Life]
 300 HP, 30 MB
-Spd A
+100 Acc (A), 17 Spd (A)
 Personal
 Tier 5
 - Changes the next attack to the chip's own type
@@ -2517,31 +2522,34 @@ Tier 5
 Dragoon
 AddSkip??? [Sol]
 160 HP, 40 MB
-Acc B, Spd A
+84 Acc (B), 16 Spd (A)
 Personal, Melee+, Projectile+
 Tier 4
 - Deals 50 damage +10 per solar level
+- Attacks in a Wide spread from 2 spaces away
 
 Tempest
 Counter:Territory??? [Elec]
 160 HP, 40 MB
-Acc A, Spd E
+95 Acc (A), 2 Spd (E)
 Personal, Melee+
 Tier 4
 - Deals 80 damage +10 per solar level
+- Hits all tiles around user
 
 Samurai
 Rand??? [Fire]
 160 HP, 40 MB
-Acc D, Spd A
+66 Acc (D), 18 Spd (A)
 Personal, Melee+
 Tier 4
 - Deals 20 damage +20 per solar level
+- Strikes two panels forward
 
 Phalanx
 Shove??? [Wood]*
 160 HP, 40 MB
-Acc E, Spd S
+63 Acc (E), 20 Spd (S)
 Personal, Melee+
 Tier 4
 - Deals 100 damage +10 per solar level
@@ -2549,7 +2557,7 @@ Tier 4
 Calamity
 Multi30 [Aqua]
 160 HP, 50 MB
-Acc C, Spd A
+74 Acc (C), 17 Spd (A)
 Personal, Projectile+
 Tier 4
 - Deals 1 extra hit per 2 solar levels
@@ -2557,7 +2565,7 @@ Tier 4
 Missile
 AllAdd??? [None]
 200 HP, 40 MB
-Acc A, Spd B
+91 Acc (A), 12 Spd (B)
 Personal, Aerial+
 Tier 4
 - Deals 30 damage + 10 per 2 solar levels
@@ -2565,16 +2573,17 @@ Tier 4
 Phantom
 AddDrain??? [Dark]
 250 HP, 50 MB
-Acc A, Spd A
+94 Acc (A), 19 Spd (A)
 Personal, Melee+
 Tier 5
 - Deals 50 damage + 10 per missing solar level
 - Drains enemy custom gauge
+- Strikes a Life spread from 2 panels away
 
 Napalm
 Grenade AllAdd10 [Fire]
 150 HP, 30 MB
-Acc C, Spd C
+76 Acc (C), 9 Spd (C)
 Aerial
 Tier 3
 - Hits a cross pattern
@@ -2584,7 +2593,7 @@ Tier 3
 Sanitize
 Grenade Consume:Swamp [None]
 250 HP, 20 MB
-Spd A
+100 Acc (A), 16 Spd (A)
 Personal
 Tier 3
 - Turns all Swamp, Lava, and Honey Panels into Basic Panels
@@ -2594,7 +2603,7 @@ Tier 3
 FlashBom
 Grenade AllAddBlind20 [None]
 200 HP, 30 MB
-Acc S, Spd A
+150 Acc (S), 18 Spd (A)
 Aerial
 Tier 3
 - Hits whole field
@@ -2603,7 +2612,7 @@ Tier 3
 ScanBomb
 Grenade DisarmAllAdd0 [None]
 250 HP, 30 MB
-Acc S, Spd C
+150 Acc (S), 11 Spd (C)
 Aerial
 Tier 2
 - Removes personal buffs from field, including self and allies
@@ -2613,7 +2622,7 @@ Tier 2
 Sunrise
 Grenade AllAddSun10 [Sol]
 100 HP, 30 MB
-Acc A, Spd C
+100 Acc (A), 10 Spd (C)
 Aerial
 Tier 4
 - Raises UV level by 4
@@ -2622,7 +2631,7 @@ Tier 4
 Nitemare
 Grenade AllAdd40 [Dark]
 100 HP, 50 MB
-Acc B, Spd D
+89 Acc (B), 6 Spd (D)
 Aerial, Floor
 Tier 4
 - Stretches forever in the cardinal directions on impact
@@ -2631,7 +2640,7 @@ Tier 4
 Pineappl
 Grenade AllAdd??? [Sol]
 150 HP, 60 MB
-Acc A, Spd D
+95 Acc (A), 7 Spd (D)
 Aerial
 Tier 5
 - Drains gauge to deal 10 damage per 20%, and hits once per 2 bars of sunlight
@@ -2640,14 +2649,14 @@ Tier 5
 VoidCann
 Invis100 [Dark]
 30 HP, 60 MB
-Acc D, Spd E
+72 Acc (D), 2 Spd (E)
 Projectile, Personal
 Tier 5
 
 PoisSprd
 BlindAdd70 [Dark]
 150 HP, 70 MB
-Acc S, Spd D
+120 Acc (S), 7 Spd (D)
 Projectile
 Tier 5
 - Splashes all tiles adjancent to target
@@ -2656,7 +2665,7 @@ Tier 5
 BugCharg
 Turn50+ [Dark]
 300 HP, 60 MB
-Acc B, Spd E
+83 Acc (B), 3 Spd (E)
 Projectile
 Tier 5
 - Deals 50xTurn damage
@@ -2664,7 +2673,7 @@ Tier 5
 BlakWing
 MultiSkip20 [Dark]
 80 HP, 50 MB
-Acc S, Spd S
+101 Acc (S), 20 Spd (S)
 Projectile
 Tier 5
 - Strikes whole field twice per negative solar level
@@ -2672,7 +2681,7 @@ Tier 5
 CyberElf
 Revive??? [Dark]
 10 HP, 50 MB
-Spd E
+100 Acc (A), 1 Spd (E)
 Personal
 Tier 5
 - Restore health to what it was when this chip was used if user would be defeated
@@ -2681,14 +2690,14 @@ Tier 5
 Queen
 Defense Delay150 [Dark]
 300 HP, 70 MB
-Spd B
+95 Acc (A), 12 Spd (B)
 Obstacle, Floor
 Tier 5
 
 DarkAura
 Defense Aura150 [Dark]
 100 HP, 80 MB
-Spd A
+100 Acc (A), 17 Spd (A)
 Personal
 Tier 5
 - Blocks any non-[Sol] hit under 150 damage
@@ -2696,7 +2705,7 @@ Tier 5
 BgRedWav
 Shove AllAdd90 [Fire]
 10 HP, 80 MB
-Acc A, Spd E
+90 Acc (B), 2 Spd (E)
 Floor
 Tier 5
 - Sweeps entire field
@@ -2704,7 +2713,7 @@ Tier 5
 FreezBom
 AllAdd40 [Aqua]
 250 HP, 40 MB
-Acc B, Spd B
+83 Acc (B), 12 Spd (B)
 Aerial, Floor
 Tier 5
 - Causes ice spires to rise in a cross formation on impact
@@ -2713,14 +2722,14 @@ Tier 5
 Sparker
 Defense AllAdd50 [Elec]
 300 HP, 70 MB
-Acc C, Spd B
+72 Acc (C), 13 Spd (B)
 Projectile, Personal
 Tier 5
 
 GaiaSwrd
 Copy:NextAll Rand100+ [Wood]
 90 HP, 70 MB
-Acc C, Spd D
+75 Acc (C), 6 Spd (D)
 Melee
 Tier 5
 - Swipes both vertically adjacent panels
@@ -2728,7 +2737,7 @@ Tier 5
 BlkBomb
 Defense Counter:Fire AllAdd60 [Fire]
 300 HP, 50 MB
-Acc A, Spd C
+100 Acc (A), 10 Spd (C)
 Obstacle, Aerial
 Tier 5
 - Stops blocking when hit by Fire
@@ -2737,7 +2746,7 @@ Tier 5
 SupSpray
 Triple Pierce70 [Aqua]
 300 HP, 60 MB
-Acc S, Spd B
+130 Acc (S), 14 Spd (B)
 Projectile
 Tier 5
 - Sweeps whole field in a Wide pattern
@@ -2745,7 +2754,7 @@ Tier 5
 PwrSurge
 RecoilStun50:Max Custom??? [Elec]
 200 HP, 50 MB
-Acc S, Spd A
+140 Acc (S), 18 Spd (A)
 Floor
 Tier 5
 - Aims in a straight line
@@ -2755,7 +2764,7 @@ Tier 5
 DireRoot
 SkipAbsorb120 [Wood]
 250 HP, 40 MB
-Acc D, Spd B
+67 Acc (D), 13 Spd (B)
 Floor
 Tier 5
 - Spawns on target panel
@@ -2763,7 +2772,7 @@ Tier 5
 StarBarr
 Defense Barr4 [????]
 20 HP, 70 MB
-Spd S
+Acc 100 (A), 20 Spd (S)
 Personal
 Tier 5
 - Blocks the next 4 incoming strikes
@@ -2772,7 +2781,7 @@ Tier 5
 FoldrBak
 AllFix300 [None]
 10 HP, 80 MB
-Spd A
+Acc 100 (A), 16 Spd (A)
 Personal
 Tier 5
 - Restores the entire deck's health
@@ -2780,7 +2789,7 @@ Tier 5
 Subtank
 Fuel Heal??? [None]
 80 HP, 50 MB
-Spd C
+Acc 100 (A), 10 Spd (C)
 Personal
 Tier 5
 - Drains gauge to heal 10 HP per 2%
@@ -2788,7 +2797,7 @@ Tier 5
 FtrSword
 Rand150 [None]
 150 HP, 50 MB
-Acc B, Spd A
+82 Acc (B), 16 Spd (A)
 Melee
 Tier 4
 - Reaches two panels behind target
@@ -2796,7 +2805,7 @@ Tier 4
 KngtSwrd
 Rand180 [None]
 130 HP, 50 MB
-Acc C, Spd C
+74 Acc (C), 11 Spd (C)
 Melee
 Tier 4
 - Reaches two panels behind target
@@ -2804,7 +2813,7 @@ Tier 4
 HeroSwrd
 Rand250 [None]
 110 HP, 70 MB
-Acc C, Spd B
+75 Acc (C), 15 Spd (B)
 Melee
 Tier 5
 - Reaches two panels behind target
@@ -2812,7 +2821,7 @@ Tier 5
 NeoVari
 Rand??? [None]
 250 HP, 50 MB
-Acc B, Spd D
+84 Acc (B), 7 Spd (D)
 Melee
 Tier 4
 - Selects one of the following:
@@ -2824,7 +2833,7 @@ Tier 4
 Meteors
 6Meteo60 [Fire]
 70 HP, 80 MB
-Acc E, Spd C
+50 Acc (E), 10 Spd (C)
 Aerial
 Tier 5
 - Misses hit random panels
@@ -2832,7 +2841,7 @@ Tier 5
 BlueMoon
 Add160 [None]
 200 HP, 60 MB
-Acc B, Spd D
+83 Acc (B), 6 Spd (D)
 Aerial
 Tier 5
 - Boosted by Lunacy
@@ -2840,7 +2849,7 @@ Tier 5
 RedSun
 SolarMeteo80 [Sol]
 90 HP, 60 MB
-Acc C, Spd A
+75 Acc (C), 16 Spd (A)
 Aerial
 Tier 5
 - Strikes once for every Solar Level
@@ -2849,7 +2858,7 @@ Tier 5
 DeltaRay
 TripleRand70 [None]
 90 HP, 60 MB
-Acc C, Spd A
+74 Acc (C), 17 Spd (A)
 Melee
 Tier 5
 - Cuts a triangle around target
@@ -2857,7 +2866,7 @@ Tier 5
 CrossDiv
 DoubleRand100 [None]
 70 HP, 80 MB
-Acc D, Spd B
+66 Acc (D), 15 Spd (B)
 Projectile
 Tier 5
 - Hits target with two diagonals
@@ -2865,7 +2874,7 @@ Tier 5
 MetrStge
 Panel 9Meteo??? [Life]
 30 HP, 60 MB
-Acc B, Spd B
+86 Acc (B), 12 Spd (B)
 Aerial
 Tier 5
 - Targets 9 opposing panels
@@ -2874,7 +2883,7 @@ Tier 5
 Poltrgst
 Throw120 [None]
 160 HP, 50 MB
-Acc A, Spd B 
+100 Acc (A), 12 Spd (B) 
 Projectile
 Tier 5
 - Every Obstacle on the field gets thrown at the target
@@ -2882,7 +2891,7 @@ Tier 5
 FuryBust
 5Meteo30 [None]
 250 HP, 30 MB
-Acc S, Spd A
+160 Acc (S), 16 Spd (A)
 Projectile
 Tier 5
 Requires "Lunacy" to work
@@ -2890,7 +2899,7 @@ Requires "Lunacy" to work
 Rippler
 Add100 [None]
 200 HP, 20 MB
-Acc B, Spd C
+85 Acc (B), 10 Spd (C)
 Projectile
 Tier 5
 Requires "Lunacy" to work
@@ -2898,7 +2907,7 @@ Requires "Lunacy" to work
 EchoBomb
 AllAdd80 [None]
 150 HP, 30 MB
-Acc A, Spd E
+94 Acc (A), 3 Spd (E)
 Aerial
 Tier 5
 Requires "Lunacy" to work
@@ -2906,7 +2915,7 @@ Requires "Lunacy" to work
 Horizon
 Rand150 [None]
 200 HP, 20 MB
-Acc D, Spd B
+65 Acc (D), 12 Spd (B)
 Melee
 Tier 5
 Requires "Lunacy" to work
@@ -2914,7 +2923,7 @@ Requires "Lunacy" to work
 Moondish
 Regen100 [None]
 300 HP, 10 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Personal
 Tier 5
 Requires "Lunacy" to work
@@ -2922,7 +2931,7 @@ Requires "Lunacy" to work
 PanlGrab
 Steal:Front10 [None]
 120 HP, 0 MB
-Acc A, Spd A
+100 Acc (A), 18 Spd (A)
 Aerial
 Tier 1
 - Steals first enemy panel in front of user
@@ -2931,7 +2940,7 @@ Tier 1
 AreaGrab
 Steal:Row10 [None]
 120 HP, 10 MB
-Acc A, Spd A
+100 Acc (A), 18 Spd (A)
 Aerial
 Tier 2
 - Steals front 3 enemy panels
@@ -2940,7 +2949,7 @@ Tier 2
 MetaGel1
 Steal:Row30 [Aqua]
 60 HP, 10 MB
-Acc B, Spd D
+89 Acc (B), 5 Spd (D)
 Aerial
 Tier 2
 - Steals front 3 enemy panels
@@ -2949,7 +2958,7 @@ Tier 2
 MetaGel2
 Steal:Row50 [Aqua]
 90 HP, 20 MB
-Acc B, Spd D
+88 Acc (B), 5 Spd (D)
 Aerial
 Tier 3
 - Steals front 3 enemy panels
@@ -2958,7 +2967,7 @@ Tier 3
 MetaGel3
 Steal:Row70 [Aqua]
 150 HP, 30 MB
-Acc B, Spd D
+87 Acc (B), 6 Spd (D)
 Aerial
 Tier 4
 - Steals front 3 enemy panels
@@ -2967,7 +2976,7 @@ Tier 4
 HonyDrop
 Steal:FrontStun50 [None]
 80 HP, 20 MB
-Acc A, Spd E
+100 Acc (A), 2 Spd (E)
 Aerial
 Tier 2
 - Steals front enemy panel
@@ -2976,7 +2985,7 @@ Tier 2
 HonySpil
 Steal:Front2Stun50 [None]
 40 HP, 30 MB
-Acc A, Spd E
+91 Acc (A), 1 Spd (E)
 Aerial
 Tier 3
 - Steals 2 enemy panels in front of user
@@ -2985,7 +2994,7 @@ Tier 3
 HeatPanl
 Panel:Front [Fire]
 50 HP, 0 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Floor
 Tier 1
 - The panel in front of the user turns to Heat
@@ -2993,7 +3002,7 @@ Tier 1
 SeaPanel
 Panel:Front [Aqua]
 50 HP, 0 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Floor
 Tier 1
 - The panel in front of the user turns to Sea
@@ -3001,7 +3010,7 @@ Tier 1
 GrassPnl
 Panel:Front [Wood]
 50 HP, 0 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Floor
 Tier 1
 - The panel in front of the user turns to Grass
@@ -3009,7 +3018,7 @@ Tier 1
 ChargPnl
 Panel:Front [Elec]
 50 HP, 0 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Floor
 Tier 1
 - The panel in front of the user turns to Charger
@@ -3017,7 +3026,7 @@ Tier 1
 AlumiPnl
 Panel:Front [None]
 50 HP, 0 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Floor
 Tier 1
 - The panel in front of the user turns to Metal
@@ -3025,7 +3034,7 @@ Tier 1
 LavaPanl
 Panel:Front [Fire]
 50 HP, 10 MB
-Spd C
+100 Acc (A), 11 Spd (C)
 Floor
 Tier 2
 - The panel in front of the user turns to Lava
@@ -3033,7 +3042,7 @@ Tier 2
 PanlOut
 Panel:Front10 [None]
 30 HP, 10 MB
-Spd C
+100 Acc (A), 11 Spd (C)
 Melee
 Tier 2
 - The panel in front of the user is whacked and broken
@@ -3041,7 +3050,7 @@ Tier 2
 HolyPanl
 Panel:Self [Sol]
 20 HP, 40 MB
-Spd C
+100 Acc (A), 8 Spd (C)
 Floor
 Tier 4
 - The panel the user is standing on turns to Holy
@@ -3049,7 +3058,7 @@ Tier 4
 IceLine
 Panel:Line [Aqua]
 30 HP, 10 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Floor
 Tier 2
 - The user's entire horizontal line turns to Ice
@@ -3057,7 +3066,7 @@ Tier 2
 MagLine
 Panel:Line [Elec]
 30 HP, 10 MB
-Spd C
+100 Acc (A), 10 Spd (C)
 Floor
 Tier 2
 - The user's entire horizontal line turns to Magnet
@@ -3065,7 +3074,7 @@ Tier 2
 CrackOut
 Panel:Line Multi10 [None]
 30 HP, 30 MB
-Acc D, Spd A
+68 Acc (D), 16 Spd (A)
 Floor, Projectile
 Tier 3
 - Destroys every panel between user and target in a line
@@ -3075,7 +3084,7 @@ Tier 3
 Repair
 Panel:Stage [None]
 30 HP, 10 MB
-Spd D
+100 Acc (A), 5 Spd (D)
 Floor
 Tier 1
 - The entire stage returns to Basic Panels
@@ -3083,7 +3092,7 @@ Tier 1
 HeatStge
 Panel:Stage [Fire]
 10 HP, 20 MB
-Spd D
+100 Acc (A), 5 Spd (D)
 Floor
 Tier 2
 - The entire stage turns to Heat Panels
@@ -3091,7 +3100,7 @@ Tier 2
 SeaStage
 Panel:Stage [Aqua]
 10 HP, 20 MB
-Spd D
+100 Acc (A), 5 Spd (D)
 Floor
 Tier 2
 - The entire stage turns to Sea Panels
@@ -3099,7 +3108,7 @@ Tier 2
 Desert
 Panel:Stage [None]
 10 HP, 20 MB
-Spd D
+100 Acc (A), 5 Spd (D)
 Floor
 Tier 2
 - The entire stage turns to Sand Panels
@@ -3107,7 +3116,7 @@ Tier 2
 GrassStg
 Panel:Stage [Wood]
 10 HP, 20 MB
-Spd D
+100 Acc (A), 5 Spd (D)
 Floor
 Tier 2
 - The entire stage turns to Grass Panels
@@ -3115,7 +3124,7 @@ Tier 2
 ChargStg
 Panel:Stage [Elec]
 10 HP, 20 MB
-Spd D
+100 Acc (A), 5 Spd (D)
 Floor
 Tier 2
 - The entire stage turns to Charger Panels
@@ -3123,7 +3132,7 @@ Tier 2
 AlumiStg
 Panel:Stage [None]
 10 HP, 20 MB
-Spd D
+100 Acc (A), 5 Spd (D)
 Floor
 Tier 2
 - The entire stage turns to Metal Panels
@@ -3131,7 +3140,7 @@ Tier 2
 IceStage
 Panel:Stage [Aqua]
 10 HP, 20 MB
-Spd D
+100 Acc (A), 5 Spd (D)
 Floor
 Tier 2
 - The entire stage turns to Ice Panels
@@ -3139,7 +3148,7 @@ Tier 2
 LavaStge
 Panel:Stage [Fire]
 10 HP, 40 MB
-Spd D
+100 Acc (A), 6 Spd (D)
 Floor
 Tier 3
 - The entire stage turns to Lava Panels
@@ -3147,7 +3156,7 @@ Tier 3
 Geddon1
 Panel:Stage [None]
 10 HP, 20 MB
-Spd D
+100 Acc (A), 5 Spd (D)
 Floor
 Tier 3
 - The entire stage is Cracked
@@ -3155,7 +3164,7 @@ Tier 3
 Geddon2
 Panel:Stage [None]
 10 HP, 30 MB
-Spd D
+100 Acc (A), 6 Spd (D)
 Floor
 Tier 4
 - The entire stage is broken
@@ -3163,7 +3172,7 @@ Tier 4
 Geddon3
 Panel:Stage [Dark]
 10 HP, 30 MB
-Spd D
+100 Acc (A), 6 Spd (D)
 Floor
 Tier 4
 - The entire stage turns to Swamp Panels
@@ -3171,7 +3180,7 @@ Tier 4
 DarkPrtl
 Panel:Front [Dark]
 10 HP, 20 MB
-Spd C
+100 Acc (A), 8 Spd (C)
 Obstacle
 Tier 4
 - Opens a sinister hole that removes all Darkchip penalties
@@ -3182,7 +3191,7 @@ Tier 4
 Beacon
 Panel:Front [Sol]
 10 HP, 20 MB
-Spd C
+100 Acc (A), 8 Spd (C)
 Obstacle
 Tier 4
 - Opens a brilliant gate that removes all Solar Lashback
@@ -3190,10 +3199,10 @@ Tier 4
 - Increases Solar Level by a flat 2 bars
 * Lunacy: When a DarkPrtl is present, all penalties are removed, all bonuses are present, gauge will charge, and no Sunburn is taken
 
-Sancuary
+Snctuary
 Panel:Territory [Sol]
 10 HP, 80 MB
-Spd D
+100 Acc (A), 4 Spd (D)
 Floor
 Tier 5
 - Turns the user's entire field to Holy Panels
@@ -3201,7 +3210,6 @@ Tier 5
 
 TO-DO:
 
-- Condense or Remove gun frames
 - Condense Batteries into SolDVice
 - DarkSwrd -> Vanrgand
 - Jormgand ([Dark] Piercing)
