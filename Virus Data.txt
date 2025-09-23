@@ -1,6 +1,6 @@
 Mettaur (Tier 1: Hometowns)
 40 HP [None]
-Dodge D, Spd E
+75 Dodge, 2 Spd
 Flavour:
 - A small construction virus that protects its broken turf
 Movement:
@@ -15,7 +15,7 @@ Attacks: (10%; 4-30/256)
 
 Mettaur2 (Tier 2: Workplaces)
 80 HP [None]
-Dodge C, Spd E
+79 Dodge, 3 Spd
 Flavour:
 - A red variant of the Mettaur. Insists it's improving infrastructure.
 Movement:
@@ -33,7 +33,7 @@ Attacks: (25%)
 
 Mettaur3 (Tier 3: International)
 120 HP [None]
-Dodge A, Spd D
+85 Dodge, 5 Spd
 Flavour:
 - A tough blue variant of the Mettaur, responsible for the cracks in the roads.
 Movement:
@@ -51,14 +51,13 @@ Attacks: (40%)
 - Guard (Guarantee)
 - UnderSht
 - LifeAur1
-- Dagger
 - PanlOut
 - CrackOut
 - Geddon1
 
 Gunnet (Tier 1: Hometowns)
 80 HP [None]
-Dodge E, Spd C
+67 Dodge, 8 Spd
 Flavour:
 - A flimsy tower with a gun and camera mounted on the top.
 Movement:
@@ -74,7 +73,7 @@ Attacks: (20%, 4-55/256)
 
 Cannet (Tier 3: International)
 100 HP [None]
-Dodge E, Spd C
+67 Dodge, 10 Spd
 Flavour:
 - A blue variant of the Gunnet. Securely mounted with a proper turret.
 Movement:
@@ -96,7 +95,7 @@ Attacks: (35%)
 
 Slugget (Tier 4: Undernet)
 150 HP [None]
-Dodge E, Spd B
+67 Dodge, 12 Spd
 Flavour:
 - A dangerous red variant of the Gunnet. Comes equipped with twin-barrels and motion tracking.
 Movement:
@@ -132,7 +131,7 @@ Attacks: (4-128/256)
 
 Cleaner (Tier 1)
 60 HP [None]
-Dodge D, Spd D
+76 Dodge, 5 Spd
 Flavour:
 - A virus posing as the recycle bin. Deletes unsorted files.
 Movement:
@@ -153,7 +152,7 @@ Attacks: (4-48/256)
 
 Sweeper (Tier 2)
 90 HP [None]
-Dodge C, Spd D
+80 Dodge, 7 Spd
 Flavour:
 - A blue variant of Cleaner. Progs convinced it to do their jobs.
 Movement:
@@ -183,7 +182,7 @@ Attacks: (4-64/256)
 
 Trasher (Tier 4)
 200 HP [None]
-Dodge C, Spd B
+85 Dodge, 12 Spd
 Flavour:
 - A red variant of Cleaner. Nothing is truly clean until deleted.
 Movement:
@@ -227,7 +226,7 @@ Attacks: (4-128/256)
 
 Barker (Tier 1: Hometowns)
 90 HP [Fire]
-Dodge B, Spd E
+87 Dodge, 3 Spd
 Flavour:
 - A hotheaded spiky dog that wants you to leave its tab
 Movement:
@@ -245,7 +244,7 @@ Attacks: (4-50/256)
 
 Growler (Tier 2: Workplaces)
 140 HP [Fire]
-Dodge B, Spd D
+90 Dodge, 6 Spd
 Flavour:
 - A blue variant of Barker. Self-appointed guard dog.
 Movement:
@@ -275,7 +274,7 @@ Attacks: (4-75/256)
 
 Blazer (Tier 4: UnderNet)
 200 HP [Fire]
-Dodge A, Spd B
+94 Dodge, 14 Spd
 Flavour:
 - A yellow variant of Barker. Hunts weaker viruses.
 Movement:
@@ -314,7 +313,7 @@ Attacks: (4-75/256)
 
 Wimpy (Tier 1)
 90 HP [Aqua]
-Dodge C, Spd C
+75 Dodge, 9 Spd
 Flavour:
 - A small aquatic virus with high salt content
 Movement:
@@ -330,7 +329,7 @@ Attacks: (4-50/256)
 
 Shrimpy (Tier 2)
 120 HP [Aqua]
-Dodge C, Spd C
+80 Dodge, 11 Spd
 Flavour:
 - An orange variant of Wimpy. Predates its weaker sibling.
 Movement:
@@ -354,7 +353,7 @@ Attacks: (4-75/256)
 
 Drimpy (Tier 4)
 180 HP [Aqua]
-Dodge B, Spd A
+89 Dodge, 15 Spd
 Flavour:
 - A green variant of Wimpy. Ran out of good names.
 Movement:
@@ -393,7 +392,7 @@ Attacks: (4-100/256)
 
 Bunny (Tier 1: Hometowns)
 70 HP [Elec]
-Dodge C, Spd D
+79 Dodge, 7 Spd
 Flavour:
 - A round pink bunny caught on its own hoops
 Movement:
@@ -409,7 +408,7 @@ Attacks: (20%, 4-55/256)
 
 Hopper (Tier 3: International)
 130 HP [Elec]
-Dodge B, Spd B
+87 Dodge, 14 Spd
 Flavour:
 - A blue variant of Bunny. Getting upset about being stuck.
 Movement:
@@ -433,7 +432,7 @@ Attacks: (35%, 4-90/256)
 
 Zipper (Tier 4: Undernet)
 180 HP [Elec]
-Dodge S, Spd S
+99 Dodge, 18 Spd
 Flavour:
 - A yellow variant of Bunny. The hoops have just made it faster.
 Movement:
@@ -465,6 +464,7 @@ Attacks: (60%, 4-155/256)
 - Elec+40
 - Battery
 - DoublBat (Guaranteed)
+- TriplBat
 - QuadBatt
 - CloudLns
 - PwrSurge
@@ -474,7 +474,7 @@ Attacks: (60%, 4-155/256)
 
 Bushy (Tier 1: Hometowns)
 60 HP [Wood]
-Dodge C, Spd D
+78 Dodge, 8 Spd
 Flavour:
 - A fuzzy squirrel with a thorny tail. Grows its own seed.
 Movement:
@@ -488,7 +488,7 @@ Attacks: (20%)
 
 Nybbly (Tier 3: International)
 100 HP [Wood]
-Dodge B, Spd B
+85 Dodge, 13 Spd
 Flavour:
 - A territorial variant of Bushy. Not accustomed to domestic life.
 Movement:
@@ -515,7 +515,7 @@ Attacks: (25%, 4-70/256)
 
 Byter (Tier 4: Undernet)
 200 HP [Wood]
-Dodge A, Spd A
+95 Dodge, 19 Spd
 Flavour:
 - A rabid variant of Bushy. Ate too many Rotten Nuts.
 Movement:
@@ -555,7 +555,7 @@ Attacks: (35%)
 
 RelyAnt (Tier 1: Hometowns)
 50 HP [None]
-Dodge B, Spd E
+84 Dodge, 2 Spd
 Flavour:
 - A large ant eager to help the other viruses in its colony.
 Movement:
@@ -571,7 +571,7 @@ Attacks: (20%)
 
 DefyAnt (Tier 2: Workplaces)
 120 HP [None]
-Dodge B, Spd C
+87 Dodge, 7 Spd
 Flavour:
 - A white variant of RelyAnt. Protests the expansion of urban life.
 Movement:
@@ -595,7 +595,7 @@ Attacks: (25%, 4-70/256)
 
 Tantrum (Tier 4: Undernet)
 210 HP [Fire]
-Dodge A, Spd A
+91 Dodge, 16 Spd
 Flavour:
 - A brown, fiery variant of RelyAnt. Hasn't gotten a promotion in a while.
 Movement:
@@ -635,7 +635,7 @@ Attacks: (35%, 4-90/256)
 
 Beetank (Tier 1: Hometowns)
 80 HP [None]
-Dodge D, Spd C
+69 Dodge, 4 Spd
 Flavour:
 - A spiky orb beetle with a mounted grenade launcher.
 Movement:
@@ -649,7 +649,7 @@ Attacks: (15%, 4-35/256)
 
 Beetank2 (Tier 2: Workplaces)
 120 HP [None]
-Dodge D, Spd B
+73 Dodge, 8 Spd
 Flavour:
 - A blue variant of Beetank. Needs target practice.
 Movement:
@@ -676,7 +676,7 @@ Attacks: (4-112/256)
 
 Beetank3 (Tier 4: Undernet)
 180 HP [None]
-Dodge C, Spd B
+82 Dodge, 13 Spd
 Flavour:
 - A grey variant of Beetank. Adamant about tilling soil where there is none.
 Movement:
@@ -696,7 +696,7 @@ Attacks: (50%, 4-130/256)
 - MagBomb2
 - Meteor4
 - Meteor5
-- DublBatt
+- DoublBat
 - LunaLens
 - CloudLns
 - Missile
@@ -710,7 +710,7 @@ Attacks: (50%, 4-130/256)
 
 Clicker (Tier 1)
 60 HP [None]
-Dodge A, Spd E
+86 Dodge, 4 Spd
 Flavour:
 - A small brown mouse pretending to be your cursor
 Movement:
@@ -727,7 +727,7 @@ Attacks: (4-35/256)
 
 Squeaker (Tier 2)
 90 HP [None]
-Dodge A, Spd C
+90 Dodge, 8 Spd
 Flavour:
 - A red variant of Clicker. Turned on Scroll Lock.
 Movement:
@@ -749,7 +749,7 @@ Attacks: (4-64/256)
 
 Curser (Tier 4)
 150 HP [None]
-Dodge S, Spd B
+104 Dodge, 14 Spd
 Flavour:
 - A grey variant of Clicker. Trapped the cursor in an applet.
 Movement:
@@ -779,13 +779,13 @@ Attacks: (4-128/256)
 
 Marshall (Tier 4)
 200 HP [Fire]
-Dodge B, Spd A
+87 Dodge, 16 Spd
 Flavour:
 - An overheating variant of Clicker. Its pointer might be a gun.
 Movement:
 - Teleports if lined up with player
 Traits:
-- Dodge Max on: [Fire]
+- Dodge+20 on: [Fire]
 - Selfdestruct in 3 turns on: [Fire]
 Attacks: (4-180/256)
 - HeatSprd (Guarantee)
@@ -809,7 +809,7 @@ Attacks: (4-180/256)
 
 Adfly (Tier 2)
 80 HP [None]
-Dodge A, Spd D
+84 Dodge, 5 Spd
 Flavour:
 - A busy bee that harvests your data to fill its moneycombs.
 Movement:
@@ -829,7 +829,7 @@ Attacks: (4-32/256)
 
 Webee (Tier 3)
 120 HP [None]
-Dodge A, Spd B
+89 Dodge, 10 Spd
 Flavour:
 - A sleek variant of Adfly. Your reward for finding its hive.
 Movement:
@@ -860,7 +860,7 @@ Attacks: (4-64/256)
 
 Hornet (Tier 4)
 180 HP [None]
-Dodge S, Spd S
+101 Dodge, 17 Spd
 Flavour:
 - A sharp variant of Adfly. Not what you were searching for.
 Movement:
@@ -898,7 +898,7 @@ Attacks: (4-64/256)
 
 Queenly (Tier 5: Quarantine)
 300 HP [None]
-Dodge D, Spd C
+73 Dodge, 11 Spd
 Flavour:
 - A large lethargic bee with a spawner attached
 Movement:
@@ -936,7 +936,7 @@ Attacks: (4-200/256)
 
 Clasp (Tier 2)
 90 HP [Wood]
-Dodge C, Spd C
+78 Dodge, 6 Spd
 Flavour:
 - A snake attached to a clip, lunging at the mice in the zoo
 Movement:
@@ -954,7 +954,7 @@ Attacks: (4-48/256)
 
 Clipboa (Tier 3)
 150 HP [Wood]
-Dodge B, Spd B
+82 Dodge, 9 Spd
 Flavour:
 Movement:
 Traits:
@@ -977,9 +977,9 @@ Attacks: (4-96/256)
 - Wood+40
 - EarthLns
 
-Python (Tier 4?)
+Python (Tier 4)
 210 HP [Wood]
-Dodge B, Spd B
+85 Dodge, 12 Spd
 Flavour:
 Movement:
 Traits:
@@ -1007,7 +1007,7 @@ Attacks: (4-160/256)
 
 Swordy (Tier 1)
 80 HP [None]
-Dodge D, Spd C
+69 Dodge, 9 Spd
 Flavour:
 - A rusty helmet powered by the vigour of new Navis
 Movement:
@@ -1023,7 +1023,7 @@ Attacks: (4-30/256)
 
 Tempered (Tier 2)
 120 HP [Fire]
-Dodge C, Spd C
+74 Dodge, 10 Spd
 Flavour:
 - A fiery variant of Swordy. Fueled by slight rage.
 Movement:
@@ -1045,7 +1045,7 @@ Attacks: (4-50/256)
 
 Steeled (Tier 3)
 150 HP [Aqua]
-Dodge C, Spd C
+79 Dodge, 11 Spd
 Flavour:
 - An icy variant of Swordy. Focused on its tasks.
 Movement:
@@ -1069,7 +1069,7 @@ Attacks: (4-75/256)
 
 Knighted (Tier 4)
 200 HP [None]
-Dodge D, Spd B
+75 Dodge, 14 Spd
 Flavour:
 - An ironclad variant of Swordy. Protects its allies.
 Movement:
@@ -1110,7 +1110,7 @@ Attacks: (4-75/256)
 
 Pally (Tier 5: Admin Lounge)
 300 HP [Sol]
-Dodge D, Spd S
+69 Dodge, 16 Spd
 Flavour:
 - A golden variant of Swordy. Deployed by admins to protect banned user accounts.
 Movement:
@@ -1153,9 +1153,9 @@ Attacks: (4-200/256)
 
 Cloudy (Tier 1)
 60 HP [Aqua]
-Dodge C, Spd C
+76 Dodge, 8 Spd
 Flavour:
--
+- A pouty cloud holding an umbrella. It can't store data very well.
 Movement:
 - Moves up and down randomly
 Traits:
@@ -1174,9 +1174,9 @@ Attacks: (4-48/256)
 
 Stormy (Tier 3)
 110 HP [Aqua]
-Dodge B, Spd B
+83 Dodge, 10 Spd
 Flavour:
--
+- A grumpy cloud generating static. Occasionally crashes.
 Movement:
 - Moves up and down randomly
 Traits:
@@ -1209,9 +1209,9 @@ Attacks: (4-72/256)
 
 Squally (Tier 4)
 160 HP [Aqua]
-Dodge B, Spd A
+87 Dodge, 13 Spd
 Flavour:
--
+- An angry cloud bursting with electricity. Knows little about many things.
 Movement:
 - Moves up and down randomly
 Traits:
@@ -1264,7 +1264,7 @@ Attacks: (4-128/256)
 
 Orbits (Tier 2: Scilab)
 90 HP [Elec]
-Dodge B, Spd C
+80 Dodge, 5 Spd
 Flavour:
 - A textureless non-euclidean orb that maxes out GPU time
 Movement:
@@ -1291,7 +1291,7 @@ Attacks: (4-64/256)
 
 Orbim (Tier 4)
 140 HP [Elec]
-Dodge A, Spd B
+90 Dodge, 10 Spd
 Flavour:
 - A variant of Orbits in many shades of blue. Corrupts nearby textures.
 Movement:
@@ -1339,7 +1339,7 @@ Attacks: (4-64/256)
 
 Orber (Tier 5: WWW Castle)
 180 HP [Elec]
-Dodge S, Spd A
+100 Dodge, 15 Spd
 Flavour:
 - A variant of Orbits in many shades of red. Its textures stretch as it approaches.
 Movement:
@@ -1396,7 +1396,7 @@ Attacks: (4-64/256)
 
 Pebblet (Tier 1: Hometowns)
 100 HP [None]
-Dodge E, Spd E
+67 Dodge, 1 Spd
 Flavour:
 - A pet rock that ran away from home
 Movement:
@@ -1412,7 +1412,7 @@ Attacks: (4-60/256)
 
 Pebbler (Tier 3: International)
 200 HP [None]
-Dodge E, Spd D
+69 Dodge, 7 Spd
 Flavour:
 - A dark variant of Pebblet. Eats its minerals.
 Movement:
@@ -1443,7 +1443,7 @@ Attacks: (4-90/256)
 
 Pebblest (Tier 5: Admin Lounge)
 300 HP [None]
-Dodge E, Spd A
+72 Dodge, 12 Spd
 Flavour:
 - A bright shiny variant of Pebblet. Oversees the area with its millions of toes.
 Movement:
@@ -1489,7 +1489,7 @@ Attacks: (4-200/256)
 
 HumDrum (Tier 2)
 90 HP [None]
-Dodge C, Spd C
+74 Dodge, 3 Spd
 Flavour:
 - An upbeat musical note coming from an unknown tab.
 Movement:
@@ -1516,7 +1516,7 @@ Attacks: (4-64/256)
 
 KickDrum (Tier 3)
 150 HP [None]
-Dodge C, Spd B
+82 Dodge, 9 Spd
 Flavour:
 - A pink variant of HumDrum. Embedded itself into the webpage.
 Movement:
@@ -1550,7 +1550,7 @@ Attacks: (4-128/256)
 
 DrumBeat (Tier 4)
 210 HP [None]
-Dodge C, Spd B
+91 Dodge, 11 Spd
 Flavour:
 - A purple variant of HumDrum. Wants access to media files.
 Movement:
@@ -1598,7 +1598,7 @@ Attacks: (4-128/256)
 
 Hermit (Tier 2)
 100 HP [Aqua]
-Dodge D, Spd E
+71 Dodge, 2 Spd
 Flavour:
 - A shell protecting a small aquatic virus.
 Movement:
@@ -1621,7 +1621,7 @@ Attacks: (4-64/256)
 
 Tortent (Tier 3)
 140 HP [Aqua]
-Dodge D, Spd D
+75 Dodge, 9 Spd
 Flavour:
 - An encrypted shell protecting a lumbering aquatic virus.
 Movement:
@@ -1656,7 +1656,7 @@ Attacks: (4-64/256)
 
 Endocryo (Tier 5: Quarantine)
 230 HP [Aqua]
-Dodge C, Spd B
+81 Dodge, 16 Spd
 Flavour:
 - A spiky frozen shell seeking a weakened virus to claim
 Movement:
@@ -1704,7 +1704,7 @@ Attacks: (4-128/256)
 
 Panella (Tier 1)
 100 HP [Sol]
-Dodge D, Spd E
+68 Dodge, 4 Spd
 Flavour:
 - A flower with its solar panels blooming
 Movement:
@@ -1722,7 +1722,7 @@ Attacks: (4-35/256)
 
 Lilicone (Tier 3)
 200 HP [Sol]
-Dodge D, Spd D
+72 Dodge, 8 Spd
 Flavour:
 - A flexible variant of Panella. Seeds region-locked torrents.
 Movement:
@@ -1761,7 +1761,7 @@ Attacks: (4-80/256)
 
 Petalica (Tier 5: Quarantine)
 300 HP [Sol]
-Dodge D, Spd C
+74 Dodge, 11 Spd
 Flavour:
 - A sheen variant of Panella. Powers cryptomining facilities, somehow.
 Movement:
@@ -1819,7 +1819,7 @@ Attacks: (4-200/256)
 
 Batty (Tier 1)
 60 HP [Dark]
-Dodge A, Spd C
+80 Dodge, 10 Spd
 Flavour:
 - A small purple bat that nests under the nullspace
 Movement:
@@ -1834,7 +1834,7 @@ Attacks: (4-45/256)
 
 Zany (Tier 2)
 80 HP [Dark]
-Dodge A, Spd A
+90 Dodge, 14 Spd
 Flavour:
 - A blue variant of Batty. Feasts on NetNavi RAM.
 Movement:
@@ -1852,9 +1852,9 @@ Attacks: (4-75/256)
 - VampBit1 (Guarantee)
 - VampBit2
 
-Gnarly (Tier 4: Beta)
+Gnarly (Tier 4: Delta)
 120 HP [Dark]
-Dodge S, Spd S
+102 Dodge, 16 Spd
 Flavour:
 - A red variant of Batty. Looks more like a flying streak of blood.
 Movement:
@@ -1890,7 +1890,7 @@ Attacks: (4-128/256)
 
 Traffic (Tier 1)
 70 HP [None]
-Dodge D, Spd B
+72 Dodge, 8 Spd
 Flavour:
 - A small remote car with blinking lights clogging the road
 Movement:
@@ -1913,7 +1913,7 @@ Attacks: (4-32/256)
 
 Speeddos (Tier 4)
 200 HP [None]
-Dodge D, Spd S
+79 Dodge, 18 Spd
 Flavour:
 - A variant of Traffic with a stoplight and turbo. Claimed all the parking spots.
 Movement:
@@ -1957,7 +1957,7 @@ Attacks: (4-180/256)
 
 LilSass (Tier 2)
 90 HP [None]
-Dodge B, Spd C
+82 Dodge, 12 Spd
 Movement:
 - Teleports every time it dodges
 Traits:
@@ -1981,7 +1981,7 @@ Attacks: (4-48/256)
 
 Strider (Tier 4)
 180 HP [Dark]
-Dodge B, Spd A
+94 Dodge, 19 Spd
 Movement:
 - Teleports every time it dodges
 Traits:
@@ -2023,7 +2023,7 @@ Attacks: (4-128/256)
 
 Hardhead (Tier 3)
 80 HP [None]
-Dodge E, Spd D
+65 Dodge, 1 Spd
 Flavour:
 - An iron shell firmly planted to the ground that lobs projectiles
 Movement:
@@ -2045,7 +2045,7 @@ Attacks: (4-64/256)
 
 Hothead (Tier 4)
 150 HP [Fire]
-Dodge E, Spd C
+66 Dodge, 3 Spd
 Flavour:
 - A molten variant of Hardhead. Overheats an overclocking system.
 Movement:
@@ -2080,7 +2080,7 @@ Attacks: (4-96/256)
 
 Coldhead (Tier 4)
 150 HP [Aqua]
-Dodge E, Spd C
+66 Dodge, 3 Spd
 Flavour:
 - A frozen variant of Hardhead. Dangerous method of cooling.
 Movement:
@@ -2113,7 +2113,7 @@ Attacks: (4-96/256)
 
 Bonehead (Tier 5: WWW Castle)
 210 HP [Dark]
-Dodge E, Spd B
+68 Dodge, 5 Spd
 Flavour:
 - A skeletal variant of Hardhead. The visage of a mad scientist's lair.
 Movement:
@@ -2152,7 +2152,7 @@ Attacks: (4-128/256)
 
 Windbox (Tier 2)
 120 HP [None]
-Dodge E, Spd B
+65 Dodge, 14 Spd
 Flavour:
 - A colourless box with a turbine inside it. Keeps rearranging your file structure.
 Movement:
@@ -2170,7 +2170,7 @@ Attacks: (4-64/256)
 
 Windome (Tier 3)
 160 HP [None]
-Dodge E, Spd A
+66 Dodge, 15 Spd
 Flavour:
 - A blue variant of Windbox. Jams your system frequently.
 Movement:
@@ -2202,7 +2202,7 @@ Attacks: (4-100/256)
 
 Windchil (Tier 3)
 200 HP [Aqua]
-Dodge E, Spd S
+66 Dodge, 15 Spd
 Flavour:
 - An icy variant of Windbox. Locks your thermostat in place.
 Movement:
@@ -2239,7 +2239,7 @@ Attacks: (4-150/256)
 
 WindXP (Tier 5: WWW Castle)
 300 HP [None]
-Dodge E, Spd S
+68 Dodge, 16 Spd
 Flavour:
 - A black variant of Windbox. Its knob overflows.
 Movement:
@@ -2279,7 +2279,7 @@ Attacks: (4-200/256)
 
 TraceBok (Tier 1)
 50 HP [Dark]
-Dodge B, Spd E
+82 Dodge, 2 Spd
 Flavour:
 - The lingering data of a purified zombie. Task manager insists it closed.
 Movement:
@@ -2295,7 +2295,7 @@ Attacks: (4-32/256)
 
 ImageBok (Tier 2)
 90 HP [Dark]
-Dodge B, Spd D
+84 Dodge, 5 Spd
 Flavour:
 - A periwinkle variant of TraceBok. It's starting to get pigmentation back.
 Movement:
@@ -2317,7 +2317,7 @@ Attacks: (4-48/256)
 
 PhantBok (Tier 3)
 130 HP [Dark]
-Dodge A, Spd C
+91 Dodge, 10 Spd
 Flavour:
 - A grey variant of TraceBok. Restored most of its data.
 Movement:
@@ -2345,7 +2345,7 @@ Attacks: (4-64/256)
 
 MossBok (Tier 4)
 150 HP [Wood]
-Dodge B, Spd B
+87 Dodge, 12 Spd
 Flavour:
 - A green variant of TraceBok. Has an affinity for travelling through the earth.
 Movement:
@@ -2385,7 +2385,7 @@ Attacks: (4-128/256)
 
 ServBok (Tier 4)
 150 HP [Elec]
-Dodge B, Spd B
+88 Dodge, 12 Spd
 Flavour:
 - A yellow variant of TraceBok. Reconstructed itself with a database.
 Movement:
@@ -2431,7 +2431,7 @@ Attacks: (4-128/256)
 
 ShadeBok (Tier 5: Bitrot)
 200 HP [Dark]
-Dodge A, Spd A
+97 Dodge, 15 Spd
 Flavour:
 - A pitch dark variant of TraceBok. Possessed by the anger of a fallen Step.
 Movement:
@@ -2471,7 +2471,7 @@ Attacks: (4-200/256)
 
 Jark (Tier 2)
 100 HP [Fire]
-Dodge D, Spd C
+74 Dodge, 8 Spd
 Flavour:
 - An infernal virus seeking souls to encrypt.
 Movement:
@@ -2497,7 +2497,7 @@ Attacks: (4-128/256)
 
 Berial (Tier 4)
 200 HP [Fire]
-Dodge D, Spd A
+81 Dodge, 13 Spd
 Flavour:
 - A bladed variant of Jark. Forces Navis to surrender their memories.
 Movement:
@@ -2538,7 +2538,7 @@ Attacks: (4-128/256)
 
 Pyron (Tier 5: Quarantine)
 300 HP [Fire]
-Dodge C, Spd A
+85 Dodge, 16 Spd
 Flavour:
 - A burly variant of Jark. Ransomware from an unknown world.
 Movement:
@@ -2593,7 +2593,7 @@ Attacks: (4-196/256)
 
 Cupid (Tier 2: Airport)
 100 HP [Sol]
-Dodge C, Spd C
+79 Dodge, 8 Spd
 Flavour:
 - A winged virus inviting you to find singles outside your area
 Movement:
@@ -2622,7 +2622,7 @@ Attacks: (4-60/256)
 
 Icarus (Tier 4)
 160 HP [Sol]
-Dodge B, Spd A
+85 Dodge, 14 Spd
 Flavour:
 - A stern variant of Cupid. Marks NetNavis that surf too close to the ads.
 Movement:
@@ -2670,7 +2670,7 @@ Attacks: (4-80/256)
 
 Angel (Tier 5: Admin Lounge)
 250 HP [Sol]
-Dodge S, Spd S
+102 Dodge, 18 Spd
 Flavour:
 - A divine variant of Cupid. Judges the infected for their browser history.
 Movement:
@@ -2730,7 +2730,7 @@ Attacks: (4-90/256)
 
 BlueOcto (Tier 3)
 200 HP [Aqua]
-Dodge E, Spd B
+69 Dodge, 11 Spd
 Flavour:
 - A blue octopus blowing bubbles, lured by the scent of your navicust
 Movement:
@@ -2748,7 +2748,7 @@ Attacks: (4-90/256)
 
 RedOcto (Tier 3)
 200 HP [Fire]
-Dodge E, Spd B
+69 Dodge, 11 Spd
 Flavour:
 - A red octopus blowing bubbles, lured by the scent of your navicust
 Movement:
@@ -2766,7 +2766,7 @@ Attacks: (4-90/256)
 
 YellOcto (Tier 3)
 200 HP [Elec]
-Dodge E, Spd B
+69 Dodge, 11 Spd
 Flavour:
 - A gold octopus blowing bubbles, lured by the scent of your navicust
 Movement:
@@ -2785,7 +2785,7 @@ Attacks: (4-90/256)
 
 TonniarM (Tier 3)
 250 HP [None]
-Dodge B, Spd C
+86 Dodge, 8 Spd
 Flavour: A sad little doll hanging from the ceiling
 Movement: Moves every time DropDown wears off
 Traits:
@@ -2809,7 +2809,7 @@ Attacks: (4-90/256)
 
 Shroob (Tier 3)
 140 HP [Wood]
-Dodge D, Spd B
+70 Dodge, 8 Spd
 Flavour:
 - A fungal shrub with a sturdy mask. Claims to be a VPN.
 Movement:
@@ -2840,7 +2840,7 @@ Attacks: (4-75/256)
 
 Shrooob (Tier 4)
 180 HP [Wood]
-Dodge D, Spd A
+74 Dodge, 12 Spd
 Flavour:
 - A brighter variant of Shroob. Toxicity behind a proxy.
 Movement:
@@ -2882,7 +2882,7 @@ Attacks: (4-128/256)
 
 Shroooob (Tier 5: Bitrot)
 250 HP [Wood]
-Dodge C, Spd A
+79 Dodge, 15 Spd
 Flavour:
 - A darker variant of Shroob. Decay as an extant form of life.
 Movement:
@@ -2943,7 +2943,7 @@ Attacks: (4-200/256)
 
 TimeFace (Tier 2: Workplaces)
 120 HP [None]
-Dodge C, Spd A
+78 Dodge, 14 Spd
 Flavour:
 - A distorted clock that can't keep up with the pace of modern life.
 Movement:
@@ -2967,7 +2967,7 @@ Attacks: (4-80/256)
 
 FaceTime (Tier 4: Delta)
 150 HP [None]
-Dodge B, Spd S
+84 Dodge, 16 Spd
 Flavour:
 - A grinning variant of TimeFace. Loves to schedule things 5 minutes too soon.
 Movement:
@@ -3000,7 +3000,7 @@ Attacks: (4-180/256)
 
 Entroper (Tier 5: Bitrot)
 200 HP [Dark]
-Dodge S, Spd A
+104 Dodge, 18 Spd
 Flavour:
 - A buzzing static variant of TimeFace. Not compliant with UNIX Time Standards.
 Movement:
@@ -3048,7 +3048,7 @@ Attacks: (4-210/256)
 
 ColdIdol (Tier 4)
 150 HP [Aqua]
-Dodge C, Spd A
+81 Dodge, 10 Spd
 Flavour:
 - A banshee head carrying the essence of Ice. A piece of the LifeVirus.
 Movement:
@@ -3070,7 +3070,7 @@ Attacks: (4-144/256)
 
 HeatIdol (Tier 4)
 150 HP [Fire]
-Dodge C, Spd A
+81 Dodge, 10 Spd
 Flavour:
 - A banshee head carrying the essence of Fire. A piece of the LifeVirus.
 Movement:
@@ -3091,7 +3091,7 @@ Attacks: (4-64/256)
 
 WoodIdol (Tier 4)
 150 HP [Wood]
-Dodge C, Spd A
+81 Dodge, 10 Spd
 Flavour:
 - A banshee head carrying the essence of Earth. A piece of the LifeVirus.
 Movement:
@@ -3113,7 +3113,7 @@ Attacks: (4-64/256)
 
 ElecIdol (Tier 4)
 150 HP [Elec]
-Dodge C, Spd A
+81 Dodge, 10 Spd
 Flavour:
 - A banshee head carrying the essence of Lightning. A piece of the LifeVirus.
 Movement:
@@ -3135,7 +3135,7 @@ Attacks: (4-64/256)
 
 Buggle (Tier 4)
 250 HP [Life]
-Dodge C, Spd A
+85 Dodge, 15 Spd
 Flavour:
 - A dust mite hoarding BugFrags. Its body and web have crystallized.
 Movement:
@@ -3187,7 +3187,7 @@ Attacks: (4-128/256)
 
 BugStag (Tier 5: WWW Castle)
 200 HP [Life]
-Dodge D, Spd S
+89 Dodge, 20 Spd
 Flavour:
 - A variant of Buggle that has been optimized for performance by the WWW.
 Movement:
@@ -3247,7 +3247,7 @@ Attacks: (4-256/256)
 
 BugCore (Tier 5: Quarantine)
 300 HP [Life]
-Dodge E, Spd E
+72 Dodge, 4 Spd
 Flavour:
 - A variant of Buggle that has become a host, drawing in any loose BugFrags
 Movement:
