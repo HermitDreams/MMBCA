@@ -20,7 +20,7 @@ Program: 29-31
 Upgrade: 32 (rerolls with +1 Tier)
 
 Tier Formulas
-  Zenny: (100 to 320)xTier
+  Zenny: (10 to 32)xTierx50
    Chip: Stays within Tier
     Ore: (10 to 32)xTier, see below for weights
 Program: Stays within Tier
