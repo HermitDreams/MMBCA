@@ -1,7 +1,7 @@
 PLAIN LIST
 
 NormNavi
-PunkNavi
+HeelNavi
 GuardNav
 SmileNav
 
@@ -22,7 +22,7 @@ Joe
 LaserMan
 Comet
 DarkMan
-Medic
+Meddy
 GateMan
 JunkMan
 VideoMan
@@ -37,49 +37,49 @@ STATS
 
 DummyMan [None]
 Add40 [None] ("TestShot")
-500 HP, 120 MB
-Acc B, Dodge B, Spd B
+500 HP, 150 MB
+85 Acc, 85 Dodge, 10 Spd
 Projectile
 
 Glory    [None]
 DiceBreak10 [None] ("Pummel")
-600 HP, 120 MB
-Acc D, Dodge C, Spd B
+600 HP, 150 MB
+68 Acc, 78 Dodge, 13 Spd
 Melee
 - Deals up to 6 hits
 
 Darnell   [Sol]
 Absorb40 [Sol] ("Sunsoak")
-400 HP,  90 MB
-Acc B, Dodge B, Spd D
+400 HP, 130 MB
+85 Acc, 85 Dodge, 6 Spd
 Aerial
 - Absorption heals allies instead of self
 
 Vampere  [Dark]
 PierceDrain50 [Dark] ("AmpUp")
-450 HP,  80 MB
-Acc B, Dodge B, Spd B
+450 HP, 120 MB
+83 Acc, 89 Dodge, 12 Spd
 Projectile
 - Steals custom gauge by half of damage dealt
 
 IlluMan   [Sol]
 Panel:Hole Mind40 [Sol] ("Isolate")
 400 HP, 150 MB
-Acc D, Dodge S, Spd E
+71 Acc, 105 Dodge, 2 Spd
 Floor
 - Changes a random panel adjacent to target to Hole
 
 Aquilon  [Aqua]
 Shove2 Normal50 [Aqua] ("WindWash")
 500 HP, 110 MB
-Acc C, Dodge B, Spd S
+79 Acc, 88 Dodge, 18 Spd
 Projectile
 - Hits one tile behind target
 
 Falshor  [Aqua]
 Panel:Sea Pierce60 [Aqua] ("OarCrash")
 600 HP, 100 MB
-Acc D, Dodge D, Spd C
+72 Acc, 74 Dodge, 10 Spd
 Floor
 - Navi travels with attack
 - Every panel it affects turns to Sea
@@ -87,28 +87,28 @@ Floor
 RootMan  [Wood]
 SkipAdd40 [Wood] ("Backdoor")
 450 HP,  80 MB
-Acc B, Dodge C, Spd B
+89 Acc, 81 Dodge, 11 Spd
 Floor
 - Does not need to travel
 
 Silent   [Wood]
 Counter150 [Dark] ("DarkOak")
 700 HP,  60 MB
-Acc A, Dodge D, Spd E
+95 Acc, 67 Dodge, 1 Spd
 Melee
 - Retaliates against one hit after using this skill
 
 Skyfall  [Elec]
 DoubleRand30 [Elec] ("LitStrik")
 500 HP, 100 MB
-Acc C, Dodge A, Spd A
+80 Acc, 99 Dodge, 15 Spd
 Melee
 - Attack hits 3sq wide and then 2sq long
 
 Flaribel [Fire]
 ChainBoost10:Fire Normal30 [Fire] ("Blaze")
 450 HP,  90 MB
-Acc A, Dodge A, Spd A
+95 Acc, 97 Dodge, 14 Spd
 Melee
 - Creates a ring of fire around herself
 - Anybody inside ring gains Fire+10 for entire next turn
@@ -117,13 +117,13 @@ Melee
 AnonyMan [Elec]
 Pierce50 [Elec] ("SparkWav")
 650 HP, 130 MB
-Acc B, Dodge C, Spd S
+86 Acc, 75 Dodge, 19 Spd
 Floor
 
 PharoMan [None]
 Add50 [Sol] ("PharoSun")
 550 HP, 150 MB
-Acc B, Dodge E, Spd B
+82 Acc, 40 Dodge, 12 Spd
 Projectile
 Boss Traits:
 - Armor: 50
@@ -149,52 +149,52 @@ Boss Attacks:
 Joe [None]
 Triple30 [None] ("JoeBust")
 500 HP, 150 MB
-Acc B, Dodge B, Spd B
+85 Acc, 85 Dodge, 12 Spd
 Projectile
 
 LaserMan [None]
 Pierce70 [Dark] ("RedLaser")
 550 HP, 130 MB
-Acc A, Dodge C, Spd B
+103 Acc, 74 Dodge, 13 Spd
 Projectile
 
 Comet [Aqua]
 Shove50 [Aqua] ("ComtDash")
 450 HP, 150 MB
-Acc B, Dodge A, Spd A
+81 Acc, 96 Dodge, 19 Spd
 Melee (Carry through)
 
 DarkMan [Dark]
 Normal80 [Life] ("ElemPrsm")
 600 HP, 130 MB
-Acc A, Dodge C, Spd D
+105 Acc, 72 Dodge, 7 Spd
 Aerial
 Attack becomes [Fire], [Aqua], or [Elec] if struck by one of those elements
 
-Medic [None]
+Meddy [None]
 FixAll50 [None] ("Refresh")
 400 HP, 180 MB
-Dodge B, Spd S
+100 Acc, 89 Dodge, 20 Spd
 Personal
 (Grants 50 HP to all surviving chips used this turn)
 
 GateMan [None]
 Throw90 [None] ("OpenGate")
 600 HP, 170 MB
-Acc C, Dodge D, Spd D
+79 Acc, 62 Dodge, 5 Spd
 Projectile
 (Must be protected by an Obstacle to throw it)
 
 JunkMan [None]
 Delete30 [None] ("ScrewDrv")
 450 HP, 180 MB
-Acc E, Dodge C, Spd E
+61 Acc, 70 Dodge, 4 Spd
 Projectile
 
 VideoMan [None]
 TripleStun20 [None] ("Rewind")
 450 HP, 180 MB
-Acc C, Dodge B, Spd A
+76 Acc, 82 Dodge, 16 Spd
 Melee
 Boss Traits:
 - Sunburn: 10 (First Fight)
@@ -234,7 +234,7 @@ Boss Attacks:
 WorldMan [Wood]
 Skip40 [Life] ("TerrForm")
 700 HP, 120 MB
-Acc S, Dodge E, Spd E
+120 Acc, 10 Dodge, 1 Spd
 Floor
 (Changes target's panel to Lava, Sea, Grass, or Desert at random.
   Adopts [Fire], [Aqua], [Wood], or [None] respectively.)
@@ -246,7 +246,7 @@ Boss Traits:
 Serenade [Sol]
 BlindBreak70 [Sol] ("StarBrak")
 400 HP, 140 MB
-Acc D, Dodge A, Spd S
+69 Acc, 95 Dodge, 18 Spd
 Melee
 Boss Traits:
 - +300 HP
@@ -285,14 +285,14 @@ Boss Attacks:
 YokuMan [None]
 TripleMeteo50 [None] ("YokuPanl")
 400 HP, 180 MB
-Acc E, Dodge S, Spd A
+50 Acc, 103 Dodge, 16 Spd
 Floor
 (Changes affected panels to Abyss. Abysses become Basic.)
 
 Sigma [Life]
 DoubleRandBreak40 [None] ("ViralCut")
 750 HP, 100 MB
-Acc C, Dodge A, Spd A
+79 Acc, 93 Dodge, 17 Spd
 Melee (second hit is 3 long)
 
 =========
@@ -307,7 +307,7 @@ Projectile
 - Siphon Damage <-> MB (10:10)
 - Siphon HP <-> Dodge (50:1)
 
-PunkNavi [None] or [Dark] (NG+?)
+HeelNavi [None] or [Dark] (NG+?)
 Add50 <Floor, Acc A>, Rand60 <Melee, Acc D>, or AllAdd20 <Aerial, Acc B> [None]
 450 HP, 100 MB
 Dodge C, Spd B
@@ -339,7 +339,7 @@ Antagonists:
 - Glory    [None] An adorned Navi that wants to be the center of attention
 - Vampere  [Dark] An Immortal inciting commotion
 - IlluMan   [Sol] A shapeshifting faerie creating holograms
-- Riverie  [Aqua] A rowboating escort of inevitability
+- Flashor  [Aqua] A rowboating escort of inevitability
 - RootMan  [Wood] A hacker that seizes control of vital command centers
 - Flaribel [Fire] A flame spirit seeking to dance to ashes, also victim to Kotobuki..?
 - AnonyMan [Elec] The ringleader of the UnderNet takeover
@@ -349,7 +349,7 @@ Stolen Chars for Postgame:
 - LaserMan [None]
 - Comet    [Aqua]
 - JunkMan  [None]
-- Medic    [None]
+- Meddy    [None]
 - Joe      [None]
 - DarkMan  [Dark]
 - VideoMan [None]
