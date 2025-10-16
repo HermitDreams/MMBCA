@@ -1,5 +1,5 @@
-LifeAur1 (Tier 4, [Life], Personal)
+LifeAur1 (Tier 3, [Life], Personal)
 LifeAur2 (Tier 4, [Life], Personal)
 LifeAur3 (Tier 5, [Life], Personal)
-StarLens (Tier 4, [Life], Personal, Part)
+StarLens (Tier 5, [Life], Personal, Part)
 MetrStge (Tier 5, [Life], Aerial)
