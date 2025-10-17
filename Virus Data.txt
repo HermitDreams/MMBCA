@@ -47,7 +47,7 @@ Attacks: (40%)
 - ShockWav
 - SonicWav
 - DynaWave (Guarantee)
-- Shell
+- WoolRam2
 - Guard (Guarantee)
 - UnderSht
 - LifeAur1
@@ -1405,6 +1405,7 @@ Traits:
 - Armor: 10
 Attacks: (4-60/256)
 - Wrecker
+- BrnzFist
 - Recov10
 - RockCube (Guarantee)
 - Press1
@@ -1425,6 +1426,7 @@ Attacks: (4-90/256)
 - Wrecker
 - BrakHamr
 - BrnzFist
+- SilvFist
 - Recov10 (Guarantee)
 - Recov50
 - RockCube (Guarantee)
@@ -1714,6 +1716,8 @@ Traits:
 - Charge: x1.5
 Attacks: (4-35/256)
 - MiniBomb
+- Remobit1
+- PnkLotus
 - Recov10
 - Corona
 - Battery (Guarantee)
@@ -1735,7 +1739,9 @@ Attacks: (4-80/256)
 - Spice2
 - MagBomb2
 - Remobit1
+- Remobit2
 - PnkLotus
+- RedLotus
 - Sundial
 - LiteRay1
 - Wires
@@ -1773,7 +1779,10 @@ Attacks: (4-200/256)
 - CrosBomb
 - Spice3
 - MagBomb3
+- Remobit1
 - Remobit2
+- Remobit3
+- PnkLotus
 - RedLotus
 - YelLotus
 - Sundial
@@ -1927,12 +1936,12 @@ Attacks: (4-180/256)
 - FireTowr
 - WatrTowr
 - Burner
+- ColdPnch
 - ZapRing2
 - SloGauge
 - Sundial
 - DblSnsr
 - FrntLasr
-- DeepFrez
 - Remobit2
 - Kindler (Guarantee)
 - Hydrant (Guarantee)
@@ -2196,6 +2205,7 @@ Attacks: (4-100/256)
 - Fan (Guarantee)
 - Whirlpl
 - Atk+10
+- Navi+20
 - Tempest
 - MagLine
 - Desert
@@ -2229,6 +2239,7 @@ Attacks: (4-150/256)
 - AntiFire
 - AntiAqua
 - Atk+20
+- Navi+20
 - Aqua+40
 - TriplBat
 - FrostLns
@@ -2272,6 +2283,8 @@ Attacks: (4-200/256)
 - FstGauge
 - Atk+20 (Guarantee)
 - Atk+30
+- Navi+20
+- Navi+40
 - Tempest
 - Poltrgst
 - MagLine
@@ -2444,6 +2457,7 @@ Attacks: (4-200/256)
 - CrosBomb
 - ElecBlde
 - Lance
+- StepSwrd
 - StepCros
 - Muramasa
 - WoodTowr
@@ -2707,7 +2721,7 @@ Attacks: (4-90/256)
 - LifeAur2
 - Jealousy
 - Recov200 (Guarantee)
-- Atk+20
+- Navi+20
 - Atk+30
 - Sol+50
 - TriplBat
