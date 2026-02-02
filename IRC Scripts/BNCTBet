@@ -1,0 +1,101 @@
+/bnctbet {
+  unset %mmbca.bnct*
+  if (!$1-) { echo 4 -s Please specify source library | halt }
+  set %mmbca.bnctbet true
+  chip 5 5 $1-
+  set %mmbca.bnctmb 0
+  set %mmbca.bnctm  0
+  set %mmbca.bnctg  0
+  while (%mmbca.slot != 11) {
+    inc %mmbca.slot 1
+    chip 3 5 $1-
+  }
+  echo 15 -s $calc($rand(3,10)*10) $+ %
+  echo 13 -s %mmbca.deck10 $+ 14...................9 $+ %mmbca.deck6
+  echo 14 -s ..................8 $+ %mmbca.deck3 $+ 14.........
+  echo 14 -s .........11 $+ %mmbca.deck1 $+ 14..........9 $+ %mmbca.deck7
+  echo 13 -s %mmbca.deck $+ 14..........8 $+ %mmbca.deck4 $+ 14.........
+  echo 14 -s .........11 $+ %mmbca.deck2 $+ 14..........9 $+ %mmbca.deck8
+  echo 14 -s ..................8 $+ %mmbca.deck5 $+ 14.........
+  echo 13 -s %mmbca.deck11 $+ 14...................9 $+ %mmbca.deck9
+  echo 15 -s $calc($rand(3,10)*10) $+ %
+  if (%mmbca.battle) && (%mmbca.battle.player = 1) {
+    write -c p1.txt
+    write -a p1.txt %mmbca.deck
+    write -a p1.txt %mmbca.deck1
+    write -a p1.txt %mmbca.deck2
+    write -a p1.txt %mmbca.deck3
+    write -a p1.txt %mmbca.deck4
+    write -a p1.txt %mmbca.deck5
+    write -a p1.txt %mmbca.deck6
+    write -a p1.txt %mmbca.deck7
+    write -a p1.txt %mmbca.deck8
+    write -a p1.txt %mmbca.deck9
+    write -a p1.txt %mmbca.deck10
+    write -a p1.txt %mmbca.deck11
+  }
+  if (%mmbca.battle) && (%mmbca.battle.player = 2) {
+    write -c p2.txt
+    write -a p2.txt %mmbca.deck
+    write -a p2.txt %mmbca.deck1
+    write -a p2.txt %mmbca.deck2
+    write -a p2.txt %mmbca.deck3
+    write -a p2.txt %mmbca.deck4
+    write -a p2.txt %mmbca.deck5
+    write -a p2.txt %mmbca.deck6
+    write -a p2.txt %mmbca.deck7
+    write -a p2.txt %mmbca.deck8
+    write -a p2.txt %mmbca.deck9
+    write -a p2.txt %mmbca.deck10
+    write -a p2.txt %mmbca.deck11
+  }
+  unset %mmbca.bnctbet
+  unset %mmbca.deck*
+  unset %mmbca.slot
+  echo 2 -s -
+  echo 8 %mmbca.bnctmb $+ / $+ %mmbca.bnctcap MB,11 %mmbca.bnctm $+ M,13 %mmbca.bnctg $+ G
+  if (%mmbca.bnctm > 3) || (%mmbca.bnctg > 1) || (%mmbca.bnctmb > %mmbca.bnctcap) { echo 4 -s ILLEGAL }
+  else { echo 9 -s LEGAL }
+  echo 2 -s -
+}
+/mbcap {
+  if ($1 = Cannon..) || ($1 = Bubbler.) || ($1 = HeatShot) || ($1 = Kunai1..) || ($1 = ShockWav) || ($1 = DoubNdl.) || ($1 = Ratton1.) || ($1 = MagBomb1) || ($1 = Candle1.) || ($1 = SnglBomb) || ($1 = IceWave1) || ($1 = AirStrm1) || ($1 = Rope1...) || ($1 = MetaGel1) {
+    set %mmbca.bnctcap 190
+  }
+  elseif ($1 = HiCannon) || ($1 = Bub-V...) || ($1 = Heat-V..) || ($1 = LilBomb.) || ($1 = LongSwrd) || ($1 = Kunai2..) || ($1 = SonicWav) || ($1 = TripNdl.) || ($1 = Ratton2.) || ($1 = Satelit1) || ($1 = Spice1..) || ($1 = MagBomb2) || ($1 = LilCloud) || ($1 = Candle2.) || ($1 = Invis1..) || ($1 = LavaCan1) || ($1 = DublBomb) || ($1 = IceBall.) || ($1 = IceWave2) || ($1 = AirStrm2) || ($1 = Arrow1..) || ($1 = NoBeam1.) || ($1 = Rope2...) || ($1 = Boomer1.) || ($1 = RockArm1) || ($1 = Magnum1.) || ($1 = Sensor1.) || ($1 = MetaGel2) {
+    set %mmbca.bnctcap 220
+  }
+  elseif ($1 = M-Cannon) || ($1 = BubCross) || ($1 = BubSprd.) || ($1 = HeatCros) || ($1 = HeatSprd) || ($1 = CrosBomb) || ($1 = BigBomb.) || ($1 = TreeBom1) || ($1 = TreeBom2) || ($1 = TreeBom3) || ($1 = FireSwrd) || ($1 = AquaSwrd) || ($1 = Kunai3..) || ($1 = DynaWave) || ($1 = Quake1..) || ($1 = Quake2..) || ($1 = Quake3..) || ($1 = DashAtk.) || ($1 = CannBall) || ($1 = Ratton3.) || ($1 = Burner..) || ($1 = ZapRing1) || ($1 = ZapRing2) || ($1 = ZapRing3) || ($1 = Satelit2) || ($1 = Satelit3) || ($1 = Spice2..) || ($1 = Spice3..) || ($1 = MagBomb3) || ($1 = Yo-Yo1..) || ($1 = Yo-Yo2..) || ($1 = Yo-Yo3..) || ($1 = CrsShld1) || ($1 = CrsShld2) || ($1 = CrsShld3) || ($1 = PoisMask) || ($1 = PoisFace) || ($1 = Whirlpl.) || ($1 = BlckHole) || ($1 = Meteor3.) || ($1 = Meteor4.) || ($1 = Meteor5.) || ($1 = TimeBom1) || ($1 = TimeBom2) || ($1 = TimeBom3) || ($1 = MedCloud) || ($1 = BigCloud) || ($1 = Remobit1) || ($1 = Remobit2) || ($1 = Remobit3) || ($1 = AquaBall) || ($1 = ElecBall) || ($1 = HeatBall) || ($1 = Candle3.) || ($1 = Invis2..) || ($1 = Invis3..) || ($1 = Shadow1.) || ($1 = Shadow2.) || ($1 = Shadow3.) || ($1 = AquaAura) || ($1 = FireAura) || ($1 = WoodAura) || ($1 = ElecAura) || ($1 = LavaCan2) || ($1 = LavaCan3) || ($1 = TrplBomb) || ($1 = Condor..) || ($1 = AirStrm3) || ($1 = Arrow2..) || ($1 = Arrow3..) || ($1 = Wave....) || ($1 = RedWave.) || ($1 = MudWave.) || ($1 = Shake1..) || ($1 = Shake2..) || ($1 = Shake3..) || ($1 = NoBeam2.) || ($1 = NoBeam3.) || ($1 = Rope3...) || ($1 = Boomer2.) || ($1 = Boomer3.) || ($1 = RockArm2) || ($1 = RockArm3) || ($1 = Magnum2.) || ($1 = Magnum3.) || ($1 = Plasma1.) || ($1 = Plasma2.) || ($1 = Plasma3.) || ($1 = RndmMetr) || ($1 = HoleMetr) || ($1 = ShotMetr) || ($1 = Needler1) || ($1 = Needler2) || ($1 = Needler3) || ($1 = Totem1..) || ($1 = Totem2..) || ($1 = Totem3..) || ($1 = Sensor2.) || ($1 = Sensor3.) || ($1 = MetaGel3) {
+    set %mmbca.bnctcap 250
+  }
+  elseif ($1 = FlashMan) || ($1 = PlantMan) || ($1 = FlameMan) {
+    set %mmbca.bnctcap 270
+  }
+  elseif ($1 = NumbrMan) || ($1 = ThunMan.) || ($1 = SharkMan) || ($1 = MagnetMn) || ($1 = FreezeMn) || ($1 = SnakeMan) || ($1 = HeatMan.) || ($1 = CutMan..) {
+    set %mmbca.bnctcap 280
+  }
+  elseif ($1 = GutsMan.) || ($1 = IceMan..) || ($1 = FireMan.) || ($1 = ElecMan.) || ($1 = WoodMan.) || ($1 = GateMan.) || ($1 = ShadoMan) || ($1 = ToadMan.) || ($1 = BeastMan) || ($1 = KingMan.) || ($1 = PharoMan) || ($1 = NapalmMn) || ($1 = PlanetMn) || ($1 = BubblMan) || ($1 = DesrtMan) || ($1 = MistMan.) {
+    set %mmbca.bnctcap 290
+  }
+  elseif ($1 = Roll....) || ($1 = Bass....) || ($1 = AirMan..) || ($1 = KnightMn) || ($1 = MetalMan) || ($1 = HeelNav2) || ($1 = StoneMan) || ($1 = DarkMan.) || ($1 = JapanMan) {
+    set %mmbca.bnctcap 300
+  }
+  elseif ($1 = Ring....) || ($1 = SkullMan) || ($1 = QuickMan) || ($1 = HeatGuts) || ($1 = ElecTeam) || ($1 = WoodShld) || ($1 = AquaCust) || ($1 = BombMan.) || ($1 = Punk....) || ($1 = HeatShdw) || ($1 = ElecGrnd) || ($1 = AquaBug.) {
+    set %mmbca.bnctcap 310
+  }
+  elseif ($1 = ProtoMan) || ($1 = TurboMan) || ($1 = Navi-F..) || ($1 = Navi-A..) || ($1 = Navi-W..) || ($1 = Navi-E..) || ($1 = HeelNav1) || ($1 = DrillMan) || ($1 = Cinnamon) || ($1 = TorchMan) || ($1 = Berkana.) || ($1 = Kunoichi) {
+    set %mmbca.bnctcap 320
+  }
+  elseif ($1 = MegaMan.) || ($1 = BassGS..) || ($1 = ColorMan) || ($1 = NormNav1) {
+    set %mmbca.bnctcap 330
+  }
+  elseif ($1 = MagicMan) || ($1 = NormNav2) || ($1 = Serenade) {
+    set %mmbca.bnctcap 340
+  }
+  elseif ($1 = NormNav3) { set %mmbca.bnctcap 350 }
+  elseif ($1 = NormNav4) { set %mmbca.bnctcap 360 }
+  elseif ($1 = NormNavX) { set %mmbca.bnctcap 370 }
+  elseif ($1 = NormNav5) { set %mmbca.bnctcap 380 }
+  elseif ($1 = HubStyl.) { set %mmbca.bnctcap 510 }
+  else { set %mmbca.bnctcap NaN }
+}
