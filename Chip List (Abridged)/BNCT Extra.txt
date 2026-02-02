@@ -1,0 +1,359 @@
+Cannon.. (Tier 1, [None], 10MB) [Canodumb]
+HiCannon (Tier 2, [None], 20MB) [Canodmb2]
+M-Cannon (Tier 3, [None], 40MB) [Canodmb3]
+Shotgun. (Tier 1, [None], 10MB, Add)
+V-Gun... (Tier 2, [None], 20MB, Add)
+CrossGun (Tier 2, [None], 30MB, Add)
+Spreader (Tier 3, [None], 40MB, Add)
+Bubbler. (Tier 1, [Aqua], 10MB, Add) [Shrimpy]
+Bub-V... (Tier 2, [Aqua], 20MB, Add) [Shrimpy2]
+BubCross (Tier 3, [Aqua], 30MB, Add) [Shrimpy3]
+BubSprd. (Tier 4, [Aqua], 40MB, Add, Mega) [Puffy]
+HeatShot (Tier 1, [Fire], 10MB, Add) [Spikey]
+Heat-V.. (Tier 2, [Fire], 20MB, Add) [Spikey2]
+HeatCros (Tier 3, [Fire], 30MB, Add) [Spikey3]
+HeatSprd (Tier 4, [Fire], 40MB, Add, Mega) [Buffy]
+MiniBomb (Tier 1, [None], 10MB, All)
+LilBomb. (Tier 2, [None], 20MB, All) [BeeTank]
+CrosBomb (Tier 3, [None], 40MB, All) [BeeTank2]
+BigBomb. (Tier 4, [None], 60MB, All, Mega) [BeeTank3]
+TreeBom1 (Tier 1, [Wood], 30MB, All) [KillPlan]
+TreeBom2 (Tier 2, [Wood], 40MB, All) [KillWeed]
+TreeBom3 (Tier 3, [Wood], 50MB, All) [KillFleu]
+Sword... (Tier 1, [None], 10MB, Rand, NoHole, Melee)
+WideSwrd (Tier 2, [None], 20MB, Rand, NoHole, Melee)
+LongSwrd (Tier 2, [None], 20MB, Rand, NoHole, Melee) [Swordy]
+FireSwrd (Tier 4, [Fire], 30MB, Rand, NoHole, Melee, Mega) [Swordy2]
+AquaSwrd (Tier 4, [Aqua], 30MB, Rand, NoHole, Melee, Mega) [Swordy3]
+ElecSwrd (Tier 4, [Elec], 30MB, Rand, NoHole, Melee, Mega)
+FireBlde (Tier 3, [Fire], 40MB, Rand, NoHole, Melee)
+AquaBlde (Tier 3, [Aqua], 40MB, Rand, NoHole, Melee)
+ElecBlde (Tier 3, [Elec], 40MB, Rand, NoHole, Melee)
+StepSwrd (Tier 4, [None], 40MB, Rand, Melee, Mega)
+Kunai1.. (Tier 2, [None], 10MB, Rand, Triple) [Snapper]
+Kunai2.. (Tier 3, [None], 20MB, Rand, Triple) [Snapper2]
+Kunai3.. (Tier 4, [None], 30MB, Rand, Triple, Mega) [Snapper3]
+CustSwrd (Tier 4, [None], 40MB, Rand, NoHole, Melee, Mega)
+Muramasa (Tier 4, [None], 70MB, Rand, NoHole, Melee, Giga)
+VarSwrd. (Tier 4, [None], 30MB, Rand, NoHole, Melee, Mega)
+Slasher. (Tier 4, [None], 50MB, Rand, TrapMelee, SelfUnbox)
+ShockWav (Tier 1, [None], 10MB, Pierce, NoHole) [Mettaur]
+SonicWav (Tier 2, [None], 20MB, Pierce, NoHole) [Mettaur2]
+DynaWave (Tier 3, [None], 40MB, Pierce, NoHole) [Mettaur3]
+Quake1.. (Tier 2, [None], 40MB, All) [Flappy]
+Quake2.. (Tier 3, [None], 50MB, All) [Flappy2]
+Quake3.. (Tier 4, [None], 60MB, All, Mega) [Flappy3]
+GutPunch (Tier 4, [None], 30MB, Break, NoHole, Melee, Mega)
+ColdPnch (Tier 3, [Aqua], 30MB, Break, NoHole, Melee)
+DashAtk. (Tier 1, [None], 40MB, Pierce) [Fishy]
+Wrecker. (Tier 1, [None], 20MB, Break)
+CannBall (Tier 2, [None], 30MB, Break) [HardHead]
+DoubNdl. (Tier 1, [None], 10MB, Double) [ShelGeek]
+TripNdl. (Tier 2, [None], 20MB, Triple) [ShelNerd]
+QuadNdl. (Tier 4, [None], 30MB, Quad, Mega) []
+Trident. (Tier 4, [None], 30MB, Triple, Mega)
+Ratton1. (Tier 1, [None], 10MB, Add, NoHole) [Ratty]
+Ratton2. (Tier 2, [None], 20MB, Add, NoHole) [Ratty2]
+Ratton3. (Tier 3, [None], 30MB, Add, NoHole) [Ratty3]
+FireRatn (Tier 4, [Fire], 60MB, Defense, TrapFire, NoHole, Mega)
+Tornado. (Tier 4, [None], 40MB, All, Triple, Wind, Mega)
+Twister. (Tier 3, [Wood], 40MB, All, Triple, Wind)
+Blower.. (Tier 3, [Fire], 40MB, All, Triple, Wind)
+Burner.. (Tier 2, [Fire], 40MB, All, NoHole, Melee) [Fishy2]
+ZapRing1 (Tier 1, [Elec], 40MB, Stun) [Bunny]
+ZapRing2 (Tier 1, [Elec], 40MB, Stun) [TuffBunny]
+ZapRing3 (Tier 3, [Elec], 40MB, Stun) [MegaBunny]
+Satelit1 (Tier 2, [Elec], 20MB, Add) [Sparky]
+Satelit2 (Tier 3, [Elec], 30MB, Add) [Sparkler]
+Satelit3 (Tier 4, [Elec], 40MB, Add, Mega) [Sparknoid]
+Spice1.. (Tier 4, [Wood], 20MB, All, Skip, OnlyGrass, Mega) [Mushy]
+Spice2.. (Tier 4, [Wood], 30MB, All, Skip, OnlyGrass, Mega) [Mashy]
+Spice3.. (Tier 4, [Wood], 40MB, All, Skip, OnlyGrass, Mega) [Moshy]
+MagBomb1 (Tier 1, [Elec], 10MB, All, Stun) [Magneaker]
+MagBomb2 (Tier 1, [Elec], 20MB, All, Stun) [Magmacker]
+MagBomb3 (Tier 1, [Elec], 30MB, All, Stun) [Magnoid]
+Yo-Yo1.. (Tier 1, [None], 30MB, Triple) [Yort]
+Yo-Yo2.. (Tier 2, [None], 40MB, Triple) [Yurt]
+Yo-Yo3.. (Tier 3, [None], 50MB, Triple) [Yart]
+CrsShld1 (Tier 2, [None], 40MB, Defense, Counter) [Dominerd]
+CrsShld2 (Tier 3, [None], 50MB, Defense, Counter) [Dominrd2]
+CrsShld3 (Tier 4, [None], 60MB, Defense, Counter, Mega) [Dominrd3]
+BrakHamr (Tier 3, [None], 40MB, All, Break, NoHole, Melee)
+ZeusHamr (Tier 4, [None], 60MB, All, Break, NoHole, Melee, Mega)
+SloGauge (Tier 4, [None], 20MB, Drain, Mega)
+BrnzFist (Tier 3, [None], 30MB, Break, NoHole, Melee)
+SilvFist (Tier 3, [None], 40MB, Break, NoHole, Melee)
+GoldFist (Tier 4, [None], 50MB, Break, NoHole, Melee, Mega)
+PoisMask (Tier 3, [None], 30MB, All, Defense, Counter) [Puffball]
+PoisFace (Tier 4, [None], 50MB, All, Defense, Counter) [Poofball]
+Whirlpl. (Tier 3, [None], 30MB, Delete) [Null]
+BlckHole (Tier 4, [None], 50MB, Delete, Mega) [Void]
+Meteor3. (Tier 1, [Fire], 30MB, Triple, Meteo) [MettFire]
+Meteor4. (Tier 2, [Fire], 40MB, Quad, Meteo) [FullFire]
+Meteor5. (Tier 4, [Fire], 50MB, Quint, Meteo, Mega) [DeathFir]
+Meteor6. (Tier 5, [Fire], 60MB, Hex, Meteo, Giga)
+TimeBom1 (Tier 2, [None], 30MB, All, Defense, Delay) [Handy]
+TimeBom2 (Tier 3, [None], 40MB, All, Defense, Delay) [Handy2]
+TimeBom3 (Tier 4, [None], 60MB, All, Defense, Delay, Mega) [Handy3]
+LilCloud (Tier 2, [Aqua], 20MB, All) [Cloudy]
+MedCloud (Tier 3, [Aqua], 30MB, All) [Cloudy2]
+BigCloud (Tier 4, [Aqua], 40MB, All) [Cloudy3]
+Mine.... (Tier 3, [None], 30MB, All, TrapMelee, SelfUnbox)
+FrntSnsr (Tier 4, [None], 50MB, All, Defense, Counter, SelfUnbox, Mega)
+DblSnsr. (Tier 4, [None], 50MB, All, Defense, Counter, SelfUnbox, Mega)
+Remobit1 (Tier 2, [Elec], 30MB, All, Defense) [Twisty]
+Remobit2 (Tier 3, [Elec], 40MB, All, Defense) [Twisty2]
+Remobit3 (Tier 4, [Elec], 50MB, All, Defense, Mega) [Twisty3]
+AquaBall (Tier 2, [Aqua], 30MB, Defense, Store) [Octon]
+ElecBall (Tier 2, [Elec], 30MB, Defense, Store) [Octor]
+HeatBall (Tier 2, [Fire], 30MB, Defense, Store) [Octovian]
+Geyser.. (Tier 4, [Aqua], 50MB, All, OnlyHole, Mega)
+LavaDrag (Tier 5, [Fire], 50MB, All, OnlyHole, Mega)
+GodStone (Tier 5, [None], 50MB, Triple, Meteo, OnlyHole, Mega)
+OldWood. (Tier 5, [Wood], 50MB, All, OnlyHole, Mega)
+Guard... (Tier 2, [None], 20MB, Reflect)
+Catcher. (Tier 2, [None], 20MB, Lucky)
+Mindbndr (Tier 5, [None], 10MB, Mind, Mega)
+Recov10. (Tier 4, [None], .0MB, Heal)
+Recov30. (Tier 4, [None], .0MB, Heal)
+Recov50. (Tier 1, [None], 10MB, Heal)
+Recov80. (Tier 2, [None], 20MB, Heal)
+Recov120 (Tier 2, [None], 20MB, Heal)
+Recov150 (Tier 3, [None], 30MB, Heal)
+Recov200 (Tier 5, [None], 40MB, Heal, Mega)
+Recov300 (Tier 4, [None], 40MB, Heal, Mega)
+AirShoes (Tier 4, [None], 20MB, SkipHole, Mega)
+Candle1. (Tier 2, [None], 10MB, Heal, Cure) [CanDevil]
+Candle2. (Tier 3, [None], 20MB, Heal, Cure) [CanDevl2]
+Candle3. (Tier 4, [None], 40MB, Heal, Cure, Mega) [CanDevl3]
+RockCube (Tier 1, [None], 10MB, Defense)
+Prism... (Tier 4, [None], 30MB, Defense, Repeat, Mega)
+Guardian (Tier 4, [None], 70MB, All, Defense, Counter, SelfUnbox, Mega)
+Wind.... (Tier 2, [None], 20MB, Strip, SwordAway)
+Fan..... (Tier 2, [None], 20MB, Strip, SwordNear)
+Anubis.. (Tier 5, [None], 60MB, All, Skip, Defense, Giga)
+Invis1.. (Tier 3, [None], 20MB, Invis) [Spooky]
+Invis2.. (Tier 3, [None], 30MB, Invis) [Spooky2]
+Invis3.. (Tier 3, [None], 40MB, Invis) [Spooky3]
+DropDown (Tier 4, [None], 40MB, Invis, Mega)
+Popup... (Tier 4, [None], 50MB, Invis, Mega)
+StoneBod (Tier 3, [None], 30MB, Rock)
+Shadow1. (Tier 3, [None], 40MB, Rand, Invis, Counter) [Shadow]
+Shadow2. (Tier 3, [None], 50MB, Rand, Invis, Counter) [RedDevil]
+Shadow3. (Tier 4, [None], 60MB, Rand, Invis, Counter, Mega) []
+UnderSht (Tier 4, [None], 20MB, Brace, Mega)
+Barrier. (Tier 2, [None], 30MB, Barr)
+BblWrap. (Tier 2, [Aqua], 30MB, Barr)
+LeafShld (Tier 2, [Wood], 30MB, Barr)
+AquaAura (Tier 4, [Aqua], 50MB, Aura, Mega) [MgalianA]
+FireAura (Tier 4, [Fire], 50MB, Aura, Mega) [MgalianH]
+WoodAura (Tier 4, [Wood], 50MB, Aura, Mega) [MgalianW]
+ElecAura (Tier 4, [Elec], 50MB, Aura, Mega) [MgalianE]
+LifeAur1 (Tier 4, [None], 40MB, Aura, Mega)
+LifeAur2 (Tier 4, [None], 50MB, Aura, Mega)
+LifeAur3 (Tier 5, [None], 60MB, Aura, Giga)
+Jealousy (Tier 5, [None], 60MB, Smash, Giga)
+AntiFire (Tier 5, [Fire], 50MB, All, TrapFire, Giga)
+AntiWatr (Tier 5, [Aqua], 50MB, All, TrapAqua, Giga)
+AntiElec (Tier 5, [Elec], 50MB, All, TrapElec, Giga)
+AntiDmg. (Tier 4, [None], 50MB, Rand, Defense, TrapElem, Mega)
+AntiSwrd (Tier 4, [None], 40MB, Rand, TrapSword, Mega)
+FstGauge (Tier 4, [None], 20MB, Fill, Mega)
+AntiRecv (Tier 4, [None], 40MB, TrapHeal, Mega)
+Atk+10.. (Tier 1, [None], 10MB, Boost)
+Atk+20.. (Tier 2, [None], 10MB, Boost)
+Atk+30.. (Tier 4, [None], 20MB, Boost, Mega)
+Fire+40. (Tier 4, [Fire], 20MB, Boost, Mega)
+Aqua+40. (Tier 4, [Aqua], 20MB, Boost, Mega)
+Wood+40. (Tier 4, [Wood], 20MB, Boost, Mega)
+Elec+40. (Tier 4, [Elec], 20MB, Boost, Mega)
+Navi+20. (Tier 3, [None], 10MB, BoostNavi)
+Navi+40. (Tier 4, [None], 20MB, BoostNavi, Mega)
+BgRedWav (Tier 5, [Fire], 80MB, All, Pierce, NoHole, Giga)
+FreezBom (Tier 5, [Aqua], 40MB, All, Mega)
+Sparker. (Tier 5, [Elec], 70MB, All, Defense, Giga)
+GaiaSwrd (Tier 5, [Wood], 70MB, Rand, Copy, NoHole, Melee, Giga)
+BlkBomb. (Tier 5, [Fire], 50MB, All, Defense, TrapFire, Mega)
+FtrSword (Tier 5, [None], 40MB, Rand, NoHole, Melee, Mega)
+KngtSwrd (Tier 5, [None], 50MB, Rand, NoHole, Melee, Giga)
+HeroSwrd (Tier 5, [None], 70MB, Rand, NoHole, Melee, Giga)
+Meteors. (Tier 5, [Fire], 80MB, Quint, Meteo, Giga)
+Poltrgst (Tier 5, [None], 50MB, Throw, Giga)
+PanlGrab (Tier 1, [None], .0MB, Grab)
+AreaGrab (Tier 2, [None], 10MB, Grab)
+LavaStge (Tier 2, [None], 20MB, Panel)
+IceStage (Tier 2, [None], 20MB, Panel)
+GrassStg (Tier 2, [None], 20MB, Panel)
+AlumiStg (Tier 2, [None], 20MB, Panel)
+Geddon.. (Tier 2, [None], 20MB, Panel)
+PanlOut. (Tier 2, [None], 20MB, Panel)
+Repair.. (Tier 2, [None], 20MB, Panel)
+MegaMan. (Tier 5, [None], Add, Navi) [ChgShot]
+Roll.... (Tier 5, [None], Heal, Navi) [HrtFlash]
+GutsMan. (Tier 5, [None], Break, NoHole, Melee, Navi) [GutsHamr]
+ProtoMan (Tier 5, [None], Rand, Navi) [SoniBoom]
+TurboMan (Tier 5, [None], All, Navi) [TrbWheel]
+Ring.... (Tier 5, [None], Add, Double, Navi) [RingRang]
+BassGS.. (Tier 5, [None], All, Navi) [GsplCann]
+Bass.... (Tier 5, [None], Add, Triple, Navi) [AirBurst]
+IceMan.. (Tier 5, [Aqua], Pierce, Navi) [FreezTwr]
+FireMan. (Tier 5, [Fire], Pierce, Navi) [FireArm]
+ElecMan. (Tier 5, [Elec], All, Navi) [SprkStrk]
+WoodMan. (Tier 5, [Wood], Pierce, Navi) [WoodTwr]
+SkullMan (Tier 5, [None], Navi) [BoneCrsh]
+NumbrMan (Tier 5, [None], All, Dice, Navi) [DiceBomb]
+AirMan.. (Tier 5, [None], All, Wind, Navi) [AirShot]
+QuickMan (Tier 5, [None], Add, Double, Navi) [QuikBmrg]
+ThunMan. (Tier 5, [Elec], Stun, Navi) [ThdrBolt]
+GateMan. (Tier 5, [None], Navi) [GateCann]
+SharkMan (Tier 5, [Aqua], Add, Navi) [Fin]
+ShadoMan (Tier 5, [None], Triple, Navi) [Shuriken]
+KnightMn (Tier 5, [None], Break, NoHole, Melee, Navi) [R.W.B.]
+MagnetMn (Tier 5, [Elec], Pierce, Navi) [MagMissl]
+FreezeMn (Tier 5, [Aqua], All, Navi) [IceTwr]
+SnakeMan (Tier 5, [Wood], Stun, Navi) [SnakArow]
+ToadMan. (Tier 5, [Aqua], Stun, Navi) [Melody]
+HeatMan. (Tier 5, [Fire], Pierce, Navi) [FlameTwr]
+ColorMan (Tier 5, [None], Navi) [FA-Twr]
+MagicMan (Tier 5, [Fire], Delete, Navi) [MagiFire]
+FlashMan (Tier 5, [Elec], Stun, Navi) [NeonLite]
+BeastMan (Tier 5, [None], Triple, Navi) [WildRush]
+PlantMan (Tier 5, [Wood], All, Navi) [YelwFlwr]
+FlameMan (Tier 5, [Fire], All, Navi) [FireBrth]
+MetalMan (Tier 5, [None], Break, NoHole, Melee, Navi) [MetlFist]
+KingMan. (Tier 5, [None], All, Navi) [Chckmate]
+HubStyl. (Tier 5, [None], Quint, Navi) [MegaBstr]
+HeatGuts (Tier 5, [Fire], Navi) [FireCann]
+AquaCust (Tier 5, [Aqua], Add, Navi) [AquaShot]
+ElecTeam (Tier 5, [Elec], Stun, Navi) [ZapRing]
+WoodShld (Tier 5, [Wood], All, Triple, Navi) [Twister]
+NormNav1 (Tier 5, [None], Navi) [NormBstr]
+NormNav2 (Tier 5, [None], Navi) [NormBstr]
+NormNav3 (Tier 5, [None], Navi) [NormBstr]
+NormNav4 (Tier 5, [None], Navi) [NormBstr]
+NormNav5 (Tier 5, [None], Navi) [NormBstr]
+Navi-F.. (Tier 5, [Fire], Navi) [FireCann]
+Navi-A.. (Tier 5, [Aqua], Add, Navi) [AquaShot]
+Navi-W.. (Tier 5, [Wood], All, Triple, Navi) [Twister]
+Navi-E.. (Tier 5, [Elec], Stun, Navi) [ZapRing]
+NormNavX (Tier 5, [None], Add, Navi) [ChgShot]
+HeelNav1 (Tier 5, [None], Navi) [HeelBstr]
+HeelNav2 (Tier 5, [None], Add, Navi) [HeelBomb]
+StoneMan (Tier 5, [None], Triple, Meteo, Navi) [RockFall]
+BombMan. (Tier 5, [None], All, Navi) [BmbShoot]
+CutMan.. (Tier 5, [None], Add, NoHole, Melee, Navi) [ScsrChop]
+PharoMan (Tier 5, [None], Navi) [CoffLasr]
+NapalmMn (Tier 5, [Fire], Add, Navi) [NaplmBom]
+PlanetMn (Tier 5, [Wood], PickElem, Navi) [Planet]
+AirShot1 (Tier 1, [None], 10MB, Speed, Wind)
+AirShot2 (Tier 2, [None], 20MB, Speed, Wind)
+AirShot3 (Tier 3, [None], 30MB, Speed, Wind)
+LavaCan1 (Tier 2, [Fire], 20MB, All) [Volcano]
+LavaCan2 (Tier 3, [Fire], 30MB, All) [Volcaner]
+LavaCan3 (Tier 4, [Fire], 40MB, All, Mega) [Volcanest]
+Volcano. (Tier 4, [Fire], 50MB, All, EatLava, Mega)
+SnglBomb (Tier 1, [None], 10MB, Add) [Beetle]
+DublBomb (Tier 2, [None], 20MB, AddTwo) [Deetle]
+TrplBomb (Tier 3, [None], 30MB, All) [Geetle]
+IceBall. (Tier 3, [Aqua], 20MB, Break) [ColdHead]
+LavaBall (Tier 3, [Fire], 20MB, Break) [HotHead]
+BambSwrd (Tier 4, [Wood], 30MB, Rand, NoHole, Melee, Mega)
+AirSwrd. (Tier 4, [None], 30MB, Rand, Speed, NoHole, Melee, Mega)
+StepCros (Tier 4, [None], 50MB, Rand, Melee, Mega)
+BigWave. (Tier 4, [None], 50MB, Pierce, NoHole, Mega)
+Condor.. (Tier 3, [None], 50MB, Pierce) [Fishy3]
+Burning. (Tier 4, [Fire], 70MB, All, NoHole, Melee, Mega)
+IceWave1 (Tier 2, [Aqua], 10MB) [Pengi]
+IceWave2 (Tier 3, [Aqua], 20MB) [Penga]
+IceWave3 (Tier 4, [Aqua], 40MB, Mega) []
+AirStrm1 (Tier 2, [None], 10MB, Triple, Speed, Wind) [SnowBlow]
+AirStrm2 (Tier 3, [None], 20MB, Triple, Speed, Wind) [LowBlow]
+AirStrm3 (Tier 4, [None], 30MB, Triple, Speed, Wind, Mega) [MoBlow]
+Arrow1.. (Tier 2, [Elec], 20MB, Add, Stun) [Elebee]
+Arrow2.. (Tier 3, [Elec], 30MB, Add, Stun) [Elewasp]
+Arrow3.. (Tier 4, [Elec], 40MB, Add, Stun, Mega) [Elehornet]
+Wave.... (Tier 3, [Aqua], 30MB, Pierce, NoHole) [Jelly]
+RedWave. (Tier 4, [Fire], 30MB, Pierce, NoHole) [HeatJely]
+MudWave. (Tier 4, [Wood], 30MB, Pierce, NoHole) [ErthJely]
+Shake1.. (Tier 3, [None], 40MB, All, Pierce) [Heavy]
+Shake2.. (Tier 4, [None], 50MB, All, Pierce, Mega) [Heavier]
+Shake3.. (Tier 4, [None], 60MB, All, Pierce, Mega) [Heaviest]
+NoBeam1. (Tier 2, [None], 20MB, FromBox) [N.O]
+NoBeam2. (Tier 3, [None], 30MB, FromBox) [N.O-2]
+NoBeam3. (Tier 4, [None], 40MB, FromBox, Mega) [N.O-3]
+Rope1... (Tier 1, [Wood], 10MB, AddTwo) [Viney]
+Rope2... (Tier 2, [Wood], 20MB, AddTwo) [Viner]
+Rope3... (Tier 3, [Wood], 30MB, AddTwo) [Vinert]
+Boomer1. (Tier 2, [Wood], 20MB, Add) [Boomer]
+Boomer2. (Tier 2, [Wood], 30MB, Add) [Gloomer]
+Boomer3. (Tier 3, [Wood], 40MB, Add) [Doomer]
+RockArm1 (Tier 2, [None], 20MB, NoHole) [Quaker]
+RockArm2 (Tier 3, [None], 30MB, NoHole) [Shaker]
+RockArm3 (Tier 4, [None], 40MB, NoHole, Mega) [Breaker]
+Magnum1. (Tier 2, [Fire], 20MB, AddTwo) [Basher]
+Magnum2. (Tier 3, [Fire], 30MB, AddTwo) [Smasher]
+Magnum3. (Tier 4, [Fire], 40MB, AddTwo) [Trasher]
+Plasma1. (Tier 1, [Elec], 40MB, Add, Defense, Trigger) [Eleball]
+Plasma2. (Tier 2, [Elec], 50MB, Add, Defense, Trigger) [Elesphere]
+Plasma3. (Tier 4, [Elec], 60MB, Add, Defense, Trigger) [Eleglobe]
+RndmMetr (Tier 3, [Fire], 30MB, Defense, Trigger) [Metrid]
+HoleMetr (Tier 3, [Fire], 40MB, Defense, Trigger) [Metrod]
+ShotMetr (Tier 4, [Fire], 50MB, Defense, Trigger) [Metrodo]
+Needler1 (Tier 2, [None], 40MB, Add, Defense, Trigger) [Needler]
+Needler2 (Tier 3, [None], 50MB, Add, Defense, Trigger) [Nailer]
+Needler3 (Tier 4, [None], 60MB, Add, Defense, Trigger) [Spiker]
+Totem1.. (Tier 2, [Fire], 40MB, Pierce, Defense, DelayHeal) [Totem]
+Totem2.. (Tier 3, [Fire], 50MB, Pierce, Defense, DelayHeal) [Totam]
+Totem3.. (Tier 4, [Fire], 60MB, Pierce, Defense, DelayHeal, Mega) [Totun]
+Sensor1. (Tier 2, [Elec], 20MB, Add, Skip) [KillrEye]
+Sensor2. (Tier 3, [Elec], 30MB, Add, Skip) [DeathEye]
+Sensor3. (Tier 4, [Elec], 40MB, Add, Skip, Mega) [JokerEye]
+MetaGel1 (Tier 2, [Aqua], 10MB, Add, Grab) [Slimer]
+MetaGel2 (Tier 3, [Aqua], 20MB, Add, Grab) [Slimey]
+MetaGel3 (Tier 3, [Aqua], 30MB, Add, Grab) [Slimest]
+Pawn.... (Tier 2, [None], 30MB, Rand, Defense, TrapMelee)
+Knight.. (Tier 2, [None], 30MB, Pierce, Defense)
+Rook.... (Tier 1, [None], 20MB, Block)
+Team1... (Tier 4, [None], 30MB, Defense, Counter, Rage, Mega)
+Team2... (Tier 4, [None], 40MB, PinchHeal)
+Lance... (Tier 3, [Wood], 40MB, Add, Pierce)
+Snake... (Tier 4, [Wood], 40MB, All, Triple, OnlyHole, Mega)
+GrabBack (Tier 2, [None], 10MB, Revenge, Reset)
+GrabRvng (Tier 3, [None], 20MB, Revenge, Reset)
+Panic... (Tier 5, [None], 20MB, Envy, Mega)
+CopyDmg. (Tier 3, [None], 20MB, Add, Boost)
+Barr100. (Tier 3, [None], 20MB, BarrDef)
+Barr200. (Tier 4, [None], 30MB, BarrDef)
+HolyPanl (Tier 3, [None], 30MB, Reduce)
+SandStge (Tier 2, [None], 20MB, Panel)
+NavRcycl (Tier 5, [None], 50MB, UseNavi, Giga)
+Balance. (Tier 5, [None], 60MB, Halve, Giga)
+FoldrBak (Tier 5, [None], 50MB, All, Fix, Giga)
+DeltaRay (Tier 5, [None], 70MB, Rand, Triple, Giga)
+BubblMan (Tier 5, [Aqua], Add, Navi) [FishMssl]
+DesrtMan (Tier 5, [None], Pierce, Navi) [LionHead]
+DrillMan (Tier 5, [None], Navi) [DrilDive]
+MistMan. (Tier 5, [None], AddTwo, Navi) [PoisMist]
+BowlMan. (Tier 5, [None], Navi) []
+DarkMan. (Tier 5, [None], Navi) [Darkness]
+JapanMan (Tier 5, [None], Triple, Navi) [ThsndSpr]
+Punk.... (Tier 5, [None], All, Navi) [MadRollr]
+Serenade (Tier 5, [None], Navi) [SaintLgt]
+HeatShdw (Tier 5, [Fire], Invis, Navi) [Invis]
+ElecGrnd (Tier 5, [Elec], Stun, Panel, Navi) [ZapRing]
+AquaBug. (Tier 5, [Aqua], Navi) [WaterGun]
+Cinnamon (Tier 5, [None], Add, Navi) [ChgShot]
+TorchMan (Tier 5, [Fire], Triple, NoHole, Melee, Navi) [FlamCmbo]
+Berkana. (Tier 5, [Aqua], Add, Navi) [AquaShot]
+Kunoichi (Tier 5, [Wood], All, Navi) [Shuriken]
+GutStrgt (Tier 4, [None], 40MB, Break, NoHole, Melee, Mega)
+GutImpct (Tier 5, [None], 50MB, Break, NoHole, Melee, Giga)
+Fanfare. (Tier 3, [None], 20MB, Defense, Shield)
+Discord. (Tier 4, [None], 20MB, Skip, Mind, Defense, Mega)
+Timpani. (Tier 4, [None], 40MB, Skip, Stun, Defense, Mega)
+Mole1... (Tier 3, [None], 30MB, Invis, Counter, GroundWeak) [Momogra]
+Mole2... (Tier 3, [None], 40MB, Invis, Counter, GroundWeak) [Momogro]
+Mole3... (Tier 4, [None], 50MB, Invis, Counter, GroundWeak) [Momogre]
+NrthWind (Tier 3, [None], 10MB, Remove)
+Snctuary (Tier 5, [None], 40MB, Reduce, Shield, Giga)
+AntiNavi (Tier 5, [None], 40MB, StealNav, Giga)
