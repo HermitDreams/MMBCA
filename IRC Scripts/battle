@@ -320,18 +320,20 @@
                         unset %mmbca.battle.p1.chipdmg
                       }
                       if ($eval(%mmbca.battle.p2.box $+ .curhp,2) <= 0) { set %mmbca.battle.p2.box 0 }
-                      if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,14) = 1) || ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,14) = 5) {
-                        if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21)) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) > 0) {
-                          if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) isnum 1-4) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,19) = $read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,12)) { set %mmbca.battle.counter 1 }
-                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 5) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,12) isnum 1-4) { set %mmbca.battle.counter 1 }
-                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 6) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,12) = 0) { set %mmbca.battle.counter 1 }
-                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 7) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,7) = 4) { set %mmbca.battle.counter 1 }
-                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 8) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,11) = 1) { set %mmbca.battle.counter 1 }
-                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 9) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,11) = 0) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,10) = 1) { set %mmbca.battle.counter 1 }
-                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 10) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,7) = 3) { set %mmbca.battle.counter 1 }
-                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 11) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,25) isnum 1-2) { set %mmbca.battle.counter 1 }
+                      if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,8) != 3) {
+                        if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,14) = 1) || ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,14) = 5) {
+                          if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21)) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) > 0) {
+                            if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) isnum 1-4) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,19) = $read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,12)) { set %mmbca.battle.counter 1 }
+                            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 5) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,12) isnum 1-4) { set %mmbca.battle.counter 1 }
+                            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 6) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,12) = 0) { set %mmbca.battle.counter 1 }
+                            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 7) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,7) = 4) { set %mmbca.battle.counter 1 }
+                            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 8) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,11) = 1) { set %mmbca.battle.counter 1 }
+                            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 9) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,11) = 0) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,10) = 1) { set %mmbca.battle.counter 1 }
+                            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 10) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,7) = 3) { set %mmbca.battle.counter 1 }
+                            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 11) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,25) isnum 1-2) { set %mmbca.battle.counter 1 }
+                          }
+                          else { set %mmbca.battle.counter 1 }
                         }
-                        else { set %mmbca.battle.counter 1 }
                       }
                     }
                     else { echo 7 $eval(%mmbca.battle.p1.active.slot,2) $+ 's attack missed! %mmbca.battle.acc vs %mmbca.battle.dodge | set %mmbca.battle.p1.boost 0 }
@@ -389,7 +391,7 @@
               else { echo 4 -s %mmbca.battle.p1.navi $+ 's $eval(%mmbca.battle.p1.active.slot,2) blocked by hole! | set %mmbca.battle.p1.boost 0 }
             }
             else { echo 4 -s $eval(%mmbca.battle.p1.active.slot,2) requires a box! }
-            if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,14) = 3) { set %mmbca.battle.counter 1 }
+            if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,14) = 3) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.active.slot,2) $+ .txt,8) != 3) { set %mmbca.battle.counter 1 }
             if (%mmbca.battle.counter = 1) {
               var %mmbca.battle.acc $read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,4)
               if (%mmbca.battle.field = 2) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,2) != 2) { dec %mmbca.battle.acc 20 }
@@ -635,18 +637,20 @@
                         unset %mmbca.battle.p2.chipdmg
                       }
                       if ($eval(%mmbca.battle.p1.box $+ .curhp,2) <= 0) { set %mmbca.battle.p1.box 0 }
-                      if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,14) = 1) || ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,14) = 5) {
-                        if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21)) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) > 0) {
-                          if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) isnum 1-4) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,19) = $read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,12)) { set %mmbca.battle.counter 1 }
-                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 5) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,12) isnum 1-4) { set %mmbca.battle.counter 1 }
-                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 6) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,12) = 0) { set %mmbca.battle.counter 1 }
-                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 7) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,7) = 4) { set %mmbca.battle.counter 1 }
-                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 8) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,11) = 1) { set %mmbca.battle.counter 1 }
-                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 9) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,11) = 0) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,10) = 1) { set %mmbca.battle.counter 1 }
-                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 10) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,7) = 3) { set %mmbca.battle.counter 1 }
-                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 11) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,25) isnum 1-2) { set %mmbca.battle.counter 1 }
+                      if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,8) != 3) {
+                        if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,14) = 1) || ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,14) = 5) {
+                          if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21)) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) > 0) {
+                            if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) isnum 1-4) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,19) = $read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,12)) { set %mmbca.battle.counter 1 }
+                            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 5) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,12) isnum 1-4) { set %mmbca.battle.counter 1 }
+                            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 6) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,12) = 0) { set %mmbca.battle.counter 1 }
+                            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 7) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,7) = 4) { set %mmbca.battle.counter 1 }
+                            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 8) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,11) = 1) { set %mmbca.battle.counter 1 }
+                            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 9) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,11) = 0) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,10) = 1) { set %mmbca.battle.counter 1 }
+                            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 10) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,7) = 3) { set %mmbca.battle.counter 1 }
+                            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 11) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,25) isnum 1-2) { set %mmbca.battle.counter 1 }
+                          }
+                          else { set %mmbca.battle.counter 1 }
                         }
-                        else { set %mmbca.battle.counter 1 }
                       }
                     }
                     else { echo 7 $eval(%mmbca.battle.p2.active.slot,2) $+ 's attack missed! %mmbca.battle.acc vs %mmbca.battle.dodge | set %mmbca.battle.p2.boost 0 }
@@ -704,7 +708,7 @@
               else { echo 4 -s %mmbca.battle.p2.navi $+ 's $eval(%mmbca.battle.p2.active.slot,2) blocked by hole! | set %mmbca.battle.p2.boost 0 }
             }
             else { echo 4 -s $eval(%mmbca.battle.p2.active.slot,2) requires a box! }
-            if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,14) = 3) { set %mmbca.battle.counter 1 }
+            if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,14) = 3) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.active.slot,2) $+ .txt,8) != 3) { set %mmbca.battle.counter 1 }
             if (%mmbca.battle.counter = 1) {
               var %mmbca.battle.acc $read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,4)
               if (%mmbca.battle.field = 2) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,2) != 2) { dec %mmbca.battle.acc 20 }
@@ -980,18 +984,20 @@
                       }
                     }
                     if ($eval(%mmbca.battle.p2.box $+ .curhp,2) <= 0) { set %mmbca.battle.p2.box 0 }
-                    if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,14) = 1) || ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,14) = 5) {
-                      if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21)) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) > 0) {
-                        if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) isnum 1-4) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,19) = $read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,12)) { set %mmbca.battle.counter 1 }
-                        elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 5) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,12) isnum 1-4) { set %mmbca.battle.counter 1 }
-                        elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 6) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,12) = 0) { set %mmbca.battle.counter 1 }
-                        elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 7) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,7) = 4) { set %mmbca.battle.counter 1 }
-                        elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 8) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,11) = 1) { set %mmbca.battle.counter 1 }
-                        elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 9) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,11) = 0) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,10) = 1) { set %mmbca.battle.counter 1 }
-                        elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 10) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,7) = 3) { set %mmbca.battle.counter 1 }
-                        elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 11) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,25) isnum 1-2) { set %mmbca.battle.counter 1 }
+                    if ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,8) != 3) {
+                      if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,14) = 1) || ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,14) = 5) {
+                        if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21)) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) > 0) {
+                          if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) isnum 1-4) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,19) = $read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,12)) { set %mmbca.battle.counter 1 }
+                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 5) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,12) isnum 1-4) { set %mmbca.battle.counter 1 }
+                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 6) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,12) = 0) { set %mmbca.battle.counter 1 }
+                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 7) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,7) = 4) { set %mmbca.battle.counter 1 }
+                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 8) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,11) = 1) { set %mmbca.battle.counter 1 }
+                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 9) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,11) = 0) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,10) = 1) { set %mmbca.battle.counter 1 }
+                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 10) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,7) = 3) { set %mmbca.battle.counter 1 }
+                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) = 11) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,25) isnum 1-2) { set %mmbca.battle.counter 1 }
+                        }
+                        else { set %mmbca.battle.counter 1 }
                       }
-                      else { set %mmbca.battle.counter 1 }
                     }
                   }
                   else { echo 7 %mmbca.battle.p1.navi $+ 's attack missed! %mmbca.battle.acc vs %mmbca.battle.dodge }
@@ -1049,7 +1055,7 @@
           }
           else { echo 4 -s %mmbca.battle.p1.navi requires a box! }
         }
-        if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,14) = 3) { set %mmbca.battle.counter 1 }
+        if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,14) = 3) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,8) != 3) { set %mmbca.battle.counter 1 }
         if (%mmbca.battle.counter = 1) {
           var %mmbca.battle.acc $read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,4)
           if (%mmbca.battle.field = 2) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,2) != 2) { dec %mmbca.battle.acc 20 }
@@ -1282,18 +1288,20 @@
                       }
                     }
                     if ($eval(%mmbca.battle.p1.box $+ .curhp,2) <= 0) { set %mmbca.battle.p1.box 0 }
-                    if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,14) = 1) || ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,14) = 5) {
-                      if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21)) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) > 0) {
-                        if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) isnum 1-4) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,19) = $read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,12)) { set %mmbca.battle.counter 1 }
-                        elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 5) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,12) isnum 1-4) { set %mmbca.battle.counter 1 }
-                        elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 6) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,12) = 0) { set %mmbca.battle.counter 1 }
-                        elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 7) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,7) = 4) { set %mmbca.battle.counter 1 }
-                        elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 8) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,11) = 1) { set %mmbca.battle.counter 1 }
-                        elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 9) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,11) = 0) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,10) = 1) { set %mmbca.battle.counter 1 }
-                        elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 10) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,7) = 3) { set %mmbca.battle.counter 1 }
-                        elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 11) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,25) isnum 1-2) { set %mmbca.battle.counter 1 }
+                    if ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,8) != 3) {
+                      if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,14) = 1) || ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,14) = 5) {
+                        if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21)) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) > 0) {
+                          if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) isnum 1-4) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,19) = $read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,12)) { set %mmbca.battle.counter 1 }
+                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 5) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,12) isnum 1-4) { set %mmbca.battle.counter 1 }
+                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 6) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,12) = 0) { set %mmbca.battle.counter 1 }
+                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 7) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,7) = 4) { set %mmbca.battle.counter 1 }
+                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 8) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,11) = 1) { set %mmbca.battle.counter 1 }
+                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 9) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,11) = 0) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,10) = 1) { set %mmbca.battle.counter 1 }
+                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 10) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,7) = 3) { set %mmbca.battle.counter 1 }
+                          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) = 11) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,25) isnum 1-2) { set %mmbca.battle.counter 1 }
+                        }
+                        else { set %mmbca.battle.counter 1 }
                       }
-                      else { set %mmbca.battle.counter 1 }
                     }
                   }
                   else { echo 7 -s %mmbca.battle.p2.navi $+ 's attack missed! %mmbca.battle.acc vs %mmbca.battle.dodge }
@@ -1350,11 +1358,10 @@
             else { echo 4 -s %mmbca.battle.p2.navi $+ 's attack blocked by hole! }
           }
           else { echo 4 -s %mmbca.battle.p2.navi requires a box! }
-          if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,14) = 3) { set %mmbca.battle.counter 1 }
+          if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,14) = 3) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,8) != 3) { set %mmbca.battle.counter 1 }
           if (%mmbca.battle.counter = 1) {
-            unset %mmbca.battle.counter
             var %mmbca.battle.acc $read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,4)
-            if (%mmbca.battle.field = 2) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,2) != 2) { dec %mmbca.battle.acc 20 }
+            if (%mmbca.battle.field = 2) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,2) != 2) { dec %mmbca.battle.acc 20 }
             var %mmbca.battle.dodge $rand(1, $+ $read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,5))
             if (%mmbca.battle.acc > %mmbca.battle.dodge) || ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,16) = 1) {
               set %mmbca.battle.attacker
