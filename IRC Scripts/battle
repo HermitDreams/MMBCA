@@ -466,9 +466,9 @@
               }
               else { echo 7 $eval(%mmbca.battle.p2.box,2) $+ 's attack missed! %mmbca.battle.acc vs %mmbca.battle.dodge }
               unset %mmbca.battle.counter
-              if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 1) { set %mmbca.battle.p2.box 0 }
-              elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 2) { set $eval(%mmbca.battle.p2.box) $+ .curhp 0 | set %mmbca.battle.p2.box 0 }
             }
+            if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 1) { set %mmbca.battle.p2.box 0 }
+            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 2) { set $eval(%mmbca.battle.p2.box) $+ .curhp 0 | set %mmbca.battle.p2.box 0 }
           }
           elseif (%mmbca.battle.priority = 2) && ($eval(%mmbca.battle.p2.active.hp,2) > 0) {
             if (%mmbca.battle.p1.gauge < 100) { inc %mmbca.battle.p1.gauge 5 }
@@ -784,9 +784,9 @@
               }
               else { echo 7 $eval(%mmbca.battle.p1.box,2) $+ 's attack missed! %mmbca.battle.acc vs %mmbca.battle.dodge }
               unset %mmbca.battle.counter
-              if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 1) { set %mmbca.battle.p1.box 0 }
-              elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 2) { set $eval(%mmbca.battle.p1.box) $+ .curhp 0 | set %mmbca.battle.p1.box 0 }
             }
+            if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 1) { set %mmbca.battle.p1.box 0 }
+            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 2) { set $eval(%mmbca.battle.p1.box) $+ .curhp 0 | set %mmbca.battle.p1.box 0 }
           }
           if (%mmbca.battle.priority = 1) { set %mmbca.battle.priority 2 }
           else { set %mmbca.battle.priority 1 }
@@ -1130,9 +1130,9 @@
           }
           else { echo 7 $eval(%mmbca.battle.p2.box,2) $+ 's attack missed! %mmbca.battle.acc vs %mmbca.battle.dodge }
           unset %mmbca.battle.counter
-          if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 1) { set %mmbca.battle.p2.box 0 }
-          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 2) { set $eval(%mmbca.battle.p2.box) $+ .curhp 0 | set %mmbca.battle.p2.box 0 }
         }
+        if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 1) { set %mmbca.battle.p2.box 0 }
+        elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 2) { set $eval(%mmbca.battle.p2.box) $+ .curhp 0 | set %mmbca.battle.p2.box 0 }
       }
       elseif (%mmbca.battle.priority = 2) {
         if (%mmbca.battle.p1.gauge < 100) { inc %mmbca.battle.p1.gauge 5 }
@@ -1434,9 +1434,9 @@
             }
             else { echo 7 $eval(%mmbca.battle.p1.box,2) $+ 's attack missed! %mmbca.battle.acc vs %mmbca.battle.dodge }
             unset %mmbca.battle.counter
-            if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 1) { set %mmbca.battle.p1.box 0 }
-            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 2) { set $eval(%mmbca.battle.p1.box) $+ .curhp 0 | set %mmbca.battle.p1.box 0 }
           }
+          if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 1) { set %mmbca.battle.p1.box 0 }
+          elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 2) { set $eval(%mmbca.battle.p1.box) $+ .curhp 0 | set %mmbca.battle.p1.box 0 }
         }
       }
       else { echo 4 -s Failed to determine Priority: %mmbca.battle.priority }
