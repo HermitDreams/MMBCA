@@ -5,18 +5,26 @@ If the center panel has a penalty (Sand, Swamp, etc), select a random viable pan
 If no panels are viable, place them in center anyway and reroll panel type until viable.
 Viruses get placed onto random panels in their field they can occupy.
 
+Accuracy & Dodge
+- Accuracy typically between 50 to 200, Dodge between 40 to 110
+- Dodge rolls a random number between 1 and target's score. If it matches or exceed the attacker's Accuracy score, the attack misses.
+- Dodge is reduced by 10 for each stolen panel
+- Accuracy is cut in half when Blind (does not apply to Meteo)
+- Meteors flip a coin per hit to see if each lands, instead of rolling Accuracy
+- Melee gains a +20 Accuracy buff if the attacker is already in position to hit
+- Standing in the backrow decreases Melee Accuracy by -5 (-10 if both attacker and target are in backrow)
+- Indirect damage (panels that are not intended targets) suffer a -20 Accuracy penalty (i.e. the splash on Shotgun is 92 Acc)
+
 The start of a turn will select all three chips in a branching pattern for all entities with a Deck.
 Before a chip activates, the entity can commit any available movement.
 By default, the player moves one tile in a cardinal direction per chip they select.
-If an entity spends the whole turn not moving, a -1 Dodge penalty is accrued.
+If an entity spends the whole turn not moving, a -20 Dodge penalty is applied until next movement.
 
-Accuracy and Dodge each roll d32 against each other, and the grade adds a Grade*4 bonus to their rolls.
-Penalties to Dodge and Acc are applied as a modifier after the roll. e.g., -2 Dodge will roll d32, add bonus, then subtract 8 from total.
-* The Blind debuff sets Acc to Grade E.
+
 
 The Custom Gauge will charge by 5+(d4*Bars) per chip column, before any action is taken.
 The "Shrouded" debuff sets the Sunlight Bonus to a flat 0.
-Slot-Ins have a Gauge% chance to succeed. An attempt, successful or not, will delete the chip but let defenses inherit its HP anyway.
+Slot-Ins have a Gauge% chance to succeed. An attempt, successful or not, will delete the chip. Defenses inherit a successful Slot-In's Max HP.
 At 50% or higher, the selected branch can be rerolled at the cost of fully draining the gauge.
 A reroll can only be done once per turn, in the event a bonus prevents gauge from draining below 50%.
 
@@ -32,8 +40,7 @@ DIFFICULTY OPTIONS
 
 Restrained (Default)
 - Deleted chips can be repaired at safe zones, but player folders are limited to:
- - 3 GigaChips
- - 3 T5 Non-Gigas
+ - 10 T5 Chips
  - No duplicates of T5s
  - 1 duplicate of T4s
  - 3 duplicates of anything else

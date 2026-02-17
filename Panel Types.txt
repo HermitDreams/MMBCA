@@ -9,7 +9,7 @@ Basic [BAS]
 - Ore Freq: 16/256
 
 Heat [HET]
-- Elem Bonus: Fire
+- Elem Bonus: No
 - Effect: Delay Heal20
  - Affect: All
 - Transform: Basic
@@ -26,7 +26,7 @@ Sea [SEA]
 - Elem Bonus: Elec
 - Effect: Prevent Movement (1 turn)
  - Affect: Not [Aqua]
-- Effect: Dodge+1
+- Effect: Dodge+5
  - Affect: [Aqua]
 - Transform: Ice
  - Proc: Freeze type (FreezBom, FrostLns, etc)
@@ -37,17 +37,19 @@ Sea [SEA]
 Sand [SND]
 - Elem Bonus: No
 - Effect: Prevent Movement (1 turn)
- - Affect: All
+ - Affect: Not [None]
+- Effect: Priority +20
+ - Affect: [None], [Sol], [Dark]
+- Effect: Priority -20
+ - Affect: [Fire], [Aqua], [Elec], [Wood], [Life]
 - Transform: Basic
- - Proc: Wind (Wind, Fan, etc)
- - Special: Piles up on side of field it was pushed to
+ - Proc: Wind (Wind, Fan)
 - Sunlight: 0
 - Ore Type: Soil
 - Ore Freq: 48/256
 
 Aluminum [MTL]
 - Elem Bonus: Elec
-- Effect: No
 - Transform: Grass
  - Proc: [Wood]
 - Unbreakable
@@ -60,7 +62,7 @@ Charging [CHG]
 - Effect: Charge x2
  - Affect: Not [Dark]
 - Transform: No
-- Sunlight: 0
+- Sunlight: +1
 - Ore Type: Zap
 - Ore Freq: 48/256
 - Alt Ore Type: Glow
@@ -78,7 +80,7 @@ Grass [GRS]
 
 Honey [WEB]
 - Elem Bonus: No
-- Effect: Dodge -1
+- Effect: Dodge -5
  - Affect: All
 - Effect: DelayAllFix10
  - Affect: All
@@ -88,7 +90,7 @@ Honey [WEB]
 
 Lava [LAV]
 - Elem Bonus: No
-- Effect: Norm50
+- Effect: Norm50 when initially stepped on
  - Affect: Not [Fire]
 - Transform: Basic
  - Proc: [Aqua]
@@ -98,7 +100,7 @@ Lava [LAV]
 
 Ice [ICE]
 - Elem Bonus: No
-- Effect: Slide
+- Effect: Slide and Reduce Accuracy by 20
  - Affect: Not [Aqua]
 - Transform: Sea
  - Proc: Adjacency to Heat or Lava
@@ -108,9 +110,9 @@ Ice [ICE]
 
 Magnet [MAG]
 - Elem Bonus: No
-- Effect: Pull
+- Effect: DelayPull (Cardinal)
  - Affect: All
-- Effect: Dodge-2
+- Effect: Dodge-10
  - Affect: [Elec]
 - Transform: No
 - Sunlight: 0
@@ -132,7 +134,7 @@ Swamp [PSN]
 
 Holy [HLY]
 - Elem Bonus: No
-- Effect: Half Damage
+- Effect: Prevent Chip Damage
  - Affect: Not [Dark]
 - Transform: No
 - Sunlight: +8
