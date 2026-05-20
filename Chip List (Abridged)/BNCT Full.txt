@@ -55,7 +55,7 @@ Trident. (Tier 4, [None], 30MB, Triple, Mega)
 Ratton1. (Tier 1, [None], 10MB, Add, NoHole) [Ratty]
 Ratton2. (Tier 2, [None], 20MB, Add, NoHole) [Ratty2]
 Ratton3. (Tier 3, [None], 30MB, Add, NoHole) [Ratty3]
-FireRatn (Tier 4, [Fire], 60MB, Defense, TrapFire, NoHole, Mega)
+FireRatn (Tier 5, [Fire], 60MB, Defense, TrapFire, NoHole, Mega)
 Tornado. (Tier 4, [None], 40MB, All, Triple, Wind, Mega)
 Twister. (Tier 3, [Wood], 40MB, All, Triple, Wind)
 Blower.. (Tier 3, [Fire], 40MB, All, Triple, Wind)
@@ -107,7 +107,7 @@ Remobit3 (Tier 4, [Elec], 50MB, All, Defense, Mega) [Twisty3]
 AquaBall (Tier 2, [Aqua], 30MB, Defense, Store) [Octon]
 ElecBall (Tier 2, [Elec], 30MB, Defense, Store) [Octor]
 HeatBall (Tier 2, [Fire], 30MB, Defense, Store) [Octovian]
-Geyser.. (Tier 4, [Aqua], 50MB, All, OnlyHole, Mega)
+Geyser.. (Tier 5, [Aqua], 40MB, All, OnlyHole, Mega)
 LavaDrag (Tier 5, [Fire], 50MB, All, OnlyHole, Mega) [Lavagon]
 GodStone (Tier 5, [None], 50MB, Triple, Meteo, OnlyHole, Mega)
 OldWood. (Tier 5, [Wood], 50MB, All, OnlyHole, Mega)
@@ -222,7 +222,7 @@ PlantMan (Tier 5, [Wood], All, Navi) [YelwFlwr]
 FlameMan (Tier 5, [Fire], All, Navi) [FireBrth]
 MetalMan (Tier 5, [None], Break, NoHole, Melee, Navi) [MetlFist]
 KingMan. (Tier 5, [None], All, Navi) [Chckmate]
-HubStyl. (Tier 5, [None], Quint, Navi) [MegaBstr]
+HubStyl. (Tier 5, [None], Add, Quint, Navi) [MegaBstr]
 HeatGuts (Tier 5, [Fire], Navi) [FireCann]
 AquaCust (Tier 5, [Aqua], Add, Navi) [AquaShot]
 ElecTeam (Tier 5, [Elec], Stun, Navi) [ZapRing]
@@ -265,7 +265,7 @@ Condor.. (Tier 3, [None], 50MB, Pierce) [Fishy3]
 Burning. (Tier 4, [Fire], 70MB, All, NoHole, Melee, Mega)
 IceWave1 (Tier 2, [Aqua], 10MB) [Pengi]
 IceWave2 (Tier 3, [Aqua], 20MB) [Penga]
-IceWave3 (Tier 4, [Aqua], 40MB, Mega) []
+IceWave3 (Tier 4, [Aqua], 40MB) [Pengon]
 AirStrm1 (Tier 2, [None], 10MB, Triple, Speed, Wind) [SnowBlow]
 AirStrm2 (Tier 3, [None], 20MB, Triple, Speed, Wind) [LowBlow]
 AirStrm3 (Tier 4, [None], 30MB, Triple, Speed, Wind, Mega) [MoBlow]
@@ -306,7 +306,7 @@ Totem1.. (Tier 2, [Fire], 40MB, Pierce, Defense, DelayHeal) [Totem]
 Totem2.. (Tier 3, [Fire], 50MB, Pierce, Defense, DelayHeal) [Totam]
 Totem3.. (Tier 4, [Fire], 60MB, Pierce, Defense, DelayHeal, Mega) [Totun]
 Sensor1. (Tier 2, [Elec], 20MB, Add, Skip) [KillrEye]
-Sensor2. (Tier 3, [Elec], 30MB, Add, Skip) [DeathEye]
+Sensor2. (Tier 3, [Elec], 30MB, Add, Skip) [DemonEye]
 Sensor3. (Tier 4, [Elec], 40MB, Add, Skip, Mega) [JokerEye]
 MetaGel1 (Tier 2, [Aqua], 10MB, Add, Grab) [Slimer]
 MetaGel2 (Tier 3, [Aqua], 20MB, Add, Grab) [Slimey]
@@ -332,16 +332,18 @@ FoldrBak (Tier 5, [None], 50MB, All, Fix, Giga)
 DeltaRay (Tier 5, [None], 70MB, Rand, Triple, Giga)
 BubblMan (Tier 5, [Aqua], Add, Navi) [FishMssl]
 DesrtMan (Tier 5, [None], Pierce, Navi) [LionHead]
-DrillMan (Tier 5, [None], Navi) [DrilDive]
+DrillMan (Tier 5, [None], Pierce, Navi) [DrilDive]
 MistMan. (Tier 5, [None], AddTwo, Navi) [PoisMist]
-BowlMan. (Tier 5, [None], Navi) []
-DarkMan. (Tier 5, [None], Navi) [Darkness]
+BowlMan. (Tier 5, [None], Break, Navi) [BowlBmbr]
+DarkMan. (Tier 5, [None], PickElem, Navi) [Darkness]
 JapanMan (Tier 5, [None], Triple, Navi) [ThsndSpr]
 Punk.... (Tier 5, [None], All, Navi) [MadRollr]
-Serenade (Tier 5, [None], Navi) [SaintLgt]
+Serenade (Tier 5, [None], Add, Skip, Navi) [SaintLgt]
 HeatShdw (Tier 5, [Fire], Invis, Navi) [Invis]
 ElecGrnd (Tier 5, [Elec], Stun, Panel, Navi) [ZapRing]
-AquaBug. (Tier 5, [Aqua], Navi) [WaterGun]
+AquaBug. (Tier 5, [Aqua], Add, NoHole, Melee, Navi) [WaterGun]
+ClockMan (Tier 5, [None], Add, Navi) [ClockLsr]
+MegaMnSF (Tier 5, [None], Add, Navi) [ChgShot]
 Cinnamon (Tier 5, [None], Add, Navi) [ChgShot]
 TorchMan (Tier 5, [Fire], Triple, NoHole, Melee, Navi) [FlamCmbo]
 Berkana. (Tier 5, [Aqua], Add, Navi) [AquaShot]
