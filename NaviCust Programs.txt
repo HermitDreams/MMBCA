@@ -1,70 +1,92 @@
 AUGMENTS
 
-HP+50
-HP+100
-HP+250
-Cap+30
-Cap+60
-Cap+100
-Slot+10
-Slot+20
-Slot+40
-Charg+5
-Charg+10
-Charg+25
-Navi+10
-Navi+20
-Navi+30
-Acc+1
-Acc+2
-Acc+3
-Speed+1
-Speed+2
-Speed+3
-Dodge+1
-Dodge+2
-Dodge+3
-Splash+1
-Splash+2
-Splash+3
-Split+1
-Split+2
-Split+3
-Mega+1 (Add 1 more T4 Dupe to folder, T4s are T3 rarity for battle loot tables)
-Giga+1 (Add 1 more T5 Dupe to folder, T5s are T4 rarity for battle loot tables)
+HP+50    [T1] (Increase Navi HP)
+HP+100   [T2]
+HP+250   [T3]
+Cap+30   [T1] (Increase Deck MB)
+Cap+60   [T2]
+Cap+100  [T3]
+Slot+10  [T1] (Increase Slot-In MB)
+Slot+20  [T2]
+Slot+40  [T4]
+Charg+5  [T1] (Increase Gauge Rate)
+Charg+10 [T2]
+Charg+25 [T3]
+Navi+10  [T1] (Increase Navi Attack power)
+Navi+20  [T2]
+Navi+30  [T3]
+Acc+10   [T1] (Increase Navi Attack Accuracy)
+Acc+20   [T2]
+Acc+30   [T3]
+Speed+20 [T1] (Increase Navi Attack priority)
+Speed+40 [T2]
+Speed+60 [T3]
+Dodge+10 [T2] (Increase Navi Dodge rate)
+Dodge+20 [T3]
+Dodge+30 [T4]
+Step+1   [T1] (Increase amount of panel movements per turn)
+Splash+1 [T1] (Increase spread capacity of Navi Attack)
+Split+1  [T3] (Increase amount of hits on Navi Attack)
+BustrPak [T5] (Increase Navi Attack power, accuracy, and priority by 10)
+BodyPack [T5] (Increase HP by 50, Dodge rate by 10, and Steps by 1)
+MegFldr1 [T4] (Add 1 more T4 Dupe to folder, T4s are T3 rarity for battle loot tables)
+GigFldr1 [T5] (Add 1 more T5 Dupe to folder, T5s are T4 rarity for battle loot tables)
 
 ADAPTORS
 
-Blaster  (Applies Add to Navi Attack)
-Xplosive (Applies AllAdd to Navi Attack)
-Sharpen  (Applies Rand to Navi Attack)
-Snare    (Applies Stun to Navi Attack)
-Ruthless (Applies Break to Navi Attack)
-Regen    (Heal 50 HP per Navi Attack)
-NormAttk (Changes Navi Attack to [None])
-FireAttk (Changes Navi Attack to [Fire])
-WatrAttk (Changes Navi Attack to [Aqua])
-SparkAtk (Changes Navi Attack to [Elec])
-GrassAtk (Changes Navi Attack to [Wood])
-SolrAttk (Changes Navi Attack to [Sol])
-DarkAttk (Changes Navi Attack to [Dark])
-Rifle    (Changes Navi Attack to Projectile)
-Scrapper (Changes Navi Attack to Melee)
-Grenade  (Changes Navi Attack to Aerial)
-Undrfoot (Changes Navi Attack to Floor)
-FreezAtk (Changes Navi Attack to an [Aqua] that freezes Sea Panels)
-StormAtk (Changes Navi Attack to a [None] that uproots Sand Panels)
-QuikBarr (Start fights with a single-use Barrier)
-QuikGaug (Start fights with 50% Charge)
-Soothing (Opposing Viruses have -1 to Dodge and Spd)
-Plain    (Attract [None] Viruses)
-Cook     (Attract [Fire] Viruses)
-Fish     (Attract [Aqua] Viruses)
-Circuit  (Attract [Elec] Viruses)
-Bloom    (Attract [Wood] Viruses)
-Light    (Attract [Sol] Viruses)
-Shade    (Attract [Dark] Viruses)
-UltraV   (Always be considered Sunlit)
-Umbrella (Always be considered Shrouded)
-Miner    (Double chance of Ore Collection)
-Reload   (Unbroken Chips regain 50 HP per reselect)
+Blaster  [T2] (Applies Add to Navi Attack)
+Xplosive [T4] (Applies AllAdd to Navi Attack)
+Sharpen  [T2] (Applies Rand to Navi Attack)
+Snare    [T3] (Applies Stun to Navi Attack)
+Ruthless [T3] (Applies Break to Navi Attack)
+Summoner [T3] (Navi Attack is rolled like Meteors + 2 hits)
+Gambler  [T3] (Navi Attack is rolled like Dice + 2 hits)
+Vampire  [T4] (Navi Attack steals health)
+SilvSkin [T2] (Changes Navi element to [None])
+HeatSkin [T3] (Changes Navi element to [Fire])
+IceSkin  [T3] (Changes Navi element to [Aqua])
+MagnSkin [T3] (Changes Navi element to [Elec])
+WoodSkin [T3] (Changes Navi element to [Wood])
+GoldSkin [T4] (Changes Navi element to [Sol])
+OnyxSkin [T4] (Changes Navi element to [Dark])
+NormAttk [T1] (Changes Navi Attack to [None])
+FireAttk [T2] (Changes Navi Attack to [Fire])
+WatrAttk [T2] (Changes Navi Attack to [Aqua])
+SparkAtk [T2] (Changes Navi Attack to [Elec])
+GrassAtk [T2] (Changes Navi Attack to [Wood])
+SolrAttk [T3] (Changes Navi Attack to [Sol])
+DarkAttk [T3] (Changes Navi Attack to [Dark])
+Rifle    [T3] (Changes Navi Attack to Projectile)
+Fighter  [T2] (Changes Navi Attack to Melee)
+Grenade  [T3] (Changes Navi Attack to Aerial)
+Undrfoot [T2] (Changes Navi Attack to Floor)
+FreezAtk [T3] (Changes Navi Attack to an [Aqua] that freezes Sea Panels)
+StormAtk [T2] (Changes Navi Attack to a [None] that uproots Sand Panels)
+QuikBarr [T3] (Start fights with a single-use Barrier)
+QuikGaug [T3] (Start fights with 50% Charge)
+Reflect  [T2] (Deal 50 unblockable damage to opponent on successful dodges)
+Soothing [T2] (Opposing Viruses have -10 to Dodge and Spd)
+Cloaker  [T4] (SneakRun filters out half of all battles. Can only encounter 1 virus per fight)
+SerchEye [T4] (LocEnemy and LocField last 10 battles instead of 5)
+Vaccine  [T4] (Scanner will dispel viral GMD instead of simply warning you)
+Plain    [T3] (Attract [None] Viruses)
+Cook     [T3] (Attract [Fire] Viruses)
+Fish     [T3] (Attract [Aqua] Viruses)
+Circuit  [T3] (Attract [Elec] Viruses)
+Bloom    [T3] (Attract [Wood] Viruses)
+Light    [T3] (Attract [Sol] Viruses)
+Shade    [T3] (Attract [Dark] Viruses)
+UltraV   [T4] (Always be considered Sunlit)
+Umbrella [T4] (Always be considered Shrouded)
+Scavenge [T1] (Gain GlowDust whenever BGMD would upgrade its tier)
+Millions [T2] (Always receive Zenny from viruses and BGMD)
+Collect  [T3] (Always receive Chips from BGMD)
+Miner    [T3] (Double chance of Ore Collection. Always receive Ore from BGMD)
+Reload   [T4] (Unbroken Chips regain 50 HP per reselect)
+Scrap    [T3] (Chips regain 50 HP when deleting a virus)
+AutoFix  [T3] (Unused chips in Folder regain 10 HP per battle)
+Unbind   [T3] (Prevent Stun and Freeze)
+Sanity   [T2] (Prevent Mind)
+Cleats   [T2] (Prevent Shove)
+SuprArmr [T5] (Prevent Stun, Freeze, Mind, and Shove)
+FullSync [T5] (Cut HP in half, double MB, MegFldr2, GigFldr1)
