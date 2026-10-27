@@ -226,6 +226,109 @@
                         echo 8 -s - Stun effect removed
                       }
                     }
+                    elseif ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .active.slot,3)) $+ .txt,25) = 4) {
+                      ; echo 4 -s DEBUG: Chip Heal Target MaxHP: $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1)
+                      ; echo 4 -s DEBUG: Chip Heal Percentage: $read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .active.slot,3)) $+ .txt,6)
+                      var %mmbca.battle.chip1heal $calc($ceil($calc($read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) * $read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .active.slot,3)) $+ .txt,6) / 1000))*10)
+                      var %mmbca.battle.chip2heal $calc($ceil($calc($read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) * $read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .active.slot,3)) $+ .txt,6) / 1000))*10)
+                      var %mmbca.battle.chip3heal $calc($ceil($calc($read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1) * $read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .active.slot,3)) $+ .txt,6) / 1000))*10)
+                      if ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .active.slot,3)) $+ .txt,7) = 1) {
+                        if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,2) > 0) {
+                          inc $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,1) %mmbca.battle.chip3heal
+                          if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,2) > $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1)) { set $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,1) $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1) }
+                          echo 8 -s - $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ 's $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) recovered %mmbca.battle.chip3heal HP ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1) $+ )
+                        }
+                        else {
+                          if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) > 0) {
+                            inc $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,1) %mmbca.battle.chip2heal
+                            if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) > $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1)) { set $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,1) $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) }
+                            echo 8 -s - $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ 's $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) recovered %mmbca.battle.chip2heal HP ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) $+ )
+                          }
+                          else {
+                            if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) > 0) {
+                              inc $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,1) %mmbca.battle.chip1heal
+                              if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) > $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1)) { set $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,1) $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) }
+                              echo 8 -s - $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ 's $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) recovered %mmbca.battle.chip1heal HP ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) $+ )
+                            }
+                            else { echo 4 -s No Chip to Target }
+                          }
+                        }
+                      }
+                      elseif ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .active.slot,3)) $+ .txt,7) = 2) {
+                        if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,2) > 0) {
+                          inc $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,1) %mmbca.battle.chip3heal
+                          if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,2) > $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1)) { set $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,1) $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1) }
+                          echo 8 -s - $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ 's $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) recovered %mmbca.battle.chip3heal HP ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1) $+ )
+                          if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) > 0) {
+                            inc $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,1) %mmbca.battle.chip2heal
+                            if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) > $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1)) { set $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,1) $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) }
+                            echo 8 -s - $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ 's $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) recovered %mmbca.battle.chip2heal HP ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) $+ )
+                          }
+                          else {
+                            if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) > 0) {
+                              inc $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,1) %mmbca.battle.chip1heal
+                              if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) > $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1)) { set $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,1) $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) }
+                              echo 8 -s - $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ 's $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) recovered %mmbca.battle.chip1heal HP ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) $+ )
+                            }
+                          }
+                        }
+                        else {
+                          if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) > 0) {
+                            inc $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,1) %mmbca.battle.chip2heal
+                            if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) > $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1)) { set $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,1) $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) }
+                            echo 8 -s - $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ 's $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) recovered %mmbca.battle.chip2heal HP ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) $+ )
+                          }
+                          if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) > 0) {
+                            inc $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,1) %mmbca.battle.chip1heal
+                            if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) > $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1)) { set $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,1) $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) }
+                            echo 8 -s - $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ 's $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) recovered %mmbca.battle.chip1heal HP ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) $+ )
+                          }
+                        }
+                      }
+                      elseif ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .active.slot,3)) $+ .txt,7) = 3) {
+                        if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,2) > 0) {
+                          inc $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,1) %mmbca.battle.chip3heal
+                          if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,2) > $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1)) { set $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,1) $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1) }
+                          echo 8 -s - $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ 's $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) recovered %mmbca.battle.chip3heal HP ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1) $+ )
+                        }
+                        if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) > 0) {
+                          inc $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,1) %mmbca.battle.chip2heal
+                          if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) > $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1)) { set $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,1) $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) }
+                          echo 8 -s - $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ 's $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) recovered %mmbca.battle.chip2heal HP ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) $+ )
+                        }
+                        if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) > 0) {
+                          inc $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,1) %mmbca.battle.chip1heal
+                          if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) > $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1)) { set $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,1) $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) }
+                          echo 8 -s - $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ 's $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) recovered %mmbca.battle.chip1heal HP ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) $+ )
+                        }
+                      }
+                      elseif ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .active.slot,3)) $+ .txt,7) = 4) {
+                        var %mmbca.battle.rand.multi 1
+                        while (%mmbca.battle.rand.multi !> $read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .active.slot,3)) $+ .txt,15)) {
+                          var %mmbca.battle.randdmg $rand(1,3)
+                          var %mmbca.battle.randdmg.target $eval(% $+ %mmbca.battle.attacker $+ .chip $+ %mmbca.battle.randdmg,2)
+                          if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip $+ %mmbca.battle.randdmg,2)) $+ .curhp,2) > 0) {
+                            inc $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip $+ %mmbca.battle.randdmg,2)) $+ .curhp,1) $eval(% $+ mmbca.battle.chip $+ %mmbca.battle.randdmg $+ heal,2)
+                            if ($eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip $+ %mmbca.battle.randdmg,2)) $+ .curhp,2) > $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1)) { set $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip $+ %mmbca.battle.randdmg,2)) $+ .curhp,1) $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip $+ %mmbca.battle.randdmg,2)),2) $+ .txt,1) }
+                            echo 8 -s - $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ 's $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) recovered $eval(% $+ mmbca.battle.chip $+ %mmbca.battle.randdmg $+ heal,2) HP ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip $+ %mmbca.battle.randdmg,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip $+ %mmbca.battle.randdmg,2)),2) $+ .txt,1) $+ )
+                          }
+                          else { echo 4 -s Targeted empty slot }
+                          inc %mmbca.battle.rand.multi
+                        }
+                      }
+                    }
+                    elseif ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .active.slot,3)) $+ .txt,25) = 5) {
+                      var %mmbca.battle.balance.attacker $calc($ceil($calc($eval(% $+ %mmbca.battle.attacker $+ .navi.curhp,2)/20))*10)
+                      dec $eval(% $+ %mmbca.battle.attacker $+ .navi.curhp) %mmbca.battle.balance.attacker
+                      echo 4 -s $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ : $eval(% $+ %mmbca.battle.attacker $+ .navi.curhp,2) $+ / $+ $read(navichips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .navi,2) $+ .txt,1) HP
+                      var %mmbca.battle.balance.defender $calc($ceil($calc($eval(% $+ %mmbca.battle.defender $+ .navi.curhp,2)/20))*10)
+                      dec $eval(% $+ %mmbca.battle.defender $+ .navi.curhp) %mmbca.battle.balance.defender
+                      echo 4 -s $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ : $eval(% $+ %mmbca.battle.defender $+ .navi.curhp,2) $+ / $+ $read(navichips\ $+ $eval(% $+ %mmbca.battle.defender $+ .navi,2) $+ .txt,1) HP
+                      if ($eval(% $+ %mmbca.battle.attacker $+ .navi.curhp,2) = 0) { inc $eval(% $+ %mmbca.battle.attacker $+ .navi.curhp) 10 | dec %mmbca.battle.balance.attacker 10 }
+                      if ($eval(% $+ %mmbca.battle.attacker $+ .navi.curhp,2) = 0) { inc $eval(% $+ %mmbca.battle.defender $+ .navi.curhp) 10 | dec %mmbca.battle.balance.attacker 10 }
+                      echo 7 -s $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) lost %mmbca.battle.balance.attacker health!
+                      echo 7 -s $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) lost %mmbca.battle.balance.defender health!
+                    }
                     if ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .active.slot,3)) $+ .txt,24)) {
                       if (%mmbca.battle.global.chip != 3) {
                         if (($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .active.slot,3)) $+ .txt,24) isnum 1-4) && ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .active.slot,3)) $+ .txt,2) = $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval(% $+ %mmbca.battle.attacker $+ .chip $+ $calc(%mmbca.battle.global.chip +1),2),2) $+ .txt,2))) || ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .active.slot,3)) $+ .txt,24) = 6) { inc $eval(% $+ %mmbca.battle.attacker $+ .boost) $read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .active.slot,3)) $+ .txt,6) | echo 7 -s Boosted $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval(% $+ %mmbca.battle.attacker $+ .chip $+ $calc(%mmbca.battle.global.chip +1),2),2) by $eval(% $+ %mmbca.battle.attacker $+ .boost,2) }
@@ -534,6 +637,7 @@
                   if ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) $+ .txt,16) = 1) && (%mmbca.dmgcalc.hits != 0) { echo 7 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) hit $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) for %mmbca.dmgcalc.result damage! %mmbca.dmgcalc.hits hit! }
                   else { echo 7 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) hit $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) for %mmbca.dmgcalc.result damage! %mmbca.battle.acc vs %mmbca.battle.dodge }
                   checkdel
+                  echo 4 -s $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ : $eval(% $+ %mmbca.battle.attacker $+ .navi.curhp,2) $+ / $+ $read(navichips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .navi,2) $+ .txt,1) HP
                   if ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) $+ .txt,9) = 1) && (%mmbca.battle.target = $eval(% $+ %mmbca.battle.attacker) $+ .navi) { set $eval(% $+ %mmbca.battle.attacker) $+ .stun 1 }
                   elseif ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) $+ .txt,9) = 2) && (%mmbca.battle.target = $eval(% $+ %mmbca.battle.attacker) $+ .navi) { set $eval(% $+ %mmbca.battle.attacker) $+ .mind 1 }
                   elseif ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) $+ .txt,9) = 3) && (%mmbca.battle.target = $eval(% $+ %mmbca.battle.attacker) $+ .navi) { set $eval(% $+ %mmbca.battle.attacker) $+ .back 1 }
@@ -663,8 +767,8 @@
     var %mmbca.battle.chip 1
     while (%mmbca.battle.chip < 3) {
       unset %mmbca.battle.target
-      if (%mmbca.battle.priority = 1) { var %mmbca.battle.defender mmbca.battle.p2 }
-      else { var %mmbca.battle.defender mmbca.battle.p1 }
+      if (%mmbca.battle.priority = 1) { var %mmbca.battle.defender mmbca.battle.p2 | var %mmbca.battle.attacker mmbca.battle.p1 }
+      else { var %mmbca.battle.defender mmbca.battle.p1 | var %mmbca.battle.attacker mmbca.battle.p2 }
       if (%mmbca.battle.priority = 1) {
         if (%mmbca.battle.p1.gauge < 0) { set %mmbca.battle.p1.gauge 0 }
         if (%mmbca.battle.p1.gauge < 100) { inc %mmbca.battle.p1.gauge 5 }
@@ -746,6 +850,7 @@
                         echo 13 -s Broke through guard! Deleted $eval(%mmbca.battle.p2.box,2))
                         set $eval(%mmbca.battle.p2.box) ........
                         set $eval(%mmbca.battle.p2.box) $+ .curhp 0
+                        set $eval(% $+ %mmbca.battle.defender $+ .box) 0
                       }
                       else {
                         echo 13 -s Broke through guard! Removed $eval(%mmbca.battle.p2.box,2)
@@ -759,7 +864,10 @@
                     if ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,16) = 1) && (%mmbca.dmgcalc.hits = 0) { echo 7 -s %mmbca.battle.p1.navi.name $+ 's attack missed! | goto p1nmiss }
                     else {
                       if (%mmbca.battle.target = %mmbca.battle.p2.box) {
-                        if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,25) != 3) { dec $eval(%mmbca.battle.p2.box) $+ .curhp %mmbca.dmgcalc.result }
+                        if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,25) != 3) {
+                          dec $eval(%mmbca.battle.p2.box) $+ .curhp %mmbca.dmgcalc.result
+                          echo 4 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) $+ : $eval($eval(% $+ %mmbca.battle.defender $+ .box,2) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) $+ .txt,1) HP
+                        }
                         elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,6) > 0) {
                           dec %mmbca.battle.p2.box.hp %mmbca.dmgcalc.result
                           echo 10 -s $eval(%mmbca.battle.p2.box,2) $+ : %mmbca.battle.p2.box.hp $+ / $+ $read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,6) HP
@@ -788,44 +896,46 @@
                     }
                     if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,31) = 2) && (%mmbca.battle.p2.navi.curhp < $read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,6)) { set %mmbca.battle.p2.navi.curhp $read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,6) }
                     checkdel
+                    if (%mmbca.battle.target = $eval(% $+ %mmbca.battle.defender $+ .navi,2)) { echo 4 -s $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ : $eval(% $+ %mmbca.battle.defender $+ .navi.curhp,2) $+ / $+ $read(navichips\ $+ $eval(% $+ %mmbca.battle.defender $+ .navi,2) $+ .txt,1) HP }
+                    ; echo 4 -s DEBUG: $v1 $v2
                     if ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,9) = 1) && (%mmbca.battle.target = %mmbca.battle.p2.navi) { set %mmbca.battle.p2.stun 1 }
                     elseif ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,9) = 2) && (%mmbca.battle.target = %mmbca.battle.p2.navi) { set %mmbca.battle.p2.mind 1 }
                     elseif ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,9) = 3) && (%mmbca.battle.target = %mmbca.battle.p2.navi) { set %mmbca.battle.p2.back 1 }
                     if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,31) != 5) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,31) != 7) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,7) > 0) {
                       if ($v1 = 1) {
-                        if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3),2) }
+                        if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip3,2)),2) $+ .txt,1) $+ ) }
                         else {
-                          if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) }
+                          if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip2,2)),2) $+ .txt,1) $+ ) }
                           else {
-                            if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) }
+                            if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip1,2)),2) $+ .txt,1) $+ ) }
                             else { echo 4 -s No Chip to Target }
                           }
                         }
                       }
                       elseif ($v1 = 2) {
                         if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,2) > 0) {
-                          dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3),2)
-                          if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) }
+                          dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip3,2)),2) $+ .txt,1) $+ )
+                          if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip2,2)),2) $+ .txt,1) $+ ) }
                           else {
-                            if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) }
+                            if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip1,2)),2) $+ .txt,1) $+ ) }
                           }
                         }
                         else {
-                          if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) }
-                          if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) }
+                          if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip2,2)),2) $+ .txt,1) $+ ) }
+                          if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip1,2)),2) $+ .txt,1) $+ ) }
                         }
                       }
                       elseif ($v1 = 3) {
-                        if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3),2) }
-                        if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) }
-                        if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) }
+                        if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip3,2)),2) $+ .txt,1) $+ ) }
+                        if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip2,2)),2) $+ .txt,1) $+ ) }
+                        if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip1,2)),2) $+ .txt,1) $+ ) }
                       }
                       elseif ($v1 = 4) {
                         var %mmbca.battle.rand.multi 1
                         while (%mmbca.battle.rand.multi !> %mmbca.dmgcalc.hits) {
                           var %mmbca.battle.randdmg $rand(1,3)
                           var %mmbca.battle.randdmg.target % $+ mmbca.battle.p2.chip $+ %mmbca.battle.randdmg
-                          if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(% $+ mmbca.battle.p2.chip $+ %mmbca.battle.randdmg,2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.randdmg.target,2) $+ .curhp,1) $calc(%mmbca.dmgcalc.result / %mmbca.dmgcalc.hits) | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.randdmg.target,2),2) }
+                          if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(% $+ mmbca.battle.p2.chip $+ %mmbca.battle.randdmg,2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.randdmg.target,2) $+ .curhp,1) $calc(%mmbca.dmgcalc.result / %mmbca.dmgcalc.hits) | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.randdmg.target,2),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip $+ %mmbca.battle.randdmg,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip $+ %mmbca.battle.randdmg,2)),2) $+ .txt,1) $+ ) }
                           else { echo 4 -s Targeted empty slot }
                           inc %mmbca.battle.rand.multi
                         }
@@ -845,8 +955,8 @@
                         var %mmbca.battle.p2.slotR.curhp 0
                       }
                     }
+                    if ($eval(%mmbca.battle.p2.box $+ .curhp,2) <= 0) { echo 13 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) removed from $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's box! | set %mmbca.battle.p2.box 0 }
                     checkdel
-                    if ($eval(%mmbca.battle.p2.box $+ .curhp,2) <= 0) { set %mmbca.battle.p2.box 0 }
                     if ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,8) != 3) {
                       if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,14) = 1) || ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,14) = 5) {
                         if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21)) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,21) > 0) {
@@ -867,6 +977,7 @@
                   :p1nblocked
                   if ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,25) = 2) && ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) $+ .txt,21) != 11) {
                     inc %mmbca.battle.p1.navi.curhp $read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,6)
+                    echo 4 -s $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ : $eval(% $+ %mmbca.battle.attacker $+ .navi.curhp,2) $+ / $+ $read(navichips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .navi,2) $+ .txt,1) HP
                     echo 7 -s %mmbca.battle.p1.navi recovered $read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,6) health!
                     if (%mmbca.battle.p1.navi.curhp > $read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,1)) { set %mmbca.battle.p1.navi.curhp $read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,1) }
                   }
@@ -946,45 +1057,46 @@
                 if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,16) = 1) && (%mmbca.dmgcalc.hits != 0) { echo 7 -s $eval(%mmbca.battle.p2.box,2) hit %mmbca.battle.p1.navi.name for %mmbca.dmgcalc.result damage! %mmbca.dmgcalc.hits hit! }
                 else { echo 7 -s $eval(%mmbca.battle.p2.box,2) hit %mmbca.battle.p1.navi.name for %mmbca.dmgcalc.result damage! %mmbca.battle.acc vs %mmbca.battle.dodge }
                 checkdel
+                echo 4 -s $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ : $eval(% $+ %mmbca.battle.attacker $+ .navi.curhp,2) $+ / $+ $read(navichips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .navi,2) $+ .txt,1) HP
                 if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,9) = 1) && (%mmbca.battle.target = %mmbca.battle.p1.navi) { set %mmbca.battle.p1.stun 1 }
                 elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,9) = 2) && (%mmbca.battle.target = %mmbca.battle.p1.navi) { set %mmbca.battle.p1.mind 1 }
                 elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,9) = 3) && (%mmbca.battle.target = %mmbca.battle.p1.navi) { set %mmbca.battle.p1.back 1 }
                 if (!%mmbca.battle.p2.chipdmg) { set %mmbca.battle.p2.chipdmg $read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,7) }
                 if (%mmbca.battle.p2.chipdmg > 0) {
                   if ($v1 = 1) {
-                    if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3),2) }
+                    if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1) $+ ) }
                     else {
-                      if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) }
+                      if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) $+ ) }
                       else {
-                        if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) }
+                        if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) $+ ) }
                         else { echo 4 -s No Chip to Target }
                       }
                     }
                   }
                   elseif ($v1 = 2) {
                     if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,2) > 0) {
-                      dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3),2)
-                      if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) }
+                      dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1) $+ )
+                      if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) $+ ) }
                       else {
-                        if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) }
+                        if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) $+ ) }
                       }
                     }
                     else {
-                      if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) }
-                      if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) }
+                      if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) $+ ) }
+                      if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) $+ ) }
                     }
                   }
                   elseif ($v1 = 3) {
-                    if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3),2) }
-                    if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) }
-                    if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) }
+                    if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1) $+ ) }
+                    if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) $+ ) }
+                    if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) $+ ) }
                   }
                   elseif ($v1 = 4) {
                     var %mmbca.battle.rand.multi 1
                     while (%mmbca.battle.rand.multi !> %mmbca.dmgcalc.hits) {
                       var %mmbca.battle.randdmg $rand(1,3)
                       var %mmbca.battle.randdmg.target % $+ mmbca.battle.p1.chip $+ %mmbca.battle.randdmg
-                      if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(% $+ mmbca.battle.p1.chip $+ %mmbca.battle.randdmg,2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.randdmg.target,2) $+ .curhp,1) $calc(%mmbca.dmgcalc.result / %mmbca.dmgcalc.hits ) | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.randdmg.target,2),2) }
+                      if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(% $+ mmbca.battle.p1.chip $+ %mmbca.battle.randdmg,2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.randdmg.target,2) $+ .curhp,1) $calc(%mmbca.dmgcalc.result / %mmbca.dmgcalc.hits ) | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.randdmg.target,2),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip $+ %mmbca.battle.randdmg,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip $+ %mmbca.battle.randdmg,2)),2) $+ .txt,1) $+ ) }
                       else { echo 4 -s Targeted empty slot }
                       inc %mmbca.battle.rand.multi
                     }
@@ -1005,6 +1117,7 @@
                   }
                   unset %mmbca.battle.p2.chipdmg
                 }
+                if ($eval($eval(% $+ %mmbca.battle.attacker $+ .box,2) $+ .curhp,2) <= 0) { echo 13 -s $eval($eval(% $+ %mmbca.battle.attacker $+ .box,3)) removed from $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ 's box! | set $eval(% $+ %mmbca.battle.attacker) $+ .box 0 }
                 checkdel
               }
               else { echo 7 $eval(%mmbca.battle.p2.box,2) $+ 's attack missed! %mmbca.battle.acc vs %mmbca.battle.dodge }
@@ -1014,11 +1127,11 @@
             }
             inc %mmbca.battle.p2.counter 1
             unset %mmbca.battle.counter
-            if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 1) { set %mmbca.battle.p2.box 0 }
-            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 2) { set $eval(%mmbca.battle.p2.box) $+ .curhp 0 | set %mmbca.battle.p2.box 0 }
+            if ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 1) { echo 13 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) removed from $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's box! | set %mmbca.battle.p2.box 0 }
+            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 2) { echo 13 -s $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) was deleted! | set $eval(%mmbca.battle.p2.box) $+ .curhp 0 | echo 13 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) removed from $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's box! | set %mmbca.battle.p2.box 0 }
           }
-          if (%mmbca.battle.target = %mmbca.battle.p2.box) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 1) { set %mmbca.battle.p2.box 0 }
-          elseif (%mmbca.battle.target = %mmbca.battle.p2.box) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 2) { set $eval(%mmbca.battle.p2.box) $+ .curhp 0 | set %mmbca.battle.p2.box 0 }
+          if (%mmbca.battle.target = %mmbca.battle.p2.box) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 1) { echo 13 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) removed from $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's box! | set %mmbca.battle.p2.box 0 }
+          elseif (%mmbca.battle.target = %mmbca.battle.p2.box) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 2) { echo 13 -s $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) was deleted! | set $eval(%mmbca.battle.p2.box) $+ .curhp 0 | echo 13 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) removed from $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's box! | set %mmbca.battle.p2.box 0 }
         }
       }
       elseif (%mmbca.battle.priority = 2) {
@@ -1102,6 +1215,7 @@
                         echo 13 -s Broke through guard! Deleted $eval(%mmbca.battle.p1.box,2))
                         set $eval(%mmbca.battle.p1.box) ........
                         set $eval(%mmbca.battle.p1.box) $+ .curhp 0
+                        set $eval(% $+ %mmbca.battle.defender $+ .box) 0
                       }
                       else {
                         echo 13 -s Broke through guard! Removed $eval(%mmbca.battle.p1.box,2)
@@ -1116,7 +1230,10 @@
                     else {
                       if (%mmbca.battle.target = %mmbca.battle.p1.navi) { dec %mmbca.battle.p1.navi.curhp %mmbca.dmgcalc.result | inc %mmbca.battle.p2.active.dmgdealt %mmbca.dmgcalc.result }
                       elseif (%mmbca.battle.target = %mmbca.battle.p1.box) {
-                        if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,25) != 3) { dec $eval(%mmbca.battle.p1.box) $+ .curhp %mmbca.dmgcalc.result }
+                        if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,25) != 3) {
+                          dec $eval(%mmbca.battle.p1.box) $+ .curhp %mmbca.dmgcalc.result
+                          echo 4 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) $+ : $eval($eval(% $+ %mmbca.battle.defender $+ .box,2) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) $+ .txt,1) HP
+                        }
                         elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,6) > 0) {
                           dec %mmbca.battle.p1.box.hp %mmbca.dmgcalc.result
                           echo 10 -s $eval(%mmbca.battle.p1.box,2) $+ : %mmbca.battle.p1.box.hp $+ / $+ $read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,6) HP
@@ -1144,44 +1261,45 @@
                     }
                     if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,31) = 2) && (%mmbca.battle.p1.navi.curhp < $read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,6)) { set %mmbca.battle.p1.navi.curhp $read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,6) }
                     checkdel
+                    if (%mmbca.battle.target = $eval(% $+ %mmbca.battle.defender $+ .navi,2)) { echo 4 -s $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ : $eval(% $+ %mmbca.battle.defender $+ .navi.curhp,2) $+ / $+ $read(navichips\ $+ $eval(% $+ %mmbca.battle.defender $+ .navi,2) $+ .txt,1) HP }
                     if ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,9) = 1) && (%mmbca.battle.target = %mmbca.battle.p1.navi) { set %mmbca.battle.p1.stun 1 }
                     elseif ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,9) = 2) && (%mmbca.battle.target = %mmbca.battle.p1.navi) { set %mmbca.battle.p1.mind 1 }
                     elseif ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,9) = 3) && (%mmbca.battle.target = %mmbca.battle.p1.navi) { set %mmbca.battle.p1.back 1 }
                     if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,31) != 5) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,31) != 7) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,7) > 0) {
                       if ($v1 = 1) {
-                        if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3),2) }
+                        if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip3,2)),2) $+ .txt,1) $+ ) }
                         else {
-                          if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) }
+                          if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip2,2)),2) $+ .txt,1) $+ ) }
                           else {
-                            if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) }
+                            if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip1,2)),2) $+ .txt,1) $+ ) }
                             else { echo 4 -s No Chip to Target }
                           }
                         }
                       }
                       elseif ($v1 = 2) {
                         if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,2) > 0) {
-                          dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3),2)
-                          if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) }
+                          dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip3,2)),2) $+ .txt,1) $+ )
+                          if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip2,2)),2) $+ .txt,1) $+ ) }
                           else {
-                            if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) }
+                            if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip1,2)),2) $+ .txt,1) $+ ) }
                           }
                         }
                         else {
-                          if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) }
-                          if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) }
+                          if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip2,2)),2) $+ .txt,1) $+ ) }
+                          if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip1,2)),2) $+ .txt,1) $+ ) }
                         }
                       }
                       elseif ($v1 = 3) {
-                        if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3),2) }
-                        if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) }
-                        if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) }
+                        if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip3,2)),2) $+ .txt,1) $+ ) }
+                        if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip2,2)),2) $+ .txt,1) $+ ) }
+                        if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip1,2)),2) $+ .txt,1) $+ ) }
                       }
                       elseif ($v1 = 4) {
                         var %mmbca.battle.rand.multi 1
                         while (%mmbca.battle.rand.multi !> %mmbca.dmgcalc.hits) {
                           var %mmbca.battle.randdmg $rand(1,3)
                           var %mmbca.battle.randdmg.target % $+ mmbca.battle.p1.chip $+ %mmbca.battle.randdmg
-                          if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(% $+ mmbca.battle.p1.chip $+ %mmbca.battle.randdmg,2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.randdmg.target,2) $+ .curhp,1) $calc(%mmbca.dmgcalc.result / %mmbca.dmgcalc.hits) | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.randdmg.target,2),2) }
+                          if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(% $+ mmbca.battle.p1.chip $+ %mmbca.battle.randdmg,2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.randdmg.target,2) $+ .curhp,1) $calc(%mmbca.dmgcalc.result / %mmbca.dmgcalc.hits) | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.randdmg.target,2),2) ( $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip $+ %mmbca.battle.randdmg,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .slot $+ $eval($eval(% $+ %mmbca.battle.defender $+ .chip $+ %mmbca.battle.randdmg,2)),2) $+ .txt,1) $+ ) }
                           else { echo 4 -s Targeted empty slot }
                           inc %mmbca.battle.rand.multi
                         }
@@ -1201,8 +1319,8 @@
                         var %mmbca.battle.p1.slotR.curhp 0
                       }
                     }
+                    if ($eval(%mmbca.battle.p1.box $+ .curhp,2) <= 0) { echo 13 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) removed from $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's box! | set %mmbca.battle.p1.box 0 }
                     checkdel
-                    if ($eval(%mmbca.battle.p1.box $+ .curhp,2) <= 0) { set %mmbca.battle.p1.box 0 }
                     if ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,8) != 3) {
                       if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,14) = 1) || ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,14) = 5) {
                         if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21)) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,21) > 0) {
@@ -1223,6 +1341,7 @@
                   :p2nblocked
                   if ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,25) = 2) && ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) $+ .txt,21) != 11) {
                     inc %mmbca.battle.p2.navi.curhp $read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,6)
+                    echo 4 -s $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ : $eval(% $+ %mmbca.battle.attacker $+ .navi.curhp,2) $+ / $+ $read(navichips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .navi,2) $+ .txt,1) HP
                     echo 7 -s %mmbca.battle.p2.navi recovered $read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,6) health!
                     if (%mmbca.battle.p2.navi.curhp > $read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,1)) { set %mmbca.battle.p2.navi.curhp $read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,1) }
                   }
@@ -1295,7 +1414,6 @@
               if ((%mmbca.battle.field = 2) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,2) != 2)) || ((%mmbca.battle.field = 7) && ($read(navichips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,11) = 1)) { dec %mmbca.battle.acc 15 }
               var %mmbca.battle.dodge $rand(1, $+ $calc($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,5) + %mmbca.battle.p2.dodgeup - %mmbca.battle.p2.dodgedown))
               if (%mmbca.battle.dodge !> %mmbca.battle.acc) || ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,16) = 1) {
-                set %mmbca.battle.attacker
                 set %mmbca.battle.target %mmbca.battle.p2.navi
                 dmgcalc
                 if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,16) = 1) && (%mmbca.dmgcalc.hits = 0) { echo 7 -s $eval(%mmbca.battle.p1.box,2) $+ 's attack missed! }
@@ -1303,45 +1421,48 @@
                 if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,16) = 1) && (%mmbca.dmgcalc.hits != 0) { echo 7 -s $eval(%mmbca.battle.p1.box,2) hit %mmbca.battle.p2.navi.name for %mmbca.dmgcalc.result damage! %mmbca.dmgcalc.hits hit! }
                 else { echo 7 -s $eval(%mmbca.battle.p1.box,2) hit %mmbca.battle.p2.navi.name for %mmbca.dmgcalc.result damage! %mmbca.battle.acc vs %mmbca.battle.dodge }
                 checkdel
+                echo 4 -s $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ : $eval(% $+ %mmbca.battle.attacker $+ .navi.curhp,2) $+ / $+ $read(navichips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .navi,2) $+ .txt,1) HP
                 if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,9) = 1) && (%mmbca.battle.target = %mmbca.battle.p2.navi) { set %mmbca.battle.p1.stun 1 }
                 elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,9) = 2) && (%mmbca.battle.target = %mmbca.battle.p2.navi) { set %mmbca.battle.p1.mind 1 }
                 elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,9) = 3) && (%mmbca.battle.target = %mmbca.battle.p2.navi) { set %mmbca.battle.p1.back 1 }
                 if (!%mmbca.battle.p1.chipdmg) { set %mmbca.battle.p1.chipdmg $read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,7) }
                 if (%mmbca.battle.p1.chipdmg > 0) {
+                  ; echo 4 -s DEBUG: Attacker: %mmbca.battle.attacker
+                  ; echo 4 -s DEBUG: Defender: %mmbca.battle.defender
                   if ($v1 = 1) {
-                    if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3),2) }
+                    if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1) $+ ) }
                     else {
-                      if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) }
+                      if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) $+ ) }
                       else {
-                        if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) }
+                        if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) $+ ) }
                         else { echo 4 -s No Chip to Target }
                       }
                     }
                   }
                   elseif ($v1 = 2) {
                     if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,2) > 0) {
-                      dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3),2)
-                      if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) }
+                      dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1) $+ )
+                      if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) $+ ) }
                       else {
-                        if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) }
+                        if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) $+ ) }
                       }
                     }
                     else {
-                      if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) }
-                      if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) }
+                      if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) $+ ) }
+                      if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) $+ ) }
                     }
                   }
                   elseif ($v1 = 3) {
-                    if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3),2) }
-                    if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) }
-                    if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) }
+                    if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip3,2)),2) $+ .txt,1) $+ ) }
+                    if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip2,2)),2) $+ .txt,1) $+ ) }
+                    if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) %mmbca.dmgcalc.result | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip1,2)),2) $+ .txt,1) $+ ) }
                   }
                   elseif ($v1 = 4) {
                     var %mmbca.battle.rand.multi 1
                     while (%mmbca.battle.rand.multi !> %mmbca.dmgcalc.hits) {
                       var %mmbca.battle.randdmg $rand(1,3)
                       var %mmbca.battle.randdmg.target % $+ mmbca.battle.p2.chip $+ %mmbca.battle.randdmg
-                      if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(% $+ mmbca.battle.p2.chip $+ %mmbca.battle.randdmg,2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.randdmg.target,2) $+ .curhp,1) $calc(%mmbca.dmgcalc.result / %mmbca.dmgcalc.hits ) | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.randdmg.target,2),2) }
+                      if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(% $+ mmbca.battle.p2.chip $+ %mmbca.battle.randdmg,2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.randdmg.target,2) $+ .curhp,1) $calc(%mmbca.dmgcalc.result / %mmbca.dmgcalc.hits ) | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.randdmg.target,2),2) ( $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip $+ %mmbca.battle.randdmg,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .slot $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .chip $+ %mmbca.battle.randdmg,2)),2) $+ .txt,1) $+ ) }
                       else { echo 4 -s Targeted empty slot }
                       inc %mmbca.battle.rand.multi
                     }
@@ -1362,6 +1483,7 @@
                   }
                   unset %mmbca.battle.p1.chipdmg
                 }
+                if ($eval($eval(% $+ %mmbca.battle.attacker $+ .box,2) $+ .curhp,2) <= 0) { echo 13 -s $eval($eval(% $+ %mmbca.battle.attacker $+ .box,3)) removed from $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ 's box! | set $eval(% $+ %mmbca.battle.attacker) $+ .box 0 }
                 checkdel
               }
               else { echo 7 $eval(%mmbca.battle.p1.box,2) $+ 's attack missed! %mmbca.battle.acc vs %mmbca.battle.dodge }
@@ -1371,11 +1493,11 @@
             }
             inc %mmbca.battle.p1.counter 1
             unset %mmbca.battle.counter
-            if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 1) { set %mmbca.battle.p1.box 0 }
-            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 2) { set $eval(%mmbca.battle.p1.box) $+ .curhp 0 | set %mmbca.battle.p1.box 0 }
+            if ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 1) { echo 13 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) removed from $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's box! | set %mmbca.battle.p1.box 0 }
+            elseif ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 2) { echo 13 -s $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) was deleted! | set $eval(%mmbca.battle.p1.box) $+ .curhp 0 | echo 13 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) removed from $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's box! | set %mmbca.battle.p1.box 0 }
           }
-          if (%mmbca.battle.target = %mmbca.battle.p1.box) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 1) { set %mmbca.battle.p1.box 0 }
-          elseif (%mmbca.battle.target = %mmbca.battle.p1.box) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 2) { set $eval(%mmbca.battle.p1.box) $+ .curhp 0 | set %mmbca.battle.p1.box 0 }
+          if (%mmbca.battle.target = %mmbca.battle.p1.box) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 1) { echo 13 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) removed from $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's box! | set %mmbca.battle.p1.box 0 }
+          elseif (%mmbca.battle.target = %mmbca.battle.p1.box) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 2) { echo 13 -s $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) was deleted! | set $eval(%mmbca.battle.p1.box) $+ .curhp 0 | echo 13 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) removed from $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's box! | set %mmbca.battle.p1.box 0 }
         }
       }
       else { echo 4 -s Failed to determine Priority: %mmbca.battle.priority }
@@ -1726,6 +1848,7 @@
                   if ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) $+ .txt,16) = 1) && (%mmbca.dmgcalc.hits != 0) { echo 7 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) hit $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) for %mmbca.dmgcalc.result damage! %mmbca.dmgcalc.hits hit! }
                   else { echo 7 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) hit $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) for %mmbca.dmgcalc.result damage! %mmbca.battle.acc vs %mmbca.battle.dodge }
                   checkdel
+                  echo 4 -s $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ : $eval(% $+ %mmbca.battle.attacker $+ .navi.curhp,2) $+ / $+ $read(navichips\ $+ $eval(% $+ %mmbca.battle.attacker $+ .navi,2) $+ .txt,1) HP
                   if ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) $+ .txt,9) = 1) && (%mmbca.battle.target = $eval(% $+ %mmbca.battle.attacker) $+ .navi) { set $eval(% $+ %mmbca.battle.attacker) $+ .stun 1 }
                   elseif ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) $+ .txt,9) = 2) && (%mmbca.battle.target = $eval(% $+ %mmbca.battle.attacker) $+ .navi) { set $eval(% $+ %mmbca.battle.attacker) $+ .mind 1 }
                   elseif ($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) $+ .txt,9) = 3) && (%mmbca.battle.target = $eval(% $+ %mmbca.battle.attacker) $+ .navi) { set $eval(% $+ %mmbca.battle.attacker) $+ .back 1 }
@@ -1809,8 +1932,8 @@
               echo 13 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) removed from $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's box!
               set $eval(% $+ %mmbca.battle.defender) $+ .box 0
             }
-            if ($eval(% $+ %mmbca.battle.attacker $+ .box,3)) { echo 13 -s Removed $eval(% $+ %mmbca.battle.attacker $+ .box,3) from $eval(% $+ %mmbca.battle.attacker $+ .navi.name,3) $+ 's box }
-            set $eval(% $+ %mmbca.battle.attacker) $+ .box 0
+            ; if ($eval(% $+ %mmbca.battle.attacker $+ .box,3)) { echo 13 -s Removed $eval(% $+ %mmbca.battle.attacker $+ .box,3) from $eval(% $+ %mmbca.battle.attacker $+ .navi.name,3) $+ 's box }
+            ; set $eval(% $+ %mmbca.battle.attacker) $+ .box 0
             if (%mmbca.battle.priority = 1) { set %mmbca.battle.priority 2 }
             else { set %mmbca.battle.priority 1 }
             inc %mmbca.battle.chip
@@ -1826,34 +1949,40 @@
       dec %mmbca.battle.p1.navi.curhp 50
       if (%mmbca.battle.p1.navi.curhp <= 0) { set %mmbca.battle.p1.navi.curhp 10 }
       echo 4 -s Fire from stage sprayed %mmbca.battle.p1.navi.name $+ !
+      echo 4 -s %mmbca.battle.p1.navi.name $+ : %mmbca.battle.p1.navi.curhp $+ / $+ $read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,1) HP
     }
     if (%mmbca.battle.field = 1) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,2) != 1) {
       dec %mmbca.battle.p2.navi.curhp 50
       if (%mmbca.battle.p2.navi.curhp <= 0) { set %mmbca.battle.p2.navi.curhp 10 }
       echo 4 -s Fire from stage sprayed %mmbca.battle.p2.navi.name $+ !
+      echo 4 -s %mmbca.battle.p2.navi.name $+ : %mmbca.battle.p2.navi.curhp $+ / $+ $read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,1) HP
     }
     if (%mmbca.battle.field = 3) && ($read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,2) = 4) {
       inc %mmbca.battle.p1.navi.curhp 50
       if (%mmbca.battle.p1.navi.curhp > $read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,1)) { set %mmbca.battle.p1.navi.curhp $read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,1) }
       echo 9 -s Earth energy from stage healed %mmbca.battle.p1.navi.name $+ !
+      echo 4 -s %mmbca.battle.p1.navi.name $+ : %mmbca.battle.p1.navi.curhp $+ / $+ $read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,1) HP
     }
     if (%mmbca.battle.field = 3) && ($read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,2) = 4) {
       inc %mmbca.battle.p2.navi.curhp 50
       if (%mmbca.battle.p2.navi.curhp > $read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,1)) { set %mmbca.battle.p2.navi.curhp $read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,1) }
       echo 9 -s Earth energy from stage healed %mmbca.battle.p2.navi.name $+ !
+      echo 4 -s %mmbca.battle.p2.navi.name $+ : %mmbca.battle.p2.navi.curhp $+ / $+ $read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,1) HP
     }
     if (%mmbca.battle.field = 5) {
       echo 6 -s Poison gas rose from stage!
       dec %mmbca.battle.p1.navi.curhp 20
       checkdel
-      if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,1) 20 | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3),2) }
-      if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) 20 | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) }
-      if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) 20 | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) }
+      echo 4 -s %mmbca.battle.p1.navi.name $+ : %mmbca.battle.p1.navi.curhp $+ / $+ $read(navichips\ $+ %mmbca.battle.p1.navi $+ .txt,1) HP
+      if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3) $+ .curhp,1) 20 | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip3),2) ( $+ $eval(% $+ mmbca.battle.p1.slot $+ $eval($eval(% $+ mmbca.battle.p1.chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ mmbca.battle.p1.slot $+ $eval($eval(% $+ mmbca.battle.p1.chip3,2)),2) $+ .txt,1) $+ ) }
+      if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2) $+ .curhp,1) 20 | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip2),2) ( $+ $eval(% $+ mmbca.battle.p1.slot $+ $eval($eval(% $+ mmbca.battle.p1.chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ mmbca.battle.p1.slot $+ $eval($eval(% $+ mmbca.battle.p1.chip2,2)),2) $+ .txt,1) $+ ) }
+      if ($eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1) $+ .curhp,1) 20 | echo 8 -s - hit %mmbca.battle.p1.navi.name $+ 's $eval(% $+ mmbca.battle.p1.slot $+ $eval(%mmbca.battle.p1.chip1),2) ( $+ $eval(% $+ mmbca.battle.p1.slot $+ $eval($eval(% $+ mmbca.battle.p1.chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ mmbca.battle.p1.slot $+ $eval($eval(% $+ mmbca.battle.p1.chip1,2)),2) $+ .txt,1) $+ ) }
       dec %mmbca.battle.p2.navi.curhp 20
       checkdel
-      if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,1) 20 | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3),2) }
-      if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) 20 | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) }
-      if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) 20 | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) }
+      echo 4 -s %mmbca.battle.p2.navi.name $+ : %mmbca.battle.p2.navi.curhp $+ / $+ $read(navichips\ $+ %mmbca.battle.p2.navi $+ .txt,1) HP
+      if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3) $+ .curhp,1) 20 | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip3),2) ( $+ $eval(% $+ mmbca.battle.p2.slot $+ $eval($eval(% $+ mmbca.battle.p2.chip3,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ mmbca.battle.p2.slot $+ $eval($eval(% $+ mmbca.battle.p2.chip3,2)),2) $+ .txt,1) $+ ) }
+      if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2) $+ .curhp,1) 20 | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip2),2) ( $+ $eval(% $+ mmbca.battle.p2.slot $+ $eval($eval(% $+ mmbca.battle.p2.chip2,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ mmbca.battle.p2.slot $+ $eval($eval(% $+ mmbca.battle.p2.chip2,2)),2) $+ .txt,1) $+ ) }
+      if ($eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,2) > 0) { dec $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1) $+ .curhp,1) 20 | echo 8 -s - hit %mmbca.battle.p2.navi.name $+ 's $eval(% $+ mmbca.battle.p2.slot $+ $eval(%mmbca.battle.p2.chip1),2) ( $+ $eval(% $+ mmbca.battle.p2.slot $+ $eval($eval(% $+ mmbca.battle.p2.chip1,2)) $+ .curhp,2) $+ / $+ $read(battlechips\ $+ $eval(% $+ mmbca.battle.p2.slot $+ $eval($eval(% $+ mmbca.battle.p2.chip1,2)),2) $+ .txt,1) $+ ) }
       checkdel
     }
     unset %mmbca.battle.p1.stun
@@ -2357,6 +2486,7 @@
   elseif ($1 = HeelNav1) { set %mmbca.navatk.result HeelBstr }
   elseif ($1 = HeelNav2) { set %mmbca.navatk.result HeelBomb }
   elseif ($1 = StoneMan) { set %mmbca.navatk.result RockFall }
+  elseif ($1 = BombMan.) { set %mmbca.navatk.result BmbShoot }
   elseif ($1 = CutMan..) { set %mmbca.navatk.result ScsrChop }
   elseif ($1 = PharoMan) { set %mmbca.navatk.result CoffLasr }
   elseif ($1 = NapalmMn) { set %mmbca.navatk.result NaplmBom }
