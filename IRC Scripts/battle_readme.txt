@@ -19,6 +19,7 @@ Known Bugs:
 - A Navi directly destroying a box chip does not report the box emptying
 - The Gauge can go above 100% when boosted
 - A self-deleting box chip does not immediately empty its slot name
+- If StoneBod is deleted by a Piercing attack, it will deal 10 damage to the Navi too
 
 Maybe Bugs:
 - GaiaSwrd does not gain power from Boost chips after it
