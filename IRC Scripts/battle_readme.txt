@@ -17,11 +17,12 @@ Known Bugs:
 - Currently, NavRcycl and CardRevive are not supported
 - Panic and PanicCloud may heal the opponent if you have more selected chips than your opponent but are missing at least one
 - A Navi directly destroying a box chip does not report the box emptying
-- Coin flip chips (like Meteors) always trigger total block counters instead of rolling to miss first
 - The Gauge can go above 100% when boosted
+- A self-deleting box chip does not immediately empty its slot name
 
 Maybe Bugs:
 - GaiaSwrd does not gain power from Boost chips after it
+- GaiaSwrd does not gain power from the currently queued chip if Slotted In
 - Balloons do not benefit from Boosts
 
 Intentional Changes:
@@ -31,6 +32,7 @@ Intentional Changes:
 - All attack-and-recover attacks will still gain health even if the attack is blocked, not just Roll's
  - This gives a buff to CanDevils
  - Recovery is nullified if AntiRecv or PoisnApple blocked it
+ - This extends to chips that lower Dodge, like MetaGel and SkullArrow
 - Two New Field Types: Beta Sand and Star Force Ice
  - Beta Sand: Inverted elemental priority (Nulls go first) and boost to Wind Chips
  - Star Force Ice: Aqua Navis gain a damage boost to Breaking Chips
