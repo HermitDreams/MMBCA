@@ -14,7 +14,6 @@ Once those two files are populated, you can type "/battle" into mIRC and it will
 If you are using the above additional scripts, you can randomly generate two decks by including a library file with "/battle", e.g. "/battle BNCT Full"
 
 Known Bugs:
-- Currently, NavRcycl and CardRevive are not supported
 - Panic and PanicCloud may heal the opponent if you have more selected chips than your opponent but are missing at least one
 - A Navi directly destroying a box chip does not report the box emptying
 - The Gauge can go above 100% when boosted
