@@ -255,8 +255,8 @@
         set %mmbca.battle.p2.gauge 0
         echo 12 -s Player 2's %mmbca.battle.p2.navi.name rerolled chips!
         set %mmbca.battle.p2.chip1 $rand(1,2)
-        set %mmbca.battle.p2.chip2 $calc(%mmbca.battle.p1.chip1 + $rand(2,3))
-        set %mmbca.battle.p2.chip3 $calc(%mmbca.battle.p1.chip2 + $rand(3,4))
+        set %mmbca.battle.p2.chip2 $calc(%mmbca.battle.p2.chip1 + $rand(2,3))
+        set %mmbca.battle.p2.chip3 $calc(%mmbca.battle.p2.chip2 + $rand(3,4))
       }
     }
 
@@ -912,7 +912,7 @@
             }
             :slotendchip
             if (%mmbca.battle.p1.slotin) || (%mmbca.battle.p2.slotin) { slotin }
-            if (rcycl isin $result) && (%mmbca.battle.rcycl) { unset %mmbca.slotin.priority | goto $result }
+            if (rcycl isin $result) && (%mmbca.battle.rcycl) { set %mmbca.battle.rcycl.slotin %mmbca.slotin.priority | unset %mmbca.slotin.priority | goto $result }
             unset %mmbca.battle.p1.slotin
             unset %mmbca.battle.p2.slotin
           }
@@ -1360,6 +1360,7 @@
           if (%mmbca.battle.target = %mmbca.battle.p2.box) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 1) { echo 13 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) removed from $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's box! | set %mmbca.battle.p2.box 0 }
           elseif (%mmbca.battle.target = %mmbca.battle.p2.box) && ($read(battlechips\ $+ $eval(%mmbca.battle.p2.box,2) $+ .txt,22) = 2) { echo 13 -s $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) was deleted! | set $eval(%mmbca.battle.p2.box) $+ .curhp 0 | echo 13 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) removed from $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's box! | set %mmbca.battle.p2.box 0 }
         }
+        if (%mmbca.slotin.rcycl) { unset %mmbca.battle.rcycl.slotin }
         if (%mmbca.battle.rcycl) && (!%mmbca.slotin.navi) { unset %mmbca.battle.turn.navi }
         if (%mmbca.slotin.rcycl) && (!%mmbca.slotin.navi) { unset %mmbca.slotin.rcycl | unset %mmbca.battle.rcycl | goto slotendchip }
         elseif (%mmbca.slotin.rcycl) && (%mmbca.slotin.navi) { unset %mmbca.slotin.rcycl | unset %mmbca.battle.rcycl | unset %mmbca.slotin.navi | goto slotendp $+ %mmbca.battle.priority }
@@ -1787,6 +1788,7 @@
           if (%mmbca.battle.target = %mmbca.battle.p1.box) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 1) { echo 13 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) removed from $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's box! | set %mmbca.battle.p1.box 0 }
           elseif (%mmbca.battle.target = %mmbca.battle.p1.box) && ($read(battlechips\ $+ $eval(%mmbca.battle.p1.box,2) $+ .txt,22) = 2) { echo 13 -s $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) was deleted! | set $eval(%mmbca.battle.p1.box) $+ .curhp 0 | echo 13 -s $eval($eval(% $+ %mmbca.battle.defender $+ .box,3)) removed from $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ 's box! | set %mmbca.battle.p1.box 0 }
         }
+        if (%mmbca.slotin.rcycl) { unset %mmbca.battle.rcycl.slotin }
         if (%mmbca.battle.rcycl) && (!%mmbca.slotin.navi) { unset %mmbca.battle.turn.navi }
         if (%mmbca.slotin.rcycl) && (!%mmbca.slotin.navi) { unset %mmbca.slotin.rcycl | unset %mmbca.battle.rcycl | goto slotendchip }
         elseif (%mmbca.slotin.rcycl) && (%mmbca.slotin.navi) { unset %mmbca.slotin.rcycl | unset %mmbca.battle.rcycl | goto slotendp $+ %mmbca.battle.priority }
@@ -1814,7 +1816,7 @@
         }
         :slotendp2
         if (%mmbca.battle.p1.slotin) || (%mmbca.battle.p2.slotin) { slotin }
-        if (rcycl isin $result) && (%mmbca.battle.rcycl) { unset %mmbca.slotin.priority | goto $result }
+        if (rcycl isin $result) && (%mmbca.battle.rcycl) { set %mmbca.battle.rcycl.slotin %mmbca.slotin.priority | unset %mmbca.slotin.priority | goto $result }
         unset %mmbca.battle.p1.slotin
         unset %mmbca.battle.p2.slotin
       }
@@ -2373,11 +2375,11 @@
     ; unset %mmbca.battle.p2.back
     if (%mmbca.battle.p1.slotin) && (%mmbca.battle.p2.slotin) {
       if ($read(battlechips\ $+ $eval(% $+ mmbca.battle.p1.slot $+ %mmbca.battle.p1.slotin,2) $+ .txt,12) > 0) && ($read(battlechips\ $+ $eval(% $+ mmbca.battle.p2.slot $+ %mmbca.battle.p2.slotin,2) $+ .txt,12) = 0) {
-        if (%mmbca.battle.field = 8) { inc %mmbca.battle.priority 2 }
+        if (%mmbca.battle.field = 8) { inc %mmbca.slotin.priority 2 }
         else { inc %mmbca.slotin.priority 1 }
       }
       elseif ($read(battlechips\ $+ $eval(% $+ mmbca.battle.p1.slot $+ %mmbca.battle.p1.slotin,2) $+ .txt,12) = 0) && ($read(battlechips\ $+ $eval(% $+ mmbca.battle.p2.slot $+ %mmbca.battle.p2.slotin,2) $+ .txt,12) > 0) {
-        if (%mmbca.battle.field = 8) { inc %mmbca.battle.priority 1 }
+        if (%mmbca.battle.field = 8) { inc %mmbca.slotin.priority 1 }
         else { inc %mmbca.slotin.priority 2 }
       }
       else {
@@ -2977,11 +2979,12 @@
   if (.slot !isin %mmbca.battle.target) && (.box !isin %mmbca.battle.target) { set %mmbca.dmgcalc.target navi }
   else { set %mmbca.dmgcalc.target battle }
   ; echo 4 -s DEBUG: $v1 $v2
+  ; if (%mmbca.slotin.rcycl) { echo 4 -s DEBUG: Slot-In NavRcycl Detected! Priority is %mmbca.slotin.priority }
   if (%mmbca.battle.counter) && (%mmbca.slotin.priority = 1) { set %mmbca.dmgcalc.source $eval(%mmbca.battle.p2.box,2) | set %mmbca.dmgcalc.target navi | set %mmbca.dmgcalc.folder battle | set %mmbca.dmgcalc.boostslot %mmbca.battle.p2.boxsource | goto p2counter }
   elseif (%mmbca.battle.counter) && (%mmbca.slotin.priority = 2) { set %mmbca.dmgcalc.source $eval(%mmbca.battle.p1.box,2) | set %mmbca.dmgcalc.target navi | set %mmbca.dmgcalc.folder battle | set %mmbca.dmgcalc.boostslot %mmbca.battle.p1.boxsource | goto p1counter }
   if (%mmbca.battle.counter) && (%mmbca.battle.priority = 1) { set %mmbca.dmgcalc.source $eval(%mmbca.battle.p2.box,2) | set %mmbca.dmgcalc.target navi | set %mmbca.dmgcalc.folder battle | set %mmbca.dmgcalc.boostslot %mmbca.battle.p2.boxsource | goto p2counter }
   elseif (%mmbca.battle.counter) && (%mmbca.battle.priority = 2) { set %mmbca.dmgcalc.source $eval(%mmbca.battle.p1.box,2) | set %mmbca.dmgcalc.target navi | set %mmbca.dmgcalc.folder battle | set %mmbca.dmgcalc.boostslot %mmbca.battle.p1.boxsource | goto p1counter }
-  if (%mmbca.slotin.priority = 1) {
+  if (%mmbca.slotin.priority = 1) || (%mmbca.battle.rcycl.slotin = 1) {
     if (!%mmbca.battle.rcycl) {
       set %mmbca.dmgcalc.source $eval(% $+ mmbca.battle.p1.slot $+ %mmbca.battle.p1.slotin,2)
       set %mmbca.dmgcalc.folder battle
@@ -2989,7 +2992,7 @@
     else { set %mmbca.dmgcalc.source %mmbca.battle.p1.navi | set %mmbca.dmgcalc.folder navi | set %mmbca.dmgcalc.boostslot navi }
     goto p1counter
   }
-  elseif (%mmbca.slotin.priority = 2) {
+  elseif (%mmbca.slotin.priority = 2) || (%mmbca.battle.rcycl.slotin = 2) {
     if (!%mmbca.battle.rcycl) {
       set %mmbca.dmgcalc.source $eval(% $+ mmbca.battle.p2.slot $+ %mmbca.battle.p2.slotin,2)
       set %mmbca.dmgcalc.folder battle
