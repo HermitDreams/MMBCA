@@ -340,7 +340,7 @@
                         dec $eval(% $+ %mmbca.battle.defender $+ .navi.curhp) %mmbca.battle.balance.defender
                         echo 4 -s $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ : $eval(% $+ %mmbca.battle.defender $+ .navi.curhp,2) $+ / $+ $eval(% $+ %mmbca.battle.defender $+ .navi.maxhp,2) HP
                         if ($eval(% $+ %mmbca.battle.attacker $+ .navi.curhp,2) = 0) { inc $eval(% $+ %mmbca.battle.attacker $+ .navi.curhp) 10 | dec %mmbca.battle.balance.attacker 10 }
-                        if ($eval(% $+ %mmbca.battle.attacker $+ .navi.curhp,2) = 0) { inc $eval(% $+ %mmbca.battle.defender $+ .navi.curhp) 10 | dec %mmbca.battle.balance.attacker 10 }
+                        if ($eval(% $+ %mmbca.battle.defender $+ .navi.curhp,2) = 0) { inc $eval(% $+ %mmbca.battle.defender $+ .navi.curhp) 10 | dec %mmbca.battle.balance.defender 10 }
                         echo 7 -s $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) lost %mmbca.battle.balance.attacker health!
                         echo 7 -s $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) lost %mmbca.battle.balance.defender health!
                       }
@@ -2407,7 +2407,7 @@
                       dec $eval(% $+ %mmbca.battle.defender $+ .navi.curhp) %mmbca.battle.balance.defender
                       echo 4 -s $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) $+ : $eval(% $+ %mmbca.battle.defender $+ .navi.curhp,2) $+ / $+ $eval(% $+ %mmbca.battle.defender $+ .navi.maxhp,2) HP
                       if ($eval(% $+ %mmbca.battle.attacker $+ .navi.curhp,2) = 0) { inc $eval(% $+ %mmbca.battle.attacker $+ .navi.curhp) 10 | dec %mmbca.battle.balance.attacker 10 }
-                      if ($eval(% $+ %mmbca.battle.attacker $+ .navi.curhp,2) = 0) { inc $eval(% $+ %mmbca.battle.defender $+ .navi.curhp) 10 | dec %mmbca.battle.balance.attacker 10 }
+                      if ($eval(% $+ %mmbca.battle.defender $+ .navi.curhp,2) = 0) { inc $eval(% $+ %mmbca.battle.defender $+ .navi.curhp) 10 | dec %mmbca.battle.balance.defender 10 }
                       echo 7 -s $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) lost %mmbca.battle.balance.attacker health!
                       echo 7 -s $eval(% $+ %mmbca.battle.defender $+ .navi.name,2) lost %mmbca.battle.balance.defender health!
                     }
