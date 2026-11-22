@@ -19,6 +19,8 @@ Known Bugs:
 - The Gauge can go above 100% when boosted
 - A self-deleting box chip does not immediately empty its slot name
 - If StoneBod is deleted by a Piercing attack, it will deal 10 damage to the Navi too
+- Roll does not have a separate healing method from CanDevil and WoodEnrg
+- A few effects may still occur even if totally blocked (e.g. Dodge Down)
 
 Maybe Bugs:
 - GaiaSwrd does not gain power from Boost chips after it
@@ -26,15 +28,8 @@ Maybe Bugs:
 - Balloons do not benefit from Boosts
 
 Intentional Changes:
-- Dodge formula revised to be a random number between 1 and your dodge score must exceed the accuracy of the attack
- - This means for 100 dodge, the formula is the same, but chance is slightly higher at lower dodge scores
- - This may be reverted to its original formula at some point
-- All attack-and-recover attacks will still gain health even if the attack is blocked, not just Roll's
- - This gives a buff to CanDevils
- - Recovery is nullified if AntiRecv or PoisnApple blocked it
- - This extends to chips that lower Dodge, like MetaGel and SkullArrow
 - Two New Field Types: Beta Sand and Star Force Ice
  - Beta Sand: Inverted elemental priority (Nulls go first) and boost to Wind Chips
  - Star Force Ice: Aqua Navis gain a damage boost to Breaking Chips
  - There is currently no chip that sets Beta Sand
-- At 50% gauge, if you select a completely dead line, you will spend your gauge to reroll a different line
+- At 50% gauge, if you select a completely dead line, you will spend your gauge to reroll
