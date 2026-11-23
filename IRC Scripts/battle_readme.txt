@@ -15,7 +15,6 @@ If you are using the above additional scripts, you can randomly generate two dec
 
 Known Bugs:
 - Panic and PanicCloud may heal the opponent if you have more selected chips than your opponent but are missing at least one
-- A Navi directly destroying a box chip does not report the box emptying
 - The Gauge can go above 100% when boosted
 - A self-deleting box chip does not immediately empty its slot name
 - If StoneBod is deleted by a Piercing attack, it will deal 10 damage to the Navi too
