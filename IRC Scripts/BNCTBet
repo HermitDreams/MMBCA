@@ -20,8 +20,10 @@
     inc %mmbca.slot 1
     chip 3 5 $1-
   }
+  set %mmbca.bnct.slotL $calc($rand(3,10)*10)
+  set %mmbca.bnct.slotR $calc($rand(3,10)*10)
   if (Force isin $1-) {
-    echo 15 -s $calc($rand(3,10)*10) $+ %
+    echo 15 -s %mmbca.bnct.slotL $+ %
     echo 13 -s %mmbca.deck10 $+ 14.......................9 $+ %mmbca.deck6
     echo 14 -s ......................8 $+ %mmbca.deck3 $+ 14...........
     echo 14 -s ...........11 $+ %mmbca.deck1 $+ 14............9 $+ %mmbca.deck7
@@ -29,10 +31,10 @@
     echo 14 -s ...........11 $+ %mmbca.deck2 $+ 14............9 $+ %mmbca.deck8
     echo 14 -s ......................8 $+ %mmbca.deck5 $+ 14...........
     echo 13 -s %mmbca.deck11 $+ 14.......................9 $+ %mmbca.deck9
-    echo 15 -s $calc($rand(3,10)*10) $+ %
+    echo 15 -s %mmbca.bnct.slotR $+ %
   }
   else {
-    echo 15 -s $calc($rand(3,10)*10) $+ %
+    echo 15 -s %mmbca.bnct.slotL $+ %
     echo 13 -s %mmbca.deck10 $+ 14...................9 $+ %mmbca.deck6
     echo 14 -s ..................8 $+ %mmbca.deck3 $+ 14.........
     echo 14 -s .........11 $+ %mmbca.deck1 $+ 14..........9 $+ %mmbca.deck7
@@ -40,7 +42,7 @@
     echo 14 -s .........11 $+ %mmbca.deck2 $+ 14..........9 $+ %mmbca.deck8
     echo 14 -s ..................8 $+ %mmbca.deck5 $+ 14.........
     echo 13 -s %mmbca.deck11 $+ 14...................9 $+ %mmbca.deck9
-    echo 15 -s $calc($rand(3,10)*10) $+ %
+    echo 15 -s %mmbca.bnct.slotR $+ %
   }
   if (%mmbca.battle) && (%mmbca.battle.player = 1) {
     write -c p1.txt
@@ -56,6 +58,8 @@
     write -a p1.txt %mmbca.deck9
     write -a p1.txt %mmbca.deck10
     write -a p1.txt %mmbca.deck11
+    write -a p1.txt %mmbca.bnct.slotL
+    write -a p1.txt %mmbca.bnct.slotR
   }
   if (%mmbca.battle) && (%mmbca.battle.player = 2) {
     write -c p2.txt
@@ -71,6 +75,8 @@
     write -a p2.txt %mmbca.deck9
     write -a p2.txt %mmbca.deck10
     write -a p2.txt %mmbca.deck11
+    write -a p2.txt %mmbca.bnct.slotL
+    write -a p2.txt %mmbca.bnct.slotR
   }
   unset %mmbca.bnctbet
   unset %mmbca.deck*
