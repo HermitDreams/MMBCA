@@ -9,42 +9,42 @@
   }
   :chipreroll
   if (%mmbca.tier isnum) {
-    if (%mmbca.tier !isnum 1-4) { set %mmbca.pull $read("C:\Users\Linkshot\Documents\MMBCA\Chip List (Abridged)\ $+ %mmbca.file $+ .txt") }
+    if (%mmbca.tier !isnum 1-4) { set %mmbca.pull $read("libraries\ $+ %mmbca.file $+ .txt") }
     else {
       set %mmbca.kill 0
-      set %mmbca.pull $read("C:\Users\Linkshot\Documents\MMBCA\Chip List (Abridged)\ $+ %mmbca.file $+ .txt")
+      set %mmbca.pull $read("libraries\ $+ %mmbca.file $+ .txt")
       ; Please forgive me for this
       if (%mmbca.tier = 4) {
         while (5, isin %mmbca.pull) {
-          set %mmbca.pull $read("C:\Users\Linkshot\Documents\MMBCA\Chip List (Abridged)\ $+ %mmbca.file $+ .txt")
+          set %mmbca.pull $read("libraries\ $+ %mmbca.file $+ .txt")
           if (%mmbca.kill >= 30) && ($rand(1,10) = 1) { echo 12 -s Error: Over 30 failed attempts | return }
           else { inc %mmbca.kill 1 }
         }
       }
       elseif (%mmbca.tier = 3) {
         while (5, isin %mmbca.pull) || (4, isin %mmbca.pull) {
-          set %mmbca.pull $read("C:\Users\Linkshot\Documents\MMBCA\Chip List (Abridged)\ $+ %mmbca.file $+ .txt")
+          set %mmbca.pull $read("libraries\ $+ %mmbca.file $+ .txt")
           if (%mmbca.kill >= 30) && ($rand(1,10) = 1) { echo 12 -s Error: Over 30 failed attempts | return }
           else { inc %mmbca.kill 1 }
         }
       }
       elseif (%mmbca.tier = 2) {
         while (2, !isin %mmbca.pull) && (1, !isin %mmbca.pull) {
-          set %mmbca.pull $read("C:\Users\Linkshot\Documents\MMBCA\Chip List (Abridged)\ $+ %mmbca.file $+ .txt")
+          set %mmbca.pull $read("libraries\ $+ %mmbca.file $+ .txt")
           if (%mmbca.kill >= 30) && ($rand(1,10) = 1) { echo 12 -s Error: Over 30 failed attempts | return }
           else { inc %mmbca.kill 1 }
         }
       }
       else {
         while (1, !isin %mmbca.pull) {
-          set %mmbca.pull $read("C:\Users\Linkshot\Documents\MMBCA\Chip List (Abridged)\ $+ %mmbca.file $+ .txt")
+          set %mmbca.pull $read("libraries\ $+ %mmbca.file $+ .txt")
           if (%mmbca.kill >= 30) && ($rand(1,10) = 1) { echo 12 -s Error: Over 30 failed attempts | return }
           else { inc %mmbca.kill 1 }
         }
       }
     }
   }
-  else { set %mmbca.pull $read("C:\Users\Linkshot\Documents\MMBCA\Chip List (Abridged)\ $+ %mmbca.file $+ .txt") }
+  else { set %mmbca.pull $read("libraries\ $+ %mmbca.file $+ .txt") }
   if (%mmbca.bnctbet) && (!%mmbca.slot) {
     if ($right(%mmbca.pull,1) != ]) {
       ;  echo  0 -s DEBUG: BNCTBet rejected $left(%mmbca.pull,8)
@@ -92,7 +92,43 @@
     elseif ([Sol]  isin %mmbca.pull) { var %mmbca.color 7 }
   }
   if (%mmbca.bnctbet) {
-    set %mmbca.deck $+ %mmbca.slot $left(%mmbca.pull,8)
+    set %mmbca.deck $+ %mmbca.slot $left(%mmbca.pull,10)
+    if ($chr(40) isin $eval(% $+ mmbca.deck $+ %mmbca.slot,2)) { set %mmbca.deck $+ %mmbca.slot $left(%mmbca.pull,8) }
+    ; echo 4 -s DEBUG: $v2
   }
   else { echo %mmbca.color -s %mmbca.pull }
+}
+/pack {
+  var %mmbca.pack 0
+  if ($1 = 1) {
+    while (%mmbca.pack < 3) {
+      chip 1 3 Full Library
+      inc %mmbca.pack 1
+    }
+  }
+  elseif ($1 = 2) {
+    while (%mmbca.pack < 3) {
+      chip 2 4 Full Library
+      inc %mmbca.pack 1
+    }
+  }
+  elseif ($1 = 3) {
+    while (%mmbca.pack < 9) {
+      chip 3 $rand(2,4) Full Library
+      inc %mmbca.pack 1
+    }
+    unset %mmbca.tier
+    chip Tier 4
+  }
+  elseif ($1 = 4) {
+    unset %mmbca.tier
+    while (%mmbca.pack < 9) {
+      chip Tier $rand(2,4)
+      inc %mmbca.pack 1
+    }
+    chip Tier $rand(4,5)
+  }
+  else { echo 12 -s Pack Tier must be between 1 and 4 }
+  unset %mmbca.pack
+  echo 2 -s -
 }
