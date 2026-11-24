@@ -1,0 +1,337 @@
+Cannon.... (Tier 1, [None], 10MB)
+PlusCannon (Tier 2, [None], 20MB)
+HevyCannon (Tier 3, [None], 40MB)
+ImpctCanon (Tier 5, [None], 50MB, Mega)
+PlasmaGun. (Tier 1, [Elec], 40MB)
+PlasmaGunX (Tier 5, [Elec], 40MB, Mega)
+AirSpread1 (Tier 1, [None], 10MB, Wind)
+AirSpread2 (Tier 2, [None], 20MB, Wind)
+AirSpread3 (Tier 3, [None], 40MB, Wind)
+AirSpreadX (Tier 5, [None], 60MB, Wind, Mega)
+MadVulcn1. (Tier 1, [None], 10MB) []
+MadVulcn2. (Tier 2, [None], 20MB) []
+MadVulcn3. (Tier 3, [None], 30MB) []
+MadVulcnX. (Tier 5, [None], 40MB, Mega)
+BlackInk.. (Tier 2, [None], 20MB)
+GreenInk.. (Tier 4, [Wood], 30MB)
+BlueInk... (Tier 4, [Aqua], 30MB)
+PurpleInk. (Tier 4, [None], 30MB)
+MiniGrnade (Tier 1, [None], 10MB)
+HeatGrnde. (Tier 4, [Fire], 30MB)
+WoodGrnde. (Tier 4, [Wood], 30MB)
+IceGrnde.. (Tier 4, [Aqua], 30MB)
+BigGrenade (Tier 5, [None], 60MB, Mega)
+Sword..... (Tier 1, [None], 10MB, Sharp)
+WideSword. (Tier 2, [None], 20MB, Sharp)
+LongSword. (Tier 2, [None], 20MB, Sharp)
+Bushido1.. (Tier 2, [None], 20MB, Sharp) []
+Bushido2.. (Tier 3, [None], 30MB, Sharp) []
+Bushido3.. (Tier 4, [None], 40MB, Sharp, Mega) []
+BushidoX.. (Tier 5, [None], 50MB, Sharp, Giga)
+ElecSlash. (Tier 3, [Elec], 40MB, Sharp)
+WoodSlash. (Tier 3, [Wood], 40MB, Sharp)
+FireSlash. (Tier 3, [Fire], 40MB, Sharp)
+BreakSabre (Tier 5, [None], 50MB, Sharp, Break, Giga)
+BreakSabrX (Tier 5, [None], 70MB, Sharp, Break, Giga)
+GreatAxe.. (Tier 4, [Wood], 50MB, Sharp, Mega)
+FlameAxe.. (Tier 4, [Fire], 50MB, Sharp, Mega)
+GiantAxe.. (Tier 5, [None], 50MB, Sharp, Break, Mega)
+Muramasa.. (Tier 5, [None], 70MB, Sharp, Giga)
+SwrdFghtr1 (Tier 3, [None], 10MB, Sharp)
+SwrdFghtr2 (Tier 3, [None], 20MB, Sharp)
+SwrdFghtr3 (Tier 4, [None], 30MB, Sharp, Mega)
+SwrdFghtrX (Tier 5, [None], 60MB, Sharp, Giga)
+WindyAtk1. (Tier 1, [None], 20MB, Wind)
+WindyAtk2. (Tier 2, [None], 30MB, Wind)
+WindyAtk3. (Tier 3, [None], 40MB, Wind)
+WindyAtkX. (Tier 5, [None], 50MB, Wind, Mega)
+SyncHook1. (Tier 1, [None], 10MB)
+SyncHook2. (Tier 2, [None], 20MB)
+SyncHook3. (Tier 4, [None], 40MB)
+SyncHookX. (Tier 5, [None], 50MB, Mega)
+StunKnukle (Tier 4, [Elec], 30MB)
+PoisKnukle (Tier 4, [None], 50MB)
+FrezKnukle (Tier 4, [Aqua], 50MB, Mega)
+DstryUpper (Tier 5, [None], 50MB, Break, Mega)
+DrillArm1. (Tier 2, [None], 20MB, Break)
+DrillArm2. (Tier 3, [None], 30MB, Break)
+DrillArm3. (Tier 4, [None], 40MB, Break, Mega)
+DrillArmX. (Tier 5, [None], 50MB, Break, Giga)
+TyphnDance (Tier 3, [None], 30MB, Wind)
+TrnadoDnce (Tier 4, [None], 40MB, Wind, Mega)
+HrrcnDance (Tier 5, [None], 80MB, Wind, Giga)
+WhtMeteor. (Tier 3, [None], 30MB)
+SilvMeteor (Tier 4, [None], 40MB)
+PlatMeteor (Tier 5, [None], 50MB, Mega)
+ExtiMeteor (Tier 5, [Fire], 70MB, Break, Giga)
+RdrMissile (Tier 4, [None], 20MB, Mega)
+GrandWave1 (Tier 1, [None], 10MB) []
+GrandWave2 (Tier 2, [None], 20MB) []
+GrandWave3 (Tier 3, [None], 40MB) []
+GrandWaveX (Tier 5, [None], 50MB, Mega)
+JetAttack1 (Tier 1, [None], 30MB, Break, Wind) []
+JetAttack2 (Tier 2, [None], 40MB, Break, Wind) []
+JetAttack3 (Tier 3, [None], 50MB, Break, Wind) []
+JetAttackX (Tier 5, [None], 60MB, Break, Wind, Mega)
+Buki1..... (Tier 2, [None], 20MB, Break) []
+Buki2..... (Tier 3, [None], 40MB, Break) []
+Buki3..... (Tier 4, [None], 60MB, Break, Mega) []
+BukiX..... (Tier 5, [None], 70MB, Break, Giga)
+SmileCoin1 (Tier 2, [None], 20MB) []
+SmileCoin2 (Tier 3, [None], 30MB) []
+SmileCoin3 (Tier 4, [None], 40MB, Mega) []
+SmileCoinX (Tier 5, [None], 60MB, Giga)
+BigDrop1.. (Tier 1, [None], 20MB, Break) []
+BigDrop2.. (Tier 2, [None], 30MB, Break) []
+BigDrop3.. (Tier 3, [None], 40MB, Break) []
+BigDropX.. (Tier 5, [None], 50MB, Break, Mega)
+BuzzSaw1.. (Tier 1, [None], 20MB, Sharp) []
+BuzzSaw2.. (Tier 2, [None], 30MB, Sharp) []
+BuzzSaw3.. (Tier 3, [None], 40MB, Sharp) []
+BuzzSawX.. (Tier 5, [None], 50MB, Sharp, Mega)
+SkullArrw1 (Tier 2, [None], 10MB) []
+SkullArrw2 (Tier 3, [None], 20MB) []
+SkullArrw3 (Tier 4, [None], 30MB) []
+SkullArrwX (Tier 5, [None], 40MB, Mega)
+MuTech1... (Tier 2, [None], 20MB, Break) []
+MuTech2... (Tier 3, [None], 30MB, Break) []
+MuTech3... (Tier 4, [None], 50MB, Break, Mega) []
+MuTechX... (Tier 5, [None], 70MB, Break, Giga)
+Scythe1... (Tier 3, [None], 10MB, Sharp, Wind)
+Scythe2... (Tier 3, [None], 20MB, Sharp, Wind)
+Scythe3... (Tier 4, [None], 30MB, Sharp, Wind)
+ScytheX... (Tier 5, [None], 60MB, Sharp, Wind, Giga)
+PuffBlst1. (Tier 3, [None], 10MB)
+PuffBlst2. (Tier 3, [None], 20MB)
+PuffBlst3. (Tier 4, [None], 30MB)
+PuffBlstX. (Tier 5, [None], 40MB, Mega)
+TimeBomb1. (Tier 2, [Fire], 30MB) []
+TimeBomb2. (Tier 3, [Fire], 40MB) []
+TimeBomb3. (Tier 4, [Fire], 60MB, Mega) []
+TimeBombX. (Tier 5, [Fire], 70MB, Giga)
+HeatUppr1. (Tier 1, [Fire], 10MB) []
+HeatUppr2. (Tier 2, [Fire], 20MB) []
+HeatUppr3. (Tier 3, [Fire], 30MB) []
+HeatUpprX. (Tier 5, [Fire], 40MB, Mega)
+MechFlame1 (Tier 2, [Fire], 20MB) []
+MechFlame2 (Tier 3, [Fire], 30MB) []
+MechFlame3 (Tier 4, [Fire], 40MB) []
+MechFlameX (Tier 5, [Fire], 50MB, Mega)
+MadFire1.. (Tier 1, [Fire], 30MB) []
+MadFire2.. (Tier 2, [Fire], 40MB) []
+MadFire3.. (Tier 3, [Fire], 50MB) []
+MadFireX.. (Tier 5, [Fire], 60MB, Mega)
+DanceFire1 (Tier 3, [Fire], 10MB)
+DanceFire2 (Tier 3, [Fire], 20MB)
+DanceFire3 (Tier 4, [Fire], 40MB, Mega)
+DanceFireX (Tier 5, [Fire], 50MB, Giga)
+KiloBomb1. (Tier 3, [Fire], 20MB, Break)
+KiloBomb2. (Tier 3, [Fire], 30MB, Break)
+KiloBomb3. (Tier 4, [Fire], 40MB, Break)
+KiloBombX. (Tier 5, [Fire], 50MB, Break, Mega)
+WideWave1. (Tier 1, [Aqua], 10MB) []
+WideWave2. (Tier 2, [Aqua], 20MB) []
+WideWave3. (Tier 3, [Aqua], 30MB) []
+WideWaveX. (Tier 5, [Aqua], 40MB, Mega)
+BubblHook1 (Tier 1, [Aqua], 40MB) []
+BubblHook2 (Tier 2, [Aqua], 40MB) []
+BubblHook3 (Tier 3, [Aqua], 40MB) []
+BubblHookX (Tier 5, [Aqua], 60MB, Giga)
+SharkAtk1. (Tier 2, [Aqua], 20MB) []
+SharkAtk2. (Tier 3, [Aqua], 30MB) []
+SharkAtk3. (Tier 4, [Aqua], 40MB, Mega) []
+SharkAtkX. (Tier 5, [Aqua], 60MB, Giga)
+IceSpin1.. (Tier 1, [Aqua], 10MB, Break) []
+IceSpin2.. (Tier 2, [Aqua], 20MB, Break) []
+IceSpin3.. (Tier 3, [Aqua], 30MB, Break) []
+IceSpinX.. (Tier 5, [Aqua], 40MB, Break, Mega)
+SnoBall1.. (Tier 3, [Aqua], 30MB)
+SnoBall2.. (Tier 3, [Aqua], 40MB)
+SnoBall3.. (Tier 4, [Aqua], 50MB, Mega)
+SnoBallX.. (Tier 5, [Aqua], 60MB, Giga)
+PiranKss1. (Tier 3, [Aqua], 30MB)
+PiranKss2. (Tier 3, [Aqua], 40MB)
+PiranKss3. (Tier 4, [Aqua], 50MB, Mega)
+PiranKssX. (Tier 5, [Aqua], 60MB, Giga)
+StlthLzr1. (Tier 1, [Elec], 10MB) []
+StlthLzr2. (Tier 2, [Elec], 20MB) []
+StlthLzr3. (Tier 3, [Elec], 30MB) []
+StlthLzrX. (Tier 5, [Elec], 40MB, Mega)
+MummyHand1 (Tier 1, [Elec], 00MB) []
+MummyHand2 (Tier 2, [Elec], 10MB) []
+MummyHand3 (Tier 3, [Elec], 30MB) []
+MummyHandX (Tier 5, [Elec], 40MB, Mega)
+ThndrHead1 (Tier 2, [Elec], 30MB) []
+ThndrHead2 (Tier 3, [Elec], 40MB) []
+ThndrHead3 (Tier 4, [Elec], 50MB, Mega) []
+ThndrHeadX (Tier 5, [Elec], 70MB, Giga)
+FlashStrk1 (Tier 1, [Elec], 20MB) []
+FlashStrk2 (Tier 2, [Elec], 30MB) []
+FlashStrk3 (Tier 3, [Elec], 40MB) []
+FlashStrkX (Tier 5, [Elec], 70MB, Giga)
+Earthundr1 (Tier 3, [Elec], 40MB)
+Earthundr2 (Tier 4, [Elec], 50MB)
+Earthundr3 (Tier 4, [Elec], 60MB, Mega)
+EarthundrX (Tier 5, [Elec], 80MB, Giga)
+ArachAtk1. (Tier 2, [Wood], 10MB) []
+ArachAtk2. (Tier 3, [Wood], 30MB) []
+ArachAtk3. (Tier 4, [Wood], 50MB) []
+ArachAtkX. (Tier 5, [Wood], 70MB, Mega)
+Shuriken1. (Tier 1, [Wood], 10MB, Sharp) []
+Shuriken2. (Tier 2, [Wood], 20MB, Sharp) []
+Shuriken3. (Tier 3, [Wood], 30MB, Sharp) []
+ShurikenX. (Tier 5, [Wood], 40MB, Sharp, Mega)
+PollnShot1 (Tier 2, [Wood], 20MB) []
+PollnShot2 (Tier 3, [Wood], 30MB) []
+PollnShot3 (Tier 4, [Wood], 40MB, Mega) []
+PollnShotX (Tier 5, [Wood], 60MB, Giga)
+AcornBomb1 (Tier 1, [Wood], 10MB) []
+AcornBomb2 (Tier 2, [Wood], 20MB) []
+AcornBomb3 (Tier 3, [Wood], 30MB) []
+AcornBombX (Tier 5, [Wood], 70MB, Giga)
+Squall1... (Tier 3, [Wood], 40MB, Wind)
+Squall2... (Tier 3, [Wood], 50MB, Wind)
+Squall3... (Tier 4, [Wood], 60MB, Wind, Mega)
+SquallX... (Tier 5, [Wood], 70MB, Wind, Giga)
+VulcnSeed1 (Tier 3, [Wood], 30MB)
+VulcnSeed2 (Tier 3, [Wood], 30MB)
+VulcnSeed3 (Tier 4, [Wood], 40MB, Mega)
+VulcnSeedX (Tier 5, [Wood], 40MB, Giga)
+BeastSlap1 (Tier 2, [None], 20MB, Sharp)
+BeastSlap2 (Tier 3, [None], 30MB, Sharp)
+BeastSlap3 (Tier 4, [None], 40MB, Sharp, Mega)
+BeastSlapX (Tier 5, [None], 70MB, Sharp, Giga)
+SpinBlade1 (Tier 3, [None], 20MB, Sharp)
+SpinBlade2 (Tier 3, [None], 30MB, Sharp)
+SpinBlade3 (Tier 4, [None], 40MB, Sharp, Mega)
+SpinBladeX (Tier 5, [None], 50MB, Sharp, Giga)
+BlackHole1 (Tier 2, [None], 30MB) []
+BlackHole2 (Tier 3, [None], 40MB) []
+BlackHole3 (Tier 4, [None], 50MB, Mega) []
+BlackHoleX (Tier 5, [None], 70MB, Giga)
+JngleStorm (Tier 4, [Wood], 10MB, Wind, Mega)
+SnoStorm.. (Tier 4, [Aqua], 10MB, Wind, Mega)
+PoisnStorm (Tier 4, [None], 10MB, Wind, Mega)
+DblStone.. (Tier 2, [None], 10MB)
+Bombalizer (Tier 5, [None], 50MB, Giga)
+DivideLine (Tier 2, [None], 20MB)
+AreaEater. (Tier 1, [None], 00MB)
+DblEater.. (Tier 2, [None], 10MB)
+PanlFormat (Tier 2, [None], 20MB)
+PanicCloud (Tier 4, [None], 20MB, Mega)
+Recover10. (Tier 4, [None], 00MB)
+Recover30. (Tier 4, [None], 00MB)
+Recover50. (Tier 1, [None], 10MB)
+Recover80. (Tier 2, [None], 20MB)
+Recover120 (Tier 2, [None], 20MB)
+Recover150 (Tier 3, [None], 30MB)
+Recover200 (Tier 5, [None], 40MB, Mega)
+Recover300 (Tier 4, [None], 40MB, Mega)
+Barrier... (Tier 2, [None], 30MB)
+SprBarrier (Tier 4, [None], 40MB)
+Aura...... (Tier 4, [None], 40MB, Mega)
+Invisible. (Tier 4, [None], 30MB, Mega)
+MegaBoost. (Tier 3, [None], 10MB)
+QuickGauge (Tier 4, [None], 20MB, Mega)
+NormlGauge (Tier 4, [None], 20MB, Mega)
+SlowGauge. (Tier 4, [None], 20MB, Mega)
+WrriorSoul (Tier 5, [None], 20MB, Giga)
+Whistle... (Tier 3, [None], 20MB, Break, Wind)
+CardRevive (Tier 5, [None], 30MB, Giga)
+MegaCrushr (Tier 5, [None], 40MB, Giga)
+SpiritFury (Tier 4, [None], 50MB, Mega)
+AntiSword. (Tier 4, [None], 40MB, Sharp, Mega)
+PoisnApple (Tier 4, [None], 40MB, Mega)
+DoublCross (Tier 4, [None], 50MB, Giga)
+GigaMine.. (Tier 4, [None], 30MB, Giga)
+GrassStage (Tier 2, [Wood], 20MB)
+IceStage.. (Tier 2, [Aqua], 20MB)
+PrlyzeStg. (Tier 2, [Elec], 20MB)
+HolyPanel. (Tier 4, [None], 30MB)
+AtkPanel.. (Tier 2, [None], 10MB)
+AllPoison. (Tier 4, [None], 20MB)
+GravtyPlus (Tier 1, [None], 10MB)
+ParlyzPlus (Tier 1, [None], 10MB)
+Attack+10. (Tier 1, [None], 00MB)
+Fire+30... (Tier 4, [Fire], 10MB, Mega)
+Aqua+30... (Tier 4, [Aqua], 10MB, Mega)
+Elec+30... (Tier 4, [Elec], 10MB, Mega)
+Wood+30... (Tier 4, [Wood], 10MB, Mega)
+hack panel (Tier 4, [None], 20MB)
+MegaMan... (Tier 5, [None], Navi) []
+HarpNote.. (Tier 5, [None], Navi) []
+NoiseWzrd1 (Tier 5, [None], Navi) []
+NoiseWzrd2 (Tier 5, [None], Navi) []
+NoiseWzrd3 (Tier 5, [None], Navi) []
+NoiseWzrdX (Tier 5, [None], Navi) []
+MalWizard1 (Tier 5, [None], Navi) []
+MalWizard2 (Tier 5, [None], Navi) []
+MalWizard3 (Tier 5, [None], Navi) []
+MalWizardX (Tier 5, [None], Navi) []
+SpadMagnes (Tier 5, [Elec], Navi) []
+DiamondIce (Tier 5, [Aqua], Navi) []
+ClubStrong (Tier 5, [Wood], Navi) []
+QueenVirgo (Tier 5, [Aqua], Navi) []
+JackCorvus (Tier 5, [Fire], Navi) []
+DreadJoker (Tier 5, [None], Navi) []
+AcidAce... (Tier 5, [None], Navi) []
+TaurusFire (Tier 5, [Fire], Navi) []
+CygnusWing (Tier 5, [None], Navi) []
+WolfWoods. (Tier 5, [Wood], Navi) []
+DrkPhantom (Tier 5, [None], Navi) []
+Rogue..... (Tier 5, [None], Navi) []
+MoonDstroy (Tier 5, [None], Navi) []
+LibraScles (Tier 5, [None], Navi) []
+QnOphiuca. (Tier 5, [Wood], Navi) []
+GeminiSprk (Tier 5, [Elec], Navi) []
+CancerBubl (Tier 5, [Aqua], Navi) []
+CrownThndr (Tier 5, [Elec], Navi) []
+YetiBlizrd (Tier 5, [Aqua], Navi) []
+PlesioSurf (Tier 5, [Aqua], Navi) []
+TerraCondr (Tier 5, [Wood], Navi) []
+GenAuriga. (Tier 5, [None], Navi) []
+ApolloFlam (Tier 5, [Fire], Navi) []
+Sirius.... (Tier 5, [None], Navi) []
+RogueZZ... (Tier 5, [None], Navi) []
+RocktLnch1 (Tier 4, [Elec], 30MB, Break, Mega)
+RocktLnch2 (Tier 4, [Elec], 30MB, Break, Mega)
+RocktLnch3 (Tier 4, [Elec], 30MB, Break, Mega)
+RocktLnchX (Tier 5, [Elec], 50MB, Break, Giga)
+IceHammrB1 (Tier 4, [None], 40MB, Break, Mega)
+IceHammrB2 (Tier 4, [None], 40MB, Break, Mega)
+IceHammrB3 (Tier 4, [None], 40MB, Break, Mega)
+IceHammrBX (Tier 5, [None], 50MB, Break, Giga)
+StrngSwng1 (Tier 4, [Wood], 40MB, Break, Mega)
+StrngSwng2 (Tier 4, [Wood], 40MB, Break, Mega)
+StrngSwng3 (Tier 4, [Wood], 40MB, Break, Mega)
+StrngSwngX (Tier 5, [Wood], 70MB, Break, Giga)
+AcidArrest (Tier 5, [None], 10MB, Mega)
+WingBlade. (Tier 5, [None], 70MB, Break, Wind, Giga)
+DrknssHole (Tier 5, [None], 80MB, Giga)
+Millikick. (Tier 5, [None], 60MB, Giga)
+BrkTmeBmb. (Tier 5, [Fire], 70MB, Break, Giga)
+MuBarrier. (Tier 5, [None], 30MB, Giga)
+DreadLazer (Tier 5, [None], 60MB, Giga)
+DestrMissl (Tier 5, [None], 50MB, Giga)
+BusterMax. (Tier 5, [None], 30MB, Giga)
+OxTackle.. (Tier 5, [Fire], 80MB, Giga)
+MirrorsEdg (Tier 5, [None], 40MB, Giga)
+CrimsnMetr (Tier 5, [None], 80MB, Giga)
+PegasMgcGX (Tier 5, [Aqua], 50MB, Giga)
+LeoKingGX. (Tier 5, [Fire], 50MB, Giga)
+DragnSkyGX (Tier 5, [Wood], 50MB, Giga)
+GorgonEye. (Tier 5, [Wood], 40MB, Giga)
+GeminThndr (Tier 5, [Elec], 50MB, Giga)
+RogueBreak (Tier 5, [None], 40MB, Giga)
+Avalanche. (Tier 5, [Aqua], 50MB, Giga)
+FlyngImpct (Tier 5, [None], 60MB, Giga)
+TrrntWave. (Tier 5, [Aqua], 60MB, Giga)
+HolyLight. (Tier 5, [None], 50MB, Giga)
+WickdFlame (Tier 5, [Fire], 60MB, Giga)
+MteorLight (Tier 5, [None], 60MB, Giga)
+AtomBlazer (Tier 5, [Fire], 60MB, Giga)
+DynaWave.. (Tier 5, [Aqua], 50MB, Giga)
+TB Blade.. (Tier 5, [Elec], 50MB, Giga)
+ElemCycln. (Tier 5, [Wood], 70MB, Giga)
+BlkEndGlxy (Tier 5, [None], 80MB, Giga)
+RdGaiaErsr (Tier 5, [None], 80MB, Giga)
