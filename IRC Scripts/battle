@@ -437,9 +437,9 @@
                           if (%mmbca.battle.break) {
                             unset %mmbca.battle.break
                             set %mmbca.battle.target $eval(% $+ %mmbca.battle.defender $+ .navi)
-                            set $eval($eval(% $+ %mmbca.battle.defender $+ .box,2) $+ .curhp) 0
                             if ($read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .box,3) $+ .txt,25) != 3) || ($read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .box,3) $+ .txt,6) = 0) {
                               echo 13 -s Broke through guard! Deleted $eval($eval(% $+ %mmbca.battle.defender $+ .box,3))
+                              set $eval($eval(% $+ %mmbca.battle.defender $+ .box,2) $+ .curhp) 0
                               set $eval(% $+ %mmbca.battle.defender $+ .box,2) ........
                               set $eval(% $+ %mmbca.battle.defender $+ .box) 0
                             }
@@ -1873,6 +1873,8 @@
                         if ($read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .box,3) $+ .txt,25) != 3) || ($read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .box,3) $+ .txt,6) = 0) {
                           echo 13 -s Broke through guard! Deleted $eval($eval(% $+ %mmbca.battle.defender $+ .box,3))
                           set $eval(% $+ %mmbca.battle.defender $+ .box,2) $+ .curhp 0
+                          set $eval(% $+ %mmbca.battle.defender $+ .box,2) ........
+                          set $eval(% $+ %mmbca.battle.defender) $+ .box 0
                         }
                         else {
                           echo 13 -s Broke through guard! Removed $eval($eval(% $+ %mmbca.battle.defender $+ .box,3))
@@ -2323,7 +2325,7 @@
           if ($eval(% $+ %mmbca.battle.defender $+ .gauge,2) < 100) { inc $eval(% $+ %mmbca.battle.defender) $+ .gauge 5 }
           echo 9 -s [ $+ %mmbca.battle.p1.gauge $+ % $+ / $+ %mmbca.battle.p2.gauge $+ % $+ $chr(93) $eval(% $+ %mmbca.battle.attacker $+ .navi.name,2) $+ 's %mmbca.slotin.active.slot $+ !
           if ($read(battlechips\ $+ %mmbca.slotin.active.slot $+ .txt,34) !> 0) || ($read(battlechips\ $+ %mmbca.slotin.active.slot $+ .txt,34) <= $eval(% $+ %mmbca.battle.attacker $+ .empty,2)) {
-            if ($read(battlechips\ $+ %mmbca.slotin.active.slot $+ .txt,33) != 1) || ($eval(% $+ %mmbca.battle.attacker $+ .box,2)) {
+            if (($read(battlechips\ $+ %mmbca.slotin.active.slot $+ .txt,23) != 11) && ($read(battlechips\ $+ %mmbca.slotin.active.slot $+ .txt,33) != 1)) || ($eval(% $+ %mmbca.battle.attacker $+ .box,2)) || (($read(battlechips\ $+ %mmbca.slotin.active.slot $+ .txt,23) = 11) && ($eval(% $+ %mmbca.battle.defender $+ .box,2))) {
               ; echo 8 DEBUG: Passed ReqBox check
               if (%mmbca.battle.field != 6) || ($read(battlechips\ $+ %mmbca.slotin.active.slot $+ .txt,10) != 1) || (($read(battlechips\ $+ $eval($eval(% $+ %mmbca.battle.attacker $+ .box,3)) $+ .txt,31) = 1) && ($read(battlechips\ $+ %mmbca.slotin.active.slot $+ .txt,11) = 1)) {
                 ; echo 8 DEBUG: Passed NoHole check
@@ -2545,9 +2547,9 @@
                         if (%mmbca.battle.break) {
                           unset %mmbca.battle.break
                           set %mmbca.battle.target $eval(% $+ %mmbca.battle.defender $+ .navi)
-                          set $eval($eval(% $+ %mmbca.battle.defender $+ .box,2) $+ .curhp) 0
                           if ($read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .box,3) $+ .txt,25) != 3) || ($read(battlechips\ $+ $eval(% $+ %mmbca.battle.defender $+ .box,3) $+ .txt,6) = 0) {
                             echo 13 -s Broke through guard! Deleted $eval($eval(% $+ %mmbca.battle.defender $+ .box,3))
+                            set $eval($eval(% $+ %mmbca.battle.defender $+ .box,2) $+ .curhp) 0
                             set $eval(% $+ %mmbca.battle.defender $+ .box,2) ........
                             set $eval(% $+ %mmbca.battle.defender $+ .box) 0
                           }
@@ -2981,7 +2983,7 @@
       elseif (%mmbca.battle.global.chip = 2) && ((Bushido isin $eval(% $+ mmbca.battle.p1.slot $+ %mmbca.battle.p1.chip1,2)) || (Bushido isin $eval(% $+ mmbca.battle.p1.slot $+ %mmbca.battle.p1.chip3,2))) { set %mmbca.dmgcalc.bonus.stab $calc(%mmbca.dmgcalc.base * 0.6) }
       elseif (%mmbca.battle.global.chip = 3) && ((Bushido isin $eval(% $+ mmbca.battle.p1.slot $+ %mmbca.battle.p1.chip1,2)) || (Bushido isin $eval(% $+ mmbca.battle.p1.slot $+ %mmbca.battle.p1.chip2,2))) { set %mmbca.dmgcalc.bonus.stab $calc(%mmbca.dmgcalc.base * 0.6) }
     }
-    if ($read(%mmbca.dmgcalc.folder $+ chips\ $+ %mmbca.dmgcalc.source $+ .txt,23) = 4) {
+    if ($read(%mmbca.dmgcalc.folder $+ chips\ $+ %mmbca.dmgcalc.source $+ .txt,23) = 13) {
       if (%mmbca.battle.field = 6) { set %mmbca.dmgcalc.base $calc(%mmbca.dmgcalc.base *2) | set %mmbca.battle.field.prev %mmbca.battle.field | set %mmbca.battle.field 0 | echo 15 -s Stage: Basic }
       elseif (%mmbca.battle.field.prev = 6) { set %mmbca.dmgcalc.base $calc(%mmbca.dmgcalc.base *2) }
     }
@@ -3059,7 +3061,7 @@
       elseif (%mmbca.battle.global.chip = 2) && ((Bushido isin $eval(% $+ mmbca.battle.p2.slot $+ %mmbca.battle.p2.chip1,2)) || (Bushido isin $eval(% $+ mmbca.battle.p2.slot $+ %mmbca.battle.p2.chip3,2))) { set %mmbca.dmgcalc.bonus.stab $calc(%mmbca.dmgcalc.base *0.6) }
       elseif (%mmbca.battle.global.chip = 3) && ((Bushido isin $eval(% $+ mmbca.battle.p2.slot $+ %mmbca.battle.p2.chip1,2)) || (Bushido isin $eval(% $+ mmbca.battle.p2.slot $+ %mmbca.battle.p2.chip2,2))) { set %mmbca.dmgcalc.bonus.stab $calc(%mmbca.dmgcalc.base *0.6) }
     }
-    if ($read(%mmbca.dmgcalc.folder $+ chips\ $+ %mmbca.dmgcalc.source $+ .txt,23) = 4) {
+    if ($read(%mmbca.dmgcalc.folder $+ chips\ $+ %mmbca.dmgcalc.source $+ .txt,23) = 13) {
       if (%mmbca.battle.field = 6) { set %mmbca.dmgcalc.base $calc(%mmbca.dmgcalc.base *2) | set %mmbca.battle.field.prev %mmbca.battle.field | set %mmbca.battle.field 0 | echo 15 -s Stage: Basic }
       elseif (%mmbca.battle.field.prev = 6) { set %mmbca.dmgcalc.base $calc(%mmbca.dmgcalc.base *2) }
     }
